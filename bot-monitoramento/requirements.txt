@@ -1,0 +1,38 @@
+# --- Bibliotecas Principais ---
+
+# Manipulação de dados em tabelas
+pandas>=2.0.0
+
+# Parser de feeds RSS (Google Alerts, Google News, etc.)
+feedparser>=6.0.10
+
+# Extração de texto de notícias
+newspaper3k>=0.2.8
+
+# Dependência para limpeza de HTML
+lxml[html_clean]>=4.9.3
+beautifulsoup4
+
+# Playwright (opcional, se quiser rodar browser sem Selenium)
+playwright>=1.46.0
+
+# Gerenciador automático de drivers Selenium
+webdriver-manager>=4.0.1
+
+# Selenium (extração de URLs de Google News RSS)
+selenium>=4.22.0
+
+
+# --- LangChain (para integração estruturada com LLMs) ---
+langchain           # <--- ADICIONADO: Pacote core do LangChain
+langchain-community
+
+# --- Cliente da API Groq ---
+groq                # <--- ADICIONADO: Cliente da API Groq
+
+# --- Cliente HTTP ---
+httplib2>=0.22.0
+
+
+# --- Utilitários ---
+python-dotenv>=1.0.1
