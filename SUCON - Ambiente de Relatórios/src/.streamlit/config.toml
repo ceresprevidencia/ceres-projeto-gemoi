@@ -1,0 +1,11 @@
+[theme]
+# Deixe comentado para permitir que o usuário alterne entre claro e escuro
+# pelo menu do Streamlit (☰ → Settings → Choose app theme)
+# base = "light"
+
+# Cores personalizadas (opcional)
+primaryColor = "#0b2f13"
+secondaryColor = "#016837"
+backgroundColor = "#fafbeb"
+secondaryBackgroundColor = "#f0f2e6"
+textColor = "#0b2f13"
