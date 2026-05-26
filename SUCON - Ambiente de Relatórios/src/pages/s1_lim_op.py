@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 import zipfile
 from io import BytesIO
 from datetime import datetime
+import numpy as np
 
 #/* ============================================================================
 ## CARDS HTML
@@ -47,10 +48,10 @@ def gasto_card(titulo: str, gasto: float, limite: float):
     disponivel_fmt = fmt_br(disponivel, 2)
     
     st.markdown(f"""
-    <div class="gasto-card" style="background:{card_bg}; border-radius:16px; padding:20px 24px; margin-bottom:12px; font-family: 'Figtree', sans-serif;">
+    <div class="gasto-card" style="background:{card_bg}; border: 1px solid {color}; border-radius:16px; padding:20px 24px; margin-bottom:12px; font-family: 'Figtree', sans-serif;">
       <div class="gasto-card-header" style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:12px;">
         <div style="flex: 1; min-width: 0;">
-          <p class="gasto-card-titulo" style="color:{color}; font-size:20px; font-weight:500; margin:0 0 4px; word-break: break-word;">{titulo}</p>
+          <p class="gasto-card-titulo" style="background:#0b2f13; color:#a8ec7d; font-size:20px; font-weight:normal; word-break: break-word; display: inline-block; border-radius: 6px; padding: 1px 5px; margin: 0 -8px 8px;">{titulo}</p>
           <div style="display:flex; align-items:baseline; gap:6px; flex-wrap: wrap;">
             <span class="gasto-card-valor" style="font-size:30px; font-weight:400; color:{color}; white-space: nowrap;">
               R$ {gasto_fmt}
@@ -129,7 +130,7 @@ colunas = [
     "PRAZO_MAXIMO_APLICACAO",
     "CLASSIFICACAO_RISCO",
     "EXPOSICAO",
-    "ALOCAÇÃO 2026",
+    "FINANCEIRO_AQUISICAO",
     'LIMITE_ALOCACAO_2026'
 ]
 
@@ -199,6 +200,7 @@ container.write('Este relatório tem por objetivo estabelecer e monitorar limite
 
 
 #---------------------EXPORTAR PDF---------------------
+df_exibir = df_limites.copy()
 df_filtrado = data[data["DATA_COTACAO"].dt.date == st.session_state.data_selecionada].copy()
 df_filtrado = df_filtrado.drop(columns=["TESOURARIA"])
 
@@ -225,40 +227,25 @@ total_exposicao_ceres = data_temp.loc[condicao2, 'EXPOSICAO'].sum()
 df_filtrado['DATA_AQUISICAO'] = pd.to_datetime(df_filtrado['DATA_AQUISICAO'])
 
 df_filtrado['TIPO'] = df_filtrado['DATA_AQUISICAO'].apply(
-    lambda x: 'EXPOSIÇÃO 2026' if x >= pd.to_datetime('2026-01-01') else 'EXPOSICAO_ANTIGA'
+    lambda x: 'ALOCACAO_2026' if x >= pd.to_datetime('2026-01-01') else 'ALOCACAO_ANTIGA'
 )
 
-grp_emissor = df_filtrado.pivot_table(
-    index='EMISSOR', 
-    columns='TIPO', 
-    values=['EXPOSICAO', 'FINANCEIRO_AQUISICAO'],  
+df_filtrado['FINANCEIRO_AQUISICAO'] = np.where(
+    df_filtrado['TIPO'] == 'ALOCACAO_2026', 
+    df_filtrado['FINANCEIRO_AQUISICAO'], 
+    0  # Zera para o que for antigo
 )
-grp_emissor.columns = [f"{val}_{col}" for val, col in grp_emissor.columns]
-grp_emissor = grp_emissor.reset_index()
+
+grp_expo = df_filtrado.groupby('EMISSOR')['EXPOSICAO'].sum()
+grp_alocacao_2026 = df_filtrado.groupby('EMISSOR')['FINANCEIRO_AQUISICAO'].sum()
+
+df_exibir['EXPOSICAO'] = df_exibir['EXPOSICAO'].fillna(df_exibir['ID_MITRA'].map(grp_expo)).astype('float64')
+df_exibir['FINANCEIRO_AQUISICAO'] = df_exibir['ID_MITRA'].map(grp_alocacao_2026).fillna(0).astype('float64')
 
 
-st.dataframe(df_filtrado)  # Exibir o DataFrame filtrado para depuração
-st.dataframe(grp_emissor)  # Exibir o DataFrame para depuração
 
-grp_emissor = grp_emissor.fillna(0)
-grp_emissor.columns.name = None
 
-if 'ALOCAÇÃO 2026' not in grp_emissor.columns:
-    grp_emissor['EXPOSIÇÃO 2026'] = 0.0
-if 'EXPOSICAO_ANTIGA' not in grp_emissor.columns:
-    grp_emissor['EXPOSICAO_ANTIGA'] = 0.0
 
-grp_emissor['EXPOSICAO'] = grp_emissor['EXPOSICAO_ANTIGA'] + grp_emissor['EXPOSIÇÃO 2026']
-
-df_exibir = df_limites.copy()
-
-df_exibir['EXPOSICAO'] = df_exibir['EXPOSICAO'].fillna(
-    df_exibir['ID_MITRA'].map(grp_emissor.set_index('EMISSOR')['EXPOSICAO'])
-).astype('float64')
-
-df_exibir['EXPOSIÇÃO 2026'] = df_exibir['ID_MITRA'].map(
-    grp_emissor.set_index('EMISSOR')['EXPOSIÇÃO 2026']
-).fillna(0).astype('float64')
 
 # Preparar colunas de exibição para df_exibir (linhas principais)
 colunas_exibir_principal = ["ID_MITRA",
@@ -275,7 +262,8 @@ colunas_exibir_principal = ["ID_MITRA",
                             "EXPOSIÇÃO 2026",
                             "LIMITE_ALOCACAO_2026"]
 
-df_exibir['LIMITE_ALOCACAO_2026'] = df_exibir['LIMITE_ALOCACAO_2026'] - df_exibir['EXPOSIÇÃO 2026']
+df_exibir['LIMITE_ALOCACAO_2026'] = df_exibir['LIMITE_ALOCACAO_2026'] - df_exibir['FINANCEIRO_AQUISICAO']
+
 # Definir todas as colunas a exibir (sem ID_MITRA e INSTITUICAO_FINANCEIRA)
 colunas_exibir = ["PORTE_INSTITUICAO",
                     "INDICE_RISKBANK",
@@ -284,7 +272,6 @@ colunas_exibir = ["PORTE_INSTITUICAO",
                     "PRAZO_MAXIMO_APLICACAO",
                     "CLASSIFICACAO_RISCO",
                     "EXPOSICAO",
-                    "ALOCAÇÃO 2026",
                     "LIMITE_ALOCACAO_2026"]
 
 df_principal_exibir = df_exibir[["ID_MITRA", "INSTITUICAO_FINANCEIRA"] + colunas_exibir]
@@ -391,28 +378,23 @@ st.divider()
 #==================================================================
 total_exposicao_plano = float(df_filtrado['EXPOSICAO'].sum() or 0)
 total_exposicao_26_plano = float(df_filtrado[df_filtrado['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')]['EXPOSICAO'].sum() or 0)
-alocacao_plano_2026 = float(df_filtrado[df_filtrado['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')]['FINANCEIRO_AQUISICAO'].sum() or 0)
 
 
-col1, col2, col3 = st.columns([1,1,1])
+
+col1, col2 = st.columns([1,1])
 
 
 with col1:
     with st.container(border=True):
-        card_titulo('Exposição')
+        card_titulo('Posição')
         st.metric(label="Geral", value=f"R$ {fmt_br(total_exposicao_plano, 2)}")
 
 with col2:
     with st.container(border=True):
-        card_titulo('Exposição')
+        card_titulo('Posição')
         st.metric(label="2026", value=f"R$ {fmt_br(total_exposicao_26_plano, 2)}")
-with col3:
-    with st.container(border=True):
-        card_titulo('Alocação')
-        st.metric(label="2026", value=f"R$ {fmt_br(alocacao_plano_2026, 2)}")
-with st.container():
 
-    gasto_card("Alocação Ceres 2026", total_alocacao_ceres, total_alocacao_26)
+gasto_card("Alocação 2026", total_alocacao_ceres, total_alocacao_26)
 
 
 
@@ -464,7 +446,6 @@ grp_produto = df_filtrado.groupby(["EMISSOR", "PRODUTO", "DATA_AQUISICAO", "VENC
 grp_produto['Tx. Aquisição'] = grp_produto['INDEXADOR'].astype(str).str.cat(grp_produto['TAXA_AQUISICAO'].apply(lambda x: f"{x:.2f}%"), sep=" + ")
 grp_produto = grp_produto.sort_values("DATA_AQUISICAO", ascending=True)
 
-st.dataframe(grp_produto)
 
 # Preparar colunas para produtos
 colunas_produto = ["PRODUTO", "DATA_AQUISICAO", "VENCIMENTO", "Tx. Aquisição", "FINANCEIRO_AQUISICAO","EXPOSICAO"]
@@ -732,7 +713,8 @@ st.html(f"""
         text-align: center;
         font-family: 'Figtree', sans-serif;
         font-size: {tamanho_fonte_tabela};
-        font-style: italic;
+        font-style: normal;
+        font-weight: 80;
         border-right: 1px solid #eee;
         word-wrap: break-word;
         overflow-wrap: break-word;
@@ -886,11 +868,9 @@ for idx, row in df_principal_exibir.iterrows():
 
 # Calcular totais
 total_exposicao = df_principal_exibir['EXPOSICAO'].sum()
-total_alocacao_2026 = df_principal_exibir['ALOCAÇÃO 2026'].sum()
 
 # Formatar totais
 total_exposicao_fmt = fmt_br(total_exposicao, 2) if pd.notna(total_exposicao) else "—"
-total_alocacao_2026_fmt = fmt_br(total_alocacao_2026, 2) if pd.notna(total_alocacao_2026) else "—"
 
 # Adicionar linha de totais
 html += f"""
