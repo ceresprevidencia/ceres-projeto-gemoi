@@ -18,6 +18,7 @@ from reportlab.platypus import (
     Spacer,
     HRFlowable,
     Flowable,
+    Image,
 
 )
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_RIGHT
@@ -753,9 +754,10 @@ def gerar_pdf(df, plano_selecionado, data_posicao, regime):
 
 # ── EXPORTADOR LIMITES OPERACIONAIS ───────────────────────────────────────────
 def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_relatorio="Limites Operacionais - Instituições Financeiras",
-                                   total_alocacao_26=None, total_exposicao_ceres=None, total_exposicao_plano=None, total_alocacao_plano=None, total_alocacao_ceres=None, total_exposicao_26_plano=None):
+                                   total_alocacao_26=None, total_exposicao_ceres=None, total_exposicao_plano=None, total_alocacao_plano=None, total_alocacao_ceres=None, total_exposicao_26_plano=None,
+                                   df_risco=None, df_grafico=None):
     """
-    Gera PDF da tabela de Limites Operacionais.
+    Gera PDF da tabela de Limites Operacionais com tabela de risco e gráfico.
 
     Parâmetros
     ----------
@@ -769,7 +771,8 @@ def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_
     total_alocacao_plano : float — alocação 2026 do plano selecionado
     total_alocacao_ceres : float — alocação 2026 (Plano)
     total_exposicao_26_plano : float — exposição 2026 do plano selecionado
-    total_exposicao_26_plano : float — exposição 2026 do plano selecionado
+    df_risco : pd.DataFrame — tabela de risco (opcional)
+    df_grafico : pd.DataFrame — dados para gráfico (opcional)
 
     Retorna
     -------
@@ -853,56 +856,80 @@ def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_
     elements.append(HRFlowable(width="60%", thickness=0.4, color=VERDE_ESCURO))
     elements.append(Spacer(1, 4 * mm))
 
-    # ── Cabeçalho da tabela ──
-    headers = [
-        "Instituição", "Porte", "RiskBank", "Alerta", "Patrimônio R$", 
-        "Prazo Máximo", "Classificação", "Exposição R$", "Exposição 26 R$"
-    ]
-    
-    # Calcular largura das colunas dinamicamente
-    num_colunas = len(headers)
-    col_width = page_w / num_colunas
-    col_widths = [col_width] * num_colunas
+    # ── Tabela de Limites (não expandida) ──
+    headers_limits = ["Instituição", "Posição R$", "Posição 2026 R$", "Alocação 2026 R$", "Disp. Alocação"]
+    # Coluna 1 maior
+    col_widths_limits = [page_w * 0.34] + [page_w * 0.66 / (len(headers_limits) - 1)] * (len(headers_limits) - 1)
 
-    # Preparar dados da tabela
-    rows = []
+    rows_limits = []
     for _, row in df_limites.iterrows():
-        def safe_get(col, default="—"):
-            try:
-                val = row[col]
-                return val if pd.notna(val) else default
-            except:
-                return default
-        
-        rows.append([
-            _p(str(safe_get("INSTITUICAO_FINANCEIRA")), styles["TdCell"]),
-            _p(str(safe_get("PORTE_INSTITUICAO")), styles["TdCellCenter"]),
-            _p(_formatar_moeda_br(safe_get("INDICE_RISKBANK")), styles["TdCellCenter"]),
-            _p(str(safe_get("ALERTA")), styles["TdCellCenter"]),
-            _p(_formatar_moeda_br(safe_get("PATRIMONIO_LIQUIDO_R_MIL")), styles["TdCellCenter"]),
-            _p(str(safe_get("PRAZO_MAXIMO_APLICACAO")), styles["TdCellCenter"]),
-            _p(str(safe_get("CLASSIFICACAO_RISCO")), styles["TdCellCenter"]),
-            _p(_formatar_moeda_br(safe_get("EXPOSICAO")), styles["TdCellCenter"]),
-            _p(_formatar_moeda_br(safe_get("ALOCAÇÃO 2026")), styles["TdCellCenter"]),
+        rows_limits.append([
+            _p(str(row.get("INSTITUICAO_FINANCEIRA", "—")), styles["TdCell"]),
+            _p(_formatar_moeda_br(row.get("EXPOSICAO", "—")), styles["TdCellRight"]),
+            _p(_formatar_moeda_br(row.get("EXPOSICAO_2026", "—")), styles["TdCellRight"]),
+            _p(_formatar_moeda_br(row.get("FINANCEIRO_AQUISICAO", "—")), styles["TdCellRight"]),
+            _p(_formatar_moeda_br(row.get("LIMITE_ALOCACAO_2026", "—")), styles["TdCellRight"]),
         ])
 
-    # Construir e adicionar tabela
-    header_aligns = ["ThCell"] + ["ThCellCenter"] * (len(headers) - 1)
-    header_aligns[0] = "ThCell"  # Primeira coluna esquerda
-    col_aligns = ["LEFT"] + ["RIGHT"] * (len(headers) - 1)
-    
-    tabela = _construir_tabela(headers, rows, col_widths, set(), styles, header_aligns, col_aligns)
-    elements.append(tabela)
-    
-    # Adicionar legenda dos asteriscos
-    elements.append(Spacer(1, 2 * mm))
-    elementos_legenda = [
-    Paragraph(
-        "<b>*</b> Não elegível desde maio/2026.<br/><b>**</b> Não elegível desde maio/2025.", 
-        styles["RodaPe"]
-    ),
-]
-    elements.extend(elementos_legenda)
+    header_aligns_limits = ["ThCell"] + ["ThCellRight"] * (len(headers_limits) - 1)
+    col_aligns_limits = ["LEFT"] + ["RIGHT"] * (len(headers_limits) - 1)
+    tabela_limits = _construir_tabela(headers_limits, rows_limits, col_widths_limits, set(), styles, header_aligns_limits, col_aligns_limits)
+    elements.append(Paragraph("Limites Operacionais", styles["Subtitulo"]))
+    elements.append(Spacer(1, 1 * mm))
+    elements.append(tabela_limits)
+    elements.append(Spacer(1, 3 * mm))
+
+    # ── Tabela de Risco (se fornecida) ──
+    if df_risco is not None and not df_risco.empty:
+        headers_risco = list(df_risco.columns)
+        num_col_risco = len(headers_risco)
+        # Distribui colunas proporcionalmente, primeira coluna maior
+        col_widths_risco = [page_w * 0.34] + [page_w * 0.66 / (num_col_risco - 1)] * (num_col_risco - 1)
+        rows_risco = []
+        for _, r in df_risco.iterrows():
+            row_vals = []
+            for i, c in enumerate(headers_risco):
+                val = r.get(c, "—")
+                if isinstance(val, (int, float)) and not pd.isna(val):
+                    cell = _p(_formatar_moeda_br(val) if 'R$' in str(c) or 'Patrim' in str(c) or 'EXPOSI' in str(c).upper() else str(val), styles["TdCellRight"] if i>0 else styles["TdCell"])
+                else:
+                    cell = _p(str(val) if pd.notna(val) else "—", styles["TdCellRight"] if i>0 else styles["TdCell"])
+                row_vals.append(cell)
+            rows_risco.append(row_vals)
+
+        header_aligns_risco = ["ThCell"] + ["ThCellCenter"] * (num_col_risco - 1)
+        col_aligns_risco = ["LEFT"] + ["CENTER"] * (num_col_risco - 1)
+        tabela_risco = _construir_tabela(headers_risco, rows_risco, col_widths_risco, set(), styles, header_aligns_risco, col_aligns_risco)
+        elements.append(Paragraph("Informações de Risco", styles["Subtitulo"]))
+        elements.append(Spacer(1, 1 * mm))
+        elements.append(tabela_risco)
+        elements.append(Spacer(1, 3 * mm))
+
+    # ── Gráfico de Barras (se fornecido) ──
+    if df_grafico is not None and not df_grafico.empty:
+        try:
+            import matplotlib.pyplot as plt
+            fig_h = max(3, min(12, len(df_grafico) * 0.3))
+            fig, ax = plt.subplots(figsize=(10, fig_h))
+            y = df_grafico["INSTITUICAO_FINANCEIRA"] if "INSTITUICAO_FINANCEIRA" in df_grafico.columns else df_grafico.iloc[:,1]
+            x = df_grafico["EXPOSICAO"] if "EXPOSICAO" in df_grafico.columns else df_grafico.iloc[:,0]
+            ax.barh(y, x, color="#0B2F13")
+            ax.set_title("Exposição por Emissor")
+            ax.set_xlabel("")
+            ax.set_ylabel("")
+            ax.xaxis.set_major_formatter(lambda v, pos: _formatar_moeda_br(v))
+            plt.tight_layout()
+            img_buf = BytesIO()
+            fig.savefig(img_buf, format="PNG", dpi=150)
+            plt.close(fig)
+            img_buf.seek(0)
+            elements.append(Paragraph("Gráfico de Exposição", styles["Subtitulo"]))
+            elements.append(Spacer(1, 2 * mm))
+            elements.append(Image(img_buf, width=page_w * 0.9, height=fig_h * cm))
+            elements.append(Spacer(1, 3 * mm))
+        except Exception:
+            # Falha silenciosa se matplotlib não estiver disponível
+            pass
 
     doc.build(elements, onFirstPage=_fundo_pagina, onLaterPages=_fundo_pagina)
     buf.seek(0)

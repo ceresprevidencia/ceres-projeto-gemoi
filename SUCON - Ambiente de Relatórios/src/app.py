@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
-from utils.load_css import load_global_css
-
+from utils.helpers import get_css_global
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -12,7 +11,8 @@ st.set_page_config(
 )
 
 # ── FONTE GLOBAL ──────────────────────────────────────────────────────────────
-load_global_css()
+get_css_global = get_css_global()
+st.markdown(get_css_global, unsafe_allow_html=True)
 
 # ── LOGO ──────────────────────────────────────────────────────────────────────
 img_path = "images\\logo_escuro.png"

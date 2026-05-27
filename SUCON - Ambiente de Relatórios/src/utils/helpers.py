@@ -51,6 +51,75 @@ def estilizar_tabela(styled):
         ]},
     ]).hide(axis='index')
 
+def get_css_global():
+    """
+    CSS GLOBAL - Estrutura base do site
+    Use no início de cada página.
+    """
+    return """
+    <style>
+        /* ============================================================================
+           FONT IMPORTS
+           ============================================================================ */
+        @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+
+        /* ============================================================================
+           GLOBAL STYLES
+           ============================================================================ */
+        html, body, [data-testid="stMarkdownContainer"] p, .stText, label {
+            font-family: 'Figtree', sans-serif !important;
+        }
+
+
+        /* ============================================================================
+           RESPONSIVE - TABLETS (≤ 1200px)
+           ============================================================================ */
+        @media (max-width: 1200px) {
+            .th-custom div, .col-custom {
+                padding: 10px;
+                font-size: 13px;
+                min-height: 38px;
+            }
+
+            .col-custom:first-child {
+                padding-left: 15px;
+            }
+        }
+
+        /* ============================================================================
+           RESPONSIVE - MOBILE (≤ 768px)
+           ============================================================================ */
+        @media (max-width: 768px) {
+            .th-custom div, .col-custom {
+                padding: 8px;
+                font-size: 11px;
+                min-height: 35px;
+            }
+
+            .col-custom:first-child {
+                padding-left: 10px;
+            }
+        }
+
+        /* ============================================================================
+           RESPONSIVE - SMALL MOBILE (≤ 480px)
+           ============================================================================ */
+        @media (max-width: 480px) {
+            .th-custom div, .col-custom {
+                padding: 6px;
+                font-size: 9px;
+                min-height: 32px;
+            }
+
+            .col-custom:first-child {
+                padding-left: 6px;
+            }
+        }
+    </style>
+    """
+
+
+
 def get_css_responsivo():
     """Retorna o CSS responsivo para tabelas."""
     return """
@@ -175,4 +244,134 @@ def nome_plano(valor_original):
     return NOMES_PLANOS.get(chave, chave)
 
 
+def gerar_tabela_estilizada(df, nomes_colunas=None, primeira_coluna_larga=True):
+    import pandas as pd
 
+    if nomes_colunas is None:
+        nomes_colunas = {col: col for col in df.columns}
+
+    num_colunas = len(df.columns)
+    primeira = "2fr" if primeira_coluna_larga else "1fr"
+    resto = " ".join(["1fr"] * (num_colunas - 1))
+    grid = f"{primeira} {resto}" if num_colunas > 1 else "1fr"
+
+    css = """
+    <style>
+        /* ========== CONTAINER EXTERNO DA TABELA ========== */
+        .tabela-custom-wrapper {
+            overflow: hidden;      /* Remove scrollbar da borda */
+            width: 100%;           /* Ocupa toda a largura disponível */
+            border-radius: 10px;   /* Arredonda as pontas (visualmente não aparece) */
+        }
+        
+        /* ========== CABEÇALHO (HEADER) ========== */
+        .th-custom {
+            background-color: #0B2F13;  /* Cor de fundo verde escuro */
+            color: #A8EC7D;             /* Cor do texto verde claro */
+            display: grid;              /* Layout em grid para alinhar colunas */
+            align-items: center;        /* Centraliza verticalmente */
+            flex-shrink: 0;             /* Não diminui de tamanho */
+            padding-left: 12px;         /* Espaço à esquerda do cabeçalho */
+        }
+        
+        /* CÉLULAS DO CABEÇALHO (cada coluna) */
+        .th-custom div {
+            padding: 12px;                        /* Espaço interno das células */
+            text-align: center;                   /* Centraliza texto horizontalmente */
+            font-family: 'Figtree', sans-serif;   /* Fonte customizada */
+            font-size: 14px;                      /* Tamanho da letra */
+            word-wrap: break-word;                /* Quebra palavras longas */
+            overflow-wrap: break-word;           /* Alternativa para quebra de palavras */
+            word-break: break-word;               /* Quebra no meio da palavra se necessário */
+            display: flex;                        /* Layout flexível */
+            align-items: center;                  /* Centraliza verticalmente */
+            justify-content: center;              /* Centraliza horizontalmente */
+            min-height: 43px;                     /* Altura mínima da célula */
+        }
+        
+        /* PRIMEIRA COLUNA DO CABEÇALHO */
+        .th-custom div:first-child {
+            justify-content: flex-start;  /* Alinha à esquerda */
+            padding-left: 20px;           /* Espaço maior à esquerda */
+        }
+        
+        /* ========== LINHAS DE DADOS ========== */
+        .row-custom {
+            display: grid;                           /* Layout em grid para alinhar colunas */
+            align-items: center;                     /* Centraliza verticalmente */
+            background-color: transparent;          /* Sem cor de fundo */
+            transition: background-color 0.15s ease;/* Transição suave ao hover */
+            padding-left: 15px;
+            
+        }
+        
+        /* EFEITO HOVER (quando passa mouse em uma linha) */
+        .row-custom:hover {
+            background-color: rgba(11, 47, 19, 0.04);  /* Cor verde muito suave (quase branco) */
+        }
+        
+        /* ÚLTIMA LINHA (com borda verde escuro) */
+        .row-custom:last-child {
+            border-bottom: 14px solid #0B2F13;  /* Borda verde escuro proporcional à tabela */
+        }
+        
+        /* ========== CÉLULAS DE DADOS ========== */
+        .col-custom {
+            padding: 10px 14px;                       /* Espaço interno: 10px acima/abaixo, 14px esquerda/direita */
+            font-family: 'Figtree', sans-serif;       /* Fonte customizada */
+            font-size: 13px;                          /* Tamanho da letra */
+            display: flex;                            /* Layout flexível */
+            align-items: center;                      /* Centraliza verticalmente */
+            justify-content: center;                  /* Centraliza horizontalmente */
+            min-height: 42px;                         /* Altura mínima */
+            word-break: break-word;                   /* Quebra palavras longas */
+        }
+        
+        /* PRIMEIRA COLUNA DE DADOS */
+        .col-custom:first-child {
+            justify-content: flex-start;  /* Alinha à esquerda */
+            padding-left: 20px;           /* Espaço maior à esquerda */
+            font-weight: normal;          /* Peso normal (não negrito) */
+        }
+        
+        /* ========== RESPONSIVIDADE - TELAS PEQUENAS (768px ou menos) ========== */
+        @media (max-width: 768px) {
+            .th-custom div, .col-custom {
+                font-size: 11px;          /* Fonte menor em telas pequenas */
+                padding: 8px;             /* Padding menor */
+                min-height: 35px;         /* Altura menor */
+            }
+            .th-custom div:first-child, .col-custom:first-child {
+                padding-left: 10px;       /* Padding menor na primeira coluna */
+            }
+        }
+    </style>
+    """
+
+    html = css
+    html += '<div class="tabela-custom-wrapper">'
+
+    # Cabeçalho
+    html += f'<div class="th-custom" style="grid-template-columns:{grid};">'
+    for col in df.columns:
+        html += f'<div>{nomes_colunas.get(col, col)}</div>'
+    html += '</div>'
+
+    # Linhas
+    for _, row in df.iterrows():
+        html += f'<div class="row-custom" style="grid-template-columns:{grid};">'
+        for col in df.columns:
+            valor = row[col]
+            if isinstance(valor, (int, float)) and not pd.isna(valor):
+                col_lower = col.lower()
+                if 'r$' in col_lower or '%' in col_lower:
+                    valor_fmt = fmt_br(valor, 2)
+                else:
+                    valor_fmt = f"{valor:.2f}"
+            else:
+                valor_fmt = str(valor) if pd.notna(valor) else "—"
+            html += f'<div class="col-custom">{valor_fmt}</div>'
+        html += '</div>'
+
+    html += '</div>'
+    return html

@@ -1,9 +1,8 @@
 import streamlit as st
 import pandas as pd
-from utils.helpers import aplicar_destaque, estilizar_tabela, get_css_responsivo, nome_plano, fmt_br
+from utils.helpers import nome_plano, fmt_br, gerar_tabela_estilizada
 from utils.queries.lim_operacionais import buscar_dados 
 from utils.gerar_pdf import gerar_pdf_limites_operacionais
-from utils.load_css import load_global_css
 import plotly.graph_objects as go
 import zipfile
 from io import BytesIO
@@ -91,8 +90,6 @@ def load_data():
 
 data = load_data()
 
-# Carregar CSS global
-load_global_css()
 
 # SESSION_STATE PADRÃO
 if "data_selecionada" not in st.session_state:
@@ -103,40 +100,63 @@ if "data_selecionada" not in st.session_state:
 ## TABELA COM INFOS DA IFS
 #   ============================================================================ */
 
-dados = [
-    ["BANCO ABC BRASIL S.A.", "ABC BRASIL", "Médio Porte", 11.02, None, 6604060.00, "Até 5 anos", "BRLP 3", None, None,100000000.00],
-    ["BANCO VOTORANTIM S.A.", "BANCO BV", "Grande Porte", 9.77, None, 13397130.00, "Até 5 anos", "BRLP 3", None, None,100000000.00],
-    ["BANCO SOFISA SA", "SOFISA", "Médio Porte", 9.19, None, 1144639.00, "Até 3 anos", "BRMP 1", None, None,100000000.00],
-    ["BANCO COOPEREATIVO SICREDI S.A.", "SICREDI", "Grande Porte", 11.35, None, 5462089.00, "Até 5 anos", "BRLP 3", None, None,100000000.00],
-    ["Banco Cooperativo do Brasil S.A.", "BANCO SICOOB", "Grande Porte", 11.25, None, 5505854.00, "Até 5 anos", "BRLP 3", None, None,100000000.00],
-    ["BANCO BTG PACTUAL S.A.", "BTG PACTUAL", "Grande Porte", 10.68, None, 69335302.00, "Até 5 anos", "BRLP 3", None, None,100000000.00],
-    ["BANCO DAYCOVAL S/A", "DAYCOVAL", "Médio Porte", 10.44, None, 7666905.00, "Até 5 anos", "BRLP 3", None, None,100000000.00],
-    ["ITAU UNIBANCO S.A.", "ITAÚ UNIBANCO", "Grande Porte", 11.17, None, 209552000.00, "Até 10 anos", "BRLP 1", None, None,100000000.00],
-    ["BANCO MERCANTIL DO BRASIL SA", "MERCANTIL", "Médio Porte", 10.07, None, 2106362.00, "Até 3 anos", "BRMP 1", None, None,100000000.00],
-    ["Banco Safra S.A.", "SAFRA", "Grande Porte", 11.25, None, 19777134.00, "Até 5 anos", "BRLP 3", None, None,100000000.00],
-    ["BANCO SANTANDER (BRASIL) S.A.", "SANTANDER (BRASIL)", "Grande Porte", 9.91, None, 94089614.00, "Até 10 anos", "BRLP 1", None, None,100000000.00],
-    ["BANCO BRADESCO SA", "BRADESCO (*)", "Médio Porte", 9.19, "CI", 1144639.00, "Até 3 anos", "BRMP 1", None, None,None],
-    ["PARANA BANCO S/A", "PARANA BANCO (*)", "Médio Porte", 9.19, "A", 1144639.00, "Até 3 anos", "BRMP 1", None, None,None],
-    ["BANCO PAN S.A.", "PAN (**)", "Médio Porte", 9.19, None, 1144639.00, "Até 3 anos", "BRMP 1", None, None, None]
+dados_limites = [
+    ["BANCO ABC BRASIL S.A.", "ABC BRASIL", None, None, None,100000000.00],
+    ["BANCO VOTORANTIM S.A.", "BANCO BV", None, None, None,100000000.00],
+    ["BANCO SOFISA SA", "SOFISA",None, None, None,100000000.00],
+    ["BANCO COOPEREATIVO SICREDI S.A.", "SICREDI",None, None, None,100000000.00],
+    ["Banco Cooperativo do Brasil S.A.", "BANCO SICOOB",None, None, None,100000000.00],
+    ["BANCO BTG PACTUAL S.A.", "BTG PACTUAL",None, None, None,100000000.00],
+    ["BANCO DAYCOVAL S/A", "DAYCOVAL", None, None, None,100000000.00],
+    ["ITAU UNIBANCO S.A.", "ITAÚ UNIBANCO", None,None, None,100000000.00],
+    ["BANCO MERCANTIL DO BRASIL SA", "MERCANTIL", None, None, None,100000000.00],
+    ["Banco Safra S.A.", "SAFRA", None,None, None,100000000.00],
+    ["BANCO SANTANDER (BRASIL) S.A.","SANTANDER (BRASIL)", None, None,None,100000000.00],
+    ["BANCO BRADESCO SA", "BRADESCO (*)", None,None, None,None],
+    ["PARANA BANCO S/A", "PARANA BANCO (*)", None,None, None,None],
+    ["BANCO PAN S.A.", "PAN (**)", None, None,None, None]
+]
+
+dados_risco = [
+    ["ABC BRASIL", "Médio Porte", 11.02, None, 6604060.00, "Até 5 anos", "BRLP 3"],
+    ["BANCO BV", "Grande Porte", 9.77, None, 13397130.00, "Até 5 anos", "BRLP 3"],
+    ["SOFISA", "Médio Porte", 9.19, None, 1144639.00, "Até 3 anos", "BRMP 1"],
+    ["SICREDI", "Grande Porte", 11.35, None, 5462089.00, "Até 5 anos", "BRLP 3",],
+    ["BANCO SICOOB", "Grande Porte", 11.25, None, 5505854.00, "Até 5 anos", "BRLP 3"],
+    ["BTG PACTUAL", "Grande Porte", 10.68, None, 69335302.00, "Até 5 anos", "BRLP 3"],
+    ["DAYCOVAL", "Médio Porte", 10.44, None, 7666905.00, "Até 5 anos", "BRLP 3"],
+    ["ITAÚ UNIBANCO", "Grande Porte", 11.17, None, 209552000.00, "Até 10 anos", "BRLP 1"],
+    ["MERCANTIL", "Médio Porte", 10.07, None, 2106362.00, "Até 3 anos", "BRMP 1"],
+    ["SAFRA", "Grande Porte", 11.25, None, 19777134.00, "Até 5 anos", "BRLP 3"],
+    ["SANTANDER (BRASIL)", "Grande Porte", 9.91, None, 94089614.00, "Até 10 anos", "BRLP 1"],
+    ["BRADESCO (*)", "Médio Porte", 9.19, "CI", 1144639.00, "Até 3 anos", "BRMP 1"],
+    ["PARANA BANCO (*)", "Médio Porte", 9.19, "A", 1144639.00, "Até 3 anos", "BRMP 1"],
+    ["PAN (**)", "Médio Porte", 9.19, None, 1144639.00, "Até 3 anos", "BRMP 1"]
 ]
 # 2. Cabeçalhos padronizados e limpos para o seu sistema
-colunas = [
+colunas_limites = [
     "ID_MITRA",
     "INSTITUICAO_FINANCEIRA",
-    "PORTE_INSTITUICAO",
-    "INDICE_RISKBANK",
-    "ALERTA",
-    "PATRIMONIO_LIQUIDO_R_MIL",
-    "PRAZO_MAXIMO_APLICACAO",
-    "CLASSIFICACAO_RISCO",
     "EXPOSICAO",
+    "EXPOSICAO_2026",
     "FINANCEIRO_AQUISICAO",
     'LIMITE_ALOCACAO_2026'
 ]
 
-# 3. Criação do DataFrame
-df_limites = pd.DataFrame(data=dados, columns=colunas)
+colunas_risco = [
+    "Instituição Financeira",
+    "Porte da Instituição",
+    "Índice RiskBank",
+    "Alerta",
+    "Patrimônio Líquido (R$ Mil)",
+    "Prazo Máximo de Aplicação",
+    "Classificação de Risco",
+ 
+]
 
+# 3. Criação do DataFrame
+df_limites = pd.DataFrame(data=dados_limites, columns=colunas_limites)
+df_risco = pd.DataFrame(data=dados_risco, columns=colunas_risco)
 
 #/* ============================================================================
 #---------------------CABEÇALHO E DATA---------------------
@@ -201,6 +221,7 @@ container.write('Este relatório tem por objetivo estabelecer e monitorar limite
 
 #---------------------EXPORTAR PDF---------------------
 df_exibir = df_limites.copy()
+
 df_filtrado = data[data["DATA_COTACAO"].dt.date == st.session_state.data_selecionada].copy()
 df_filtrado = df_filtrado.drop(columns=["TESOURARIA"])
 
@@ -230,52 +251,39 @@ df_filtrado['TIPO'] = df_filtrado['DATA_AQUISICAO'].apply(
     lambda x: 'ALOCACAO_2026' if x >= pd.to_datetime('2026-01-01') else 'ALOCACAO_ANTIGA'
 )
 
-df_filtrado['FINANCEIRO_AQUISICAO'] = np.where(
+df_filtrado['FINANCEIRO_AQUISICAO_2026'] = np.where(
     df_filtrado['TIPO'] == 'ALOCACAO_2026', 
-    df_filtrado['FINANCEIRO_AQUISICAO'], 
-    0  # Zera para o que for antigo
+    df_filtrado['FINANCEIRO_AQUISICAO'],
+    0
+    
 )
 
-grp_expo = df_filtrado.groupby('EMISSOR')['EXPOSICAO'].sum()
-grp_alocacao_2026 = df_filtrado.groupby('EMISSOR')['FINANCEIRO_AQUISICAO'].sum()
+df_filtrado["EXPOSICAO_2026"] = np.where(
+    df_filtrado['TIPO'] == 'ALOCACAO_2026', 
+    df_filtrado['EXPOSICAO'],
+    0
+    
+)
 
+
+grp_expo = df_filtrado.groupby('EMISSOR')['EXPOSICAO'].sum()
+grp_expo_26 = df_filtrado.groupby('EMISSOR')['EXPOSICAO_2026'].sum()
+grp_alocacao_2026 = df_filtrado.groupby('EMISSOR')['FINANCEIRO_AQUISICAO_2026'].sum()
+
+
+df_exibir['EXPOSICAO_2026'] = df_exibir['EXPOSICAO_2026'].fillna(df_exibir['ID_MITRA'].map(grp_expo_26)).astype('float64')
 df_exibir['EXPOSICAO'] = df_exibir['EXPOSICAO'].fillna(df_exibir['ID_MITRA'].map(grp_expo)).astype('float64')
 df_exibir['FINANCEIRO_AQUISICAO'] = df_exibir['ID_MITRA'].map(grp_alocacao_2026).fillna(0).astype('float64')
 
 
 
 
-
-
-# Preparar colunas de exibição para df_exibir (linhas principais)
-colunas_exibir_principal = ["ID_MITRA",
-                            "INSTITUICAO_FINANCEIRA",
-                            "PORTE_INSTITUICAO",
-                            "INDICE_RISKBANK",
-                            "ALERTA",
-                            "PATRIMONIO_LIQUIDO_R_MIL",
-                            "PRAZO_MAXIMO_APLICACAO",
-                            "CLASSIFICACAO_RISCO",
-                            "INDEXADOR",
-                            "TAXA_AQUISICAO",
-                            "EXPOSICAO",
-                            "EXPOSIÇÃO 2026",
-                            "LIMITE_ALOCACAO_2026"]
-
 df_exibir['LIMITE_ALOCACAO_2026'] = df_exibir['LIMITE_ALOCACAO_2026'] - df_exibir['FINANCEIRO_AQUISICAO']
 
 # Definir todas as colunas a exibir (sem ID_MITRA e INSTITUICAO_FINANCEIRA)
-colunas_exibir = ["PORTE_INSTITUICAO",
-                    "INDICE_RISKBANK",
-                    "ALERTA",
-                    "PATRIMONIO_LIQUIDO_R_MIL",
-                    "PRAZO_MAXIMO_APLICACAO",
-                    "CLASSIFICACAO_RISCO",
-                    "EXPOSICAO",
-                    "LIMITE_ALOCACAO_2026"]
+colunas_exibir = ["EXPOSICAO", "EXPOSICAO_2026", "FINANCEIRO_AQUISICAO","LIMITE_ALOCACAO_2026"]
 
 df_principal_exibir = df_exibir[["ID_MITRA", "INSTITUICAO_FINANCEIRA"] + colunas_exibir]
-
 
 
 # ===============================================================================
@@ -327,12 +335,6 @@ with col3:
             # Selecionar apenas colunas necessárias para o PDF
             colunas_exibir_principal_unico = ["ID_MITRA",
                                     "INSTITUICAO_FINANCEIRA",
-                                    "PORTE_INSTITUICAO",
-                                    "INDICE_RISKBANK",
-                                    "ALERTA",
-                                    "PATRIMONIO_LIQUIDO_R_MIL",
-                                    "PRAZO_MAXIMO_APLICACAO",
-                                    "CLASSIFICACAO_RISCO",
                                     "EXPOSICAO",
                                     "ALOCAÇÃO 2026",
                                     "LIMITE_ALOCACAO_2026"]
@@ -348,6 +350,7 @@ with col3:
         total_exp_26_plano_pdf = df_plano_temp[df_plano_temp['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')]['EXPOSICAO'].sum() if len(df_plano_temp) > 0 else 0
         
         # Gerar PDF com dados do plano específico
+        df_grafico_pdf = df_principal_exibir_unico[df_principal_exibir_unico["EXPOSICAO"] > 0] if not df_principal_exibir_unico.empty else pd.DataFrame()
         pdf_bytes = gerar_pdf_limites_operacionais(
             df_principal_exibir_unico,
             plano_nome=plano_nome,
@@ -358,7 +361,9 @@ with col3:
             total_exposicao_ceres=total_exposicao_ceres,
             total_exposicao_plano=total_exp_plano_pdf,
             total_alocacao_plano=total_aloc_plano_pdf,
-            total_exposicao_26_plano=total_exp_26_plano_pdf
+            total_exposicao_26_plano=total_exp_26_plano_pdf,
+            df_risco=df_risco,
+            df_grafico=df_grafico_pdf
         )
         
         st.download_button(
@@ -428,17 +433,13 @@ grp_emissor['EXPOSICAO'] = grp_emissor['EXPOSICAO_ANTIGA'] + grp_emissor['ALOCA�
 
 
 
+
 df_exibir = df_limites.copy()
 
-df_exibir['EXPOSICAO'] = df_exibir['EXPOSICAO'].fillna(
-    df_exibir['ID_MITRA'].map(grp_emissor.set_index('EMISSOR')['EXPOSICAO'])
+df_exibir['EXPOSICAO'] = df_exibir['EXPOSICAO'].fillna(df_exibir['ID_MITRA'].map(grp_emissor.set_index('EMISSOR')['EXPOSICAO'])
 ).astype('float64')
 
-df_exibir['ALOCAÇÃO 2026'] = df_exibir['ID_MITRA'].map(
-    grp_emissor.set_index('EMISSOR')['ALOCAÇÃO 2026']
-).fillna(0).astype('float64')
-
-
+df_exibir['ALOCAÇÃO 2026'] = df_exibir['ID_MITRA'].map(grp_emissor.set_index('EMISSOR')['ALOCAÇÃO 2026']).fillna(0).astype('float64')
 
 # Agrupar produtos por EMISSOR
 grp_produto = df_filtrado.groupby(["EMISSOR", "PRODUTO", "DATA_AQUISICAO", "VENCIMENTO"]).agg({'FINANCEIRO_AQUISICAO': 'sum', 'EXPOSICAO': 'sum', 'TAXA_AQUISICAO': 'mean', 'INDEXADOR': lambda x: x.mode()[0]}).reset_index()
@@ -450,441 +451,428 @@ grp_produto = grp_produto.sort_values("DATA_AQUISICAO", ascending=True)
 # Preparar colunas para produtos
 colunas_produto = ["PRODUTO", "DATA_AQUISICAO", "VENCIMENTO", "Tx. Aquisição", "FINANCEIRO_AQUISICAO","EXPOSICAO"]
 
-#-------------------------Tabela Expansível em HTML puro-------------------------
 
-# Calcular largura das colunas dinamicamente
-num_colunas = len(colunas_exibir)
-grid_template = " ".join([f"1fr" for _ in range(num_colunas)])
 
-# Grid template para produtos com coluna Produto aumentada (3fr em vez de 2fr)
-grid_template_produtos_completo = "3fr 1fr 1fr 1fr 1fr 1fr"  # Produto mais avançada
 
-# ========== TAMANHO DA FONTE DA TABELA ==========
-tamanho_fonte_tabela = "14px"  # Mude aqui para alterar o tamanho em toda a tabela
-# ===============================================
 
-st.html(f"""
-<style>
-    .tabela-full {{ 
-        width: 100%; 
-        border: none; 
-        font-family: 'Figtree', sans-serif; 
-        font-size: {tamanho_fonte_tabela}; 
-        border-collapse: separate;
-        border-spacing: 0;
-        border-radius: 10px;
-        overflow: auto;
-        background-color: transparent;
-        min-width: 0;
+tab1, tab2 = st.tabs(["Limites Operacionais", "Informações de Risco"])
+with tab1:
+    # ======================================================================
+    #-------------------------TABELA EXPANSÍVELHTML-------------------------
+    # ======================================================================
+
+    # Calcular largura das colunas dinamicamente
+    num_colunas = len(colunas_exibir)
+    grid_template = " ".join([f"1fr" for _ in range(num_colunas)])
+
+    # Grid template para produtos com coluna Produto aumentada (3fr em vez de 2fr)
+    grid_template_produtos_completo = "3fr 1fr 1fr 1fr 1fr 1fr"  # Produto mais avançada
+
+    # ========== TAMANHO DA FONTE DA TABELA ==========
+    tamanho_fonte_tabela = "14px"  
+    # ===============================================
+
+    st.html(f"""
+    <style>
+        .tabela-full {{ 
+            width: 100%; 
+            border: none; 
+            font-family: 'Figtree', sans-serif; 
+            font-size: {tamanho_fonte_tabela}; 
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 10px;
+            overflow: auto;
+            background-color: transparent;
+            min-width: 0;
+            
+        }}
         
-    }}
-    
-    /* MEDIA QUERY PARA TELAS PEQUENAS */
-    @media (max-width: 768px) {{
-        .tabela-full {{
-            font-size: 11px;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
+        /* MEDIA QUERY PARA TELAS PEQUENAS */
+        @media (max-width: 768px) {{
+            .tabela-full {{
+                font-size: 11px;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }}
         }}
-    }}
-    
-    /* CABEÇALHO VERDE */
-    .th-master {{ 
-        background-color: #0B2F13; 
-        color: #A8EC7D; 
-        display: grid; 
-        grid-template-columns: 2fr {grid_template}; 
-        flex-shrink: 0;
-        align-items: center;
-        padding-left: 20px;
-    }}
-    .th-master div {{ 
-        padding: 12px; 
-        text-align: center;
-        font-family: 'Figtree', sans-serif;
-        font-size: {tamanho_fonte_tabela};
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 40px;
-    }}
-    .th-master div:first-child {{ 
-        border-top-left-radius: 10px;
-        text-align: left;
-        justify-content: flex-start;
-    }}
-    .th-master div:last-child {{ 
-        border-top-right-radius: 10px;
-    }}
-    
-    @media (max-width: 768px) {{
-        .th-master div {{
-            padding: 8px;
-            font-size: 11px;
-            min-height: 35px;
+        
+        /* CABEÇALHO VERDE */
+        .th-master {{ 
+            background-color: #0B2F13; 
+            color: #A8EC7D; 
+            display: grid; 
+            grid-template-columns: 2fr {grid_template}; 
+            flex-shrink: 0;
+            align-items: center;
+            padding-left: 20px;
         }}
-    }}
-
-    /* LINHA DE TOTAIS */
-    .th-totais {{ 
-        background-color: #0B2F13; 
-        color: #A8EC7D; 
-        display: grid; 
-        grid-template-columns: 2fr {grid_template}; 
-        margin-top: 10px;
-        flex-shrink: 0;
-        align-items: center;
-    }}
-    .th-totais div {{ 
-        padding: 12px; 
-        text-align: center;
-        font-family: 'Figtree', sans-serif;
-        font-size: {tamanho_fonte_tabela};
-        font-weight: bold;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 40px;
-    }}
-    .th-totais div:first-child {{ 
-        text-align: left;
-        justify-content: flex-start;
-    }}
-    
-    @media (max-width: 768px) {{
-        .th-totais div {{
-            padding: 8px;
-            font-size: 11px;
-            min-height: 35px;
+        .th-master div {{ 
+            padding: 12px; 
+            text-align: center;
+            font-family: 'Figtree', sans-serif;
+            font-size: {tamanho_fonte_tabela};
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40px;
         }}
-    }}
-
-    /* ESTRUTURA GERAL */
-    details {{ width: 100%; }}
-    details[open] {{ margin-bottom: 15px; }}
-    summary {{ list-style: none; cursor: pointer; align-items: center; }}
-    summary::-webkit-details-marker {{ display: none; }}
-    .col-val {{ 
-        text-align: center; 
-        padding: 10px; 
-        height: 100%;
-        font-family: 'Figtree', sans-serif;
-        font-size: {tamanho_fonte_tabela};
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 40px;
-    }}
-    
-    @media (max-width: 768px) {{
-        .col-val {{
-            padding: 6px;
-            font-size: 11px;
-            min-height: 35px;
+        .th-master div:first-child {{ 
+            border-top-left-radius: 10px;
+            text-align: left;
+            justify-content: flex-start;
         }}
-    }}
-
-    /* ÍCONES E ALINHAMENTO */
-    .label-box {{ 
-        display: flex; 
-        align-items: center; 
-        padding-left: 10px;
-        font-family: 'Figtree', sans-serif;
-        font-size: 13px;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        min-height: 40px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }}
-    
-    @media (max-width: 768px) {{
-        .label-box {{
-            padding-left: 5px;
-            font-size: 11px;
-            min-height: 35px;
+        .th-master div:last-child {{ 
+            border-top-right-radius: 10px;
         }}
-    }}
-    
-    .icon {{ 
-        width: 25px; 
-        text-align: center; 
-        font-family: monospace; 
-        font-weight: bold; 
-        margin-right: 5px;
-        flex-shrink: 0;
-    }}
+        
+        @media (max-width: 768px) {{
+            .th-master div {{
+                padding: 8px;
+                font-size: 11px;
+                min-height: 35px;
+            }}
+        }}
 
-    /* INSTITUIÇÃO: ÍCONE + - apenas quando tem produtos */
-    .row-inst {{ 
-        background-color: transparent; 
-        transition: background-color 0.2s ease;
-        align-items: center;
-    }}
-    .row-inst:hover {{
-        background-color: rgba(1, 104, 55, 0.05);
-    }}
-    details[open] > summary.row-inst {{
-        background-color: rgba(1, 104, 55, 0.05);
-    }}
-    .row-inst.com-produtos .icon::before {{ content: '+'; color: #016837; }}
-    details[open] > .row-inst.com-produtos .icon::before {{ content: '−'; }}
-    
-    /* INSTITUIÇÃO SEM PRODUTOS: sem ícone */
-    .row-inst.sem-produtos {{ 
-        background-color: transparent; 
-        cursor: pointer;
-        transition: background-color 0.2s ease;
-        align-items: center;
-    }}
-    .row-inst.sem-produtos:hover {{
-        background-color: rgba(1, 104, 55, 0.05);
-    }}
+        /* LINHA DE TOTAIS */
+        .th-totais {{ 
+            background-color: #0B2F13; 
+            color: #A8EC7D; 
+            display: grid; 
+            grid-template-columns: 2fr {grid_template}; 
+            margin-top: 10px;
+            flex-shrink: 0;
+            align-items: center;
+        }}
+        .th-totais div {{ 
+            padding: 12px; 
+            text-align: center;
+            font-family: 'Figtree', sans-serif;
+            font-size: {tamanho_fonte_tabela};
+            font-weight: bold;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40px;
+        }}
+        .th-totais div:first-child {{ 
+            text-align: left;
+            justify-content: flex-start;
+        }}
+        
+        @media (max-width: 768px) {{
+            .th-totais div {{
+                padding: 8px;
+                font-size: 11px;
+                min-height: 35px;
+            }}
+        }}
 
-    /* CABEÇALHO PRODUTOS */
-    .th-produtos {{ 
-        background-color: #FBFCEC; 
-        display: grid; 
-        grid-template-columns: {grid_template_produtos_completo}; 
-        margin-left: 0px; 
-        margin-right: 0px;
-        margin-top: 5px;
-        border-bottom: 1px solid #ddd;
-        align-items: center;
-    }}
-    .th-produtos div {{ 
-        padding: 10px; 
-        text-align: center;
-        font-family: 'Source Serif Pro', serif;
-        font-size: {tamanho_fonte_tabela};
-        font-style: italic;   
-        font-weight: bold;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 35px;
-    }}
-    .th-produtos div:first-child {{ 
-        text-align: left;
-        justify-content: flex-start;
-        padding-left: 40px;
-    }}
-    .th-produtos div:last-child {{ border-right: none; }}
-    
-    @media (max-width: 768px) {{
-        .th-produtos {{
-            margin-left: 0px;
+        /* ESTRUTURA GERAL */
+        details {{ width: 100%; }}
+        details[open] {{ margin-bottom: 15px; }}
+        summary {{ list-style: none; cursor: pointer; align-items: center; }}
+        summary::-webkit-details-marker {{ display: none; }}
+        .col-val {{ 
+            text-align: center; 
+            padding: 10px; 
+            height: 100%;
+            font-family: 'Figtree', sans-serif;
+            font-size: {tamanho_fonte_tabela};
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 40px;
+           
+        }}
+        
+        @media (max-width: 768px) {{
+            .col-val {{
+                padding: 6px;
+                font-size: 11px;
+                min-height: 35px;
+            }}
+        }}
+
+        /* ÍCONES E ALINHAMENTO */
+        .label-box {{ 
+            display: flex; 
+            align-items: center; 
+            padding-left: 10px;
+            font-family: 'Figtree', sans-serif;
+            font-size: 13px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            min-height: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }}
+        
+        @media (max-width: 768px) {{
+            .label-box {{
+                padding-left: 5px;
+                font-size: 11px;
+                min-height: 35px;
+            }}
+        }}
+        
+        .icon {{ 
+            width: 25px; 
+            text-align: center; 
+            font-family: monospace; 
+            font-weight: bold; 
+            margin-right: 5px;
+            flex-shrink: 0;
+        }}
+
+        /* INSTITUIÇÃO: ÍCONE + - apenas quando tem produtos */
+        .row-inst {{ 
+            background-color: transparent; 
+            transition: background-color 0.2s ease;
+            align-items: center;
+        }}
+        .row-inst:hover {{
+            background-color: rgba(1, 104, 55, 0.05);
+        }}
+        details[open] > summary.row-inst {{
+            background-color: rgba(1, 104, 55, 0.05);
+        }}
+        .row-inst.com-produtos .icon::before {{ content: '+'; color: #016837; }}
+        details[open] > .row-inst.com-produtos .icon::before {{ content: '−'; }}
+        
+        /* INSTITUIÇÃO SEM PRODUTOS: sem ícone */
+        .row-inst.sem-produtos {{ 
+            background-color: transparent; 
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            align-items: center;
+        }}
+        .row-inst.sem-produtos:hover {{
+            background-color: rgba(1, 104, 55, 0.05);
+        }}
+        
+        /* ÚLTIMA INSTITUIÇÃO: borda verde escuro */
+        .row-inst.sem-produtos:last-child,
+        details:last-child > summary {{
+            border-bottom: 14px solid #0B2F13;
+        }}
+
+        /* CABEÇALHO PRODUTOS */
+        .th-produtos {{ 
+            background-color: #FBFCEC; 
+            display: grid; 
+            grid-template-columns: {grid_template_produtos_completo}; 
+            margin-left: 0px; 
             margin-right: 0px;
+            margin-top: 5px;
+            border-bottom: 1px solid #ddd;
+            align-items: center;
         }}
-        .th-produtos div {{
-            padding: 6px;
-            font-size: 11px;
-            min-height: 30px;
+        .th-produtos div {{ 
+            padding: 10px; 
+            text-align: center;
+            font-family: 'Source Serif Pro', serif;
+            font-size: {tamanho_fonte_tabela};
+            font-style: italic;   
+            font-weight: bold;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 35px;
         }}
-    }}
-
-    /* PRODUTO */
-    .row-prod {{ 
-        background-color: transparent; 
-        display: grid; 
-        grid-template-columns: {grid_template_produtos_completo}; 
-        margin-left: 0px; 
-        margin-right: 0px; 
-        margin-top: 1px;
-        transition: background-color 0.2s ease;
-        border-bottom: 1px solid #eee;
-        align-items: center;
-    }}
-    .row-prod div {{ 
-        padding: 8px; 
-        text-align: center;
-        font-family: 'Figtree', sans-serif;
-        font-size: {tamanho_fonte_tabela};
-        font-style: normal;
-        font-weight: 80;
-        border-right: 1px solid #eee;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 35px;
-    }}
-    .row-prod div:last-child {{ border-right: none; }}
-    .row-prod div:first-child {{ 
-        text-align: left;
-        justify-content: flex-start;
-        padding-left: 40px;
-    }}
-    .row-prod:hover {{
-        background-color: rgba(1, 104, 55, 0.03);
-    }}
-    
-    @media (max-width: 768px) {{
-        .row-prod {{
-            margin-left: 0px;
-            margin-right: 0px;
+        .th-produtos div:first-child {{ 
+            text-align: left;
+            justify-content: flex-start;
+            padding-left: 40px;
         }}
-        .row-prod div {{
-            padding: 5px;
-            font-size: 12px;
-            min-height: 30px;
+        .th-produtos div:last-child {{ border-right: none; }}
+        
+        @media (max-width: 768px) {{
+            .th-produtos {{
+                margin-left: 0px;
+                margin-right: 0px;
+            }}
+            .th-produtos div {{
+                padding: 6px;
+                font-size: 11px;
+                min-height: 30px;
+            }}
         }}
-    }}
-</style>
-""")
 
-# Mapping de nomes de colunas para exibição
-nome_colunas_exibir = {
-    "PORTE_INSTITUICAO": "Porte",
-    "INDICE_RISKBANK": "RiskBank",
-    "ALERTA": "Alerta",
-    "PATRIMONIO_LIQUIDO_R_MIL": "Patrimônio R$",
-    "EXPOSICAO": "Posição R$",
-    "ALOCAÇÃO 2026": "Posição 26 R$",
-    "LIMITE_ALOCACAO_2026": "Disp. Alocação",
-    "PRAZO_MAXIMO_APLICACAO": "Prazo Máximo",
-    "CLASSIFICACAO_RISCO": "Classificação"
-}
+        /* PRODUTO */
+        .row-prod {{ 
+            background-color: transparent; 
+            display: grid; 
+            grid-template-columns: {grid_template_produtos_completo}; 
+            margin-left: 0px; 
+            margin-right: 0px; 
+            margin-top: 1px;
+            transition: background-color 0.2s ease;
+            border-bottom: 1px solid #eee;
+            align-items: center;
+        }}
+        .row-prod div {{ 
+            padding: 8px; 
+            text-align: center;
+            font-family: 'Figtree', sans-serif;
+            font-size: {tamanho_fonte_tabela};
+            font-style: normal;
+            font-weight: 80;
+            border-right: 1px solid #eee;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 35px;
+        }}
+        .row-prod div:last-child {{ border-right: none; }}
+        .row-prod div:first-child {{ 
+            text-align: left;
+            justify-content: flex-start;
+            padding-left: 40px;
+        }}
+        .row-prod:hover {{
+            background-color: rgba(1, 104, 55, 0.03);
+        }}
+        
+        @media (max-width: 768px) {{
+            .row-prod {{
+                margin-left: 0px;
+                margin-right: 0px;
+            }}
+            .row-prod div {{
+                padding: 5px;
+                font-size: 12px;
+                min-height: 30px;
+            }}
+        }}
+    </style>
+    """)
 
-# Montagem do HTML
+    # Mapping de nomes de colunas para exibição
+    nome_colunas_exibir = {
+        "EXPOSICAO": "Posição R$",
+        "EXPOSICAO_2026": "Posição 2026 R$",
+        "FINANCEIRO_AQUISICAO": "Alocação 2026 R$",
+        "LIMITE_ALOCACAO_2026": "Disp. Alocação",
+        
+    }
 
-
-st.markdown(
-    '<h3 style="'
-    'font-family: \'Figtree\', \'Source Serif Pro\', serif; '
-    'font-size: 14PX; '
-    'font-weight: 400; '
-    'margin-top: 20px; ' 
-    'margin-bottom: 0px;' 
-    '"> '
-    'Limites Operacionais por Instituição Financeira'
-    '</h3>', 
-    unsafe_allow_html=True
-)
-html = '<div class="tabela-full"><div class="th-master"><div>Instituição</div>'
-for col in colunas_exibir:
-    html += f'<div>{nome_colunas_exibir.get(col, col)}</div>'
-html += '</div>'
-
-for idx, row in df_principal_exibir.iterrows():
-    id_mitra = row['ID_MITRA']
-    
-    # Filtrar produtos para esta instituição
-    produtos_instituicao = grp_produto[grp_produto['EMISSOR'] == id_mitra]
-    tem_produtos = len(produtos_instituicao) > 0
-    
-    # NÍVEL 1: INSTITUIÇÃO
-    if tem_produtos:
-        # Com produtos: usar <details> expansível com ícone +
-        html += f"""
-    <details>
-        <summary class="row-inst com-produtos" style="display: grid; grid-template-columns: 2fr {grid_template}; align-items: center;">
-            <div class="label-box"><span class="icon"></span> {row['INSTITUICAO_FINANCEIRA']}</div>"""
-    else:
-        # Sem produtos: apenas mostrar com classe sem-produtos
-        html += f"""
-    <div class="row-inst sem-produtos" style="display: grid; grid-template-columns: 2fr {grid_template}; align-items: center;">
-        <div class="label-box"><span style="width: 25px;"></span> {row['INSTITUICAO_FINANCEIRA']}</div>"""
-    
-    # Adicionar valores de todas as colunas
+    # Montagem do HTML
+    html = '<div class="tabela-full"><div class="th-master"><div>Instituição</div>'
     for col in colunas_exibir:
-        valor = row[col]
-        if col == "PATRIMONIO_LIQUIDO_R_MIL" and pd.notna(valor):
-            valor_fmt = fmt_br(valor, 2)
-        elif col == "INDICE_RISKBANK" and pd.notna(valor):
-            valor_fmt = fmt_br(valor, 2)
-        elif col == "EXPOSICAO" and pd.notna(valor):
-            valor_fmt = f"<strong>{fmt_br(valor, 2)}</strong>"
-        elif col == "ALOCAÇÃO 2026" and pd.notna(valor):
-            valor_fmt = f"<strong>{fmt_br(valor, 2)}</strong>"
-        elif col == "LIMITE_ALOCACAO_2026" and pd.notna(valor):
-            valor_fmt = f"<strong>{fmt_br(valor, 2)}</strong>"
-        elif pd.notna(valor) :
-            valor_fmt = str(valor)
-        else:
-            valor_fmt = "—"
-        html += f'<div class="col-val">{valor_fmt}</div>'
-    
-    if tem_produtos:
-        html += """</summary>"""
-    else:
-        html += """</div>"""
-    
-    if tem_produtos:
-        # Cabeçalho de produtos - COM GRID ESPECÍFICO DE 6 COLUNAS
-        html += f"""<div class="th-produtos"><div>Produto</div><div>Aquisição</div><div>Vencimento</div><div>Tx. Aquisição</div><div>Fin. Aquisição</div><div>Posição</div></div>"""
+        html += f'<div>{nome_colunas_exibir.get(col, col)}</div>'
+    html += '</div>'
+
+    for idx, row in df_principal_exibir.iterrows():
+        id_mitra = row['ID_MITRA']
         
-        for _, prod in produtos_instituicao.iterrows():
-            # Converter Timestamp para DATA_AQUISICAO
-            aquisicao = prod['DATA_AQUISICAO']
-            if pd.notna(aquisicao):
-                if hasattr(aquisicao, 'strftime'):
-                    aquisicao_str = aquisicao.strftime('%d/%m/%Y')
-                else:
-                    aquisicao_str = str(aquisicao)
-            else:
-                aquisicao_str = '—'
-            
-            # Converter Timestamp para string de vencimento
-            vencimento = prod['VENCIMENTO']
-            if pd.notna(vencimento):
-                if hasattr(vencimento, 'strftime'):
-                    vencimento_str = vencimento.strftime('%d/%m/%Y')
-                else:
-                    vencimento_str = str(vencimento)
-            else:
-                vencimento_str = '—'
-            
-            exposicao_fmt = fmt_br(prod['EXPOSICAO'], 2) if pd.notna(prod['EXPOSICAO']) else "—"
-            financeiro_aquisicao_fmt = fmt_br(prod['FINANCEIRO_AQUISICAO'], 2) if pd.notna(prod['FINANCEIRO_AQUISICAO']) else "—"
-            
-            # NÍVEL 2: PRODUTO - COM GRID ESPECÍFICO DE 6 COLUNAS
+        # Filtrar produtos para esta instituição
+        produtos_instituicao = grp_produto[grp_produto['EMISSOR'] == id_mitra]
+        tem_produtos = len(produtos_instituicao) > 0
+        
+        # NÍVEL 1: INSTITUIÇÃO
+        if tem_produtos:
+            # Com produtos: usar <details> expansível com ícone +
             html += f"""
-            <div class="row-prod">
-                <div>{prod['PRODUTO']}</div>
-                <div>{aquisicao_str}</div>
-                <div>{vencimento_str}</div>
-                <div><strong>{prod['Tx. Aquisição']}</strong></div>
-                <div><strong>{financeiro_aquisicao_fmt}</strong></div>
-                <div><strong>{exposicao_fmt}</strong></div>
-            </div>"""
+        <details>
+            <summary class="row-inst com-produtos" style="display: grid; grid-template-columns: 2fr {grid_template}; align-items: center;">
+                <div class="label-box"><span class="icon"></span> {row['INSTITUICAO_FINANCEIRA']}</div>"""
+        else:
+            # Sem produtos: apenas mostrar com classe sem-produtos
+            html += f"""
+        <div class="row-inst sem-produtos" style="display: grid; grid-template-columns: 2fr {grid_template}; align-items: center;">
+            <div class="label-box"><span style="width: 25px;"></span> {row['INSTITUICAO_FINANCEIRA']}</div>"""
         
-        html += "</details>" # Fecha Instituição
+        # Adicionar valores de todas as colunas
+        for col in colunas_exibir:
+            valor = row[col]
+            if col == "EXPOSICAO" and pd.notna(valor):
+                valor_fmt = f"{fmt_br(valor, 2)}"
+            elif col == "EXPOSICAO_2026" and pd.notna(valor):
+                valor_fmt = f"{fmt_br(valor, 2)}"
+            elif col == "FINANCEIRO_AQUISICAO" and pd.notna(valor):
+                valor_fmt = f"{fmt_br(valor, 2)}"
+            elif col == "LIMITE_ALOCACAO_2026" and pd.notna(valor):
+                valor_fmt = f"<strong>{fmt_br(valor, 2)}</strong>"
+            elif pd.notna(valor) :
+                valor_fmt = str(valor)
+            else:
+                valor_fmt = "—"
+            html += f'<div class="col-val">{valor_fmt}</div>'
+        
+        if tem_produtos:
+            html += """</summary>"""
+        else:
+            html += """</div>"""
+        
+        if tem_produtos:
+            # Cabeçalho de produtos - COM GRID ESPECÍFICO DE 6 COLUNAS
+            html += f"""<div class="th-produtos"><div>Produto</div><div>Aquisição</div><div>Vencimento</div><div>Tx. Aquisição</div><div>Fin. Aquisição</div><div>Posição</div></div>"""
+            
+            for _, prod in produtos_instituicao.iterrows():
+                # Converter Timestamp para DATA_AQUISICAO
+                aquisicao = prod['DATA_AQUISICAO']
+                if pd.notna(aquisicao):
+                    if hasattr(aquisicao, 'strftime'):
+                        aquisicao_str = aquisicao.strftime('%d/%m/%Y')
+                    else:
+                        aquisicao_str = str(aquisicao)
+                else:
+                    aquisicao_str = '—'
+                
+                # Converter Timestamp para string de vencimento
+                vencimento = prod['VENCIMENTO']
+                if pd.notna(vencimento):
+                    if hasattr(vencimento, 'strftime'):
+                        vencimento_str = vencimento.strftime('%d/%m/%Y')
+                    else:
+                        vencimento_str = str(vencimento)
+                else:
+                    vencimento_str = '—'
+                
+                exposicao_fmt = fmt_br(prod['EXPOSICAO'], 2) if pd.notna(prod['EXPOSICAO']) else "—"
+                financeiro_aquisicao_fmt = fmt_br(prod['FINANCEIRO_AQUISICAO'], 2) if pd.notna(prod['FINANCEIRO_AQUISICAO']) else "—"
+                
+                # NÍVEL 2: PRODUTO - COM GRID ESPECÍFICO DE 6 COLUNAS
+                html += f"""
+                <div class="row-prod">
+                    <div>{prod['PRODUTO']}</div>
+                    <div>{aquisicao_str}</div>
+                    <div>{vencimento_str}</div>
+                    <div><strong>{prod['Tx. Aquisição']}</strong></div>
+                    <div><strong>{financeiro_aquisicao_fmt}</strong></div>
+                    <div><strong>{exposicao_fmt}</strong></div>
+                </div>"""
+            
+            html += "</details>" # Fecha Instituição
 
-# Calcular totais
-total_exposicao = df_principal_exibir['EXPOSICAO'].sum()
+    html += "</div>"
+    st.html(html)
 
-# Formatar totais
-total_exposicao_fmt = fmt_br(total_exposicao, 2) if pd.notna(total_exposicao) else "—"
-
-# Adicionar linha de totais
-html += f"""
-    <div class="th-totais" style="grid-template-columns: 2fr {grid_template};">
-        <div></div>"""
-
-html += """</div>"""
-
-html += "</div>"
-st.html(html)
+    
+    
+with tab2:
+    # Mapeamento de nomes de colunas para exibição melhorada    
+    html_tabela_risco = gerar_tabela_estilizada(df_risco)
+    st.html(html_tabela_risco)
 
 st.markdown('<p style="font-family: \'Source Serif Pro\', serif; font-style: italic; margin-left: 20px;">(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>', unsafe_allow_html=True)
-
-
 #------------------------ANALÍTICO--------------------------------
 
 st.divider()
@@ -918,8 +906,7 @@ with col1:
         )
     ))
 
-    # --- NOVO: Margem extra de segurança para o maior valor não sumir ---
-    # Pegamos o maior valor e adicionamos 15% de espaço em branco no final do gráfico
+
     max_exposicao = df_grafico["EXPOSICAO"].max() if not df_grafico.empty else 100
     limite_eixo_x = max_exposicao * 1.15
 
@@ -948,13 +935,10 @@ with col1:
             showline=False,      
             showgrid=False,      
             showticklabels=True,
-            # Se mesmo assim algum nome gigante cortar, o Plotly tenta não abreviar:
             automargin=True 
         ),
 
         # --- AJUSTE DE MARGENS ---
-        # l=180 dá um espaço fixo excelente para nomes longos de bancos na esquerda
-        # r=100 é mais do que suficiente agora que o eixo X já tem folga mecânica
         margin=dict(r=100, t=50, b=50, l=180), 
         plot_bgcolor='rgba(0,0,0,0)'
     )
