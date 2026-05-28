@@ -16,9 +16,9 @@ get_css_global = get_css_global()
 st.markdown(get_css_global, unsafe_allow_html=True)
 
 # ── LOGO ──────────────────────────────────────────────────────────────────────
-img_path = "images\\logo_escuro.png"
+img_path = os.path.join("images", "logo_escuro.png")
 try:
-    img_path = os.path.join("images", "logo_escuro.png")
+    
     img = Image.open(img_path)
     st.logo(image=img)
 except FileNotFoundError:
