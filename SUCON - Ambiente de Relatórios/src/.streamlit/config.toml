@@ -9,3 +9,14 @@ secondaryColor = "#016837"
 backgroundColor = "#fafbeb"
 secondaryBackgroundColor = "#f0f2e6"
 textColor = "#0b2f13"
+
+# --- ADICIONE AS LINHAS ABAIXO ---
+
+[ui]
+# Garante que as opções do menu superior não fiquem ocultas
+hideTopBarConfig = false
+
+[development]
+# Ativa os recursos de desenvolvimento no menu de 3 pontos
+# (Isso ajuda a forçar o "Clear cache" a aparecer lá)
+clearCacheOnRerun = false
