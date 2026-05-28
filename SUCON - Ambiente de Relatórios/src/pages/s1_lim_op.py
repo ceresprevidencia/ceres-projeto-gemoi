@@ -90,12 +90,6 @@ def load_data():
 
 data = load_data()
 
-if st.button("🔄 Atualizar Banco de Dados"):
-    # Limpa apenas o cache da função load_data
-    load_data.clear()
-    st.success("Cache limpo! Buscando novos dados...")
-    # Força o Streamlit a recarregar a página já executando a função direto no banco
-    st.rerun()
 # SESSION_STATE PADRÃO
 if "data_selecionada" not in st.session_state:
     st.session_state.data_selecionada = data['DATA_COTACAO'].max().date()
