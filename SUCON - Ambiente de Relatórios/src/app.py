@@ -16,7 +16,7 @@ get_css_global = get_css_global()
 st.markdown(get_css_global, unsafe_allow_html=True)
 
 # ── LOGO ──────────────────────────────────────────────────────────────────────
-img_path = os.path.join("images", "logo_escuro.png")
+img_path = os.path.join("..","images", "logo_escuro.png")
 try:
     
     img = Image.open(img_path)
