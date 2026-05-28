@@ -26,10 +26,10 @@ def buscar_dados() -> pd.DataFrame:
         ON RME.COD_REL_APURACAO_FORM = RAF.COD_REL_APURACAO_FORM
     INNER JOIN REL_APURACAO RA 
         ON RAF.COD_REL_APURACAO = RA.CODIGO
-    WHERE RA.NOME LIKE '[CERES] LIMITES OPERACIONAIS IFS#%' 
+    WHERE RA.NOME LIKE '[SUCON] LIMITES OPERACIONAIS - IFS%' 
     AND RME.NIVEL_AGREGACAO = 'Analítico'
     AND RME.EMISSOR IN (
-                      'BANCO ABD BRASIL S.A.',
+                      'BANCO ABC BRASIL S.A.',
                       'BANCO VOTORANTIM S.A.',
                       'BANCO COOPEREATIVO SICREDI S.A.',
                       'BANCO BTG PACTUAL S.A.',

@@ -225,27 +225,29 @@ df_exibir = df_limites.copy()
 df_filtrado = data[data["DATA_COTACAO"].dt.date == st.session_state.data_selecionada].copy()
 df_filtrado = df_filtrado.drop(columns=["TESOURARIA"])
 
-
 # Calcular totais para exportação
 data_temp = data.copy()
+
 total_alocacao_26 = 100000000
 
 condicao = (
-    (data_temp["TESOURARIA"] == '[CERES TOTAL]') & 
     (data_temp["DATA_AQUISICAO"] >= pd.to_datetime('2026-01-01')) & 
     (data_temp["DATA_COTACAO"] == pd.to_datetime(st.session_state.data_selecionada))
 )
 
 condicao2 = (
-    (data_temp["TESOURARIA"] == '[CERES TOTAL]') & 
     (data_temp["DATA_COTACAO"] == pd.to_datetime(st.session_state.data_selecionada))
 )
 
-total_alocacao_ceres = data_temp.loc[condicao, 'FINANCEIRO_AQUISICAO'].sum()
-total_exposicao_ceres = data_temp.loc[condicao2, 'EXPOSICAO'].sum()
+total_alocacao = data_temp.loc[condicao, 'FINANCEIRO_AQUISICAO'].sum()
+
+total_exposicao = data_temp.loc[condicao2, 'EXPOSICAO'].sum()
+
+
 
 # ============= PREPARAR DATAFRAME PARA EXPORTAÇÃO (ANTES DO PDF) =============
 df_filtrado['DATA_AQUISICAO'] = pd.to_datetime(df_filtrado['DATA_AQUISICAO'])
+
 
 df_filtrado['TIPO'] = df_filtrado['DATA_AQUISICAO'].apply(
     lambda x: 'ALOCACAO_2026' if x >= pd.to_datetime('2026-01-01') else 'ALOCACAO_ANTIGA'
@@ -290,11 +292,9 @@ df_principal_exibir = df_exibir[["ID_MITRA", "INSTITUICAO_FINANCEIRA"] + colunas
 col1, col2, col3 = st.columns([3, 1, 1])
 with col3:
  
-        plano = '[CERES TOTAL]'
-        plano_nome = nome_plano(plano)
         
         # Reprocessar dados para o plano selecionado (igual ao código de múltiplos PDFs)
-        df_filtrado_unico = data[(data["TESOURARIA"] == plano) & (data["DATA_COTACAO"].dt.date == st.session_state.data_selecionada)].copy()
+        df_filtrado_unico = data[(data["DATA_COTACAO"].dt.date == st.session_state.data_selecionada)].copy()
         
         if len(df_filtrado_unico) > 0:
             # Preparar dados com TIPO (ALOCAÇÃO 2026 vs EXPOSICAO_ANTIGA)
@@ -320,6 +320,14 @@ with col3:
                 grp_emissor_unico['EXPOSICAO_ANTIGA'] = 0.0
             
             grp_emissor_unico['EXPOSICAO'] = grp_emissor_unico['EXPOSICAO_ANTIGA'] + grp_emissor_unico['ALOCAÇÃO 2026']
+
+            grp_expo_26_unico = df_filtrado_unico.loc[
+                df_filtrado_unico['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')
+            ].groupby('EMISSOR')['EXPOSICAO'].sum()
+
+            grp_alocacao_2026_unico = df_filtrado_unico.loc[
+                df_filtrado_unico['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')
+            ].groupby('EMISSOR')['FINANCEIRO_AQUISICAO'].sum()
             
             # Preparar df_exibir para o plano único
             df_exibir_unico = df_limites.copy()
@@ -327,16 +335,23 @@ with col3:
             df_exibir_unico['EXPOSICAO'] = df_exibir_unico['EXPOSICAO'].fillna(
                 df_exibir_unico['ID_MITRA'].map(grp_emissor_unico.set_index('EMISSOR')['EXPOSICAO'])
             ).astype('float64')
-            
-            df_exibir_unico['ALOCAÇÃO 2026'] = df_exibir_unico['ID_MITRA'].map(
-                grp_emissor_unico.set_index('EMISSOR')['ALOCAÇÃO 2026']
+
+            df_exibir_unico['EXPOSICAO_2026'] = df_exibir_unico['ID_MITRA'].map(
+                grp_expo_26_unico
             ).fillna(0).astype('float64')
+
+            df_exibir_unico['FINANCEIRO_AQUISICAO'] = df_exibir_unico['ID_MITRA'].map(
+                grp_alocacao_2026_unico
+            ).fillna(0).astype('float64')
+
+            df_exibir_unico['LIMITE_ALOCACAO_2026'] = df_exibir_unico['LIMITE_ALOCACAO_2026'] - df_exibir_unico['FINANCEIRO_AQUISICAO']
             
             # Selecionar apenas colunas necessárias para o PDF
             colunas_exibir_principal_unico = ["ID_MITRA",
                                     "INSTITUICAO_FINANCEIRA",
                                     "EXPOSICAO",
-                                    "ALOCAÇÃO 2026",
+                                    "EXPOSICAO_2026",
+                                    "FINANCEIRO_AQUISICAO",
                                     "LIMITE_ALOCACAO_2026"]
             
             df_principal_exibir_unico = df_exibir_unico[colunas_exibir_principal_unico].copy()
@@ -344,32 +359,28 @@ with col3:
             df_principal_exibir_unico = pd.DataFrame()
         
         # Calcular valores dos cards para o PDF
-        df_plano_temp = data[(data["TESOURARIA"] == plano) & (data["DATA_COTACAO"].dt.date == st.session_state.data_selecionada)].copy()
-        total_exp_plano_pdf = df_plano_temp['EXPOSICAO'].sum() if len(df_plano_temp) > 0 else 0
-        total_aloc_plano_pdf = df_plano_temp[df_plano_temp['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')]['FINANCEIRO_AQUISICAO'].sum() if len(df_plano_temp) > 0 else 0
+        df_plano_temp = data[(data["DATA_COTACAO"].dt.date == st.session_state.data_selecionada)].copy()
+        total_exp_pdf = df_plano_temp['EXPOSICAO'].sum() if len(df_plano_temp) > 0 else 0
+        total_aloc_pdf = df_plano_temp[df_plano_temp['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')]['FINANCEIRO_AQUISICAO'].sum() if len(df_plano_temp) > 0 else 0
         total_exp_26_plano_pdf = df_plano_temp[df_plano_temp['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')]['EXPOSICAO'].sum() if len(df_plano_temp) > 0 else 0
-        
+
         # Gerar PDF com dados do plano específico
         df_grafico_pdf = df_principal_exibir_unico[df_principal_exibir_unico["EXPOSICAO"] > 0] if not df_principal_exibir_unico.empty else pd.DataFrame()
         pdf_bytes = gerar_pdf_limites_operacionais(
             df_principal_exibir_unico,
-            plano_nome=plano_nome,
             data_posicao=st.session_state.data_selecionada,
-            titulo_relatorio="Limites Operacionais - Instituições Financeiras",
-            total_alocacao_26=100000000,
-            total_alocacao_ceres=total_alocacao_ceres,
-            total_exposicao_ceres=total_exposicao_ceres,
-            total_exposicao_plano=total_exp_plano_pdf,
-            total_alocacao_plano=total_aloc_plano_pdf,
-            total_exposicao_26_plano=total_exp_26_plano_pdf,
-            df_risco=df_risco,
-            df_grafico=df_grafico_pdf
+            titulo_relatorio="Limites Operacionais -",
+            disponivel_alocacao_26=100000000,
+            total_exposicao=total_exp_pdf,
+            total_exposicao_26=total_exp_26_plano_pdf,
+            alocado_26 =total_alocacao,
+            df_risco=df_risco
         )
         
         st.download_button(
             label="Baixar PDF",
             data=pdf_bytes,
-            file_name=f"Limites_Operacionais_{plano_nome}_{st.session_state.data_selecionada.strftime('%d%m%Y')}.pdf",
+            file_name=f"limites_operacionais_{st.session_state.data_selecionada.strftime('%d%m%Y')}.pdf",
             mime="application/pdf",
             width='stretch',
             type="primary",
@@ -381,8 +392,8 @@ st.divider()
 #==================================================================
 #----------------------CARDS--------------------------------------
 #==================================================================
-total_exposicao_plano = float(df_filtrado['EXPOSICAO'].sum() or 0)
-total_exposicao_26_plano = float(df_filtrado[df_filtrado['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')]['EXPOSICAO'].sum() or 0)
+total_exposicao = float(df_filtrado['EXPOSICAO'].sum() or 0)
+total_exposicao_26 = float(df_filtrado[df_filtrado['DATA_AQUISICAO'] >= pd.to_datetime('2026-01-01')]['EXPOSICAO'].sum() or 0)
 
 
 
@@ -392,14 +403,14 @@ col1, col2 = st.columns([1,1])
 with col1:
     with st.container(border=True):
         card_titulo('Posição')
-        st.metric(label="Geral", value=f"R$ {fmt_br(total_exposicao_plano, 2)}")
+        st.metric(label="Geral", value=f"R$ {fmt_br(total_exposicao, 2)}")
 
 with col2:
     with st.container(border=True):
         card_titulo('Posição')
-        st.metric(label="2026", value=f"R$ {fmt_br(total_exposicao_26_plano, 2)}")
+        st.metric(label="2026", value=f"R$ {fmt_br(total_exposicao_26, 2)}")
 
-gasto_card("Alocação 2026", total_alocacao_ceres, total_alocacao_26)
+gasto_card("Alocação 2026", total_alocacao, total_alocacao_26)
 
 
 
@@ -455,7 +466,7 @@ colunas_produto = ["PRODUTO", "DATA_AQUISICAO", "VENCIMENTO", "Tx. Aquisição",
 
 
 
-tab1, tab2 = st.tabs(["Limites Operacionais", "Informações de Risco"])
+tab1, tab2 = st.tabs(["Limites Operacionais", "Classificação de Risco"])
 with tab1:
     # ======================================================================
     #-------------------------TABELA EXPANSÍVELHTML-------------------------
@@ -801,15 +812,21 @@ with tab1:
         
         # Adicionar valores de todas as colunas
         for col in colunas_exibir:
+            lim_plano = 100000000
             valor = row[col]
-            if col == "EXPOSICAO" and pd.notna(valor):
+            if pd.isna(valor) or valor == 0:
+                valor_fmt = "—"
+            elif col == "EXPOSICAO" and pd.notna(valor):
                 valor_fmt = f"{fmt_br(valor, 2)}"
             elif col == "EXPOSICAO_2026" and pd.notna(valor):
                 valor_fmt = f"{fmt_br(valor, 2)}"
             elif col == "FINANCEIRO_AQUISICAO" and pd.notna(valor):
                 valor_fmt = f"{fmt_br(valor, 2)}"
             elif col == "LIMITE_ALOCACAO_2026" and pd.notna(valor):
-                valor_fmt = f"<strong>{fmt_br(valor, 2)}</strong>"
+                if valor == lim_plano:
+                   valor_fmt = f"{fmt_br(valor, 2)}"
+                else: 
+                    valor_fmt = f"<strong>{fmt_br(valor, 2)}</strong>"
             elif pd.notna(valor) :
                 valor_fmt = str(valor)
             else:
@@ -874,15 +891,11 @@ with tab2:
 
 st.markdown('<p style="font-family: \'Source Serif Pro\', serif; font-style: italic; margin-left: 20px;">(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>', unsafe_allow_html=True)
 #------------------------ANALÍTICO--------------------------------
+#col1, col2 = st.columns([3, 1])
+#with col1:
+#    st.markdown('<h3 style="color: #0B2F13; margin: 0;">Analítico</h1>', unsafe_allow_html=True)
 
-st.divider()
-
-
-col1, col2 = st.columns([3, 1])
-with col1:
-    st.markdown('<h3 style="color: #0B2F13; margin: 0;">Analítico</h1>', unsafe_allow_html=True)
-
-col1, col2 = st.columns([2, 1])
+col1 = st.columns(1)[0]
 with col1:
     df_grafico = df_principal_exibir[df_principal_exibir["EXPOSICAO"] > 0]
 
@@ -891,10 +904,12 @@ with col1:
 
     # Criando o gráfico com Plotly
     barras_ifs = go.Figure()
+    config = {'displayModeBar': False}
+
+    # 1. Inversão dos eixos e orientação no Trace
     barras_ifs.add_trace(go.Bar(
-        x=df_grafico["EXPOSICAO"], 
-        y=df_grafico["INSTITUICAO_FINANCEIRA"],
-        orientation='h',
+        x=df_grafico["INSTITUICAO_FINANCEIRA"],  # Agora as instituições ficam no X
+        y=df_grafico["EXPOSICAO"],               # A exposição vai para o Y
         text=df_grafico["EXPOSICAO"],
         textposition='outside',
         texttemplate='%{text:,.2f}', 
@@ -906,9 +921,9 @@ with col1:
         )
     ))
 
-
+    # O limite dinâmico agora vai se aplicar ao topo do eixo Y
     max_exposicao = df_grafico["EXPOSICAO"].max() if not df_grafico.empty else 100
-    limite_eixo_x = max_exposicao * 1.15
+    limite_eixo_y = max_exposicao * 1.15
 
     barras_ifs.update_layout(
         title='Exposição por Emissor',
@@ -922,27 +937,27 @@ with col1:
             color="#333333"   
         ),
         
-        # Ajuste no Eixo X para fixar a margem de segurança calculada
+        # 2. Configurações invertidas nos Eixos
         xaxis=dict(
-            showgrid=False, 
-            zeroline=False,
-            showticklabels=False,
-            range=[0, limite_eixo_x] # <-- Força o gráfico a criar um espaço extra na direita
-        ),
-
-        yaxis=dict(
-            categoryorder='total ascending', 
+            categoryorder='total descending', # 'total descending' funciona melhor visualmente da esquerda para a direita
             showline=False,      
             showgrid=False,      
             showticklabels=True,
             automargin=True 
         ),
 
-        # --- AJUSTE DE MARGENS ---
-        margin=dict(r=100, t=50, b=50, l=180), 
+        yaxis=dict(
+            showgrid=False, 
+            zeroline=False,
+            showticklabels=False,
+            range=[0, limite_eixo_y] # <-- Agora força o espaço extra no TOPO do gráfico
+        ),
+
+        # Ajustei as margens levemente, já que os nomes longos agora ficam na base (L) e não na lateral esquerda (L)
+        margin=dict(r=50, t=50, b=100, l=50), 
         plot_bgcolor='rgba(0,0,0,0)'
     )
 
     # Exibindo o gráfico no Streamlit
-    st.plotly_chart(barras_ifs, width='stretch')
+    st.plotly_chart(barras_ifs,  config=config)
   

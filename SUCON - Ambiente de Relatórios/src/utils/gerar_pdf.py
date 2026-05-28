@@ -16,6 +16,7 @@ from reportlab.platypus import (
     TableStyle,
     Paragraph,
     Spacer,
+    PageBreak,
     HRFlowable,
     Flowable,
     Image,
@@ -72,64 +73,64 @@ def _estilos():
     styles.add(ParagraphStyle(
         "Titulo",
         fontName="Figtree-Bold",
-        fontSize=18,
+        fontSize=16,
         textColor=VERDE_TITULO,
         spaceAfter=0,
-        spaceBefore=1*cm,
-        leading=22,
+        spaceBefore=8 * mm,
+        leading=19,
     ))
     styles.add(ParagraphStyle(
         "Subtitulo",
         fontName="Figtree-SemiBold",
-        fontSize=13,
+        fontSize=11.5,
         textColor=VERDE_TITULO,
-        spaceBefore=2*mm,
-        spaceAfter=2*mm,
-        leading=16,
+        spaceBefore=2 * mm,
+        spaceAfter=1.5 * mm,
+        leading=14,
     ))
     styles.add(ParagraphStyle(
         "SubtituloCentro",
         fontName="Figtree-SemiBold",
-        fontSize=13,
+        fontSize=11.5,
         textColor=VERDE_TITULO,
-        spaceBefore=2*mm,
-        spaceAfter=2*mm,
-        leading=16,
+        spaceBefore=2 * mm,
+        spaceAfter=1.5 * mm,
+        leading=14,
         alignment=TA_CENTER,
     ))
     styles.add(ParagraphStyle(
         "NomePlano",
         fontName="SourceSerif",
-        fontSize=12,
+        fontSize=10.5,
         textColor=VERDE_TITULO,
         spaceBefore=0,
-        spaceAfter=2*mm,
-        leading=17,
+        spaceAfter=1.5 * mm,
+        leading=13,
     ))
     styles.add(ParagraphStyle(
         "CorpoTexto",
         fontName="Figtree",
-        fontSize=9,
-        leading=14,
-        spaceAfter=1 * mm,
+        fontSize=9.5,
+        leading=12,
+        spaceAfter=1.5 * mm,
         textColor=colors.HexColor("#333333"),
     ))
 
     styles.add(ParagraphStyle(
         "RodaPe",
         fontName="SourceSerif",
-        fontSize=8,
-        leading=14,
-        spaceAfter=1 * mm,
+        fontSize=7,
+        leading=9,
+        spaceAfter=1.5 * mm,
         textColor=colors.HexColor("#333333"),
-        leftIndent=1*mm
+        leftIndent=1 * mm
     ))
 
 
     styles.add(ParagraphStyle(
         "DataPos",
         fontName="Figtree",
-        fontSize=10,
+        fontSize=9,
         alignment=TA_RIGHT,
         textColor=VERDE_TITULO,
     ))
@@ -137,48 +138,48 @@ def _estilos():
     styles.add(ParagraphStyle(
         "ThCell",
         fontName="Figtree-Bold",
-        fontSize=7,
-        leading=9,
+        fontSize=6.8,
+        leading=8.2,
         textColor=VERDE_CLARO,
         alignment=TA_LEFT,
     ))
     styles.add(ParagraphStyle(
         "ThCellRight",
         fontName="Figtree-Bold",
-        fontSize=7,
-        leading=9,
+        fontSize=6.8,
+        leading=8.2,
         textColor=VERDE_CLARO,
         alignment=TA_RIGHT,
     ))
     styles.add(ParagraphStyle(
         "ThCellCenter",
         fontName="Figtree-Bold",
-        fontSize=7,
-        leading=9,
+        fontSize=6.8,
+        leading=8.2,
         textColor=VERDE_CLARO,
         alignment=TA_CENTER,
     ))
     styles.add(ParagraphStyle(
         "TdCell",
         fontName="Figtree",
-        fontSize=7,
-        leading=9,
+        fontSize=6.8,
+        leading=8.2,
         textColor=colors.HexColor("#222222"),
         alignment=TA_LEFT,
     ))
     styles.add(ParagraphStyle(
         "TdCellRight",
         fontName="Figtree",
-        fontSize=7,
-        leading=9,
+        fontSize=6.8,
+        leading=8.2,
         textColor=colors.HexColor("#222222"),
         alignment=TA_RIGHT,
     ))
     styles.add(ParagraphStyle(
         "TdCellCenter",
         fontName="Figtree",
-        fontSize=7,
-        leading=9,
+        fontSize=6.8,
+        leading=8.2,
         textColor=colors.HexColor("#222222"),
         alignment=TA_CENTER,
     ))
@@ -199,6 +200,12 @@ def _formatar_moeda_br(valor):
         return f"{valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
     except (TypeError, ValueError):
         return str(valor)
+
+
+def _formatar_moeda_br_ou_traco(valor):
+    if valor is None or pd.isna(valor) or valor == 0:
+        return "—"
+    return _formatar_moeda_br(valor)
 
 
 def _limpar_texto(texto):
@@ -338,6 +345,8 @@ def _construir_tabela(headers_text, rows_para, col_widths, linhas_desenquadradas
         ("BACKGROUND", (0, 0), (-1, 0), VERDE_TITULO),
         ("BOTTOMPADDING", (0, 0), (-1, 0), 6),
         ("TOPPADDING", (0, 0), (-1, 0), 6),
+        ("LEFTPADDING", (0, 0), (0, 0), 12),
+        ("RIGHTPADDING", (0, 0), (0, 0), 6),
         ("LEFTPADDING", (0, 1), (-1, -1), 20),
         ("RIGHTPADDING", (0, 1), (-1, -1), 6),
         # Corpo
@@ -345,6 +354,8 @@ def _construir_tabela(headers_text, rows_para, col_widths, linhas_desenquadradas
         ("TOPPADDING", (0, 1), (-1, -1), 5),
         ("LEFTPADDING", (0, 1), (-1, -1), 12),
         ("RIGHTPADDING", (0, 1), (-1, -1), 6),
+        ("RIGHTPADDING", (-1, 0), (-1, 0), 12),
+        ("RIGHTPADDING", (-1, 1), (-1, -1), 12),
         # Linhas
         ("LINEBELOW", (0, 0), (-1, 0), 1.5, VERDE_BORDA),
         ("LINEBELOW", (0, 1), (-1, -1), 0.5, CINZA_BORDA),
@@ -753,16 +764,15 @@ def gerar_pdf(df, plano_selecionado, data_posicao, regime):
 
 
 # ── EXPORTADOR LIMITES OPERACIONAIS ───────────────────────────────────────────
-def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_relatorio="Limites Operacionais - Instituições Financeiras",
-                                   total_alocacao_26=None, total_exposicao_ceres=None, total_exposicao_plano=None, total_alocacao_plano=None, total_alocacao_ceres=None, total_exposicao_26_plano=None,
-                                   df_risco=None, df_grafico=None):
+def gerar_pdf_limites_operacionais(df_limites, data_posicao, titulo_relatorio="Limites Operacionais -", subtitulo_relatorio=" Instituições Financeiras" ,
+                                   disponivel_alocacao_26=None, total_exposicao=None, total_exposicao_26=None, alocado_26=None,
+                                   df_risco=None):
     """
     Gera PDF da tabela de Limites Operacionais com tabela de risco e gráfico.
 
     Parâmetros
     ----------
     df_limites : pd.DataFrame — dados da tabela de limites
-    plano_nome : str — nome do plano
     data_posicao : date — data da posição
     titulo_relatorio : str — título do relatório
     total_alocacao_26 : float — disponível para 2026 (Ceres)
@@ -788,7 +798,7 @@ def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_
         rightMargin=1 * cm,
         topMargin=1 * cm,
         bottomMargin=1 * cm,
-        title=f"Limites Operacionais - {plano_nome}",
+        
     )
 
     def _fundo_pagina(canvas, doc):
@@ -822,42 +832,37 @@ def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_
     elements = []
     page_w = landscape(A4)[0] - 2.4 * cm
 
-    # ── Títulos e Metadados ──
-    elements.append(Paragraph(titulo_relatorio, styles["Titulo"]))
-
-
-    elements.append(Paragraph(f"Plano: <font face=\"SourceSerif\"><i>{plano_nome}</i></font>", styles["Subtitulo"]))
+    # ── Títulos e estatísticas  ──
+    elements.append(Paragraph(f'{titulo_relatorio}<font face=\"SourceSerif\"><i>{subtitulo_relatorio}</i></font>', styles["Titulo"]))
+    elements.append(Spacer(1, 7 * mm))
     elements.append(Paragraph(f"Data de posição: {data_posicao.strftime('%d/%m/%Y')}", styles["DataPos"]))
-    elements.append(Spacer(1, 2 * mm))
+    elements.append(Spacer(1, 7 * mm))
     
     # ── Informações dos Cards ──
-    if total_alocacao_26 is not None or total_exposicao_ceres is not None or total_alocacao_ceres is not None or total_exposicao_plano is not None or total_alocacao_plano is not None or total_exposicao_26_plano is not None:
+    if disponivel_alocacao_26 is not None or total_exposicao is not None or disponivel_alocacao_26 is not None or total_exposicao is not None or disponivel_alocacao_26 is not None or total_exposicao_26 is not None:
         card_info = []
-        if total_alocacao_26 is not None:
-            card_info.append(f"<b>Ceres - Disponível para 2026:</b> R$ {_formatar_moeda_br(total_alocacao_26)}")
-        if total_alocacao_ceres is not None:
-            card_info.append(f"<b>Ceres - Alocado em 2026:</b> R$ {_formatar_moeda_br(total_alocacao_ceres)}")
-        if total_exposicao_ceres is not None:
-            card_info.append(f"<b>Ceres - Exposição:</b> R$ {_formatar_moeda_br(total_exposicao_ceres)}")
-        if total_exposicao_plano is not None:
-            card_info.append(f"<b>{plano_nome} - Exposição:</b> R$ {_formatar_moeda_br(total_exposicao_plano)}")
-        if total_exposicao_26_plano is not None:
-            card_info.append(f"<b>{plano_nome} - Exposição 2026:</b> R$ {_formatar_moeda_br(total_exposicao_26_plano)}")
-        if total_alocacao_plano is not None:
-            card_info.append(f"<b>{plano_nome} - Alocação 2026:</b> R$ {_formatar_moeda_br(total_alocacao_plano)}")
-        
+        if disponivel_alocacao_26 is not None:
+            card_info.append(f"<b>Disponível para 2026:</b> R$ {_formatar_moeda_br(disponivel_alocacao_26)}")
+        if disponivel_alocacao_26 is not None:
+            card_info.append(f"<b>Alocado em 2026:</b> R$ {_formatar_moeda_br(alocado_26)}")
+        if total_exposicao is not None:
+            card_info.append(f"<b>Exposição Geral:</b> R$ {_formatar_moeda_br(total_exposicao)}")
+        if total_exposicao_26 is not None:
+            card_info.append(f"<b>Exposição 2026:</b> R$ {_formatar_moeda_br(total_exposicao_26)}")
+       
         if card_info:
             elementos_info = []
             for info in card_info:
                 elementos_info.append(Paragraph(info, styles["CorpoTexto"]))
             elements.extend(elementos_info)
-            elements.append(Spacer(1, 2 * mm))
+            
     
+    elements.append(Spacer(1, 4 * mm))
     elements.append(HRFlowable(width="60%", thickness=0.4, color=VERDE_ESCURO))
     elements.append(Spacer(1, 4 * mm))
 
     # ── Tabela de Limites (não expandida) ──
-    headers_limits = ["Instituição", "Posição R$", "Posição 2026 R$", "Alocação 2026 R$", "Disp. Alocação"]
+    headers_limits = ["Instituição Financeira", "Posição R$", "Posição 2026 R$", "Alocação 2026 R$", "Disp. Alocação"]
     # Coluna 1 maior
     col_widths_limits = [page_w * 0.34] + [page_w * 0.66 / (len(headers_limits) - 1)] * (len(headers_limits) - 1)
 
@@ -865,10 +870,10 @@ def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_
     for _, row in df_limites.iterrows():
         rows_limits.append([
             _p(str(row.get("INSTITUICAO_FINANCEIRA", "—")), styles["TdCell"]),
-            _p(_formatar_moeda_br(row.get("EXPOSICAO", "—")), styles["TdCellRight"]),
-            _p(_formatar_moeda_br(row.get("EXPOSICAO_2026", "—")), styles["TdCellRight"]),
-            _p(_formatar_moeda_br(row.get("FINANCEIRO_AQUISICAO", "—")), styles["TdCellRight"]),
-            _p(_formatar_moeda_br(row.get("LIMITE_ALOCACAO_2026", "—")), styles["TdCellRight"]),
+            _p(_formatar_moeda_br_ou_traco(row.get("EXPOSICAO", "—")), styles["TdCellRight"]),
+            _p(_formatar_moeda_br_ou_traco(row.get("EXPOSICAO_2026", "—")), styles["TdCellRight"]),
+            _p(_formatar_moeda_br_ou_traco(row.get("FINANCEIRO_AQUISICAO", "—")), styles["TdCellRight"]),
+            _p(_formatar_moeda_br_ou_traco(row.get("LIMITE_ALOCACAO_2026", "—")), styles["TdCellRight"]),
         ])
 
     header_aligns_limits = ["ThCell"] + ["ThCellRight"] * (len(headers_limits) - 1)
@@ -877,9 +882,12 @@ def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_
     elements.append(Paragraph("Limites Operacionais", styles["Subtitulo"]))
     elements.append(Spacer(1, 1 * mm))
     elements.append(tabela_limits)
-    elements.append(Spacer(1, 3 * mm))
+    elements.append(Spacer(1, 1 * mm))
+    elements.append(Paragraph('(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.', styles["RodaPe"]))
 
-    # ── Tabela de Risco (se fornecida) ──
+
+    elements.append(PageBreak())
+    # ── Tabela de Risco ──
     if df_risco is not None and not df_risco.empty:
         headers_risco = list(df_risco.columns)
         num_col_risco = len(headers_risco)
@@ -891,9 +899,9 @@ def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_
             for i, c in enumerate(headers_risco):
                 val = r.get(c, "—")
                 if isinstance(val, (int, float)) and not pd.isna(val):
-                    cell = _p(_formatar_moeda_br(val) if 'R$' in str(c) or 'Patrim' in str(c) or 'EXPOSI' in str(c).upper() else str(val), styles["TdCellRight"] if i>0 else styles["TdCell"])
+                    cell = _p(_formatar_moeda_br(val) if 'R$' in str(c) or 'Patrim' in str(c) or 'EXPOSI' in str(c).upper() else str(val), styles["TdCellCenter"] if i>0 else styles["TdCell"])
                 else:
-                    cell = _p(str(val) if pd.notna(val) else "—", styles["TdCellRight"] if i>0 else styles["TdCell"])
+                    cell = _p(str(val) if pd.notna(val) else "—", styles["TdCellCenter"] if i>0 else styles["TdCell"])
                 row_vals.append(cell)
             rows_risco.append(row_vals)
 
@@ -903,33 +911,9 @@ def gerar_pdf_limites_operacionais(df_limites, plano_nome, data_posicao, titulo_
         elements.append(Paragraph("Informações de Risco", styles["Subtitulo"]))
         elements.append(Spacer(1, 1 * mm))
         elements.append(tabela_risco)
-        elements.append(Spacer(1, 3 * mm))
+        elements.append(Spacer(1, 1 * mm))
+        elements.append(Paragraph('(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.', styles["RodaPe"]))
 
-    # ── Gráfico de Barras (se fornecido) ──
-    if df_grafico is not None and not df_grafico.empty:
-        try:
-            import matplotlib.pyplot as plt
-            fig_h = max(3, min(12, len(df_grafico) * 0.3))
-            fig, ax = plt.subplots(figsize=(10, fig_h))
-            y = df_grafico["INSTITUICAO_FINANCEIRA"] if "INSTITUICAO_FINANCEIRA" in df_grafico.columns else df_grafico.iloc[:,1]
-            x = df_grafico["EXPOSICAO"] if "EXPOSICAO" in df_grafico.columns else df_grafico.iloc[:,0]
-            ax.barh(y, x, color="#0B2F13")
-            ax.set_title("Exposição por Emissor")
-            ax.set_xlabel("")
-            ax.set_ylabel("")
-            ax.xaxis.set_major_formatter(lambda v, pos: _formatar_moeda_br(v))
-            plt.tight_layout()
-            img_buf = BytesIO()
-            fig.savefig(img_buf, format="PNG", dpi=150)
-            plt.close(fig)
-            img_buf.seek(0)
-            elements.append(Paragraph("Gráfico de Exposição", styles["Subtitulo"]))
-            elements.append(Spacer(1, 2 * mm))
-            elements.append(Image(img_buf, width=page_w * 0.9, height=fig_h * cm))
-            elements.append(Spacer(1, 3 * mm))
-        except Exception:
-            # Falha silenciosa se matplotlib não estiver disponível
-            pass
 
     doc.build(elements, onFirstPage=_fundo_pagina, onLaterPages=_fundo_pagina)
     buf.seek(0)
