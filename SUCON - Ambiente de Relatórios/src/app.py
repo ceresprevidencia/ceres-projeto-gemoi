@@ -38,7 +38,7 @@ current_page = st.navigation(
 )
 
 # ── CONFIG (dinâmico, após st.navigation) ─────────────────────────────────────
-icon_img = Image.open(os.path.join("..", "images", "c2.svg"))
+icon_img = Image.open(os.path.join("images", "c2.svg"))
 
 st.set_page_config(
     page_title=f"Controle Ceres | {current_page.title}",
