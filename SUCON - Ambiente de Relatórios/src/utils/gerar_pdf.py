@@ -31,7 +31,7 @@ from svglib.svglib import svg2rlg
 
 # ── FONTES ───────────────────────────────────────────────────────────────────────
 _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-_FONTS_DIR = os.path.abspath(os.path.join(_BASE_DIR, "..", "fonts")) 
+_FONTS_DIR = os.path.abspath(os.path.join(_BASE_DIR, "..", "..", "fonts")) 
 
 def _registrar_fontes():
     """Registra as famílias de fontes no reportlab."""
