@@ -101,17 +101,17 @@ if "data_selecionada" not in st.session_state:
 #   ============================================================================ */
 
 dados_limites = [
-    ["BANCO ABC BRASIL S.A.", "ABC BRASIL", None, None, None,100000000.00],
-    ["BANCO VOTORANTIM S.A.", "BANCO BV", None, None, None,100000000.00],
-    ["BANCO SOFISA SA", "SOFISA",None, None, None,100000000.00],
     ["BANCO COOPEREATIVO SICREDI S.A.", "SICREDI",None, None, None,100000000.00],
     ["Banco Cooperativo do Brasil S.A.", "BANCO SICOOB",None, None, None,100000000.00],
+    ["Banco Safra S.A.", "SAFRA", None,None, None,100000000.00],
+    ["ITAU UNIBANCO S.A.", "ITAÚ UNIBANCO", None,None, None,100000000.00],
+    ["BANCO ABC BRASIL S.A.", "ABC BRASIL", None, None, None,100000000.00],
     ["BANCO BTG PACTUAL S.A.", "BTG PACTUAL",None, None, None,100000000.00],
     ["BANCO DAYCOVAL S/A", "DAYCOVAL", None, None, None,100000000.00],
-    ["ITAU UNIBANCO S.A.", "ITAÚ UNIBANCO", None,None, None,100000000.00],
     ["BANCO MERCANTIL DO BRASIL SA", "MERCANTIL", None, None, None,100000000.00],
-    ["Banco Safra S.A.", "SAFRA", None,None, None,100000000.00],
     ["BANCO SANTANDER (BRASIL) S.A.","SANTANDER (BRASIL)", None, None,None,100000000.00],
+    ["BANCO VOTORANTIM S.A.", "BANCO BV", None, None, None,100000000.00],
+    ["BANCO SOFISA SA", "SOFISA",None, None, None,100000000.00],
     ["BANCO BRADESCO SA", "BRADESCO (*)", None,None, None,None],
     ["PARANA BANCO S/A", "PARANA BANCO (*)", None,None, None,None],
     ["BANCO PAN S.A.", "PAN (**)", None, None,None, None]
@@ -121,7 +121,9 @@ dados_risco = [
     ["ABC BRASIL", "Médio Porte", 11.02, None, 6604060.00, "Até 5 anos", "BRLP 3"],
     ["BANCO BV", "Grande Porte", 9.77, None, 13397130.00, "Até 5 anos", "BRLP 3"],
     ["SOFISA", "Médio Porte", 9.19, None, 1144639.00, "Até 3 anos", "BRMP 1"],
-    ["SICREDI", "Grande Porte", 11.35, None, 5462089.00, "Até 5 anos", "BRLP 3",],
+
+    ["SICREDI", "Grande Porte", 11.35, None, 5432089.00, "Até 5 anos", "BRLP 3"],
+
     ["BANCO SICOOB", "Grande Porte", 11.25, None, 5505854.00, "Até 5 anos", "BRLP 3"],
     ["BTG PACTUAL", "Grande Porte", 10.68, None, 69335302.00, "Até 5 anos", "BRLP 3"],
     ["DAYCOVAL", "Médio Porte", 10.44, None, 7666905.00, "Até 5 anos", "BRLP 3"],
@@ -157,6 +159,8 @@ colunas_risco = [
 # 3. Criação do DataFrame
 df_limites = pd.DataFrame(data=dados_limites, columns=colunas_limites)
 df_risco = pd.DataFrame(data=dados_risco, columns=colunas_risco)
+df_risco = df_risco.sort_values(by="Índice RiskBank", ascending=False).reset_index(drop=True)
+df_risco["Índice RiskBank"] = df_risco["Índice RiskBank"].apply(lambda x: fmt_br(x, 2))
 
 #/* ============================================================================
 #---------------------CABEÇALHO E DATA---------------------
