@@ -39,6 +39,7 @@ def _registrar_fontes():
         "Figtree": "Figtree-Regular.ttf",
         "Figtree-Bold": "Figtree-Bold.ttf",
         "Figtree-SemiBold": "Figtree-SemiBold.ttf",
+        "SourceSerif": "SourceSerif4_36pt-SemiBoldItalic.ttf",
         "SourceSerif-Italic": "SourceSerif4_36pt-SemiBoldItalic.ttf", 
     }
     
@@ -61,8 +62,10 @@ def _registrar_fontes():
     
     pdfmetrics.registerFontFamily(
         "SourceSerif",
-        normal="SourceSerif-Italic", 
-        italic="SourceSerif-Italic"   
+        normal="SourceSerif", 
+        italic="SourceSerif",
+        bold="SourceSerif",
+        boldItalic="SourceSerif"
     )
 _registrar_fontes()
 
