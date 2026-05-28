@@ -885,16 +885,24 @@ with tab1:
 
     html += "</div>"
     st.html(html)
-
+    st.markdown('<p style="font-family: \'Source Serif Pro\', serif; font-style: italic; margin-left: 20px;">(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>', unsafe_allow_html=True)
+   
     
     
 with tab2:
     # Mapeamento de nomes de colunas para exibição melhorada    
     html_tabela_risco = gerar_tabela_estilizada(df_risco)
     st.html(html_tabela_risco)
-
-st.markdown('<p style="font-family: \'Source Serif Pro\', serif; font-style: italic; margin-left: 20px;">(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>', unsafe_allow_html=True)
-st.space(size='stretch')
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown('<p style="font-family: \'Source Serif Pro\', serif; font-style: italic; margin-left: 20px;">(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>', unsafe_allow_html=True)
+    with col2:
+        st.markdown('<div style="display:flex; justify-content:flex-end; width:100%;">'f'<p style="font-family: \'Source Serif Pro\', serif; font-style: italic; margin:0;">'
+                    f'Fonte: Riskbank - atualização Junho/2025.'
+                    f'</p></div>',
+                    unsafe_allow_html=True
+                    )
+    st.space(size='stretch')
 #------------------------ANALÍTICO--------------------------------
 
 col1 = st.columns(1)[0]
