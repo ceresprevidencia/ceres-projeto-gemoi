@@ -96,7 +96,7 @@ def _estilos():
     ))
     styles.add(ParagraphStyle(
         "Subtitulo",
-        fontName="Figtree-SemiBold",
+        fontName="Figtree-Bold",
         fontSize=11.5,
         textColor=VERDE_TITULO,
         spaceBefore=2 * mm,
@@ -105,7 +105,7 @@ def _estilos():
     ))
     styles.add(ParagraphStyle(
         "SubtituloCentro",
-        fontName="Figtree-SemiBold",
+        fontName="Figtree-Bold",
         fontSize=11.5,
         textColor=VERDE_TITULO,
         spaceBefore=2 * mm,
