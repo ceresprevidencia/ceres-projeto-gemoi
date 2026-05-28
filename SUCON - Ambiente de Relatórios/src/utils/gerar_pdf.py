@@ -30,7 +30,8 @@ from svglib.svglib import svg2rlg
 
 
 # ── FONTES ───────────────────────────────────────────────────────────────────────
-_FONTS_DIR = "fonts"
+_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+_FONTS_DIR = os.path.abspath(os.path.join(_BASE_DIR, "..", "fonts")) 
 
 def _registrar_fontes():
     """Registra as famílias de fontes no reportlab."""
@@ -38,19 +39,30 @@ def _registrar_fontes():
         "Figtree": "Figtree-Regular.ttf",
         "Figtree-Bold": "Figtree-Bold.ttf",
         "Figtree-SemiBold": "Figtree-SemiBold.ttf",
-        "SourceSerif": "SourceSerif4_36pt-SemiBoldItalic.ttf",
+        "SourceSerif-Italic": "SourceSerif4_36pt-SemiBoldItalic.ttf", 
     }
+    
     for nome, arquivo in _fonts.items():
         caminho = os.path.join(_FONTS_DIR, arquivo)
         if os.path.exists(caminho):
             pdfmetrics.registerFont(TTFont(nome, caminho))
+        else:
+            # Um aviso caso o arquivo suma por algum motivo
+            print(f"Aviso: Arquivo de fonte não encontrado em {caminho}")
 
+    # Família Figtree
     pdfmetrics.registerFontFamily(
         "Figtree",
         normal="Figtree",
         bold="Figtree-Bold",
         italic="Figtree",
         boldItalic="Figtree-Bold",
+    )
+    
+    pdfmetrics.registerFontFamily(
+        "SourceSerif",
+        normal="SourceSerif-Italic", 
+        italic="SourceSerif-Italic"   
     )
 _registrar_fontes()
 
