@@ -94,7 +94,6 @@ if st.button("🔄 Atualizar Banco de Dados"):
     # Limpa apenas o cache da função load_data
     load_data.clear()
     st.success("Cache limpo! Buscando novos dados...")
-    time.sleep(0.5)
     # Força o Streamlit a recarregar a página já executando a função direto no banco
     st.rerun()
 # SESSION_STATE PADRÃO
