@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 from utils.helpers import get_css_global
+import os 
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -17,8 +18,9 @@ st.markdown(get_css_global, unsafe_allow_html=True)
 # ── LOGO ──────────────────────────────────────────────────────────────────────
 img_path = "images\\logo_escuro.png"
 try:
+    img_path = os.path.join("images", "logo_escuro.png")
     img = Image.open(img_path)
-    st.logo(image=img, size='large')
+    st.logo(image=img)
 except FileNotFoundError:
     st.error("Arquivo de imagem não encontrado!")
 
