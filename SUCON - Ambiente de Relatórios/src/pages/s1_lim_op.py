@@ -890,14 +890,27 @@ with tab2:
     st.html(html_tabela_risco)
 
 st.markdown('<p style="font-family: \'Source Serif Pro\', serif; font-style: italic; margin-left: 20px;">(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>', unsafe_allow_html=True)
+st.space(size='stretch')
 #------------------------ANALÍTICO--------------------------------
-#col1, col2 = st.columns([3, 1])
-#with col1:
-#    st.markdown('<h3 style="color: #0B2F13; margin: 0;">Analítico</h1>', unsafe_allow_html=True)
 
 col1 = st.columns(1)[0]
-with col1:
-    df_grafico = df_principal_exibir[df_principal_exibir["EXPOSICAO"] > 0]
+with col1.container(border=True):
+    df_grafico = df_principal_exibir[df_principal_exibir["EXPOSICAO"] > 0].copy()
+
+    # --- Cálculo da Porcentagem do Total ---
+    total_exposicao = df_grafico["EXPOSICAO"].sum()
+    
+    if total_exposicao > 0:
+        # Cria textos separados para mostrar o valor absoluto em cima e a porcentagem abaixo
+        df_grafico["VALOR_BARRA"] = df_grafico["EXPOSICAO"].apply(
+            lambda valor: f"{valor:,.2f}".replace('.', '_').replace(',', '.').replace('_', ',')
+        )
+        df_grafico["PCT_BARRA"] = df_grafico["EXPOSICAO"].apply(
+            lambda valor: f"{(valor / total_exposicao) * 100:.1f}%"
+        )
+    else:
+        df_grafico["VALOR_BARRA"] = "0,00"
+        df_grafico["PCT_BARRA"] = "0,0%"
 
     # --- Cálculo de Altura Dinâmica ---
     altura_dinamica = max(200, len(df_grafico) * 70)
@@ -908,11 +921,9 @@ with col1:
 
     # 1. Inversão dos eixos e orientação no Trace
     barras_ifs.add_trace(go.Bar(
-        x=df_grafico["INSTITUICAO_FINANCEIRA"],  # Agora as instituições ficam no X
-        y=df_grafico["EXPOSICAO"],               # A exposição vai para o Y
-        text=df_grafico["EXPOSICAO"],
-        textposition='outside',
-        texttemplate='%{text:,.2f}', 
+        x=df_grafico["INSTITUICAO_FINANCEIRA"],  
+        y=df_grafico["EXPOSICAO"],              
+        customdata=df_grafico[["VALOR_BARRA", "PCT_BARRA"]],
         
         marker=dict(
             color='#0B2F13',
@@ -921,14 +932,29 @@ with col1:
         )
     ))
 
-    # O limite dinâmico agora vai se aplicar ao topo do eixo Y
-    max_exposicao = df_grafico["EXPOSICAO"].max() if not df_grafico.empty else 100
-    limite_eixo_y = max_exposicao * 1.15
+    for _, row in df_grafico.iterrows():
+        barras_ifs.add_annotation(
+            x=row["INSTITUICAO_FINANCEIRA"],
+            y=row["EXPOSICAO"],
+            text=f"<b>{row['PCT_BARRA']}</b><br>{row['VALOR_BARRA']}",
+            showarrow=False,
+            yanchor="bottom",
+            
+            font=dict(
+                family="Figtree",
+                size=12,
+                color="#0B2F13",
+            ),
+        )
 
+    
+    max_exposicao = df_grafico["EXPOSICAO"].max() if not df_grafico.empty else 100
+    
     barras_ifs.update_layout(
         title='Exposição por Emissor',
-        bargap=0.15, 
+        bargap=0.04, 
         height=altura_dinamica,  
+        autosize=True,
         separators=',.',
 
         font=dict(
@@ -937,9 +963,9 @@ with col1:
             color="#333333"   
         ),
         
-        # 2. Configurações invertidas nos Eixos
+        # 2. Configurações nos Eixos
         xaxis=dict(
-            categoryorder='total descending', # 'total descending' funciona melhor visualmente da esquerda para a direita
+            categoryorder='total descending', 
             showline=False,      
             showgrid=False,      
             showticklabels=True,
@@ -950,14 +976,32 @@ with col1:
             showgrid=False, 
             zeroline=False,
             showticklabels=False,
-            range=[0, limite_eixo_y] # <-- Agora força o espaço extra no TOPO do gráfico
+            range=[0, max_exposicao * 1.05]
         ),
 
-        # Ajustei as margens levemente, já que os nomes longos agora ficam na base (L) e não na lateral esquerda (L)
-        margin=dict(r=50, t=50, b=100, l=50), 
+        hovermode='closest',
+        hoverlabel=dict(
+            bgcolor='#FBFCEC',
+            bordercolor='#0B2F13',
+            font=dict(
+                family='Figtree',
+                size=12,
+                color='#0B2F13',
+            ),
+        ),
+
+        margin=dict(r=20, t=45, b=30, l=20), 
         plot_bgcolor='rgba(0,0,0,0)'
     )
 
+    barras_ifs.update_traces(
+        hovertemplate=(
+            '<b>%{x}</b><br>'
+            'Valor: R$ %{customdata[0]}<br>'
+            'Participação: %{customdata[1]}'
+            '<extra></extra>'
+        )
+    )
+
     # Exibindo o gráfico no Streamlit
-    st.plotly_chart(barras_ifs,  config=config)
-  
+    st.plotly_chart(barras_ifs, config=config, width='stretch')
