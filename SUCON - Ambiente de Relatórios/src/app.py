@@ -23,6 +23,7 @@ try:
     st.logo(image=img)
 except FileNotFoundError:
     st.error("Arquivo de imagem não encontrado!")
+    st.error(f"Arquivo de imagem não encontrado no caminho: {img_path}")
 
 # ── FLUXO ─────────────────────────────────────────────────────────────────────
 
