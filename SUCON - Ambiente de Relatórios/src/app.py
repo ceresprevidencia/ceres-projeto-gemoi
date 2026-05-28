@@ -3,12 +3,15 @@ from PIL import Image
 from utils.helpers import get_css_global
 import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+IMAGES_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "images"))
+
 # ── FONTE GLOBAL ──────────────────────────────────────────────────────────────
 get_css_global = get_css_global()
 st.markdown(get_css_global, unsafe_allow_html=True)
 
 # ── LOGO ──────────────────────────────────────────────────────────────────────
-img_path = os.path.join("..", "images", "logo_escuro.png")
+img_path = os.path.join(IMAGES_DIR, "logo_escuro.png")
 try:
     img = Image.open(img_path)
     st.logo(image=img)
@@ -38,7 +41,7 @@ current_page = st.navigation(
 )
 
 # ── CONFIG (dinâmico, após st.navigation) ─────────────────────────────────────
-icon_img = Image.open(os.path.join("images", "c2.svg"))
+icon_img = os.path.join(IMAGES_DIR, "c2.svg")
 
 st.set_page_config(
     page_title=f"Controle Ceres | {current_page.title}",
