@@ -11,10 +11,12 @@ get_css_global = get_css_global()
 st.markdown(get_css_global, unsafe_allow_html=True)
 
 # ── LOGO ──────────────────────────────────────────────────────────────────────
-img_path = os.path.join(IMAGES_DIR, "logo_escuro.png")
+icon_img = os.path.join(IMAGES_DIR, "c2.svg")
+icon_img_side = os.path.join(IMAGES_DIR, "c1.png")
+img_path = os.path.join(IMAGES_DIR, "logo_escuro_adj.png")
 try:
     img = Image.open(img_path)
-    st.logo(image=img)
+    st.logo(image=img, size="small", icon_image=icon_img_side)
 except FileNotFoundError:
     st.error("Arquivo de imagem não encontrado!")
     st.error(f"Arquivo de imagem não encontrado no caminho: {img_path}")
@@ -40,8 +42,8 @@ current_page = st.navigation(
     position="hidden"
 )
 
-# ── CONFIG (dinâmico, após st.navigation) ─────────────────────────────────────
-icon_img = os.path.join(IMAGES_DIR, "c2.svg")
+# ── CONFIG (dinâmico) ─────────────────────────────────────
+
 
 st.set_page_config(
     page_title=f"Controle Ceres | {current_page.title}",

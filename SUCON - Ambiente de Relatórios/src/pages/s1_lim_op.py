@@ -52,7 +52,7 @@ def gasto_card(titulo: str, gasto: float, limite: float):
         <div style="flex: 1; min-width: 0;">
           <p class="gasto-card-titulo" style="background:#0b2f13; color:#a8ec7d; font-size:20px; font-weight:normal; word-break: break-word; display: inline-block; border-radius: 6px; padding: 1px 5px; margin: 0 -8px 8px;">{titulo}</p>
           <div style="display:flex; align-items:baseline; gap:6px; flex-wrap: wrap;">
-            <span class="gasto-card-valor" style="font-size:30px; font-weight:400; color:{color}; white-space: nowrap;">
+            <span class="gasto-card-valor" style="font-size:36px; font-weight:400; color:{color}; white-space: nowrap;">
               R$ {gasto_fmt}
             </span>
             <span class="gasto-card-limite" style="font-size:14px; color:#888; white-space: nowrap;">/ R$ {limite_fmt}</span>
@@ -84,7 +84,7 @@ def card_titulo(texto):
         unsafe_allow_html=True
     )
 
-@st.cache_data(ttl=3600 ,show_time=True)  
+@st.cache_data(ttl='21600' ,show_time=True)  
 def load_data():
     return buscar_dados()
 
