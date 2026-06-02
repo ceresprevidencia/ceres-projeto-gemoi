@@ -62,9 +62,9 @@ st.sidebar.page_link(risco_planos, disabled=True)
 st.sidebar.page_link(risco_ativos, disabled=True)
 
 st.sidebar.markdown("Rentabilidade")
-st.sidebar.page_link(rent, disabled=True)
+st.sidebar.page_link(rent)
 
 st.sidebar.markdown("Teste")
-st.sidebar.page_link(teste, disabled=True)
+st.sidebar.page_link(teste)
 
 current_page.run()

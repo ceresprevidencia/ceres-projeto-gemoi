@@ -1,3 +1,6 @@
+from datetime import date, timedelta
+
+
 def estilizar_tabela(styled):
     """Aplica fonte Figtree e estilos visuais ao Styler com a 1ª coluna à esquerda."""
     
@@ -375,3 +378,18 @@ def gerar_tabela_estilizada(df, nomes_colunas=None, primeira_coluna_larga=True):
 
     html += '</div>'
     return html
+
+
+def primeiro_dia_util(ano: int) -> date:
+    feriados_fixos = {
+        (1, 1),   
+    }
+    dia = date(ano, 1, 1)
+    while True:
+        if dia.weekday() >= 5:         
+            dia += timedelta(days=1)
+            continue
+        if (dia.day, dia.month) in feriados_fixos:
+            dia += timedelta(days=1)
+            continue
+        return dia

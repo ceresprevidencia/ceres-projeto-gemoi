@@ -413,7 +413,7 @@ with col2:
         card_titulo('Posição')
         st.metric(label="2026", value=f"R$ {fmt_br(total_exposicao_26, 2)}")
 
-gasto_card("Alocação 2026", total_alocacao, total_alocacao_26)
+gasto_card("Plano de Alocação", total_alocacao, total_alocacao_26)
 
 
 
@@ -783,7 +783,7 @@ with tab1:
         "EXPOSICAO": "Posição R$",
         "EXPOSICAO_2026": "Posição 2026 R$",
         "FINANCEIRO_AQUISICAO": "Alocação 2026 R$",
-        "LIMITE_ALOCACAO_2026": "Disp. Alocação",
+        "LIMITE_ALOCACAO_2026": "Limite Operacinal R$",
         
     }
 
