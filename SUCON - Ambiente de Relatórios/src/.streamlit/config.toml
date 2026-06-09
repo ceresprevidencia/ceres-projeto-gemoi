@@ -1,11 +1,15 @@
 [theme]
-# Deixe comentado para permitir que o usuário alterne entre claro e escuro
-# pelo menu do Streamlit (☰ → Settings → Choose app theme)
-# base = "light"
-
-# Cores personalizadas (opcional)
+base = "light"
+font = "Figtree:https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap"
 primaryColor = "#0b2f13"
-secondaryColor = "#016837"
 backgroundColor = "#fafbeb"
 secondaryBackgroundColor = "#f0f2e6"
 textColor = "#0b2f13"
+
+[theme.sidebar]
+backgroundColor = "#1a1a2e"
+secondaryBackgroundColor = "#16213e"
+textColor = "#ffffff"
+primaryColor = "#0969da"
+borderColor = "#d0d7de"
+font = "Figtree:https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap"

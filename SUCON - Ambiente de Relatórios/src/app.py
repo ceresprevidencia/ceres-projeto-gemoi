@@ -8,7 +8,7 @@ IMAGES_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "images"))
 
 # ── FONTE GLOBAL ──────────────────────────────────────────────────────────────
 get_css_global = get_css_global()
-st.markdown(get_css_global, unsafe_allow_html=True)
+st.html(get_css_global)
 
 # ── LOGO ──────────────────────────────────────────────────────────────────────
 icon_img = os.path.join(IMAGES_DIR, "c2.svg")
@@ -16,20 +16,20 @@ icon_img_side = os.path.join(IMAGES_DIR, "c1.png")
 img_path = os.path.join(IMAGES_DIR, "logo_escuro_adj.png")
 try:
     img = Image.open(img_path)
-    st.logo(image=img, size="small", icon_image=icon_img_side)
+    st.logo(image=img, size="medium", icon_image=img)
 except FileNotFoundError:
     st.error("Arquivo de imagem não encontrado!")
     st.error(f"Arquivo de imagem não encontrado no caminho: {img_path}")
 
 # ── FLUXO ─────────────────────────────────────────────────────────────────────
-pg_inicial = st.Page("pages/pg_inicial.py", title="Home", url_path="home")
+pg_inicial = st.Page("pages/pg_inicial.py", title="Home", url_path="home", visibility="hidden")
 enquadramento_planos = st.Page("pages/s1_enquadramento_planos.py", title="Planos", icon=":material/analytics:", url_path="enquadramento-planos")
-enquadramento_fundos = st.Page("pages/s1_enquadramento_fundos.py", title="Fundos", icon=":material/analytics:", url_path="enquadramento-fundos")
+enquadramento_fundos = st.Page("pages/s1_enquadramento_fundos.py", title="Fundos", icon=":material/analytics:", url_path="enquadramento-fundos", visibility="hidden")
 lim_op = st.Page("pages/s1_lim_op.py", title="Limites Operacionais", icon=":material/analytics:", url_path="limites-operacionais")
-risco_planos = st.Page("pages/s2_risco_planos.py", title="Risco Planos", icon=":material/analytics:", url_path="risco-planos")
-risco_ativos = st.Page("pages/s2_risco_ativos.py", title="Risco Ativos", icon=":material/analytics:", url_path="risco-ativos")
-rent = st.Page("pages/s4_rentabilidade.py", title="Rentabilidade", icon=":material/analytics:", url_path="rentabilidade")
-teste = st.Page("pages/p0_teste.py", title="Teste", icon=":material/analytics:", url_path="teste")
+risco_planos = st.Page("pages/s2_risco_planos.py", title="Risco Planos", icon=":material/analytics:", url_path="risco-planos", visibility="hidden")
+risco_ativos = st.Page("pages/s2_risco_ativos.py", title="Risco Ativos", icon=":material/analytics:", url_path="risco-ativos", visibility="hidden")
+rent = st.Page("pages/s4_rentabilidade.py", title="Rentabilidade", icon=":material/analytics:", url_path="rentabilidade", visibility="hidden")
+
 
 current_page = st.navigation(
     {
@@ -37,9 +37,9 @@ current_page = st.navigation(
         "Enquadramento": [enquadramento_planos, enquadramento_fundos, lim_op],
         "Risco": [risco_planos, risco_ativos],
         "Rentabilidade": [rent],
-        "Teste": [teste],
+    
     },
-    position="hidden"
+    position="top"
 )
 
 # ── CONFIG (dinâmico) ─────────────────────────────────────
@@ -48,23 +48,7 @@ current_page = st.navigation(
 st.set_page_config(
     page_title=f"Controle Ceres | {current_page.title}",
     page_icon=icon_img,
-    layout="wide",
-    initial_sidebar_state="collapsed")
+    layout="wide",)
 
-# ── MENU CUSTOMIZADO ──────────────────────────────────────────────────────────
-st.sidebar.markdown("Enquadramento")
-st.sidebar.page_link(enquadramento_planos)
-st.sidebar.page_link(enquadramento_fundos, disabled=True)
-st.sidebar.page_link(lim_op)
-
-st.sidebar.markdown("Risco")
-st.sidebar.page_link(risco_planos, disabled=True)
-st.sidebar.page_link(risco_ativos, disabled=True)
-
-st.sidebar.markdown("Rentabilidade")
-st.sidebar.page_link(rent)
-
-st.sidebar.markdown("Teste")
-st.sidebar.page_link(teste)
 
 current_page.run()
