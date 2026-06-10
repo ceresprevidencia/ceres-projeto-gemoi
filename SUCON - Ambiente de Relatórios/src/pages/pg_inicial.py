@@ -69,7 +69,7 @@ def nav_card(title, description, badges):
         outline: none;
       }}
 
-      /* ==================== BALÃO DE DIÁLOGO (QUADRINHOS) ==================== */
+      /* ==================== BALÃO DE DIÁLOGO  ==================== */
       
       /* Se não houver texto, esconde o balão e a seta */
       .badge[data-tooltip=""]:hover::after, .badge[data-tooltip=""]:focus::after,

@@ -1,58 +1,360 @@
+import pandas as pd
 from datetime import date, timedelta
 
 
-def estilizar_tabela(styled):
-    """Aplica fonte Figtree e estilos visuais ao Styler com a 1ª coluna à esquerda."""
-    
-    # Pegamos o nome da primeira coluna dinamicamente
-    primeira_coluna = styled.data.columns[0]
+# ── FORMATAÇÃO ────────────────────────────────────────────────────────────────
 
-    return styled.set_properties(**{
-        'font-family': 'Figtree, sans-serif',
-        'font-size': '14px',
-        'text-align': 'center',
-        'padding': '8px',
-    }).set_properties(
-        subset=[primeira_coluna], # Aplica apenas na primeira coluna
-        **{'text-align': 'left'}  # Sobrescreve para alinhamento à esquerda
-    ).set_table_styles([
-        {'selector': 'th', 'props': [
-            ('font-family', 'Figtree, sans-serif'),
-            ('font-size', '14px'),
-            ('padding', '8px'),
-            ('background-color', '#016837'),
-            ('color', '#ffffff'),
-            ('border-bottom', '2px solid #014d2a'),
-            ('text-align', 'center'), # Cabeçalhos centralizados por padrão
-        ]},
-        {'selector': 'th:first-child', 'props': [
-            ('border-top-left-radius', '10px'),
-            ('text-align', 'center'), # Alinha o cabeçalho da 1ª coluna à esquerda
-        ]},
-        {'selector': 'th:last-child', 'props': [
-            ('border-top-right-radius', '10px'),
-        ]},
-        {'selector': 'tr:last-child td:first-child', 'props': [
-            ('border-bottom-left-radius', '10px'),
-        ]},
-        {'selector': 'tr:last-child td:last-child', 'props': [
-            ('border-bottom-right-radius', '10px'),
-        ]},
-        {'selector': 'table', 'props': [
-            ('width', '100%'),
-            ('border-collapse', 'separate'),
-            ('border-spacing', '0'),
-            ('border-radius', '10px'),
-            ('overflow', 'hidden'),
-        ]},
-        {'selector': 'td', 'props': [
-            ('border-bottom', '1px solid #eee'),
-            ('transition', 'background-color 0.2s ease'),
-        ]},
-        {'selector': 'tbody tr:hover td', 'props': [
-            ('background-color', 'rgba(1, 104, 55, 0.1)'),
-        ]},
-    ]).hide(axis='index')
+def fmt_br(valor, decimais: int = 2) -> str:
+    """Formata número para o padrão brasileiro (vírgula decimal, ponto de milhar)."""
+    if pd.isna(valor) or valor == "-":
+        return "—"
+    try:
+        # O formatador :.2f força exatamente o número de casas decimais
+        # O formatador , (vírgula) coloca o separador de milhar americano (que trocaremos depois)
+        formatado = f"{float(valor):,.{decimais}f}"
+        return formatado.replace(",", "X").replace(".", ",").replace("X", ".")
+    except (ValueError, TypeError):
+        return "—"
+
+def formatar_percentual_br(valor) -> str:
+    """Formata um percentual para o padrão brasileiro (ex: 12,50%)."""
+    if pd.isna(valor) or valor == "-":
+        return "—"
+    try:
+        # Aqui está o segredo: o :.2f garante as duas casas decimais como texto
+        return f"{float(valor):.2f}".replace('.', ',') + "%"
+    except (ValueError, TypeError):
+        return "—"
+
+# ── NOMES ─────────────────────────────────────────────────────────────────────
+
+# Mapeamento de identificadores internos para nomes amigáveis dos planos
+_NOMES_PLANOS = {
+    "Ceres FlexCeres_CV":    "Ceres FlexCeres",
+    "Epagri Saldado_BD":     "Epagri Saldado",
+    "Epagri Básico_BD":      "Epagri Básico",
+    "Epamig Básico_BD":      "Epamig Básico",
+    "Embrapa FlexCeres_CV":  "Embrapa FlexCeres",
+    "ABDI FlexCeres_CD":     "ABDI FlexCeres",
+    "Cidasc FlexCeres_CV":   "Cidasc FlexCeres",
+    "Epamig FlexCeres_CV":   "Epamig FlexCeres",
+    "Emater DF FlexCeres_CV":"EmaterDF FlexCeres",
+    "Ceres Básico_BD":       "Ceres Básico",
+    "Emater MG Básico_BD":   "EmaterMG Básico",
+    "Família Ceres_CD":      "Família Ceres",
+    "Epagri FlexCeres_CV":   "Epagri FlexCeres",
+    "Embrapa Básico_BD":     "Embrapa Básico",
+    "Emater MG FlexCeres_CV":"EmaterMG FlexCeres",
+    "Epamig Saldado_BD":     "Epamig Saldado",
+    "Emater MG Saldado_BD":  "EmaterMG Saldado",
+    "PGA":                   "PGA",
+    "[CERES TOTAL]":         "Consolidado",
+}
+
+def nome_plano(valor_original: str) -> str:
+    """Extrai a parte após 'Tesouraria=' (se existir) e mapeia para nome amigável."""
+    chave = valor_original.split("=", 1)[-1] if "=" in valor_original else valor_original
+    return _NOMES_PLANOS.get(chave, chave)
+
+
+# ── LIMPEZA DE TEXTO ──────────────────────────────────────────────────────────
+
+def limpar_texto(texto: str) -> str:
+    """Remove o prefixo 'Art. XX - ' de descrições de regras."""
+    return str(texto)[8:] if "Art." in texto else texto
+
+
+def remove_grp(palavra: str) -> str:
+    """Extrai o nome do grupo econômico após 'grupo=' em strings de agregação."""
+    return palavra.split("=")[-1] if "grupo" in palavra.lower() else palavra
+
+
+# ── CSS ───────────────────────────────────────────────────────────────────────
+
+def get_css_responsivo() -> str:
+    """
+    CSS responsivo para o wrapper `.tabela-responsiva`.
+    Deve ser injetado uma vez por página via st.markdown().
+    """
+    return """
+    <style>
+    .tabela-responsiva {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+    .tabela-responsiva table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .tabela-responsiva table td,
+    .tabela-responsiva table th {
+        padding: 12px;
+        text-align: center;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+    @media (max-width: 1200px) {
+        .tabela-responsiva table td,
+        .tabela-responsiva table th { padding: 10px; font-size: 13px; }
+    }
+    @media (max-width: 768px) {
+        .tabela-responsiva { font-size: 11px; }
+        .tabela-responsiva table td,
+        .tabela-responsiva table th { padding: 6px; }
+    }
+    @media (max-width: 480px) {
+        .tabela-responsiva { font-size: 9px; }
+        .tabela-responsiva table td,
+        .tabela-responsiva table th { padding: 4px; }
+    }
+    </style>
+    """
+
+
+# ── TABELA HTML UNIFICADA ─────────────────────────────────────────────────────
+
+# CSS compartilhado entre todas as tabelas HTML do sistema
+_CSS_TABELA = """
+<style>
+    .tabela-custom-wrapper {
+        overflow: hidden;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /* Cabeçalho verde escuro */
+    .th-custom {
+        background-color: #0B2F13;
+        color: #A8EC7D;
+        display: grid;
+        align-items: center;
+        padding-left: 12px;
+    }
+    .th-custom div {
+        padding: 12px;
+        text-align: center;
+        font-family: 'Figtree', sans-serif;
+        font-size: 14px;
+        word-break: break-word;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 43px;
+    }
+    .th-custom div:first-child {
+        justify-content: flex-start;
+        padding-left: 20px;
+        border-top-left-radius: 10px;
+    }
+    
+    /* Modo: borda */
+    .tabela-custom-wrapper.com-borda-inferior .row-custom:last-child {
+        border-bottom: 14px solid #0B2F13;
+    }
+
+    /* Modo: ultima-linha */
+    .tabela-custom-wrapper.ultima-linha-verde .row-custom:last-child {
+        background-color: #0B2F13 !important;
+        border-bottom: none;
+    }
+
+    .tabela-custom-wrapper.ultima-linha-verde .row-custom:last-child:hover {
+        background-color: #0B2F13 !important;
+    }
+
+    .tabela-custom-wrapper.ultima-linha-verde .row-custom:last-child .col-custom {
+        color: #FAFBEB !important;
+        font-weight: 600;
+    }
+
+    /* Linhas de dados */
+    .row-custom {
+        display: grid;
+        align-items: center;
+        background-color: transparent;
+        transition: background-color 0.15s ease;
+        padding-left: 15px;
+    }
+    .row-custom:hover {
+        background-color: rgba(11, 47, 19, 0.04);
+    }
+
+
+    /* Linha destacada (ex: desenquadrado) */
+    .row-custom.destaque {
+        background-color: #ffcccc !important;
+    }
+    .row-custom.destaque:hover {
+        background-color: #ffb3b3 !important;
+    }
+
+    /* Células de dados */
+    .col-custom {
+        padding: 10px 14px;
+        font-family: 'Figtree', sans-serif;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 42px;
+        word-break: break-word;
+    }
+    .col-custom:first-child {
+        justify-content: flex-start;
+        padding-left: 20px;
+        font-weight: normal;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+        .th-custom div, .col-custom {
+            font-size: 11px;
+            padding: 8px;
+            min-height: 35px;
+        }
+        .th-custom div:first-child, .col-custom:first-child {
+            padding-left: 10px;
+        }
+    }
+    @media (max-width: 480px) {
+        .th-custom div, .col-custom {
+            font-size: 9px;
+            padding: 6px;
+            min-height: 30px;
+        }
+    }
+</style>
+"""
+
+
+def gerar_tabela_html(
+    df: pd.DataFrame,
+    nomes_colunas: dict = None,
+    primeira_coluna_larga: bool = True,
+    mask_destaque: pd.Series = None,
+    formatar_valores: bool = True,
+    borda_inferior="borda",
+) -> str:
+
+    """
+    Gera uma tabela HTML no padrão visual do sistema (cabeçalho verde escuro,
+    hover suave, bordas arredondadas).
+
+    Parâmetros
+    ----------
+    df : pd.DataFrame
+        Dados a exibir.
+    nomes_colunas : dict, opcional
+        Mapeamento {coluna_interna: label_exibido}. Se omitido, usa os nomes do df.
+    primeira_coluna_larga : bool
+        Se True, a primeira coluna recebe proporção 2fr; demais, 1fr.
+    mask_destaque : pd.Series (bool), opcional
+        Série booleana alinhada ao índice do df. Linhas True recebem fundo vermelho claro.
+        Use para marcar linhas "Desenquadrado" ou qualquer outro destaque de atenção.
+    formatar_valores : bool
+        Se True, formata automaticamente números com fmt_br(). Desative se os valores
+        já vierem pré-formatados como string.
+
+    borda_inferior : bool
+        Se True, exibe a borda inferior verde na última linha da tabela.
+        Se False, remove essa borda.
+
+    Retorna
+    -------
+    str : HTML completo da tabela, pronto para st.html().
+    """
+    if nomes_colunas is None:
+        nomes_colunas = {col: col for col in df.columns}
+
+    # Monta o grid CSS dinamicamente
+    primeira = "2fr" if primeira_coluna_larga else "1fr"
+    resto    = " ".join(["1fr"] * (len(df.columns) - 1))
+    grid     = f"{primeira} {resto}" if len(df.columns) > 1 else "1fr"
+
+
+
+
+    classe_borda = _classe_borda_inferior(borda_inferior)
+
+    html = _CSS_TABELA
+    html += f'<div class="tabela-custom-wrapper {classe_borda}">'
+
+
+
+    # Cabeçalho
+    html += f'<div class="th-custom" style="grid-template-columns:{grid};">'
+    for col in df.columns:
+        html += f'<div>{nomes_colunas.get(col, col)}</div>'
+    html += '</div>'
+
+    # Linhas
+    for idx, row in df.iterrows():
+        # Aplica classe de destaque se a máscara indicar
+        classe_destaque = ""
+        if mask_destaque is not None and idx in mask_destaque.index and mask_destaque.loc[idx]:
+            classe_destaque = " destaque"
+
+        html += f'<div class="row-custom{classe_destaque}" style="grid-template-columns:{grid};">'
+        for col in df.columns:
+            valor = row[col]
+            if formatar_valores and isinstance(valor, (int, float)) and not pd.isna(valor):
+                col_lower = col.lower()
+                if "r$" in col_lower or "%" in col_lower:
+                    valor_fmt = fmt_br(valor, 2)
+                else:
+                    valor_fmt = f"{valor:.2f}"
+            else:
+                valor_fmt = str(valor) if pd.notna(valor) else "—"
+            html += f'<div class="col-custom">{valor_fmt}</div>'
+        html += '</div>'
+
+    html += '</div>'
+    return html
+
+
+# Aliases de compatibilidade — mantidos para não quebrar chamadas existentes
+def gerar_tabela_estilizada(
+    df,
+    nomes_colunas=None,
+    primeira_coluna_larga=True,
+    borda_inferior="borda",
+) -> str:
+    return gerar_tabela_html(
+        df,
+        nomes_colunas=nomes_colunas,
+        primeira_coluna_larga=primeira_coluna_larga,
+        borda_inferior=borda_inferior,
+    )
+
+def aplicar_destaque(
+    df_exibir: pd.DataFrame,
+    mask_desenquadrado: pd.Series,
+    borda_inferior="borda",
+) -> str:
+    return gerar_tabela_html(
+        df_exibir,
+        mask_destaque=mask_desenquadrado,
+        formatar_valores=False,
+        borda_inferior=borda_inferior,
+    )
+# ── UTILITÁRIOS DE DATA ───────────────────────────────────────────────────────
+
+def primeiro_dia_util(ano: int) -> date:
+    """Retorna o primeiro dia útil do ano, pulando fins de semana e 1º de janeiro."""
+    feriados_fixos = {(1, 1)}
+    dia = date(ano, 1, 1)
+    while True:
+        if dia.weekday() >= 5 or (dia.day, dia.month) in feriados_fixos:
+            dia += timedelta(days=1)
+            continue
+        return dia
+    
+
+
+
+# CSS GLOBAL
 
 def get_css_global():
     """
@@ -110,274 +412,47 @@ def get_css_global():
     """
 
 
-
-def get_css_responsivo():
-    """Retorna o CSS responsivo para tabelas."""
-    return """
-<style>
-.tabela-responsiva {
-    width: 100%;
-    overflow-x: auto;
-    display: block;
+_BORDA_INFERIOR_CLASSES = {
+    "borda": "com-borda-inferior",
+    "sem-borda": "sem-borda-inferior",
+    "ultima-linha": "ultima-linha-verde",
 }
 
-.tabela-responsiva table {
-    width: 100%;
-    border-collapse: collapse;
-}
 
-.tabela-responsiva table td,
-.tabela-responsiva table th {
-    padding: 12px;
-    text-align: center;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    word-break: break-word;
-}
+def _normalizar_borda_inferior(borda_inferior="borda") -> str:
+    if isinstance(borda_inferior, bool):
+        return "borda" if borda_inferior else "sem-borda"
 
-@media (max-width: 1200px) {
-    .tabela-responsiva table td,
-    .tabela-responsiva table th {
-        padding: 10px;
-        font-size: 13px;
-    }
-}
+    if borda_inferior is None:
+        return "borda"
 
-@media (max-width: 768px) {
-    .tabela-responsiva {
-        font-size: 11px;
-    }
-    
-    .tabela-responsiva table td,
-    .tabela-responsiva table th {
-        padding: 6px;
-    }
-}
+    import unicodedata
 
-@media (max-width: 480px) {
-    .tabela-responsiva {
-        font-size: 9px;
-    }
-    
-    .tabela-responsiva table td,
-    .tabela-responsiva table th {
-        padding: 4px;
-    }
-}
-</style>
-"""
-
-def aplicar_destaque(df_exibir, mask_desenquadrado):
-    """Aplica background vermelho nas linhas desenquadradas e estiliza a tabela."""
-    styled = df_exibir.style.apply(
-        lambda row: ["background-color: #ffcccc"] * len(row)
-        if mask_desenquadrado.loc[row.name] else [""] * len(row),
-        axis=1
+    modo = str(borda_inferior).strip().lower()
+    modo = "".join(
+        char for char in unicodedata.normalize("NFKD", modo)
+        if not unicodedata.combining(char)
     )
-    return estilizar_tabela(styled)
+    modo = modo.replace("_", "-").replace(" ", "-")
 
-def remove_grp(palavra):
-    if 'grupo' in palavra.lower():
-        grupo = palavra.split('=')[-1]
-    return grupo      
-
-def limpar_texto(texto):
-    if 'Art.' in texto:
-        return str(texto)[8:]
-    else:
-        return texto
-
-def formatar_percentual_br(valor):
-    if valor is None:
-        return "—"
-    valor_formatado = str(valor).replace('.', ',')
-    return f"{valor_formatado}%"
-
-
-def fmt_br(valor, decimais=2):
-    import pandas as pd
-    """Formata número para padrão brasileiro (vírgula decimal, ponto de milhar)"""
-    if pd.isna(valor):
-        return "—"
-    if decimais == 0:
-        resultado = f"{valor:,.0f}"
-    else:
-        resultado = f"{valor:,.{decimais}f}"
-    # Trocar ponto por vírgula e vice-versa
-    return resultado.replace(",", "X").replace(".", ",").replace("X", ".") 
-
-
-def nome_plano(valor_original):
-    """Extrai a parte após 'Tesouraria=' (se existir) e mapeia para nome amigável."""
-    NOMES_PLANOS = {
-    "Ceres FlexCeres_CV": "Ceres FlexCeres",
-    "Epagri Saldado_BD": "Epagri Saldado",
-    "Epagri Básico_BD": "Epagri Básico",
-    "Epamig Básico_BD": "Epamig Básico",
-    "Embrapa FlexCeres_CV": "Embrapa FlexCeres",
-    "ABDI FlexCeres_CD": "ABDI FlexCeres",
-    "Cidasc FlexCeres_CV": "Cidasc FlexCeres",
-    "Epamig FlexCeres_CV": "Epamig FlexCeres",
-    "Emater DF FlexCeres_CV": "EmaterDF FlexCeres",
-    "Ceres Básico_BD": "Ceres Básico",
-    "Emater MG Básico_BD": "EmaterMG Básico",
-    "Família Ceres_CD": "Família Ceres",
-    "Epagri FlexCeres_CV": "Epagri FlexCeres",
-    "Embrapa Básico_BD": "Embrapa Básico",
-    "Emater MG FlexCeres_CV": "EmaterMG FlexCeres",
-    "Epamig Saldado_BD": "Epamig Saldado",
-    "Emater MG Saldado_BD": "EmaterMG Saldado",
-    "PGA": "PGA",
-    "[CERES TOTAL]": "Consolidado"
-}
-
-    chave = valor_original.split("=", 1)[-1] if "=" in valor_original else valor_original
-    return NOMES_PLANOS.get(chave, chave)
-
-
-def gerar_tabela_estilizada(df, nomes_colunas=None, primeira_coluna_larga=True):
-    import pandas as pd
-
-    if nomes_colunas is None:
-        nomes_colunas = {col: col for col in df.columns}
-
-    num_colunas = len(df.columns)
-    primeira = "2fr" if primeira_coluna_larga else "1fr"
-    resto = " ".join(["1fr"] * (num_colunas - 1))
-    grid = f"{primeira} {resto}" if num_colunas > 1 else "1fr"
-
-    css = """
-    <style>
-        /* ========== CONTAINER EXTERNO DA TABELA ========== */
-        .tabela-custom-wrapper {
-            overflow: hidden;      /* Remove scrollbar da borda */
-            width: 100%;           /* Ocupa toda a largura disponível */
-            border-radius: 10px;   /* Arredonda as pontas (visualmente não aparece) */
-        }
-        
-        /* ========== CABEÇALHO (HEADER) ========== */
-        .th-custom {
-            background-color: #0B2F13;  /* Cor de fundo verde escuro */
-            color: #A8EC7D;             /* Cor do texto verde claro */
-            display: grid;              /* Layout em grid para alinhar colunas */
-            align-items: center;        /* Centraliza verticalmente */
-            flex-shrink: 0;             /* Não diminui de tamanho */
-            padding-left: 12px;         /* Espaço à esquerda do cabeçalho */
-        }
-        
-        /* CÉLULAS DO CABEÇALHO (cada coluna) */
-        .th-custom div {
-            padding: 12px;                        /* Espaço interno das células */
-            text-align: center;                   /* Centraliza texto horizontalmente */
-            font-family: 'Figtree', sans-serif;   /* Fonte customizada */
-            font-size: 14px;                      /* Tamanho da letra */
-            word-wrap: break-word;                /* Quebra palavras longas */
-            overflow-wrap: break-word;           /* Alternativa para quebra de palavras */
-            word-break: break-word;               /* Quebra no meio da palavra se necessário */
-            display: flex;                        /* Layout flexível */
-            align-items: center;                  /* Centraliza verticalmente */
-            justify-content: center;              /* Centraliza horizontalmente */
-            min-height: 43px;                     /* Altura mínima da célula */
-        }
-        
-        /* PRIMEIRA COLUNA DO CABEÇALHO */
-        .th-custom div:first-child {
-            justify-content: flex-start;  /* Alinha à esquerda */
-            padding-left: 20px;           /* Espaço maior à esquerda */
-        }
-        
-        /* ========== LINHAS DE DADOS ========== */
-        .row-custom {
-            display: grid;                           /* Layout em grid para alinhar colunas */
-            align-items: center;                     /* Centraliza verticalmente */
-            background-color: transparent;          /* Sem cor de fundo */
-            transition: background-color 0.15s ease;/* Transição suave ao hover */
-            padding-left: 15px;
-            
-        }
-        
-        /* EFEITO HOVER (quando passa mouse em uma linha) */
-        .row-custom:hover {
-            background-color: rgba(11, 47, 19, 0.04);  /* Cor verde muito suave (quase branco) */
-        }
-        
-        /* ÚLTIMA LINHA (com borda verde escuro) */
-        .row-custom:last-child {
-            border-bottom: 14px solid #0B2F13;  /* Borda verde escuro proporcional à tabela */
-        }
-        
-        /* ========== CÉLULAS DE DADOS ========== */
-        .col-custom {
-            padding: 10px 14px;                       /* Espaço interno: 10px acima/abaixo, 14px esquerda/direita */
-            font-family: 'Figtree', sans-serif;       /* Fonte customizada */
-            font-size: 13px;                          /* Tamanho da letra */
-            display: flex;                            /* Layout flexível */
-            align-items: center;                      /* Centraliza verticalmente */
-            justify-content: center;                  /* Centraliza horizontalmente */
-            min-height: 42px;                         /* Altura mínima */
-            word-break: break-word;                   /* Quebra palavras longas */
-        }
-        
-        /* PRIMEIRA COLUNA DE DADOS */
-        .col-custom:first-child {
-            justify-content: flex-start;  /* Alinha à esquerda */
-            padding-left: 20px;           /* Espaço maior à esquerda */
-            font-weight: normal;          /* Peso normal (não negrito) */
-        }
-        
-        /* ========== RESPONSIVIDADE - TELAS PEQUENAS (768px ou menos) ========== */
-        @media (max-width: 768px) {
-            .th-custom div, .col-custom {
-                font-size: 11px;          /* Fonte menor em telas pequenas */
-                padding: 8px;             /* Padding menor */
-                min-height: 35px;         /* Altura menor */
-            }
-            .th-custom div:first-child, .col-custom:first-child {
-                padding-left: 10px;       /* Padding menor na primeira coluna */
-            }
-        }
-    </style>
-    """
-
-    html = css
-    html += '<div class="tabela-custom-wrapper">'
-
-    # Cabeçalho
-    html += f'<div class="th-custom" style="grid-template-columns:{grid};">'
-    for col in df.columns:
-        html += f'<div>{nomes_colunas.get(col, col)}</div>'
-    html += '</div>'
-
-    # Linhas
-    for _, row in df.iterrows():
-        html += f'<div class="row-custom" style="grid-template-columns:{grid};">'
-        for col in df.columns:
-            valor = row[col]
-            if isinstance(valor, (int, float)) and not pd.isna(valor):
-                col_lower = col.lower()
-                if 'r$' in col_lower or '%' in col_lower:
-                    valor_fmt = fmt_br(valor, 2)
-                else:
-                    valor_fmt = f"{valor:.2f}"
-            else:
-                valor_fmt = str(valor) if pd.notna(valor) else "—"
-            html += f'<div class="col-custom">{valor_fmt}</div>'
-        html += '</div>'
-
-    html += '</div>'
-    return html
-
-
-def primeiro_dia_util(ano: int) -> date:
-    feriados_fixos = {
-        (1, 1),   
+    aliases = {
+        "com-borda": "borda",
+        "com-borda-inferior": "borda",
+        "sem-borda-inferior": "sem-borda",
+        "ultima": "ultima-linha",
+        "ultima-linha-da-tabela": "ultima-linha",
+        "ultima-linha-verde": "ultima-linha",
     }
-    dia = date(ano, 1, 1)
-    while True:
-        if dia.weekday() >= 5:         
-            dia += timedelta(days=1)
-            continue
-        if (dia.day, dia.month) in feriados_fixos:
-            dia += timedelta(days=1)
-            continue
-        return dia
+
+    modo = aliases.get(modo, modo)
+
+    if modo not in _BORDA_INFERIOR_CLASSES:
+        opcoes = "borda, sem-borda, ultima-linha"
+        raise ValueError(f"borda_inferior deve ser uma das opções: {opcoes}.")
+
+    return modo
+
+
+def _classe_borda_inferior(borda_inferior="borda") -> str:
+    modo = _normalizar_borda_inferior(borda_inferior)
+    return _BORDA_INFERIOR_CLASSES[modo]
