@@ -169,7 +169,7 @@ def formatar_data(valor) -> str:
 
 # ── DADOS ─────────────────────────────────────────────────────────────────────
 
-@st.cache_data(ttl=21600, show_time=True)
+@st.cache_data(ttl='1h', show_time=True)
 def load_data() -> pd.DataFrame:
     """Carrega e cacheia os dados de limites operacionais por 6 horas."""
     return buscar_dados()

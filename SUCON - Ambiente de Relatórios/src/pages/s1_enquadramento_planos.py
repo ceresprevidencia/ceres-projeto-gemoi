@@ -128,7 +128,7 @@ if "pills_desenq" not in st.session_state:
 
 # ── DADOS ─────────────────────────────────────────────────────────────────────
 
-@st.cache_data(ttl=3600, show_time=True)
+@st.cache_data(ttl='1h', show_time=True)
 def carregar_dados() -> pd.DataFrame:
     """Carrega e cacheia o DataFrame principal por 1 hora."""
     return buscar_dados()
