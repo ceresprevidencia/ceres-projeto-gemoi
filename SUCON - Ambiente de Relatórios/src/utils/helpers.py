@@ -1,6 +1,6 @@
 import pandas as pd
 from datetime import date, timedelta
-
+import streamlit as st
 
 # ── FORMATAÇÃO ────────────────────────────────────────────────────────────────
 
@@ -456,3 +456,531 @@ def _normalizar_borda_inferior(borda_inferior="borda") -> str:
 def _classe_borda_inferior(borda_inferior="borda") -> str:
     modo = _normalizar_borda_inferior(borda_inferior)
     return _BORDA_INFERIOR_CLASSES[modo]
+
+def card_geral(titulo: str, valor: str, delta: str = None, help: str = None):
+    """
+    Renderiza um card de métrica seguindo o Manual de Marca Ceres.
+    O delta e o help são opcionais. Se 'help' for informado, exibe um
+    ícone 'i' no canto superior direito com tooltip ao passar o mouse.
+    """
+
+    # 1. Lógica do Delta Opcional
+    delta_html = ""
+    if delta:
+        numero_delta = float(delta.replace(',', '.').replace('%', '').strip())
+
+        if numero_delta > 0:
+            cor_delta = "#016837"
+            fundo_delta = "rgba(1, 104, 55, 0.12)"
+            texto_delta = f"↑{delta}"
+        elif numero_delta < 0:
+            cor_delta = "#c0392b"
+            fundo_delta = "rgba(192, 57, 43, 0.12)"
+            texto_delta = f"↓{delta}"
+        else:
+            cor_delta = "#5a5a5a"
+            fundo_delta = "rgba(90, 90, 90, 0.12)"
+            texto_delta = delta
+
+        delta_html = (
+            f'<div style="display:inline-block; background-color:transparent; '
+            f'color:{cor_delta}; font-size:12px; font-weight:400; '
+           
+            f'font-family: \'Figtree\', sans-serif;">{texto_delta}</div>'
+        )
+
+    # 2. Lógica do ícone de help (opcional)
+    help_html = ""
+    if help:
+        help_html = f"""
+        <div class="meu-card-help">
+            ℹ
+            <span class="meu-card-tooltip">{help}</span>
+        </div>
+        """
+
+    html_final = f"""
+    <style>
+        .meu-card-custom {{
+            background-color: rgba(219, 208, 178, 0.14);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 6px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease-in-out;
+            text-align: left;
+            position: relative;
+        }}
+        .meu-card-custom:hover {{
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+        }}
+        .meu-card-help {{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 1.5px solid #0B2F13;
+            color: #0B2F13;
+            font-size: 11px;
+            font-weight: 700;
+            font-style: italic;
+            font-family: 'Figtree', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }}
+        .meu-card-tooltip {{
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 130%;
+            right: 0;
+            background-color: #0B2F13;
+            color: #FAFBEB;
+            text-align: left;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            font-style: normal;
+            font-family: 'Figtree', sans-serif;
+            white-space: normal;
+            width: 200px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.2s ease-in-out;
+            z-index: 999;
+        }}
+        .meu-card-help:hover .meu-card-tooltip {{
+            visibility: visible;
+            opacity: 1;
+        }}
+    </style>
+    <div class="meu-card-container">
+        <div class="meu-card-custom">
+            {help_html}
+            <span style="color:#5a5a5a; font-size:16px;
+                         padding:2px 8px; border-radius:6px; font-weight:900; display:inline-block;
+                         font-family: 'Figtree', sans-serif;">
+                {titulo}
+            </span>
+            <div style="color: #0b2f13; font-size: 30px; font-weight: 900;
+                        margin-top: 8px; font-family: 'Figtree', sans-serif; text-align: center;">
+                {valor}
+            <span style="font-size: 12px; font-weight: 400; margin-left: 8px;">
+                {delta_html}
+            </span>
+            </div>
+        </div>
+    </div>
+    """
+
+    st.html(html_final)
+
+
+
+
+def formatar_numero(valor: float, prefixo: str = "", sufixo: str = "", decimais: int = 2) -> str:
+    """
+    Formata um número grande em formato abreviado: Mil, Mi (milhão) ou Bi (bilhão).
+
+    Exemplos:
+        formatar_numero(1_500_000_000) -> "1.5 Bi"
+        formatar_numero(2_300_000)     -> "2.3 Mi"
+        formatar_numero(8_400)         -> "8.4 Mil"
+        formatar_numero(950)           -> "950"
+        formatar_numero(1_500_000, prefixo="R$ ") -> "R$ 1.5 Mi"
+    """
+    valor_abs = abs(valor)
+    sinal = "-" if valor < 0 else ""
+
+    if valor_abs >= 1_000_000_000:
+        numero = valor_abs / 1_000_000_000
+        unidade = " Bi"
+    elif valor_abs >= 1_000_000:
+        numero = valor_abs / 1_000_000
+        unidade = " Mi"
+    elif valor_abs >= 1_000:
+        numero = valor_abs / 1_000
+        unidade = " Mil"
+    else:
+        numero = valor_abs
+        unidade = ""
+
+    texto_numero = f"{numero:.{decimais}f}".rstrip("0").rstrip(".")
+    if texto_numero == "" or texto_numero == "-":
+        texto_numero = "0"
+    texto_numero = texto_numero.replace(".", ",")  # padrão numérico brasileiro
+
+    return f"{sinal}{prefixo}{texto_numero}{unidade}{sufixo}"
+
+
+import streamlit as st
+import math
+
+
+def _parse_percentual(valor):
+    """
+    Aceita valores como:
+    0.085
+    8.5
+    "8,5%"
+    "8.5%"
+    """
+    if isinstance(valor, str):
+        valor = valor.replace('%', '').replace(',', '.').strip()
+        valor = float(valor)
+
+    valor = float(valor)
+
+    # Se vier como 0.085, entende como 8,5%
+    if abs(valor) <= 1:
+        valor = valor * 100
+
+    return valor
+
+
+def card_rentabilidade_meta(
+    titulo: str,
+    rentabilidade_atual,
+    rentabilidade_alvo,
+    tipo: str = "barra",
+    help: str = None,
+    mostrar_status: bool = True
+):
+    """
+    Renderiza um card de acompanhamento de rentabilidade versus meta.
+
+    Parâmetros:
+    - titulo: título do card
+    - rentabilidade_atual: rentabilidade atual. Ex: 8.5, "8,5%" ou 0.085
+    - rentabilidade_alvo: rentabilidade alvo. Ex: 10, "10%" ou 0.10
+    - tipo: "barra" ou "velocimetro"
+    - help: tooltip opcional
+    - mostrar_status: exibe texto de atingimento da meta
+    """
+
+    atual = _parse_percentual(rentabilidade_atual)
+    alvo = _parse_percentual(rentabilidade_alvo)
+
+    if alvo == 0:
+        percentual_meta = 0
+    else:
+        percentual_meta = atual / alvo
+
+    percentual_meta_exibicao = percentual_meta * 100
+    percentual_barra = max(0, min(percentual_meta_exibicao, 100))
+
+    atual_fmt = f"{atual:.2f}%".replace('.', ',')
+    alvo_fmt = f"{alvo:.2f}%".replace('.', ',')
+    atingimento_fmt = f"{percentual_meta_exibicao:.1f}%".replace('.', ',')
+
+    if percentual_meta >= 1:
+        cor_principal = "#016837"
+        cor_fundo = "rgba(1, 104, 55, 0.14)"
+        status = "Meta atingida"
+    elif percentual_meta >= 0.85:
+        cor_principal = "#B7791F"
+        cor_fundo = "rgba(183, 121, 31, 0.14)"
+        status = "Próximo da meta"
+    else:
+        cor_principal = "#c0392b"
+        cor_fundo = "rgba(192, 57, 43, 0.14)"
+        status = "Abaixo da meta"
+
+    help_html = ""
+    if help:
+        help_html = f"""
+        <div class="rent-card-help">
+            ℹ
+            <span class="rent-card-tooltip">{help}</span>
+        </div>
+        """
+
+    status_html = ""
+    if mostrar_status:
+        status_html = f"""
+        <div class="rent-status" style="color:{cor_principal}; background-color:{cor_fundo};">
+            {status} · {atingimento_fmt} do alvo
+        </div>
+        """
+
+    if tipo.lower() == "velocimetro":
+        # Escala visual: até 130% da meta para permitir ultrapassar o alvo.
+        escala_max = max(alvo * 1.30, atual, 1)
+        proporcao_gauge = max(0, min(atual / escala_max, 1))
+
+        # Ângulo do ponteiro no semicírculo: 180 graus à esquerda, 0 graus à direita
+        angulo = 180 - (proporcao_gauge * 180)
+        rad = math.radians(angulo)
+
+        cx, cy, r = 130, 118, 82
+        x2 = cx + r * math.cos(rad)
+        y2 = cy - r * math.sin(rad)
+
+        # Marcador da meta
+        proporcao_alvo = max(0, min(alvo / escala_max, 1))
+        angulo_alvo = 180 - (proporcao_alvo * 180)
+        rad_alvo = math.radians(angulo_alvo)
+
+        x_meta_1 = cx + (r - 10) * math.cos(rad_alvo)
+        y_meta_1 = cy - (r - 10) * math.sin(rad_alvo)
+        x_meta_2 = cx + (r + 8) * math.cos(rad_alvo)
+        y_meta_2 = cy - (r + 8) * math.sin(rad_alvo)
+
+        grafico_html = f"""
+        <div class="rent-gauge-area">
+            <svg width="260" height="150" viewBox="0 0 260 150">
+                <path d="M 48 118 A 82 82 0 0 1 212 118"
+                      fill="none"
+                      stroke="rgba(90, 90, 90, 0.16)"
+                      stroke-width="18"
+                      stroke-linecap="round"/>
+
+                <path d="M 48 118 A 82 82 0 0 1 212 118"
+                      fill="none"
+                      stroke="{cor_principal}"
+                      stroke-width="18"
+                      stroke-linecap="round"
+                      stroke-dasharray="{proporcao_gauge * 258} 258"/>
+
+                <line x1="{x_meta_1:.2f}" y1="{y_meta_1:.2f}"
+                      x2="{x_meta_2:.2f}" y2="{y_meta_2:.2f}"
+                      stroke="#0B2F13"
+                      stroke-width="3"
+                      stroke-linecap="round"/>
+
+                <line x1="{cx}" y1="{cy}"
+                      x2="{x2:.2f}" y2="{y2:.2f}"
+                      stroke="#0B2F13"
+                      stroke-width="4"
+                      stroke-linecap="round"/>
+
+                <circle cx="{cx}" cy="{cy}" r="7" fill="#0B2F13"/>
+
+                <text x="48" y="143" text-anchor="middle"
+                      font-size="11" fill="#5a5a5a"
+                      font-family="Figtree, sans-serif">0%</text>
+
+                <text x="212" y="143" text-anchor="middle"
+                      font-size="11" fill="#5a5a5a"
+                      font-family="Figtree, sans-serif">{escala_max:.1f}%</text>
+
+                <text x="{x_meta_2:.2f}" y="{y_meta_2 - 8:.2f}"
+                      text-anchor="middle"
+                      font-size="10" fill="#0B2F13"
+                      font-weight="700"
+                      font-family="Figtree, sans-serif">Meta</text>
+            </svg>
+        </div>
+        """
+
+    else:
+        grafico_html = f"""
+        <div class="rent-bar-area">
+            <div class="rent-bar-labels">
+                <span>Atual: <strong>{atual_fmt}</strong></span>
+                <span>Alvo: <strong>{alvo_fmt}</strong></span>
+            </div>
+
+            <div class="rent-bar-track">
+                <div class="rent-bar-fill"
+                     style="width:{percentual_barra:.2f}%; background-color:{cor_principal};">
+                </div>
+                <div class="rent-bar-target"></div>
+            </div>
+
+            <div class="rent-bar-footer">
+                <span>0%</span>
+                <span>100% da meta</span>
+            </div>
+        </div>
+        """
+
+    html_final = f"""
+    <style>
+        .rent-card-custom {{
+            background-color: rgba(219, 208, 178, 0.14);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 6px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease-in-out;
+            text-align: left;
+            position: relative;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .rent-card-custom:hover {{
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+        }}
+
+        .rent-card-title {{
+            color: #5a5a5a;
+            font-size: 16px;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-weight: 900;
+            display: inline-block;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .rent-card-help {{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 1.5px solid #0B2F13;
+            color: #0B2F13;
+            font-size: 11px;
+            font-weight: 700;
+            font-style: italic;
+            font-family: 'Figtree', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }}
+
+        .rent-card-tooltip {{
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 130%;
+            right: 0;
+            background-color: #0B2F13;
+            color: #FAFBEB;
+            text-align: left;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            font-style: normal;
+            font-family: 'Figtree', sans-serif;
+            white-space: normal;
+            width: 220px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.2s ease-in-out;
+            z-index: 999;
+        }}
+
+        .rent-card-help:hover .rent-card-tooltip {{
+            visibility: visible;
+            opacity: 1;
+        }}
+
+        .rent-main-value {{
+            color: #0B2F13;
+            font-size: 30px;
+            font-weight: 900;
+            margin-top: 8px;
+            font-family: 'Figtree', sans-serif;
+            text-align: center;
+        }}
+
+        .rent-sub-value {{
+            color: #5a5a5a;
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+            margin-top: -2px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .rent-status {{
+            display: table;
+            margin: 10px auto 2px auto;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 700;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .rent-bar-area {{
+            margin-top: 14px;
+        }}
+
+        .rent-bar-labels {{
+            display: flex;
+            justify-content: space-between;
+            color: #5a5a5a;
+            font-size: 12px;
+            margin-bottom: 6px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .rent-bar-track {{
+            position: relative;
+            width: 100%;
+            height: 14px;
+            background-color: rgba(90, 90, 90, 0.16);
+            border-radius: 999px;
+            overflow: hidden;
+        }}
+
+        .rent-bar-fill {{
+            height: 100%;
+            border-radius: 999px;
+            transition: width 0.4s ease-in-out;
+        }}
+
+        .rent-bar-target {{
+            position: absolute;
+            right: 0;
+            top: -3px;
+            height: 20px;
+            width: 3px;
+            background-color: #0B2F13;
+            border-radius: 3px;
+        }}
+
+        .rent-bar-footer {{
+            display: flex;
+            justify-content: space-between;
+            color: #5a5a5a;
+            font-size: 11px;
+            margin-top: 5px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .rent-gauge-area {{
+            display: flex;
+            justify-content: center;
+            margin-top: 6px;
+            margin-bottom: -4px;
+        }}
+    </style>
+
+    <div class="rent-card-container">
+        <div class="rent-card-custom">
+            {help_html}
+
+            <span class="rent-card-title">
+                {titulo}
+            </span>
+
+            <div class="rent-main-value">
+                {atual_fmt}
+            </div>
+
+            <div class="rent-sub-value">
+                Alvo: {alvo_fmt}
+            </div>
+
+            {grafico_html}
+
+            {status_html}
+        </div>
+    </div>
+    """
+
+    st.html(html_final)
