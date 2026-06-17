@@ -236,108 +236,154 @@ def gerar_tabela_html(
     mask_destaque: pd.Series = None,
     formatar_valores: bool = True,
     borda_inferior="borda",
+    rolagem: bool = False,
+    altura_max: str = "420px",
 ) -> str:
-
     """
-    Gera uma tabela HTML no padrão visual do sistema (cabeçalho verde escuro,
-    hover suave, bordas arredondadas).
+    Gera uma tabela HTML no padrão visual do sistema.
 
-    Parâmetros
-    ----------
-    df : pd.DataFrame
-        Dados a exibir.
-    nomes_colunas : dict, opcional
-        Mapeamento {coluna_interna: label_exibido}. Se omitido, usa os nomes do df.
-    primeira_coluna_larga : bool
-        Se True, a primeira coluna recebe proporção 2fr; demais, 1fr.
-    mask_destaque : pd.Series (bool), opcional
-        Série booleana alinhada ao índice do df. Linhas True recebem fundo vermelho claro.
-        Use para marcar linhas "Desenquadrado" ou qualquer outro destaque de atenção.
-    formatar_valores : bool
-        Se True, formata automaticamente números com fmt_br(). Desative se os valores
-        já vierem pré-formatados como string.
+    Quando rolagem=False:
+        - tabela fica expandida conforme o tamanho dos dados.
 
-    borda_inferior : bool
-        Se True, exibe a borda inferior verde na última linha da tabela.
-        Se False, remove essa borda.
-
-    Retorna
-    -------
-    str : HTML completo da tabela, pronto para st.html().
+    Quando rolagem=True:
+        - corpo da tabela recebe barra de rolagem;
+        - cabeçalho fica congelado;
+        - borda inferior fica congelada.
     """
+
     if nomes_colunas is None:
         nomes_colunas = {col: col for col in df.columns}
 
-    # Monta o grid CSS dinamicamente
     primeira = "2fr" if primeira_coluna_larga else "1fr"
-    resto    = " ".join(["1fr"] * (len(df.columns) - 1))
-    grid     = f"{primeira} {resto}" if len(df.columns) > 1 else "1fr"
-
-
-
+    resto = " ".join(["1fr"] * (len(df.columns) - 1))
+    grid = f"{primeira} {resto}" if len(df.columns) > 1 else "1fr"
 
     classe_borda = _classe_borda_inferior(borda_inferior)
 
     html = _CSS_TABELA
+
+    html += """
+    <style>
+        .tabela-scroll-body {
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        .tabela-scroll-body::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .tabela-scroll-body::-webkit-scrollbar-track {
+            background: rgba(219, 208, 178, 0.20);
+            border-radius: 999px;
+        }
+
+        .tabela-scroll-body::-webkit-scrollbar-thumb {
+            background: rgba(11, 47, 19, 0.35);
+            border-radius: 999px;
+        }
+
+        .tabela-scroll-body::-webkit-scrollbar-thumb:hover {
+            background: rgba(11, 47, 19, 0.55);
+        }
+
+        .tabela-borda-final {
+            height: 4px;
+            background-color: #0B2F13;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .tabela-sem-borda-final {
+            height: 0;
+            background-color: transparent;
+        }
+    </style>
+    """
+
+    # Wrapper principal
     html += f'<div class="tabela-custom-wrapper {classe_borda}">'
 
-
-
-    # Cabeçalho
+    # Cabeçalho fora da área rolável
     html += f'<div class="th-custom" style="grid-template-columns:{grid};">'
     for col in df.columns:
         html += f'<div>{nomes_colunas.get(col, col)}</div>'
     html += '</div>'
 
+    # Corpo com ou sem rolagem
+    if rolagem:
+        html += f'<div class="tabela-scroll-body" style="max-height:{altura_max};">'
+    else:
+        html += '<div>'
+
     # Linhas
     for idx, row in df.iterrows():
-        # Aplica classe de destaque se a máscara indicar
         classe_destaque = ""
         if mask_destaque is not None and idx in mask_destaque.index and mask_destaque.loc[idx]:
             classe_destaque = " destaque"
 
         html += f'<div class="row-custom{classe_destaque}" style="grid-template-columns:{grid};">'
+
         for col in df.columns:
             valor = row[col]
+
             if formatar_valores and isinstance(valor, (int, float)) and not pd.isna(valor):
                 col_lower = col.lower()
+
                 if "r$" in col_lower or "%" in col_lower:
                     valor_fmt = fmt_br(valor, 2)
                 else:
                     valor_fmt = f"{valor:.2f}"
             else:
                 valor_fmt = str(valor) if pd.notna(valor) else "—"
+
             html += f'<div class="col-custom">{valor_fmt}</div>'
+
         html += '</div>'
 
-    html += '</div>'
+    html += '</div>'  # fecha corpo
+
+    # Borda inferior congelada
+    if borda_inferior == "borda":
+        html += '<div class="tabela-borda-final"></div>'
+    else:
+        html += '<div class="tabela-sem-borda-final"></div>'
+
+    html += '</div>'  # fecha wrapper
+
     return html
 
-
-# Aliases de compatibilidade — mantidos para não quebrar chamadas existentes
 def gerar_tabela_estilizada(
     df,
     nomes_colunas=None,
     primeira_coluna_larga=True,
     borda_inferior="borda",
+    rolagem: bool = False,
+    altura_max: str = "420px",
 ) -> str:
     return gerar_tabela_html(
         df,
         nomes_colunas=nomes_colunas,
         primeira_coluna_larga=primeira_coluna_larga,
         borda_inferior=borda_inferior,
+        rolagem=rolagem,
+        altura_max=altura_max,
     )
+
 
 def aplicar_destaque(
     df_exibir: pd.DataFrame,
     mask_desenquadrado: pd.Series,
     borda_inferior="borda",
+    rolagem: bool = False,
+    altura_max: str = "420px",
 ) -> str:
     return gerar_tabela_html(
         df_exibir,
         mask_destaque=mask_desenquadrado,
         formatar_valores=False,
         borda_inferior=borda_inferior,
+        rolagem=rolagem,
+        altura_max=altura_max,
     )
 # ── UTILITÁRIOS DE DATA ───────────────────────────────────────────────────────
 
@@ -619,7 +665,6 @@ def formatar_numero(valor: float, prefixo: str = "", sufixo: str = "", decimais:
     return f"{sinal}{prefixo}{texto_numero}{unidade}{sufixo}"
 
 
-import streamlit as st
 import math
 
 
@@ -643,54 +688,50 @@ def _parse_percentual(valor):
 
     return valor
 
-
 def card_rentabilidade_meta(
     titulo: str,
     rentabilidade_atual,
     rentabilidade_alvo,
-    tipo: str = "barra",
-    help: str = None,
-    mostrar_status: bool = True
+    help: str = None
 ):
     """
     Renderiza um card de acompanhamento de rentabilidade versus meta.
-
-    Parâmetros:
-    - titulo: título do card
-    - rentabilidade_atual: rentabilidade atual. Ex: 8.5, "8,5%" ou 0.085
-    - rentabilidade_alvo: rentabilidade alvo. Ex: 10, "10%" ou 0.10
-    - tipo: "barra" ou "velocimetro"
-    - help: tooltip opcional
-    - mostrar_status: exibe texto de atingimento da meta
+    Versão enxuta com barra de progresso.
     """
 
     atual = _parse_percentual(rentabilidade_atual)
     alvo = _parse_percentual(rentabilidade_alvo)
 
-    if alvo == 0:
-        percentual_meta = 0
-    else:
-        percentual_meta = atual / alvo
-
+    percentual_meta = 0 if alvo == 0 else atual / alvo
     percentual_meta_exibicao = percentual_meta * 100
     percentual_barra = max(0, min(percentual_meta_exibicao, 100))
 
     atual_fmt = f"{atual:.2f}%".replace('.', ',')
     alvo_fmt = f"{alvo:.2f}%".replace('.', ',')
-    atingimento_fmt = f"{percentual_meta_exibicao:.1f}%".replace('.', ',')
+    avanco_fmt = f"{percentual_meta_exibicao:.1f}%".replace('.', ',')
 
-    if percentual_meta >= 1:
+    if percentual_meta >= 1.00:
         cor_principal = "#016837"
-        cor_fundo = "rgba(1, 104, 55, 0.14)"
-        status = "Meta atingida"
-    elif percentual_meta >= 0.85:
+    elif percentual_meta >= 0.90:
+        cor_principal = "#2E7D32"
+    elif percentual_meta >= 0.80:
+        cor_principal = "#558B2F"
+    elif percentual_meta >= 0.70:
+        cor_principal = "#827717"
+    elif percentual_meta >= 0.60:
         cor_principal = "#B7791F"
-        cor_fundo = "rgba(183, 121, 31, 0.14)"
-        status = "Próximo da meta"
+    elif percentual_meta >= 0.50:
+        cor_principal = "#C98A1A"
+    elif percentual_meta >= 0.40:
+        cor_principal = "#D97706"
+    elif percentual_meta >= 0.30:
+        cor_principal = "#C05621"
+    elif percentual_meta >= 0.20:
+        cor_principal = "#B83227"
+    elif percentual_meta >= 0.10:
+        cor_principal = "#A93226"
     else:
         cor_principal = "#c0392b"
-        cor_fundo = "rgba(192, 57, 43, 0.14)"
-        status = "Abaixo da meta"
 
     help_html = ""
     if help:
@@ -698,106 +739,6 @@ def card_rentabilidade_meta(
         <div class="rent-card-help">
             ℹ
             <span class="rent-card-tooltip">{help}</span>
-        </div>
-        """
-
-    status_html = ""
-    if mostrar_status:
-        status_html = f"""
-        <div class="rent-status" style="color:{cor_principal}; background-color:{cor_fundo};">
-            {status} · {atingimento_fmt} do alvo
-        </div>
-        """
-
-    if tipo.lower() == "velocimetro":
-        # Escala visual: até 130% da meta para permitir ultrapassar o alvo.
-        escala_max = max(alvo * 1.30, atual, 1)
-        proporcao_gauge = max(0, min(atual / escala_max, 1))
-
-        # Ângulo do ponteiro no semicírculo: 180 graus à esquerda, 0 graus à direita
-        angulo = 180 - (proporcao_gauge * 180)
-        rad = math.radians(angulo)
-
-        cx, cy, r = 130, 118, 82
-        x2 = cx + r * math.cos(rad)
-        y2 = cy - r * math.sin(rad)
-
-        # Marcador da meta
-        proporcao_alvo = max(0, min(alvo / escala_max, 1))
-        angulo_alvo = 180 - (proporcao_alvo * 180)
-        rad_alvo = math.radians(angulo_alvo)
-
-        x_meta_1 = cx + (r - 10) * math.cos(rad_alvo)
-        y_meta_1 = cy - (r - 10) * math.sin(rad_alvo)
-        x_meta_2 = cx + (r + 8) * math.cos(rad_alvo)
-        y_meta_2 = cy - (r + 8) * math.sin(rad_alvo)
-
-        grafico_html = f"""
-        <div class="rent-gauge-area">
-            <svg width="260" height="150" viewBox="0 0 260 150">
-                <path d="M 48 118 A 82 82 0 0 1 212 118"
-                      fill="none"
-                      stroke="rgba(90, 90, 90, 0.16)"
-                      stroke-width="18"
-                      stroke-linecap="round"/>
-
-                <path d="M 48 118 A 82 82 0 0 1 212 118"
-                      fill="none"
-                      stroke="{cor_principal}"
-                      stroke-width="18"
-                      stroke-linecap="round"
-                      stroke-dasharray="{proporcao_gauge * 258} 258"/>
-
-                <line x1="{x_meta_1:.2f}" y1="{y_meta_1:.2f}"
-                      x2="{x_meta_2:.2f}" y2="{y_meta_2:.2f}"
-                      stroke="#0B2F13"
-                      stroke-width="3"
-                      stroke-linecap="round"/>
-
-                <line x1="{cx}" y1="{cy}"
-                      x2="{x2:.2f}" y2="{y2:.2f}"
-                      stroke="#0B2F13"
-                      stroke-width="4"
-                      stroke-linecap="round"/>
-
-                <circle cx="{cx}" cy="{cy}" r="7" fill="#0B2F13"/>
-
-                <text x="48" y="143" text-anchor="middle"
-                      font-size="11" fill="#5a5a5a"
-                      font-family="Figtree, sans-serif">0%</text>
-
-                <text x="212" y="143" text-anchor="middle"
-                      font-size="11" fill="#5a5a5a"
-                      font-family="Figtree, sans-serif">{escala_max:.1f}%</text>
-
-                <text x="{x_meta_2:.2f}" y="{y_meta_2 - 8:.2f}"
-                      text-anchor="middle"
-                      font-size="10" fill="#0B2F13"
-                      font-weight="700"
-                      font-family="Figtree, sans-serif">Meta</text>
-            </svg>
-        </div>
-        """
-
-    else:
-        grafico_html = f"""
-        <div class="rent-bar-area">
-            <div class="rent-bar-labels">
-                <span>Atual: <strong>{atual_fmt}</strong></span>
-                <span>Alvo: <strong>{alvo_fmt}</strong></span>
-            </div>
-
-            <div class="rent-bar-track">
-                <div class="rent-bar-fill"
-                     style="width:{percentual_barra:.2f}%; background-color:{cor_principal};">
-                </div>
-                <div class="rent-bar-target"></div>
-            </div>
-
-            <div class="rent-bar-footer">
-                <span>0%</span>
-                <span>100% da meta</span>
-            </div>
         </div>
         """
 
@@ -877,45 +818,52 @@ def card_rentabilidade_meta(
             opacity: 1;
         }}
 
+        .rent-values-row {{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 12px;
+            margin-top: 12px;
+            margin-bottom: 8px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .rent-value-box {{
+            display: flex;
+            flex-direction: column;
+            line-height: 1.05;
+        }}
+
+        .rent-value-box.right {{
+            text-align: right;
+        }}
+
+        .rent-value-label {{
+            color: #5a5a5a;
+            font-size: 11px;
+            font-weight: 400;
+            margin-bottom: 3px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
         .rent-main-value {{
             color: #0B2F13;
             font-size: 30px;
             font-weight: 900;
-            margin-top: 8px;
             font-family: 'Figtree', sans-serif;
-            text-align: center;
+            white-space: nowrap;
         }}
 
-        .rent-sub-value {{
+        .rent-target-value {{
             color: #5a5a5a;
-            font-size: 12px;
-            font-weight: 500;
-            text-align: center;
-            margin-top: -2px;
+            font-size: 16px;
+            font-weight: 600;
             font-family: 'Figtree', sans-serif;
-        }}
-
-        .rent-status {{
-            display: table;
-            margin: 10px auto 2px auto;
-            padding: 4px 10px;
-            border-radius: 999px;
-            font-size: 12px;
-            font-weight: 700;
-            font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
         }}
 
         .rent-bar-area {{
-            margin-top: 14px;
-        }}
-
-        .rent-bar-labels {{
-            display: flex;
-            justify-content: space-between;
-            color: #5a5a5a;
-            font-size: 12px;
-            margin-bottom: 6px;
-            font-family: 'Figtree', sans-serif;
+            margin-top: 8px;
         }}
 
         .rent-bar-track {{
@@ -933,16 +881,6 @@ def card_rentabilidade_meta(
             transition: width 0.4s ease-in-out;
         }}
 
-        .rent-bar-target {{
-            position: absolute;
-            right: 0;
-            top: -3px;
-            height: 20px;
-            width: 3px;
-            background-color: #0B2F13;
-            border-radius: 3px;
-        }}
-
         .rent-bar-footer {{
             display: flex;
             justify-content: space-between;
@@ -950,13 +888,6 @@ def card_rentabilidade_meta(
             font-size: 11px;
             margin-top: 5px;
             font-family: 'Figtree', sans-serif;
-        }}
-
-        .rent-gauge-area {{
-            display: flex;
-            justify-content: center;
-            margin-top: 6px;
-            margin-bottom: -4px;
         }}
     </style>
 
@@ -968,19 +899,839 @@ def card_rentabilidade_meta(
                 {titulo}
             </span>
 
-            <div class="rent-main-value">
-                {atual_fmt}
+            <div class="rent-values-row">
+                <div class="rent-value-box">
+                    <span class="rent-value-label">Atual</span>
+                    <span class="rent-main-value">{atual_fmt}</span>
+                </div>
+
+                <div class="rent-value-box right">
+                    <span class="rent-value-label">Projetada</span>
+                    <span class="rent-target-value">{alvo_fmt}</span>
+                </div>
             </div>
 
-            <div class="rent-sub-value">
-                Alvo: {alvo_fmt}
+            <div class="rent-bar-area">
+                <div class="rent-bar-track">
+                    <div class="rent-bar-fill"
+                         style="width:{percentual_barra:.2f}%; background-color:{cor_principal};">
+                    </div>
+                
+                </div>
+
+                <div class="rent-bar-footer">
+                    <span>0%</span>
+                    <span>{avanco_fmt} da meta</span>
+                </div>
             </div>
-
-            {grafico_html}
-
-            {status_html}
         </div>
     </div>
     """
 
     st.html(html_final)
+
+
+
+def card_segmento_rentabilidade(
+    segmento: str,
+    rentabilidade_atual,
+    rentabilidade_alvo,
+    posicao,
+    posicao_pct,
+    mtd,
+    m12,
+    cor_segmento: str = "#016837",
+    help: str = None
+):
+    """
+    Renderiza um card de segmento com:
+    - Nome do segmento
+    - Rentabilidade atual
+    - Rentabilidade alvo/projetada
+    - Posição
+    - Posição %
+    - MTD
+    - 12 Meses
+    - Barra de avanço contra a meta
+
+    A cor do segmento é aplicada inline para evitar conflito de CSS
+    quando vários cards são renderizados na mesma tela.
+    """
+
+    atual = _parse_percentual(rentabilidade_atual)
+    alvo = _parse_percentual(rentabilidade_alvo)
+    mtd_valor = _parse_percentual(mtd)
+    m12_valor = _parse_percentual(m12)
+    posicao_pct_valor = _parse_percentual(posicao_pct)
+
+    percentual_meta = 0 if alvo == 0 else atual / alvo
+    percentual_meta_exibicao = percentual_meta * 100
+    percentual_barra = max(0, min(percentual_meta_exibicao, 100))
+
+    atual_fmt = f"{atual:.2f}%".replace('.', ',')
+    alvo_fmt = f"{alvo:.2f}%".replace('.', ',')
+    avanco_fmt = f"{percentual_meta_exibicao:.1f}%".replace('.', ',')
+    posicao_pct_fmt = f"{posicao_pct_valor:.2f}%".replace('.', ',')
+    mtd_fmt = f"{mtd_valor:.2f}%".replace('.', ',')
+    m12_fmt = f"{m12_valor:.2f}%".replace('.', ',')
+
+    if isinstance(posicao, (int, float)):
+        posicao_fmt = f"R$ {posicao:,.2f}"
+        posicao_fmt = (
+            posicao_fmt
+            .replace(",", "X")
+            .replace(".", ",")
+            .replace("X", ".")
+        )
+    else:
+        posicao_fmt = str(posicao)
+
+    if percentual_meta >= 1.00:
+        cor_principal = "#016837"
+    elif percentual_meta >= 0.90:
+        cor_principal = "#2E7D32"
+    elif percentual_meta >= 0.80:
+        cor_principal = "#558B2F"
+    elif percentual_meta >= 0.70:
+        cor_principal = "#827717"
+    elif percentual_meta >= 0.60:
+        cor_principal = "#B7791F"
+    elif percentual_meta >= 0.50:
+        cor_principal = "#C98A1A"
+    elif percentual_meta >= 0.40:
+        cor_principal = "#D97706"
+    elif percentual_meta >= 0.30:
+        cor_principal = "#C05621"
+    elif percentual_meta >= 0.20:
+        cor_principal = "#B83227"
+    elif percentual_meta >= 0.10:
+        cor_principal = "#A93226"
+    else:
+        cor_principal = "#c0392b"
+
+    help_html = ""
+    if help:
+        help_html = f"""
+        <div class="seg-card-help">
+            ℹ
+            <span class="seg-card-tooltip">{help}</span>
+        </div>
+        """
+
+    html_final = f"""
+    <style>
+        .seg-card-custom {{
+            background-color: rgba(219, 208, 178, 0.14);
+            padding: 15px 15px 14px 17px;
+            border-radius: 10px;
+            margin-top: 6px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease-in-out;
+            text-align: left;
+            position: relative;
+            font-family: 'Figtree', sans-serif;
+            overflow: hidden;
+        }}
+
+        .seg-card-custom:hover {{
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+        }}
+
+        .seg-color-bar {{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 5px;
+            height: 100%;
+        }}
+
+        .seg-card-header {{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            padding-right: 22px;
+        }}
+
+        .seg-card-title-wrap {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            min-width: 0;
+        }}
+
+        .seg-color-dot {{
+            width: 10px;
+            height: 10px;
+            min-width: 10px;
+            border-radius: 999px;
+        }}
+
+        .seg-card-title {{
+            color: #5a5a5a;
+            font-size: 16px;
+            font-weight: 900;
+            font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }}
+
+        .seg-card-help {{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 1.5px solid #0B2F13;
+            color: #0B2F13;
+            font-size: 11px;
+            font-weight: 700;
+            font-style: italic;
+            font-family: 'Figtree', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }}
+
+        .seg-card-tooltip {{
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 130%;
+            right: 0;
+            background-color: #0B2F13;
+            color: #FAFBEB;
+            text-align: left;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            font-style: normal;
+            font-family: 'Figtree', sans-serif;
+            white-space: normal;
+            width: 220px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.2s ease-in-out;
+            z-index: 999;
+        }}
+
+        .seg-card-help:hover .seg-card-tooltip {{
+            visibility: visible;
+            opacity: 1;
+        }}
+
+        .seg-values-row {{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            gap: 12px;
+            margin-top: 14px;
+            margin-bottom: 10px;
+        }}
+
+        .seg-value-box {{
+            display: flex;
+            flex-direction: column;
+            line-height: 1.05;
+        }}
+
+        .seg-value-box.right {{
+            text-align: right;
+        }}
+
+        .seg-value-label {{
+            color: #5a5a5a;
+            font-size: 12px;
+            font-weight: 400;
+            margin-bottom: 3px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .seg-main-value {{
+            color: #0B2F13;
+            font-size: 30px;
+            font-weight: 900;
+            font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
+        }}
+
+        .seg-target-value {{
+            color: #5a5a5a;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
+        }}
+
+        .seg-position-row {{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 8px;
+            padding: 9px 10px;
+            border-radius: 8px;
+            background-color: rgba(250, 251, 235, 0.55);
+          
+        }}
+
+        .seg-position-item {{
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+        }}
+
+        .seg-position-item.right {{
+            text-align: right;
+        }}
+
+        .seg-small-label {{
+            color: #5a5a5a;
+            font-size: 11px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .seg-position-value {{
+            color: #0B2F13;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
+        }}
+
+        .seg-bar-area {{
+            margin-top: 12px;
+        }}
+
+        .seg-bar-track {{
+            position: relative;
+            width: 100%;
+            height: 14px;
+            background-color: rgba(90, 90, 90, 0.16);
+            border-radius: 999px;
+            overflow: hidden;
+        }}
+
+        .seg-bar-fill {{
+            height: 100%;
+            border-radius: 999px;
+            transition: width 0.4s ease-in-out;
+        }}
+
+        .seg-bar-footer {{
+            display: flex;
+            justify-content: space-between;
+            color: #5a5a5a;
+            font-size: 11px;
+            margin-top: 5px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .seg-period-row {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 12px;
+        }}
+
+        .seg-period-box {{
+            padding: 8px 10px;
+            border-radius: 8px;
+            background-color: transparent;
+    
+        }}
+
+        .seg-period-label {{
+            color: #5a5a5a;
+            font-size: 11px;
+            font-weight: 700;
+            font-family: 'Figtree', sans-serif;
+            margin-bottom: 4px;
+        }}
+
+        .seg-period-value {{
+            color: #0B2F13;
+            font-size: 16px;
+            font-weight: 900;
+            font-family: 'Figtree', sans-serif;
+        }}
+    </style>
+
+    <div class="seg-card-container">
+        <div class="seg-card-custom">
+
+            <div class="seg-color-bar" style="background:{cor_segmento};"></div>
+
+            {help_html}
+
+            <div class="seg-card-header">
+                <div class="seg-card-title-wrap">
+                    <span class="seg-color-dot"
+                          style="background-color:{cor_segmento}; box-shadow:0 0 0 4px {cor_segmento}22;">
+                    </span>
+                    <span class="seg-card-title">{segmento}</span>
+                </div>
+            </div>
+
+            <div class="seg-values-row">
+                <div class="seg-value-box">
+                    <span class="seg-value-label">YTD</span>
+                    <span class="seg-main-value">{atual_fmt}</span>
+                </div>
+
+                <div class="seg-value-box right">
+                    <span class="seg-value-label">Projetada</span>
+                    <span class="seg-target-value">{alvo_fmt}</span>
+                </div>
+            </div>
+
+            <div class="seg-position-row">
+                <div class="seg-position-item">
+                    <span class="seg-small-label">Posição</span>
+                    <span class="seg-position-value">{posicao_fmt}</span>
+                </div>
+
+                <div class="seg-position-item right">
+                    <span class="seg-small-label">%</span>
+                    <span class="seg-position-value">{posicao_pct_fmt}</span>
+                </div>
+            </div>
+
+            <div class="seg-period-row">
+                <div class="seg-period-box">
+                    <div class="seg-period-label">MTD</div>
+                    <div class="seg-period-value">{mtd_fmt}</div>
+                </div>
+
+                <div class="seg-period-box">
+                    <div class="seg-period-label">12 Meses</div>
+                    <div class="seg-period-value">{m12_fmt}</div>
+                </div>
+            </div>
+
+            <div class="seg-bar-area">
+                <div class="seg-bar-track">
+                    <div class="seg-bar-fill"
+                         style="width:{percentual_barra:.2f}%; background-color:{cor_principal};">
+                    </div>
+                </div>
+
+                <div class="seg-bar-footer">
+                    <span>0%</span>
+                    <span>{avanco_fmt} da meta</span>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    """
+
+    st.html(html_final)
+
+
+
+
+def card_segmento_rentabilidade_sem_projetada(
+    segmento: str,
+    rentabilidade_atual,
+    posicao,
+    posicao_pct,
+    mtd,
+    m12,
+    cor_segmento: str = "#016837",
+    help: str = None
+):
+    """
+    Renderiza um card de segmento com:
+    - Nome do segmento
+    - Rentabilidade atual
+    - Posição
+    - Posição %
+    - MTD
+    - 12 Meses
+
+    A cor do segmento é aplicada inline para evitar conflito de CSS
+    quando vários cards são renderizados na mesma tela.
+    """
+
+    atual = _parse_percentual(rentabilidade_atual)
+    mtd_valor = _parse_percentual(mtd)
+    m12_valor = _parse_percentual(m12)
+    posicao_pct_valor = _parse_percentual(posicao_pct)
+
+    atual_fmt = f"{atual:.2f}%".replace('.', ',')
+    mtd_fmt = f"{mtd_valor:.2f}%".replace('.', ',')
+    m12_fmt = f"{m12_valor:.2f}%".replace('.', ',')
+    posicao_pct_fmt = f"{posicao_pct_valor:.2f}%".replace('.', ',')
+
+    if isinstance(posicao, (int, float)):
+        posicao_fmt = f"R$ {posicao:,.2f}"
+        posicao_fmt = (
+            posicao_fmt
+            .replace(",", "X")
+            .replace(".", ",")
+            .replace("X", ".")
+        )
+    else:
+        posicao_fmt = str(posicao)
+
+    help_html = ""
+    if help:
+        help_html = f"""
+        <div class="seg-card-help">
+            ℹ
+            <span class="seg-card-tooltip">{help}</span>
+        </div>
+        """
+
+    html_final = f"""
+    <style>
+        .seg-card-custom {{
+            background-color: rgba(219, 208, 178, 0.14);
+            padding: 15px 15px 14px 17px;
+            border-radius: 10px;
+            margin-top: 6px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease-in-out;
+            text-align: left;
+            position: relative;
+            font-family: 'Figtree', sans-serif;
+            overflow: hidden;
+        }}
+
+        .seg-card-custom:hover {{
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+        }}
+
+        .seg-color-bar {{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 5px;
+            height: 100%;
+        }}
+
+        .seg-card-header {{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            padding-right: 22px;
+        }}
+
+        .seg-card-title-wrap {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            min-width: 0;
+        }}
+
+        .seg-color-dot {{
+            width: 10px;
+            height: 10px;
+            min-width: 10px;
+            border-radius: 999px;
+        }}
+
+        .seg-card-title {{
+            color: #5a5a5a;
+            font-size: 16px;
+            font-weight: 900;
+            font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }}
+
+        .seg-card-help {{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 1.5px solid #0B2F13;
+            color: #0B2F13;
+            font-size: 11px;
+            font-weight: 700;
+            font-style: italic;
+            font-family: 'Figtree', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }}
+
+        .seg-card-tooltip {{
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 130%;
+            right: 0;
+            background-color: #0B2F13;
+            color: #FAFBEB;
+            text-align: left;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            font-style: normal;
+            font-family: 'Figtree', sans-serif;
+            white-space: normal;
+            width: 220px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.2s ease-in-out;
+            z-index: 999;
+        }}
+
+        .seg-card-help:hover .seg-card-tooltip {{
+            visibility: visible;
+            opacity: 1;
+        }}
+
+        .seg-main-area {{
+            margin-top: 14px;
+            margin-bottom: 10px;
+        }}
+
+        .seg-value-label {{
+            color: #5a5a5a;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 3px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .seg-main-value {{
+            color: #0B2F13;
+            font-size: 32px;
+            font-weight: 900;
+            font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
+            line-height: 1.05;
+        }}
+
+        .seg-position-row {{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 8px;
+            padding: 9px 10px;
+            border-radius: 8px;
+            background-color: rgba(250, 251, 235, 0.55);
+        
+        }}
+
+        .seg-position-item {{
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+        }}
+
+        .seg-position-item.right {{
+            text-align: right;
+        }}
+
+        .seg-small-label {{
+            color: #5a5a5a;
+            font-size: 11px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .seg-position-value {{
+            color: #0B2F13;
+            font-size: 14px;
+            font-weight: 900;
+            font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
+        }}
+
+        .seg-period-row {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 12px;
+        }}
+
+        .seg-period-box {{
+            padding: 8px 10px;
+            border-radius: 8px;
+            background-color: transparent;
+        }}
+
+        .seg-period-label {{
+            color: #5a5a5a;
+            font-size: 11px;
+            font-weight: 700;
+            font-family: 'Figtree', sans-serif;
+            margin-bottom: 4px;
+        }}
+
+        .seg-period-value {{
+            color: #0B2F13;
+            font-size: 16px;
+            font-weight: 900;
+            font-family: 'Figtree', sans-serif;
+        }}
+    </style>
+
+    <div class="seg-card-container">
+        <div class="seg-card-custom">
+
+            <div class="seg-color-bar" style="background:{cor_segmento};"></div>
+
+            {help_html}
+
+            <div class="seg-card-header">
+                <div class="seg-card-title-wrap">
+                    <span class="seg-color-dot"
+                          style="background-color:{cor_segmento}; box-shadow:0 0 0 4px {cor_segmento}22;">
+                    </span>
+                    <span class="seg-card-title">{segmento}</span>
+                </div>
+            </div>
+
+            <div class="seg-main-area">
+                <div class="seg-value-label">YTD</div>
+                <div class="seg-main-value">{atual_fmt}</div>
+            </div>
+
+            <div class="seg-position-row">
+                <div class="seg-position-item">
+                    <span class="seg-small-label">Posição</span>
+                    <span class="seg-position-value">{posicao_fmt}</span>
+                </div>
+
+                <div class="seg-position-item right">
+                    <span class="seg-small-label">%</span>
+                    <span class="seg-position-value">{posicao_pct_fmt}</span>
+                </div>
+            </div>
+
+            <div class="seg-period-row">
+                <div class="seg-period-box">
+                    <div class="seg-period-label">MTD</div>
+                    <div class="seg-period-value">{mtd_fmt}</div>
+                </div>
+
+                <div class="seg-period-box">
+                    <div class="seg-period-label">12 Meses</div>
+                    <div class="seg-period-value">{m12_fmt}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    """
+
+    st.html(html_final)
+
+
+def de_para_produto(prod):
+    """
+    Faz o de/para do nome do produto.
+
+    Regras:
+    - Primeiro busca trechos contidos no texto, como códigos C000... e NTNB_...
+    - Depois busca correspondência exata.
+    - Se não encontrar correspondência, retorna o valor original.
+    """
+
+    if prod is None:
+        return prod
+
+    prod_str = str(prod).strip()
+
+    mapa_contains = {
+        # Produtos que contêm código Cxxxxxxxxxx
+        "C0000213691": "4UM Small Caps FIA",
+        "C0000194425": "Agrociência FIF Ações",
+        "C0000272493": "BB Previd. Ref. DI LP Perfil FICFI",
+        "C0000071171": "Bradesco FIRF Ref. DI Premium",
+        "C0000698733": "Chapada Diamantina FIF",
+        "C0000700606": "Chapada dos Guimarães FICFIM",
+        "C0000602418": "Chapada dos Veadeiros FIF Ações",
+        "C0000214019": "Guepardo Institucional FIC FIA",
+        "C0000529478": "Trigono Flagship 60 Small Caps FICFIA",
+        "C0000267066": "Eros FIF Multimercado CP",
+        "C0000020435": "Itaú Institucional RF Ref. DI FIF",
+        "C0000603384": "Oceana Serra da Capivara FIF Ações",
+        "C0000331031": "Safra Cap. Market Prem. FICFI RF Ref. DI CP",
+        "C0000289191": "Santander Ações Dividendos FICFI",
+        "C0000604828": "Serra do Cipó FIF Ações",
+        "C0000605859": "Tijuca FIF Ações",
+
+        # NTN-B
+        "NTNB_15/05/2033": "NTN-B 2033",
+        "NTNB_15/05/2035": "NTN-B 2035",
+        "NTNB_15/05/2045": "NTN-B 2045",
+        "NTNB_15/05/2055": "NTN-B 2055",
+        "NTNB_15/08/2026": "NTN-B 2026",
+        "NTNB_15/08/2028": "NTN-B 2028",
+        "NTNB_15/08/2030": "NTN-B 2030",
+        "NTNB_15/08/2032": "NTN-B 2032",
+        "NTNB_15/08/2040": "NTN-B 2040",
+        "NTNB_15/08/2050": "NTN-B 2050",
+        "NTNB_15/08/2060": "NTN-B 2060",
+
+        # NTN-C
+        "NTNC_01/01/2031": "NTN-C 2031",
+    }
+
+    mapa_exato = {
+        "ABDI FlexCeres_CD_Emprestimos": "Empréstimos",
+        "CENESP (BLOCO C)": "CENESP (BLOCO C)",
+        "CENESP (BLOCO J)": "CENESP (BLOCO J)",
+        "Ceres Básico_BD_Emprestimos": "Empréstimos Ceres Básico",
+        "Ceres Básico_BD_Financiamentos": "Financiamento Imobiliário Ceres Básico",
+        "Ceres FlexCeres_CV_Emprestimos": "Empréstimos Ceres FlexCeres",
+        "Cidasc FlexCeres_CV_Emprestimos": "Empréstimos",
+        "CORPORATE FINANCIAL CENTER (303)": "Corporate Financial Center (303)",
+        "CORPORATE FINANCIAL CENTER (304)": "Corporate Financial Center (304)",
+        "ED. JOSÉ GUERRA": "Ed. José Guerra",
+        "EDIFICIO CERES": "Ed. Ceres",
+
+        "Emater DF FlexCeres_CV_Emprestimos": "Empréstimos Emater-DF FlexCeres",
+        "Emater MG Básico_BD_Emprestimos": "Empréstimos Emater-MG Básico",
+        "Emater MG Básico_BD_Financiamentos": "Financiamento Imobiliário Emater-MG Básico",
+        "Emater MG FlexCeres_CV_Emprestimos": "Empréstimos Emater-MG FlexCeres",
+        "Emater MG Saldado_BD_Emprestimos": "Empréstimos Emater-MG Saldado",
+        "Emater MG Saldado_BD_Financiamentos": "Financiamento Imobiliário Emater-MG Saldado",
+
+        "Embrapa Básico_BD_Emprestimos": "Empréstimos Embrapa-Básico",
+        "Embrapa Básico_BD_Financiamentos": "Financiamento Imobiliário Embrapa Básico",
+        "Embrapa FlexCeres_CV_Emprestimos": "Empréstimos Embrapa FlexCeres",
+
+        "Epagri Básico_BD_Emprestimos": "Empréstimos Epagri Básico",
+        "Epagri Básico_BD_Financiamentos": "Financiamento Imobiliário Epagri Básico",
+        "Epagri FlexCeres_CV_Emprestimos": "Empréstimos Epagri FlexCeres",
+        "Epagri Saldado_BD_Emprestimos": "Empréstimos Epagri Saldado",
+        "Epagri Saldado_BD_Financiamentos": "Financiamento Imobiliário Epagri Saldado",
+
+        "Epamig Básico_BD_Emprestimos": "Empréstimos Epamig Básico",
+        "Epamig Básico_BD_Financiamentos": "Financiamento Imobiliário Epamig Básico",
+        "Epamig FlexCeres_CV_Emprestimos": "Empréstimos Epamig FlexCeres",
+        "Epamig Saldado_BD_Emprestimos": "Empréstimos Epamig Saldado",
+        "Epamig Saldado_BD_Financiamentos": "Financiamento Imobiliário Epamig Saldado",
+
+        "FCAP3*": "FCAP3",
+        "RB CAPITAL DESENV RESIDENCIAL II FII": "FII RB Capital Des. Residencial II",
+        "SHOPPING CONJUNTO NACIONAL": "Shopping Conjunto Nacional",
+        "SHOPPING RECIFE": "Shopping Recife",
+    }
+
+    for trecho, nome_final in mapa_contains.items():
+        if trecho in prod_str:
+            return nome_final
+
+    return mapa_exato.get(prod_str, prod_str)
