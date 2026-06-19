@@ -17,6 +17,16 @@ _CSS_NAV_CARD = """
     display: flex;
     flex-direction: column;
   }
+  .nav-card:hover {
+  background: linear-gradient(
+    135deg,
+    rgba(168, 236, 125, 0.08),
+    rgba(128, 128, 128, 0.04)
+  );
+  border-color: rgba(168, 236, 125, 0.45);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+  transform: translateY(-4px);
+}
 
   .card-title { font-size: 20px; font-weight: 600; margin: 0 0 6px; }
   .card-desc  { font-size: 16px; opacity: .65; margin: 0 0 1rem; line-height: 1.5; flex: 1; }
@@ -34,7 +44,8 @@ _CSS_NAV_CARD = """
     border-radius: 999px;
     padding: 4px 10px;
     text-decoration: none;
-    color: inherit;
+    background: #A8EC7D;
+    color: #0B2F13;
     transition: background .15s, border-color .15s;
     cursor: pointer;
   }
@@ -57,8 +68,8 @@ _CSS_NAV_CARD = """
     bottom: 140%;
     left: 50%;
     transform: translateX(-50%) scale(0.8);
-    background-color: #1e1e1e;
-    color: #fff;
+    background-color: #A8EC7D;
+    color: #0B2F13;
     padding: 7px 12px;
     border-radius: 8px;
     font-size: 13px;

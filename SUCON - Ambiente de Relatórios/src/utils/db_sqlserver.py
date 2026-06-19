@@ -10,7 +10,7 @@ load_dotenv(env_path)
 @st.cache_resource(ttl=3600)
 def get_connection():
     connection_string = (
-        f"DRIVER={{ODBC Driver 17 for SQL Server}};"
+        f"DRIVER={{ODBC Driver 18 for SQL Server}};"
         f"SERVER={os.getenv('CERES_SERVER')};"
         f"UID={os.getenv('CERES_USER')};"
         f"PWD={os.getenv('CERES_PASSWORD')};"
