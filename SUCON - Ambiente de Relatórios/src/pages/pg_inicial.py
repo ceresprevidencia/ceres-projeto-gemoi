@@ -172,7 +172,7 @@ CARDS = [
         ],
     },
     {
-        "col": 2,
+        "col": 1,
         "title": "Rentabilidade",
         "description": "Acompanhamento diário dos retornos dos planos.",
         "badges": [
