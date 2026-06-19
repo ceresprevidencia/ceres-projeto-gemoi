@@ -23,12 +23,12 @@ except FileNotFoundError:
 
 # ── FLUXO ─────────────────────────────────────────────────────────────────────
 pg_inicial = st.Page("pages/pg_inicial.py", title="Home", url_path="home", visibility="hidden")
-enquadramento_planos = st.Page("pages/s1_enquadramento_planos.py", title="Planos", icon=":material/analytics:", url_path="enquadramento-planos")
-enquadramento_fundos = st.Page("pages/s1_enquadramento_fundos.py", title="Fundos", icon=":material/analytics:", url_path="enquadramento-fundos", visibility="hidden")
-lim_op = st.Page("pages/s1_lim_op.py", title="Limites Operacionais", icon=":material/analytics:", url_path="limites-operacionais")
-risco_planos = st.Page("pages/s2_risco_planos.py", title="Risco Planos", icon=":material/analytics:", url_path="risco-planos", visibility="hidden")
-risco_ativos = st.Page("pages/s2_risco_ativos.py", title="Risco Ativos", icon=":material/analytics:", url_path="risco-ativos", visibility="hidden")
-rent = st.Page("pages/s4_rentabilidade.py", title="Rentabilidade", icon=":material/analytics:", url_path="rentabilidade-planos")
+enquadramento_planos = st.Page("pages/s1_enquadramento_planos.py", title="Planos",  url_path="enquadramento-planos")
+enquadramento_fundos = st.Page("pages/s1_enquadramento_fundos.py", title="Fundos",  url_path="enquadramento-fundos", visibility="hidden")
+lim_op = st.Page("pages/s1_lim_op.py", title="Limites Operacionais",  url_path="limites-operacionais")
+risco_planos = st.Page("pages/s2_risco_planos.py", title="Risco Planos",  url_path="risco-planos", visibility="hidden")
+risco_ativos = st.Page("pages/s2_risco_ativos.py", title="Risco Ativos",  url_path="risco-ativos", visibility="hidden")
+rent = st.Page("pages/s4_rentabilidade.py", title="Rentabilidade",  url_path="rentabilidade-planos")
 
 
 current_page = st.navigation(
