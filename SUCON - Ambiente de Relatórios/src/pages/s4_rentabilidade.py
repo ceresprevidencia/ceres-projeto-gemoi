@@ -16,7 +16,8 @@ from utils.helpers import (primeiro_dia_util,
                            card_segmento_rentabilidade,
                            card_segmento_rentabilidade_sem_projetada,
                            gerar_tabela_estilizada,
-                           de_para_produto)
+                           de_para_produto,
+                           CORES_SEGMENTOS)
 from pathlib import Path
 
 # Carregar dados c
@@ -60,13 +61,6 @@ def carregar_rent_mensal_planos() -> pd.DataFrame:
         st.error(f"Erro ao carregar dados de rentabilidade mensal: {e}")
         st.stop()
 
-def limpar_cache():
-    #carregar_ipca.clear()
-    carregar_planos.clear()
-    carregar_grupos.clear()
-    carregar_produtos.clear()
-    carregar_rent_mensal_planos.clear()
-
 
 df_ipca = carregar_ipca()
 df_grupos = carregar_grupos()
@@ -79,8 +73,11 @@ df_ipca = df_ipca.set_index(['PLANO', 'DATA'])
 df_rent_mensal_planos['DATA'] = pd.to_datetime(df_rent_mensal_planos['DATA']).dt.to_period('M').dt.to_timestamp()
 df_rent_mensal_planos = df_rent_mensal_planos.set_index(['PLANO', 'DATA'])
 # separa o update do set_index
+
 df_rent_mensal_planos.update(df_ipca)
 df_rent_mensal_planos = df_rent_mensal_planos.reset_index()
+
+
 
 RAIZ_PROJETO = Path(__file__).resolve().parent.parent.parent
 # 2. Constrói o caminho correto até o CSV
@@ -181,7 +178,7 @@ pl_ytd = df_planos[
 
 
 delta_pl = round(((df_planos_filtrado_dp['POSICAO_DF'].values[0]/pl_ytd['POSICAO_DF'].values[0])-1)*100, 2)
-info_pl = 'A variação percentual do PL entre o primeiro dia útil do ano e a data selecionada.'
+info_pl = 'A variação representa a mudança no PL entre o primeiro dia útil do ano e a data selecionada.'
 
 #___________________Cards
 plano_selecionado = selected_plano
@@ -197,21 +194,27 @@ df_rent_projetada_filtro =(df_rent_projetada[
     ])
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
-        card_geral('PL', formatar_numero(df_planos_filtrado_dp['POSICAO_DF'].iloc[0], prefixo="R$ "), formatar_percentual_br(delta_pl), help=info_pl)
+        card_geral('PL', formatar_numero(df_planos_filtrado_dp['POSICAO_DF'].iloc[0], prefixo="R$ "), 
+                   formatar_percentual_br(delta_pl),
+                   valor_extenso=fmt_br(df_planos_filtrado_dp['POSICAO_DF'].iloc[0]), 
+                   help=info_pl)
 with col2:
-    card_geral('Mês', formatar_percentual_br(df_planos_filtrado_dp['MTD'].iloc[0]), formatar_percentual_br(df_planos_filtrado_dp['DIDF'].iloc[0]), help='Rentabilidade do dia')
+    card_geral('Mês', formatar_percentual_br(df_planos_filtrado_dp['MTD'].iloc[0]), 
+               formatar_percentual_br(df_planos_filtrado_dp['DIDF'].iloc[0]),
+               
+               help='A variação Mês representa a mudança na rentabilidade entre a data selecionada e o dia útil anterior.')
 with col3:
     
 
     if selected_plano == '[CERES TOTAL]':
-        card_geral('Ano', formatar_percentual_br(df_planos_filtrado_dp['YTD'].iloc[0]), formatar_percentual_br(df_planos_filtrado_dp['YTD'].iloc[0]), help='Rentabilidade do ano')
+        card_geral('Ano', formatar_percentual_br(df_planos_filtrado_dp['YTD'].iloc[0]))
     else:
         card_rentabilidade_meta(
         titulo="Ano",
         rentabilidade_atual=formatar_percentual_br(df_planos_filtrado_dp['YTD'].iloc[0]),
         rentabilidade_alvo=df_rent_projetada_filtro['rentabilidade'].values[0],
 
-        help="Compara a rentabilidade acumulada atual com a rentabilidade alvo do plano.")
+        help="A rentabilidade projeteda reflete a expectativa de rentabilidade para o ano, definido na Política de Investimentos do plano.")
         
 
 
@@ -228,8 +231,11 @@ with col5:
 
 with st.container(border=True):
 
-    # Cabeçalho: título à esquerda e controle no canto direito
-    col_titulo, col_controle = st.columns([2, 3])
+    # Cabeçalho: título à esquerda e controle à direita
+    col_titulo, col_espaco, col_controle = st.columns(
+        [2,9, .6],
+        vertical_alignment="top"
+    )
 
     with col_titulo:
         st.markdown(
@@ -256,33 +262,31 @@ with st.container(border=True):
             unsafe_allow_html=True
         )
 
+    with col_espaco:
+        st.empty()
+
     with col_controle:
-        col_spacer, _, col_select = st.columns([8, 2, 2])
-
-        with col_spacer:
-            st.empty()
-
-        with col_select:
-            selecao_periodo = st.segmented_control(
-                "Período:",
-                options=['MTD', 'YTD'],
-                selection_mode="single",
-                default='YTD',
-                key='rent',
-                required=True,
-                label_visibility="collapsed",
-            )
+        selecao_periodo = st.segmented_control(
+            "Período:",
+            options=["MTD", "YTD"],
+            selection_mode="single",
+            default="YTD",
+            key="rent",
+            required=True,
+            label_visibility="collapsed",
+        )
 
     # Seleção do período
-    if selecao_periodo == 'MTD':
+    if selecao_periodo == "MTD":
         df_plot = df_planos_filtrado_ytd[
-            (df_planos_filtrado_ytd['DATA_COTACAO'] >= inicio_mes) &
-            (df_planos_filtrado_ytd['DATA_COTACAO'] <= selected_data)
+            (df_planos_filtrado_ytd["DATA_COTACAO"] >= inicio_mes) &
+            (df_planos_filtrado_ytd["DATA_COTACAO"] <= selected_data)
         ].copy()
-        col_y = 'MTD'
+        col_y = "MTD"
     else:
         df_plot = df_planos_filtrado_ytd.copy()
-        col_y = 'YTD'
+        col_y = "YTD"
+
 
     # Garante datetime
     df_plot['DATA_COTACAO'] = pd.to_datetime(df_plot['DATA_COTACAO'])
@@ -319,7 +323,8 @@ with st.container(border=True):
         # ----------------------------
         if selecao_periodo == 'MTD':
             # No MTD, mostra rótulo em todos os pontos
-            df_plot['ROTULO'] = df_plot[col_y].apply(lambda v: f"{v:.2f}%")
+            df_plot['ROTULO'] = df_plot[col_y].apply(lambda x: f"{x:.2f}%".replace(".", ",")
+)
 
         else:
             # No YTD, mostra:
@@ -334,7 +339,7 @@ with st.container(border=True):
             indices_rotulo.add(df_plot.index[-1])
 
             df_plot['ROTULO'] = [
-                f"{v:.2f}%" if idx in indices_rotulo else ""
+                f"{v:.2f}%".replace(".", ",") if idx in indices_rotulo else ""
                 for idx, v in zip(df_plot.index, df_plot[col_y])
             ]
 
@@ -381,16 +386,66 @@ with st.container(border=True):
 
         fig = go.Figure()
 
+        # ----------------------------------------------------
+        # Sombra / blur em gradiente abaixo da linha
+        # Mais intenso perto da linha
+        # ----------------------------------------------------
+        base_y = y_min - padding_y * 0.1
+
+        gradiente_blur = [
+        (0.07, 'rgba(168, 236, 125, 0.015)'),
+        (0.14, 'rgba(168, 236, 125, 0.025)'),
+        (0.20, 'rgba(168, 236, 125, 0.040)'),
+        (0.26, 'rgba(168, 236, 125, 0.060)'),
+        (0.32, 'rgba(168, 236, 125, 0.080)'),
+        (0.38, 'rgba(168, 236, 125, 0.100)'),
+        (0.44, 'rgba(168, 236, 125, 0.120)'),
+        (0.50, 'rgba(168, 236, 125, 0.140)'),
+        (0.56, 'rgba(168, 236, 125, 0.160)'),
+        (0.62, 'rgba(168, 236, 125, 0.180)'),
+        (0.68, 'rgba(168, 236, 125, 0.200)'),
+        (0.74, 'rgba(168, 236, 125, 0.240)'),
+        (0.80, 'rgba(168, 236, 125, 0.260)'),
+        (0.84, 'rgba(168, 236, 125, 0.280)'),
+        (0.88, 'rgba(168, 236, 125, 0.300)'),
+        (0.91, 'rgba(168, 236, 125, 0.320)'),
+        (0.94, 'rgba(168, 236, 125, 0.340)'),
+        (0.96, 'rgba(168, 236, 125, 0.360)'),
+        (0.98, 'rgba(168, 236, 125, 0.380)'),
+        (1.00, 'rgba(168, 236, 125, 0.400)'),
+    ]
+        for fator, cor in gradiente_blur:
+            y_grad = base_y + (df_plot[col_y] - base_y) * fator
+
+            fig.add_trace(go.Scatter(
+                x=df_plot['DATA_COTACAO'],
+                y=y_grad,
+                mode='lines',
+                fill='tonexty',
+                fillcolor=cor,
+                line=dict(
+                    width=0,
+                    color='rgba(0,0,0,0)',
+                    shape='spline',
+                    smoothing=1.3
+                ),
+                hoverinfo='skip',
+                showlegend=False,
+                cliponaxis=False,
+            ))
+
+        # ----------------------------------------------------
         # Linha principal
+        # ----------------------------------------------------
         fig.add_trace(go.Scatter(
             x=df_plot['DATA_COTACAO'],
             y=df_plot[col_y],
             mode='lines',
             name=selecao_periodo,
-            fill='tozeroy',
-            fillcolor='rgba(11, 47, 19, 0.08)',
+            showlegend=False,
+            fill=None,
             line=dict(
-                color='#0B2F13',
+                color='#A8EC7D',
                 width=2,
                 shape='spline',
                 smoothing=1.3
@@ -398,14 +453,16 @@ with st.container(border=True):
             cliponaxis=False,
         ))
 
+        # ----------------------------------------------------
         # Rótulos como annotations
+        # ----------------------------------------------------
         for _, row in df_plot[df_plot['ROTULO'] != ""].iterrows():
             fig.add_annotation(
                 x=row['DATA_COTACAO'],
                 y=row[col_y],
                 text=row['ROTULO'],
                 showarrow=False,
-                yshift=20,
+                yshift=8,
                 xshift=0,
                 font=dict(
                     family='Figtree',
@@ -416,6 +473,9 @@ with st.container(border=True):
                 bordercolor='rgba(255,255,255,0)',
             )
 
+        # ----------------------------------------------------
+        # Layout
+        # ----------------------------------------------------
         fig.update_layout(
             height=320,
             autosize=True,
@@ -433,7 +493,7 @@ with st.container(border=True):
                 ticktext=ticktext_x,
                 tickfont=dict(
                     family='Figtree',
-                    size=12,
+                    size=13,
                     color='#333333'
                 ),
                 range=[
@@ -471,7 +531,11 @@ with st.container(border=True):
             paper_bgcolor='rgba(0,0,0,0)',
         )
 
+        # ----------------------------------------------------
+        # Hover da linha principal
+        # ----------------------------------------------------
         fig.update_traces(
+            selector=dict(name=selecao_periodo),
             hovertemplate='<b>%{x|%d/%m/%Y}</b><br>Rentabilidade: %{y:.2f}%<extra></extra>'
         )
 
@@ -484,15 +548,15 @@ with st.container(border=True):
             width="stretch"
         )
 
-    else:
-        st.info("Não há dados disponíveis para o período selecionado.")
-
 #__________________________GRAFICO BARRAS RENTABILIDADE MENSAL
 
 with st.container(border=True):
 
     # Cabeçalho: título à esquerda e controle no canto direito
-    col_titulo, col_controle = st.columns([2, 3])
+    col_titulo, col_espaco, col_controle = st.columns(
+        [2, 9, 1],
+        vertical_alignment="top"
+    )
 
     with col_titulo:
         st.markdown(
@@ -519,25 +583,21 @@ with st.container(border=True):
             unsafe_allow_html=True
         )
 
+    with col_espaco:
+        st.empty()
+
     with col_controle:
-        col_spacer, col_select = st.columns([7, 3])
+        opcao = ["6m", "12m", "18m", "24m"]
 
-        with col_spacer:
-            st.empty()
-
-        with col_select:
-            opcao = ['6m', '12m', '18m', '24m']
-
-            selecao_periodo_mensal = st.segmented_control(
-                "Período:",
-                options=opcao,
-                selection_mode="single",
-                default='12m',
-                required=True,
-                key='rent_mensal',
-                label_visibility="collapsed",
-            )
-
+        selecao_periodo_mensal = st.segmented_control(
+            "Período:",
+            options=opcao,
+            selection_mode="single",
+            default="12m",
+            required=True,
+            key="rent_mensal",
+            label_visibility="collapsed",
+        )
     # Filtro do plano
     df_rent_mensal_planos_filtrado = df_rent_mensal_planos[
         df_rent_mensal_planos['PLANO'] == selected_plano.upper()
@@ -564,11 +624,8 @@ with st.container(border=True):
         .copy()
     )
 
-    # Remove valores vazios
-    df_rent_mensal_planos_filtrado = df_rent_mensal_planos_filtrado.dropna(
-        subset=['BENCH', 'RENTABILIDADE']
-    )
-
+    
+    
     if not df_rent_mensal_planos_filtrado.empty:
 
         # Meses em português
@@ -600,11 +657,11 @@ with st.container(border=True):
 
         # Rótulos das barras
         df_rent_mensal_planos_filtrado['ROTULO_BENCH'] = (
-            df_rent_mensal_planos_filtrado['BENCH'].apply(lambda v: f"{v:.2f}%")
+            df_rent_mensal_planos_filtrado['BENCH'].apply(lambda v: f"{v:.2f}%".replace(".", ","))
         )
 
         df_rent_mensal_planos_filtrado['ROTULO_RENTABILIDADE'] = (
-            df_rent_mensal_planos_filtrado['RENTABILIDADE'].apply(lambda v: f"{v:.2f}%")
+            df_rent_mensal_planos_filtrado['RENTABILIDADE'].apply(lambda v: f"{v:.2f}%".replace(".", ","))
         )
 
         # Range Y com respiro para não cortar rótulos
@@ -635,9 +692,9 @@ with st.container(border=True):
                 y=df_rent_mensal_planos_filtrado['BENCH'],
                 name='Benchmark',
                 marker=dict(
-                    color='#0B2F13',
+                    color="#6B7A6E",
                     line=dict(
-                        color='#0B2F13',
+                        color='#6B7A6E',
                         width=1
                     )
                 ),
@@ -646,7 +703,7 @@ with st.container(border=True):
                 textfont=dict(
                     family='Figtree',
                     size=14,
-                    color='#0B2F13'
+                    color="#354238"
                 ),
                 cliponaxis=False,
                 hovertemplate='Benchmark: %{y:.2f}%<extra></extra>',
@@ -700,7 +757,7 @@ with st.container(border=True):
                 automargin=True,
                 tickfont=dict(
                     family='Figtree',
-                    size=12,
+                    size=13,
                     color='#333333'
                 ),
             ),
@@ -722,7 +779,7 @@ with st.container(border=True):
                 x=0,
                 font=dict(
                     family='Figtree',
-                    size=12,
+                    size=14,
                     color='#333333'
                 ),
             ),
@@ -732,7 +789,7 @@ with st.container(border=True):
                 bordercolor='#0B2F13',
                 font=dict(
                     family='Figtree',
-                    size=12,
+                    size=14,
                     color='#0B2F13'
                 ),
             ),
@@ -765,6 +822,30 @@ with st.container(border=True):
 
 
 #________________________________ SEGMENTOS
+st.space()
+st.markdown(
+            """
+            <div style="
+                margin: 0;
+                padding: 0;
+                height: 38px;
+                display: flex;
+                align-items: center;
+            ">
+                <p style="
+                    margin: 0;
+                    padding: 0;
+                    font-family: Figtree, sans-serif;
+                    font-size: 16px;
+                    font-weight: 900;
+                    color: #333333;
+                ">
+                   Segmentos de Investimento do Plano
+                </p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
 posicao_segmentos = df_grupos[
     (df_grupos['TESOURARIA'] == selected_plano) &
@@ -776,179 +857,84 @@ df_rent_projetada_filtro_segmetos =(df_rent_projetada[
             & (df_rent_projetada['ano'] == int(pd.to_datetime(selected_data).year))
             ])
 
-col1, col2, col3, col4, col5, col6 = st.columns(6)
-if 'Renda Fixa' in posicao_segmentos['GRUPO'].values:
-    with col1:
-        posicao_pct = (posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Fixa']['POSICAO_DF'].iloc[0] / posicao_segmentos['POSICAO_DF'].sum()) * 100
-        if selected_plano == '[CERES TOTAL]':
+
+col1, col2, col3 = st.columns(3)
+
+segmentos_cards = [
+    "Renda Fixa",
+    "Renda Variável",
+    "Estruturado",
+    "Operações com Participantes",
+    "Imobiliário",
+    "Exterior",
+]
+
+col1, col2, col3 = st.columns(3)
+col4, col5, col6 = st.columns(3)
+
+colunas_segmentos = {
+    "Renda Fixa": col1,
+    "Renda Variável": col2,
+    "Estruturado": col3,
+    "Operações com Participantes": col4,
+    "Imobiliário": col5,
+    "Exterior": col6,
+}
+
+total_posicao = posicao_segmentos["POSICAO_DF"].sum()
+
+for segmento in segmentos_cards:
+
+    if segmento not in posicao_segmentos["GRUPO"].values:
+        continue
+
+    coluna = colunas_segmentos[segmento]
+
+    with coluna:
+        linha_segmento = posicao_segmentos[
+            posicao_segmentos["GRUPO"] == segmento
+        ].iloc[0]
+
+        posicao_pct = (
+            linha_segmento["POSICAO_DF"] / total_posicao
+        ) * 100
+
+        cor_segmento = CORES_SEGMENTOS.get(segmento, "#016837")
+
+        if selected_plano == "[CERES TOTAL]":
             card_segmento_rentabilidade_sem_projetada(
-                segmento="Renda Fixa",
-                rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Fixa']['YTD'].iloc[0],
-                posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Fixa']['POSICAO_DF'].iloc[0],
+                segmento=segmento,
+                rentabilidade_atual=linha_segmento["YTD"],
+                posicao=linha_segmento["POSICAO_DF"],
                 posicao_pct=f"{posicao_pct:.2f}%",
-                mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Fixa']['MTD'].iloc[0],
-                m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Fixa']['MESES12'].iloc[0],
-                cor_segmento="#016837",
-                help="Resumo do segmento no plano."
+                mtd=linha_segmento["MTD"],
+                m12=linha_segmento["MESES12"],
+                cor_segmento=cor_segmento,
             )
+
         else:
+            rentabilidade_alvo = df_rent_projetada_filtro_segmetos[
+                df_rent_projetada_filtro_segmetos["SEGMENTO"] == segmento
+            ]["rentabilidade"].values[0]
+
             card_segmento_rentabilidade(
-            segmento="Renda Fixa",
-            rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Fixa']['YTD'].iloc[0],
-            rentabilidade_alvo=df_rent_projetada_filtro_segmetos[df_rent_projetada_filtro_segmetos['SEGMENTO'] == 'Renda Fixa']['rentabilidade'].values[0],
-            posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Fixa']['POSICAO_DF'].iloc[0],
-            posicao_pct=f"{posicao_pct:.2f}%",
-            mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Fixa']['MTD'].iloc[0],
-            m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Fixa']['MESES12'].iloc[0],
-            cor_segmento="#016837",
-            help="Resumo do desempenho e da posição do segmento no plano."
-        )
-
-if 'Renda Variável' in posicao_segmentos['GRUPO'].values:
-    with col2:
-        posicao_pct = (posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Variável']['POSICAO_DF'].iloc[0] / posicao_segmentos['POSICAO_DF'].sum()) * 100
-        if selected_plano == '[CERES TOTAL]':
-            card_segmento_rentabilidade_sem_projetada(
-                segmento="Renda Variável",
-                rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Variável']['YTD'].iloc[0],
-                posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Variável']['POSICAO_DF'].iloc[0],
-                posicao_pct=f"{posicao_pct:.2f}%",
-                mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Variável']['MTD'].iloc[0],
-                m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Variável']['MESES12'].iloc[0],
-                cor_segmento="#B7791F",
-                help="Resumo do segmento no plano."
+                segmento=segmento,
+                rentabilidade_atual=linha_segmento["YTD"],
+                rentabilidade_alvo=rentabilidade_alvo,
+                posicao=linha_segmento["POSICAO_DF"],
+                pct_posicao=f"{posicao_pct:.2f}%",
+                mtd=linha_segmento["MTD"],
+                m12=linha_segmento["MESES12"],
+                cor_segmento=cor_segmento,
             )
-        else:
-            card_segmento_rentabilidade(
-            segmento="Renda Variável",
-            rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Variável']['YTD'].iloc[0],
-            rentabilidade_alvo=df_rent_projetada_filtro_segmetos[df_rent_projetada_filtro_segmetos['SEGMENTO'] == 'Renda Variável']['rentabilidade'].values[0],
-            posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Variável']['POSICAO_DF'].iloc[0],
-            posicao_pct=f"{posicao_pct:.2f}%",
-            mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Variável']['MTD'].iloc[0],
-            m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Renda Variável']['MESES12'].iloc[0],
-            cor_segmento="#B7791F",
-            help="Resumo do desempenho e da posição do segmento no plano."
-        )
-
-
-if 'Estruturado' in posicao_segmentos['GRUPO'].values:
-    with col3:
-        posicao_pct = (posicao_segmentos[posicao_segmentos['GRUPO'] == 'Estruturado']['POSICAO_DF'].iloc[0] / posicao_segmentos['POSICAO_DF'].sum()) * 100
-        if selected_plano == '[CERES TOTAL]':
-            card_segmento_rentabilidade_sem_projetada(
-                segmento="Estruturado",
-                rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Estruturado']['YTD'].iloc[0],
-                posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Estruturado']['POSICAO_DF'].iloc[0],
-                posicao_pct=f"{posicao_pct:.2f}%",
-                mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Estruturado']['MTD'].iloc[0],
-                m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Estruturado']['MESES12'].iloc[0],
-                cor_segmento="#315C72",
-                help="Resumo do segmento no plano."
-            )
-        else:
-            card_segmento_rentabilidade(
-            segmento="Estruturado",
-            rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Estruturado']['YTD'].iloc[0],
-            rentabilidade_alvo=df_rent_projetada_filtro_segmetos[df_rent_projetada_filtro_segmetos['SEGMENTO'] == 'Estruturado']['rentabilidade'].values[0],
-            posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Estruturado']['POSICAO_DF'].iloc[0],
-            posicao_pct=f"{posicao_pct:.2f}%",
-            mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Estruturado']['MTD'].iloc[0],
-            m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Estruturado']['MESES12'].iloc[0],
-            cor_segmento="#315C72",
-            help="Resumo do desempenho e da posição do segmento no plano."
-        )
-            
-if 'Operações com Participantes' in posicao_segmentos['GRUPO'].values:
-    with col4:
-        posicao_pct = (posicao_segmentos[posicao_segmentos['GRUPO'] == 'Operações com Participantes']['POSICAO_DF'].iloc[0] / posicao_segmentos['POSICAO_DF'].sum()) * 100
-        if selected_plano == '[CERES TOTAL]':
-            card_segmento_rentabilidade_sem_projetada(
-                segmento="Operações com Participantes",
-                rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Operações com Participantes']['YTD'].iloc[0],
-                posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Operações com Participantes']['POSICAO_DF'].iloc[0],
-                posicao_pct=f"{posicao_pct:.2f}%",
-                mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Operações com Participantes']['MTD'].iloc[0],
-                m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Operações com Participantes']['MESES12'].iloc[0],
-                cor_segmento="#2A9D8F",
-                help="Resumo do segmento no plano."
-            )
-        else:
-            card_segmento_rentabilidade(
-            segmento="Operações com Participantes",
-            rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Operações com Participantes']['YTD'].iloc[0],
-            rentabilidade_alvo=df_rent_projetada_filtro_segmetos[df_rent_projetada_filtro_segmetos['SEGMENTO'] == 'Operações com Participantes']['rentabilidade'].values[0],
-            posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Operações com Participantes']['POSICAO_DF'].iloc[0],
-            posicao_pct=f"{posicao_pct:.2f}%",
-            mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Operações com Participantes']['MTD'].iloc[0],
-            m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Operações com Participantes']['MESES12'].iloc[0],
-            cor_segmento="#2A9D8F",
-            help="Resumo do desempenho e da posição do segmento no plano."
-        )
-
-
-if 'Imobiliário' in posicao_segmentos['GRUPO'].values:
-    with col5:
-        posicao_pct = (posicao_segmentos[posicao_segmentos['GRUPO'] == 'Imobiliário']['POSICAO_DF'].iloc[0] / posicao_segmentos['POSICAO_DF'].sum()) * 100
-        if selected_plano == '[CERES TOTAL]':
-            card_segmento_rentabilidade_sem_projetada(
-                segmento="Imobiliário",
-                rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Imobiliário']['YTD'].iloc[0],
-                posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Imobiliário']['POSICAO_DF'].iloc[0],
-                posicao_pct=f"{posicao_pct:.2f}%",
-                mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Imobiliário']['MTD'].iloc[0],
-                m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Imobiliário']['MESES12'].iloc[0],
-                cor_segmento="#8A5A44",
-                help="Resumo do segmento no plano."
-            )
-        else:
-            card_segmento_rentabilidade(
-            segmento="Imobiliário",
-            rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Imobiliário']['YTD'].iloc[0],
-            rentabilidade_alvo=df_rent_projetada_filtro_segmetos[df_rent_projetada_filtro_segmetos['SEGMENTO'] == 'Imobiliário']['rentabilidade'].values[0],
-            posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Imobiliário']['POSICAO_DF'].iloc[0],
-            posicao_pct=f"{posicao_pct:.2f}%",
-            mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Imobiliário']['MTD'].iloc[0],
-            m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Imobiliário']['MESES12'].iloc[0],
-            cor_segmento="#8A5A44",
-            help="Resumo do desempenho e da posição do segmento no plano."
-        )
-
-
-
-if 'Exterior' in posicao_segmentos['GRUPO'].values:
-    with col6:
-        posicao_pct = (posicao_segmentos[posicao_segmentos['GRUPO'] == 'Exterior']['POSICAO_DF'].iloc[0] / posicao_segmentos['POSICAO_DF'].sum()) * 100
-        if selected_plano == '[CERES TOTAL]':
-            card_segmento_rentabilidade_sem_projetada(
-                segmento="Exterior",
-                rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Exterior']['YTD'].iloc[0],
-                posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Exterior']['POSICAO_DF'].iloc[0],
-                posicao_pct=f"{posicao_pct:.2f}%",
-                mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Exterior']['MTD'].iloc[0],
-                m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Exterior']['MESES12'].iloc[0],
-                cor_segmento="#6D597A",
-                help="Resumo do segmento no plano."
-            )
-        else:
-            card_segmento_rentabilidade(
-            segmento="Exterior",
-            rentabilidade_atual=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Exterior']['YTD'].iloc[0],
-            rentabilidade_alvo=df_rent_projetada_filtro_segmetos[df_rent_projetada_filtro_segmetos['SEGMENTO'] == 'Exterior']['rentabilidade'].values[0],
-            posicao=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Exterior']['POSICAO_DF'].iloc[0],
-            posicao_pct=f"{posicao_pct:.2f}%",
-            mtd=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Exterior']['MTD'].iloc[0],
-            m12=posicao_segmentos[posicao_segmentos['GRUPO'] == 'Exterior']['MESES12'].iloc[0],
-            cor_segmento="#6D597A",
-            help="Resumo do desempenho e da posição do segmento no plano."
-            )
-
-
 #___________________________RENT SEGMENTOS
 with st.container(border=True):
 
-    # Cabeçalho: título à esquerda e controle no canto direito
-    col_titulo, col_controle = st.columns([2, 3])
+    # Cabeçalho: título à esquerda e controle à direita
+    col_titulo, col_espaco, col_controle = st.columns(
+        [2, 9, .6],
+        vertical_alignment="top"
+    )
 
     with col_titulo:
         st.markdown(
@@ -975,23 +961,19 @@ with st.container(border=True):
             unsafe_allow_html=True
         )
 
+    with col_espaco:
+        st.empty()
+
     with col_controle:
-        col_spacer, _, col_select = st.columns([8, 2, 2])
-
-        with col_spacer:
-            st.empty()
-
-        with col_select:
-            selecao_periodo = st.segmented_control(
-                "Período:",
-                options=["MTD", "YTD"],
-                selection_mode="single",
-                default="YTD",
-                key="rent_segmentos",
-                required=True,
-                label_visibility="collapsed",
-            )
-
+        selecao_periodo = st.segmented_control(
+            "Período:",
+            options=["MTD", "YTD"],
+            selection_mode="single",
+            default="YTD",
+            key="rent_segmentos",
+            required=True,
+            label_visibility="collapsed",
+        )
     # Base filtrada
     df_grupos_filtrado_ytd = df_grupos[
         (df_grupos["TESOURARIA"] == selected_plano) &
@@ -1023,14 +1005,6 @@ with st.container(border=True):
 
     if not df_plot.empty:
 
-        CORES_SEGMENTOS = {
-            "Renda Fixa": "#016837",
-            "Renda Variável": "#B7791F",
-            "Estruturado": "#315C72",
-            "Imobiliário": "#8A5A44",
-            "Exterior": "#6D597A",
-            "Operações com Participantes": "#2A9D8F",
-        }
 
         meses_pt = {
             1: "Jan",
@@ -1131,7 +1105,7 @@ with st.container(border=True):
 
             font=dict(
                 family="Figtree",
-                size=14,
+                size=16,
                 color="#333333",
             ),
 
@@ -1143,7 +1117,7 @@ with st.container(border=True):
                 ticktext=ticktext_x,
                 tickfont=dict(
                     family="Figtree",
-                    size=12,
+                    size=13,
                     color="#333333",
                 ),
                 range=[
@@ -1177,7 +1151,7 @@ with st.container(border=True):
                 bordercolor="#0B2F13",
                 font=dict(
                     family="Figtree",
-                    size=12,
+                    size=14,
                     color="#0B2F13",
                 ),
             ),
@@ -1190,7 +1164,7 @@ with st.container(border=True):
                 x=0.5,
                 font=dict(
                     family="Figtree",
-                    size=11,
+                    size=14,
                     color="#333333",
                 ),
             ),
@@ -1219,6 +1193,30 @@ with st.container(border=True):
         st.info("Não há dados disponíveis para o período selecionado.")
 #___________________________________TABELA PRODUTOS
 
+st.markdown(
+            """
+            <div style="
+                margin: 0;
+                padding: 0;
+                height: 38px;
+                display: flex;
+                align-items: center;
+            ">
+                <p style="
+                    margin: 0;
+                    padding: 0;
+                    font-family: Figtree, sans-serif;
+                    font-size: 16px;
+                    font-weight: 900;
+                    color: #333333;
+                ">
+                   Produtos do Plano
+                </p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+
 df_produtos_filtrado = df_produtos[
     (df_produtos['TESOURARIA'] == selected_plano) &
     (df_produtos['DATA_COTACAO'] == pd.to_datetime(selected_data)).copy()
@@ -1227,13 +1225,51 @@ df_produtos_filtrado = df_produtos[
 df_produtos_filtrado['%_POSICAO'] = (df_produtos_filtrado['POSICAO_DF'] / df_produtos_filtrado['POSICAO_DF'].sum()) * 100
 df_produtos_filtrado = df_produtos_filtrado.sort_values('POSICAO_DF', ascending=False).copy()
 
+segmentos_tabs = {
+    "Geral": None,
+    "Renda Fixa": "Renda Fixa",
+    "Renda Variável": "Renda Variável",
+    "Estruturado": "Estruturado",
+    "Imobiliário": "Imobiliário",
+    "Exterior": "Exterior",
+    "Op. Participantes": "Operações com Participantes",
+}
 
-df_plot_produtos = df_produtos_filtrado[['PRODUTO', 'POSICAO_DF', '%_POSICAO']].rename(columns={'PRODUTO': 'Produtos', 'POSICAO_DF': 'Posição (R$)', '%_POSICAO': '% Posição'}) 
-df_plot_produtos['Produtos'] = df_plot_produtos['Produtos'].apply(de_para_produto)
-df_plot_produtos['% Posição'] = df_plot_produtos['% Posição'].apply(formatar_percentual_br)
-st.html(gerar_tabela_estilizada(df_plot_produtos, rolagem=True))
+segmentos_existentes = set(df_produtos_filtrado["GRUPO"].dropna().unique())
 
+tabs_ativas = {
+    nome_tab: segmento_df
+    for nome_tab, segmento_df in segmentos_tabs.items()
+    if segmento_df is None or segmento_df in segmentos_existentes
+}
 
+tabs = st.tabs(list(tabs_ativas.keys()))
+
+for tab, (nome_tab, segmento_df) in zip(tabs, tabs_ativas.items()):
+    with tab:
+        if segmento_df is None:
+            df_base = df_produtos_filtrado.copy()
+        else:
+            df_base = df_produtos_filtrado[
+                df_produtos_filtrado["GRUPO"] == segmento_df
+            ].copy()
+
+        df_plot_produtos = (
+            df_base[["PRODUTO", "GRUPO", "POSICAO_DF", "%_POSICAO"]]
+            .rename(
+                columns={
+                    "PRODUTO": "Produtos",
+                    "GRUPO": "Segmento",
+                    "POSICAO_DF": "Posição (R$)",
+                    "%_POSICAO": "% Posição",
+                }
+            )
+        )
+
+        df_plot_produtos["Produtos"] = df_plot_produtos["Produtos"].apply(de_para_produto)
+        df_plot_produtos["% Posição"] = df_plot_produtos["% Posição"].apply(formatar_percentual_br)
+
+        st.html(gerar_tabela_estilizada(df_plot_produtos, rolagem=True, altura_max='300px'))
 #____________________________PL POR PLANO
 df_planos_pl = df_planos[(df_planos['DATA_COTACAO'] == pd.to_datetime(selected_data))]
 df_planos_pl = df_planos_pl[df_planos_pl['TESOURARIA'] != '[CERES TOTAL]'].copy()
@@ -1307,7 +1343,7 @@ with st.columns(1)[0].container(border=True):
             ),
             textfont=dict(
                 family="Figtree",
-                size=11,
+                size=14,
                 color="#0B2F13"
             ),
             cliponaxis=False,
@@ -1323,7 +1359,7 @@ with st.columns(1)[0].container(border=True):
             separators=",.",
             font=dict(
                 family="Figtree",
-                size=12,
+                size=14,
                 color="#333333"
             ),
             xaxis=dict(
@@ -1333,7 +1369,7 @@ with st.columns(1)[0].container(border=True):
                 automargin=True,
                 tickfont=dict(
                     family="Figtree",
-                    size=12,
+                    size=14,
                     color="#333333"
                 )
             ),
@@ -1343,13 +1379,13 @@ with st.columns(1)[0].container(border=True):
                 showticklabels=False,
                 range=[0, max_exp * 1.18]
             ),
-            hovermode="closest",
+            hovermode="x unified",
             hoverlabel=dict(
                 bgcolor="#FBFCEC",
                 bordercolor="#0B2F13",
                 font=dict(
                     family="Figtree",
-                    size=12,
+                    size=14,
                     color="#0B2F13"
                 )
             ),

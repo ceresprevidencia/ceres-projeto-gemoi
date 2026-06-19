@@ -1,6 +1,8 @@
 import pandas as pd
 from datetime import date, timedelta
 import streamlit as st
+import math
+import re
 
 # ── FORMATAÇÃO ────────────────────────────────────────────────────────────────
 
@@ -194,7 +196,7 @@ _CSS_TABELA = """
     .col-custom {
         padding: 10px 14px;
         font-family: 'Figtree', sans-serif;
-        font-size: 13px;
+        font-size: 15px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -502,12 +504,16 @@ def _normalizar_borda_inferior(borda_inferior="borda") -> str:
 def _classe_borda_inferior(borda_inferior="borda") -> str:
     modo = _normalizar_borda_inferior(borda_inferior)
     return _BORDA_INFERIOR_CLASSES[modo]
-
-def card_geral(titulo: str, valor: str, delta: str = None, help: str = None):
+def card_geral(titulo: str, valor: str, delta: str = None, help: str = None, valor_extenso: str = None):
     """
     Renderiza um card de métrica seguindo o Manual de Marca Ceres.
-    O delta e o help são opcionais. Se 'help' for informado, exibe um
-    ícone 'i' no canto superior direito com tooltip ao passar o mouse.
+
+    Parâmetros:
+    - titulo: título do card
+    - valor: valor resumido exibido no painel, ex: "1,3 bi"
+    - delta: variação opcional
+    - help: texto opcional do ícone de ajuda
+    - valor_extenso: valor completo exibido ao passar o mouse, ex: "R$ 1.300.000.000,00"
     """
 
     # 1. Lógica do Delta Opcional
@@ -517,31 +523,42 @@ def card_geral(titulo: str, valor: str, delta: str = None, help: str = None):
 
         if numero_delta > 0:
             cor_delta = "#016837"
-            fundo_delta = "rgba(1, 104, 55, 0.12)"
-            texto_delta = f"↑{delta}"
+            texto_delta = f"▲{delta}"
         elif numero_delta < 0:
             cor_delta = "#c0392b"
-            fundo_delta = "rgba(192, 57, 43, 0.12)"
-            texto_delta = f"↓{delta}"
+            texto_delta = f"▼{delta}"
         else:
             cor_delta = "#5a5a5a"
-            fundo_delta = "rgba(90, 90, 90, 0.12)"
             texto_delta = delta
 
         delta_html = (
-            f'<div style="display:inline-block; background-color:transparent; '
-            f'color:{cor_delta}; font-size:12px; font-weight:400; '
-           
+            f'<div style="background-color:transparent; '
+            f'color:{cor_delta}; font-size:14px; font-weight:600; text-align:center; margin-top: -6px;'
             f'font-family: \'Figtree\', sans-serif;">{texto_delta}</div>'
         )
 
-    # 2. Lógica do ícone de help (opcional)
+    # 2. Lógica do ícone de help opcional
     help_html = ""
     if help:
         help_html = f"""
         <div class="meu-card-help">
-            ℹ
+            i
             <span class="meu-card-tooltip">{help}</span>
+        </div>
+        """
+
+    # 3. Lógica do hover no valor principal
+    if valor_extenso:
+        valor_html = f"""
+        <div class="meu-card-valor">
+            {valor}
+            <span class="meu-card-valor-tooltip">{valor_extenso}</span>
+        </div>
+        """
+    else:
+        valor_html = f"""
+        <div class="meu-card-valor">
+            {valor}
         </div>
         """
 
@@ -556,11 +573,16 @@ def card_geral(titulo: str, valor: str, delta: str = None, help: str = None):
             transition: all 0.3s ease-in-out;
             text-align: left;
             position: relative;
+            height: 130px;
+            box-sizing: border-box;
+
         }}
+
         .meu-card-custom:hover {{
             transform: translateY(-4px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
         }}
+
         .meu-card-help {{
             position: absolute;
             top: 10px;
@@ -573,13 +595,14 @@ def card_geral(titulo: str, valor: str, delta: str = None, help: str = None):
             color: #0B2F13;
             font-size: 11px;
             font-weight: 700;
-            font-style: italic;
+            font-style: normal;
             font-family: 'Figtree', sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
             cursor: pointer;
         }}
+
         .meu-card-tooltip {{
             visibility: hidden;
             opacity: 0;
@@ -601,26 +624,67 @@ def card_geral(titulo: str, valor: str, delta: str = None, help: str = None):
             transition: opacity 0.2s ease-in-out;
             z-index: 999;
         }}
+
         .meu-card-help:hover .meu-card-tooltip {{
             visibility: visible;
             opacity: 1;
         }}
+
+        .meu-card-valor {{
+            color: #0b2f13;
+            font-size: 25px;
+            font-weight: 900;
+            margin-top: 8px;
+            font-family: 'Figtree', sans-serif;
+            text-align: center;
+            position: relative;
+            cursor: default;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }}
+
+        .meu-card-valor-tooltip {{
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            top: 120%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #0B2F13;
+            color: #FAFBEB;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.2s ease-in-out;
+            z-index: 999;
+        }}
+
+        .meu-card-valor:hover .meu-card-valor-tooltip {{
+            visibility: visible;
+            opacity: 1;
+        }}
     </style>
+
     <div class="meu-card-container">
         <div class="meu-card-custom">
             {help_html}
+
             <span style="color:#5a5a5a; font-size:16px;
                          padding:2px 8px; border-radius:6px; font-weight:900; display:inline-block;
                          font-family: 'Figtree', sans-serif;">
                 {titulo}
             </span>
-            <div style="color: #0b2f13; font-size: 30px; font-weight: 900;
-                        margin-top: 8px; font-family: 'Figtree', sans-serif; text-align: center;">
-                {valor}
-            <span style="font-size: 12px; font-weight: 400; margin-left: 8px;">
+
+            {valor_html}
+
+            <span>
                 {delta_html}
             </span>
-            </div>
         </div>
     </div>
     """
@@ -710,34 +774,36 @@ def card_rentabilidade_meta(
     alvo_fmt = f"{alvo:.2f}%".replace('.', ',')
     avanco_fmt = f"{percentual_meta_exibicao:.1f}%".replace('.', ',')
 
-    if percentual_meta >= 1.00:
+    if percentual_meta >= 1.01:
+        cor_principal = "#D3AF37"
+    elif percentual_meta >= 1.00:
         cor_principal = "#016837"
     elif percentual_meta >= 0.90:
-        cor_principal = "#2E7D32"
+        cor_principal = "#016837"
     elif percentual_meta >= 0.80:
-        cor_principal = "#558B2F"
+        cor_principal = "#016837"
     elif percentual_meta >= 0.70:
-        cor_principal = "#827717"
+        cor_principal = "#016837"
     elif percentual_meta >= 0.60:
-        cor_principal = "#B7791F"
+        cor_principal = "#016837"
     elif percentual_meta >= 0.50:
-        cor_principal = "#C98A1A"
+        cor_principal = "#016837"
     elif percentual_meta >= 0.40:
-        cor_principal = "#D97706"
+        cor_principal = "#016837"
     elif percentual_meta >= 0.30:
-        cor_principal = "#C05621"
+        cor_principal = "#016837"
     elif percentual_meta >= 0.20:
-        cor_principal = "#B83227"
+        cor_principal = "#016837"
     elif percentual_meta >= 0.10:
-        cor_principal = "#A93226"
+        cor_principal = "#016837"
     else:
-        cor_principal = "#c0392b"
+        cor_principal = "#016837"
 
     help_html = ""
     if help:
         help_html = f"""
         <div class="rent-card-help">
-            ℹ
+            i
             <span class="rent-card-tooltip">{help}</span>
         </div>
         """
@@ -754,6 +820,9 @@ def card_rentabilidade_meta(
             text-align: left;
             position: relative;
             font-family: 'Figtree', sans-serif;
+            height: 130px;
+            box-sizing: border-box;
+
         }}
 
         .rent-card-custom:hover {{
@@ -783,7 +852,7 @@ def card_rentabilidade_meta(
             color: #0B2F13;
             font-size: 11px;
             font-weight: 700;
-            font-style: italic;
+            font-style: normal;
             font-family: 'Figtree', sans-serif;
             display: flex;
             align-items: center;
@@ -848,7 +917,7 @@ def card_rentabilidade_meta(
 
         .rent-main-value {{
             color: #0B2F13;
-            font-size: 30px;
+            font-size: 25px;
             font-weight: 900;
             font-family: 'Figtree', sans-serif;
             white-space: nowrap;
@@ -856,7 +925,7 @@ def card_rentabilidade_meta(
 
         .rent-target-value {{
             color: #5a5a5a;
-            font-size: 16px;
+            font-size: 13px;
             font-weight: 600;
             font-family: 'Figtree', sans-serif;
             white-space: nowrap;
@@ -901,7 +970,6 @@ def card_rentabilidade_meta(
 
             <div class="rent-values-row">
                 <div class="rent-value-box">
-                    <span class="rent-value-label">Atual</span>
                     <span class="rent-main-value">{atual_fmt}</span>
                 </div>
 
@@ -931,411 +999,582 @@ def card_rentabilidade_meta(
     st.html(html_final)
 
 
+import math
+import re
+import html as html_lib
+import streamlit as st
+
+
+def _parse_percentual(valor):
+    if valor is None:
+        return 0.0
+
+    if isinstance(valor, (int, float)):
+        valor = float(valor)
+
+        # Caso venha como fração: 0.082 = 8,2%
+        if -1 < valor < 1 and valor != 0:
+            return valor * 100
+
+        return valor
+
+    texto = str(valor).strip()
+    texto = texto.replace("%", "").replace(" ", "")
+
+    if not texto:
+        return 0.0
+
+    if "," in texto and "." in texto:
+        if texto.rfind(",") > texto.rfind("."):
+            texto = texto.replace(".", "").replace(",", ".")
+        else:
+            texto = texto.replace(",", "")
+    elif "," in texto:
+        texto = texto.replace(",", ".")
+
+    try:
+        valor = float(texto)
+    except ValueError:
+        return 0.0
+
+    if -1 < valor < 1 and valor != 0:
+        return valor * 100
+
+    return valor
+
+
+def _safe_id(text):
+    return re.sub(r"[^a-zA-Z0-9_-]", "_", str(text))
+
+
+def _svg_point(cx, cy, r, deg):
+    rad = math.radians(deg)
+    return cx + r * math.cos(rad), cy + r * math.sin(rad)
+
+
+def _svg_arc_path(cx, cy, r, start_deg, end_deg):
+    x1, y1 = _svg_point(cx, cy, r, start_deg)
+    x2, y2 = _svg_point(cx, cy, r, end_deg)
+
+    diff = end_deg - start_deg
+    large_arc = 1 if abs(diff) > 180 else 0
+    sweep = 1 if diff > 0 else 0
+
+    return (
+        f"M {x1:.2f} {y1:.2f} "
+        f"A {r:.2f} {r:.2f} 0 {large_arc} {sweep} {x2:.2f} {y2:.2f}"
+    )
+
+
+def _format_percentual(valor, casas=2):
+    return f"{valor:.{casas}f}%".replace(".", ",")
+
+
+def _parse_numero_brl(valor):
+    if valor is None:
+        return 0.0
+
+    if isinstance(valor, (int, float)):
+        return float(valor)
+
+    texto = str(valor).strip()
+    texto = texto.replace("R$", "").replace(" ", "")
+
+    if "," in texto and "." in texto:
+        if texto.rfind(",") > texto.rfind("."):
+            texto = texto.replace(".", "").replace(",", ".")
+        else:
+            texto = texto.replace(",", "")
+    elif "," in texto:
+        texto = texto.replace(",", ".")
+
+    return float(texto)
+
+
+def _format_brl_completo(valor):
+    if valor is None:
+        return "-"
+
+    try:
+        numero = _parse_numero_brl(valor)
+    except Exception:
+        return str(valor)
+
+    return "R$ " + f"{numero:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def _format_brl_curto(valor):
+    if valor is None:
+        return "-"
+
+    try:
+        numero = _parse_numero_brl(valor)
+    except Exception:
+        return str(valor)
+
+    abs_numero = abs(numero)
+
+    if abs_numero >= 1_000_000_000:
+        return "R$ " + f"{numero / 1_000_000_000:.2f}".replace(".", ",") + " Bi"
+
+    if abs_numero >= 1_000_000:
+        return "R$ " + f"{numero / 1_000_000:.2f}".replace(".", ",") + " Mi"
+
+    if abs_numero >= 1_000:
+        return "R$ " + f"{numero / 1_000:.2f}".replace(".", ",") + " Mil"
+
+    return _format_brl_completo(numero)
+
 
 def card_segmento_rentabilidade(
     segmento: str,
     rentabilidade_atual,
     rentabilidade_alvo,
     posicao,
-    posicao_pct,
     mtd,
     m12,
+    pct_posicao,
     cor_segmento: str = "#016837",
-    help: str = None
+    height: int = 160,
 ):
-    """
-    Renderiza um card de segmento com:
-    - Nome do segmento
-    - Rentabilidade atual
-    - Rentabilidade alvo/projetada
-    - Posição
-    - Posição %
-    - MTD
-    - 12 Meses
-    - Barra de avanço contra a meta
-
-    A cor do segmento é aplicada inline para evitar conflito de CSS
-    quando vários cards são renderizados na mesma tela.
-    """
-
     atual = _parse_percentual(rentabilidade_atual)
     alvo = _parse_percentual(rentabilidade_alvo)
     mtd_valor = _parse_percentual(mtd)
     m12_valor = _parse_percentual(m12)
-    posicao_pct_valor = _parse_percentual(posicao_pct)
 
-    percentual_meta = 0 if alvo == 0 else atual / alvo
-    percentual_meta_exibicao = percentual_meta * 100
-    percentual_barra = max(0, min(percentual_meta_exibicao, 100))
+    # Valor real: pode ser negativo ou passar de 100%
+    pct_meta_real = 0 if alvo == 0 else atual / alvo
 
-    atual_fmt = f"{atual:.2f}%".replace('.', ',')
-    alvo_fmt = f"{alvo:.2f}%".replace('.', ',')
-    avanco_fmt = f"{percentual_meta_exibicao:.1f}%".replace('.', ',')
-    posicao_pct_fmt = f"{posicao_pct_valor:.2f}%".replace('.', ',')
-    mtd_fmt = f"{mtd_valor:.2f}%".replace('.', ',')
-    m12_fmt = f"{m12_valor:.2f}%".replace('.', ',')
+    # Valor visual do arco: limitado entre 0% e 100%
+    pct_meta_gauge = max(0, min(pct_meta_real, 1))
 
-    if isinstance(posicao, (int, float)):
-        posicao_fmt = f"R$ {posicao:,.2f}"
-        posicao_fmt = (
-            posicao_fmt
-            .replace(",", "X")
-            .replace(".", ",")
-            .replace("X", ".")
-        )
+    atual_fmt = _format_percentual(atual, 2)
+    alvo_fmt = _format_percentual(alvo, 2)
+    mtd_fmt = _format_percentual(mtd_valor, 2)
+    m12_fmt = _format_percentual(m12_valor, 2)
+
+    # Label real: permite -20%, 135%, etc.
+    avanco_fmt = _format_percentual(pct_meta_real * 100, 0)
+
+    segmento_safe = html_lib.escape(str(segmento))
+    pos_curto = html_lib.escape(_format_brl_curto(posicao))
+    pos_completo = html_lib.escape(_format_brl_completo(posicao))
+    uid = _safe_id(segmento)
+
+    if pct_meta_real >= 1.01:
+        fill_color = "#D3AF37"
+    elif pct_meta_real >= 1.0:
+        fill_color = "#016837"
+    elif pct_meta_real >= 0.7:
+        fill_color = "#558B2F"
+    elif pct_meta_real >= 0.4:
+        fill_color = "#558B2F"
     else:
-        posicao_fmt = str(posicao)
+        fill_color = "#558B2F"
 
-    if percentual_meta >= 1.00:
-        cor_principal = "#016837"
-    elif percentual_meta >= 0.90:
-        cor_principal = "#2E7D32"
-    elif percentual_meta >= 0.80:
-        cor_principal = "#558B2F"
-    elif percentual_meta >= 0.70:
-        cor_principal = "#827717"
-    elif percentual_meta >= 0.60:
-        cor_principal = "#B7791F"
-    elif percentual_meta >= 0.50:
-        cor_principal = "#C98A1A"
-    elif percentual_meta >= 0.40:
-        cor_principal = "#D97706"
-    elif percentual_meta >= 0.30:
-        cor_principal = "#C05621"
-    elif percentual_meta >= 0.20:
-        cor_principal = "#B83227"
-    elif percentual_meta >= 0.10:
-        cor_principal = "#A93226"
+    # Gauge
+    cx, cy, r = 100, 104, 82
+    start_deg = 150
+    total_span = 240
+    end_deg = start_deg + total_span
+    fill_deg = start_deg + total_span * pct_meta_gauge
+
+    track_path = _svg_arc_path(cx, cy, r, start_deg, end_deg)
+    fill_path = _svg_arc_path(cx, cy, r, start_deg, fill_deg) if pct_meta_gauge > 0.005 else ""
+
+    # Label sobrepondo o medidor
+    # Se valor for negativo, fica no início do gauge.
+    # Se passar de 100%, fica no fim do gauge.
+    # Entre 0 e 100%, acompanha o avanço.
+    if pct_meta_real < 0:
+        label_deg = start_deg
+    elif pct_meta_real > 1:
+        label_deg = end_deg
     else:
-        cor_principal = "#c0392b"
+        label_deg = fill_deg
 
-    help_html = ""
-    if help:
-        help_html = f"""
-        <div class="seg-card-help">
-            ℹ
-            <span class="seg-card-tooltip">{help}</span>
-        </div>
-        """
+    # r = exatamente em cima do arco.
+    # r - 4 = mais para dentro.
+    # r + 4 = mais para fora.
+    label_r = r
+    lx, ly = _svg_point(cx, cy, label_r, label_deg)
 
-    html_final = f"""
-    <style>
-        .seg-card-custom {{
-            background-color: rgba(219, 208, 178, 0.14);
-            padding: 15px 15px 14px 17px;
-            border-radius: 10px;
-            margin-top: 6px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease-in-out;
-            text-align: left;
-            position: relative;
-            font-family: 'Figtree', sans-serif;
-            overflow: hidden;
-        }}
+    # Fundo arredondado da label
+    label_chars = len(avanco_fmt)
+    label_w = max(46, label_chars * 11)
+    label_h = 26
+    label_x = lx - label_w / 2
+    label_y = ly - label_h / 2
 
-        .seg-card-custom:hover {{
-            transform: translateY(-4px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
-        }}
+    html = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap');
 
-        .seg-color-bar {{
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 5px;
-            height: 100%;
-        }}
+            html,
+            body {{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background: transparent;
+                box-sizing: border-box;
+                font-family: 'Figtree', sans-serif;
+            }}
 
-        .seg-card-header {{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 8px;
-            padding-right: 22px;
-        }}
+            *,
+            *::before,
+            *::after {{
+                box-sizing: border-box;
+            }}
 
-        .seg-card-title-wrap {{
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            min-width: 0;
-        }}
+            .seg-card-{uid} {{
+                width: 100%;
+                height: 100%;
+                max-width: none;
+                min-width: 0;
+                background-color: rgba(219, 208, 178, 0.14);
+                padding: 8px 12px 8px 16px;
+                border-radius: 10px;
+                margin: 0;
+                box-shadow: none;
+                transition: none;
+                font-family: 'Figtree', sans-serif;
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+            }}
 
-        .seg-color-dot {{
-            width: 10px;
-            height: 10px;
-            min-width: 10px;
-            border-radius: 999px;
-        }}
+            .seg-card-{uid}:hover {{
+                transform: none;
+                box-shadow: none;
+            }}
 
-        .seg-card-title {{
-            color: #5a5a5a;
-            font-size: 16px;
-            font-weight: 900;
-            font-family: 'Figtree', sans-serif;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }}
+            .seg-color-bar {{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 5px;
+                height: 100%;
+                border-radius: 10px 0 0 10px;
+                background: {cor_segmento};
+            }}
 
-        .seg-card-help {{
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 18px;
-            height: 18px;
-            border-radius: 50%;
-            background-color: transparent;
-            border: 1.5px solid #0B2F13;
-            color: #0B2F13;
-            font-size: 11px;
-            font-weight: 700;
-            font-style: italic;
-            font-family: 'Figtree', sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-        }}
+            .seg-title {{
+                font-size: clamp(14px, 1.6vw, 15px);
+                font-weight: 400;
+                font-family: 'Figtree', sans-serif;
+                white-space: normal;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 1.1;
+                padding-right: 22px;
+                margin-top: 8px;
+                margin-left: 16px;
+            }}
 
-        .seg-card-tooltip {{
-            visibility: hidden;
-            opacity: 0;
-            position: absolute;
-            bottom: 130%;
-            right: 0;
-            background-color: #0B2F13;
-            color: #FAFBEB;
-            text-align: left;
-            padding: 8px 12px;
-            border-radius: 6px;
-            font-size: 12px;
-            font-weight: 400;
-            font-style: normal;
-            font-family: 'Figtree', sans-serif;
-            white-space: normal;
-            width: 220px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            transition: opacity 0.2s ease-in-out;
-            z-index: 999;
-        }}
+            .seg-body {{
+                flex: 1 1 auto;
+                min-height: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 12px;
+                width: 100%;
+            }}
 
-        .seg-card-help:hover .seg-card-tooltip {{
-            visibility: visible;
-            opacity: 1;
-        }}
+            .seg-gauge-col {{
+                flex: 0 0 48%;
+                min-width: 0;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }}
 
-        .seg-values-row {{
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            gap: 12px;
-            margin-top: 14px;
-            margin-bottom: 10px;
-        }}
+            .seg-svg-wrap {{
+                position: relative;
+                width: min(100%, 230px);
+                max-height: 118px;
+                aspect-ratio: 200 / 172;
+                margin: 0;
+            }}
 
-        .seg-value-box {{
-            display: flex;
-            flex-direction: column;
-            line-height: 1.05;
-        }}
+            .seg-svg-wrap svg {{
+                width: 100%;
+                height: 100%;
+                display: block;
+                overflow: visible;
+            }}
 
-        .seg-value-box.right {{
-            text-align: right;
-        }}
+            .seg-gauge-ano-label {{
+                position: absolute;
+                top: 22px;
+                left: 28px;
+                color: #5a5a5a;
+                font-size: clamp(11px, 1.5vw, 12px);
+                font-weight: 600;
+                font-family: 'Figtree', sans-serif;
+                line-height: 1;
+                z-index: 2;
+                pointer-events: none;
+            }}
 
-        .seg-value-label {{
-            color: #5a5a5a;
-            font-size: 12px;
-            font-weight: 400;
-            margin-bottom: 3px;
-            font-family: 'Figtree', sans-serif;
-        }}
+            .seg-center-text {{
+                position: absolute;
+                top: 52%;
+                left: 50%;
+                transform: translate(-50%, -35%);
+                text-align: center;
+                pointer-events: none;
+                width: 100%;
+            }}
 
-        .seg-main-value {{
-            color: #0B2F13;
-            font-size: 30px;
-            font-weight: 900;
-            font-family: 'Figtree', sans-serif;
-            white-space: nowrap;
-        }}
+            .seg-ytd-val {{
+                font-size: clamp(21px, 4vw, 22px);
+                font-weight: 600;
+                color: #0B2F13;
+                display: block;
+                line-height: 1;
+            }}
 
-        .seg-target-value {{
-            color: #5a5a5a;
-            font-size: 18px;
-            font-weight: 600;
-            font-family: 'Figtree', sans-serif;
-            white-space: nowrap;
-        }}
+            .seg-ytd-sub-label {{
+                font-size: clamp(10px, 1.5vw, 11px);
+                color: #5a5a5a;
+                display: block;
+                margin-top: 5px;
+                font-weight: 500;
+                line-height: 1;
+            }}
 
-        .seg-position-row {{
-            display: flex;
-            justify-content: space-between;
-            gap: 10px;
-            margin-top: 8px;
-            padding: 9px 10px;
-            border-radius: 8px;
-            background-color: rgba(250, 251, 235, 0.55);
-          
-        }}
+            .seg-ytd-sub-value {{
+                font-size: clamp(13px, 2vw, 14px);
+                color: #0B2F13;
+                display: block;
+                margin-top: 3px;
+                font-weight: 700;
+                line-height: 1;
+            }}
 
-        .seg-position-item {{
-            display: flex;
-            flex-direction: column;
-            line-height: 1.1;
-        }}
+            .seg-gauge-label-bg {{
+                fill: rgba(250, 251, 235, 0.92);
+                stroke: rgba(90,90,90,0.18);
+                stroke-width: 0.8;
+            }}
 
-        .seg-position-item.right {{
-            text-align: right;
-        }}
+            .seg-gauge-pct {{
+                font-size: 18px;
+                font-family: 'Figtree', sans-serif;
+                font-weight: 500;
+                fill: rgba(90,90,90,0.88);
+            }}
 
-        .seg-small-label {{
-            color: #5a5a5a;
-            font-size: 11px;
-            font-weight: 600;
-            margin-bottom: 4px;
-            font-family: 'Figtree', sans-serif;
-        }}
+            .seg-side-values {{
+                flex: 1 1 52%;
+                min-width: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: stretch;
+                gap: 7px;
+                height: 100%;
+                padding-right: 30px;
+            }}
 
-        .seg-position-value {{
-            color: #0B2F13;
-            font-size: 14px;
-            font-weight: 600;
-            font-family: 'Figtree', sans-serif;
-            white-space: nowrap;
-        }}
+            .seg-metric {{
+                position: relative;
+                display: flex;
+                align-items: baseline;
+                justify-content: space-between;
+                gap: 8px;
+                min-width: 0;
+            }}
 
-        .seg-bar-area {{
-            margin-top: 12px;
-        }}
+            .seg-footer-label {{
+                font-size: clamp(11px, 1.6vw, 15px);
+                color: #5a5a5a;
+                font-weight: 500;
+                line-height: 1;
+                white-space: nowrap;
+            }}
 
-        .seg-bar-track {{
-            position: relative;
-            width: 100%;
-            height: 14px;
-            background-color: rgba(90, 90, 90, 0.16);
-            border-radius: 999px;
-            overflow: hidden;
-        }}
+            .seg-footer-val {{
+                font-size: clamp(13px, 1.6vw, 16px);
+                font-weight: 600;
+                color: #0B2F13;
+                
+                word-break: keep-all;
+                line-height: 1.1;
+                white-space: nowrap;
+            }}
 
-        .seg-bar-fill {{
-            height: 100%;
-            border-radius: 999px;
-            transition: width 0.4s ease-in-out;
-        }}
+            .seg-pos-wrap {{
+                cursor: default;
+            }}
 
-        .seg-bar-footer {{
-            display: flex;
-            justify-content: space-between;
-            color: #5a5a5a;
-            font-size: 11px;
-            margin-top: 5px;
-            font-family: 'Figtree', sans-serif;
-        }}
+            .seg-pos-tooltip {{
+                visibility: hidden;
+                opacity: 0;
+                position: absolute;
+                bottom: calc(100% + 7px);
+                right: 0;
+                background: #0B2F13;
+                color: #FAFBEB;
+                padding: 6px 10px;
+                border-radius: 6px;
+                font-size: 11px;
+                font-weight: 500;
+                white-space: nowrap;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.18);
+                transition: opacity 0.16s ease-in-out;
+                z-index: 999;
+                pointer-events: none;
+            }}
 
-        .seg-period-row {{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 8px;
-            margin-top: 12px;
-        }}
+            .seg-pos-wrap:hover .seg-pos-tooltip {{
+                visibility: visible;
+                opacity: 1;
+            }}
 
-        .seg-period-box {{
-            padding: 8px 10px;
-            border-radius: 8px;
-            background-color: transparent;
-    
-        }}
+            @media (max-width: 420px) {{
+                .seg-card-{uid} {{
+                    padding: 8px 8px 8px 14px;
+                }}
 
-        .seg-period-label {{
-            color: #5a5a5a;
-            font-size: 11px;
-            font-weight: 700;
-            font-family: 'Figtree', sans-serif;
-            margin-bottom: 4px;
-        }}
+                .seg-body {{
+                    gap: 8px;
+                }}
 
-        .seg-period-value {{
-            color: #0B2F13;
-            font-size: 16px;
-            font-weight: 900;
-            font-family: 'Figtree', sans-serif;
-        }}
-    </style>
+                .seg-gauge-col {{
+                    flex-basis: 50%;
+                }}
 
-    <div class="seg-card-container">
-        <div class="seg-card-custom">
+                .seg-side-values {{
+                    flex-basis: 50%;
+                    gap: 6px;
+                }}
 
-            <div class="seg-color-bar" style="background:{cor_segmento};"></div>
+                .seg-svg-wrap {{
+                    width: min(100%, 205px);
+                    max-height: 108px;
+                }}
 
-            {help_html}
+                .seg-gauge-ano-label {{
+                    top: 7px;
+                    left: 8px;
+                    font-size: 9px;
+                }}
 
-            <div class="seg-card-header">
-                <div class="seg-card-title-wrap">
-                    <span class="seg-color-dot"
-                          style="background-color:{cor_segmento}; box-shadow:0 0 0 4px {cor_segmento}22;">
-                    </span>
-                    <span class="seg-card-title">{segmento}</span>
-                </div>
-            </div>
+                .seg-center-text {{
+                    top: 52%;
+                    transform: translate(-50%, -35%);
+                }}
 
-            <div class="seg-values-row">
-                <div class="seg-value-box">
-                    <span class="seg-value-label">YTD</span>
-                    <span class="seg-main-value">{atual_fmt}</span>
-                </div>
+                .seg-gauge-pct {{
+                    font-size: 16px;
+                }}
 
-                <div class="seg-value-box right">
-                    <span class="seg-value-label">Projetada</span>
-                    <span class="seg-target-value">{alvo_fmt}</span>
-                </div>
-            </div>
+                .seg-ytd-val {{
+                    font-size: 21px;
+                }}
 
-            <div class="seg-position-row">
-                <div class="seg-position-item">
-                    <span class="seg-small-label">Posição</span>
-                    <span class="seg-position-value">{posicao_fmt}</span>
-                </div>
+                .seg-ytd-sub-label {{
+                    font-size: 9px;
+                }}
 
-                <div class="seg-position-item right">
-                    <span class="seg-small-label">%</span>
-                    <span class="seg-position-value">{posicao_pct_fmt}</span>
-                </div>
-            </div>
+                .seg-ytd-sub-value {{
+                    font-size: 12px;
+                }}
 
-            <div class="seg-period-row">
-                <div class="seg-period-box">
-                    <div class="seg-period-label">MTD</div>
-                    <div class="seg-period-value">{mtd_fmt}</div>
-                </div>
+                .seg-footer-val {{
+                    font-size: 11px;
+                }}
+            }}
+        </style>
+    </head>
 
-                <div class="seg-period-box">
-                    <div class="seg-period-label">12 Meses</div>
-                    <div class="seg-period-value">{m12_fmt}</div>
-                </div>
-            </div>
+    <body>
+        <div class="seg-card-{uid}">
+            <div class="seg-color-bar"></div>
 
-            <div class="seg-bar-area">
-                <div class="seg-bar-track">
-                    <div class="seg-bar-fill"
-                         style="width:{percentual_barra:.2f}%; background-color:{cor_principal};">
+            <div class="seg-title">{segmento_safe}</div>
+
+            <div class="seg-body">
+                <div class="seg-gauge-col">
+                    <div class="seg-svg-wrap">
+
+                        <span class="seg-gauge-ano-label">Ano</span>
+
+                        <svg viewBox="0 0 200 172" role="img" aria-label="Gauge de rentabilidade de {segmento_safe}">
+                            <path d="{track_path}"
+                                  fill="none"
+                                  stroke="rgba(90,90,90,0.12)"
+                                  stroke-width="24"
+                                  stroke-linecap="round"/>
+
+                            <path d="{fill_path}"
+                                  fill="none"
+                                  stroke="{fill_color}"
+                                  stroke-width="24"
+                                  stroke-linecap="round"/>
+
+                            <rect x="{label_x:.1f}" y="{label_y:.1f}"
+                                  width="{label_w:.1f}"
+                                  height="{label_h:.1f}"
+                                  rx="5"
+                                  ry="5"
+                                  class="seg-gauge-label-bg" />
+
+                            <text x="{lx:.1f}" y="{ly:.1f}"
+                                  class="seg-gauge-pct"
+                                  text-anchor="middle"
+                                  dominant-baseline="middle">
+                                {avanco_fmt}
+                            </text>
+                        </svg>
+
+                        <div class="seg-center-text">
+                            <span class="seg-ytd-val">{atual_fmt}</span>
+                            <span class="seg-ytd-sub-label">Projetada</span>
+                            <span class="seg-ytd-sub-value">{alvo_fmt}</span>
+                        </div>
+
                     </div>
                 </div>
 
-                <div class="seg-bar-footer">
-                    <span>0%</span>
-                    <span>{avanco_fmt} da meta</span>
+                <div class="seg-side-values">
+                    <div class="seg-metric seg-pos-wrap">
+                        <span class="seg-footer-label">Posição</span>
+                        <span class="seg-footer-val">{pos_curto}</span>
+                        <span class="seg-pos-tooltip">{pos_completo} ({pct_posicao} do plano).</span>
+                    </div>
+
+                    <div class="seg-metric">
+                        <span class="seg-footer-label">MTD</span>
+                        <span class="seg-footer-val">{mtd_fmt}</span>
+                    </div>
+
+                    <div class="seg-metric">
+                        <span class="seg-footer-label">12 meses</span>
+                        <span class="seg-footer-val">{m12_fmt}</span>
+                    </div>
                 </div>
             </div>
-
-            
         </div>
-    </div>
+    </body>
+    </html>
     """
 
-    st.html(html_final)
-
-
+    st.iframe(
+        html,
+        height=height,
+        width="stretch",
+    )
 
 
 def card_segmento_rentabilidade_sem_projetada(
@@ -1351,11 +1590,9 @@ def card_segmento_rentabilidade_sem_projetada(
     """
     Renderiza um card de segmento com:
     - Nome do segmento
-    - Rentabilidade atual
-    - Posição
-    - Posição %
-    - MTD
-    - 12 Meses
+    - Ano/rentabilidade atual à esquerda
+    - Posição e % na mesma linha à direita
+    - MTD e 12 meses empilhados à direita
 
     A cor do segmento é aplicada inline para evitar conflito de CSS
     quando vários cards são renderizados na mesma tela.
@@ -1366,10 +1603,10 @@ def card_segmento_rentabilidade_sem_projetada(
     m12_valor = _parse_percentual(m12)
     posicao_pct_valor = _parse_percentual(posicao_pct)
 
-    atual_fmt = f"{atual:.2f}%".replace('.', ',')
-    mtd_fmt = f"{mtd_valor:.2f}%".replace('.', ',')
-    m12_fmt = f"{m12_valor:.2f}%".replace('.', ',')
-    posicao_pct_fmt = f"{posicao_pct_valor:.2f}%".replace('.', ',')
+    atual_fmt = f"{atual:.2f}%".replace(".", ",")
+    mtd_fmt = f"{mtd_valor:.2f}%".replace(".", ",")
+    m12_fmt = f"{m12_valor:.2f}%".replace(".", ",")
+    posicao_pct_fmt = f"{posicao_pct_valor:.2f}%".replace(".", ",")
 
     if isinstance(posicao, (int, float)):
         posicao_fmt = f"R$ {posicao:,.2f}"
@@ -1386,7 +1623,7 @@ def card_segmento_rentabilidade_sem_projetada(
     if help:
         help_html = f"""
         <div class="seg-card-help">
-            ℹ
+            i
             <span class="seg-card-tooltip">{help}</span>
         </div>
         """
@@ -1395,20 +1632,23 @@ def card_segmento_rentabilidade_sem_projetada(
     <style>
         .seg-card-custom {{
             background-color: rgba(219, 208, 178, 0.14);
-            padding: 15px 15px 14px 17px;
+            padding: 15px 16px 24px 18px;
             border-radius: 10px;
             margin-top: 6px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease-in-out;
+            box-shadow: none;
+            transition: none;
             text-align: left;
             position: relative;
             font-family: 'Figtree', sans-serif;
             overflow: hidden;
+            min-height: 150px;
+            box-sizing: border-box;
+            height: 150px;
         }}
 
         .seg-card-custom:hover {{
-            transform: translateY(-4px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+            transform: none;
+            box-shadow: none;
         }}
 
         .seg-color-bar {{
@@ -1417,38 +1657,6 @@ def card_segmento_rentabilidade_sem_projetada(
             top: 0;
             width: 5px;
             height: 100%;
-        }}
-
-        .seg-card-header {{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 8px;
-            padding-right: 22px;
-        }}
-
-        .seg-card-title-wrap {{
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            min-width: 0;
-        }}
-
-        .seg-color-dot {{
-            width: 10px;
-            height: 10px;
-            min-width: 10px;
-            border-radius: 999px;
-        }}
-
-        .seg-card-title {{
-            color: #5a5a5a;
-            font-size: 16px;
-            font-weight: 900;
-            font-family: 'Figtree', sans-serif;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
         }}
 
         .seg-card-help {{
@@ -1463,12 +1671,13 @@ def card_segmento_rentabilidade_sem_projetada(
             color: #0B2F13;
             font-size: 11px;
             font-weight: 700;
-            font-style: italic;
+            font-style: normal;
             font-family: 'Figtree', sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
             cursor: pointer;
+            z-index: 2;
         }}
 
         .seg-card-tooltip {{
@@ -1477,6 +1686,7 @@ def card_segmento_rentabilidade_sem_projetada(
             position: absolute;
             bottom: 130%;
             right: 0;
+            width: 220px;
             background-color: #0B2F13;
             color: #FAFBEB;
             text-align: left;
@@ -1487,7 +1697,6 @@ def card_segmento_rentabilidade_sem_projetada(
             font-style: normal;
             font-family: 'Figtree', sans-serif;
             white-space: normal;
-            width: 220px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             transition: opacity 0.2s ease-in-out;
             z-index: 999;
@@ -1498,91 +1707,117 @@ def card_segmento_rentabilidade_sem_projetada(
             opacity: 1;
         }}
 
-        .seg-main-area {{
-            margin-top: 14px;
-            margin-bottom: 10px;
+        .seg-card-layout {{
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 14px;
+            align-items: start;
+            height: 100%;
         }}
 
-        .seg-value-label {{
-            color: #5a5a5a;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 3px;
+        .seg-card-left {{
+            min-width: 0;
+            padding-right: 8px;
+        }}
+
+        .seg-card-title {{
+            font-size: clamp(14px, 1.6vw, 15px);
+            font-weight: 400;
             font-family: 'Figtree', sans-serif;
+            white-space: normal;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.1;
+            padding-right: 22px;
+        }}
+
+        .seg-ano-box {{
+            margin-top: 18px;
+            margin-left: 35px;
+        }}
+
+        .seg-main-label {{
+            color: #5a5a5a;
+            font-size: clamp(14px, 1.6vw, 15px);
+            font-weight: 600;
+            font-family: 'Figtree', sans-serif;
+            margin-bottom: 2px;
         }}
 
         .seg-main-value {{
             color: #0B2F13;
-            font-size: 32px;
+            font-size: 30px;
             font-weight: 900;
             font-family: 'Figtree', sans-serif;
             white-space: nowrap;
-            line-height: 1.05;
+            line-height: 1;
         }}
 
-        .seg-position-row {{
-            display: flex;
-            justify-content: space-between;
-            gap: 10px;
-            margin-top: 8px;
-            padding: 9px 10px;
-            border-radius: 8px;
-            background-color: rgba(250, 251, 235, 0.55);
-        
-        }}
-
-        .seg-position-item {{
+        .seg-card-right {{
             display: flex;
             flex-direction: column;
-            line-height: 1.1;
-        }}
-
-        .seg-position-item.right {{
+            align-items: stretch;
             text-align: right;
+            padding-right: 28px;
+            margin-top: 20px;
+            min-width: 210px;
         }}
 
-        .seg-small-label {{
+        .seg-posicao-row {{
+            display: grid;
+            grid-template-columns: 1fr 60px;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 12px;
+            width: 100%;
+        }}
+
+        .seg-metric-box {{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 1.1;
+            min-width: 0;
+        }}
+
+        .seg-metric-box .seg-metric-value {{
+            text-align: left;
+        }}
+
+        .seg-metrics-stack {{
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 6px;
+            width: 100%;
+        }}
+
+        .seg-metric-line {{
+            display: grid;
+            grid-template-columns: 85px 1fr;
+            align-items: baseline;
+            column-gap: 10px;
+            line-height: 1.1;
+            white-space: nowrap;
+            width: 100%;
+        }}
+
+        .seg-metric-label {{
             color: #5a5a5a;
-            font-size: 11px;
+            font-size: clamp(11px, 1.6vw, 15px);
             font-weight: 600;
-            margin-bottom: 4px;
             font-family: 'Figtree', sans-serif;
-        }}
-
-        .seg-position-value {{
-            color: #0B2F13;
-            font-size: 14px;
-            font-weight: 900;
-            font-family: 'Figtree', sans-serif;
+            text-align: left;
             white-space: nowrap;
         }}
 
-        .seg-period-row {{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 8px;
-            margin-top: 12px;
-        }}
-
-        .seg-period-box {{
-            padding: 8px 10px;
-            border-radius: 8px;
-            background-color: transparent;
-        }}
-
-        .seg-period-label {{
-            color: #5a5a5a;
-            font-size: 11px;
-            font-weight: 700;
-            font-family: 'Figtree', sans-serif;
-            margin-bottom: 4px;
-        }}
-
-        .seg-period-value {{
+        .seg-metric-value {{
             color: #0B2F13;
-            font-size: 16px;
-            font-weight: 900;
+            font-size: clamp(13px, 1.6vw, 16px);
+            font-weight: 500;
             font-family: 'Figtree', sans-serif;
+            white-space: nowrap;
+            text-align: right;
         }}
     </style>
 
@@ -1593,50 +1828,54 @@ def card_segmento_rentabilidade_sem_projetada(
 
             {help_html}
 
-            <div class="seg-card-header">
-                <div class="seg-card-title-wrap">
-                    <span class="seg-color-dot"
-                          style="background-color:{cor_segmento}; box-shadow:0 0 0 4px {cor_segmento}22;">
-                    </span>
-                    <span class="seg-card-title">{segmento}</span>
+            <div class="seg-card-layout">
+
+                <div class="seg-card-left">
+                    <div class="seg-card-title">{segmento}</div>
+
+                    <div class="seg-ano-box">
+                        <div class="seg-main-label">Ano</div>
+                        <div class="seg-main-value">{atual_fmt}</div>
+                    </div>
                 </div>
+
+                <div class="seg-card-right">
+
+                    <div class="seg-posicao-row">
+                        <div class="seg-metric-box">
+                            <span class="seg-metric-label">Posição</span>
+                            <span class="seg-metric-value">{posicao_fmt}</span>
+                        </div>
+
+                        <div class="seg-metric-box">
+                            <span class="seg-metric-label">%</span>
+                            <span class="seg-metric-value">{posicao_pct_fmt}</span>
+                        </div>
+                    </div>
+
+                    <div class="seg-metrics-stack">
+
+                        <div class="seg-metric-line">
+                            <span class="seg-metric-label">MTD</span>
+                            <span class="seg-metric-value">{mtd_fmt}</span>
+                        </div>
+
+                        <div class="seg-metric-line">
+                            <span class="seg-metric-label">12 Meses</span>
+                            <span class="seg-metric-value">{m12_fmt}</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="seg-main-area">
-                <div class="seg-value-label">YTD</div>
-                <div class="seg-main-value">{atual_fmt}</div>
-            </div>
-
-            <div class="seg-position-row">
-                <div class="seg-position-item">
-                    <span class="seg-small-label">Posição</span>
-                    <span class="seg-position-value">{posicao_fmt}</span>
-                </div>
-
-                <div class="seg-position-item right">
-                    <span class="seg-small-label">%</span>
-                    <span class="seg-position-value">{posicao_pct_fmt}</span>
-                </div>
-            </div>
-
-            <div class="seg-period-row">
-                <div class="seg-period-box">
-                    <div class="seg-period-label">MTD</div>
-                    <div class="seg-period-value">{mtd_fmt}</div>
-                </div>
-
-                <div class="seg-period-box">
-                    <div class="seg-period-label">12 Meses</div>
-                    <div class="seg-period-value">{m12_fmt}</div>
-                </div>
-            </div>
         </div>
     </div>
     """
 
     st.html(html_final)
-
-
 def de_para_produto(prod):
     """
     Faz o de/para do nome do produto.
@@ -1735,3 +1974,14 @@ def de_para_produto(prod):
             return nome_final
 
     return mapa_exato.get(prod_str, prod_str)
+
+
+
+CORES_SEGMENTOS = {
+    "Renda Fixa": "#0B2F13",
+    "Renda Variável": "#D64550",
+    "Estruturado": "#A8EC7D",
+    "Operações com Participantes": "#2DC25F",
+    "Imobiliário": "#CCF1DF",
+    "Exterior": "#6D597A",
+}
