@@ -5,7 +5,7 @@ import streamlit as st
 
 _CSS_NAV_CARD = """
 <style>
-  @import url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css");
+  @import url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css");
 
   .nav-card {
     background: transparent;
@@ -82,7 +82,7 @@ _CSS_NAV_CARD = """
     text-decoration: none;
     background: #A8EC7D;
     color: #0B2F13;
-    transition: background .15s, border-color .15s;
+    transition: background .15s, border-color .15s, color .15s;
     cursor: pointer;
   }
 
@@ -90,6 +90,23 @@ _CSS_NAV_CARD = """
   .badge:focus {
     background: rgba(128,128,128,0.12);
     border-color: rgba(128,128,128,0.6);
+    outline: none;
+  }
+
+  /* Badge desabilitada / em manutenção */
+  .badge.disabled {
+    background: rgba(128, 128, 128, 0.18);
+    color: rgba(128, 128, 128, 0.95);
+    border-color: rgba(128, 128, 128, 0.35);
+    cursor: not-allowed;
+    pointer-events: auto;
+  }
+
+  .badge.disabled:hover,
+  .badge.disabled:focus {
+    background: rgba(128, 128, 128, 0.22);
+    color: rgba(128, 128, 128, 1);
+    border-color: rgba(128, 128, 128, 0.45);
     outline: none;
   }
 
@@ -111,6 +128,7 @@ _CSS_NAV_CARD = """
     padding: 7px 12px;
     border-radius: 8px;
     font-size: 13px;
+    font-weight: 500;
     white-space: nowrap;
     opacity: 0;
     pointer-events: none;
@@ -144,19 +162,43 @@ _CSS_NAV_CARD = """
     opacity: 1;
     transform: translateX(-50%) translateY(100%) scale(1);
   }
+
+  /* Tooltip cinza para badge desabilitada */
+  .badge.disabled::after {
+    background-color: #3A3A3A;
+    color: #F1F1F1;
+  }
+
+  .badge.disabled::before {
+    border-top-color: #3A3A3A;
+  }
 </style>
 """
 
 
 def nav_card(title: str, icon: str, description: str, badges: list) -> str:
-    badges_html = "".join(
-        f"""
-        <a class="badge" href="{b["url"]}" target="_self" data-tooltip="{b.get("tooltip", "")}">
-          <span>{b["label"]}</span>
-        </a>
-        """
-        for b in badges
-    )
+    badges_html = ""
+
+    for b in badges:
+        label = b["label"]
+        tooltip = b.get("tooltip", "")
+        disabled = b.get("disabled", False)
+
+        if disabled:
+            if not tooltip:
+                tooltip = "Página em manutenção ou desenvolvimento."
+
+            badges_html += f"""
+            <span class="badge disabled" data-tooltip="{tooltip}">
+              <span>{label}</span>
+            </span>
+            """
+        else:
+            badges_html += f"""
+            <a class="badge" href="{b["url"]}" target="_self" data-tooltip="{tooltip}">
+              <span>{label}</span>
+            </a>
+            """
 
     return f"""
     <div class="nav-card">
@@ -238,11 +280,7 @@ CARDS = [
                 "url": "/enquadramento-planos",
                 "tooltip": "Enquadramento segundo a CMN n° 4994 e P.I.",
             },
-            {
-                "label": "Limites Operacionais",
-                "url": "/limites-operacionais",
-                "tooltip": "Relatório de limites operacionais das instituições financeiras.",
-            },
+            
         ],
     },
     {
@@ -259,25 +297,73 @@ CARDS = [
         ],
     },
 
-    # Para adicionar o card de Risco, descomente e ajuste:
-    # {
-    #     "col": 0,
-    #     "title": "Risco",
-    #     "icon": "alert-triangle",
-    #     "description": "Avaliação e gerenciamento dos riscos associados aos planos e fundos.",
-    #     "badges": [
-    #         {
-    #             "label": "Risco dos Planos",
-    #             "url": "/risco-planos",
-    #             "tooltip": "Análise de risco por plano",
-    #         },
-    #         {
-    #             "label": "Risco dos Ativos",
-    #             "url": "/risco-ativos",
-    #             "tooltip": "Volatilidade e exposição de ativos",
-    #         },
-    #     ],
-    # },
+    {
+        "col": 2,
+        "title": "Risco de Mercado",
+        "icon": "chart-column",
+        "description": "Apresentação dos Indicadores de Risco de Mercado dos planos e ativos da carteira.",
+        "badges": [
+            {
+                "label": "Planos",
+                "url": "/risco-planos",
+                "tooltip": "Página em desenvolvimento.",
+                "disabled": True,
+            },
+            {
+                "label": "Ativos",
+                "url": "/risco-ativos",
+                "tooltip": "Página em desenvolvimento.",
+                "disabled": True,
+            },
+        ],
+    },
+    {
+        "col": 0,
+        "title": "Risco de Liquidez",
+        "icon": "droplet",
+        "description": "Apresentação dos Indicadores de Risco de Liquidez, fluxo de caixa e prazos de liquidação.",
+        "badges": [
+            {
+                "label": "Fluxo de Caixa dos Planos",
+                "url": "/risco-planos",
+                "tooltip": "Página em desenvolvimento.",
+                "disabled": True,
+            },
+            {
+                "label": "Prazo de Liquidação dos Ativos",
+                "url": "/risco-ativos",
+                "tooltip": "Página em desenvolvimento.",
+                "disabled": True,
+            },
+        ],
+    },
+    {
+        "col": 1,
+        "title": "Risco de Crédito",
+        "icon": "credit-card",
+        "description": "Apresentação do Risco de Crédito dos ativos da carteira, ratings e limites operacionais.",
+        "badges": [
+            {
+                "label": "Limites Operacionais",
+                "url": "/limites-operacionais",
+                "tooltip": "Relatório de limites operacionais das instituições financeiras.",
+                
+            },
+            {
+                "label": "Fundos de Crédito Privado",
+                "url": "/risco-planos",
+                "tooltip": "Página em desenvolvimento.",
+                "disabled": True,
+            },
+            {
+                "label": "Rating dos Ativos",
+                "url": "/risco-ativos",
+                "tooltip": "Página em desenvolvimento.",
+                "disabled": True,
+            },
+            
+        ],
+    },
 ]
 
 
