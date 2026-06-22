@@ -28,7 +28,7 @@ enquadramento_fundos = st.Page("pages/s1_enquadramento_fundos.py", title="Fundos
 lim_op = st.Page("pages/s1_lim_op.py", title="Limites Operacionais",  url_path="limites-operacionais")
 risco_planos = st.Page("pages/s2_risco_planos.py", title="Risco Planos",  url_path="risco-planos", visibility="hidden")
 risco_ativos = st.Page("pages/s2_risco_ativos.py", title="Risco Ativos",  url_path="risco-ativos", visibility="hidden")
-rent = st.Page("pages/s4_rentabilidade.py", title="Rentabilidade",  url_path="rentabilidade-planos")
+rent = st.Page("pages/s4_rentabilidade.py", title="Planos",  url_path="rentabilidade-planos")
 
 
 current_page = st.navigation(
