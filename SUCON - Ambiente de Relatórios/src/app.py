@@ -34,8 +34,9 @@ rent = st.Page("pages/s4_rentabilidade.py", title="Planos",  url_path="rentabili
 current_page = st.navigation(
     {
         "Início": [pg_inicial],
-        "Enquadramento": [enquadramento_planos, enquadramento_fundos, lim_op],
-        "Risco": [risco_planos, risco_ativos],
+        "Enquadramento": [enquadramento_planos, enquadramento_fundos],
+        "Risco de Crédito": [lim_op],
+        "Risco de Mercado": [risco_planos, risco_ativos],
         "Rentabilidade": [rent],
     
     },

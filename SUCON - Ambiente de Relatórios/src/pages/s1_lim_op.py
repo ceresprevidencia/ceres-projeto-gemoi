@@ -48,20 +48,20 @@ DADOS_LIMITES = [
 
 # Dados estáticos de classificação de risco das IFs
 DADOS_RISCO = [
-    ["ABC BRASIL",         "Médio Porte",  11.02, None, 6_604_060.00,   "Até 5 anos",  "BRLP 3"],
-    ["BANCO BV",           "Grande Porte",  9.77, None, 13_397_130.00,  "Até 5 anos",  "BRLP 3"],
-    ["SOFISA",             "Médio Porte",   9.19, None, 1_144_639.00,   "Até 3 anos",  "BRMP 1"],
-    ["SICREDI",            "Grande Porte", 11.35, None, 5_432_089.00,   "Até 5 anos",  "BRLP 3"],
-    ["BANCO SICOOB",       "Grande Porte", 11.25, None, 5_505_854.00,   "Até 5 anos",  "BRLP 3"],
-    ["BTG PACTUAL",        "Grande Porte", 10.68, None, 69_335_302.00,  "Até 5 anos",  "BRLP 3"],
-    ["DAYCOVAL",           "Médio Porte",  10.44, None, 7_666_905.00,   "Até 5 anos",  "BRLP 3"],
-    ["ITAÚ UNIBANCO",      "Grande Porte", 11.17, None, 209_552_000.00, "Até 10 anos", "BRLP 1"],
-    ["MERCANTIL",          "Médio Porte",  10.07, None, 2_106_362.00,   "Até 3 anos",  "BRMP 1"],
-    ["SAFRA",              "Grande Porte", 11.25, None, 19_777_134.00,  "Até 5 anos",  "BRLP 3"],
-    ["SANTANDER (BRASIL)", "Grande Porte",  9.91, None, 94_089_614.00,  "Até 10 anos", "BRLP 1"],
-    ["BRADESCO (*)",       "Médio Porte",   9.19, "CI", 1_144_639.00,   "Até 3 anos",  "BRMP 1"],
-    ["PARANA BANCO (*)",   "Médio Porte",   9.19, "A",  1_144_639.00,   "Até 3 anos",  "BRMP 1"],
-    ["PAN (**)",           "Médio Porte",   9.19, None, 1_144_639.00,   "Até 3 anos",  "BRMP 1"],
+    ["SICREDI",            "Grande Porte", 11.19, None,      5_419_121.05,   "Até 5 anos",   "BRLP 3"],
+    ["BANCO SICOOB",       "Grande Porte", 11.03, None,      5_974_847.62,   "Até 5 anos",   "BRLP 3"],
+    ["SAFRA",              "Grande Porte", 11.17, None,     17_430_294.93,   "Até 7 anos",   "BRLP 2"],
+    ["ITAÚ UNIBANCO",      "Grande Porte", 11.24, None,    205_630_000.00,   "Até 10 anos",  "BRLP 1"],
+    ["ABC BRASIL",         "Médio Porte",  10.95, None,      6_776_126.04,   "Até 5 anos",   "BRLP 3"],
+    ["BTG PACTUAL",        "Grande Porte", 10.71, None,     74_917_291.63,   "Até 5 anos",   "BRLP 3"],
+    ["DAYCOVAL",           "Médio Porte",  10.81, None,      7_075_348.22,   "Até 5 anos",   "BRLP 3"],
+    ["MERCANTIL",          "Médio Porte",  10.22, None,      2_328_354.22,   "Até 3 anos",   "BRMP 1"],
+    ["SANTANDER (BRASIL)", "Grande Porte",  9.85, None,     97_575_122.20,   "Até 10 anos",  "BRLP 1"],
+    ["BANCO BV",           "Grande Porte",  9.93, None,     12_692_152.49,   "Até 3 anos",   "BRLP 3 (-)"],
+    ["SOFISA",             "Médio Porte",   9.21, "C",       1_130_533.77,   "Até 3 anos",   "BRMP 1"],
+    ["BRADESCO (*)",       "Grande Porte", 11.10, "C",     173_034_601.00,   "Até 10 anos",  "BRLP 1"],
+    ["PARANA BANCO (*)",   "Médio Porte",  10.25, None,      1_250_569.30,   "Até 3 anos",   "BRMP 1"],
+    ["PAN (**)",           "Médio Porte",   8.36, "T, C, I", 8_069_311.00,   "Até 6 meses",  "BRLP 3"],
 ]
 
 COLUNAS_LIMITES = ["ID_MITRA", "INSTITUICAO_FINANCEIRA", "EXPOSICAO", "EXPOSICAO_2026", "FINANCEIRO_AQUISICAO", "LIMITE_ALOCACAO_2026"]
@@ -517,12 +517,21 @@ with tab2:
         st.markdown(
             '<div style="display:flex; justify-content:flex-end;">'
             '<p style="font-family:\'Source Serif Pro\',serif; font-style:italic; margin:0;">'
-            "Fonte: Riskbank - atualização Junho/2025.</p></div>",
+            "Fonte: Riskbank - atualização Dezembro/2025.</p></div>",
             unsafe_allow_html=True,
         )
-    st.space(size="stretch")
+  
+    # Seu código original
+    with st.expander("Definições de Alerta", expanded=True):
+        st.markdown("""
+        * **$C$**: Custo Operacional
+        * **$A$**: Concentração de Ativos
+        * **$I$**: $\\frac{\\text{Intangíveis} + \\text{CT (Exceto PDD)}}{\\text{PL}}$
+        """)
 
+st.space(size="stretch")
 
+                
 # ── GRÁFICO: EXPOSIÇÃO POR EMISSOR ───────────────────────────────────────────
 
 with st.columns(1)[0].container(border=True):

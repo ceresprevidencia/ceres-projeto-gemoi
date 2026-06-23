@@ -16,6 +16,10 @@ _CSS_NAV_CARD = """
     height: 260px;
     display: flex;
     flex-direction: column;
+    position: relative;
+
+   
+    container-type: inline-size;
   }
 
   .nav-card:hover {
@@ -34,18 +38,22 @@ _CSS_NAV_CARD = """
     align-items: center;
     gap: 10px;
     margin: 0 0 10px;
+    min-width: 0;
   }
 
   .card-icon {
     font-size: 34px;
     line-height: 1;
     color: #A8EC7D;
+    flex-shrink: 0;
   }
 
   .card-title {
     font-size: 26px;
     font-weight: 600;
     margin: 0;
+    line-height: 1.15;
+    min-width: 0;
   }
 
   .card-desc {
@@ -63,10 +71,13 @@ _CSS_NAV_CARD = """
     margin: 2rem 0 0.85rem;
   }
 
-  .badges {
+
+  .badges-desktop {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 6px;
+    min-width: 0;
+    overflow: hidden;
   }
 
   .badge {
@@ -74,6 +85,8 @@ _CSS_NAV_CARD = """
     display: inline-flex;
     align-items: center;
     gap: 6px;
+    min-width: 0;
+    max-width: 100%;
     font-size: 14px;
     font-weight: 600;
     border: 0.5px solid rgba(128,128,128,0.35);
@@ -84,6 +97,17 @@ _CSS_NAV_CARD = """
     color: #0B2F13;
     transition: background .15s, border-color .15s, color .15s;
     cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 1;
+  }
+
+  .badge span {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .badge:hover,
@@ -93,7 +117,6 @@ _CSS_NAV_CARD = """
     outline: none;
   }
 
-  /* Badge desabilitada / em manutenção */
   .badge.disabled {
     background: rgba(128, 128, 128, 0.18);
     color: rgba(128, 128, 128, 0.95);
@@ -109,6 +132,8 @@ _CSS_NAV_CARD = """
     border-color: rgba(128, 128, 128, 0.45);
     outline: none;
   }
+
+
 
   .badge[data-tooltip=""]:hover::after,
   .badge[data-tooltip=""]:focus::after,
@@ -134,7 +159,7 @@ _CSS_NAV_CARD = """
     pointer-events: none;
     transition: opacity 0.15s ease, transform 0.15s ease;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    z-index: 10;
+    z-index: 30;
   }
 
   .badge::before {
@@ -148,7 +173,7 @@ _CSS_NAV_CARD = """
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.15s ease, transform 0.15s ease;
-    z-index: 10;
+    z-index: 30;
   }
 
   .badge:hover::after,
@@ -163,7 +188,6 @@ _CSS_NAV_CARD = """
     transform: translateX(-50%) translateY(100%) scale(1);
   }
 
-  /* Tooltip cinza para badge desabilitada */
   .badge.disabled::after {
     background-color: #3A3A3A;
     color: #F1F1F1;
@@ -171,6 +195,104 @@ _CSS_NAV_CARD = """
 
   .badge.disabled::before {
     border-top-color: #3A3A3A;
+  }
+
+
+  .badges-mobile {
+    display: none;
+    position: relative;
+  }
+
+  .badges-mobile summary {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0.5px solid rgba(128,128,128,0.35);
+    border-radius: 999px;
+    padding: 4px 10px;
+    background: #A8EC7D;
+    color: #0B2F13;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .badges-mobile summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .badges-mobile summary .ti-chevron-down {
+    transition: transform .15s ease;
+  }
+
+  .badges-mobile[open] summary .ti-chevron-down {
+    transform: rotate(180deg);
+  }
+
+  .badges-mobile-list {
+    position: absolute;
+    left: 0;
+    bottom: 34px;
+    z-index: 40;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    min-width: 220px;
+    max-width: min(280px, 80vw);
+    padding: 10px;
+    border: 0.5px solid rgba(128,128,128,0.35);
+    border-radius: 12px;
+    background: #0B2F13;
+    box-shadow: 0 10px 28px rgba(0,0,0,0.22);
+  }
+
+  .badges-mobile-list .badge {
+    width: 100%;
+    justify-content: flex-start;
+    white-space: normal;
+  }
+
+  .badges-mobile-list .badge span {
+    white-space: normal;
+  }
+
+ 
+  @container (max-width: 420px) {
+    .nav-card.needs-menu .badges-desktop {
+      display: none;
+    }
+
+    .nav-card.needs-menu .badges-mobile {
+      display: block;
+    }
+  }
+
+
+  
+  @media (max-width: 520px) {
+    .nav-card {
+      height: auto;
+      min-height: 260px;
+      padding: 1.25rem 1.25rem;
+    }
+
+    .card-title {
+      font-size: 22px;
+    }
+
+    .card-desc {
+      font-size: 15px;
+    }
+
+    .badges-mobile-list {
+      min-width: 200px;
+      max-width: calc(100vw - 48px);
+    }
   }
 </style>
 """
@@ -200,8 +322,12 @@ def nav_card(title: str, icon: str, description: str, badges: list) -> str:
             </a>
             """
 
+
+    precisa_menu = len(badges) > 1 or any(len(b["label"]) > 24 for b in badges)
+    menu_class = " needs-menu" if precisa_menu else ""
+
     return f"""
-    <div class="nav-card">
+    <div class="nav-card{menu_class}">
       <div class="card-header">
         <i class="ti ti-{icon} card-icon"></i>
         <p class="card-title">{title}</p>
@@ -211,9 +337,20 @@ def nav_card(title: str, icon: str, description: str, badges: list) -> str:
 
       <div class="card-divider"></div>
 
-      <div class="badges">
+      <div class="badges-desktop">
         {badges_html}
       </div>
+
+      <details class="badges-mobile">
+        <summary>
+          <span>Opções</span>
+          <i class="ti ti-chevron-down"></i>
+        </summary>
+
+        <div class="badges-mobile-list">
+          {badges_html}
+        </div>
+      </details>
     </div>
     """
 
@@ -280,7 +417,6 @@ CARDS = [
                 "url": "/enquadramento-planos",
                 "tooltip": "Enquadramento segundo a CMN n° 4994 e P.I.",
             },
-            
         ],
     },
     {
@@ -296,7 +432,6 @@ CARDS = [
             },
         ],
     },
-
     {
         "col": 2,
         "title": "Risco de Mercado",
@@ -347,7 +482,6 @@ CARDS = [
                 "label": "Limites Operacionais",
                 "url": "/limites-operacionais",
                 "tooltip": "Relatório de limites operacionais das instituições financeiras.",
-                
             },
             {
                 "label": "Fundos de Crédito Privado",
@@ -361,7 +495,6 @@ CARDS = [
                 "tooltip": "Página em desenvolvimento.",
                 "disabled": True,
             },
-            
         ],
     },
 ]
