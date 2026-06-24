@@ -1217,13 +1217,60 @@ st.markdown(
             unsafe_allow_html=True
         )
 
+
+# CORREÇÃO 1: .copy() movido para o final do colchete
 df_produtos_filtrado = df_produtos[
     (df_produtos['TESOURARIA'] == selected_plano) &
-    (df_produtos['DATA_COTACAO'] == pd.to_datetime(selected_data)).copy()
-]
+    (df_produtos['DATA_COTACAO'] == pd.to_datetime(selected_data))
+].copy()
+
+df_produtos_filtrado_data = df_produtos[(df_produtos['DATA_COTACAO'] == pd.to_datetime(selected_data))].copy()
+
+# CORREÇÃO 3: Alterado df_produtos_data['TESOURARIA'] para df_produtos_filtrado['TESOURARIA']
+df_produtos_filtrado = df_produtos_filtrado[
+    ~((df_produtos_filtrado['GRUPO'] == 'Operações com Participantes') & 
+      (~df_produtos_filtrado['CARTEIRA'].str.contains('emprestimo', na=False, case=False)) &
+      (df_produtos_filtrado['TESOURARIA'] != '[CERES TOTAL]'))].copy()
+
+
+df_emprestimos_errado = df_produtos_filtrado_data[
+    ((df_produtos_filtrado_data['GRUPO'] == 'Operações com Participantes') & 
+      (~df_produtos_filtrado_data['CARTEIRA'].str.contains('emprestimo', na=False, case=False)) &
+      (df_produtos_filtrado_data['TESOURARIA'] != '[CERES TOTAL]'))].copy()
+
+chaves = ['PRODUTO']
+
+emprestimos_agg = (
+    df_emprestimos_errado
+    .groupby(chaves, as_index=False)['POSICAO_DF']
+    .sum()
+    .rename(columns={'POSICAO_DF': 'VALOR_ERRADO'})
+)
+
+df_produtos_filtrado = df_produtos_filtrado.merge(
+    emprestimos_agg,
+    on=chaves,
+    how='left'
+)
+
+df_produtos_filtrado['VALOR_ERRADO'] = df_produtos_filtrado['VALOR_ERRADO'].fillna(0)
+
+df_produtos_filtrado['POSICAO_DF'] = (
+    df_produtos_filtrado['POSICAO_DF'] - df_produtos_filtrado['VALOR_ERRADO']
+)
 
 df_produtos_filtrado['%_POSICAO'] = (df_produtos_filtrado['POSICAO_DF'] / df_produtos_filtrado['POSICAO_DF'].sum()) * 100
 df_produtos_filtrado = df_produtos_filtrado.sort_values('POSICAO_DF', ascending=False).copy()
+
+df_produtos_agrupado = (
+    df_produtos_filtrado
+    .groupby(['PRODUTO', 'GRUPO'], as_index=False)['POSICAO_DF']
+    .sum()
+)
+
+df_produtos_agrupado['%POSICAO'] = (
+    df_produtos_agrupado['POSICAO_DF'] / df_produtos_agrupado['POSICAO_DF'].sum() * 100
+)
 
 segmentos_tabs = {
     "Geral": None,
@@ -1235,7 +1282,7 @@ segmentos_tabs = {
     "Op. Participantes": "Operações com Participantes",
 }
 
-segmentos_existentes = set(df_produtos_filtrado["GRUPO"].dropna().unique())
+segmentos_existentes = set(df_produtos_agrupado["GRUPO"].dropna().unique())
 
 tabs_ativas = {
     nome_tab: segmento_df
@@ -1243,27 +1290,28 @@ tabs_ativas = {
     if segmento_df is None or segmento_df in segmentos_existentes
 }
 
-st.dataframe(df_produtos_filtrado)
+
+
 
 tabs = st.tabs(list(tabs_ativas.keys()))
 
 for tab, (nome_tab, segmento_df) in zip(tabs, tabs_ativas.items()):
     with tab:
         if segmento_df is None:
-            df_base = df_produtos_filtrado.copy()
+            df_base = df_produtos_agrupado.copy()
         else:
-            df_base = df_produtos_filtrado[
-                df_produtos_filtrado["GRUPO"] == segmento_df
+            df_base = df_produtos_agrupado[
+                df_produtos_agrupado["GRUPO"] == segmento_df
             ].copy()
 
         df_plot_produtos = (
-            df_base[["PRODUTO", "GRUPO", "POSICAO_DF", "%_POSICAO"]]
+            df_base[["PRODUTO", "GRUPO", "POSICAO_DF", "%POSICAO"]]
             .rename(
                 columns={
                     "PRODUTO": "Produtos",
                     "GRUPO": "Segmento",
                     "POSICAO_DF": "Posição (R$)",
-                    "%_POSICAO": "% Posição",
+                    "%POSICAO": "% Posição",
                 }
             )
         )

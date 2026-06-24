@@ -20,3 +20,4 @@ def get_connection():
     )
     connection_url = f"mssql+pyodbc:///?odbc_connect={connection_string}"
     return create_engine(connection_url)
+
