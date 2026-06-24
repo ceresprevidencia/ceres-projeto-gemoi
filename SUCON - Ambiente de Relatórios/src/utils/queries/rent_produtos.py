@@ -9,6 +9,7 @@ def buscar_dados() -> pd.DataFrame:
         RAF.DATA_COTACAO,
         RME.TESOURARIA,
         RME.GRUPO,
+        RME.CARTEIRA,
         RME.PRODUTO,
         RME.POSICAO_DF,
         ROW_NUMBER() OVER(                            

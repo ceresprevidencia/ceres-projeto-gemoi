@@ -440,13 +440,13 @@ CARDS = [
         "badges": [
             {
                 "label": "Planos",
-                "url": "/risco-planos",
+                "url": "/risco-mercado-planos",
                 "tooltip": "Página em desenvolvimento.",
-                "disabled": True,
+               
             },
             {
                 "label": "Ativos",
-                "url": "/risco-ativos",
+                "url": "/risco-mercado-ativos",
                 "tooltip": "Página em desenvolvimento.",
                 "disabled": True,
             },

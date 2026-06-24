@@ -244,7 +244,7 @@ with col3:
         help=f"Datas disponíveis: {primeira_data.strftime('%d/%m/%Y')} a {ultima_data.strftime('%d/%m/%Y')}.",
         min_value=primeira_data,
         max_value=ultima_data,
-        key="data_selecionada",
+   
     )
 
 # Aviso se a data selecionada não tiver dados disponíveis

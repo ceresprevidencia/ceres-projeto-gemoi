@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 
 # Carregar dados c
-@st.cache_data(ttl="1h", show_time=True)
+@st.cache_data(ttl="12h", show_time=True)
 def carregar_dados() -> pd.DataFrame:
     return buscar_dados_ativos()
 

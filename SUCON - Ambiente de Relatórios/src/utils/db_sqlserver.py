@@ -17,6 +17,6 @@ def get_connection():
         f"UID={os.getenv('CERES_USER')};"
         f"PWD={os.getenv('CERES_PASSWORD')};"
         f"DATABASE={os.getenv('DB')};"
-        )
+    )
     connection_url = f"mssql+pyodbc:///?odbc_connect={connection_string}"
     return create_engine(connection_url)

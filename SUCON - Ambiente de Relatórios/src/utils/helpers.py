@@ -70,8 +70,14 @@ def remove_grp(palavra: str) -> str:
     """Extrai o nome do grupo econômico após 'grupo=' em strings de agregação."""
     return palavra.split("=")[-1] if "grupo" in palavra.lower() else palavra
 
+import html
+from numbers import Number
 
-# ── CSS ───────────────────────────────────────────────────────────────────────
+import pandas as pd
+import streamlit as st
+
+
+# ── CSS RESPONSIVO ────────────────────────────────────────────────────────────
 
 def get_css_responsivo() -> str:
     """
@@ -115,9 +121,77 @@ def get_css_responsivo() -> str:
     """
 
 
-# ── TABELA HTML UNIFICADA ─────────────────────────────────────────────────────
+# ── HELPERS ───────────────────────────────────────────────────────────────────
 
-# CSS compartilhado entre todas as tabelas HTML do sistema
+def fmt_br(valor, casas=2):
+    """
+    Formata número no padrão brasileiro.
+    Exemplo:
+        1234.56 -> 1.234,56
+    """
+    try:
+        valor_float = float(valor)
+    except (TypeError, ValueError):
+        return str(valor)
+
+    texto = f"{valor_float:,.{casas}f}"
+    return texto.replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def _classe_borda_inferior(borda_inferior: str) -> str:
+    """
+    Define a classe visual da borda inferior.
+
+    Valores aceitos:
+        "borda"        -> borda verde fixa no final
+        "ultima-linha" -> última linha verde
+        qualquer outro -> sem modo especial
+    """
+    if borda_inferior == "borda":
+        return "com-borda-inferior"
+
+    if borda_inferior == "ultima-linha":
+        return "ultima-linha-verde"
+
+    return ""
+
+
+def _escape_html(valor) -> str:
+    """
+    Evita que valores da tabela quebrem o HTML.
+    """
+    return html.escape(str(valor), quote=True)
+
+
+def _tipo_coluna_ordenacao(serie: pd.Series) -> str:
+    """
+    Define se a coluna deve ordenar como número ou texto.
+    """
+    if pd.api.types.is_numeric_dtype(serie):
+        return "number"
+
+    return "text"
+
+
+def _valor_ordenacao(valor) -> str:
+    """
+    Valor cru usado pelo JavaScript para ordenar.
+    Não usa o valor formatado visualmente.
+    """
+    if pd.isna(valor):
+        return ""
+
+    if isinstance(valor, Number):
+        return str(float(valor))
+
+    if isinstance(valor, pd.Timestamp):
+        return valor.isoformat()
+
+    return str(valor)
+
+
+# ── CSS COMPARTILHADO DA TABELA ───────────────────────────────────────────────
+
 _CSS_TABELA = """
 <style>
     .tabela-custom-wrapper {
@@ -134,6 +208,7 @@ _CSS_TABELA = """
         align-items: center;
         padding-left: 12px;
     }
+
     .th-custom div {
         padding: 12px;
         text-align: center;
@@ -145,12 +220,13 @@ _CSS_TABELA = """
         justify-content: center;
         min-height: 43px;
     }
+
     .th-custom div:first-child {
         justify-content: flex-start;
         padding-left: 20px;
         border-top-left-radius: 10px;
     }
-    
+
     /* Modo: borda */
     .tabela-custom-wrapper.com-borda-inferior .row-custom:last-child {
         border-bottom: 14px solid #0B2F13;
@@ -179,15 +255,16 @@ _CSS_TABELA = """
         transition: background-color 0.15s ease;
         padding-left: 15px;
     }
+
     .row-custom:hover {
-        background-color: rgba(11, 47, 19, 0.04);
-    }
+    background-color: rgba(11, 47, 19, 0.04);
+        }   
 
-
-    /* Linha destacada (ex: desenquadrado) */
+    /* Linha destacada */
     .row-custom.destaque {
         background-color: #ffcccc !important;
     }
+
     .row-custom.destaque:hover {
         background-color: #ffb3b3 !important;
     }
@@ -203,6 +280,7 @@ _CSS_TABELA = """
         min-height: 42px;
         word-break: break-word;
     }
+
     .col-custom:first-child {
         justify-content: flex-start;
         padding-left: 20px;
@@ -211,17 +289,22 @@ _CSS_TABELA = """
 
     /* Responsividade */
     @media (max-width: 768px) {
-        .th-custom div, .col-custom {
+        .th-custom div,
+        .col-custom {
             font-size: 11px;
             padding: 8px;
             min-height: 35px;
         }
-        .th-custom div:first-child, .col-custom:first-child {
+
+        .th-custom div:first-child,
+        .col-custom:first-child {
             padding-left: 10px;
         }
     }
+
     @media (max-width: 480px) {
-        .th-custom div, .col-custom {
+        .th-custom div,
+        .col-custom {
             font-size: 9px;
             padding: 6px;
             min-height: 30px;
@@ -230,6 +313,68 @@ _CSS_TABELA = """
 </style>
 """
 
+
+_CSS_SCROLL_E_ORDENACAO = """
+<style>
+    .tabela-scroll-body {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .tabela-scroll-body::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .tabela-scroll-body::-webkit-scrollbar-track {
+        background: rgba(219, 208, 178, 0.20);
+        border-radius: 999px;
+    }
+
+    .tabela-scroll-body::-webkit-scrollbar-thumb {
+        background: rgba(11, 47, 19, 0.35);
+        border-radius: 999px;
+    }
+
+    .tabela-scroll-body::-webkit-scrollbar-thumb:hover {
+        background: rgba(11, 47, 19, 0.55);
+    }
+
+    .tabela-borda-final {
+        height: 4px;
+        background-color: #0B2F13;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .tabela-sem-borda-final {
+        height: 0;
+        background-color: transparent;
+    }
+
+    .header-cell-custom {
+        gap: 6px;
+        user-select: none;
+    }
+
+    .header-cell-custom.ordenavel {
+        cursor: pointer;
+    }
+
+    .header-cell-custom.ordenavel:hover {
+        background-color: transparent;
+    }
+
+    .sort-indicator-custom {
+        font-size: 10px;
+        opacity: 0.75;
+        min-width: 12px;
+        display: inline-flex;
+        justify-content: center;
+    }
+</style>
+"""
+
+
+# ── HTML DA TABELA ────────────────────────────────────────────────────────────
 
 def gerar_tabela_html(
     df: pd.DataFrame,
@@ -240,6 +385,7 @@ def gerar_tabela_html(
     borda_inferior="borda",
     rolagem: bool = False,
     altura_max: str = "420px",
+    ordenacao: bool = False,
 ) -> str:
     """
     Gera uma tabela HTML no padrão visual do sistema.
@@ -251,85 +397,85 @@ def gerar_tabela_html(
         - corpo da tabela recebe barra de rolagem;
         - cabeçalho fica congelado;
         - borda inferior fica congelada.
+
+    Quando ordenacao=True:
+        - cabeçalho fica clicável;
+        - cada clique alterna entre:
+            sem ordenação -> crescente -> decrescente -> sem ordenação
+        - colunas numéricas ordenam numericamente;
+        - demais colunas ordenam alfabeticamente.
     """
+
+    if df is None:
+        df = pd.DataFrame()
 
     if nomes_colunas is None:
         nomes_colunas = {col: col for col in df.columns}
 
+    qtd_colunas = len(df.columns)
+
+    if qtd_colunas == 0:
+        return """
+        <div style="font-family: 'Figtree', sans-serif; padding: 12px;">
+            Nenhum dado para exibir.
+        </div>
+        """
+
     primeira = "2fr" if primeira_coluna_larga else "1fr"
-    resto = " ".join(["1fr"] * (len(df.columns) - 1))
-    grid = f"{primeira} {resto}" if len(df.columns) > 1 else "1fr"
+    resto = " ".join(["1fr"] * (qtd_colunas - 1))
+    grid = f"{primeira} {resto}" if qtd_colunas > 1 else "1fr"
 
     classe_borda = _classe_borda_inferior(borda_inferior)
 
-    html = _CSS_TABELA
+    html_tabela = _CSS_TABELA
+    html_tabela += _CSS_SCROLL_E_ORDENACAO
 
-    html += """
-    <style>
-        .tabela-scroll-body {
-            overflow-y: auto;
-            overflow-x: hidden;
-        }
-
-        .tabela-scroll-body::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        .tabela-scroll-body::-webkit-scrollbar-track {
-            background: rgba(219, 208, 178, 0.20);
-            border-radius: 999px;
-        }
-
-        .tabela-scroll-body::-webkit-scrollbar-thumb {
-            background: rgba(11, 47, 19, 0.35);
-            border-radius: 999px;
-        }
-
-        .tabela-scroll-body::-webkit-scrollbar-thumb:hover {
-            background: rgba(11, 47, 19, 0.55);
-        }
-
-        .tabela-borda-final {
-            height: 4px;
-            background-color: #0B2F13;
-            border-radius: 0 0 8px 8px;
-        }
-
-        .tabela-sem-borda-final {
-            height: 0;
-            background-color: transparent;
-        }
-    </style>
-    """
-
-    # Wrapper principal
-    html += f'<div class="tabela-custom-wrapper {classe_borda}">'
+    html_tabela += f'<div class="tabela-custom-wrapper {classe_borda}">'
 
     # Cabeçalho fora da área rolável
-    html += f'<div class="th-custom" style="grid-template-columns:{grid};">'
-    for col in df.columns:
-        html += f'<div>{nomes_colunas.get(col, col)}</div>'
-    html += '</div>'
+    html_tabela += f'<div class="th-custom" style="grid-template-columns:{grid};">'
+
+    for col_index, col in enumerate(df.columns):
+        nome_coluna = _escape_html(nomes_colunas.get(col, col))
+        tipo_ordenacao = _tipo_coluna_ordenacao(df[col])
+
+        html_tabela += (
+            f'<div class="header-cell-custom" '
+            f'data-col-index="{col_index}" '
+            f'data-sort-type="{tipo_ordenacao}">'
+            f'<span>{nome_coluna}</span>'
+        )
+
+        if ordenacao:
+            html_tabela += '<span class="sort-indicator-custom">↕</span>'
+
+        html_tabela += '</div>'
+
+    html_tabela += '</div>'
 
     # Corpo com ou sem rolagem
     if rolagem:
-        html += f'<div class="tabela-scroll-body" style="max-height:{altura_max};">'
+        html_tabela += (
+            f'<div class="tabela-scroll-body tabela-body-custom" '
+            f'style="max-height:{_escape_html(altura_max)};">'
+        )
     else:
-        html += '<div>'
+        html_tabela += '<div class="tabela-body-custom">'
 
     # Linhas
     for idx, row in df.iterrows():
         classe_destaque = ""
-        if mask_destaque is not None and idx in mask_destaque.index and mask_destaque.loc[idx]:
+
+        if mask_destaque is not None and idx in mask_destaque.index and bool(mask_destaque.loc[idx]):
             classe_destaque = " destaque"
 
-        html += f'<div class="row-custom{classe_destaque}" style="grid-template-columns:{grid};">'
+        html_tabela += f'<div class="row-custom{classe_destaque}" style="grid-template-columns:{grid};">'
 
         for col in df.columns:
             valor = row[col]
 
-            if formatar_valores and isinstance(valor, (int, float)) and not pd.isna(valor):
-                col_lower = col.lower()
+            if formatar_valores and isinstance(valor, Number) and not pd.isna(valor):
+                col_lower = str(col).lower()
 
                 if "r$" in col_lower or "%" in col_lower:
                     valor_fmt = fmt_br(valor, 2)
@@ -338,21 +484,31 @@ def gerar_tabela_html(
             else:
                 valor_fmt = str(valor) if pd.notna(valor) else "—"
 
-            html += f'<div class="col-custom">{valor_fmt}</div>'
+            valor_fmt_html = _escape_html(valor_fmt)
+            valor_ordem_html = _escape_html(_valor_ordenacao(valor))
 
-        html += '</div>'
+            html_tabela += (
+                f'<div class="col-custom" data-order-value="{valor_ordem_html}">'
+                f'{valor_fmt_html}'
+                f'</div>'
+            )
 
-    html += '</div>'  # fecha corpo
+        html_tabela += '</div>'
+
+    html_tabela += '</div>'  # fecha corpo
 
     # Borda inferior congelada
     if borda_inferior == "borda":
-        html += '<div class="tabela-borda-final"></div>'
+        html_tabela += '<div class="tabela-borda-final"></div>'
     else:
-        html += '<div class="tabela-sem-borda-final"></div>'
+        html_tabela += '<div class="tabela-sem-borda-final"></div>'
 
-    html += '</div>'  # fecha wrapper
+    html_tabela += '</div>'  # fecha wrapper
 
-    return html
+    return html_tabela
+
+
+# ── FUNÇÃO ORIGINAL, MANTIDA ──────────────────────────────────────────────────
 
 def gerar_tabela_estilizada(
     df,
@@ -361,7 +517,14 @@ def gerar_tabela_estilizada(
     borda_inferior="borda",
     rolagem: bool = False,
     altura_max: str = "420px",
+    ordenacao: bool = False,
 ) -> str:
+    """
+    Mantém a função original retornando HTML.
+
+    Use com st.html(...) quando ordenacao=False.
+    Para ordenacao=True, prefira renderizar_tabela_estilizada(...).
+    """
     return gerar_tabela_html(
         df,
         nomes_colunas=nomes_colunas,
@@ -369,8 +532,11 @@ def gerar_tabela_estilizada(
         borda_inferior=borda_inferior,
         rolagem=rolagem,
         altura_max=altura_max,
+        ordenacao=ordenacao,
     )
 
+
+# ── FUNÇÃO COM DESTAQUE, MANTIDA ──────────────────────────────────────────────
 
 def aplicar_destaque(
     df_exibir: pd.DataFrame,
@@ -378,6 +544,7 @@ def aplicar_destaque(
     borda_inferior="borda",
     rolagem: bool = False,
     altura_max: str = "420px",
+    ordenacao: bool = False,
 ) -> str:
     return gerar_tabela_html(
         df_exibir,
@@ -386,7 +553,234 @@ def aplicar_destaque(
         borda_inferior=borda_inferior,
         rolagem=rolagem,
         altura_max=altura_max,
+        ordenacao=ordenacao,
     )
+
+
+# ── JS DO COMPONENTE ORDENÁVEL ────────────────────────────────────────────────
+
+_COMPONENTE_TABELA_ORDENAVEL = None
+
+
+_JS_TABELA_ORDENAVEL = """
+export default function(component) {
+    const { parentElement, data } = component;
+
+    const root = parentElement.querySelector("#tabela-root");
+
+    if (!root) {
+        return;
+    }
+
+    root.innerHTML = data.html;
+
+    if (!data.ordenacao) {
+        return;
+    }
+
+    const wrapper = root.querySelector(".tabela-custom-wrapper");
+
+    if (!wrapper) {
+        return;
+    }
+
+    const body = wrapper.querySelector(".tabela-body-custom");
+    const headers = Array.from(wrapper.querySelectorAll(".header-cell-custom"));
+
+    if (!body || headers.length === 0) {
+        return;
+    }
+
+    const linhasOriginais = Array.from(body.querySelectorAll(".row-custom"));
+
+    let estado = {
+        coluna: null,
+        direcao: null
+    };
+
+    function normalizarNumero(valor) {
+        if (valor === null || valor === undefined || valor === "") {
+            return Number.NEGATIVE_INFINITY;
+        }
+
+        const numero = Number(valor);
+
+        if (Number.isNaN(numero)) {
+            return Number.NEGATIVE_INFINITY;
+        }
+
+        return numero;
+    }
+
+    function compararTexto(a, b) {
+        const textoA = String(a || "").toLocaleLowerCase("pt-BR");
+        const textoB = String(b || "").toLocaleLowerCase("pt-BR");
+
+        return textoA.localeCompare(textoB, "pt-BR", {
+            numeric: true,
+            sensitivity: "base"
+        });
+    }
+
+    function atualizarIcones() {
+        headers.forEach((header, index) => {
+            const indicador = header.querySelector(".sort-indicator-custom");
+
+            if (!indicador) {
+                return;
+            }
+
+            if (estado.coluna !== index || estado.direcao === null) {
+                indicador.textContent = "↕";
+            } else if (estado.direcao === "asc") {
+                indicador.textContent = "▲";
+            } else {
+                indicador.textContent = "▼";
+            }
+        });
+    }
+
+    function restaurarOrdemOriginal() {
+        linhasOriginais.forEach((linha) => body.appendChild(linha));
+    }
+
+    function ordenarPorColuna(colunaIndex, direcao) {
+        const header = headers[colunaIndex];
+        const tipo = header.dataset.sortType || "text";
+
+        const linhas = Array.from(body.querySelectorAll(".row-custom"));
+
+        linhas.sort((linhaA, linhaB) => {
+            const celulaA = linhaA.children[colunaIndex];
+            const celulaB = linhaB.children[colunaIndex];
+
+            const valorA = celulaA ? celulaA.dataset.orderValue : "";
+            const valorB = celulaB ? celulaB.dataset.orderValue : "";
+
+            let resultado;
+
+            if (tipo === "number") {
+                resultado = normalizarNumero(valorA) - normalizarNumero(valorB);
+            } else {
+                resultado = compararTexto(valorA, valorB);
+            }
+
+            return direcao === "asc" ? resultado : -resultado;
+        });
+
+        linhas.forEach((linha) => body.appendChild(linha));
+    }
+
+    const cleanups = [];
+
+    headers.forEach((header, colunaIndex) => {
+        header.classList.add("ordenavel");
+
+        const onClick = () => {
+            if (estado.coluna !== colunaIndex) {
+                estado = {
+                    coluna: colunaIndex,
+                    direcao: "asc"
+                };
+            } else if (estado.direcao === "asc") {
+                estado = {
+                    coluna: colunaIndex,
+                    direcao: "desc"
+                };
+            } else if (estado.direcao === "desc") {
+                estado = {
+                    coluna: null,
+                    direcao: null
+                };
+            } else {
+                estado = {
+                    coluna: colunaIndex,
+                    direcao: "asc"
+                };
+            }
+
+            if (estado.direcao === null) {
+                restaurarOrdemOriginal();
+            } else {
+                ordenarPorColuna(estado.coluna, estado.direcao);
+            }
+
+            atualizarIcones();
+        };
+
+        header.addEventListener("click", onClick);
+        cleanups.push(() => header.removeEventListener("click", onClick));
+    });
+
+    atualizarIcones();
+
+    return () => {
+        cleanups.forEach((cleanup) => cleanup());
+    };
+}
+"""
+
+
+def _get_componente_tabela_ordenavel():
+    """
+    Registra o componente v2 apenas uma vez.
+    """
+    global _COMPONENTE_TABELA_ORDENAVEL
+
+    if _COMPONENTE_TABELA_ORDENAVEL is None:
+        _COMPONENTE_TABELA_ORDENAVEL = st.components.v2.component(
+            name="tabela_ordenavel_custom",
+            html='<div id="tabela-root"></div>',
+            js=_JS_TABELA_ORDENAVEL,
+            isolate_styles=True,
+        )
+
+    return _COMPONENTE_TABELA_ORDENAVEL
+
+
+# ── FUNÇÃO FINAL DE RENDERIZAÇÃO ──────────────────────────────────────────────
+
+def renderizar_tabela_estilizada(
+    df,
+    nomes_colunas=None,
+    primeira_coluna_larga=True,
+    borda_inferior="borda",
+    rolagem: bool = False,
+    altura_max: str = "420px",
+    ordenacao: bool = False,
+    key: str | None = None,
+):
+    """
+    Função simples para chamar no app.
+
+    Quando ordenacao=False:
+        usa st.html(...)
+
+    Quando ordenacao=True:
+        usa st.components.v2.component(...)
+    """
+    html_tabela = gerar_tabela_estilizada(
+        df=df,
+        nomes_colunas=nomes_colunas,
+        primeira_coluna_larga=primeira_coluna_larga,
+        borda_inferior=borda_inferior,
+        rolagem=rolagem,
+        altura_max=altura_max,
+        ordenacao=ordenacao,
+    )
+
+    if ordenacao:
+        componente = _get_componente_tabela_ordenavel()
+
+        return componente(
+            data={
+                "html": html_tabela,
+                "ordenacao": True,
+            },
+            key=key,
+        )
+
+    return st.html(html_tabela)
 # ── UTILITÁRIOS DE DATA ───────────────────────────────────────────────────────
 
 def primeiro_dia_util(ano: int) -> date:
@@ -505,6 +899,7 @@ def _classe_borda_inferior(borda_inferior="borda") -> str:
     modo = _normalizar_borda_inferior(borda_inferior)
     return _BORDA_INFERIOR_CLASSES[modo]
 def card_geral(titulo: str, valor: str, delta: str = None, help: str = None, valor_extenso: str = None):
+    import numpy as np
     """
     Renderiza um card de métrica seguindo o Manual de Marca Ceres.
 
@@ -518,19 +913,34 @@ def card_geral(titulo: str, valor: str, delta: str = None, help: str = None, val
 
     # 1. Lógica do Delta Opcional
     delta_html = ""
-    if delta:
-        numero_delta = float(delta.replace(',', '.').replace('%', '').strip())
+
+    if delta is not None and not pd.isna(delta):
+        if isinstance(delta, (int, float, np.number)):
+            numero_delta = float(delta)
+            delta_formatado = f"{numero_delta:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        else:
+            delta_formatado = str(delta)
+            numero_delta = float(
+                delta_formatado
+                .replace("R$", "")
+                .replace("Mi", "")
+                .replace("Bi", "")
+                .replace(".", "")
+                .replace(",", ".")
+                .replace("%", "")
+                .replace(" ", "")
+                .strip()
+            )
 
         if numero_delta > 0:
             cor_delta = "#016837"
-            texto_delta = f"▲{delta}"
+            texto_delta = f"▲ {delta_formatado}"
         elif numero_delta < 0:
             cor_delta = "#c0392b"
-            texto_delta = f"▼{delta}"
+            texto_delta = f"▼ {delta_formatado}"
         else:
             cor_delta = "#5a5a5a"
-            texto_delta = delta
-
+            texto_delta = delta_formatado
         delta_html = (
             f'<div style="background-color:transparent; '
             f'color:{cor_delta}; font-size:14px; font-weight:600; text-align:center; margin-top: -6px;'
@@ -1928,13 +2338,13 @@ def de_para_produto(prod):
     }
 
     mapa_exato = {
-        "ABDI FlexCeres_CD_Emprestimos": "Empréstimos",
+        "ABDI FlexCeres_CD_Emprestimos": "Empréstimos ABDI FlexCeres",
         "CENESP (BLOCO C)": "CENESP (BLOCO C)",
         "CENESP (BLOCO J)": "CENESP (BLOCO J)",
         "Ceres Básico_BD_Emprestimos": "Empréstimos Ceres Básico",
         "Ceres Básico_BD_Financiamentos": "Financiamento Imobiliário Ceres Básico",
         "Ceres FlexCeres_CV_Emprestimos": "Empréstimos Ceres FlexCeres",
-        "Cidasc FlexCeres_CV_Emprestimos": "Empréstimos",
+        "Cidasc FlexCeres_CV_Emprestimos": "Empréstimos Cidasc FlexCeres",
         "CORPORATE FINANCIAL CENTER (303)": "Corporate Financial Center (303)",
         "CORPORATE FINANCIAL CENTER (304)": "Corporate Financial Center (304)",
         "ED. JOSÉ GUERRA": "Ed. José Guerra",

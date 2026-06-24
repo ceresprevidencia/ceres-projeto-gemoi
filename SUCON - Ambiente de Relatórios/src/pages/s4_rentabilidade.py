@@ -15,13 +15,13 @@ from utils.helpers import (primeiro_dia_util,
                            _NOMES_PLANOS,
                            card_segmento_rentabilidade,
                            card_segmento_rentabilidade_sem_projetada,
-                           gerar_tabela_estilizada,
+                           renderizar_tabela_estilizada,
                            de_para_produto,
                            CORES_SEGMENTOS)
 from pathlib import Path
 
 # Carregar dados c
-@st.cache_data(ttl="1h", show_time=True)
+@st.cache_data(ttl="12h", show_time=True)
 def carregar_ipca() -> pd.DataFrame:
     try:
         return buscar_ipca()
@@ -178,7 +178,7 @@ pl_ytd = df_planos[
 
 
 delta_pl = round(((df_planos_filtrado_dp['POSICAO_DF'].values[0]/pl_ytd['POSICAO_DF'].values[0])-1)*100, 2)
-info_pl = 'A variação representa a mudança no PL entre o primeiro dia útil do ano e a data selecionada.'
+info_pl = 'A variação indica o delta percentual do Patrimônio Líquido entre a data inicial e a data final selecionadas'
 
 #___________________Cards
 plano_selecionado = selected_plano
@@ -202,20 +202,20 @@ with col2:
     card_geral('Mês', formatar_percentual_br(df_planos_filtrado_dp['MTD'].iloc[0]), 
                formatar_percentual_br(df_planos_filtrado_dp['DIDF'].iloc[0]),
                
-               help='A variação Mês representa a mudança na rentabilidade entre a data selecionada e o dia útil anterior.')
+               help='A variação representa o delta da rentabilidade entre a data de posição e o dia útil anterior')
 with col3:
     
 
-    if selected_plano == '[CERES TOTAL]':
-        card_geral('Ano', formatar_percentual_br(df_planos_filtrado_dp['YTD'].iloc[0]))
-    else:
-        card_rentabilidade_meta(
-        titulo="Ano",
-        rentabilidade_atual=formatar_percentual_br(df_planos_filtrado_dp['YTD'].iloc[0]),
-        rentabilidade_alvo=df_rent_projetada_filtro['rentabilidade'].values[0],
+    # if selected_plano == '[CERES TOTAL]':
+    #     card_geral('Ano', formatar_percentual_br(df_planos_filtrado_dp['YTD'].iloc[0]))
+    # else:
+    card_rentabilidade_meta(
+    titulo="Ano",
+    rentabilidade_atual=formatar_percentual_br(df_planos_filtrado_dp['YTD'].iloc[0]),
+    rentabilidade_alvo=df_rent_projetada_filtro['rentabilidade'].values[0],
 
-        help="A rentabilidade projeteda reflete a expectativa de rentabilidade para o ano, definido na Política de Investimentos do plano.")
-        
+    help="A rentabilidade projeteda reflete a expectativa de rentabilidade para o ano, definido na Política de Investimentos do plano.")
+    
 
 
 with col4:
@@ -223,7 +223,7 @@ with col4:
 
 with col5:
     if df_planos_filtrado_dp['REFERENCIA_BENCHMARK'].iloc[0] == 'CDI':
-        card_geral('Benchmark', '-')
+        card_geral('Benchmark', 'INPC + 4,78%', help='O benchmark é definido com base na média dos planos de benefício')
     else:
         card_geral('Benchmark', df_planos_filtrado_dp['REFERENCIA_BENCHMARK'].iloc[0])
 
@@ -901,32 +901,32 @@ for segmento in segmentos_cards:
 
         cor_segmento = CORES_SEGMENTOS.get(segmento, "#016837")
 
-        if selected_plano == "[CERES TOTAL]":
-            card_segmento_rentabilidade_sem_projetada(
-                segmento=segmento,
-                rentabilidade_atual=linha_segmento["YTD"],
-                posicao=linha_segmento["POSICAO_DF"],
-                posicao_pct=f"{posicao_pct:.2f}%",
-                mtd=linha_segmento["MTD"],
-                m12=linha_segmento["MESES12"],
-                cor_segmento=cor_segmento,
-            )
+        # if selected_plano == "[CERES TOTAL]":
+        #     card_segmento_rentabilidade_sem_projetada(
+        #         segmento=segmento,
+        #         rentabilidade_atual=linha_segmento["YTD"],
+        #         posicao=linha_segmento["POSICAO_DF"],
+        #         posicao_pct=f"{posicao_pct:.2f}%",
+        #         mtd=linha_segmento["MTD"],
+        #         m12=linha_segmento["MESES12"],
+        #         cor_segmento=cor_segmento,
+        #     )
 
-        else:
-            rentabilidade_alvo = df_rent_projetada_filtro_segmetos[
-                df_rent_projetada_filtro_segmetos["SEGMENTO"] == segmento
-            ]["rentabilidade"].values[0]
+    # else:
+        rentabilidade_alvo = df_rent_projetada_filtro_segmetos[
+            df_rent_projetada_filtro_segmetos["SEGMENTO"] == segmento
+        ]["rentabilidade"].values[0]
 
-            card_segmento_rentabilidade(
-                segmento=segmento,
-                rentabilidade_atual=linha_segmento["YTD"],
-                rentabilidade_alvo=rentabilidade_alvo,
-                posicao=linha_segmento["POSICAO_DF"],
-                pct_posicao=f"{posicao_pct:.2f}%",
-                mtd=linha_segmento["MTD"],
-                m12=linha_segmento["MESES12"],
-                cor_segmento=cor_segmento,
-            )
+        card_segmento_rentabilidade(
+            segmento=segmento,
+            rentabilidade_atual=linha_segmento["YTD"],
+            rentabilidade_alvo=rentabilidade_alvo,
+            posicao=linha_segmento["POSICAO_DF"],
+            pct_posicao=f"{posicao_pct:.2f}%",
+            mtd=linha_segmento["MTD"],
+            m12=linha_segmento["MESES12"],
+            cor_segmento=cor_segmento,
+        )
 #___________________________RENT SEGMENTOS
 with st.container(border=True):
 
@@ -1243,6 +1243,8 @@ tabs_ativas = {
     if segmento_df is None or segmento_df in segmentos_existentes
 }
 
+st.dataframe(df_produtos_filtrado)
+
 tabs = st.tabs(list(tabs_ativas.keys()))
 
 for tab, (nome_tab, segmento_df) in zip(tabs, tabs_ativas.items()):
@@ -1269,7 +1271,9 @@ for tab, (nome_tab, segmento_df) in zip(tabs, tabs_ativas.items()):
         df_plot_produtos["Produtos"] = df_plot_produtos["Produtos"].apply(de_para_produto)
         df_plot_produtos["% Posição"] = df_plot_produtos["% Posição"].apply(formatar_percentual_br)
 
-        st.html(gerar_tabela_estilizada(df_plot_produtos, rolagem=True, altura_max='300px'))
+        renderizar_tabela_estilizada(df_plot_produtos, rolagem=True, altura_max='300px', ordenacao=True)
+        
+
 #____________________________PL POR PLANO
 df_planos_pl = df_planos[(df_planos['DATA_COTACAO'] == pd.to_datetime(selected_data))]
 df_planos_pl = df_planos_pl[df_planos_pl['TESOURARIA'] != '[CERES TOTAL]'].copy()
