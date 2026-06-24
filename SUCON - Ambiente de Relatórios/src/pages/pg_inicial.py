@@ -1,6 +1,18 @@
 import streamlit as st
 
 
+# ── MANUTENÇÃO / CACHE ────────────────────────────────────────────────────────
+
+with st.sidebar:
+    with st.expander("Manutenção", expanded=False):
+        st.caption("Use apenas se precisar forçar a atualização do app.")
+
+        if st.button("clearcache"):
+            st.cache_data.clear()
+            st.cache_resource.clear()
+            st.success("Cache limpo com sucesso!")
+            st.rerun()
+            
 # ── COMPONENTE: CARD DE NAVEGAÇÃO ─────────────────────────────────────────────
 
 _CSS_NAV_CARD = """
