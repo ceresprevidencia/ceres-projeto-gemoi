@@ -169,9 +169,9 @@ def formatar_data(valor) -> str:
 
 # ── DADOS ─────────────────────────────────────────────────────────────────────
 
-@st.cache_data(ttl='1h', show_time=True)
+@st.cache_data(ttl='12h', show_time=True)
 def load_data() -> pd.DataFrame:
-    """Carrega e cacheia os dados de limites operacionais por 6 horas."""
+    """Carrega e cacheia os dados de limites operacionais por 12 horas."""
     return buscar_dados()
 
 
@@ -244,6 +244,7 @@ with col3:
         help=f"Datas disponíveis: {primeira_data.strftime('%d/%m/%Y')} a {ultima_data.strftime('%d/%m/%Y')}.",
         min_value=primeira_data,
         max_value=ultima_data,
+        key="data_selecionada",
    
     )
 
