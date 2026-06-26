@@ -232,8 +232,8 @@ with col5:
 with st.container(border=True):
 
     # Cabeçalho: título à esquerda e controle à direita
-    col_titulo, col_espaco, col_controle = st.columns(
-        [2,9, .6],
+    col_titulo, col_controle = st.columns(
+        [.85, .15],
         vertical_alignment="top"
     )
 
@@ -262,8 +262,7 @@ with st.container(border=True):
             unsafe_allow_html=True
         )
 
-    with col_espaco:
-        st.empty()
+  
 
     with col_controle:
         selecao_periodo = st.segmented_control(
@@ -553,8 +552,8 @@ with st.container(border=True):
 with st.container(border=True):
 
     # Cabeçalho: título à esquerda e controle no canto direito
-    col_titulo, col_espaco, col_controle = st.columns(
-        [2, 9, 1],
+    col_titulo,  col_controle = st.columns(
+        [.85, .15],
         vertical_alignment="top"
     )
 
@@ -583,47 +582,44 @@ with st.container(border=True):
             unsafe_allow_html=True
         )
 
-    with col_espaco:
-        st.empty()
+
 
     with col_controle:
-        opcao = ["6m", "12m", "18m", "24m"]
-
-        selecao_periodo_mensal = st.segmented_control(
+        selecao_periodo_mensal = st.select_slider(
             "Período:",
-            options=opcao,
-            selection_mode="single",
-            default="12m",
-            required=True,
+            options=["6 meses", "12 meses", "18 meses", "24 meses"],
+            value="12 meses",
             key="rent_mensal",
             label_visibility="collapsed",
+            width='stretch'
         )
+
+    # Converte a seleção em número inteiro de meses
+    meses = int(selecao_periodo_mensal.split()[0])
+
     # Filtro do plano
     df_rent_mensal_planos_filtrado = df_rent_mensal_planos[
-        df_rent_mensal_planos['PLANO'] == selected_plano.upper()
+        df_rent_mensal_planos["PLANO"] == selected_plano.upper()
     ].copy()
 
     # Garante datetime
-    df_rent_mensal_planos_filtrado['DATA'] = pd.to_datetime(
-        df_rent_mensal_planos_filtrado['DATA']
+    df_rent_mensal_planos_filtrado["DATA"] = pd.to_datetime(
+        df_rent_mensal_planos_filtrado["DATA"]
     )
 
     # Filtro do período selecionado
-    if selecao_periodo_mensal:
-        meses = int(selecao_periodo_mensal.replace('m', ''))
-        data_inicio_meses = selected_data - pd.DateOffset(months=meses)
+    data_inicio_meses = selected_data - pd.DateOffset(months=meses)
 
-        df_rent_mensal_planos_filtrado = df_rent_mensal_planos_filtrado[
-            df_rent_mensal_planos_filtrado['DATA'] >= data_inicio_meses
-        ].copy()
+    df_rent_mensal_planos_filtrado = df_rent_mensal_planos_filtrado[
+        df_rent_mensal_planos_filtrado["DATA"] >= data_inicio_meses
+    ].copy()
 
     # Ordena por data
     df_rent_mensal_planos_filtrado = (
         df_rent_mensal_planos_filtrado
-        .sort_values('DATA')
+        .sort_values("DATA")
         .copy()
     )
-
     
     
     if not df_rent_mensal_planos_filtrado.empty:
@@ -931,8 +927,8 @@ for segmento in segmentos_cards:
 with st.container(border=True):
 
     # Cabeçalho: título à esquerda e controle à direita
-    col_titulo, col_espaco, col_controle = st.columns(
-        [2, 9, .6],
+    col_titulo, col_controle = st.columns(
+        [.85, .15],
         vertical_alignment="top"
     )
 
@@ -961,8 +957,7 @@ with st.container(border=True):
             unsafe_allow_html=True
         )
 
-    with col_espaco:
-        st.empty()
+
 
     with col_controle:
         selecao_periodo = st.segmented_control(
@@ -973,6 +968,7 @@ with st.container(border=True):
             key="rent_segmentos",
             required=True,
             label_visibility="collapsed",
+          
         )
     # Base filtrada
     df_grupos_filtrado_ytd = df_grupos[

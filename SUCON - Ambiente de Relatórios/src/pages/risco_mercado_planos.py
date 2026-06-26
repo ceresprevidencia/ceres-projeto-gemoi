@@ -6,6 +6,7 @@ import os
 import plotly.graph_objects as go
 from utils.helpers import ( 
                            nome_plano,
+                           renderizar_tabela_estilizada,
                            card_geral,
                            formatar_numero,
                            fmt_br
@@ -26,16 +27,16 @@ df_planos.columns = df_planos.columns.str.upper()
 
 colunas_map = {
     'TESOURARIA': 'Planos',
-    'POSICAO': 'Posição',
+    'POSICAO': 'Posição R$',
     'DATA_COTACAO': 'DATA_COTACAO',
-    'RISCO': 'Value at Risk - VaR R$',
-    'RISCO/POSICAO_%': 'Value at Risk - VaR %',
-    'LIMITE_INTERNO_%': 'Limite Interno %',
+    'RISCO': 'VaR R$',
+    'RISCO/POSICAO_%': 'VaR %',
+    'LIMITE_INTERNO_%': 'Lim. Interno %',
     'STATUS_%':'Status %',
-    'VARIACAO_POSICAO_STRESS_1': 'Posicação Stress (+) R$',
-    'VARIACAO_POSICAO_STRESS_1/POSICAO_%': 'Posicação Stress (+) %',
-    'VARIACAO_POSICAO_STRESS_2': 'Posicação Stress (-) R$',
-    'VARIACAO_POSICAO_STRESS_2/POSICAO_%':'Posicação Stress (-) %',
+    'VARIACAO_POSICAO_STRESS_1': 'Stress (+) R$',
+    'VARIACAO_POSICAO_STRESS_1/POSICAO_%': 'Stress (+) %',
+    'VARIACAO_POSICAO_STRESS_2': 'Stress (-) R$',
+    'VARIACAO_POSICAO_STRESS_2/POSICAO_%':'Stress (-) %',
     
 }
 
@@ -85,16 +86,7 @@ st.space()
 # ── DESCRIÇÃO + SELETOR DE DATA ───────────────────────────────────────────────
 col1, _, col2 = st.columns([1, 0.5, 0.5])
 
-with col1:
-    opcoes_planos = df_planos["Planos"].dropna().unique().tolist()
 
-    opcoes_planos = ["Todos os planos"] + opcoes_planos
-
-    selected_plano = st.selectbox(
-        "Selecione o plano:",
-        options=opcoes_planos,
-        format_func=lambda x: x if x == "Todos os planos" else nome_plano(x),
-    )
 with col2:
     primeira_data = df_planos["DATA_COTACAO"].min().date()
     ultima_data = df_planos["DATA_COTACAO"].max().date()
@@ -140,31 +132,26 @@ if data_selecionada not in datas_disponiveis:
 
     st.warning(msg)
 
-if selected_plano == "Todos os planos":
-    df_planos_filtrado_dp = df_planos[df_planos["DATA_COTACAO"].dt.date == data_selecionada]
 
-else:
-    df_planos_filtrado_dp = df_planos[
-        (df_planos["DATA_COTACAO"].dt.date == data_selecionada)
-        & (df_planos["Planos"] == selected_plano)
-    ]
+df_planos_filtrado_dp = df_planos[df_planos["DATA_COTACAO"].dt.date == data_selecionada]
+
 
 c1, c2, c3, c4, c5, c6 = st.columns(6)
 with c1:
     card_geral(
         titulo="Posição",
-        valor=formatar_numero(df_planos_filtrado_dp['Posição'].sum(), prefixo="R$ "),
-        valor_extenso=fmt_br(df_planos_filtrado_dp['Posição'].sum())
+        valor=formatar_numero(df_planos_filtrado_dp['Posição R$'].sum(), prefixo="R$ "),
+        valor_extenso=fmt_br(df_planos_filtrado_dp['Posição R$'].sum())
     )
 with c2:
     card_geral(
         titulo="Risco Paramétrico",
-        valor=formatar_numero(df_planos_filtrado_dp['Value at Risk - VaR R$'].sum(), prefixo="R$"),
-        valor_extenso=fmt_br(df_planos_filtrado_dp['Value at Risk - VaR R$'].sum())
+        valor=formatar_numero(df_planos_filtrado_dp['VaR R$'].sum(), prefixo="R$"),
+        valor_extenso=fmt_br(df_planos_filtrado_dp['VaR R$'].sum())
     )
 
 with c3:
-    parametrico_consolidado = (df_planos_filtrado_dp['Value at Risk - VaR R$'].sum() / df_planos_filtrado_dp['Posição'].sum() if df_planos_filtrado_dp['Posição'].sum() != 0 else 0) * 100
+    parametrico_consolidado = (df_planos_filtrado_dp['VaR R$'].sum() / df_planos_filtrado_dp['Posição R$'].sum() if df_planos_filtrado_dp['Posição R$'].sum() != 0 else 0) * 100
 
     card_geral(
         titulo="Risco Paramétrico %",
@@ -172,20 +159,26 @@ with c3:
     )
 
 with c4:
-    stress1 = df_planos_filtrado_dp['Posicação Stress (+) R$'].sum() + df_planos_filtrado_dp['Posição'].sum()
+    stress1 = df_planos_filtrado_dp['Stress (+) R$'].sum() + df_planos_filtrado_dp['Posição R$'].sum()
     card_geral(
         titulo="Stress (+)",
         valor=formatar_numero(stress1, prefixo="R$ "),
-        delta=formatar_numero(df_planos_filtrado_dp['Posicação Stress (+) R$'].sum(), prefixo="R$ ")
+        delta=formatar_numero(df_planos_filtrado_dp['Stress (+) R$'].sum(), prefixo="R$ ")
     )
 
 with c5:
-    stress2 = df_planos_filtrado_dp['Posicação Stress (-) R$'].sum() + df_planos_filtrado_dp['Posição'].sum()
+    stress2 = df_planos_filtrado_dp['Stress (-) R$'].sum() + df_planos_filtrado_dp['Posição R$'].sum()
 
     card_geral(
         titulo="Stress (-)",
         valor=formatar_numero(stress2, prefixo="R$ "),
-        delta=formatar_numero(df_planos_filtrado_dp['Posicação Stress (-) R$'].sum(), prefixo="R$ ")
+        delta=formatar_numero(df_planos_filtrado_dp['Stress (-) R$'].sum(), prefixo="R$ ")
     )
 
-st.dataframe(df_planos_filtrado_dp, hide_index=True)  # Exibe as primeiras linhas para verificação
+df_planos_exbir = df_planos_filtrado_dp.drop(columns=["DATA_COTACAO"])
+df_planos_exbir['Planos'] = df_planos_exbir['Planos'].apply(nome_plano)
+
+renderizar_tabela_estilizada(df_planos_exbir, 
+                             rolagem=False, 
+                             ordenacao=True)
+
