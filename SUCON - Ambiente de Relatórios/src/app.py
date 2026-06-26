@@ -26,7 +26,7 @@ pg_inicial = st.Page("pages/pg_inicial.py", title="Home", url_path="home", visib
 enquadramento_planos = st.Page("pages/s1_enquadramento_planos.py", title="Planos",  url_path="enquadramento-planos")
 enquadramento_fundos = st.Page("pages/s1_enquadramento_fundos.py", title="Fundos",  url_path="enquadramento-fundos", visibility="hidden")
 lim_op = st.Page("pages/s1_lim_op.py", title="Limites Operacionais",  url_path="limites-operacionais")
-risco_mercado_planos = st.Page("pages/risco_mercado_planos.py", title="Risco Mercado Planos",  url_path="risco-mercado-planos", visibility="hidden")
+risco_mercado_planos = st.Page("pages/risco_mercado_planos.py", title="Risco Mercado Planos",  url_path="risco-mercado-planos")
 risco_mercado_ativos = st.Page("pages/risco_mercado_ativos.py", title="Risco Mercado Ativos",  url_path="risco-mercado-ativos", visibility="hidden")
 rent = st.Page("pages/s4_rentabilidade.py", title="Planos",  url_path="rentabilidade-planos")
 
