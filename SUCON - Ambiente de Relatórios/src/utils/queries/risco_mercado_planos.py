@@ -6,7 +6,10 @@ def buscar_dados() -> pd.DataFrame:
     query=  """
                     WITH PLANOS AS (
                         SELECT
-                            RME.TESOURARIA,
+                            CASE
+                                WHEN RME.TESOURARIA IS NULL THEN '[CERES TOTAL]'
+                                ELSE RME.TESOURARIA
+                            END AS TESOURARIA,
                             DATA_COTACAO,
                             ROUND(RME.POSICAO_DF, 2) AS POSICAO,
                             ROUND(RME.RISCO_PAR, 2) AS RISCO,
@@ -26,12 +29,13 @@ def buscar_dados() -> pd.DataFrame:
                             ON RME.COD_REL_APURACAO_FORM = RAF.COD_REL_APURACAO_FORM
                         INNER JOIN REL_APURACAO RA 
                             ON RAF.COD_REL_APURACAO = RA.CODIGO
-                        WHERE RME.NIVEL_AGREGACAO = 'Sintético Nível 1'
+                        WHERE RME.NIVEL_AGREGACAO IN ('Sintético Nível 1', 'Sintético Total')
                         AND RA.NOME LIKE '[RISCO] FUNDAÇÃO CERES#%'
                     )
                     SELECT *
                     FROM PLANOS
-                    ORDER BY DATA_COTACAO DESC, TESOURARIA, RN"""
+                    WHERE RN = 1
+                    ORDER BY DATA_COTACAO DESC, TESOURARIA"""
     
     with get_connection().connect() as conn:
         df=  pd.read_sql(query, conn)

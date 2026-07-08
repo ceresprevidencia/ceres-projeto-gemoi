@@ -611,7 +611,8 @@ with st.container(border=True):
     data_inicio_meses = selected_data - pd.DateOffset(months=meses)
 
     df_rent_mensal_planos_filtrado = df_rent_mensal_planos_filtrado[
-        df_rent_mensal_planos_filtrado["DATA"] >= data_inicio_meses
+        (df_rent_mensal_planos_filtrado["DATA"] >= data_inicio_meses)
+        & (df_rent_mensal_planos_filtrado["DATA"] <= selected_data)
     ].copy()
 
     # Ordena por data

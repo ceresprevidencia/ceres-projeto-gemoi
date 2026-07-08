@@ -2395,3 +2395,164 @@ CORES_SEGMENTOS = {
     "Imobiliário": "#CCF1DF",
     "Exterior": "#6D597A",
 }
+
+
+
+
+
+def card_limites_excedidos(
+    titulo: str,
+    qtd_ok,
+    qtd_excedido,
+    help: str = None
+):
+    """
+    Renderiza um card no mesmo estilo do card_geral,
+    mas exibindo duas badges no lugar do valor principal.
+    """
+
+    # Help opcional
+    help_html = ""
+    if help:
+        help_html = f"""
+        <div class="meu-card-help">
+            i
+            <span class="meu-card-tooltip">{help}</span>
+        </div>
+        """
+
+    html_final = f"""
+    <style>
+        .meu-card-custom {{
+            background-color: rgba(219, 208, 178, 0.14);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 6px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease-in-out;
+            text-align: left;
+            position: relative;
+            height: 130px;
+            box-sizing: border-box;
+        }}
+
+        .meu-card-custom:hover {{
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+        }}
+
+        .meu-card-help {{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 1.5px solid #0B2F13;
+            color: #0B2F13;
+            font-size: 11px;
+            font-weight: 700;
+            font-style: normal;
+            font-family: 'Figtree', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }}
+
+        .meu-card-tooltip {{
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 130%;
+            right: 0;
+            background-color: #0B2F13;
+            color: #FAFBEB;
+            text-align: left;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            font-style: normal;
+            font-family: 'Figtree', sans-serif;
+            white-space: normal;
+            width: 200px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.2s ease-in-out;
+            z-index: 999;
+        }}
+
+        .meu-card-help:hover .meu-card-tooltip {{
+            visibility: visible;
+            opacity: 1;
+        }}
+
+        .meu-card-titulo {{
+            color:#5a5a5a;
+            font-size:16px;
+            padding:2px 8px;
+            border-radius:6px;
+            font-weight:900;
+            display:inline-block;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .meu-card-badges {{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 24px;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .meu-card-badge {{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            height: 28px;
+            padding: 0 14px;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 900;
+            line-height: 1;
+            white-space: nowrap;
+        }}
+
+        .meu-card-badge-ok {{
+            background-color: rgba(1, 104, 55, 0.12);
+            color: #016837;
+            border: 1.5px solid rgba(1, 104, 55, 0.35);
+        }}
+
+        .meu-card-badge-excedido {{
+            background-color: rgba(192, 57, 43, 0.12);
+            color: #c0392b;
+            border: 1.5px solid rgba(192, 57, 43, 0.35);
+        }}
+    </style>
+
+    <div class="meu-card-container">
+        <div class="meu-card-custom">
+            {help_html}
+
+            <span class="meu-card-titulo">
+                {titulo}
+            </span>
+
+            <div class="meu-card-badges">
+                <div class="meu-card-badge meu-card-badge-ok">
+                    ✓ {qtd_ok} OK
+                </div>
+
+                <div class="meu-card-badge meu-card-badge-excedido">
+                    ⚠ {qtd_excedido} Excedido
+                </div>
+            </div>
+        </div>
+    </div>
+    """
+
+    st.html(html_final)
