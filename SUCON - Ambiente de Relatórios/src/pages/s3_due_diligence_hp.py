@@ -13,6 +13,8 @@ from utils.ddq_utils.crud import (
     CnpjDuplicadoError
 )
 
+from utils.helpers import (card_geral)
+
 
 st.set_page_config(layout="wide")
 
@@ -82,106 +84,133 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
 
             with col1:
                 qtd_gestoras = len(listar_gestoras_preenchimento())
-                st.metric("Gestoras", qtd_gestoras)
+                card_geral(
+                    "Gestoras",
+                    qtd_gestoras,
+                    help="Gestoras cadastradas no sistema.",)
             
             with col2:
                 qtd_em_dia = len(gestoras[gestoras["status_vencimento"] == "Em dia"])
-                st.metric("Em dia", qtd_em_dia)
+               
+                card_geral(
+                    "Em dia",
+                    qtd_em_dia,
+                    help="Gestoras que enviaram o questionário e estão com o prazo de vencimento em dia.",)
 
             with col3:
                 qtd_a_vencer = len(gestoras[gestoras["status_vencimento"] == "A vencer"])
-                st.metric("A vencer", qtd_a_vencer)
+                card_geral(
+                    "A vencer",
+                    qtd_a_vencer,
+                    help="Gestoras que enviaram o questionário e estão com o prazo de vencimento a vencer (faltando até 2 meses).",)
 
             with col4:
                 qtd_vencido = len(gestoras[gestoras["status_vencimento"] == "Vencido"])
-                st.metric("Vencido", qtd_vencido)
+                card_geral(
+                    "Vencido",
+                    qtd_vencido,
+                    help="Gestoras que enviaram o questionário e estão com o prazo de vencimento vencido.",)
 
             with col5:
                 qtd_sem_data = len(gestoras[gestoras["status_vencimento"] == "Não preenchida"])
-                st.metric("Não respondida", qtd_sem_data)
+                card_geral(
+                    "Não respondida",
+                    qtd_sem_data,
+                    help="Gestoras que não responderam o questionário.",
+                )
 
-        with st.container():
-            col1, col2, col3, col4 = st.columns([0.4, 0.2, 0.3, .1])
+        with st.container(horizontal=True):
+            c1, c2, = st.columns([0.4, 0.2])
             
-            with col1:
-                opcoes_status = list(gestoras['status'].unique()) + ["Todos"]
-                sit_cadastral = st.selectbox('Situação cadastral', options=opcoes_status, key='gestora_selecionada')
+            with c1:
+                gestoras['status_geral'] = gestoras['status'].apply(lambda x: x.split(' ')[0].capitalize())
+                opcoes_status = list(gestoras['status_geral'].unique()) + ["Todos"]
+                sit_cadastral = st.selectbox("Situação cadastral",
+                                             placeholder='Situação cadastral', 
+                                             options=opcoes_status, key='gestora_selecionada',
+                                             index=None,
+                                             label_visibility="collapsed")
                 if sit_cadastral:
                     if sit_cadastral != "Todos":
-                        gestoras = gestoras[gestoras["status"] == sit_cadastral]
+                        gestoras = gestoras[gestoras["status_geral"] == sit_cadastral]
 
-            with col2:
+            with c2:
 
                 status = st.selectbox(
-                    'Status vencimento', options=gestoras["status_vencimento"].unique(), key='status_selecionado')
+                    'Status vencimento',
+                     placeholder='Status vencimento',
+                     options=gestoras["status_vencimento"].unique(), 
+                     key='status_selecionado',
+                     index=None,
+                     label_visibility="collapsed")
                 if status:
                     if status != "Todos":
                         gestoras = gestoras[gestoras["status_vencimento"] == status]
                     
                         
-            with col3:
-                @st.dialog("Cadastrar nova gestora", on_dismiss='rerun')
-                def cadastrar_gestora() -> None:
-                    with st.form(
-                        "form_cadastro_gestora",
-                        clear_on_submit=False,
-                    ):
-                        nome = st.text_input("Nome da gestora *")
-                        telefone = st.text_input("Telefone")
-                        email = st.text_input("E-mail")
-                        cnpj = st.text_input(
-                            "CNPJ",
-                            placeholder="00.000.000/0000-00",
-                        )
-
-                        salvar = st.form_submit_button(
-                            "Cadastrar gestora",
-                            type="primary",
-                            use_container_width=True,
-                        )
-
-                    if not salvar:
-                        return
-
-                    if not nome.strip():
-                        st.error('O campo "Nome da gestora" é obrigatório.')
-                        return
-
-                    try:
-                        novo_id = inserir_gestora(
-                            nome=nome,
-                            telefone=telefone,
-                            email=email,
-                            cnpj=cnpj,
-                        )
-
-                        st.success(
-                            f'Gestora "{nome.strip()}" cadastrada com sucesso. '
-                            f"ID: {novo_id}"
-                        )
-
-                    
-                    except CnpjDuplicadoError as erro:
-                        st.error(str(erro))
-
-                    except ValueError as erro:
-                        st.error(str(erro))
-
-                    except Exception as erro:
-                        st.exception(erro)
-
-
-
-                if st.button(
-                    "Cadastrar nova gestora",
-                    use_container_width=True,
-                ):
-                    cadastrar_gestora()
-                    
             
-            with col4:
-                if st.button("", icon=":material/settings:"):
-                    st.switch_page("pages/s3_due_diligence_settings.py")
+            @st.dialog("Cadastrar nova gestora", on_dismiss='rerun')
+            def cadastrar_gestora() -> None:
+                with st.form(
+                    "form_cadastro_gestora",
+                    clear_on_submit=False,
+                ):
+                    nome = st.text_input("Nome da gestora *")
+                    telefone = st.text_input("Telefone")
+                    email = st.text_input("E-mail")
+                    cnpj = st.text_input(
+                        "CNPJ",
+                        placeholder="00.000.000/0000-00",
+                    )
+
+                    salvar = st.form_submit_button(
+                        "Cadastrar gestora",
+                        type="primary",
+                        use_container_width=True,
+                    )
+
+                if not salvar:
+                    return
+
+                if not nome.strip():
+                    st.error('O campo "Nome da gestora" é obrigatório.')
+                    return
+
+                try:
+                    novo_id = inserir_gestora(
+                        nome=nome,
+                        telefone=telefone,
+                        email=email,
+                        cnpj=cnpj,
+                    )
+
+                    st.success(
+                        f'Gestora "{nome.strip()}" cadastrada com sucesso. '
+                        f"ID: {novo_id}"
+                    )
+
+                
+                except CnpjDuplicadoError as erro:
+                    st.error(str(erro))
+
+                except ValueError as erro:
+                    st.error(str(erro))
+
+                except Exception as erro:
+                    st.exception(erro)
+
+
+
+            if st.button(
+                "Cadastrar nova gestora",
+                use_container_width=True,
+            ):
+                cadastrar_gestora()
+                
+        
+      
+            if st.button("", icon=":material/settings:"):
+                st.switch_page("pages/s3_due_diligence_settings.py")
 
 
 
