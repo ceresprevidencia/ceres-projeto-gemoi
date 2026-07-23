@@ -5,11 +5,12 @@ primaryColor = "#0b2f13"
 backgroundColor = "#fafbeb"
 secondaryBackgroundColor = "#f0f2e6"
 textColor = "#0b2f13"
+showSidebarBorder = true
 
 [theme.sidebar]
-backgroundColor = "#1a1a2e"
-secondaryBackgroundColor = "#16213e"
-textColor = "#ffffff"
-primaryColor = "#0969da"
-borderColor = "#d0d7de"
+backgroundColor = "#f0f2e6"
+secondaryBackgroundColor = "#e4e8d8"
+textColor = "#0b2f13"
+primaryColor = "#0b2f13"
+borderColor = "#0b2f13"
 font = "Figtree:https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap"

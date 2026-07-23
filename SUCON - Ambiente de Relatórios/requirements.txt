@@ -1,0 +1,31 @@
+# Núcleo da aplicação
+streamlit[auth]>=1.55.0,<2.0.0
+streamlit-authenticator>=0.4.2,<0.5.0
+rich>=14.3.3,<15.0.0
+tenacity>=9.1.4,<10.0.0
+dotenv>=0.9.9,<0.10.0
+ipykernel>=7.2.0,<8.0.0
+
+# Banco de dados e acesso a dados
+sqlalchemy>=2.0.48,<3.0.0
+oracledb>=3.4.2,<4.0.0
+pyodbc>=5.3.0,<6.0.0
+pandas>=3.0.3,<4.0.0
+
+# Relatórios, gráficos e exportação
+reportlab>=4.4.10,<5.0.0
+plotly>=6.6.0,<7.0.0
+matplotlib>=3.10.9,<4.0.0
+pygal>=3.1.0,<4.0.0
+docling>=2.93.0,<3.0.0
+
+# Google e integração com planilhas
+google-api-python-client>=2.198.0,<3.0.0
+google-auth>=2.55.2,<3.0.0
+google-auth-oauthlib>=1.4.0,<2.0.0
+google-auth-httplib2>=0.4.0,<0.5.0
+st-gsheets-connection>=0.1.0,<0.2.0
+
+# Componentes e UI
+streamlit-aggrid>=1.2.1.post2,<2.0.0
+streamlit-elements>=0.1.0,<0.2.0

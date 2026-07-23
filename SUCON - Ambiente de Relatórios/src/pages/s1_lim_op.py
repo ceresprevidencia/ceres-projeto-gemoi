@@ -192,398 +192,438 @@ df_risco["Índice RiskBank"] = df_risco["Índice RiskBank"].apply(lambda x: fmt_
 if "data_selecionada" not in st.session_state:
     st.session_state.data_selecionada = data["DATA_COTACAO"].max().date()
 
+#-----DIMENSÃO PÁGINA
 
-# ── CSS + CABEÇALHO ───────────────────────────────────────────────────────────
+
+st.set_page_config(layout="wide")
+
 
 st.html("""
 <style>
-    .block-container { padding-top: 4rem; }
+    /* Remove o padding lateral e superior do bloco principal */
+    .block-container {
+        padding-top: 3.8rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
     .st-key-meu-container {
         background-color: #0B2F13;
-        border-radius: 8px;
-        padding: 30px 20px 45px 20px;
+        border-radius: 0px;
+        padding: 30px 20px 30px 20px;
         width: 100%;
         box-sizing: border-box;
     }
+    
+    /* Container do conteúdo COM padding lateral */
+    .st-key-conteudo {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+        
 </style>
 """)
 
 with st.container(key="meu-container"):
-    st.markdown("""
-        <p style="text-align:center; color:#FAFBEB; margin:0; font-size:40px; font-weight:400; white-space:nowrap;">
-            Limites Operacionais -
+    st.html("""
+        <p style="text-align:center; color:#FAFBEB; margin:0 0; font-size: clamp(20px, 3vw, 29px); font-weight:400;">
+            Limites Operacionais - 
             <span style='color:#A8EC7D; font-family:"Source Serif 4",serif; font-style:italic; font-weight:600;'>
                 Instituições Financeiras
             </span>
         </p>
-    """, unsafe_allow_html=True)
-
-st.space()
-
-
-# ── DESCRIÇÃO + SELETOR DE DATA ───────────────────────────────────────────────
-
-col1, _, col3 = st.columns([0.7, 0.05, 0.25])
-with col1:
-    st.space()
-    st.markdown("""
-        <div style="padding-left:20px; text-align:justify;">
-            Este relatório tem por objetivo estabelecer e monitorar limites de aplicação em Títulos e Valores
-            Mobiliários de Renda Fixa emitidos ou coobrigados por Instituições Financeiras, em conformidade
-            com a legislação vigente e as diretrizes da Política de Investimentos da Ceres.
-        </div>
-    """, unsafe_allow_html=True)
-
-with col3:
-    primeira_data = data["DATA_COTACAO"].min().date()
-    ultima_data   = data["DATA_COTACAO"].max().date()
-    st.date_input(
-        "Selecione a data posição",
-        value=st.session_state.data_selecionada,
-        format="DD/MM/YYYY",
-        help=f"Datas disponíveis: {primeira_data.strftime('%d/%m/%Y')} a {ultima_data.strftime('%d/%m/%Y')}.",
-        min_value=primeira_data,
-        max_value=ultima_data,
-        key="data_selecionada",
-   
-    )
-
-# Aviso se a data selecionada não tiver dados disponíveis
-datas_disponiveis = sorted(data["DATA_COTACAO"].dt.date.unique())
-if st.session_state.data_selecionada not in datas_disponiveis:
-    data_ant  = next((d for d in reversed(datas_disponiveis) if d < st.session_state.data_selecionada), None)
-    data_post = next((d for d in datas_disponiveis          if d > st.session_state.data_selecionada), None)
-
-    msg = f"**Nenhum dado disponível para {st.session_state.data_selecionada.strftime('%d/%m/%Y')}.**\n\n"
-    if data_ant:  msg += f"Data anterior mais próxima: **{data_ant.strftime('%d/%m/%Y')}**\n"
-    if data_post: msg += f"\nData posterior mais próxima: **{data_post.strftime('%d/%m/%Y')}**"
-    st.warning(msg)
-
-
-# ── FILTRAGEM E PREPARAÇÃO DOS DADOS ─────────────────────────────────────────
-
-df_filtrado = (
-    data[data["DATA_COTACAO"].dt.date == st.session_state.data_selecionada]
-    .drop(columns=["TESOURARIA"])
-    .copy()
-)
-df_filtrado["DATA_AQUISICAO"] = pd.to_datetime(df_filtrado["DATA_AQUISICAO"])
-
-# DataFrame principal com limites calculados
-df_principal = preparar_df_exibir(df_filtrado, df_limites)
-
-# Totais para os cards e para o PDF
-total_exposicao    = float(df_filtrado["EXPOSICAO"].sum() or 0)
-total_exposicao_26 = float(df_filtrado[df_filtrado["DATA_AQUISICAO"] >= DATA_CORTE_2026]["EXPOSICAO"].sum() or 0)
-total_alocacao     = float(df_filtrado[df_filtrado["DATA_AQUISICAO"] >= DATA_CORTE_2026]["FINANCEIRO_AQUISICAO"].sum() or 0)
-
-# Agrupamento de produtos por emissor para a tabela expansível
-grp_produto = (
-    df_filtrado
-    .groupby(["EMISSOR", "PRODUTO", "DATA_AQUISICAO", "VENCIMENTO"])
-    .agg(FINANCEIRO_AQUISICAO=("FINANCEIRO_AQUISICAO", "sum"), EXPOSICAO=("EXPOSICAO", "sum"),
-         TAXA_AQUISICAO=("TAXA_AQUISICAO", "mean"), INDEXADOR=("INDEXADOR", lambda x: x.mode()[0]))
-    .reset_index()
-    .sort_values("DATA_AQUISICAO")
-)
-grp_produto["Tx. Aquisição"] = grp_produto["INDEXADOR"] + " + " + grp_produto["TAXA_AQUISICAO"].apply(lambda x: f"{x:.2f}%")
-
-
-# ── EXPORTAÇÃO PDF ────────────────────────────────────────────────────────────
-
-_, _ , col_export = st.columns([3, 1, 1])
-with col_export:
-    df_grafico_pdf = df_principal[df_principal["EXPOSICAO"] > 0] if not df_principal.empty else pd.DataFrame()
-    pdf_bytes = gerar_pdf_limites_operacionais(
-        df_principal,
-        data_posicao=st.session_state.data_selecionada,
-        titulo_relatorio="Limites Operacionais -",
-        disponivel_alocacao_26=LIMITE_ALOCACAO_2026,
-        total_exposicao=total_exposicao,
-        total_exposicao_26=total_exposicao_26,
-        alocado_26=total_alocacao,
-        df_risco=df_risco,
-    )
-    st.space()
-    st.download_button(
-        label="Baixar PDF",
-        data=pdf_bytes,
-        file_name=f"limites_operacionais_{st.session_state.data_selecionada.strftime('%d%m%Y')}.pdf",
-        mime="application/pdf",
-        width="stretch",
-        type="primary",
-        key="download_pdf_unico",
-    )
-
-st.divider()
-
-
-# ── CARDS DE RESUMO ───────────────────────────────────────────────────────────
-
-col1, col2 = st.columns(2)
-with col1:
-    with st.container(border=True):
-        card_titulo("Posição")
-        st.metric(label="Geral", value=f"R$ {fmt_br(total_exposicao, 2)}")
-with col2:
-    with st.container(border=True):
-        card_titulo("Posição")
-        st.metric(label="2026", value=f"R$ {fmt_br(total_exposicao_26, 2)}")
-
-gasto_card("Plano de Alocação", total_alocacao, LIMITE_ALOCACAO_2026)
-
-
-# ── ABAS: LIMITES E CLASSIFICAÇÃO DE RISCO ───────────────────────────────────
-
-tab1, tab2 = st.tabs(["Limites Operacionais", "Classificação de Risco"])
-
-with tab1:
-    # ── CSS da tabela expansível ──────────────────────────────────────────────
-    num_colunas     = len(COLUNAS_EXIBIR)
-    grid_master     = " ".join(["1fr"] * num_colunas)   # colunas iguais para o cabeçalho principal
-    grid_produtos   = "3fr 1fr 1fr 1fr 1fr 1fr"         # coluna Produto mais larga
-    fonte_tabela    = "14px"
-
-    st.html(f"""
-    <style>
-        .tabela-full {{
-            width:100%; border:none; font-family:'Figtree',sans-serif; font-size:{fonte_tabela};
-            border-collapse:separate; border-spacing:0; border-radius:10px;
-            overflow:auto; background-color:transparent; min-width:0;
-        }}
-        @media (max-width:768px) {{ .tabela-full {{ font-size:11px; overflow-x:auto; }} }}
-
-        /* Cabeçalho verde principal */
-        .th-master {{
-            background-color:#0B2F13; color:#A8EC7D;
-            display:grid; grid-template-columns:2fr {grid_master}; padding-left:20px; align-items:center;
-        }}
-        .th-master div {{
-            padding:12px; text-align:center; font-size:{fonte_tabela};
-            display:flex; align-items:center; justify-content:center; min-height:40px;
-            word-break:break-word;
-        }}
-        .th-master div:first-child {{ border-top-left-radius:10px; justify-content:flex-start; }}
-        .th-master div:last-child  {{ border-top-right-radius:10px; }}
-
-        /* Linha de totais */
-        .th-totais {{
-            background-color:#0B2F13; color:#A8EC7D; margin-top:10px;
-            display:grid; grid-template-columns:2fr {grid_master}; align-items:center;
-        }}
-        .th-totais div {{
-            padding:12px; text-align:center; font-weight:bold; font-size:{fonte_tabela};
-            display:flex; align-items:center; justify-content:center; min-height:40px;
-            word-break:break-word;
-        }}
-        .th-totais div:first-child {{ justify-content:flex-start; }}
-
-        /* Estrutura geral */
-        details {{ width:100%; }}
-        details[open] {{ margin-bottom:15px; }}
-        summary {{ list-style:none; cursor:pointer; }}
-        summary::-webkit-details-marker {{ display:none; }}
-
-        /* Coluna de valor */
-        .col-val {{
-            text-align:center; padding:10px; font-size:{fonte_tabela};
-            display:flex; align-items:center; justify-content:center; min-height:40px;
-            word-break:break-word;
-        }}
-
-        /* Label da instituição */
-        .label-box {{
-            display:flex; align-items:center; padding:10px 10px 10px 10px;
-            font-size:13px; min-height:40px; word-break:break-word;
-        }}
-        .icon {{ width:25px; text-align:center; font-family:monospace; font-weight:bold; margin-right:5px; flex-shrink:0; }}
-
-        /* Linha de instituição com produtos (expansível) */
-        .row-inst {{ background-color:transparent; transition:background-color 0.2s; align-items:center; }}
-        .row-inst:hover {{ background-color:rgba(1,104,55,0.05); }}
-        details[open] > summary.row-inst {{ background-color:rgba(1,104,55,0.05); }}
-        .row-inst.com-produtos .icon::before {{ content:'+'; color:#016837; }}
-        details[open] > .row-inst.com-produtos .icon::before {{ content:'−'; }}
-
-        /* Linha de instituição sem produtos */
-        .row-inst.sem-produtos {{ background-color:transparent; cursor:pointer; transition:background-color 0.2s; }}
-        .row-inst.sem-produtos:hover {{ background-color:rgba(1,104,55,0.05); }}
-        .row-inst.sem-produtos:last-child, details:last-child > summary {{
-            border-bottom:14px solid #0B2F13;
-        }}
-
-        /* Cabeçalho dos produtos */
-        .th-produtos {{
-            background-color:#FBFCEC; display:grid; grid-template-columns:{grid_produtos};
-            margin-top:5px; border-bottom:1px solid #ddd; align-items:center;
-        }}
-        .th-produtos div {{
-            padding:10px; text-align:center; font-style:italic; font-weight:bold;
-            font-size:{fonte_tabela}; display:flex; align-items:center; justify-content:center; min-height:35px;
-            word-break:break-word;
-        }}
-        .th-produtos div:first-child {{ justify-content:flex-start; padding-left:40px; }}
-
-        /* Linha de produto */
-        .row-prod {{
-            background-color:transparent; display:grid; grid-template-columns:{grid_produtos};
-            margin-top:1px; border-bottom:1px solid #eee; align-items:center; transition:background-color 0.2s;
-        }}
-        .row-prod div {{
-            padding:8px; text-align:center; font-size:{fonte_tabela};
-            border-right:1px solid #eee; display:flex; align-items:center; justify-content:center;
-            min-height:35px; word-break:break-word;
-        }}
-        .row-prod div:last-child  {{ border-right:none; }}
-        .row-prod div:first-child {{ justify-content:flex-start; padding-left:40px; }}
-        .row-prod:hover {{ background-color:rgba(1,104,55,0.03); }}
-
-        @media (max-width:768px) {{
-            .th-master div, .th-totais div, .col-val, .label-box,
-            .th-produtos div, .row-prod div {{ padding:6px; font-size:11px; min-height:30px; }}
-        }}
-    </style>
     """)
 
-    # ── Montagem do HTML da tabela expansível ─────────────────────────────────
+with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
+    with st.container(width=1200):
 
-    # Cabeçalho
-    html = '<div class="tabela-full"><div class="th-master"><div>Instituição</div>'
-    for col, label in COLUNAS_EXIBIR.items():
-        html += f"<div>{label}</div>"
-    html += "</div>"
+        # ── DESCRIÇÃO + SELETOR DE DATA ───────────────────────────────────────────────
 
-    for _, row in df_principal.iterrows():
-        id_mitra  = row["ID_MITRA"]
-        produtos  = grp_produto[grp_produto["EMISSOR"] == id_mitra]
-        tem_prods = len(produtos) > 0
+        col1, _, col3 = st.columns([0.7, 0.05, 0.25])
+        with col1:
+            st.space()
+            st.markdown("""
+                <div style="padding-left:20px; text-align:justify;">
+                    Este relatório tem por objetivo estabelecer e monitorar limites de aplicação em Títulos e Valores
+                    Mobiliários de Renda Fixa emitidos ou coobrigados por Instituições Financeiras, em conformidade
+                    com a legislação vigente e as diretrizes da Política de Investimentos da Ceres.
+                </div>
+            """, unsafe_allow_html=True)
 
-        # Linha da instituição (expansível ou estática)
-        grid_row = f'style="display:grid; grid-template-columns:2fr {grid_master}; align-items:center;"'
-        if tem_prods:
-            html += f'<details><summary class="row-inst com-produtos" {grid_row}>'
-            html += f'<div class="label-box"><span class="icon"></span> {row["INSTITUICAO_FINANCEIRA"]}</div>'
-        else:
-            html += f'<div class="row-inst sem-produtos" {grid_row}>'
-            html += f'<div class="label-box"><span style="width:25px;"></span> {row["INSTITUICAO_FINANCEIRA"]}</div>'
+        with col3:
+            primeira_data = data["DATA_COTACAO"].min().date()
+            ultima_data   = data["DATA_COTACAO"].max().date()
+            st.date_input(
+                "Selecione a data posição",
+                value=st.session_state.data_selecionada,
+                format="DD/MM/YYYY",
+                help=f"Datas disponíveis: {primeira_data.strftime('%d/%m/%Y')} a {ultima_data.strftime('%d/%m/%Y')}.",
+                min_value=primeira_data,
+                max_value=ultima_data,
+                key="data_selecionada",
+        
+            )
 
-        # Valores das colunas
-        for col in COLUNAS_EXIBIR:
-            valor = row[col]
-            if pd.isna(valor) or valor == 0:
-                valor_fmt = "—"
-            elif col == "LIMITE_ALOCACAO_2026" and pd.notna(valor):
-                # Negrito quando o limite foi parcialmente consumido
-                valor_fmt = fmt_br(valor, 2) if valor == LIMITE_ALOCACAO_2026 else f"<strong>{fmt_br(valor, 2)}</strong>"
+        # Aviso se a data selecionada não tiver dados disponíveis
+        datas_disponiveis = sorted(data["DATA_COTACAO"].dt.date.unique())
+        if st.session_state.data_selecionada not in datas_disponiveis:
+            data_ant  = next((d for d in reversed(datas_disponiveis) if d < st.session_state.data_selecionada), None)
+            data_post = next((d for d in datas_disponiveis          if d > st.session_state.data_selecionada), None)
+
+            msg = f"**Nenhum dado disponível para {st.session_state.data_selecionada.strftime('%d/%m/%Y')}.**\n\n"
+            if data_ant:  msg += f"Data anterior mais próxima: **{data_ant.strftime('%d/%m/%Y')}**\n"
+            if data_post: msg += f"\nData posterior mais próxima: **{data_post.strftime('%d/%m/%Y')}**"
+            st.warning(msg)
+
+
+        # ── FILTRAGEM E PREPARAÇÃO DOS DADOS ─────────────────────────────────────────
+
+        df_filtrado = (
+            data[data["DATA_COTACAO"].dt.date == st.session_state.data_selecionada]
+            .drop(columns=["TESOURARIA"])
+            .copy()
+        )
+        df_filtrado["DATA_AQUISICAO"] = pd.to_datetime(df_filtrado["DATA_AQUISICAO"])
+
+        # DataFrame principal com limites calculados
+        df_principal = preparar_df_exibir(df_filtrado, df_limites)
+
+        # Totais para os cards e para o PDF
+        total_exposicao    = float(df_filtrado["EXPOSICAO"].sum() or 0)
+        total_exposicao_26 = float(df_filtrado[df_filtrado["DATA_AQUISICAO"] >= DATA_CORTE_2026]["EXPOSICAO"].sum() or 0)
+        total_alocacao     = float(df_filtrado[df_filtrado["DATA_AQUISICAO"] >= DATA_CORTE_2026]["FINANCEIRO_AQUISICAO"].sum() or 0)
+
+        # Agrupamento de produtos por emissor para a tabela expansível
+        grp_produto = (
+            df_filtrado
+            .groupby(["EMISSOR", "PRODUTO", "DATA_AQUISICAO", "VENCIMENTO"])
+            .agg(FINANCEIRO_AQUISICAO=("FINANCEIRO_AQUISICAO", "sum"), EXPOSICAO=("EXPOSICAO", "sum"),
+                TAXA_AQUISICAO=("TAXA_AQUISICAO", "mean"), INDEXADOR=("INDEXADOR", lambda x: x.mode()[0]))
+            .reset_index()
+            .sort_values("DATA_AQUISICAO")
+        )
+        grp_produto["Tx. Aquisição"] = grp_produto["INDEXADOR"] + " + " + grp_produto["TAXA_AQUISICAO"].apply(lambda x: f"{x:.2f}%")
+
+
+        # ── EXPORTAÇÃO PDF ────────────────────────────────────────────────────────────
+
+        _, _ , col_export = st.columns([3, 1, 1])
+        with col_export:
+            df_grafico_pdf = df_principal[df_principal["EXPOSICAO"] > 0] if not df_principal.empty else pd.DataFrame()
+            pdf_bytes = gerar_pdf_limites_operacionais(
+                df_principal,
+                data_posicao=st.session_state.data_selecionada,
+                titulo_relatorio="Limites Operacionais -",
+                disponivel_alocacao_26=LIMITE_ALOCACAO_2026,
+                total_exposicao=total_exposicao,
+                total_exposicao_26=total_exposicao_26,
+                alocado_26=total_alocacao,
+                df_risco=df_risco,
+            )
+            st.space()
+            st.download_button(
+                label="Baixar PDF",
+                data=pdf_bytes,
+                file_name=f"limites_operacionais_{st.session_state.data_selecionada.strftime('%d%m%Y')}.pdf",
+                mime="application/pdf",
+                width="stretch",
+                type="primary",
+                key="download_pdf_unico",
+            )
+
+        st.divider()
+
+
+        # ── CARDS DE RESUMO ───────────────────────────────────────────────────────────
+
+        col1, col2 = st.columns(2)
+        with col1:
+            with st.container(border=True):
+                card_titulo("Posição")
+                st.metric(label="Geral", value=f"R$ {fmt_br(total_exposicao, 2)}")
+        with col2:
+            with st.container(border=True):
+                card_titulo("Posição")
+                st.metric(label="2026", value=f"R$ {fmt_br(total_exposicao_26, 2)}")
+
+        gasto_card("Plano de Alocação", total_alocacao, LIMITE_ALOCACAO_2026)
+
+
+        # ── ABAS: LIMITES E CLASSIFICAÇÃO DE RISCO ───────────────────────────────────
+
+        tab1, tab2 = st.tabs(["Limites Operacionais", "Classificação de Risco"])
+
+        with tab1:
+            # ── CSS da tabela expansível ──────────────────────────────────────────────
+            num_colunas     = len(COLUNAS_EXIBIR)
+            grid_master     = " ".join(["1fr"] * num_colunas)   # colunas iguais para o cabeçalho principal
+            grid_produtos   = "3fr 1fr 1fr 1fr 1fr 1fr"         # coluna Produto mais larga
+            fonte_tabela    = "14px"
+
+            st.html(f"""
+            <style>
+                .tabela-full {{
+                    width:100%; border:none; font-family:'Figtree',sans-serif; font-size:{fonte_tabela};
+                    border-collapse:separate; border-spacing:0; border-radius:10px;
+                    overflow:auto; background-color:transparent; min-width:0;
+                }}
+                @media (max-width:768px) {{ .tabela-full {{ font-size:11px; overflow-x:auto; }} }}
+
+                /* Cabeçalho verde principal */
+                .th-master {{
+                    background-color:#0B2F13; color:#A8EC7D;
+                    display:grid; grid-template-columns:2fr {grid_master}; padding-left:20px; align-items:center;
+                }}
+                .th-master div {{
+                    padding:12px; text-align:center; font-size:{fonte_tabela};
+                    display:flex; align-items:center; justify-content:center; min-height:40px;
+                    word-break:break-word;
+                }}
+                .th-master div:first-child {{ border-top-left-radius:10px; justify-content:flex-start; }}
+                .th-master div:last-child  {{ border-top-right-radius:10px; }}
+
+                /* Linha de totais */
+                .th-totais {{
+                    background-color:#0B2F13; color:#A8EC7D; margin-top:10px;
+                    display:grid; grid-template-columns:2fr {grid_master}; align-items:center;
+                }}
+                .th-totais div {{
+                    padding:12px; text-align:center; font-weight:bold; font-size:{fonte_tabela};
+                    display:flex; align-items:center; justify-content:center; min-height:40px;
+                    word-break:break-word;
+                }}
+                .th-totais div:first-child {{ justify-content:flex-start; }}
+
+                /* Estrutura geral */
+                details {{ width:100%; }}
+                details[open] {{ margin-bottom:15px; }}
+                summary {{ list-style:none; cursor:pointer; }}
+                summary::-webkit-details-marker {{ display:none; }}
+
+                /* Coluna de valor */
+                .col-val {{
+                    text-align:center; padding:10px; font-size:{fonte_tabela};
+                    display:flex; align-items:center; justify-content:center; min-height:40px;
+                    word-break:break-word;
+                }}
+
+                /* Label da instituição */
+                .label-box {{
+                    display:flex; align-items:center; padding:10px 10px 10px 10px;
+                    font-size:13px; min-height:40px; word-break:break-word;
+                }}
+                .icon {{ width:25px; text-align:center; font-family:monospace; font-weight:bold; margin-right:5px; flex-shrink:0; }}
+
+                /* Linha de instituição com produtos (expansível) */
+                .row-inst {{ background-color:transparent; transition:background-color 0.2s; align-items:center; }}
+                .row-inst:hover {{ background-color:rgba(1,104,55,0.05); }}
+                details[open] > summary.row-inst {{ background-color:rgba(1,104,55,0.05); }}
+                .row-inst.com-produtos .icon::before {{ content:'+'; color:#016837; }}
+                details[open] > .row-inst.com-produtos .icon::before {{ content:'−'; }}
+
+                /* Linha de instituição sem produtos */
+                .row-inst.sem-produtos {{ background-color:transparent; cursor:pointer; transition:background-color 0.2s; }}
+                .row-inst.sem-produtos:hover {{ background-color:rgba(1,104,55,0.05); }}
+                .row-inst.sem-produtos:last-child, details:last-child > summary {{
+                    border-bottom:14px solid #0B2F13;
+                }}
+
+                /* Cabeçalho dos produtos */
+                .th-produtos {{
+                    background-color:#FBFCEC; display:grid; grid-template-columns:{grid_produtos};
+                    margin-top:5px; border-bottom:1px solid #ddd; align-items:center;
+                }}
+                .th-produtos div {{
+                    padding:10px; text-align:center; font-style:italic; font-weight:bold;
+                    font-size:{fonte_tabela}; display:flex; align-items:center; justify-content:center; min-height:35px;
+                    word-break:break-word;
+                }}
+                .th-produtos div:first-child {{ justify-content:flex-start; padding-left:40px; }}
+
+                /* Linha de produto */
+                .row-prod {{
+                    background-color:transparent; display:grid; grid-template-columns:{grid_produtos};
+                    margin-top:1px; border-bottom:1px solid #eee; align-items:center; transition:background-color 0.2s;
+                }}
+                .row-prod div {{
+                    padding:8px; text-align:center; font-size:{fonte_tabela};
+                    border-right:1px solid #eee; display:flex; align-items:center; justify-content:center;
+                    min-height:35px; word-break:break-word;
+                }}
+                .row-prod div:last-child  {{ border-right:none; }}
+                .row-prod div:first-child {{ justify-content:flex-start; padding-left:40px; }}
+                .row-prod:hover {{ background-color:rgba(1,104,55,0.03); }}
+
+                @media (max-width:768px) {{
+                    .th-master div, .th-totais div, .col-val, .label-box,
+                    .th-produtos div, .row-prod div {{ padding:6px; font-size:11px; min-height:30px; }}
+                }}
+            </style>
+            """)
+
+            # ── Montagem do HTML da tabela expansível ─────────────────────────────────
+
+            # Cabeçalho
+            html = '<div class="tabela-full"><div class="th-master"><div>Instituição</div>'
+            for col, label in COLUNAS_EXIBIR.items():
+                html += f"<div>{label}</div>"
+            html += "</div>"
+
+            for _, row in df_principal.iterrows():
+                id_mitra  = row["ID_MITRA"]
+                produtos  = grp_produto[grp_produto["EMISSOR"] == id_mitra]
+                tem_prods = len(produtos) > 0
+
+                # Linha da instituição (expansível ou estática)
+                grid_row = f'style="display:grid; grid-template-columns:2fr {grid_master}; align-items:center;"'
+                if tem_prods:
+                    html += f'<details><summary class="row-inst com-produtos" {grid_row}>'
+                    html += f'<div class="label-box"><span class="icon"></span> {row["INSTITUICAO_FINANCEIRA"]}</div>'
+                else:
+                    html += f'<div class="row-inst sem-produtos" {grid_row}>'
+                    html += f'<div class="label-box"><span style="width:25px;"></span> {row["INSTITUICAO_FINANCEIRA"]}</div>'
+
+                # Valores das colunas
+                for col in COLUNAS_EXIBIR:
+                    valor = row[col]
+                    if pd.isna(valor) or valor == 0:
+                        valor_fmt = "—"
+                    elif col == "LIMITE_ALOCACAO_2026" and pd.notna(valor):
+                        # Negrito quando o limite foi parcialmente consumido
+                        valor_fmt = fmt_br(valor, 2) if valor == LIMITE_ALOCACAO_2026 else f"<strong>{fmt_br(valor, 2)}</strong>"
+                    else:
+                        valor_fmt = fmt_br(valor, 2)
+                    html += f'<div class="col-val">{valor_fmt}</div>'
+
+                html += "</summary>" if tem_prods else "</div>"
+
+                # Linhas de produtos (quando expandido)
+                if tem_prods:
+                    html += '<div class="th-produtos"><div>Produto</div><div>Aquisição</div><div>Vencimento</div><div>Tx. Aquisição</div><div>Fin. Aquisição</div><div>Posição</div></div>'
+                    for _, prod in produtos.iterrows():
+                        html += f"""
+                        <div class="row-prod">
+                            <div>{prod['PRODUTO']}</div>
+                            <div>{formatar_data(prod['DATA_AQUISICAO'])}</div>
+                            <div>{formatar_data(prod['VENCIMENTO'])}</div>
+                            <div><strong>{prod['Tx. Aquisição']}</strong></div>
+                            <div><strong>{fmt_br(prod['FINANCEIRO_AQUISICAO'], 2) if pd.notna(prod['FINANCEIRO_AQUISICAO']) else '—'}</strong></div>
+                            <div><strong>{fmt_br(prod['EXPOSICAO'], 2) if pd.notna(prod['EXPOSICAO']) else '—'}</strong></div>
+                        </div>"""
+                    html += "</details>"
+
+            html += "</div>"
+            st.html(html)
+            st.markdown(
+                '<p style="font-family:\'Source Serif Pro\',serif; font-style:italic; margin-left:20px;">'
+                "(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>",
+                unsafe_allow_html=True,
+            )
+
+
+        with tab2:
+            st.html(gerar_tabela_estilizada(df_risco))
+            col1, col2 = st.columns(2)
+            with col1:
+                st.markdown(
+                    '<p style="font-family:\'Source Serif Pro\',serif; font-style:italic; margin-left:20px;">'
+                    "(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>",
+                    unsafe_allow_html=True,
+                )
+            with col2:
+                st.markdown(
+                    '<div style="display:flex; justify-content:flex-end;">'
+                    '<p style="font-family:\'Source Serif Pro\',serif; font-style:italic; margin:0;">'
+                    "Fonte: Riskbank - atualização Dezembro/2025.</p></div>",
+                    unsafe_allow_html=True,
+                )
+        
+            # Seu código original
+            with st.expander("Definições de Alerta", expanded=True):
+                st.markdown("""
+                * **$C$**: Custo Operacional
+                * **$A$**: Concentração de Ativos
+                * **$I$**: $\\frac{\\text{Intangíveis} + \\text{CT (Exceto PDD)}}{\\text{PL}}$
+                """)
+
+        st.space(size="stretch")
+
+                        
+        # ── GRÁFICO: EXPOSIÇÃO POR EMISSOR ───────────────────────────────────────────
+
+        with st.columns(1)[0].container(border=True):
+            df_grafico = df_principal[df_principal["EXPOSICAO"] > 0].copy()
+            total_exp  = df_grafico["EXPOSICAO"].sum()
+
+            if total_exp > 0:
+                df_grafico["VALOR_BARRA"] = df_grafico["EXPOSICAO"].apply(
+                    lambda v: f"{v:,.2f}".replace(".", "_").replace(",", ".").replace("_", ",")
+                )
+                df_grafico["PCT_BARRA"] = df_grafico["EXPOSICAO"].apply(
+                    lambda v: f"{(v / total_exp) * 100:.1f}%"
+                )
             else:
-                valor_fmt = fmt_br(valor, 2)
-            html += f'<div class="col-val">{valor_fmt}</div>'
+                df_grafico["VALOR_BARRA"] = "0,00"
+                df_grafico["PCT_BARRA"]   = "0,0%"
 
-        html += "</summary>" if tem_prods else "</div>"
+            fig = go.Figure()
+            fig.add_trace(go.Bar(
+                x=df_grafico["INSTITUICAO_FINANCEIRA"],
+                y=df_grafico["EXPOSICAO"],
+                customdata=df_grafico[["VALOR_BARRA", "PCT_BARRA"]],
+                marker=dict(color="#0B2F13", cornerradius=7, line=dict(width=0)),
+            ))
 
-        # Linhas de produtos (quando expandido)
-        if tem_prods:
-            html += '<div class="th-produtos"><div>Produto</div><div>Aquisição</div><div>Vencimento</div><div>Tx. Aquisição</div><div>Fin. Aquisição</div><div>Posição</div></div>'
-            for _, prod in produtos.iterrows():
-                html += f"""
-                <div class="row-prod">
-                    <div>{prod['PRODUTO']}</div>
-                    <div>{formatar_data(prod['DATA_AQUISICAO'])}</div>
-                    <div>{formatar_data(prod['VENCIMENTO'])}</div>
-                    <div><strong>{prod['Tx. Aquisição']}</strong></div>
-                    <div><strong>{fmt_br(prod['FINANCEIRO_AQUISICAO'], 2) if pd.notna(prod['FINANCEIRO_AQUISICAO']) else '—'}</strong></div>
-                    <div><strong>{fmt_br(prod['EXPOSICAO'], 2) if pd.notna(prod['EXPOSICAO']) else '—'}</strong></div>
-                </div>"""
-            html += "</details>"
+            # Anotações com valor absoluto e percentual acima de cada barra
+            for _, row in df_grafico.iterrows():
+                fig.add_annotation(
+                    x=row["INSTITUICAO_FINANCEIRA"], y=row["EXPOSICAO"],
+                    text=f"<b>{row['PCT_BARRA']}</b><br>{row['VALOR_BARRA']}",
+                    showarrow=False, yanchor="bottom",
+                    font=dict(family="Figtree", size=12, color="#0B2F13"),
+                )
 
-    html += "</div>"
-    st.html(html)
-    st.markdown(
-        '<p style="font-family:\'Source Serif Pro\',serif; font-style:italic; margin-left:20px;">'
-        "(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>",
-        unsafe_allow_html=True,
-    )
+            max_exp = df_grafico["EXPOSICAO"].max() if not df_grafico.empty else 100
+            fig.update_layout(
+                title="Exposição por Emissor",
+                bargap=0.04,
+                height=max(200, len(df_grafico) * 70),
+                autosize=True,
+                separators=",.",
+                font=dict(family="Figtree", size=14, color="#333333"),
+                xaxis=dict(categoryorder="total descending", showline=False, showgrid=False, automargin=True),
+                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False, range=[0, max_exp * 1.05]),
+                hovermode="closest",
+                hoverlabel=dict(bgcolor="#FBFCEC", bordercolor="#0B2F13", font=dict(family="Figtree", size=12, color="#0B2F13")),
+                margin=dict(r=20, t=45, b=30, l=20),
+                plot_bgcolor="rgba(0,0,0,0)",
+            )
+            fig.update_traces(
+                hovertemplate="<b>%{x}</b><br>Valor: R$ %{customdata[0]}<br>Participação: %{customdata[1]}<extra></extra>"
+            )
 
-
-with tab2:
-    st.html(gerar_tabela_estilizada(df_risco))
-    col1, col2 = st.columns(2)
-    with col1:
-        st.markdown(
-            '<p style="font-family:\'Source Serif Pro\',serif; font-style:italic; margin-left:20px;">'
-            "(*) Não Elegíveis desde maio/2026, (**) Não elegível desde maio/2025.</p>",
-            unsafe_allow_html=True,
-        )
-    with col2:
-        st.markdown(
-            '<div style="display:flex; justify-content:flex-end;">'
-            '<p style="font-family:\'Source Serif Pro\',serif; font-style:italic; margin:0;">'
-            "Fonte: Riskbank - atualização Dezembro/2025.</p></div>",
-            unsafe_allow_html=True,
-        )
-  
-    # Seu código original
-    with st.expander("Definições de Alerta", expanded=True):
-        st.markdown("""
-        * **$C$**: Custo Operacional
-        * **$A$**: Concentração de Ativos
-        * **$I$**: $\\frac{\\text{Intangíveis} + \\text{CT (Exceto PDD)}}{\\text{PL}}$
-        """)
-
-st.space(size="stretch")
-
-                
-# ── GRÁFICO: EXPOSIÇÃO POR EMISSOR ───────────────────────────────────────────
-
-with st.columns(1)[0].container(border=True):
-    df_grafico = df_principal[df_principal["EXPOSICAO"] > 0].copy()
-    total_exp  = df_grafico["EXPOSICAO"].sum()
-
-    if total_exp > 0:
-        df_grafico["VALOR_BARRA"] = df_grafico["EXPOSICAO"].apply(
-            lambda v: f"{v:,.2f}".replace(".", "_").replace(",", ".").replace("_", ",")
-        )
-        df_grafico["PCT_BARRA"] = df_grafico["EXPOSICAO"].apply(
-            lambda v: f"{(v / total_exp) * 100:.1f}%"
-        )
-    else:
-        df_grafico["VALOR_BARRA"] = "0,00"
-        df_grafico["PCT_BARRA"]   = "0,0%"
-
-    fig = go.Figure()
-    fig.add_trace(go.Bar(
-        x=df_grafico["INSTITUICAO_FINANCEIRA"],
-        y=df_grafico["EXPOSICAO"],
-        customdata=df_grafico[["VALOR_BARRA", "PCT_BARRA"]],
-        marker=dict(color="#0B2F13", cornerradius=7, line=dict(width=0)),
-    ))
-
-    # Anotações com valor absoluto e percentual acima de cada barra
-    for _, row in df_grafico.iterrows():
-        fig.add_annotation(
-            x=row["INSTITUICAO_FINANCEIRA"], y=row["EXPOSICAO"],
-            text=f"<b>{row['PCT_BARRA']}</b><br>{row['VALOR_BARRA']}",
-            showarrow=False, yanchor="bottom",
-            font=dict(family="Figtree", size=12, color="#0B2F13"),
-        )
-
-    max_exp = df_grafico["EXPOSICAO"].max() if not df_grafico.empty else 100
-    fig.update_layout(
-        title="Exposição por Emissor",
-        bargap=0.04,
-        height=max(200, len(df_grafico) * 70),
-        autosize=True,
-        separators=",.",
-        font=dict(family="Figtree", size=14, color="#333333"),
-        xaxis=dict(categoryorder="total descending", showline=False, showgrid=False, automargin=True),
-        yaxis=dict(showgrid=False, zeroline=False, showticklabels=False, range=[0, max_exp * 1.05]),
-        hovermode="closest",
-        hoverlabel=dict(bgcolor="#FBFCEC", bordercolor="#0B2F13", font=dict(family="Figtree", size=12, color="#0B2F13")),
-        margin=dict(r=20, t=45, b=30, l=20),
-        plot_bgcolor="rgba(0,0,0,0)",
-    )
-    fig.update_traces(
-        hovertemplate="<b>%{x}</b><br>Valor: R$ %{customdata[0]}<br>Participação: %{customdata[1]}<extra></extra>"
-    )
-
-    st.plotly_chart(fig, config={"displayModeBar": False}, width="stretch")
+            st.plotly_chart(
+                    fig,
+                    config={
+                        "displayModeBar": True,
+                        "displaylogo": False,
+                        "modeBarButtonsToRemove": [
+                            "zoom2d",
+                            "pan2d",
+                            "select2d",
+                            "lasso2d",
+                            "zoomIn2d",
+                            "zoomOut2d",
+                            "autoScale2d",
+                            "resetScale2d",
+                        ],
+                        "toImageButtonOptions": {
+                            "format": "png",
+                            "filename": "exposicao_por_emissor",
+                            "height": 700,
+                            "width": 1400,
+                            "scale": 2,
+                        },
+                    },
+                    width="stretch",
+                )

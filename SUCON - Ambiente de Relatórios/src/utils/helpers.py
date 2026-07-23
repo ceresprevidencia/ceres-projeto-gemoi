@@ -2556,3 +2556,103 @@ def card_limites_excedidos(
     """
 
     st.html(html_final)
+
+
+from collections.abc import Iterable
+import streamlit as st
+
+
+_CHAVE_SESSION_STATE = "paginas_manutencao_liberadas"
+
+
+def obter_paginas_manutencao_liberadas() -> set[str]:
+    """
+    Retorna as chaves das páginas em manutenção já liberadas na sessão atual.
+
+    A função lê o valor armazenado no ``st.session_state`` e sempre devolve
+    um ``set``. Isso evita duplicidades e facilita a consulta com o operador
+    ``in``.
+
+    A autorização permanece válida enquanto a sessão do Streamlit estiver
+    ativa. Ao encerrar a sessão, reiniciar o app ou perder a conexão, o estado
+    poderá ser descartado.
+    """
+    paginas = st.session_state.get(_CHAVE_SESSION_STATE, [])
+    return {str(chave) for chave in paginas}
+
+
+def pagina_manutencao_liberada(chave: str) -> bool:
+    """
+    Verifica se uma página em manutenção já foi liberada na sessão atual.
+
+    Parâmetros
+    ----------
+    chave:
+        Identificador único da página. Normalmente pode ser a própria URL
+        ou o valor configurado em ``access_key``.
+
+    Retorna
+    -------
+    bool
+        ``True`` quando a página já foi autorizada; caso contrário, ``False``.
+    """
+    return str(chave) in obter_paginas_manutencao_liberadas()
+
+
+def liberar_pagina_manutencao(chave: str) -> None:
+    """
+    Registra uma página como liberada na sessão atual.
+
+    A chave é adicionada ao conjunto de páginas autorizadas e depois salva
+    novamente no ``st.session_state`` como lista, mantendo compatibilidade
+    com a serialização interna do Streamlit.
+
+    Parâmetros
+    ----------
+    chave:
+        Identificador único da página que acabou de ser autorizada.
+    """
+    paginas = obter_paginas_manutencao_liberadas()
+    paginas.add(str(chave))
+    st.session_state[_CHAVE_SESSION_STATE] = sorted(paginas)
+
+
+def revogar_pagina_manutencao(chave: str) -> None:
+    """
+    Remove a autorização de uma página específica da sessão atual.
+
+    Essa função é útil caso você queira implementar um botão de bloqueio ou
+    logout apenas para uma página.
+
+    Parâmetros
+    ----------
+    chave:
+        Identificador único da página cuja autorização será removida.
+    """
+    paginas = obter_paginas_manutencao_liberadas()
+    paginas.discard(str(chave))
+    st.session_state[_CHAVE_SESSION_STATE] = sorted(paginas)
+
+
+def limpar_paginas_manutencao_liberadas() -> None:
+    """
+    Remove todas as autorizações de páginas em manutenção da sessão atual.
+
+    Pode ser usada em um fluxo de logout, troca de usuário ou redefinição de
+    permissões.
+    """
+    st.session_state.pop(_CHAVE_SESSION_STATE, None)
+
+
+def liberar_varias_paginas_manutencao(chaves: Iterable[str]) -> None:
+    """
+    Libera várias páginas de uma só vez na sessão atual.
+
+    Parâmetros
+    ----------
+    chaves:
+        Coleção de identificadores de páginas que devem ser autorizadas.
+    """
+    paginas = obter_paginas_manutencao_liberadas()
+    paginas.update(str(chave) for chave in chaves)
+    st.session_state[_CHAVE_SESSION_STATE] = sorted(paginas)

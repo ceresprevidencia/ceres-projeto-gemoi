@@ -930,17 +930,328 @@ def gerar_pdf(df: pd.DataFrame, plano_selecionado: str, data_posicao: Any, regim
 # RELATÓRIO DE LIMITES OPERACIONAIS
 # =============================================================================
 
-def _limites_spec(page_w: float) -> TableSpec:
-    headers = ["Instituição Financeira", "Posição R$", "Posição 2026 R$", "Alocação 2026 R$", "Disp. Alocação"]
-    return TableSpec(headers, [page_w * 0.34] + [page_w * 0.66 / 4] * 4, ["ThCell"] + ["ThCellRight"] * 4, ["LEFT"] + ["RIGHT"] * 4)
+from io import BytesIO
+from typing import Any
+
+import numpy as np
+import pandas as pd
+
+from reportlab.lib import colors
+from reportlab.lib.units import mm
+from reportlab.platypus import (
+    KeepTogether,
+    PageBreak,
+    Paragraph,
+    Spacer,
+    Table,
+    TableStyle,
+)
 
 
-def _risco_spec(df: pd.DataFrame, page_w: float) -> TableSpec:
+def _valor_ou_zero(valor: Any) -> Any:
+    """
+    Converte valores ausentes ou infinitos em zero.
+
+    Preserva strings válidas, datas e demais valores não numéricos.
+    """
+    if valor is None:
+        return 0
+
+    try:
+        ausente = pd.isna(valor)
+
+        # Evita erro quando pd.isna retorna array ou lista.
+        if isinstance(ausente, (bool, np.bool_)) and ausente:
+            return 0
+    except (TypeError, ValueError):
+        pass
+
+    if isinstance(valor, (int, float, np.number)):
+        try:
+            if not np.isfinite(valor):
+                return 0
+        except TypeError:
+            pass
+
+    return valor
+
+
+def _fmt_br_zero(valor: Any) -> str:
+    """
+    Formata valores financeiros, exibindo ausentes como zero.
+    """
+    return fmt_br(_valor_ou_zero(valor))
+
+
+def _formatar_valor_seguro(
+    valor: Any,
+    coluna: str,
+) -> str:
+    """
+    Formata valores da tabela de risco sem exibir NaN.
+    """
+    valor = _valor_ou_zero(valor)
+
+    resultado = _formatar_valor_por_coluna(
+        valor,
+        coluna,
+    )
+
+    if resultado is None:
+        return "0"
+
+    texto = str(resultado).strip()
+
+    if texto.lower() in {
+        "nan",
+        "nat",
+        "none",
+        "inf",
+        "-inf",
+    }:
+        return "0"
+
+    return texto
+
+
+def _ajustar_estilos_tabelas(
+    styles: dict,
+) -> None:
+    """
+    Aumenta o tamanho da fonte e a entrelinha das tabelas.
+
+    Os estilos são alterados diretamente no dicionário
+    retornado por criar_estilos().
+    """
+    estilos_cabecalho = (
+        "ThCell",
+        "ThCellRight",
+        "ThCellCenter",
+    )
+
+    estilos_conteudo = (
+        "TdCell",
+        "TdCellRight",
+        "TdCellCenter",
+    )
+
+    for nome_estilo in estilos_cabecalho:
+        if nome_estilo not in styles:
+            continue
+
+        styles[nome_estilo].fontSize = 11
+        styles[nome_estilo].leading = 14
+        styles[nome_estilo].spaceBefore = 0
+        styles[nome_estilo].spaceAfter = 0
+
+    for nome_estilo in estilos_conteudo:
+        if nome_estilo not in styles:
+            continue
+
+        styles[nome_estilo].fontSize = 11
+        styles[nome_estilo].leading = 15
+        styles[nome_estilo].spaceBefore = 0
+        styles[nome_estilo].spaceAfter = 0
+
+
+def _limites_spec(
+    page_w: float,
+) -> TableSpec:
+    headers = [
+        "Instituição Financeira",
+        "Posição R$",
+        "Posição 2026 R$",
+        "Alocação 2026 R$",
+        "Disp. Alocação R$",
+    ]
+
+    # Primeira coluna reduzida.
+    # O espaço restante é distribuído entre
+    # as quatro colunas financeiras.
+    col_widths = [
+        page_w * 0.28,
+        page_w * 0.17,
+        page_w * 0.18,
+        page_w * 0.18,
+        page_w * 0.19,
+    ]
+
+    return TableSpec(
+        headers=headers,
+        col_widths=col_widths,
+        header_aligns=[
+            "ThCell",
+            "ThCellRight",
+            "ThCellRight",
+            "ThCellRight",
+            "ThCellRight",
+        ],
+        col_aligns=[
+            "LEFT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+            "RIGHT",
+        ],
+    )
+
+
+def _risco_spec(
+    df: pd.DataFrame,
+    page_w: float,
+) -> TableSpec:
     cols = list(df.columns)
     n = len(cols)
+
     if n <= 1:
-        return TableSpec(cols, [page_w], ["ThCell"], ["LEFT"])
-    return TableSpec(cols, [page_w * 0.34] + [page_w * 0.66 / (n - 1)] * (n - 1), ["ThCell"] + ["ThCellCenter"] * (n - 1), ["LEFT"] + ["CENTER"] * (n - 1))
+        return TableSpec(
+            headers=cols,
+            col_widths=[page_w],
+            header_aligns=["ThCell"],
+            col_aligns=["LEFT"],
+        )
+
+    # Primeira coluna reduzida.
+    primeira_coluna = page_w * 0.24
+
+    demais_colunas = (
+        page_w - primeira_coluna
+    ) / (n - 1)
+
+    return TableSpec(
+        headers=cols,
+        col_widths=[
+            primeira_coluna,
+            *(
+                [demais_colunas]
+                * (n - 1)
+            ),
+        ],
+        header_aligns=[
+            "ThCell",
+            *(
+                ["ThCellCenter"]
+                * (n - 1)
+            ),
+        ],
+        col_aligns=[
+            "LEFT",
+            *(
+                ["CENTER"]
+                * (n - 1)
+            ),
+        ],
+    )
+
+
+def _criar_bloco_resumo(
+    items: list[tuple[str, Any]],
+    page_w: float,
+    styles: dict,
+) -> Table | None:
+    """
+    Cria cards horizontais para os indicadores do relatório.
+
+    Indicadores não informados não são exibidos.
+    """
+    items_validos = [
+        (
+            label,
+            _valor_ou_zero(valor),
+        )
+        for label, valor in items
+        if valor is not None
+    ]
+
+    if not items_validos:
+        return None
+
+    celulas = []
+
+    for label, valor in items_validos:
+        conteudo = Paragraph(
+            (
+                '<font size="10" color="#667085">'
+                f"{label.upper()}"
+                "</font>"
+                "<br/>"
+                '<font size="15">'
+                f"<b>{_fmt_br_zero(valor)}</b>"
+                "</font>"
+            ),
+            styles["CorpoTexto"],
+        )
+
+        celulas.append(conteudo)
+
+    largura = page_w / len(celulas)
+
+    tabela = Table(
+        [celulas],
+        colWidths=[
+            largura
+        ] * len(celulas),
+        hAlign="LEFT",
+    )
+
+    tabela.setStyle(
+        TableStyle(
+            [
+                (
+                    "BACKGROUND",
+                    (0, 0),
+                    (-1, -1),
+                    colors.HexColor("#F6F8FA"),
+                ),
+                (
+                    "BOX",
+                    (0, 0),
+                    (-1, -1),
+                    0.5,
+                    colors.HexColor("#D9E0E7"),
+                ),
+                (
+                    "INNERGRID",
+                    (0, 0),
+                    (-1, -1),
+                    0.5,
+                    colors.HexColor("#D9E0E7"),
+                ),
+                (
+                    "LEFTPADDING",
+                    (0, 0),
+                    (-1, -1),
+                    12,
+                ),
+                (
+                    "RIGHTPADDING",
+                    (0, 0),
+                    (-1, -1),
+                    12,
+                ),
+                (
+                    "TOPPADDING",
+                    (0, 0),
+                    (-1, -1),
+                    14,
+                ),
+                (
+                    "BOTTOMPADDING",
+                    (0, 0),
+                    (-1, -1),
+                    14,
+                ),
+                (
+                    "VALIGN",
+                    (0, 0),
+                    (-1, -1),
+                    "MIDDLE",
+                ),
+            ]
+        )
+    )
+
+    return tabela
 
 
 def gerar_pdf_limites_operacionais(
@@ -954,60 +1265,273 @@ def gerar_pdf_limites_operacionais(
     alocado_26: Any = None,
     df_risco: pd.DataFrame | None = None,
 ) -> bytes:
-    """Gera o PDF de limites operacionais e, opcionalmente, uma página de risco."""
+    """
+    Gera o PDF de limites operacionais e, opcionalmente,
+    uma página com informações de risco.
+    """
     buffer = BytesIO()
     styles = criar_estilos()
+
+    # Aumenta a fonte e a entrelinha das tabelas.
+    _ajustar_estilos_tabelas(styles)
+
     page_w = _page_width()
     doc = _criar_documento(buffer)
 
+    # Cópias defensivas para não alterar
+    # os DataFrames recebidos.
+    df_limites = df_limites.copy()
+
+    if df_risco is not None:
+        df_risco = df_risco.copy()
+
+    titulo = Paragraph(
+        (
+            f"{titulo_relatorio}"
+            f'<font face="{FONTES.italic_serif}">'
+            f"<i>{subtitulo_relatorio}</i>"
+            "</font>"
+        ),
+        styles["Titulo"],
+    )
+
+    data = Paragraph(
+        (
+            "Data de posição: "
+            f"{_date_to_br(data_posicao)}"
+        ),
+        styles["DataPos"],
+    )
+
     elements = [
-        Paragraph(f'{titulo_relatorio}<font face="{FONTES.italic_serif}"><i>{subtitulo_relatorio}</i></font>', styles["Titulo"]),
-        Spacer(1, 4 * mm),
-        Paragraph(f"Data de posição: {_date_to_br(data_posicao)}", styles["DataPos"]),
-        Spacer(1, 4 * mm),
+        titulo,
+        Spacer(
+            1,
+            2.5 * mm,
+        ),
+        data,
+        Spacer(
+            1,
+            5 * mm,
+        ),
     ]
 
-    # Bloco opcional de totais/resumos.
-    for label, valor in [
-        ("Disponível 2026", disponivel_alocacao_26),
-        ("Alocado 2026", alocado_26),
-        ("Exposição Geral", total_exposicao),
-        ("Exposição 2026", total_exposicao_26),
-    ]:
-        if valor is not None:
-            elements.append(Paragraph(f"<b>{label}:</b> {fmt_br(valor)}", styles["CorpoTexto"]))
+    bloco_resumo = _criar_bloco_resumo(
+        [
+            (
+                "Disponível 2026",
+                disponivel_alocacao_26,
+            ),
+            (
+                "Alocado 2026",
+                alocado_26,
+            ),
+            (
+                "Exposição Geral",
+                total_exposicao,
+            ),
+            (
+                "Exposição 2026",
+                total_exposicao_26,
+            ),
+        ],
+        page_w,
+        styles,
+    )
 
-    spec_lim = _limites_spec(page_w)
-    rows_lim = [[
-        _p(row.get("INSTITUICAO_FINANCEIRA"), styles["TdCell"]),
-        _p(fmt_br(row.get("EXPOSICAO")), styles["TdCellRight"]),
-        _p(fmt_br(row.get("EXPOSICAO_2026")), styles["TdCellRight"]),
-        _p(fmt_br(row.get("FINANCEIRO_AQUISICAO")), styles["TdCellRight"]),
-        _p(fmt_br(row.get("LIMITE_ALOCACAO_2026")), styles["TdCellRight"]),
-    ] for _, row in df_limites.iterrows()]
+    if bloco_resumo is not None:
+        elements.extend(
+            [
+                bloco_resumo,
+                Spacer(
+                    1,
+                    7 * mm,
+                ),
+            ]
+        )
 
-    elements.extend([
-        Paragraph("Limites Operacionais", styles["Subtitulo"]),
-        _construir_tabela(spec_lim.headers, rows_lim, spec_lim.col_widths, set(), styles, spec_lim.header_aligns, spec_lim.col_aligns),
-        Paragraph(RODAPE_NAO_ELEGIVEIS, styles["RodaPe"]),
-    ])
+    spec_lim = _limites_spec(
+        page_w
+    )
 
-    if df_risco is not None and not df_risco.empty:
-        elements.append(PageBreak())
-        headers_r = list(df_risco.columns)
-        rows_r = [[
-            _p(_formatar_valor_por_coluna(row.get(col), col), styles["TdCell"] if idx == 0 else styles["TdCellCenter"])
-            for idx, col in enumerate(headers_r)
-        ] for _, row in df_risco.iterrows()]
-        spec_r = _risco_spec(df_risco, page_w)
-        elements.extend([
-            Paragraph("Informações de Risco", styles["Subtitulo"]),
-            _construir_tabela(headers_r, rows_r, spec_r.col_widths, set(), styles, spec_r.header_aligns, spec_r.col_aligns),
-            Paragraph(RODAPE_NAO_ELEGIVEIS, styles["RodaPe"]),
-        ])
+    rows_lim = []
 
-    doc.build(elements, onFirstPage=_fundo_pagina, onLaterPages=_fundo_pagina)
+    for _, row in df_limites.iterrows():
+        instituicao = _valor_ou_zero(
+            row.get(
+                "INSTITUICAO_FINANCEIRA"
+            )
+        )
+
+        # Para a coluna textual, zero
+        # é apresentado como texto.
+        if instituicao == 0:
+            instituicao = "0"
+
+        rows_lim.append(
+            [
+                _p(
+                    instituicao,
+                    styles["TdCell"],
+                ),
+                _p(
+                    _fmt_br_zero(
+                        row.get(
+                            "EXPOSICAO"
+                        )
+                    ),
+                    styles["TdCellRight"],
+                ),
+                _p(
+                    _fmt_br_zero(
+                        row.get(
+                            "EXPOSICAO_2026"
+                        )
+                    ),
+                    styles["TdCellRight"],
+                ),
+                _p(
+                    _fmt_br_zero(
+                        row.get(
+                            "FINANCEIRO_AQUISICAO"
+                        )
+                    ),
+                    styles["TdCellRight"],
+                ),
+                _p(
+                    _fmt_br_zero(
+                        row.get(
+                            "LIMITE_ALOCACAO_2026"
+                        )
+                    ),
+                    styles["TdCellRight"],
+                ),
+            ]
+        )
+
+    tabela_limites = _construir_tabela(
+        spec_lim.headers,
+        rows_lim,
+        spec_lim.col_widths,
+        set(),
+        styles,
+        spec_lim.header_aligns,
+        spec_lim.col_aligns,
+    )
+
+    elements.extend(
+        [
+            KeepTogether(
+                [
+                    Paragraph(
+                        "Limites Operacionais",
+                        styles["Subtitulo"],
+                    ),
+                    Spacer(
+                        1,
+                        2 * mm,
+                    ),
+                ]
+            ),
+            tabela_limites,
+            Spacer(
+                1,
+                3 * mm,
+            ),
+            Paragraph(
+                RODAPE_NAO_ELEGIVEIS,
+                styles["RodaPe"],
+            ),
+        ]
+    )
+
+    if (
+        df_risco is not None
+        and not df_risco.empty
+    ):
+        elements.append(
+            PageBreak()
+        )
+
+        headers_r = list(
+            df_risco.columns
+        )
+
+        rows_r = []
+
+        for _, row in df_risco.iterrows():
+            linha = []
+
+            for idx, coluna in enumerate(
+                headers_r
+            ):
+                estilo = (
+                    styles["TdCell"]
+                    if idx == 0
+                    else styles["TdCellCenter"]
+                )
+
+                valor_formatado = (
+                    _formatar_valor_seguro(
+                        row.get(coluna),
+                        coluna,
+                    )
+                )
+
+                linha.append(
+                    _p(
+                        valor_formatado,
+                        estilo,
+                    )
+                )
+
+            rows_r.append(linha)
+
+        spec_r = _risco_spec(
+            df_risco,
+            page_w,
+        )
+
+        tabela_risco = _construir_tabela(
+            headers_r,
+            rows_r,
+            spec_r.col_widths,
+            set(),
+            styles,
+            spec_r.header_aligns,
+            spec_r.col_aligns,
+        )
+
+        elements.extend(
+            [
+                Paragraph(
+                    "Informações de Risco",
+                    styles["Subtitulo"],
+                ),
+                Spacer(
+                    1,
+                    2 * mm,
+                ),
+                tabela_risco,
+                Spacer(
+                    1,
+                    3 * mm,
+                ),
+                Paragraph(
+                    RODAPE_NAO_ELEGIVEIS,
+                    styles["RodaPe"],
+                ),
+            ]
+        )
+
+    doc.build(
+        elements,
+        onFirstPage=_fundo_pagina,
+        onLaterPages=_fundo_pagina,
+    )
+
     return buffer.getvalue()
+
 
 
 # =============================================================================
