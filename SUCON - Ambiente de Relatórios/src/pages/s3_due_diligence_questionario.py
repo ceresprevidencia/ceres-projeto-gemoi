@@ -68,8 +68,7 @@ def anonimizar_email(
 
     Quando o endereço ultrapassa o limite definido,
     substitui os últimos caracteres por asteriscos.
-    O e-mail completo continua disponível no atributo
-    title do elemento HTML.
+    O endereço completo continua disponível no tooltip.
     """
 
     email = valor_seguro(
@@ -84,7 +83,6 @@ def anonimizar_email(
         return email
 
     quantidade_asteriscos = 3
-
     quantidade_visivel = (
         LIMITE_EMAIL_VISIVEL
         - quantidade_asteriscos
@@ -515,7 +513,8 @@ st.html(
             0 3px 12px
             rgba(11, 47, 19, 0.045);
 
-        overflow: hidden;
+        overflow: visible;
+        position: relative;
         box-sizing: border-box;
     }
 
@@ -549,9 +548,19 @@ st.html(
        ====================================================== */
 
     .contact-wrapper {
+        position: relative;
+
         width: 100%;
         min-width: 0;
-        overflow: hidden;
+
+        overflow: visible;
+    }
+
+    .contact-email-container {
+        position: relative;
+
+        width: 100%;
+        min-width: 0;
     }
 
     .contact-email {
@@ -570,6 +579,78 @@ st.html(
         text-overflow: ellipsis;
 
         cursor: help;
+    }
+
+    .contact-email-tooltip {
+        position: absolute;
+        z-index: 9999;
+
+        left: 0;
+        bottom: calc(100% + 9px);
+
+        width: max-content;
+        max-width: 330px;
+
+        padding: 9px 11px;
+
+        border:
+            1px solid
+            rgba(1, 104, 55, 0.22);
+
+        border-radius: 8px;
+
+        color: #FAFBEB;
+        background: #0B2F13;
+
+        box-shadow:
+            0 7px 18px
+            rgba(11, 47, 19, 0.22);
+
+        font-size: 0.73rem;
+        font-weight: 600;
+        line-height: 1.4;
+
+        white-space: normal;
+        overflow-wrap: anywhere;
+
+        opacity: 0;
+        visibility: hidden;
+
+        pointer-events: none;
+
+        transform: translateY(4px);
+
+        transition:
+            opacity 0.15s ease,
+            visibility 0.15s ease,
+            transform 0.15s ease;
+    }
+
+    .contact-email-tooltip::after {
+        content: "";
+
+        position: absolute;
+
+        top: 100%;
+        left: 18px;
+
+        border-width: 6px;
+        border-style: solid;
+        border-color:
+            #0B2F13
+            transparent
+            transparent
+            transparent;
+    }
+
+    .contact-email-container:hover
+    .contact-email-tooltip,
+    .contact-email-container:focus-within
+    .contact-email-tooltip {
+        opacity: 1;
+        visibility: visible;
+
+        transform: translateY(0);
     }
 
     .contact-phone {
@@ -1414,7 +1495,11 @@ for coluna, (
                 email_exibicao
             )
 
-            email_title = html.escape(
+            email_completo_html = html.escape(
+                email_completo
+            )
+
+            email_aria = html.escape(
                 email_completo,
                 quote=True,
             )
@@ -1427,11 +1512,22 @@ for coluna, (
                 <div class="contact-wrapper">
 
                     <div
-                        class="contact-email"
-                        title="{email_title}"
-                        aria-label="{email_title}"
+                        class="contact-email-container"
+                        tabindex="0"
+                        aria-label="{email_aria}"
                     >
-                        {email_html}
+
+                        <div class="contact-email">
+                            {email_html}
+                        </div>
+
+                        <div
+                            class="contact-email-tooltip"
+                            role="tooltip"
+                        >
+                            {email_completo_html}
+                        </div>
+
                     </div>
 
                     <div class="contact-phone">

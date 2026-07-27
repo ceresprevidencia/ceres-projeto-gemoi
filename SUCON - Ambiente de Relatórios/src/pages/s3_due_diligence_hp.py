@@ -48,11 +48,14 @@ PASTA_IMAGES = (
     / "images"
 )
 
-NOME_ARQUIVO_LOGO = "logo_padrao.png"
+PASTA_LOGOS_GESTORAS = (
+    PASTA_IMAGES
+    / "gestoras"
+)
 
 CAMINHO_LOGO_PADRAO = (
-    PASTA_IMAGES
-    / NOME_ARQUIVO_LOGO
+    PASTA_LOGOS_GESTORAS
+    / "logo_padrao.png"
 )
 
 
@@ -363,13 +366,44 @@ def carregar_imagem_base64(
     )
 
 
-# ===========================================================================
-# CARREGAMENTO DA LOGO
-# ===========================================================================
+def localizar_logo_gestora(
+    cnpj,
+) -> Path:
+    """
+    Localiza a logo da gestora pelo CNPJ normalizado.
 
-logo_padrao_base64 = carregar_imagem_base64(
-    CAMINHO_LOGO_PADRAO
-)
+    A busca é feita nas extensões suportadas. Caso nenhuma
+    imagem específica seja encontrada, retorna a logo padrão.
+    """
+
+    cnpj_normalizado = normalizar_cnpj(
+        cnpj
+    )
+
+    extensoes_permitidas = (
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp",
+        ".svg",
+    )
+
+    if cnpj_normalizado:
+
+        for extensao in extensoes_permitidas:
+
+            caminho_logo = (
+                PASTA_LOGOS_GESTORAS
+                / f"{cnpj_normalizado}{extensao}"
+            )
+
+            if (
+                caminho_logo.exists()
+                and caminho_logo.is_file()
+            ):
+                return caminho_logo
+
+    return CAMINHO_LOGO_PADRAO
 
 
 # ===========================================================================
@@ -1454,19 +1488,6 @@ st.html(
 
 
 # ===========================================================================
-# AVISO CASO A LOGO NÃO SEJA ENCONTRADA
-# ===========================================================================
-
-if not logo_padrao_base64:
-
-    st.warning(
-        "A logo não foi encontrada em: "
-        f"{CAMINHO_LOGO_PADRAO}",
-        icon=":material/image_not_supported:",
-    )
-
-
-# ===========================================================================
 # CARDS DOS INDICADORES
 # ===========================================================================
 
@@ -1783,9 +1804,25 @@ else:
                 "E-mail não informado",
             )
 
+            cnpj_original = gestora.get(
+                "cnpj"
+            )
+
             cnpj = formatar_cnpj(
-                gestora.get("cnpj"),
+                cnpj_original,
                 "CNPJ não informado",
+            )
+
+            caminho_logo_gestora = (
+                localizar_logo_gestora(
+                    cnpj_original
+                )
+            )
+
+            logo_gestora_base64 = (
+                carregar_imagem_base64(
+                    caminho_logo_gestora
+                )
             )
 
             telefone = valor_seguro(
@@ -1853,12 +1890,17 @@ else:
             # HTML DA LOGO
             # ===============================================================
 
-            if logo_padrao_base64:
+            if logo_gestora_base64:
+
+                nome_logo_html = html.escape(
+                    nome,
+                    quote=True,
+                )
 
                 logo_html = f"""
                     <img
-                        src="{logo_padrao_base64}"
-                        alt="Logo da gestora"
+                        src="{logo_gestora_base64}"
+                        alt="Logo da gestora {nome_logo_html}"
                     >
                 """
 
