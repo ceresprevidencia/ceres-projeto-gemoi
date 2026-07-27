@@ -54,6 +54,48 @@ def valor_seguro(
     return texto
 
 
+LIMITE_EMAIL_VISIVEL = len(
+    "shundeandromeda@gmail.co"
+)
+
+
+def anonimizar_email(
+    valor,
+    padrao: str = "Não informado",
+) -> str:
+    """
+    Limita o tamanho visual do e-mail.
+
+    Quando o endereço ultrapassa o limite definido,
+    substitui os últimos caracteres por asteriscos.
+    O e-mail completo continua disponível no atributo
+    title do elemento HTML.
+    """
+
+    email = valor_seguro(
+        valor,
+        padrao,
+    )
+
+    if email == padrao:
+        return padrao
+
+    if len(email) <= LIMITE_EMAIL_VISIVEL:
+        return email
+
+    quantidade_asteriscos = 3
+
+    quantidade_visivel = (
+        LIMITE_EMAIL_VISIVEL
+        - quantidade_asteriscos
+    )
+
+    return (
+        email[:quantidade_visivel]
+        + "***"
+    )
+
+
 def formatar_cnpj(
     valor,
     padrao: str = "Não informado",
@@ -513,22 +555,19 @@ st.html(
     }
 
     .contact-email {
-        display: -webkit-box;
+        display: block;
 
         width: 100%;
         max-width: 100%;
 
         overflow: hidden;
 
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-
         color: #0B2F13;
 
         line-height: 1.4;
 
-        overflow-wrap: anywhere;
-        word-break: break-word;
+        white-space: nowrap;
+        text-overflow: ellipsis;
 
         cursor: help;
     }
@@ -1227,10 +1266,14 @@ cnpj = formatar_cnpj(
     ),
 )
 
-email = valor_seguro(
+email_completo = valor_seguro(
     dados_gestora.get(
         "email"
     ),
+)
+
+email_exibicao = anonimizar_email(
+    email_completo
 )
 
 telefone = valor_seguro(
@@ -1368,11 +1411,11 @@ for coluna, (
         if rotulo == "Contato":
 
             email_html = html.escape(
-                email
+                email_exibicao
             )
 
             email_title = html.escape(
-                email,
+                email_completo,
                 quote=True,
             )
 
@@ -1386,6 +1429,7 @@ for coluna, (
                     <div
                         class="contact-email"
                         title="{email_title}"
+                        aria-label="{email_title}"
                     >
                         {email_html}
                     </div>
