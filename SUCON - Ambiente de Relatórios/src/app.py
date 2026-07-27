@@ -32,16 +32,18 @@ rent = st.Page("pages/s4_rentabilidade.py", title="Planos",  url_path="rentabili
 due_diligence_st = st.Page("pages/s3_due_diligence_settings.py", title="Configurações",  url_path="due-diligence-settings", visibility="hidden")
 due_diligence_hp = st.Page("pages/s3_due_diligence_hp.py", title="Due Diligence",  url_path="due-diligence", visibility="hidden")
 due_diligence_questionario = st.Page("pages/s3_due_diligence_questionario.py", title="Questionário",  url_path="due-diligence-questionario", visibility="hidden")
-
+exportaveis = st.Page("pages/s5_exportaveis.py", title="Exportáveis",  url_path="exportaveis")
 
 current_page = st.navigation(
-    {
+    {   
         "Início": [pg_inicial],
         "Enquadramento": [enquadramento_planos, enquadramento_fundos],
         "Risco de Crédito": [lim_op],
         "Risco de Mercado": [risco_mercado_planos, risco_mercado_ativos],
         "Rentabilidade": [rent],
         "Due Diligence": [due_diligence_hp, due_diligence_st, due_diligence_questionario],
+        '':[exportaveis],
+        
     },
     position="top"
 )
