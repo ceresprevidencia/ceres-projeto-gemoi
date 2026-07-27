@@ -1,7 +1,9 @@
-from db_ddq import get_connection
+from .db_ddq import get_connection
 
 
 def criar_banco() -> None:
+    """Cria o banco e as tabelas do módulo de diligência."""
+
     with get_connection() as conn:
         conn.executescript(
             """
@@ -16,7 +18,7 @@ def criar_banco() -> None:
             );
 
             CREATE UNIQUE INDEX IF NOT EXISTS idx_gestora_cnpj
-    ON gestora(cnpj);
+                ON gestora(cnpj);
 
             CREATE TABLE IF NOT EXISTS preenchimento (
                 id_preenchimento INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -41,6 +43,7 @@ def criar_banco() -> None:
             """
         )
 
+        conn.commit()
 
 
 if __name__ == "__main__":
