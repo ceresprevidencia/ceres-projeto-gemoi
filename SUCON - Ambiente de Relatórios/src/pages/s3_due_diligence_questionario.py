@@ -94,6 +94,106 @@ def anonimizar_email(
     )
 
 
+PADRAO_URL = re.compile(
+    r"https?://[^\s<>\"]+",
+    flags=re.IGNORECASE,
+)
+
+
+def transformar_urls_em_links(
+    texto,
+) -> str:
+    """
+    Converte URLs HTTP e HTTPS em links clicáveis.
+
+    Todo o conteúdo que não for URL permanece escapado
+    para evitar interpretação indevida de HTML.
+    """
+
+    texto_seguro = valor_seguro(
+        texto,
+        "Resposta não informada",
+    )
+
+    partes_html: list[str] = []
+    posicao_atual = 0
+
+    for correspondencia in PADRAO_URL.finditer(
+        texto_seguro
+    ):
+        inicio, fim = correspondencia.span()
+
+        partes_html.append(
+            html.escape(
+                texto_seguro[
+                    posicao_atual:inicio
+                ]
+            )
+        )
+
+        url_encontrada = (
+            correspondencia.group(0)
+        )
+
+        pontuacao_final = ""
+
+        while (
+            url_encontrada
+            and url_encontrada[-1]
+            in ".,;:!?"
+        ):
+            pontuacao_final = (
+                url_encontrada[-1]
+                + pontuacao_final
+            )
+
+            url_encontrada = (
+                url_encontrada[:-1]
+            )
+
+        url_href = html.escape(
+            url_encontrada,
+            quote=True,
+        )
+
+        url_texto = html.escape(
+            url_encontrada
+        )
+
+        partes_html.append(
+            f"""
+            <a
+                href="{url_href}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="answer-link"
+            >
+                {url_texto}
+            </a>
+            """
+        )
+
+        partes_html.append(
+            html.escape(
+                pontuacao_final
+            )
+        )
+
+        posicao_atual = fim
+
+    partes_html.append(
+        html.escape(
+            texto_seguro[
+                posicao_atual:
+            ]
+        )
+    )
+
+    return "".join(
+        partes_html
+    )
+
+
 def formatar_cnpj(
     valor,
     padrao: str = "Não informado",
@@ -965,6 +1065,41 @@ st.html(
 
 
     /* ======================================================
+       LINKS NAS RESPOSTAS
+       ====================================================== */
+
+    .answer-link {
+        color: #016837;
+
+        font-weight: 700;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+
+        overflow-wrap: anywhere;
+        word-break: break-word;
+
+        transition:
+            color 0.15s ease,
+            text-decoration-color 0.15s ease;
+    }
+
+    .answer-link:hover {
+        color: #0B2F13;
+        text-decoration-color: #2DC25F;
+    }
+
+    .answer-link:focus-visible {
+        outline:
+            2px solid
+            rgba(1, 104, 55, 0.35);
+
+        outline-offset: 3px;
+        border-radius: 3px;
+    }
+
+
+    /* ======================================================
        BOTÃO EDITAR
        ====================================================== */
 
@@ -1700,8 +1835,10 @@ else:
             pergunta
         )
 
-        resposta_html = html.escape(
-            resposta
+        resposta_html = (
+            transformar_urls_em_links(
+                resposta
+            )
         )
 
         id_resposta_html = html.escape(
