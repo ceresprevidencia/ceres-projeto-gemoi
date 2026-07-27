@@ -1,3 +1,5 @@
+from __future__ import annotations
+import re
 """
 Camada de acesso a dados da tabela `gestora`.
 
@@ -5,7 +7,6 @@ Sem dependência do Streamlit, para poder ser usada por uma página
 Streamlit, por um script de linha de comando ou por testes automatizados.
 """
 
-from __future__ import annotations
 
 import sqlite3
 from dataclasses import dataclass
@@ -35,20 +36,20 @@ class Gestora:
 
 
 def normalizar_cnpj(
-    cnpj: str | None,
+    valor,
 ) -> str | None:
-    """Mantém somente os dígitos do CNPJ."""
+    """Normaliza CNPJ numérico ou alfanumérico."""
 
-    if not cnpj:
+    if valor is None:
         return None
 
-    digitos = "".join(
-        caractere
-        for caractere in str(cnpj)
-        if caractere.isdigit()
+    cnpj = re.sub(
+        r"[^A-Z0-9]",
+        "",
+        str(valor).strip().upper(),
     )
 
-    return digitos or None
+    return cnpj or None
 
 
 def normalizar_status(

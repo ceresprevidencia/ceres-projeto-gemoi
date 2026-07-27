@@ -1,4 +1,5 @@
 import html
+import re
 from datetime import date, datetime
 
 import pandas as pd
@@ -53,6 +54,44 @@ def valor_seguro(
     return texto
 
 
+def formatar_cnpj(
+    valor,
+    padrao: str = "Não informado",
+) -> str:
+    """
+    Formata o CNPJ como 00.000.000/0000-00.
+
+    Aceita valores com ou sem pontuação.
+    Caso o valor não tenha 14 dígitos, mantém
+    o conteúdo original.
+    """
+
+    texto = valor_seguro(
+        valor,
+        padrao,
+    )
+
+    if texto == padrao:
+        return padrao
+
+    digitos = re.sub(
+        r"\D",
+        "",
+        texto,
+    )
+
+    if len(digitos) != 14:
+        return texto
+
+    return (
+        f"{digitos[0:2]}."
+        f"{digitos[2:5]}."
+        f"{digitos[5:8]}/"
+        f"{digitos[8:12]}-"
+        f"{digitos[12:14]}"
+    )
+
+
 def formatar_data(
     valor,
     padrao: str = "Não informado",
@@ -74,8 +113,17 @@ def formatar_data(
     except (TypeError, ValueError):
         pass
 
-    if isinstance(valor, (datetime, date, pd.Timestamp)):
-        return valor.strftime("%d/%m/%Y")
+    if isinstance(
+        valor,
+        (
+            datetime,
+            date,
+            pd.Timestamp,
+        ),
+    ):
+        return valor.strftime(
+            "%d/%m/%Y"
+        )
 
     texto = str(valor).strip()
 
@@ -103,7 +151,9 @@ def formatar_data(
                 formato,
             )
 
-            return data.strftime("%d/%m/%Y")
+            return data.strftime(
+                "%d/%m/%Y"
+            )
 
         except ValueError:
             continue
@@ -114,10 +164,14 @@ def formatar_data(
         dayfirst=True,
     )
 
-    if pd.isna(data_convertida):
+    if pd.isna(
+        data_convertida
+    ):
         return texto
 
-    return data_convertida.strftime("%d/%m/%Y")
+    return data_convertida.strftime(
+        "%d/%m/%Y"
+    )
 
 
 def tratar_status_gestora(
@@ -158,7 +212,9 @@ def tratar_status_gestora(
     )
 
 
-def classe_status(status: str) -> str:
+def classe_status(
+    status: str,
+) -> str:
     """Retorna a classe CSS correspondente ao vencimento."""
 
     mapa = {
@@ -174,11 +230,15 @@ def classe_status(status: str) -> str:
     )
 
 
-def classe_status_gestora(status: str) -> str:
+def classe_status_gestora(
+    status: str,
+) -> str:
     """Retorna a classe CSS do status cadastral da gestora."""
 
     status_normalizado = (
-        tratar_status_gestora(status)
+        tratar_status_gestora(
+            status
+        )
         .strip()
         .upper()
     )
@@ -261,11 +321,18 @@ st.html(
     .page-header {
         position: relative;
         overflow: hidden;
+
         padding: 28px 30px;
         margin-bottom: 20px;
-        border: 1px solid rgba(1, 104, 55, 0.16);
+
+        border:
+            1px solid
+            rgba(1, 104, 55, 0.16);
+
         border-radius: 18px;
+
         background: #FAFBEB;
+
         box-shadow:
             0 6px 22px
             rgba(11, 47, 19, 0.07);
@@ -273,13 +340,18 @@ st.html(
 
     .page-header::after {
         content: "";
+
         position: absolute;
         top: -85px;
         right: -65px;
+
         width: 220px;
         height: 220px;
+
         border-radius: 50%;
-        background: rgba(168, 236, 125, 0.35);
+
+        background:
+            rgba(168, 236, 125, 0.35);
     }
 
     .page-header-content {
@@ -289,7 +361,9 @@ st.html(
 
     .page-eyebrow {
         margin-bottom: 8px;
+
         color: #016837;
+
         font-size: 0.73rem;
         font-weight: 750;
         letter-spacing: 0.08em;
@@ -298,17 +372,28 @@ st.html(
 
     .page-title {
         margin: 0;
+
         color: #0B2F13;
-        font-size: clamp(1.5rem, 2.1vw, 2.2rem);
+
+        font-size:
+            clamp(
+                1.5rem,
+                2.1vw,
+                2.2rem
+            );
+
         font-weight: 780;
         line-height: 1.25;
     }
 
     .page-description {
         max-width: 820px;
+
         margin-top: 10px;
         margin-bottom: 0;
+
         color: #496151;
+
         font-size: 0.9rem;
         line-height: 1.55;
     }
@@ -322,10 +407,14 @@ st.html(
         display: inline-flex;
         align-items: center;
         justify-content: center;
+
         min-height: 31px;
+
         padding: 6px 14px;
         margin-top: 16px;
+
         border-radius: 999px;
+
         font-size: 0.74rem;
         font-weight: 750;
         white-space: nowrap;
@@ -333,8 +422,13 @@ st.html(
 
     .status-em-dia {
         color: #016837;
-        background: rgba(168, 236, 125, 0.42);
-        border: 1px solid rgba(1, 104, 55, 0.16);
+
+        background:
+            rgba(168, 236, 125, 0.42);
+
+        border:
+            1px solid
+            rgba(1, 104, 55, 0.16);
     }
 
     .status-a-vencer {
@@ -364,18 +458,30 @@ st.html(
     .info-card {
         height: 100%;
         min-height: 108px;
+
         padding: 17px 18px;
-        border: 1px solid rgba(1, 104, 55, 0.13);
+
+        border:
+            1px solid
+            rgba(1, 104, 55, 0.13);
+
         border-radius: 14px;
+
         background: #FAFBEB;
+
         box-shadow:
             0 3px 12px
             rgba(11, 47, 19, 0.045);
+
+        overflow: hidden;
+        box-sizing: border-box;
     }
 
     .info-card-label {
         margin-bottom: 8px;
+
         color: #016837;
+
         font-size: 0.68rem;
         font-weight: 750;
         letter-spacing: 0.045em;
@@ -383,11 +489,64 @@ st.html(
     }
 
     .info-card-value {
+        min-width: 0;
+
         color: #0B2F13;
+
         font-size: 0.87rem;
         font-weight: 650;
         line-height: 1.45;
+
         overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+
+    /* ======================================================
+       CARD DE CONTATO
+       ====================================================== */
+
+    .contact-wrapper {
+        width: 100%;
+        min-width: 0;
+        overflow: hidden;
+    }
+
+    .contact-email {
+        display: -webkit-box;
+
+        width: 100%;
+        max-width: 100%;
+
+        overflow: hidden;
+
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+
+        color: #0B2F13;
+
+        line-height: 1.4;
+
+        overflow-wrap: anywhere;
+        word-break: break-word;
+
+        cursor: help;
+    }
+
+    .contact-phone {
+        width: 100%;
+        max-width: 100%;
+
+        margin-top: 7px;
+
+        color: #627168;
+
+        font-size: 0.78rem;
+        font-weight: 600;
+        line-height: 1.35;
+
+        overflow-wrap: anywhere;
+        word-break: break-word;
     }
 
 
@@ -399,21 +558,31 @@ st.html(
         display: inline-flex;
         align-items: center;
         justify-content: center;
+
         min-width: 88px;
         min-height: 30px;
+
         padding: 6px 13px;
+
         border-radius: 999px;
+
         font-size: 0.74rem;
         font-weight: 750;
         line-height: 1;
+
         text-transform: uppercase;
         white-space: nowrap;
     }
 
     .gestora-ativa {
         color: #016837;
-        background: rgba(168, 236, 125, 0.42);
-        border: 1px solid rgba(1, 104, 55, 0.18);
+
+        background:
+            rgba(168, 236, 125, 0.42);
+
+        border:
+            1px solid
+            rgba(1, 104, 55, 0.18);
     }
 
     .gestora-inativa {
@@ -441,14 +610,22 @@ st.html(
     [class*="st-key-voltar_pagina"]
     .stButton > button {
         min-height: 40px;
+
         padding-left: 18px;
         padding-right: 18px;
-        border: 1px solid rgba(1, 104, 55, 0.22);
+
+        border:
+            1px solid
+            rgba(1, 104, 55, 0.22);
+
         border-radius: 10px;
+
         color: #016837;
         background: #FAFBEB;
+
         font-size: 0.8rem;
         font-weight: 700;
+
         transition:
             background 0.16s ease,
             border-color 0.16s ease,
@@ -458,8 +635,12 @@ st.html(
     [class*="st-key-voltar_pagina"]
     .stButton > button:hover {
         color: #0B2F13;
-        background: rgba(168, 236, 125, 0.32);
+
+        background:
+            rgba(168, 236, 125, 0.32);
+
         border-color: #016837;
+
         transform: translateY(-1px);
     }
 
@@ -472,21 +653,27 @@ st.html(
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         gap: 16px;
+
         margin-top: 8px;
         margin-bottom: 17px;
     }
 
     .section-title {
         margin: 0;
+
         color: #0B2F13;
+
         font-size: 1.18rem;
         font-weight: 760;
     }
 
     .section-description {
         margin-top: 4px;
+
         color: #67756b;
+
         font-size: 0.82rem;
     }
 
@@ -494,12 +681,22 @@ st.html(
         display: inline-flex;
         align-items: center;
         justify-content: center;
+
         min-width: 100px;
+
         padding: 8px 14px;
-        border: 1px solid rgba(1, 104, 55, 0.13);
+
+        border:
+            1px solid
+            rgba(1, 104, 55, 0.13);
+
         border-radius: 999px;
+
         color: #016837;
-        background: rgba(168, 236, 125, 0.28);
+
+        background:
+            rgba(168, 236, 125, 0.28);
+
         font-size: 0.75rem;
         font-weight: 750;
         white-space: nowrap;
@@ -513,12 +710,19 @@ st.html(
     [class*="st-key-resposta_card_"] {
         margin-bottom: 15px;
         padding: 20px 22px;
-        border: 1px solid rgba(1, 104, 55, 0.13);
+
+        border:
+            1px solid
+            rgba(1, 104, 55, 0.13);
+
         border-radius: 16px;
+
         background: #FAFBEB;
+
         box-shadow:
             0 4px 14px
             rgba(11, 47, 19, 0.05);
+
         transition:
             transform 0.18s ease,
             box-shadow 0.18s ease,
@@ -527,7 +731,10 @@ st.html(
 
     [class*="st-key-resposta_card_"]:hover {
         transform: translateY(-2px);
-        border-color: rgba(1, 104, 55, 0.28);
+
+        border-color:
+            rgba(1, 104, 55, 0.28);
+
         box-shadow:
             0 9px 23px
             rgba(11, 47, 19, 0.09);
@@ -546,7 +753,9 @@ st.html(
     .question-header {
         display: flex;
         align-items: flex-start;
+
         gap: 13px;
+
         margin-bottom: 4px;
     }
 
@@ -554,12 +763,17 @@ st.html(
         display: inline-flex;
         align-items: center;
         justify-content: center;
+
         min-width: 49px;
         height: 38px;
+
         padding: 0 9px;
+
         border-radius: 10px;
+
         color: #FAFBEB;
         background: #016837;
+
         font-size: 0.78rem;
         font-weight: 750;
         line-height: 1;
@@ -572,7 +786,9 @@ st.html(
 
     .question-label {
         margin-bottom: 4px;
+
         color: #43805d;
+
         font-size: 0.66rem;
         font-weight: 750;
         letter-spacing: 0.05em;
@@ -581,9 +797,11 @@ st.html(
 
     .question-text {
         color: #0B2F13;
+
         font-size: 0.94rem;
         font-weight: 700;
         line-height: 1.5;
+
         overflow-wrap: anywhere;
     }
 
@@ -595,13 +813,23 @@ st.html(
     .answer-box {
         margin-top: 12px;
         margin-left: 62px;
+
         padding: 15px 17px;
-        border-left: 4px solid #2DC25F;
-        border-radius: 0 11px 11px 0;
+
+        border-left:
+            4px solid #2DC25F;
+
+        border-radius:
+            0 11px 11px 0;
+
         color: #33493a;
-        background: rgba(168, 236, 125, 0.16);
+
+        background:
+            rgba(168, 236, 125, 0.16);
+
         font-size: 0.87rem;
         line-height: 1.65;
+
         white-space: pre-wrap;
         overflow-wrap: anywhere;
     }
@@ -609,7 +837,9 @@ st.html(
     .answer-id {
         margin-top: 8px;
         margin-left: 62px;
+
         color: #819087;
+
         font-size: 0.65rem;
     }
 
@@ -621,12 +851,19 @@ st.html(
     [class*="st-key-resposta_card_"]
     .stButton > button {
         min-height: 39px;
-        border: 1px solid rgba(1, 104, 55, 0.22);
+
+        border:
+            1px solid
+            rgba(1, 104, 55, 0.22);
+
         border-radius: 9px;
+
         color: #016837;
         background: transparent;
+
         font-size: 0.76rem;
         font-weight: 700;
+
         transition:
             background 0.16s ease,
             border-color 0.16s ease,
@@ -636,8 +873,12 @@ st.html(
     [class*="st-key-resposta_card_"]
     .stButton > button:hover {
         transform: translateY(-1px);
+
         color: #0B2F13;
-        background: rgba(168, 236, 125, 0.3);
+
+        background:
+            rgba(168, 236, 125, 0.3);
+
         border-color: #016837;
     }
 
@@ -648,16 +889,24 @@ st.html(
 
     .empty-state {
         padding: 48px 25px;
-        border: 1px dashed rgba(1, 104, 55, 0.25);
+
+        border:
+            1px dashed
+            rgba(1, 104, 55, 0.25);
+
         border-radius: 16px;
+
         color: #657268;
         background: #FAFBEB;
+
         text-align: center;
     }
 
     .empty-state-title {
         margin-bottom: 6px;
+
         color: #0B2F13;
+
         font-size: 1rem;
         font-weight: 750;
     }
@@ -699,6 +948,10 @@ st.html(
         .answer-id {
             margin-left: 0;
         }
+
+        .info-card {
+            min-height: auto;
+        }
     }
 
     </style>
@@ -722,7 +975,9 @@ def editar_resposta(
     """Exibe o diálogo para alterar uma resposta."""
 
     indice_pergunta, texto_pergunta = (
-        separar_indice_pergunta(pergunta)
+        separar_indice_pergunta(
+            pergunta
+        )
     )
 
     indice_html = html.escape(
@@ -796,15 +1051,22 @@ def editar_resposta(
 
     texto_confirmacao = st.text_input(
         "Confirmação",
-        key=f"confirmacao_alteracao_{id_resposta}",
+        key=(
+            f"confirmacao_alteracao_"
+            f"{id_resposta}"
+        ),
         placeholder="Digite ALTERAR",
     )
 
     confirmacao_valida = (
-        texto_confirmacao.strip() == "ALTERAR"
+        texto_confirmacao.strip()
+        == "ALTERAR"
     )
 
-    if texto_confirmacao and not confirmacao_valida:
+    if (
+        texto_confirmacao
+        and not confirmacao_valida
+    ):
         st.error(
             "Digite exatamente ALTERAR, "
             "em letras maiúsculas."
@@ -814,7 +1076,7 @@ def editar_resposta(
         "Salvar alteração",
         type="primary",
         icon=":material/save:",
-        width='content',
+        width="content",
         disabled=not confirmacao_valida,
         key=f"salvar_resposta_{id_resposta}",
     )
@@ -881,7 +1143,10 @@ data_vencimento = st.query_params.get(
 )
 
 
-if not id_gestora or not id_preenchimento:
+if (
+    not id_gestora
+    or not id_preenchimento
+):
     st.error(
         "Parâmetros inválidos. "
         "Volte à página anterior."
@@ -899,25 +1164,36 @@ preenchimentos_df = (
 
 gestoras_selecionada_preenchimento = (
     preenchimentos_df[
-        preenchimentos_df["id_gestora"]
+        preenchimentos_df[
+            "id_gestora"
+        ]
         == int(id_gestora)
     ]
 )
 
 
-gestoras_respostas_df = listar_respostas()
+gestoras_respostas_df = (
+    listar_respostas()
+)
 
 gestoras_selecionada_respostas = (
     gestoras_respostas_df[
         gestoras_respostas_df[
             "id_preenchimento"
         ]
-        == int(float(id_preenchimento))
+        == int(
+            float(
+                id_preenchimento
+            )
+        )
     ]
 )
 
 
-if gestoras_selecionada_preenchimento.empty:
+if (
+    gestoras_selecionada_preenchimento
+    .empty
+):
     st.error(
         "Não foi possível localizar os dados "
         "da gestora selecionada."
@@ -930,7 +1206,8 @@ if gestoras_selecionada_preenchimento.empty:
 # ===========================================================================
 
 dados_gestora = (
-    gestoras_selecionada_preenchimento.iloc[0]
+    gestoras_selecionada_preenchimento
+    .iloc[0]
 )
 
 nome_gestora = valor_seguro(
@@ -939,23 +1216,33 @@ nome_gestora = valor_seguro(
 )
 
 data_envio = formatar_data(
-    dados_gestora.get("data_envio"),
+    dados_gestora.get(
+        "data_envio"
+    ),
 )
 
-cnpj = valor_seguro(
-    dados_gestora.get("cnpj"),
+cnpj = formatar_cnpj(
+    dados_gestora.get(
+        "cnpj"
+    ),
 )
 
 email = valor_seguro(
-    dados_gestora.get("email"),
+    dados_gestora.get(
+        "email"
+    ),
 )
 
 telefone = valor_seguro(
-    dados_gestora.get("telefone"),
+    dados_gestora.get(
+        "telefone"
+    ),
 )
 
 status_gestora = tratar_status_gestora(
-    dados_gestora.get("status"),
+    dados_gestora.get(
+        "status"
+    ),
 )
 
 status_vencimento = valor_seguro(
@@ -1080,27 +1367,59 @@ for coluna, (
 
         if rotulo == "Contato":
 
-            valor_html = (
-                html.escape(email)
-                + "<br>"
-                + html.escape(telefone)
+            email_html = html.escape(
+                email
             )
+
+            email_title = html.escape(
+                email,
+                quote=True,
+            )
+
+            telefone_html = html.escape(
+                telefone
+            )
+
+            valor_html = f"""
+                <div class="contact-wrapper">
+
+                    <div
+                        class="contact-email"
+                        title="{email_title}"
+                    >
+                        {email_html}
+                    </div>
+
+                    <div class="contact-phone">
+                        {telefone_html}
+                    </div>
+
+                </div>
+            """
 
         elif rotulo == "Status da gestora":
 
             valor_html = f"""
                 <span class="
                     status-gestora
-                    {classe_status_gestora(status_gestora)}
+                    {
+                        classe_status_gestora(
+                            status_gestora
+                        )
+                    }
                 ">
-                    {html.escape(status_gestora)}
+                    {
+                        html.escape(
+                            status_gestora
+                        )
+                    }
                 </span>
             """
 
         else:
 
             valor_html = html.escape(
-                valor
+                str(valor)
             )
 
         st.html(
@@ -1177,13 +1496,17 @@ st.html(
 # ===========================================================================
 
 gestoras_selecionada_respostas = (
-    gestoras_selecionada_respostas.sort_values(
+    gestoras_selecionada_respostas
+    .sort_values(
         by="pergunta"
     )
 )
 
 
-if gestoras_selecionada_respostas.empty:
+if (
+    gestoras_selecionada_respostas
+    .empty
+):
 
     st.html(
         """
@@ -1205,7 +1528,8 @@ if gestoras_selecionada_respostas.empty:
 else:
 
     for _, registro in (
-        gestoras_selecionada_respostas.iterrows()
+        gestoras_selecionada_respostas
+        .iterrows()
     ):
 
         id_resposta = registro[
@@ -1241,22 +1565,28 @@ else:
         )
 
         id_resposta_html = html.escape(
-            str(id_resposta)
+            str(
+                id_resposta
+            )
         )
 
-
         with st.container(
-            key=f"resposta_card_{id_resposta}",
+            key=(
+                f"resposta_card_"
+                f"{id_resposta}"
+            ),
         ):
 
             coluna_conteudo, coluna_botao = (
                 st.columns(
-                    [6, 1],
+                    [
+                        6,
+                        1,
+                    ],
                     gap="medium",
                     vertical_alignment="top",
                 )
             )
-
 
             with coluna_conteudo:
 
@@ -1282,11 +1612,9 @@ else:
 
                     </div>
 
-
                     <div class="answer-box">
                         {resposta_html}
                     </div>
-
 
                     <div class="answer-id">
                         ID da resposta:
@@ -1295,14 +1623,16 @@ else:
                     """
                 )
 
-
             with coluna_botao:
 
                 if st.button(
                     "Editar",
                     icon=":material/edit:",
-                    key=f"editar_{id_resposta}",
-                    width='content',
+                    key=(
+                        f"editar_"
+                        f"{id_resposta}"
+                    ),
+                    width="content",
                 ):
                     editar_resposta(
                         id_resposta=id_resposta,

@@ -1,5 +1,6 @@
 import base64
 import html
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -86,6 +87,165 @@ def valor_seguro(
         return padrao
 
     return texto
+
+
+def normalizar_cnpj(
+    valor,
+) -> str:
+    """
+    Remove pontuação, espaços e converte letras para maiúsculas.
+
+    Aceita o CNPJ numérico tradicional e o formato alfanumérico.
+    """
+
+    if valor is None:
+        return ""
+
+    return re.sub(
+        r"[^A-Z0-9]",
+        "",
+        str(valor).strip().upper(),
+    )
+
+
+def calcular_digito_cnpj(
+    caracteres: str,
+    pesos: list[int],
+) -> int:
+    """
+    Calcula um dígito verificador do CNPJ pelo módulo 11.
+
+    Para o CNPJ alfanumérico, cada caractere é convertido
+    pelo valor ASCII menos 48.
+    """
+
+    soma = sum(
+        (ord(caractere) - 48) * peso
+        for caractere, peso in zip(
+            caracteres,
+            pesos,
+        )
+    )
+
+    resto = soma % 11
+
+    if resto in {
+        0,
+        1,
+    }:
+        return 0
+
+    return 11 - resto
+
+
+def validar_cnpj(
+    valor,
+) -> bool:
+    """
+    Valida CNPJ numérico ou alfanumérico.
+
+    Regras aplicadas:
+    - 14 caracteres após a normalização;
+    - 12 primeiras posições alfanuméricas;
+    - 2 últimas posições numéricas;
+    - verificação dos dois dígitos verificadores;
+    - bloqueio de CNPJ numérico com todos os dígitos iguais.
+    """
+
+    cnpj = normalizar_cnpj(
+        valor
+    )
+
+    if len(cnpj) != 14:
+        return False
+
+    if not re.fullmatch(
+        r"[A-Z0-9]{12}[0-9]{2}",
+        cnpj,
+    ):
+        return False
+
+    if (
+        cnpj.isdigit()
+        and len(set(cnpj)) == 1
+    ):
+        return False
+
+    base = cnpj[:12]
+
+    primeiro_digito = calcular_digito_cnpj(
+        base,
+        [
+            5,
+            4,
+            3,
+            2,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+        ],
+    )
+
+    segundo_digito = calcular_digito_cnpj(
+        base + str(primeiro_digito),
+        [
+            6,
+            5,
+            4,
+            3,
+            2,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+        ],
+    )
+
+    return cnpj[-2:] == (
+        f"{primeiro_digito}"
+        f"{segundo_digito}"
+    )
+
+
+def formatar_cnpj(
+    valor,
+    padrao: str = "CNPJ não informado",
+) -> str:
+    """
+    Exibe o CNPJ no formato 00.000.000/0000-00.
+
+    Também preserva letras nas posições alfanuméricas.
+    """
+
+    cnpj = normalizar_cnpj(
+        valor
+    )
+
+    if not cnpj:
+        return padrao
+
+    if len(cnpj) != 14:
+        return valor_seguro(
+            valor,
+            padrao,
+        )
+
+    return (
+        f"{cnpj[0:2]}."
+        f"{cnpj[2:5]}."
+        f"{cnpj[5:8]}/"
+        f"{cnpj[8:12]}-"
+        f"{cnpj[12:14]}"
+    )
 
 
 def formatar_data(valor) -> str:
@@ -1118,6 +1278,11 @@ def cadastrar_gestora() -> None:
         cnpj = st.text_input(
             "CNPJ",
             placeholder="00.000.000/0000-00",
+            help=(
+                "Informe um CNPJ válido. "
+                "A pontuação é opcional."
+            ),
+            max_chars=18,
         )
 
         salvar = st.form_submit_button(
@@ -1136,12 +1301,32 @@ def cadastrar_gestora() -> None:
         )
         return
 
+    cnpj_normalizado = normalizar_cnpj(
+        cnpj
+    )
+
+    if not cnpj_normalizado:
+        st.error(
+            'O campo "CNPJ" é obrigatório.'
+        )
+        return
+
+    if not validar_cnpj(
+        cnpj_normalizado
+    ):
+        st.error(
+            "O CNPJ informado é inválido. "
+            "Verifique o número e os "
+            "dígitos verificadores."
+        )
+        return
+
     try:
         novo_id = inserir_gestora(
-            nome=nome,
-            telefone=telefone,
-            email=email,
-            cnpj=cnpj,
+            nome=nome.strip(),
+            telefone=telefone.strip(),
+            email=email.strip(),
+            cnpj=cnpj_normalizado,
         )
 
         st.success(
@@ -1598,7 +1783,7 @@ else:
                 "E-mail não informado",
             )
 
-            cnpj = valor_seguro(
+            cnpj = formatar_cnpj(
                 gestora.get("cnpj"),
                 "CNPJ não informado",
             )
