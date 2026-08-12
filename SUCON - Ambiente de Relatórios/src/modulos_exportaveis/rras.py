@@ -171,60 +171,6 @@ CSS_TABELA_RRAS = """
 """
 
 
-# =========================================================
-# DADOS
-# =========================================================
-
-@st.cache_data(ttl="1h")
-def carregar_dados_rras() -> pd.DataFrame:
-    df = buscar_dados().copy()
-
-    df.columns = (
-        df.columns
-        .astype(str)
-        .str.upper()
-        .str.strip()
-    )
-
-    colunas_obrigatorias = [
-        "TESOURARIA",
-        "POSICAO",
-        "RISCO",
-        "RISCO/POSICAO_%",
-        "DATA_COTACAO",
-    ]
-
-    colunas_ausentes = [
-        coluna
-        for coluna in colunas_obrigatorias
-        if coluna not in df.columns
-    ]
-
-    if colunas_ausentes:
-        raise ValueError(
-            "Colunas ausentes na consulta RRAS: "
-            + ", ".join(colunas_ausentes)
-        )
-
-    df["DATA_COTACAO"] = pd.to_datetime(
-        df["DATA_COTACAO"],
-        errors="coerce",
-    )
-
-    for coluna in [
-        "POSICAO",
-        "RISCO",
-        "RISCO/POSICAO_%",
-    ]:
-        df[coluna] = pd.to_numeric(
-            df[coluna],
-            errors="coerce",
-        )
-
-    return df.dropna(
-        subset=["DATA_COTACAO"]
-    )
-
 
 # =========================================================
 # FORMATAÇÃO
@@ -646,7 +592,7 @@ def gerar_png_rras(
 
 def renderizar_rras():
     try:
-        df = carregar_dados_rras()
+        df = buscar_dados()
 
     except Exception as erro:
         st.error(

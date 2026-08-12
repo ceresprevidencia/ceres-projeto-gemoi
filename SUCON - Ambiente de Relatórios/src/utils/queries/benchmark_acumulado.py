@@ -5,12 +5,15 @@ import streamlit as st
 @st.cache_data(ttl="24h")
 def buscar_dados() -> pd.DataFrame:
     query = """
-        SELECT 
-            DATA,
-            VALOR_MES AS BENCH
-        FROM [BI_CERES].[dbo].[API_INDICADORES]
-        WHERE TIPO_INDICADOR = 'IPCA'
-        ORDER BY DATA DESC
+       select 
+        DS_PLANO_MITRA AS TESOURARIA,
+        CO_EXERCICIO AS ANO,
+        NR_MES AS MES,
+        PERC_ANO,
+        PERC_MES 
+        FROM [BI_CERES].[dbo].[VW_META_ATUARIAL]
+        order by co_exercicio, nr_mes desc
+
     """
     with get_connection().connect() as conn:
         df=  pd.read_sql(query, conn)
