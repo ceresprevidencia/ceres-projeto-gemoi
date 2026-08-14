@@ -1,7 +1,9 @@
 from html import escape
 from io import BytesIO
+from pathlib import Path
 
 import matplotlib.pyplot as plt
+from matplotlib import font_manager
 import pandas as pd
 import streamlit as st
 
@@ -26,6 +28,45 @@ COR_VAR = "#B45309"
 COR_STATUS_ABAIXO = "#15803D"
 COR_STATUS_ACIMA = "#DC2626"
 COR_STATUS_SEM_INFO = "#6B7280"
+
+
+# =========================================================
+# FONTE DO PNG EXPORTÁVEL
+# =========================================================
+
+# Estrutura esperada:
+#
+# projeto/
+# ├── modulo_exportavel/
+# │   └── este_arquivo.py
+# ├── static/
+# │   └── font.ttf
+# └── app.py
+
+CAMINHO_FONTE = (
+    Path(__file__).resolve().parent.parent
+    / "static"
+    / "Figtree-Regular.ttf"
+)
+
+
+if not CAMINHO_FONTE.exists():
+    raise FileNotFoundError(
+        f"Fonte não encontrada em: {CAMINHO_FONTE}"
+    )
+
+
+# Registra a fonte no Matplotlib
+font_manager.fontManager.addfont(
+    str(CAMINHO_FONTE)
+)
+
+
+# FontProperties apontando diretamente para o arquivo.
+# Isso garante que o PNG utilize exatamente essa fonte.
+FONTE_FIGTREE = font_manager.FontProperties(
+    fname=str(CAMINHO_FONTE)
+)
 
 
 # =========================================================
@@ -171,7 +212,6 @@ CSS_TABELA_RRAS = """
 """
 
 
-
 # =========================================================
 # FORMATAÇÃO
 # =========================================================
@@ -238,6 +278,7 @@ def preparar_tabela_rras(
     df: pd.DataFrame,
     data_selecionada,
 ) -> pd.DataFrame:
+
     df_filtrado = df[
         df["DATA_COTACAO"].dt.date == data_selecionada
     ].copy()
@@ -303,6 +344,7 @@ def preparar_tabela_rras(
 def gerar_html_rras(
     tabela: pd.DataFrame,
 ) -> str:
+
     html = CSS_TABELA_RRAS
 
     html += """
@@ -322,25 +364,61 @@ def gerar_html_rras(
     """
 
     for _, linha in tabela.iterrows():
-        plano = escape(str(linha["Plano"]))
-        posicao = escape(formatar_moeda(linha["Posição"]))
-        var_rs = escape(formatar_moeda(linha["VaR R$"]))
-        var_pct = escape(formatar_percentual(linha["VaR %"]))
-        limite = escape(formatar_percentual(linha["Limite"]))
-        status = str(linha["Status"])
+
+        plano = escape(
+            str(linha["Plano"])
+        )
+
+        posicao = escape(
+            formatar_moeda(
+                linha["Posição"]
+            )
+        )
+
+        var_rs = escape(
+            formatar_moeda(
+                linha["VaR R$"]
+            )
+        )
+
+        var_pct = escape(
+            formatar_percentual(
+                linha["VaR %"]
+            )
+        )
+
+        limite = escape(
+            formatar_percentual(
+                linha["Limite"]
+            )
+        )
+
+        status = str(
+            linha["Status"]
+        )
 
         if status == "Abaixo":
-            classe_status = "rras-status-abaixo"
+            classe_status = (
+                "rras-status-abaixo"
+            )
 
         elif status == "Acima":
-            classe_status = "rras-status-acima"
+            classe_status = (
+                "rras-status-acima"
+            )
 
         else:
-            classe_status = "rras-status-sem-informacao"
+            classe_status = (
+                "rras-status-sem-informacao"
+            )
 
         html += f"""
             <tr>
-                <td class="rras-col-plano" title="{plano}">
+
+                <td
+                    class="rras-col-plano"
+                    title="{plano}"
+                >
                     {plano}
                 </td>
 
@@ -365,10 +443,18 @@ def gerar_html_rras(
                 </td>
 
                 <td class="rras-col-status">
-                    <span class="rras-status {classe_status}">
+
+                    <span
+                        class="
+                            rras-status
+                            {classe_status}
+                        "
+                    >
                         {escape(status)}
                     </span>
+
                 </td>
+
             </tr>
         """
 
@@ -385,10 +471,13 @@ def gerar_html_rras(
 # PNG
 # =========================================================
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(
+    show_spinner=False
+)
 def gerar_png_rras(
     tabela: pd.DataFrame,
 ) -> bytes:
+
     df_png = tabela.copy()
 
     df_png["Posição"] = (
@@ -411,36 +500,59 @@ def gerar_png_rras(
         .apply(formatar_percentual)
     )
 
+
     quantidade_linhas = max(
         len(df_png),
         1,
     )
+
 
     altura_total = (
         0.48
         + quantidade_linhas * 0.46
     )
 
+
     figura, eixo = plt.subplots(
-        figsize=(15, altura_total)
+        figsize=(
+            15,
+            altura_total,
+        )
     )
+
 
     figura.patch.set_facecolor(
         COR_FUNDO_TABELA
     )
 
+
     eixo.set_facecolor(
         COR_FUNDO_TABELA
     )
 
-    eixo.axis("off")
+
+    eixo.axis(
+        "off"
+    )
+
 
     tabela_plot = eixo.table(
+
         cellText=df_png.values,
+
         colLabels=df_png.columns,
+
         cellLoc="left",
+
         colLoc="left",
-        bbox=[0, 0, 1, 1],
+
+        bbox=[
+            0,
+            0,
+            1,
+            1,
+        ],
+
         colWidths=[
             0.27,
             0.18,
@@ -451,31 +563,60 @@ def gerar_png_rras(
         ],
     )
 
-    tabela_plot.auto_set_font_size(False)
-    tabela_plot.set_fontsize(10)
+
+    tabela_plot.auto_set_font_size(
+        False
+    )
+
+
+    tabela_plot.set_fontsize(
+        10
+    )
+
+
+    # =====================================================
+    # FORMATAÇÃO DAS CÉLULAS
+    # =====================================================
 
     for (
         linha,
         coluna,
     ), celula in tabela_plot.get_celld().items():
+
         celula.PAD = 0.08
-        celula.set_linewidth(0)
+
+        celula.set_linewidth(
+            0
+        )
 
         texto = celula.get_text()
 
-        texto.set_fontfamily(
-            "DejaVu Sans"
+
+        # -------------------------------------------------
+        # FORÇA O USO DA FONTE DO ARQUIVO static/font.ttf
+        # -------------------------------------------------
+
+        texto.set_fontproperties(
+            FONTE_FIGTREE
         )
+
 
         texto.set_horizontalalignment(
             "left"
         )
 
+
         texto.set_verticalalignment(
             "center"
         )
 
+
+        # =================================================
+        # CABEÇALHO
+        # =================================================
+
         if linha == 0:
+
             celula.set_facecolor(
                 COR_VERDE_ESCURO
             )
@@ -488,7 +629,13 @@ def gerar_png_rras(
                 "bold"
             )
 
+
+        # =================================================
+        # CORPO DA TABELA
+        # =================================================
+
         else:
+
             celula.set_facecolor(
                 COR_FUNDO_TABELA
             )
@@ -497,19 +644,34 @@ def gerar_png_rras(
                 COR_TEXTO
             )
 
+
             nome_coluna = (
-                df_png.columns[coluna]
+                df_png.columns[
+                    coluna
+                ]
             )
 
+
+            # ---------------------------------------------
+            # PLANO
+            # ---------------------------------------------
+
             if nome_coluna == "Plano":
+
                 texto.set_fontweight(
                     "bold"
                 )
+
+
+            # ---------------------------------------------
+            # VAR
+            # ---------------------------------------------
 
             elif nome_coluna in [
                 "VaR R$",
                 "VaR %",
             ]:
+
                 texto.set_color(
                     COR_VAR
                 )
@@ -518,48 +680,86 @@ def gerar_png_rras(
                     "bold"
                 )
 
+
+            # ---------------------------------------------
+            # STATUS
+            # ---------------------------------------------
+
             elif nome_coluna == "Status":
+
                 status = str(
                     df_png.iloc[
                         linha - 1
                     ]["Status"]
                 )
 
+
                 texto.set_fontweight(
                     "bold"
                 )
 
+
                 if status == "Abaixo":
+
                     texto.set_color(
                         COR_STATUS_ABAIXO
                     )
 
+
                 elif status == "Acima":
+
                     texto.set_color(
                         COR_STATUS_ACIMA
                     )
 
+
                 else:
+
                     texto.set_color(
                         COR_STATUS_SEM_INFO
                     )
 
-    total_linhas = quantidade_linhas + 1
+
+    # =====================================================
+    # LINHAS HORIZONTAIS
+    # =====================================================
+
+    total_linhas = (
+        quantidade_linhas + 1
+    )
+
 
     for indice in range(
         1,
         total_linhas,
     ):
-        y = 1 - indice / total_linhas
+
+        y = (
+            1
+            - indice
+            / total_linhas
+        )
+
 
         eixo.plot(
+
             [0, 1],
+
             [y, y],
+
             transform=eixo.transAxes,
+
             color=COR_BORDA,
+
             linewidth=0.7,
+
             clip_on=False,
         )
+
+
+    # =====================================================
+    # AJUSTE DA FIGURA
+    # =====================================================
 
     figura.subplots_adjust(
         left=0,
@@ -568,20 +768,39 @@ def gerar_png_rras(
         bottom=0,
     )
 
+
+    # =====================================================
+    # EXPORTAÇÃO
+    # =====================================================
+
     buffer = BytesIO()
 
+
     figura.savefig(
+
         buffer,
+
         format="png",
+
         dpi=200,
+
         bbox_inches="tight",
+
         pad_inches=0,
+
         facecolor=COR_FUNDO_TABELA,
     )
 
-    plt.close(figura)
 
-    buffer.seek(0)
+    plt.close(
+        figura
+    )
+
+
+    buffer.seek(
+        0
+    )
+
 
     return buffer.getvalue()
 
@@ -591,93 +810,177 @@ def gerar_png_rras(
 # =========================================================
 
 def renderizar_rras():
+
     try:
+
         df = buscar_dados()
 
+
     except Exception as erro:
+
         st.error(
             f"Erro ao carregar RRAS: {erro}"
         )
+
         return
 
+
     if df.empty:
+
         st.warning(
             "Não foram encontrados dados para o RRAS."
         )
+
         return
 
+
     datas_disponiveis = sorted(
+
         df["DATA_COTACAO"]
         .dt.date
         .dropna()
         .unique()
+
     )
 
+
     if not datas_disponiveis:
+
         st.warning(
             "Não existem datas disponíveis para o RRAS."
         )
+
         return
 
+
     coluna_data, coluna_botao = st.columns(
-        [0.72, 0.28],
+
+        [
+            0.72,
+            0.28,
+        ],
+
         vertical_alignment="bottom",
     )
 
+
+    # =====================================================
+    # SELEÇÃO DE DATA
+    # =====================================================
+
     with coluna_data:
+
         data_selecionada = st.date_input(
+
             "Selecione a data posição",
+
             value=datas_disponiveis[-1],
+
             min_value=datas_disponiveis[0],
+
             max_value=datas_disponiveis[-1],
+
             format="DD/MM/YYYY",
+
             key="data_exportavel_rras",
         )
 
-    if data_selecionada not in datas_disponiveis:
+
+    if (
+        data_selecionada
+        not in datas_disponiveis
+    ):
+
         st.warning(
+
             "Não existem dados para "
             f"{data_selecionada.strftime('%d/%m/%Y')}."
+
         )
+
         return
+
+
+    # =====================================================
+    # PREPARAÇÃO DA TABELA
+    # =====================================================
 
     tabela = preparar_tabela_rras(
+
         df=df,
-        data_selecionada=data_selecionada,
+
+        data_selecionada=(
+            data_selecionada
+        ),
     )
 
+
     if tabela.empty:
+
         st.info(
-            "Não existem registros RRAS para a data selecionada."
+            "Não existem registros RRAS "
+            "para a data selecionada."
         )
+
         return
+
+
+    # =====================================================
+    # HTML
+    # =====================================================
 
     html_tabela = gerar_html_rras(
         tabela
     )
 
+
+    # =====================================================
+    # PNG
+    # =====================================================
+
     png_tabela = gerar_png_rras(
         tabela
     )
 
+
+    # =====================================================
+    # DOWNLOAD
+    # =====================================================
+
     with coluna_botao:
+
         st.download_button(
-            label="Exportar RRAS em PNG",
+
+            label=(
+                "Exportar RRAS em PNG"
+            ),
+
             data=png_tabela,
+
             file_name=(
                 "rras_"
                 f"{data_selecionada.strftime('%Y%m%d')}"
                 ".png"
             ),
+
             mime="image/png",
+
             type="primary",
+
             width="stretch",
+
             key="download_rras_png",
         )
+
 
     st.space(
         size="small"
     )
+
+
+    # =====================================================
+    # EXIBIÇÃO
+    # =====================================================
 
     st.html(
         html_tabela

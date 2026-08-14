@@ -1,14 +1,12 @@
 import streamlit as st
 from PIL import Image
-from utils.helpers import get_css_global
+
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 IMAGES_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "images"))
 
-# ── FONTE GLOBAL ──────────────────────────────────────────────────────────────
-get_css_global = get_css_global()
-st.html(get_css_global)
+
 
 # ── LOGO ──────────────────────────────────────────────────────────────────────
 icon_img = os.path.join(IMAGES_DIR, "c2.svg")

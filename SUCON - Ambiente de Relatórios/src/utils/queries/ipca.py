@@ -3,7 +3,7 @@ from utils.db_sqlserver import get_connection
 import streamlit as st
 
 @st.cache_data(ttl="24h")
-def buscar_dados() -> pd.DataFrame:
+def buscar_dados_ipca() -> pd.DataFrame:
     query = """
         SELECT 
             DATA,

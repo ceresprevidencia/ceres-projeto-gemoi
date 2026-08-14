@@ -1,15 +1,13 @@
 import streamlit as st
-from utils.queries.tickerh_rent_planos import buscar_dados
+
+from utils.queries.benchmark_ticker_pg_inicial import buscar_dados_ticker
+
 from utils.helpers import _NOMES_PLANOS 
 import pandas as pd
 import html
 
-@st.cache_data(ttl='24h', show_time=True)
-def carregar_dados() -> pd.DataFrame:
-    """Carrega e cacheia o DataFrame principal por 1 hora."""
-    return buscar_dados()
 
-tickerh_rent_planos = buscar_dados()
+tickerh_rent_planos = buscar_dados_ticker()
 
 st.set_page_config(initial_sidebar_state="collapsed", layout="wide")
 
@@ -604,10 +602,15 @@ with st.container(key="meu-container"):
 
 # Seleciona apenas as colunas necessárias.
 dados_ticker = tickerh_rent_planos[
-    ["TESOURARIA", "YTD"]
+    ["TESOURARIA", "YTD", "BENCH_YTD"]
 ].copy()
 
-dados_ticker['TESOURARIA'] = dados_ticker['TESOURARIA'].replace(_NOMES_PLANOS) 
+nomes_planos_upper = {
+    str(chave).strip().upper(): valor
+    for chave, valor in _NOMES_PLANOS.items()
+}
+
+dados_ticker['TESOURARIA'] = dados_ticker['TESOURARIA'].replace(nomes_planos_upper)
 # Limpa e converte os dados.
 dados_ticker["TESOURARIA"] = (
     dados_ticker["TESOURARIA"]
@@ -617,6 +620,13 @@ dados_ticker["TESOURARIA"] = (
 
 dados_ticker["YTD"] = pd.to_numeric(
     dados_ticker["YTD"],
+    errors="coerce",
+)
+
+# BENCH_YTD pode vir vazio/ausente — nesse caso NÃO aplicamos cor,
+# então não removemos essas linhas, apenas convertemos o que der.
+dados_ticker["BENCH_YTD"] = pd.to_numeric(
+    dados_ticker["BENCH_YTD"],
     errors="coerce",
 )
 
@@ -638,7 +648,7 @@ for _, linha in dados_ticker.iterrows():
     rentabilidade = float(linha["YTD"])
 
     # Use esta multiplicação se YTD vier como 0.085 para representar 8,5%.
-    rentabilidade_percentual = rentabilidade 
+    rentabilidade_percentual = rentabilidade
 
     # Caso YTD já venha como 8.5 para representar 8,5%,
     # substitua a linha acima por:
@@ -651,17 +661,26 @@ for _, linha in dados_ticker.iterrows():
         .replace("X", ".")
     )
 
-    if rentabilidade_percentual > 0:
-        indicador = "▲"
-        classe = "ticker-positivo"
+    bench = linha["BENCH_YTD"]
 
-    elif rentabilidade_percentual < 0:
-        indicador = "▼"
-        classe = "ticker-negativo"
-
-    else:
+    if pd.isna(bench):
+        # Bench vazio: sem efeito de cor, apenas indicador neutro.
         indicador = "●"
         classe = "ticker-neutro"
+    else:
+        bench_percentual = float(bench)
+
+        if rentabilidade_percentual > bench_percentual:
+            indicador = "▲"
+            classe = "ticker-positivo"
+
+        elif rentabilidade_percentual < bench_percentual:
+            indicador = "▼"
+            classe = "ticker-negativo"
+
+        else:
+            indicador = "●"
+            classe = "ticker-neutro"
 
     itens_ticker.append(
         f"""
@@ -701,7 +720,7 @@ st.html(
         .ticker-content {{
             display: inline-block;
             white-space: nowrap;
-            animation: ticker 120s linear infinite;
+            animation: ticker 70s linear infinite;
         }}
 
         .ticker-wrapper:hover .ticker-content {{
@@ -733,7 +752,7 @@ st.html(
         }}
 
         .ticker-neutro {{
-            color: #FAFBEB;
+            color: #000000;
         }}
 
         @keyframes ticker {{

@@ -51,6 +51,7 @@ _NOMES_PLANOS = {
     "Emater MG Saldado_BD":  "EmaterMG Saldado",
     "PGA":                   "PGA",
     "[CERES TOTAL]":         "Consolidado",
+    "CERES CONSOLIDADA":     "Consolidado"
 }
 
 def nome_plano(valor_original: str) -> str:
@@ -78,47 +79,6 @@ import streamlit as st
 
 
 # ── CSS RESPONSIVO ────────────────────────────────────────────────────────────
-
-def get_css_responsivo() -> str:
-    """
-    CSS responsivo para o wrapper `.tabela-responsiva`.
-    Deve ser injetado uma vez por página via st.markdown().
-    """
-    return """
-    <style>
-    .tabela-responsiva {
-        width: 100%;
-        overflow-x: auto;
-        display: block;
-    }
-    .tabela-responsiva table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    .tabela-responsiva table td,
-    .tabela-responsiva table th {
-        padding: 12px;
-        text-align: center;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        word-break: break-word;
-    }
-    @media (max-width: 1200px) {
-        .tabela-responsiva table td,
-        .tabela-responsiva table th { padding: 10px; font-size: 13px; }
-    }
-    @media (max-width: 768px) {
-        .tabela-responsiva { font-size: 11px; }
-        .tabela-responsiva table td,
-        .tabela-responsiva table th { padding: 6px; }
-    }
-    @media (max-width: 480px) {
-        .tabela-responsiva { font-size: 9px; }
-        .tabela-responsiva table td,
-        .tabela-responsiva table th { padding: 4px; }
-    }
-    </style>
-    """
 
 
 # ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -271,7 +231,7 @@ _CSS_TABELA = """
 
     /* Células de dados */
     .col-custom {
-        padding: 10px 14px;
+        padding: 4px 4px;
         font-family: 'Figtree', sans-serif;
         font-size: 15px;
         display: flex;
@@ -287,29 +247,7 @@ _CSS_TABELA = """
         font-weight: normal;
     }
 
-    /* Responsividade */
-    @media (max-width: 768px) {
-        .th-custom div,
-        .col-custom {
-            font-size: 11px;
-            padding: 8px;
-            min-height: 35px;
-        }
-
-        .th-custom div:first-child,
-        .col-custom:first-child {
-            padding-left: 10px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .th-custom div,
-        .col-custom {
-            font-size: 9px;
-            padding: 6px;
-            min-height: 30px;
-        }
-    }
+    
 </style>
 """
 
@@ -798,60 +736,7 @@ def primeiro_dia_util(ano: int) -> date:
 
 # CSS GLOBAL
 
-def get_css_global():
-    """
-    CSS GLOBAL - Estrutura base do site
-    Use no início de cada página.
-    """
-    return """
-    <style>
-     
-        /* ============================================================================
-           RESPONSIVE - TABLETS (≤ 1200px)
-           ============================================================================ */
-        @media (max-width: 1200px) {
-            .th-custom div, .col-custom {
-                padding: 10px;
-                font-size: 13px;
-                min-height: 38px;
-            }
 
-            .col-custom:first-child {
-                padding-left: 15px;
-            }
-        }
-
-        /* ============================================================================
-           RESPONSIVE - MOBILE (≤ 768px)
-           ============================================================================ */
-        @media (max-width: 768px) {
-            .th-custom div, .col-custom {
-                padding: 8px;
-                font-size: 11px;
-                min-height: 35px;
-            }
-
-            .col-custom:first-child {
-                padding-left: 10px;
-            }
-        }
-
-        /* ============================================================================
-           RESPONSIVE - SMALL MOBILE (≤ 480px)
-           ============================================================================ */
-        @media (max-width: 480px) {
-            .th-custom div, .col-custom {
-                padding: 6px;
-                font-size: 9px;
-                min-height: 32px;
-            }
-
-            .col-custom:first-child {
-                padding-left: 6px;
-            }
-        }
-    </style>
-    """
 
 
 _BORDA_INFERIOR_CLASSES = {
@@ -898,6 +783,9 @@ def _normalizar_borda_inferior(borda_inferior="borda") -> str:
 def _classe_borda_inferior(borda_inferior="borda") -> str:
     modo = _normalizar_borda_inferior(borda_inferior)
     return _BORDA_INFERIOR_CLASSES[modo]
+
+
+
 def card_geral(titulo: str, valor: str, delta: str = None, help: str = None, valor_extenso: str = None):
     import numpy as np
     """
@@ -2557,3 +2445,173 @@ def card_limites_excedidos(
 
     st.html(html_final)
 
+from html import escape
+
+
+def _escape_html(valor) -> str:
+    if valor is None:
+        return ""
+
+    return escape(str(valor), quote=True)
+
+
+def titulo_section(
+    titulo: str,
+    subtitulo: str = None,
+    help: str = None,
+    mostrar_linha: bool = True,
+    tamanho_titulo: int = 18,
+    peso_titulo: int = 900,
+    cor_titulo: str = "#0B2F13",
+    cor_linha: str = "rgba(11, 47, 19, 0.22)",
+    margem_topo: int = 8,
+    margem_baixo: int = 1,
+):
+    """
+    Renderiza um título de seção genérico com:
+    - título;
+    - subtítulo opcional;
+    - tooltip opcional;
+    - linha horizontal opcional à direita.
+
+    Exemplo:
+        titulo_section(
+            "Resumo de Risco por Plano",
+            subtitulo="Visão consolidada dos limites internos",
+            help="Possibilidade"
+        )
+    """
+
+    titulo_html = _escape_html(titulo)
+    subtitulo_html = _escape_html(subtitulo)
+    help_html_texto = _escape_html(help)
+
+    tooltip_html = ""
+
+    if help:
+        tooltip_html = f"""
+        <span class="section-title-help" aria-label="{help_html_texto}">
+            ?
+            <span class="section-title-tooltip">{help_html_texto}</span>
+        </span>
+        """
+
+    linha_html = ""
+
+    if mostrar_linha:
+        linha_html = '<div class="section-title-line"></div>'
+
+    subtitulo_bloco = ""
+
+    if subtitulo:
+        subtitulo_bloco = f"""
+        <div class="section-subtitle-text">
+            {subtitulo_html}
+        </div>
+        """
+
+    html = f"""
+    <style>
+        .section-title-container {{
+            width: 100%;
+            margin: {margem_topo}px 0 {margem_baixo}px 0;
+            font-family: 'Figtree', sans-serif;
+        }}
+
+        .section-title-row {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+        }}
+
+        .section-title-text {{
+            color: {cor_titulo};
+            font-size: {tamanho_titulo}px;
+            font-weight: {peso_titulo};
+            line-height: 1.2;
+            white-space: nowrap;
+        }}
+
+        .section-title-help {{
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 15px;
+            height: 15px;
+            border-radius: 999px;
+            font-size: 10px;
+            font-weight: 700;
+            line-height: 1;
+            cursor: pointer;
+            color: #0B2F13;
+            background: #A8EC7D;
+            border: none;
+            text-transform: none;
+            letter-spacing: 0;
+            flex-shrink: 0;
+        }}
+
+        .section-title-help:hover {{
+            color: #0B2F13;
+            background: #c7f7a8;
+        }}
+
+        .section-title-tooltip {{
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 130%;
+            left: 0;
+            background-color: #0B2F13;
+            color: #FAFBEB;
+            text-align: left;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 400;
+            font-style: normal;
+            font-family: 'Figtree', sans-serif;
+            white-space: normal;
+            width: 200px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: opacity 0.2s ease-in-out;
+            z-index: 9999;
+            line-height: 1.35;
+            letter-spacing: 0;
+            pointer-events: none;
+        }}
+
+        .section-title-help:hover .section-title-tooltip {{
+            visibility: visible;
+            opacity: 1;
+        }}
+
+        .section-title-line {{
+            flex: 1;
+            height: 1px;
+            background: {cor_linha};
+            margin-left: 4px;
+        }}
+
+        .section-subtitle-text {{
+            margin-top: 4px;
+            color: #5a5a5a;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1.35;
+        }}
+    </style>
+
+    <div class="section-title-container">
+        <div class="section-title-row">
+            <span class="section-title-text">{titulo_html}</span>
+            {tooltip_html}
+            {linha_html}
+        </div>
+        {subtitulo_bloco}
+    </div>
+    """
+
+    st.html(html)

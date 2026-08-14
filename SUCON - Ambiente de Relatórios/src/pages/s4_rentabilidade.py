@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-from utils.queries.ipca import buscar_dados as buscar_ipca
+from utils.queries.ipca import buscar_dados_ipca 
 from utils.queries.rent_mensal_planos import buscar_dados as buscar_rent_mensal_planos
 from utils.queries.rent_grupos import buscar_dados as buscar_grupos
 from utils.queries.rent_planos import buscar_dados as buscar_planos
 from utils.queries.rent_produtos import buscar_dados as buscar_dados_produtos
-from utils.queries.benchmark_acumulado import buscar_dados as buscar_dados_benchmark_acumulado
+from utils.queries.bench_acumulado import buscar_dados_bench_acumulado 
 import plotly.graph_objects as go
 from utils.helpers import (primeiro_dia_util, 
                            nome_plano, fmt_br, 
@@ -22,20 +22,31 @@ from utils.helpers import (primeiro_dia_util,
 from pathlib import Path
 
 
-df_benchmark_acumulado = buscar_dados_benchmark_acumulado()
-df_ipca = buscar_ipca()
+
+
+
+df_benchmark_acumulado = buscar_dados_bench_acumulado()
+nomes_planos_upper = {
+    str(chave).strip().upper(): valor
+    for chave, valor in _NOMES_PLANOS.items()
+}
+
+df_benchmark_acumulado['TESOURARIA'] = df_benchmark_acumulado['TESOURARIA'].replace(nomes_planos_upper)
+df_ipca = buscar_dados_ipca()
+
+
 df_grupos = buscar_grupos()
 df_planos = buscar_planos()
 df_produtos = buscar_dados_produtos()
 df_rent_mensal_planos = buscar_rent_mensal_planos()
-st.dataframe(df_rent_mensal_planos)
+
 df_ipca['PLANO'] = 'PGA'
 df_ipca['DATA'] = pd.to_datetime(df_ipca['DATA']).dt.to_period('M').dt.to_timestamp()
 df_ipca = df_ipca.set_index(['PLANO', 'DATA'])
+
 df_rent_mensal_planos['DATA'] = pd.to_datetime(df_rent_mensal_planos['DATA']).dt.to_period('M').dt.to_timestamp()
 df_rent_mensal_planos = df_rent_mensal_planos.set_index(['PLANO', 'DATA'])
 # separa o update do set_index
-st.dataframe(df_rent_mensal_planos)
 df_rent_mensal_planos.update(df_ipca)
 df_rent_mensal_planos = df_rent_mensal_planos.reset_index()
 
@@ -49,9 +60,7 @@ df_rent_projetada = pd.read_csv(caminho_csv)
 
 
 
-st.dataframe(df_benchmark_acumulado)
-df_ipca['DATA'] = pd.to_datetime(df_ipca['DATA']).dt.to_period('M').dt.to_timestamp()
-st.dataframe(df_benchmark_acumulado)
+
 
 
 st.set_page_config(layout="wide")
