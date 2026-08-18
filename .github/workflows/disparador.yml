@@ -33,7 +33,7 @@ jobs:
         env:
           GOOGLE_CHAT_WEBHOOK_URL: ${{ secrets.GOOGLE_CHAT_WEBHOOK_URL }}
           GOOGLE_ALERTS_FEEDS: ${{ secrets.GOOGLE_ALERTS_FEEDS }}
-        # Entra na pasta do projeto e roda o bot
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           cd bot-mercado-de-credito
           python pipeline_noticias.py
