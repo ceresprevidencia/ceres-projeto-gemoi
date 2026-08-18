@@ -1460,3 +1460,71 @@
 2026-08-18 17:36:31 [INFO] Enviar: 20
 2026-08-18 17:36:31 [INFO] Não enviar: 16
 2026-08-18 17:36:31 [INFO] ======================================================================
+2026-08-18 18:49:49 [INFO] ======================================================================
+2026-08-18 18:49:49 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-18 18:49:49 [INFO] ======================================================================
+2026-08-18 18:49:49 [INFO] Notícias com status 'extraida': 11
+2026-08-18 18:49:49 [INFO] Limite: 20 requisições/minuto
+2026-08-18 18:49:49 [INFO] Intervalo mínimo: 3.0s
+2026-08-18 18:49:49 [INFO] ======================================================================
+2026-08-18 18:49:49 [INFO] [1/11] ID: tag:google.com,2013:googlealerts/feed:13818837162412972438
+2026-08-18 18:49:49 [INFO] Título: Comissão Especial de <b>Recuperação Judicial</b> prepara contribuições para projeto sobre crise ...
+2026-08-18 18:49:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:49:50 [INFO] Classificação: enviar
+2026-08-18 18:49:50 [INFO] Aguardando 2.55s...
+2026-08-18 18:49:52 [INFO] [2/11] ID: tag:google.com,2013:googlealerts/feed:14511416368661457677
+2026-08-18 18:49:52 [INFO] Título: Desembargador do TJRJ é mantido afastado de processos da <b>recuperação judicial</b> da Oi
+2026-08-18 18:49:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:49:53 [INFO] Classificação: enviar
+2026-08-18 18:49:53 [INFO] Aguardando 2.67s...
+2026-08-18 18:49:55 [INFO] [3/11] ID: tag:google.com,2013:googlealerts/feed:6508675439558606153
+2026-08-18 18:49:55 [INFO] Título: <b>Recuperação judicial</b>: Casas Bahia | Vero Notícias
+2026-08-18 18:49:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:49:55 [INFO] Classificação: enviar
+2026-08-18 18:49:55 [INFO] Aguardando 2.79s...
+2026-08-18 18:49:58 [INFO] [4/11] ID: tag:google.com,2013:googlealerts/feed:18267583626110556836
+2026-08-18 18:49:58 [INFO] Título: Demitidos da Casas Bahia podem ter desconto na rescisão - UOL Economia
+2026-08-18 18:49:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:49:58 [INFO] Classificação: nao_enviar
+2026-08-18 18:49:58 [INFO] Aguardando 2.70s...
+2026-08-18 18:50:01 [INFO] [5/11] ID: tag:google.com,2013:googlealerts/feed:14077280300003007687
+2026-08-18 18:50:01 [INFO] Título: PODCAST | O Café da Manhã desta terça-feira (18) explica o pedido de <b>recuperação judicial</b> ...
+2026-08-18 18:50:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:50:01 [INFO] Classificação: enviar
+2026-08-18 18:50:01 [INFO] Aguardando 2.79s...
+2026-08-18 18:50:04 [INFO] [6/11] ID: tag:google.com,2013:googlealerts/feed:811810995572259759
+2026-08-18 18:50:04 [INFO] Título: Casas Bahia (BHIA3): Os dois bancos mais expostos a dívidas de R$ 17,3 bilhões
+2026-08-18 18:50:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:50:05 [INFO] Classificação: nao_enviar
+2026-08-18 18:50:05 [INFO] Aguardando 2.64s...
+2026-08-18 18:50:07 [INFO] [7/11] ID: tag:google.com,2013:googlealerts/feed:8530377867002520312
+2026-08-18 18:50:07 [INFO] Título: Comissão Especial de Recuperação <b>Judicial</b> prepara contribuições para projeto sobre crise ...
+2026-08-18 18:50:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:50:08 [INFO] Classificação: enviar
+2026-08-18 18:50:08 [INFO] Aguardando 2.68s...
+2026-08-18 18:50:10 [INFO] [8/11] ID: tag:google.com,2013:googlealerts/feed:6913044537137786299
+2026-08-18 18:50:10 [INFO] Título: Desembargador do TJRJ é mantido afastado de processos da recuperação <b>judicial</b> da Oi
+2026-08-18 18:50:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:50:10 [INFO] Classificação: enviar
+2026-08-18 18:50:10 [INFO] Aguardando 2.72s...
+2026-08-18 18:50:13 [INFO] [9/11] ID: tag:google.com,2013:googlealerts/feed:6817707342947969189
+2026-08-18 18:50:13 [INFO] Título: Após fechar 298 lojas, Casas Bahia faz <b>liquidação</b> de eletrodomésticos em depósito de SP
+2026-08-18 18:50:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:50:14 [INFO] Classificação: nao_enviar
+2026-08-18 18:50:14 [INFO] Aguardando 2.63s...
+2026-08-18 18:50:16 [INFO] [10/11] ID: tag:google.com,2013:googlealerts/feed:7323130653820450682
+2026-08-18 18:50:16 [INFO] Título: FII HSLG11 despenca 9% e aprofunda tombo após recuperação <b>judicial</b> da Casas Bahia
+2026-08-18 18:50:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:50:17 [INFO] Classificação: enviar
+2026-08-18 18:50:17 [INFO] Aguardando 2.66s...
+2026-08-18 18:50:19 [INFO] [11/11] ID: tag:google.com,2013:googlealerts/feed:17359090191991520403
+2026-08-18 18:50:19 [INFO] Título: Mexicana Braskem Idesa entra com pedido de recuperação <b>judicial</b> nos EUA para reduzir dívida
+2026-08-18 18:50:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 18:50:19 [INFO] Classificação: enviar
+2026-08-18 18:50:19 [INFO] ======================================================================
+2026-08-18 18:50:19 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-18 18:50:19 [INFO] ======================================================================
+2026-08-18 18:50:19 [INFO] Processadas: 11
+2026-08-18 18:50:19 [INFO] Enviar: 8
+2026-08-18 18:50:19 [INFO] Não enviar: 3
+2026-08-18 18:50:19 [INFO] ======================================================================
