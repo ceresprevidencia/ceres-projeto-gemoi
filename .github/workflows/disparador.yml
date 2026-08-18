@@ -1,4 +1,4 @@
-name: Disparador de Links - Execução do Pipeline
+name: Disparador Mercado de Crédito
 
 on:
   schedule:
@@ -23,7 +23,9 @@ jobs:
           python-version: '3.13'
 
       - name: Instalar dependências
+        # O comando 'cd' faz o terminal entrar na pasta do projeto antes de instalar
         run: |
+          cd bot-mercado-de-credito
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
@@ -31,19 +33,23 @@ jobs:
         env:
           GOOGLE_CHAT_WEBHOOK_URL: ${{ secrets.GOOGLE_CHAT_WEBHOOK_URL }}
           GOOGLE_ALERTS_FEEDS: ${{ secrets.GOOGLE_ALERTS_FEEDS }}
-        run: python pipeline_noticias.py
+        # Entra na pasta do projeto e roda o bot
+        run: |
+          cd bot-mercado-de-credito
+          python pipeline_noticias.py
 
       - name: Commit e push do resultado
-      
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add -A
+          
+          # Manda o git olhar apenas para as alterações dentro da pasta do bot
+          git add bot-mercado-de-credito/
 
           if git diff --cached --quiet; then
-            echo "Nada para commitar"
+            echo "Nada para commitar no bot de crédito"
             exit 0
           fi
 
-          git commit -m "Atualizar estado do pipeline [skip ci]"
-          git push origin HEAD:master
+          git commit -m "Atualizar estado do pipeline mercado de crédito [skip ci]"
+          git push
