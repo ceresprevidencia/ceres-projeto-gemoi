@@ -58,22 +58,6 @@ with st.container(key="meu-container"):
 with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
     with st.container(width=1200):
 
-
-  
-        import altair as alt
-
-        import sys
-        import importlib.metadata
-
-        st.write("### sys.path")
-        for p in sys.path:
-            st.code(p)
-
-        st.write("### Todas as distribuições 'altair' encontradas")
-        for dist in importlib.metadata.distributions():
-            if dist.metadata["Name"] and dist.metadata["Name"].lower() == "altair":
-                st.write(f"Versão: {dist.version} — Localização: {dist._path}")
-
         col1, col2 = st.columns([.80, 0.20])
         with col2:
 
