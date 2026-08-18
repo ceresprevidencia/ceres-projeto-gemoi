@@ -58,6 +58,25 @@ with st.container(key="meu-container"):
 with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
     with st.container(width=1200):
 
+
+  
+        import importlib.metadata
+
+        st.title("📦 Todas as Bibliotecas Instaladas")
+
+        # Captura todas as distribuições instaladas no ambiente virtual
+        todas_as_libs = sorted(
+            [(dist.metadata["Name"], dist.version) for dist in importlib.metadata.distributions()],
+            key=lambda x: x[0].lower()
+        )
+
+        # Exibe a quantidade total de pacotes encontrados
+        st.metric(label="Total de Pacotes", value=len(todas_as_libs))
+
+        # Exibe as bibliotecas em formato de tabela limpa
+        st.table([{"Biblioteca": nome, "Versão": versao} for nome, versao in todas_as_libs])
+
+
         col1, col2 = st.columns([.80, 0.20])
         with col2:
 
