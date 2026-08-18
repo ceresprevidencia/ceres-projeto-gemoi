@@ -60,22 +60,11 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
 
 
   
-        import importlib.metadata
+        import altair as alt
 
-        st.title("📦 Todas as Bibliotecas Instaladas")
-
-        # Captura todas as distribuições instaladas no ambiente virtual
-        todas_as_libs = sorted(
-            [(dist.metadata["Name"], dist.version) for dist in importlib.metadata.distributions()],
-            key=lambda x: x[0].lower()
-        )
-
-        # Exibe a quantidade total de pacotes encontrados
-        st.metric(label="Total de Pacotes", value=len(todas_as_libs))
-
-        # Exibe as bibliotecas em formato de tabela limpa
-        st.table([{"Biblioteca": nome, "Versão": versao} for nome, versao in todas_as_libs])
-
+        st.write("Versão:", alt.__version__)
+        st.write("Caminho do módulo:", alt.__file__)
+        st.write("Tem selection_point?", hasattr(alt, "selection_point"))
 
         col1, col2 = st.columns([.80, 0.20])
         with col2:
