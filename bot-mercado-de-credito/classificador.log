@@ -1797,3 +1797,106 @@
 2026-08-18 21:31:52 [INFO] Enviar: 8
 2026-08-18 21:31:52 [INFO] Não enviar: 9
 2026-08-18 21:31:52 [INFO] ======================================================================
+2026-08-18 22:32:05 [INFO] ======================================================================
+2026-08-18 22:32:05 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-18 22:32:05 [INFO] ======================================================================
+2026-08-18 22:32:05 [INFO] Notícias com status 'extraida': 18
+2026-08-18 22:32:05 [INFO] Limite: 20 requisições/minuto
+2026-08-18 22:32:05 [INFO] Intervalo mínimo: 3.0s
+2026-08-18 22:32:05 [INFO] ======================================================================
+2026-08-18 22:32:05 [INFO] [1/18] ID: tag:google.com,2013:googlealerts/feed:4056689966547347721
+2026-08-18 22:32:05 [INFO] Título: 'Governança preventiva' não elimina o risco, mas pode frear novas RJs de varejistas, dizem analistas
+2026-08-18 22:32:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:05 [INFO] Classificação: enviar
+2026-08-18 22:32:05 [INFO] Aguardando 2.67s...
+2026-08-18 22:32:08 [INFO] [2/18] ID: tag:google.com,2013:googlealerts/feed:11667058652010377158
+2026-08-18 22:32:08 [INFO] Título: Braskem Idesa entra com pedido de Chapter 11 nos EUA para reestruturar dívida
+2026-08-18 22:32:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:08 [INFO] Classificação: enviar
+2026-08-18 22:32:08 [INFO] Aguardando 2.81s...
+2026-08-18 22:32:11 [INFO] [3/18] ID: tag:google.com,2013:googlealerts/feed:2929693919171970829
+2026-08-18 22:32:11 [INFO] Título: Braskem prepara pedido de <b>recuperação extrajudicial</b> - O GLOBO
+2026-08-18 22:32:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:11 [INFO] Classificação: enviar
+2026-08-18 22:32:11 [INFO] Aguardando 2.70s...
+2026-08-18 22:32:14 [INFO] [4/18] ID: tag:google.com,2013:googlealerts/feed:12054413719970723421
+2026-08-18 22:32:14 [INFO] Título: <b>Recuperação</b> judicial e <b>extrajudicial</b> no varejo podem garantir operações e salvar negócios
+2026-08-18 22:32:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:14 [INFO] Classificação: enviar
+2026-08-18 22:32:14 [INFO] Aguardando 2.68s...
+2026-08-18 22:32:17 [INFO] [5/18] ID: tag:google.com,2013:googlealerts/feed:7850854163981542266
+2026-08-18 22:32:17 [INFO] Título: Empresa de energia pede <b>recuperação</b> judicial dois meses após dizer que faturaria R$ 1 bi este ano
+2026-08-18 22:32:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:17 [INFO] Classificação: enviar
+2026-08-18 22:32:17 [INFO] Aguardando 2.79s...
+2026-08-18 22:32:20 [INFO] [6/18] ID: tag:google.com,2013:googlealerts/feed:9601221556467114262
+2026-08-18 22:32:20 [INFO] Título: CVM abre inquérito sobre aplicação de R$ 1,5 bilhão da Oncoclínicas no Banco Master
+2026-08-18 22:32:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:20 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:20 [INFO] Aguardando 2.69s...
+2026-08-18 22:32:23 [INFO] [7/18] ID: tag:google.com,2013:googlealerts/feed:9042960277984492989
+2026-08-18 22:32:23 [INFO] Título: Tradener consegue desbloquear créditos posteriores a maio na CCEE - MegaWhat - UOL
+2026-08-18 22:32:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:23 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:23 [INFO] Aguardando 2.70s...
+2026-08-18 22:32:26 [INFO] [8/18] ID: tag:google.com,2013:googlealerts/feed:4316427754400104579
+2026-08-18 22:32:26 [INFO] Título: Casas Bahia promove <b>liquidação</b> com descontos de até 60% após fechar 298 lojas | VEJA
+2026-08-18 22:32:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:26 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:26 [INFO] Aguardando 2.71s...
+2026-08-18 22:32:29 [INFO] [9/18] ID: tag:google.com,2013:googlealerts/feed:947730774861027240
+2026-08-18 22:32:29 [INFO] Título: Demitidos da Casas Bahia podem ter desconto na rescisão - UOL Economia
+2026-08-18 22:32:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:29 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:29 [INFO] Aguardando 2.69s...
+2026-08-18 22:32:32 [INFO] [10/18] ID: tag:google.com,2013:googlealerts/feed:9433789644193463975
+2026-08-18 22:32:32 [INFO] Título: CEO da Casas Bahia diz que "2027 será pior que 2026" - Poder360
+2026-08-18 22:32:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:32 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:32 [INFO] Aguardando 2.65s...
+2026-08-18 22:32:35 [INFO] [11/18] ID: tag:google.com,2013:googlealerts/feed:13853135808883273000
+2026-08-18 22:32:35 [INFO] Título: Pedidos de recuperação <b>judicial</b> crescem 22% no primeiro trimestre de 2026
+2026-08-18 22:32:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:35 [INFO] Classificação: enviar
+2026-08-18 22:32:35 [INFO] Aguardando 2.81s...
+2026-08-18 22:32:38 [INFO] [12/18] ID: tag:google.com,2013:googlealerts/feed:9590349100589541817
+2026-08-18 22:32:38 [INFO] Título: Exclusivo: Michael Klein é credor da Casas Bahia e deve votar no plano de reestruturação
+2026-08-18 22:32:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:38 [INFO] Classificação: enviar
+2026-08-18 22:32:38 [INFO] Aguardando 2.80s...
+2026-08-18 22:32:41 [INFO] [13/18] ID: tag:google.com,2013:googlealerts/feed:8221405733232043700
+2026-08-18 22:32:41 [INFO] Título: CVM marca julgamento de Vorcaro e Master fraudes - Claudio Dantas
+2026-08-18 22:32:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:41 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:41 [INFO] Aguardando 2.79s...
+2026-08-18 22:32:44 [INFO] [14/18] ID: tag:google.com,2013:googlealerts/feed:14909473828724227469
+2026-08-18 22:32:44 [INFO] Título: CVM marca julgamento de processo que envolve Banco Master e família Vorcaro
+2026-08-18 22:32:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:44 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:44 [INFO] Aguardando 2.71s...
+2026-08-18 22:32:47 [INFO] [15/18] ID: tag:google.com,2013:googlealerts/feed:9388512837283535537
+2026-08-18 22:32:47 [INFO] Título: 'Governança preventiva' não elimina o risco, mas pode frear novas RJs de varejistas, dizem analistas
+2026-08-18 22:32:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:47 [INFO] Classificação: enviar
+2026-08-18 22:32:47 [INFO] Aguardando 2.67s...
+2026-08-18 22:32:50 [INFO] [16/18] ID: tag:google.com,2013:googlealerts/feed:15357902390305978574
+2026-08-18 22:32:50 [INFO] Título: CVM julga suspeitas envolvendo Banco Master - Revista Oeste
+2026-08-18 22:32:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:50 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:50 [INFO] Aguardando 2.78s...
+2026-08-18 22:32:53 [INFO] [17/18] ID: tag:google.com,2013:googlealerts/feed:11472484756643247362
+2026-08-18 22:32:53 [INFO] Título: CVM marca julgamento de processo que envolve Banco Master e Daniel Vorcaro
+2026-08-18 22:32:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:53 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:53 [INFO] Aguardando 2.66s...
+2026-08-18 22:32:56 [INFO] [18/18] ID: tag:google.com,2013:googlealerts/feed:15924044749970983019
+2026-08-18 22:32:56 [INFO] Título: STJ: Prescrição não transfere cota de pecúlio a outro beneficiário - Migalhas
+2026-08-18 22:32:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 22:32:56 [INFO] Classificação: nao_enviar
+2026-08-18 22:32:56 [INFO] ======================================================================
+2026-08-18 22:32:56 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-18 22:32:56 [INFO] ======================================================================
+2026-08-18 22:32:56 [INFO] Processadas: 18
+2026-08-18 22:32:56 [INFO] Enviar: 8
+2026-08-18 22:32:56 [INFO] Não enviar: 10
+2026-08-18 22:32:56 [INFO] ======================================================================
