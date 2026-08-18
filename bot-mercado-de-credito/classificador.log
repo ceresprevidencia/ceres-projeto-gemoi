@@ -1900,3 +1900,36 @@
 2026-08-18 22:32:56 [INFO] Enviar: 8
 2026-08-18 22:32:56 [INFO] Não enviar: 10
 2026-08-18 22:32:56 [INFO] ======================================================================
+2026-08-18 23:29:08 [INFO] ======================================================================
+2026-08-18 23:29:08 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-18 23:29:08 [INFO] ======================================================================
+2026-08-18 23:29:08 [INFO] Notícias com status 'extraida': 4
+2026-08-18 23:29:08 [INFO] Limite: 20 requisições/minuto
+2026-08-18 23:29:08 [INFO] Intervalo mínimo: 3.0s
+2026-08-18 23:29:08 [INFO] ======================================================================
+2026-08-18 23:29:08 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:18316457972544324260
+2026-08-18 23:29:08 [INFO] Título: Ação da Raízen (RAIZ4) deveria valer menos que uma bala, segundo o BofA, que vê dívida ...
+2026-08-18 23:29:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 23:29:09 [INFO] Classificação: nao_enviar
+2026-08-18 23:29:09 [INFO] Aguardando 2.53s...
+2026-08-18 23:29:11 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:2684009874446385060
+2026-08-18 23:29:11 [INFO] Título: Recuperação <b>judicial</b> vira 'indústria' e atrai dezenas de fundos no Brasil - Exame
+2026-08-18 23:29:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 23:29:11 [INFO] Classificação: enviar
+2026-08-18 23:29:11 [INFO] Aguardando 2.73s...
+2026-08-18 23:29:14 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:18196232039582609095
+2026-08-18 23:29:14 [INFO] Título: Casas Bahia possui dívida milionária com a Apple e sofre com crise colossal
+2026-08-18 23:29:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 23:29:14 [INFO] Classificação: nao_enviar
+2026-08-18 23:29:14 [INFO] Aguardando 2.66s...
+2026-08-18 23:29:17 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:6318281013136556914
+2026-08-18 23:29:17 [INFO] Título: Varejo em colapso: e-commerce avança, juros corroem e 986 empresas estão em RJ
+2026-08-18 23:29:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 23:29:17 [INFO] Classificação: enviar
+2026-08-18 23:29:17 [INFO] ======================================================================
+2026-08-18 23:29:17 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-18 23:29:17 [INFO] ======================================================================
+2026-08-18 23:29:17 [INFO] Processadas: 4
+2026-08-18 23:29:17 [INFO] Enviar: 2
+2026-08-18 23:29:17 [INFO] Não enviar: 2
+2026-08-18 23:29:17 [INFO] ======================================================================
