@@ -62,9 +62,17 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
   
         import altair as alt
 
-        st.write("Versão:", alt.__version__)
-        st.write("Caminho do módulo:", alt.__file__)
-        st.write("Tem selection_point?", hasattr(alt, "selection_point"))
+        import sys
+        import importlib.metadata
+
+        st.write("### sys.path")
+        for p in sys.path:
+            st.code(p)
+
+        st.write("### Todas as distribuições 'altair' encontradas")
+        for dist in importlib.metadata.distributions():
+            if dist.metadata["Name"] and dist.metadata["Name"].lower() == "altair":
+                st.write(f"Versão: {dist.version} — Localização: {dist._path}")
 
         col1, col2 = st.columns([.80, 0.20])
         with col2:
