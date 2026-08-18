@@ -1215,3 +1215,56 @@
 2026-08-18 13:03:40 [INFO] Enviar: 14
 2026-08-18 13:03:40 [INFO] Não enviar: 3
 2026-08-18 13:03:40 [INFO] ======================================================================
+2026-08-18 16:45:40 [INFO] ======================================================================
+2026-08-18 16:45:40 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-18 16:45:40 [INFO] ======================================================================
+2026-08-18 16:45:40 [INFO] Notícias com status 'extraida': 8
+2026-08-18 16:45:40 [INFO] Limite: 20 requisições/minuto
+2026-08-18 16:45:40 [INFO] Intervalo mínimo: 3.0s
+2026-08-18 16:45:40 [INFO] ======================================================================
+2026-08-18 16:45:40 [INFO] [1/8] ID: tag:google.com,2013:googlealerts/feed:8548204195031172108
+2026-08-18 16:45:40 [INFO] Título: TJ/GO impede banco de levantar valores bloqueados antes de recuperação <b>judicial</b>
+2026-08-18 16:45:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 16:45:40 [INFO] Classificação: enviar
+2026-08-18 16:45:40 [INFO] Aguardando 2.65s...
+2026-08-18 16:45:43 [INFO] [2/8] ID: tag:google.com,2013:googlealerts/feed:2586942073414146743
+2026-08-18 16:45:43 [INFO] Título: Recuperação <b>judicial</b>: Casas Bahia | Vero Notícias
+2026-08-18 16:45:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 16:45:43 [INFO] Classificação: enviar
+2026-08-18 16:45:43 [INFO] Aguardando 2.84s...
+2026-08-18 16:45:46 [INFO] [3/8] ID: tag:google.com,2013:googlealerts/feed:3942736053467982533
+2026-08-18 16:45:46 [INFO] Título: Bancos e fabricantes de eletrônicos estão entre os maiores credores da Casas Bahia; veja lista
+2026-08-18 16:45:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 16:45:46 [INFO] Classificação: nao_enviar
+2026-08-18 16:45:46 [INFO] Aguardando 2.76s...
+2026-08-18 16:45:49 [INFO] [4/8] ID: tag:google.com,2013:googlealerts/feed:12553619176174424953
+2026-08-18 16:45:49 [INFO] Título: Epidemia de recuperações judiciais: Casas Bahia (BHIA3) e Marabraz podem ser só o ...
+2026-08-18 16:45:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 16:45:49 [INFO] Classificação: enviar
+2026-08-18 16:45:49 [INFO] Aguardando 2.80s...
+2026-08-18 16:45:52 [INFO] [5/8] ID: tag:google.com,2013:googlealerts/feed:6606058117876271774
+2026-08-18 16:45:52 [INFO] Título: Com briga societária, Pontal-Thopen pede RJ para passivo de R$ 4,6 bi - MegaWhat
+2026-08-18 16:45:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 16:45:52 [INFO] Classificação: enviar
+2026-08-18 16:45:52 [INFO] Aguardando 2.64s...
+2026-08-18 16:45:55 [INFO] [6/8] ID: tag:google.com,2013:googlealerts/feed:5418165623677218856
+2026-08-18 16:45:55 [INFO] Título: Sindicato vai acionar Justiça para anular demissão em massa na Casas Bahia
+2026-08-18 16:45:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 16:45:55 [INFO] Classificação: nao_enviar
+2026-08-18 16:45:55 [INFO] Aguardando 2.71s...
+2026-08-18 16:45:58 [INFO] [7/8] ID: tag:google.com,2013:googlealerts/feed:134009247379408210
+2026-08-18 16:45:58 [INFO] Título: O Pontofrio se uniu à Casas Bahia há mais de 10 anos. Hoje, é parte do colapso - Exame
+2026-08-18 16:45:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 16:45:58 [INFO] Classificação: nao_enviar
+2026-08-18 16:45:58 [INFO] Aguardando 2.69s...
+2026-08-18 16:46:01 [INFO] [8/8] ID: tag:google.com,2013:googlealerts/feed:4315560569734576112
+2026-08-18 16:46:01 [INFO] Título: Mercado mantém estáveis projeções para inflação, juros, PIB e dólar - paranatinga news
+2026-08-18 16:46:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 16:46:01 [INFO] Classificação: nao_enviar
+2026-08-18 16:46:01 [INFO] ======================================================================
+2026-08-18 16:46:01 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-18 16:46:01 [INFO] ======================================================================
+2026-08-18 16:46:01 [INFO] Processadas: 8
+2026-08-18 16:46:01 [INFO] Enviar: 4
+2026-08-18 16:46:01 [INFO] Não enviar: 4
+2026-08-18 16:46:01 [INFO] ======================================================================
