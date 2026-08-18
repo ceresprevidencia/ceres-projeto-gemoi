@@ -1528,3 +1528,106 @@
 2026-08-18 18:50:19 [INFO] Enviar: 8
 2026-08-18 18:50:19 [INFO] Não enviar: 3
 2026-08-18 18:50:19 [INFO] ======================================================================
+2026-08-18 19:33:29 [INFO] ======================================================================
+2026-08-18 19:33:29 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-18 19:33:29 [INFO] ======================================================================
+2026-08-18 19:33:29 [INFO] Notícias com status 'extraida': 18
+2026-08-18 19:33:29 [INFO] Limite: 20 requisições/minuto
+2026-08-18 19:33:29 [INFO] Intervalo mínimo: 3.0s
+2026-08-18 19:33:29 [INFO] ======================================================================
+2026-08-18 19:33:29 [INFO] [1/18] ID: tag:google.com,2013:googlealerts/feed:13319075359646271661
+2026-08-18 19:33:29 [INFO] Título: Mexicana Braskem Idesa Pede <b>Recuperação Judicial</b> nos EUA e Renegocia Dívida de US ...
+2026-08-18 19:33:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:29 [INFO] Classificação: enviar
+2026-08-18 19:33:29 [INFO] Aguardando 2.65s...
+2026-08-18 19:33:32 [INFO] [2/18] ID: tag:google.com,2013:googlealerts/feed:2354267060224300525
+2026-08-18 19:33:32 [INFO] Título: 'Eu era o patinho feio, hoje sou o príncipe', diz advogado especializado em reestruturação de dívidas
+2026-08-18 19:33:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:32 [INFO] Classificação: nao_enviar
+2026-08-18 19:33:32 [INFO] Aguardando 2.72s...
+2026-08-18 19:33:35 [INFO] [3/18] ID: tag:google.com,2013:googlealerts/feed:1663793308102134179
+2026-08-18 19:33:35 [INFO] Título: Briga entre pais e filhos e dívida de R$ 140 milhões: como a gigante Marabraz entrou em crise
+2026-08-18 19:33:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:35 [INFO] Classificação: nao_enviar
+2026-08-18 19:33:35 [INFO] Aguardando 2.75s...
+2026-08-18 19:33:38 [INFO] [4/18] ID: tag:google.com,2013:googlealerts/feed:3638917826991742523
+2026-08-18 19:33:38 [INFO] Título: O que levou empresas como Casas Bahia, Grupo Toky, Marabraz e Americanas a pedirem ...
+2026-08-18 19:33:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:39 [INFO] Classificação: enviar
+2026-08-18 19:33:39 [INFO] Aguardando 2.58s...
+2026-08-18 19:33:41 [INFO] [5/18] ID: tag:google.com,2013:googlealerts/feed:3845136518412878996
+2026-08-18 19:33:41 [INFO] Título: Mexicana Braskem Idesa Pede Recuperação <b>Judicial</b> nos EUA e Renegocia Dívida de US ...
+2026-08-18 19:33:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:41 [INFO] Classificação: enviar
+2026-08-18 19:33:41 [INFO] Aguardando 2.72s...
+2026-08-18 19:33:44 [INFO] [6/18] ID: tag:google.com,2013:googlealerts/feed:11313238866708078678
+2026-08-18 19:33:44 [INFO] Título: Recuperação <b>judicial</b> de Casas Bahia e Marabraz ameaça crédito, estoques e lojas
+2026-08-18 19:33:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:44 [INFO] Classificação: enviar
+2026-08-18 19:33:44 [INFO] Aguardando 2.73s...
+2026-08-18 19:33:47 [INFO] [7/18] ID: tag:google.com,2013:googlealerts/feed:5925622980559414069
+2026-08-18 19:33:47 [INFO] Título: Briga entre pais e filhos e dívida de R$ 140 milhões: como a gigante Marabraz entrou em crise
+2026-08-18 19:33:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:47 [INFO] Classificação: nao_enviar
+2026-08-18 19:33:47 [INFO] Aguardando 2.71s...
+2026-08-18 19:33:50 [INFO] [8/18] ID: tag:google.com,2013:googlealerts/feed:253596220108466779
+2026-08-18 19:33:50 [INFO] Título: O que levou empresas como Casas Bahia, Grupo Toky, Marabraz e Americanas a pedirem ...
+2026-08-18 19:33:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:50 [INFO] Classificação: enviar
+2026-08-18 19:33:50 [INFO] Aguardando 2.64s...
+2026-08-18 19:33:53 [INFO] [9/18] ID: tag:google.com,2013:googlealerts/feed:1760708157306358053
+2026-08-18 19:33:53 [INFO] Título: O furacão Vânio - O Bastidor
+2026-08-18 19:33:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:53 [INFO] Classificação: nao_enviar
+2026-08-18 19:33:53 [INFO] Aguardando 2.70s...
+2026-08-18 19:33:56 [INFO] [10/18] ID: tag:google.com,2013:googlealerts/feed:4447248634765905546
+2026-08-18 19:33:56 [INFO] Título: Banco Central liquida financeira e consorciadora do grupo Simpala - Agora RN
+2026-08-18 19:33:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:56 [INFO] Classificação: enviar
+2026-08-18 19:33:56 [INFO] Aguardando 2.65s...
+2026-08-18 19:33:59 [INFO] [11/18] ID: tag:google.com,2013:googlealerts/feed:15598582373303495432
+2026-08-18 19:33:59 [INFO] Título: Oncoclínicas entra na mira da CVM por investimento no Banco Master - Bnews
+2026-08-18 19:33:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:33:59 [INFO] Classificação: nao_enviar
+2026-08-18 19:33:59 [INFO] Aguardando 2.75s...
+2026-08-18 19:34:02 [INFO] [12/18] ID: tag:google.com,2013:googlealerts/feed:545336155520814255
+2026-08-18 19:34:02 [INFO] Título: CVM marca julgamento de Vorcaro e Banco Master por suspeita de fraude
+2026-08-18 19:34:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:34:02 [INFO] Classificação: nao_enviar
+2026-08-18 19:34:02 [INFO] Aguardando 2.75s...
+2026-08-18 19:34:05 [INFO] [13/18] ID: tag:google.com,2013:googlealerts/feed:5279628734930202260
+2026-08-18 19:34:05 [INFO] Título: BC liquida duas instituições financeiras do Grupo Simpala | Economia - Pleno.News
+2026-08-18 19:34:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:34:05 [INFO] Classificação: enviar
+2026-08-18 19:34:05 [INFO] Aguardando 2.76s...
+2026-08-18 19:34:08 [INFO] [14/18] ID: tag:google.com,2013:googlealerts/feed:5357750271718369837
+2026-08-18 19:34:08 [INFO] Título: CVM marca julgamento de fraudes que envolve Vorcaro e Master - Gazeta do Povo
+2026-08-18 19:34:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:34:08 [INFO] Classificação: nao_enviar
+2026-08-18 19:34:08 [INFO] Aguardando 2.75s...
+2026-08-18 19:34:11 [INFO] [15/18] ID: tag:google.com,2013:googlealerts/feed:10688080232666627120
+2026-08-18 19:34:11 [INFO] Título: Vorcaro e Master vão a julgamento na CVM em processo que apura fraudes em mercado de capitais
+2026-08-18 19:34:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:34:11 [INFO] Classificação: nao_enviar
+2026-08-18 19:34:11 [INFO] Aguardando 2.66s...
+2026-08-18 19:34:14 [INFO] [16/18] ID: tag:google.com,2013:googlealerts/feed:8311992270649495522
+2026-08-18 19:34:14 [INFO] Título: São devidos honorários mesmo quando execução fiscal é extinta pelo pagamento da dívida ...
+2026-08-18 19:34:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:34:14 [INFO] Classificação: nao_enviar
+2026-08-18 19:34:14 [INFO] Aguardando 2.75s...
+2026-08-18 19:34:17 [INFO] [17/18] ID: tag:google.com,2013:googlealerts/feed:5866193977823559432
+2026-08-18 19:34:17 [INFO] Título: Tesouro pagou R$ 152,46 milhões em dívidas de estados e municípios - Diário Digital
+2026-08-18 19:34:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:34:17 [INFO] Classificação: nao_enviar
+2026-08-18 19:34:17 [INFO] Aguardando 2.76s...
+2026-08-18 19:34:20 [INFO] [18/18] ID: tag:google.com,2013:googlealerts/feed:959581121358911806
+2026-08-18 19:34:20 [INFO] Título: Conhece pessoas que trabalharam na extinta Caixa Econômica Estadual? Herdeiros delas ...
+2026-08-18 19:34:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 19:34:20 [INFO] Classificação: nao_enviar
+2026-08-18 19:34:20 [INFO] ======================================================================
+2026-08-18 19:34:20 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-18 19:34:20 [INFO] ======================================================================
+2026-08-18 19:34:20 [INFO] Processadas: 18
+2026-08-18 19:34:20 [INFO] Enviar: 7
+2026-08-18 19:34:20 [INFO] Não enviar: 11
+2026-08-18 19:34:20 [INFO] ======================================================================
