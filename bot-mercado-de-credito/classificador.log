@@ -1699,3 +1699,101 @@
 2026-08-18 20:33:04 [INFO] Enviar: 4
 2026-08-18 20:33:04 [INFO] Não enviar: 7
 2026-08-18 20:33:04 [INFO] ======================================================================
+2026-08-18 21:31:04 [INFO] ======================================================================
+2026-08-18 21:31:04 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-18 21:31:04 [INFO] ======================================================================
+2026-08-18 21:31:04 [INFO] Notícias com status 'extraida': 17
+2026-08-18 21:31:04 [INFO] Limite: 20 requisições/minuto
+2026-08-18 21:31:04 [INFO] Intervalo mínimo: 3.0s
+2026-08-18 21:31:04 [INFO] ======================================================================
+2026-08-18 21:31:04 [INFO] [1/17] ID: tag:google.com,2013:googlealerts/feed:6108753977057508877
+2026-08-18 21:31:04 [INFO] Título: Crédito rural: Quando a <b>recuperação judicial</b> vira rota de fuga do devedor - Migalhas
+2026-08-18 21:31:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:04 [INFO] Classificação: enviar
+2026-08-18 21:31:04 [INFO] Aguardando 2.73s...
+2026-08-18 21:31:07 [INFO] [2/17] ID: tag:google.com,2013:googlealerts/feed:10810377542198103804
+2026-08-18 21:31:07 [INFO] Título: Empresa da Braskem no México pede <b>recuperação judicial</b> nos EUA - UOL Economia
+2026-08-18 21:31:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:07 [INFO] Classificação: enviar
+2026-08-18 21:31:07 [INFO] Aguardando 2.78s...
+2026-08-18 21:31:10 [INFO] [3/17] ID: tag:google.com,2013:googlealerts/feed:9699326976264791208
+2026-08-18 21:31:10 [INFO] Título: Exclusivo: Michael Klein é credor da Casas Bahia e deve votar no plano de reestruturação
+2026-08-18 21:31:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:10 [INFO] Classificação: enviar
+2026-08-18 21:31:10 [INFO] Aguardando 2.67s...
+2026-08-18 21:31:13 [INFO] [4/17] ID: tag:google.com,2013:googlealerts/feed:8908757624692981104
+2026-08-18 21:31:13 [INFO] Título: Mexicana Braskem Idesa entra com pedido de <b>recuperação judicial</b> nos EUA para reduzir dívida
+2026-08-18 21:31:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:13 [INFO] Classificação: enviar
+2026-08-18 21:31:13 [INFO] Aguardando 2.84s...
+2026-08-18 21:31:16 [INFO] [5/17] ID: tag:google.com,2013:googlealerts/feed:2842076815843354078
+2026-08-18 21:31:16 [INFO] Título: Caiado vê “colapso do varejo” e cita <b>recuperação</b> da Casas Bahia - Poder360
+2026-08-18 21:31:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:16 [INFO] Classificação: enviar
+2026-08-18 21:31:16 [INFO] Aguardando 2.72s...
+2026-08-18 21:31:19 [INFO] [6/17] ID: tag:google.com,2013:googlealerts/feed:6687618464112041191
+2026-08-18 21:31:19 [INFO] Título: CEO da Casas Bahia diz que "2027 será pior que 2026" - Poder360
+2026-08-18 21:31:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:19 [INFO] Classificação: nao_enviar
+2026-08-18 21:31:19 [INFO] Aguardando 2.66s...
+2026-08-18 21:31:22 [INFO] [7/17] ID: tag:google.com,2013:googlealerts/feed:13324862365309910019
+2026-08-18 21:31:22 [INFO] Título: Casas Bahia: RJ acende alerta no mercado de crédito privado - Capital Aberto
+2026-08-18 21:31:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:22 [INFO] Classificação: nao_enviar
+2026-08-18 21:31:22 [INFO] Aguardando 2.74s...
+2026-08-18 21:31:25 [INFO] [8/17] ID: tag:google.com,2013:googlealerts/feed:4966659341026247923
+2026-08-18 21:31:25 [INFO] Título: Tradener consegue desbloquear créditos posteriores a maio na CCEE - MegaWhat - UOL
+2026-08-18 21:31:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:25 [INFO] Classificação: nao_enviar
+2026-08-18 21:31:25 [INFO] Aguardando 2.66s...
+2026-08-18 21:31:28 [INFO] [9/17] ID: tag:google.com,2013:googlealerts/feed:377604251126517892
+2026-08-18 21:31:28 [INFO] Título: Com dívida de R$ 17,3 bilhões, Casas Bahia pede <b>recuperação</b> judicial - Vermelho.org
+2026-08-18 21:31:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:28 [INFO] Classificação: enviar
+2026-08-18 21:31:28 [INFO] Aguardando 2.72s...
+2026-08-18 21:31:31 [INFO] [10/17] ID: tag:google.com,2013:googlealerts/feed:7721932302305916734
+2026-08-18 21:31:31 [INFO] Título: Benefício fiscal avança e Be8 prepara MOU com Governo para se instalar em Suape
+2026-08-18 21:31:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:31 [INFO] Classificação: nao_enviar
+2026-08-18 21:31:31 [INFO] Aguardando 2.70s...
+2026-08-18 21:31:34 [INFO] [11/17] ID: tag:google.com,2013:googlealerts/feed:11759001426342583041
+2026-08-18 21:31:34 [INFO] Título: BHIA3 de acima de R$ 400 a R$ 0,44: a derrocada das ações de Casas Bahia em 6 anos
+2026-08-18 21:31:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:34 [INFO] Classificação: nao_enviar
+2026-08-18 21:31:34 [INFO] Aguardando 2.65s...
+2026-08-18 21:31:37 [INFO] [12/17] ID: tag:google.com,2013:googlealerts/feed:7102471689373538243
+2026-08-18 21:31:37 [INFO] Título: Empresa da Braskem no México pede recuperação <b>judicial</b> nos EUA - UOL Economia
+2026-08-18 21:31:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:37 [INFO] Classificação: enviar
+2026-08-18 21:31:37 [INFO] Aguardando 2.64s...
+2026-08-18 21:31:40 [INFO] [13/17] ID: tag:google.com,2013:googlealerts/feed:9309881155995468237
+2026-08-18 21:31:40 [INFO] Título: Casas Bahia recuperação <b>judicial</b>: o que muda para consumidores? - iG Economia
+2026-08-18 21:31:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:40 [INFO] Classificação: enviar
+2026-08-18 21:31:40 [INFO] Aguardando 2.78s...
+2026-08-18 21:31:43 [INFO] [14/17] ID: tag:google.com,2013:googlealerts/feed:11042851169565749874
+2026-08-18 21:31:43 [INFO] Título: De Mappin a Saraiva: relembre gigantes do varejo brasileiro que quebraram - Revista Veja
+2026-08-18 21:31:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:43 [INFO] Classificação: nao_enviar
+2026-08-18 21:31:43 [INFO] Aguardando 2.72s...
+2026-08-18 21:31:46 [INFO] [15/17] ID: tag:google.com,2013:googlealerts/feed:17141050243971120049
+2026-08-18 21:31:46 [INFO] Título: Demitidos da Casas Bahia podem ter desconto nas verbas da rescisão; entenda o pagamento
+2026-08-18 21:31:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:46 [INFO] Classificação: nao_enviar
+2026-08-18 21:31:46 [INFO] Aguardando 2.69s...
+2026-08-18 21:31:49 [INFO] [16/17] ID: tag:google.com,2013:googlealerts/feed:7640195309261190540
+2026-08-18 21:31:49 [INFO] Título: Casas Bahia: Entenda como o juro pesa na crise do grupo varejista - CNN Brasil
+2026-08-18 21:31:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:49 [INFO] Classificação: nao_enviar
+2026-08-18 21:31:49 [INFO] Aguardando 2.68s...
+2026-08-18 21:31:52 [INFO] [17/17] ID: tag:google.com,2013:googlealerts/feed:3606066240009654389
+2026-08-18 21:31:52 [INFO] Título: Julgamento na CVM sobre fraudes envolve Banco Master - Imirante.com
+2026-08-18 21:31:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 21:31:52 [INFO] Classificação: nao_enviar
+2026-08-18 21:31:52 [INFO] ======================================================================
+2026-08-18 21:31:52 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-18 21:31:52 [INFO] ======================================================================
+2026-08-18 21:31:52 [INFO] Processadas: 17
+2026-08-18 21:31:52 [INFO] Enviar: 8
+2026-08-18 21:31:52 [INFO] Não enviar: 9
+2026-08-18 21:31:52 [INFO] ======================================================================
