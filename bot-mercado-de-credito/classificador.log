@@ -1631,3 +1631,71 @@
 2026-08-18 19:34:20 [INFO] Enviar: 7
 2026-08-18 19:34:20 [INFO] Não enviar: 11
 2026-08-18 19:34:20 [INFO] ======================================================================
+2026-08-18 20:32:34 [INFO] ======================================================================
+2026-08-18 20:32:34 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-18 20:32:34 [INFO] ======================================================================
+2026-08-18 20:32:34 [INFO] Notícias com status 'extraida': 11
+2026-08-18 20:32:34 [INFO] Limite: 20 requisições/minuto
+2026-08-18 20:32:34 [INFO] Intervalo mínimo: 3.0s
+2026-08-18 20:32:34 [INFO] ======================================================================
+2026-08-18 20:32:34 [INFO] [1/11] ID: tag:google.com,2013:googlealerts/feed:2262696582948417126
+2026-08-18 20:32:34 [INFO] Título: Após pedido de <b>recuperação judicial</b>, ações da Casas Bahia desabam 33,3%
+2026-08-18 20:32:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:32:35 [INFO] Classificação: enviar
+2026-08-18 20:32:35 [INFO] Aguardando 2.24s...
+2026-08-18 20:32:37 [INFO] [2/11] ID: tag:google.com,2013:googlealerts/feed:2379215746773104109
+2026-08-18 20:32:37 [INFO] Título: Reestruturação de dívida deixa de ser "patinho feio" do mercado - NeoFeed
+2026-08-18 20:32:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:32:37 [INFO] Classificação: nao_enviar
+2026-08-18 20:32:37 [INFO] Aguardando 2.51s...
+2026-08-18 20:32:40 [INFO] [3/11] ID: tag:google.com,2013:googlealerts/feed:11896788151589955307
+2026-08-18 20:32:40 [INFO] Título: Monopólios varejistas entram em <b>recuperação</b> fiscal e expõem crise do capitalismo burocrático
+2026-08-18 20:32:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:32:40 [INFO] Classificação: nao_enviar
+2026-08-18 20:32:40 [INFO] Aguardando 2.78s...
+2026-08-18 20:32:43 [INFO] [4/11] ID: tag:google.com,2013:googlealerts/feed:2793181110333533479
+2026-08-18 20:32:43 [INFO] Título: O risco invisível - Holding - Monitor Mercantil
+2026-08-18 20:32:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:32:43 [INFO] Classificação: nao_enviar
+2026-08-18 20:32:43 [INFO] Aguardando 2.61s...
+2026-08-18 20:32:46 [INFO] [5/11] ID: tag:google.com,2013:googlealerts/feed:10143353754736318688
+2026-08-18 20:32:46 [INFO] Título: JOTA Principal | Fala de Kassab sobre 'zero' chances de Flávio escancara disputa na ...
+2026-08-18 20:32:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:32:46 [INFO] Classificação: nao_enviar
+2026-08-18 20:32:46 [INFO] Aguardando 2.71s...
+2026-08-18 20:32:49 [INFO] [6/11] ID: tag:google.com,2013:googlealerts/feed:8594993683770246996
+2026-08-18 20:32:49 [INFO] Título: Sindicato cobra Casas Bahia sobre futuro de 900 trabalhadores da Bartira em São Caetano
+2026-08-18 20:32:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:32:49 [INFO] Classificação: nao_enviar
+2026-08-18 20:32:49 [INFO] Aguardando 2.58s...
+2026-08-18 20:32:52 [INFO] [7/11] ID: tag:google.com,2013:googlealerts/feed:17523848806538957632
+2026-08-18 20:32:52 [INFO] Título: Casas Bahia põe cláusulas ipso facto no centro da <b>recuperação</b> judicial - Migalhas
+2026-08-18 20:32:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:32:52 [INFO] Classificação: enviar
+2026-08-18 20:32:52 [INFO] Aguardando 2.80s...
+2026-08-18 20:32:55 [INFO] [8/11] ID: tag:google.com,2013:googlealerts/feed:1039552604995382965
+2026-08-18 20:32:55 [INFO] Título: Casas Bahia anunciam pedido de <b>recuperação</b> judicial - Opinião em Pauta
+2026-08-18 20:32:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:32:55 [INFO] Classificação: enviar
+2026-08-18 20:32:55 [INFO] Aguardando 2.63s...
+2026-08-18 20:32:58 [INFO] [9/11] ID: tag:google.com,2013:googlealerts/feed:8771241047675476009
+2026-08-18 20:32:58 [INFO] Título: Casas Bahia demitiu mais de 300 em Salvador, diz sindicato | G1 - Globo
+2026-08-18 20:32:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:32:58 [INFO] Classificação: nao_enviar
+2026-08-18 20:32:58 [INFO] Aguardando 2.70s...
+2026-08-18 20:33:01 [INFO] [10/11] ID: tag:google.com,2013:googlealerts/feed:9058423345824975378
+2026-08-18 20:33:01 [INFO] Título: Após pedido de recuperação <b>judicial</b>, ações da Casas Bahia desabam 33,3%
+2026-08-18 20:33:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:33:01 [INFO] Classificação: enviar
+2026-08-18 20:33:01 [INFO] Aguardando 2.62s...
+2026-08-18 20:33:04 [INFO] [11/11] ID: tag:google.com,2013:googlealerts/feed:10382381126422248667
+2026-08-18 20:33:04 [INFO] Título: Casas Bahia: RJ acende alerta no mercado de crédito privado - Capital Aberto
+2026-08-18 20:33:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-18 20:33:04 [INFO] Classificação: nao_enviar
+2026-08-18 20:33:04 [INFO] ======================================================================
+2026-08-18 20:33:04 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-18 20:33:04 [INFO] ======================================================================
+2026-08-18 20:33:04 [INFO] Processadas: 11
+2026-08-18 20:33:04 [INFO] Enviar: 4
+2026-08-18 20:33:04 [INFO] Não enviar: 7
+2026-08-18 20:33:04 [INFO] ======================================================================
