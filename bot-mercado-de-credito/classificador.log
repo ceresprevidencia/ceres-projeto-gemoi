@@ -2633,3 +2633,51 @@
 2026-08-19 14:42:55 [INFO] Enviar: 8
 2026-08-19 14:42:55 [INFO] Não enviar: 24
 2026-08-19 14:42:55 [INFO] ======================================================================
+2026-08-19 15:39:13 [INFO] ======================================================================
+2026-08-19 15:39:13 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 15:39:13 [INFO] ======================================================================
+2026-08-19 15:39:13 [INFO] Notícias com status 'extraida': 7
+2026-08-19 15:39:13 [INFO] Limite: 20 requisições/minuto
+2026-08-19 15:39:13 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 15:39:13 [INFO] ======================================================================
+2026-08-19 15:39:13 [INFO] [1/7] ID: tag:google.com,2013:googlealerts/feed:2080767515829974783
+2026-08-19 15:39:13 [INFO] Título: Após queda de quase 15%, FII esclarece impacto da recuperação <b>judicial</b> da Casas Bahia e ...
+2026-08-19 15:39:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 15:39:13 [INFO] Classificação: enviar
+2026-08-19 15:39:13 [INFO] Aguardando 2.67s...
+2026-08-19 15:39:16 [INFO] [2/7] ID: tag:google.com,2013:googlealerts/feed:6775091531845947256
+2026-08-19 15:39:16 [INFO] Título: Indústria de vidros automotivos de Caxias do Sul encerra recuperação <b>judicial</b> - GZH
+2026-08-19 15:39:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 15:39:16 [INFO] Classificação: enviar
+2026-08-19 15:39:16 [INFO] Aguardando 2.79s...
+2026-08-19 15:39:19 [INFO] [3/7] ID: tag:google.com,2013:googlealerts/feed:3137358172404317754
+2026-08-19 15:39:19 [INFO] Título: TJ de Goiás inclui na recuperação <b>judicial</b> dívidas de produtores rurais com cooperativas de crédito
+2026-08-19 15:39:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 15:39:19 [INFO] Classificação: enviar
+2026-08-19 15:39:19 [INFO] Aguardando 2.80s...
+2026-08-19 15:39:22 [INFO] [4/7] ID: tag:google.com,2013:googlealerts/feed:8028712934965413651
+2026-08-19 15:39:22 [INFO] Título: O grupo Master no WhatsApp - O Bastidor
+2026-08-19 15:39:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 15:39:23 [INFO] Classificação: nao_enviar
+2026-08-19 15:39:23 [INFO] Aguardando 2.53s...
+2026-08-19 15:39:25 [INFO] [5/7] ID: tag:google.com,2013:googlealerts/feed:13417805411065892484
+2026-08-19 15:39:25 [INFO] Título: Subsidiária da Braskem no México pede recuperação <b>judicial</b> nos EUA - TAGD Advogados
+2026-08-19 15:39:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 15:39:25 [INFO] Classificação: enviar
+2026-08-19 15:39:25 [INFO] Aguardando 2.86s...
+2026-08-19 15:39:28 [INFO] [6/7] ID: tag:google.com,2013:googlealerts/feed:12367743632953887097
+2026-08-19 15:39:28 [INFO] Título: Vorcaro depõe à PF nesta semana sobre ataques ao Banco Central - Claudio Dantas
+2026-08-19 15:39:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 15:39:29 [INFO] Classificação: nao_enviar
+2026-08-19 15:39:29 [INFO] Aguardando 2.61s...
+2026-08-19 15:39:31 [INFO] [7/7] ID: tag:google.com,2013:googlealerts/feed:3763043612646871398
+2026-08-19 15:39:31 [INFO] Título: Grandes bancos se blindam contra cenário econômico turvo e ampliam provisão contra calotes
+2026-08-19 15:39:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 15:39:31 [INFO] Classificação: nao_enviar
+2026-08-19 15:39:31 [INFO] ======================================================================
+2026-08-19 15:39:31 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 15:39:31 [INFO] ======================================================================
+2026-08-19 15:39:31 [INFO] Processadas: 7
+2026-08-19 15:39:31 [INFO] Enviar: 4
+2026-08-19 15:39:31 [INFO] Não enviar: 3
+2026-08-19 15:39:31 [INFO] ======================================================================
