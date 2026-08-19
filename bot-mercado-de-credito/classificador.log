@@ -3179,3 +3179,81 @@
 2026-08-19 21:33:35 [INFO] Enviar: 7
 2026-08-19 21:33:35 [INFO] Não enviar: 7
 2026-08-19 21:33:35 [INFO] ======================================================================
+2026-08-19 22:32:22 [INFO] ======================================================================
+2026-08-19 22:32:22 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 22:32:22 [INFO] ======================================================================
+2026-08-19 22:32:22 [INFO] Notícias com status 'extraida': 13
+2026-08-19 22:32:22 [INFO] Limite: 20 requisições/minuto
+2026-08-19 22:32:22 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 22:32:22 [INFO] ======================================================================
+2026-08-19 22:32:22 [INFO] [1/13] ID: tag:google.com,2013:googlealerts/feed:3639302614325676482
+2026-08-19 22:32:22 [INFO] Título: Justiça manda manter prazos de entrega de produtos da Casas Bahia e proíbe corte de água e luz
+2026-08-19 22:32:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:22 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:22 [INFO] Aguardando 2.60s...
+2026-08-19 22:32:25 [INFO] [2/13] ID: tag:google.com,2013:googlealerts/feed:188111769280097181
+2026-08-19 22:32:25 [INFO] Título: Lojas vão reabrir? Funcionários retornam? Entenda decisão que suspendeu demissões nas ...
+2026-08-19 22:32:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:25 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:25 [INFO] Aguardando 2.85s...
+2026-08-19 22:32:28 [INFO] [3/13] ID: tag:google.com,2013:googlealerts/feed:8235136578852703531
+2026-08-19 22:32:28 [INFO] Título: Justiça barra demissão de 1.900 funcionários das Casas Bahia - YouTube
+2026-08-19 22:32:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:28 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:28 [INFO] Aguardando 2.85s...
+2026-08-19 22:32:31 [INFO] [4/13] ID: tag:google.com,2013:googlealerts/feed:2526206137721540830
+2026-08-19 22:32:31 [INFO] Título: Justiça barra demissão de 1.900 funcionários das Casas Bahia - SBT News
+2026-08-19 22:32:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:31 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:31 [INFO] Aguardando 2.61s...
+2026-08-19 22:32:34 [INFO] [5/13] ID: tag:google.com,2013:googlealerts/feed:997609951067776281
+2026-08-19 22:32:34 [INFO] Título: Casas Bahia: como uma dívida líquida de R$ 1,2 bilhão virou um passivo de R$ 17 bilhões ...
+2026-08-19 22:32:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:34 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:34 [INFO] Aguardando 2.65s...
+2026-08-19 22:32:37 [INFO] [6/13] ID: tag:google.com,2013:googlealerts/feed:13923632016129430645
+2026-08-19 22:32:37 [INFO] Título: Justiça suspende demissões coletivas da Casas Bahia - Poder360
+2026-08-19 22:32:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:37 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:37 [INFO] Aguardando 2.61s...
+2026-08-19 22:32:40 [INFO] [7/13] ID: tag:google.com,2013:googlealerts/feed:10692828403255393878
+2026-08-19 22:32:40 [INFO] Título: Multilaser prevê perdas de R$ 20 milhões com Casas Bahia | Diário do Comércio
+2026-08-19 22:32:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:40 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:40 [INFO] Aguardando 2.78s...
+2026-08-19 22:32:43 [INFO] [8/13] ID: tag:google.com,2013:googlealerts/feed:16496888004377997215
+2026-08-19 22:32:43 [INFO] Título: Justiça pode multar Casas Bahia em R$ 100 mil por dia se dados de demissões forem apagados
+2026-08-19 22:32:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:43 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:43 [INFO] Aguardando 2.57s...
+2026-08-19 22:32:46 [INFO] [9/13] ID: tag:google.com,2013:googlealerts/feed:5588794480595940103
+2026-08-19 22:32:46 [INFO] Título: Crise no varejo: recorde de recuperações judiciais expõe fragilidade das grandes redes
+2026-08-19 22:32:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:46 [INFO] Classificação: enviar
+2026-08-19 22:32:46 [INFO] Aguardando 2.66s...
+2026-08-19 22:32:49 [INFO] [10/13] ID: tag:google.com,2013:googlealerts/feed:5071839154599015806
+2026-08-19 22:32:49 [INFO] Título: Projeto sobre atuação do administrador pode engessar empresas - Consultor Jurídico
+2026-08-19 22:32:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:49 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:49 [INFO] Aguardando 2.77s...
+2026-08-19 22:32:52 [INFO] [11/13] ID: tag:google.com,2013:googlealerts/feed:10636974079584881772
+2026-08-19 22:32:52 [INFO] Título: Casas Bahia deve bilhões a bancos, seguradoras e fabricantes; veja os maiores credores
+2026-08-19 22:32:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:52 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:52 [INFO] Aguardando 2.67s...
+2026-08-19 22:32:55 [INFO] [12/13] ID: tag:google.com,2013:googlealerts/feed:4718493466054302378
+2026-08-19 22:32:55 [INFO] Título: BHIA3: Justiça suspende demissões na Casas Bahia e veta novos cortes - Investing.com
+2026-08-19 22:32:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:55 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:55 [INFO] Aguardando 2.80s...
+2026-08-19 22:32:58 [INFO] [13/13] ID: tag:google.com,2013:googlealerts/feed:2641472945624597147
+2026-08-19 22:32:58 [INFO] Título: Nogueira explica elo com Vorcaro: 'Sou um dos mais importantes do país' | Isso É Notícia
+2026-08-19 22:32:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 22:32:58 [INFO] Classificação: nao_enviar
+2026-08-19 22:32:58 [INFO] ======================================================================
+2026-08-19 22:32:58 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 22:32:58 [INFO] ======================================================================
+2026-08-19 22:32:58 [INFO] Processadas: 13
+2026-08-19 22:32:58 [INFO] Enviar: 1
+2026-08-19 22:32:58 [INFO] Não enviar: 12
+2026-08-19 22:32:58 [INFO] ======================================================================
