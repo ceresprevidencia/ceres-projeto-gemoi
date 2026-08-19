@@ -2066,3 +2066,116 @@
 2026-08-19 01:45:44 [INFO] Enviar: 14
 2026-08-19 01:45:44 [INFO] Não enviar: 10
 2026-08-19 01:45:44 [INFO] ======================================================================
+2026-08-19 03:06:04 [INFO] ======================================================================
+2026-08-19 03:06:04 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 03:06:04 [INFO] ======================================================================
+2026-08-19 03:06:04 [INFO] Notícias com status 'extraida': 20
+2026-08-19 03:06:04 [INFO] Limite: 20 requisições/minuto
+2026-08-19 03:06:04 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 03:06:04 [INFO] ======================================================================
+2026-08-19 03:06:04 [INFO] [1/20] ID: tag:google.com,2013:googlealerts/feed:16578272855258923205
+2026-08-19 03:06:04 [INFO] Título: A gastança governamental começa a derrubar o varejo - Gazeta do Povo
+2026-08-19 03:06:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:04 [INFO] Classificação: nao_enviar
+2026-08-19 03:06:04 [INFO] Aguardando 2.65s...
+2026-08-19 03:06:07 [INFO] [2/20] ID: tag:google.com,2013:googlealerts/feed:8431264054963919336
+2026-08-19 03:06:07 [INFO] Título: Recuperações <b>judiciais</b> crescem 66% com juros altos e crédito restrito, puxadas pelo agronegócio
+2026-08-19 03:06:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:07 [INFO] Classificação: enviar
+2026-08-19 03:06:07 [INFO] Aguardando 2.54s...
+2026-08-19 03:06:10 [INFO] [3/20] ID: tag:google.com,2013:googlealerts/feed:14915379905154888397
+2026-08-19 03:06:10 [INFO] Título: Mercado Livre, Magazine Luiza (MGLU3): quem ganha e quem perde com a <b>recuperação judicial</b> ...
+2026-08-19 03:06:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:10 [INFO] Classificação: enviar
+2026-08-19 03:06:10 [INFO] Aguardando 2.66s...
+2026-08-19 03:06:13 [INFO] [4/20] ID: tag:google.com,2013:googlealerts/feed:7742785147904312684
+2026-08-19 03:06:13 [INFO] Título: Casas Bahia e Marabraz: o que levou o varejo à crise? - Meio e Mensagem
+2026-08-19 03:06:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:13 [INFO] Classificação: nao_enviar
+2026-08-19 03:06:13 [INFO] Aguardando 2.71s...
+2026-08-19 03:06:16 [INFO] [5/20] ID: tag:google.com,2013:googlealerts/feed:17022579479428911230
+2026-08-19 03:06:16 [INFO] Título: No segundo trimestre de 2026, número de empresas que pediram <b>recuperação judicial</b> ... - G1
+2026-08-19 03:06:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:16 [INFO] Classificação: enviar
+2026-08-19 03:06:16 [INFO] Aguardando 2.78s...
+2026-08-19 03:06:19 [INFO] [6/20] ID: tag:google.com,2013:googlealerts/feed:2491703039103453030
+2026-08-19 03:06:19 [INFO] Título: Flamengo aciona órgão e questiona gastos do Vasco: 'Vantagem' - LANCE!
+2026-08-19 03:06:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:19 [INFO] Classificação: nao_enviar
+2026-08-19 03:06:19 [INFO] Aguardando 2.85s...
+2026-08-19 03:06:22 [INFO] [7/20] ID: tag:google.com,2013:googlealerts/feed:17930179910808167692
+2026-08-19 03:06:22 [INFO] Título: Servimed Bauru desmente informações falsas sobre falência
+2026-08-19 03:06:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:22 [INFO] Classificação: nao_enviar
+2026-08-19 03:06:22 [INFO] Aguardando 2.57s...
+2026-08-19 03:06:25 [INFO] [8/20] ID: tag:google.com,2013:googlealerts/feed:18295444623566872663
+2026-08-19 03:06:25 [INFO] Título: Oi inicia demissões previstas em acordo com sindicatos - TeleSíntese
+2026-08-19 03:06:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:25 [INFO] Classificação: nao_enviar
+2026-08-19 03:06:25 [INFO] Aguardando 2.76s...
+2026-08-19 03:06:28 [INFO] [9/20] ID: tag:google.com,2013:googlealerts/feed:371820842422682723
+2026-08-19 03:06:28 [INFO] Título: Varejo reestrutura R$ 68 bilhões em dívidas e enfrenta crise do modelo tradicional
+2026-08-19 03:06:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:28 [INFO] Classificação: nao_enviar
+2026-08-19 03:06:28 [INFO] Aguardando 2.75s...
+2026-08-19 03:06:31 [INFO] [10/20] ID: tag:google.com,2013:googlealerts/feed:11807966354016861738
+2026-08-19 03:06:31 [INFO] Título: Braskem (BRKM5) lidera perdas do Ibovespa após Chapter 11 - Money Times
+2026-08-19 03:06:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:31 [INFO] Classificação: enviar
+2026-08-19 03:06:31 [INFO] Aguardando 2.65s...
+2026-08-19 03:06:34 [INFO] [11/20] ID: tag:google.com,2013:googlealerts/feed:11388237372830445208
+2026-08-19 03:06:34 [INFO] Título: No segundo trimestre de 2026, número de empresas que pediram <b>recuperação</b> judicial ... - G1
+2026-08-19 03:06:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:34 [INFO] Classificação: enviar
+2026-08-19 03:06:34 [INFO] Aguardando 2.84s...
+2026-08-19 03:06:37 [INFO] [12/20] ID: tag:google.com,2013:googlealerts/feed:6997127051786267673
+2026-08-19 03:06:37 [INFO] Título: Recuperações judiciais crescem 66% com juros altos e crédito restrito, puxadas pelo agronegócio
+2026-08-19 03:06:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:37 [INFO] Classificação: enviar
+2026-08-19 03:06:37 [INFO] Aguardando 2.66s...
+2026-08-19 03:06:40 [INFO] [13/20] ID: tag:google.com,2013:googlealerts/feed:11241770059894837842
+2026-08-19 03:06:40 [INFO] Título: Os 70 das Casas Bahia: do crediário e slogans-chiclete à RJ de R$ 17,3 bilhões
+2026-08-19 03:06:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:40 [INFO] Classificação: enviar
+2026-08-19 03:06:40 [INFO] Aguardando 2.66s...
+2026-08-19 03:06:43 [INFO] [14/20] ID: tag:google.com,2013:googlealerts/feed:10497027102647134850
+2026-08-19 03:06:43 [INFO] Título: De R$ 532 a R$ 0,41: como a Casas Bahia perdeu valor na Bolsa até chegar à <b>recuperação</b> judicial
+2026-08-19 03:06:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:43 [INFO] Classificação: enviar
+2026-08-19 03:06:43 [INFO] Aguardando 2.71s...
+2026-08-19 03:06:46 [INFO] [15/20] ID: tag:google.com,2013:googlealerts/feed:7204045094030231580
+2026-08-19 03:06:46 [INFO] Título: Crise no varejo leva redes a reestruturar R$ 68 bilhões em dívidas - Brasilagro
+2026-08-19 03:06:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:46 [INFO] Classificação: nao_enviar
+2026-08-19 03:06:46 [INFO] Aguardando 2.65s...
+2026-08-19 03:06:49 [INFO] [16/20] ID: tag:google.com,2013:googlealerts/feed:4888628651517372890
+2026-08-19 03:06:49 [INFO] Título: A gastança governamental começa a derrubar o varejo - Gazeta do Povo
+2026-08-19 03:06:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:49 [INFO] Classificação: nao_enviar
+2026-08-19 03:06:49 [INFO] Aguardando 2.78s...
+2026-08-19 03:06:52 [INFO] [17/20] ID: tag:google.com,2013:googlealerts/feed:13898694690183099189
+2026-08-19 03:06:52 [INFO] Título: Recuperações judiciais crescem 66% com juros altos e crédito restrito, puxadas pelo agronegócio
+2026-08-19 03:06:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:52 [INFO] Classificação: enviar
+2026-08-19 03:06:52 [INFO] Aguardando 2.76s...
+2026-08-19 03:06:55 [INFO] [18/20] ID: tag:google.com,2013:googlealerts/feed:16270021403903786206
+2026-08-19 03:06:55 [INFO] Título: No segundo trimestre de 2026, número de empresas que pediram recuperação <b>judicial</b> ... - G1
+2026-08-19 03:06:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:55 [INFO] Classificação: enviar
+2026-08-19 03:06:55 [INFO] Aguardando 2.86s...
+2026-08-19 03:06:58 [INFO] [19/20] ID: tag:google.com,2013:googlealerts/feed:3484793857271476330
+2026-08-19 03:06:58 [INFO] Título: Braskem Idesa entra com pedido de recuperação <b>judicial</b> nos EUA - CNN Brasil
+2026-08-19 03:06:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:06:58 [INFO] Classificação: enviar
+2026-08-19 03:06:58 [INFO] Aguardando 2.65s...
+2026-08-19 03:07:01 [INFO] [20/20] ID: tag:google.com,2013:googlealerts/feed:8805603677075219246
+2026-08-19 03:07:01 [INFO] Título: Dívida bancária do Rio chega a R$ 26 bilhões, diz governador
+2026-08-19 03:07:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 03:07:01 [INFO] Classificação: nao_enviar
+2026-08-19 03:07:01 [INFO] ======================================================================
+2026-08-19 03:07:01 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 03:07:01 [INFO] ======================================================================
+2026-08-19 03:07:01 [INFO] Processadas: 20
+2026-08-19 03:07:01 [INFO] Enviar: 11
+2026-08-19 03:07:01 [INFO] Não enviar: 9
+2026-08-19 03:07:01 [INFO] ======================================================================
