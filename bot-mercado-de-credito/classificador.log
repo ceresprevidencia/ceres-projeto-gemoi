@@ -2193,3 +2193,41 @@
 2026-08-19 04:44:11 [INFO] Enviar: 0
 2026-08-19 04:44:11 [INFO] Não enviar: 0
 2026-08-19 04:44:11 [INFO] ======================================================================
+2026-08-19 05:37:31 [INFO] ======================================================================
+2026-08-19 05:37:31 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 05:37:31 [INFO] ======================================================================
+2026-08-19 05:37:31 [INFO] Notícias com status 'extraida': 5
+2026-08-19 05:37:31 [INFO] Limite: 20 requisições/minuto
+2026-08-19 05:37:31 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 05:37:31 [INFO] ======================================================================
+2026-08-19 05:37:31 [INFO] [1/5] ID: tag:google.com,2013:googlealerts/feed:10694664345913958279
+2026-08-19 05:37:31 [INFO] Título: De Casas Bahia ao Grupo Pão de Açúcar: por que grandes varejistas estão revendo o ... - G1
+2026-08-19 05:37:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 05:37:32 [INFO] Classificação: nao_enviar
+2026-08-19 05:37:32 [INFO] Aguardando 2.76s...
+2026-08-19 05:37:34 [INFO] [2/5] ID: tag:google.com,2013:googlealerts/feed:11013788801330620979
+2026-08-19 05:37:34 [INFO] Título: Com fundo de R$ 100 milhões, Riza leva investidores brasileiros às terras da Bolívia
+2026-08-19 05:37:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 05:37:35 [INFO] Classificação: nao_enviar
+2026-08-19 05:37:35 [INFO] Aguardando 2.75s...
+2026-08-19 05:37:37 [INFO] [3/5] ID: tag:google.com,2013:googlealerts/feed:11261944151485109671
+2026-08-19 05:37:37 [INFO] Título: Oinegue: Understand how Casas Bahia went from heaven to hell - YouTube
+2026-08-19 05:37:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 05:37:38 [INFO] Classificação: nao_enviar
+2026-08-19 05:37:38 [INFO] Aguardando 2.84s...
+2026-08-19 05:37:40 [INFO] [4/5] ID: tag:google.com,2013:googlealerts/feed:9007893962046081894
+2026-08-19 05:37:40 [INFO] Título: Crise no varejo acende sinal de alerta para a economia brasileira; veja análise | HORA H
+2026-08-19 05:37:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 05:37:41 [INFO] Classificação: nao_enviar
+2026-08-19 05:37:41 [INFO] Aguardando 2.72s...
+2026-08-19 05:37:43 [INFO] [5/5] ID: tag:google.com,2013:googlealerts/feed:13621687178073283191
+2026-08-19 05:37:43 [INFO] Título: Dívida bancária do Rio chega a R$ 26 bilhões, diz governador
+2026-08-19 05:37:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 05:37:44 [INFO] Classificação: nao_enviar
+2026-08-19 05:37:44 [INFO] ======================================================================
+2026-08-19 05:37:44 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 05:37:44 [INFO] ======================================================================
+2026-08-19 05:37:44 [INFO] Processadas: 5
+2026-08-19 05:37:44 [INFO] Enviar: 0
+2026-08-19 05:37:44 [INFO] Não enviar: 5
+2026-08-19 05:37:44 [INFO] ======================================================================
