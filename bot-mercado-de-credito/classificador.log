@@ -2339,3 +2339,91 @@
 2026-08-19 10:36:21 [INFO] Enviar: 0
 2026-08-19 10:36:21 [INFO] Não enviar: 4
 2026-08-19 10:36:21 [INFO] ======================================================================
+2026-08-19 11:32:57 [INFO] ======================================================================
+2026-08-19 11:32:57 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 11:32:57 [INFO] ======================================================================
+2026-08-19 11:32:57 [INFO] Notícias com status 'extraida': 15
+2026-08-19 11:32:57 [INFO] Limite: 20 requisições/minuto
+2026-08-19 11:32:57 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 11:32:57 [INFO] ======================================================================
+2026-08-19 11:32:57 [INFO] [1/15] ID: tag:google.com,2013:googlealerts/feed:1860320897962270380
+2026-08-19 11:32:57 [INFO] Título: Casas Bahia: ações BHIA3 entram em revisão, venda ou têm cobertura encerrada após RJ
+2026-08-19 11:32:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:32:57 [INFO] Classificação: enviar
+2026-08-19 11:32:57 [INFO] Aguardando 2.70s...
+2026-08-19 11:33:00 [INFO] [2/15] ID: tag:google.com,2013:googlealerts/feed:5810849619319354850
+2026-08-19 11:33:00 [INFO] Título: Com dívida de R$ 17,3 bilhões, Casas Bahia pede <b>recuperação judicial</b> - Vermelho
+2026-08-19 11:33:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:00 [INFO] Classificação: enviar
+2026-08-19 11:33:00 [INFO] Aguardando 2.74s...
+2026-08-19 11:33:03 [INFO] [3/15] ID: tag:google.com,2013:googlealerts/feed:17562462659422061759
+2026-08-19 11:33:03 [INFO] Título: Casas Bahia pede <b>recuperação judicial</b> com dívida de R$ 17,3 bilhões
+2026-08-19 11:33:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:03 [INFO] Classificação: enviar
+2026-08-19 11:33:03 [INFO] Aguardando 2.79s...
+2026-08-19 11:33:06 [INFO] [4/15] ID: tag:google.com,2013:googlealerts/feed:2544812001349955731
+2026-08-19 11:33:06 [INFO] Título: Casas Bahia em <b>recuperação judicial</b>: analistas revisam cobertura e colocam BHIA3 em xeque
+2026-08-19 11:33:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:06 [INFO] Classificação: enviar
+2026-08-19 11:33:06 [INFO] Aguardando 2.89s...
+2026-08-19 11:33:09 [INFO] [5/15] ID: tag:google.com,2013:googlealerts/feed:5175712404167901349
+2026-08-19 11:33:09 [INFO] Título: Casas Bahia deve R$ 63,7 mi a empresas de Michael Klein - 18/08/2026 - Folha
+2026-08-19 11:33:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:09 [INFO] Classificação: nao_enviar
+2026-08-19 11:33:09 [INFO] Aguardando 2.78s...
+2026-08-19 11:33:12 [INFO] [6/15] ID: tag:google.com,2013:googlealerts/feed:12037917552261827048
+2026-08-19 11:33:12 [INFO] Título: Apresentador Carlos Alberto de Nóbrega é alvo de ação por dívida de condomínio
+2026-08-19 11:33:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:12 [INFO] Classificação: nao_enviar
+2026-08-19 11:33:12 [INFO] Aguardando 2.84s...
+2026-08-19 11:33:15 [INFO] [7/15] ID: tag:google.com,2013:googlealerts/feed:8621976124884103218
+2026-08-19 11:33:15 [INFO] Título: O Brasil é hostil ao empreendedor - Estadão
+2026-08-19 11:33:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:15 [INFO] Classificação: nao_enviar
+2026-08-19 11:33:15 [INFO] Aguardando 2.81s...
+2026-08-19 11:33:18 [INFO] [8/15] ID: tag:google.com,2013:googlealerts/feed:8845337355163546360
+2026-08-19 11:33:18 [INFO] Título: <b>Recuperação</b> da Casas Bahia atinge também renda fixa e impacta investidor
+2026-08-19 11:33:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:18 [INFO] Classificação: enviar
+2026-08-19 11:33:18 [INFO] Aguardando 2.77s...
+2026-08-19 11:33:21 [INFO] [9/15] ID: tag:google.com,2013:googlealerts/feed:10651866085174760148
+2026-08-19 11:33:21 [INFO] Título: Recuperações judiciais crescem 66% com juros altos e crédito restrito - Brasilagro
+2026-08-19 11:33:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:21 [INFO] Classificação: enviar
+2026-08-19 11:33:21 [INFO] Aguardando 2.85s...
+2026-08-19 11:33:24 [INFO] [10/15] ID: tag:google.com,2013:googlealerts/feed:10043014185670362143
+2026-08-19 11:33:24 [INFO] Título: Aumentam os casos de conversão de <b>recuperação extrajudicial</b> em judicial | Impresso
+2026-08-19 11:33:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:24 [INFO] Classificação: enviar
+2026-08-19 11:33:24 [INFO] Aguardando 2.72s...
+2026-08-19 11:33:27 [INFO] [11/15] ID: tag:google.com,2013:googlealerts/feed:17232877523882666237
+2026-08-19 11:33:27 [INFO] Título: Conversão de <b>recuperação extrajudicial</b> em judicial cresce | Empresas | Valor Econômico
+2026-08-19 11:33:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:27 [INFO] Classificação: enviar
+2026-08-19 11:33:27 [INFO] Aguardando 2.79s...
+2026-08-19 11:33:30 [INFO] [12/15] ID: tag:google.com,2013:googlealerts/feed:18225071601643435779
+2026-08-19 11:33:30 [INFO] Título: Tráfico de mulheres e exploração sexual: o passado sombrio do fundador das Casas Bahia
+2026-08-19 11:33:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:30 [INFO] Classificação: nao_enviar
+2026-08-19 11:33:30 [INFO] Aguardando 2.45s...
+2026-08-19 11:33:33 [INFO] [13/15] ID: tag:google.com,2013:googlealerts/feed:1527202261153143944
+2026-08-19 11:33:33 [INFO] Título: Para além do varejo, crise de reestruturações contamina demais setores - CNN Brasil
+2026-08-19 11:33:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:33 [INFO] Classificação: nao_enviar
+2026-08-19 11:33:33 [INFO] Aguardando 2.77s...
+2026-08-19 11:33:36 [INFO] [14/15] ID: tag:google.com,2013:googlealerts/feed:296447707261319097
+2026-08-19 11:33:36 [INFO] Título: Braskem prepara pedido de <b>recuperação extrajudicial</b> - Folha PE
+2026-08-19 11:33:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:36 [INFO] Classificação: enviar
+2026-08-19 11:33:36 [INFO] Aguardando 2.78s...
+2026-08-19 11:33:39 [INFO] [15/15] ID: tag:google.com,2013:googlealerts/feed:1684920968731779203
+2026-08-19 11:33:39 [INFO] Título: 'Governança preventiva' não elimina o risco, mas pode frear novas RJs de varejistas, dizem analistas
+2026-08-19 11:33:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 11:33:39 [INFO] Classificação: enviar
+2026-08-19 11:33:39 [INFO] ======================================================================
+2026-08-19 11:33:39 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 11:33:39 [INFO] ======================================================================
+2026-08-19 11:33:39 [INFO] Processadas: 15
+2026-08-19 11:33:39 [INFO] Enviar: 10
+2026-08-19 11:33:39 [INFO] Não enviar: 5
+2026-08-19 11:33:39 [INFO] ======================================================================
