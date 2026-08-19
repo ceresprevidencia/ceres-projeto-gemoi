@@ -2681,3 +2681,96 @@
 2026-08-19 15:39:31 [INFO] Enviar: 4
 2026-08-19 15:39:31 [INFO] Não enviar: 3
 2026-08-19 15:39:31 [INFO] ======================================================================
+2026-08-19 16:39:15 [INFO] ======================================================================
+2026-08-19 16:39:15 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 16:39:15 [INFO] ======================================================================
+2026-08-19 16:39:15 [INFO] Notícias com status 'extraida': 16
+2026-08-19 16:39:15 [INFO] Limite: 20 requisições/minuto
+2026-08-19 16:39:15 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 16:39:15 [INFO] ======================================================================
+2026-08-19 16:39:15 [INFO] [1/16] ID: tag:google.com,2013:googlealerts/feed:5864778922601701351
+2026-08-19 16:39:15 [INFO] Título: Indústria de vidros automotivos de Caxias do Sul encerra <b>recuperação judicial</b> - GZH
+2026-08-19 16:39:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:16 [INFO] Classificação: enviar
+2026-08-19 16:39:16 [INFO] Aguardando 2.67s...
+2026-08-19 16:39:18 [INFO] [2/16] ID: tag:google.com,2013:googlealerts/feed:17643387777524346676
+2026-08-19 16:39:18 [INFO] Título: Subsidiária da Braskem no México pede <b>recuperação judicial</b> nos EUA - TAGD Advogados
+2026-08-19 16:39:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:19 [INFO] Classificação: enviar
+2026-08-19 16:39:19 [INFO] Aguardando 2.81s...
+2026-08-19 16:39:21 [INFO] [3/16] ID: tag:google.com,2013:googlealerts/feed:15244866765314409153
+2026-08-19 16:39:21 [INFO] Título: Crise na Casas Bahia mostra que parcela não cabe mais no bolso - UOL Economia
+2026-08-19 16:39:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:22 [INFO] Classificação: nao_enviar
+2026-08-19 16:39:22 [INFO] Aguardando 2.79s...
+2026-08-19 16:39:24 [INFO] [4/16] ID: tag:google.com,2013:googlealerts/feed:16979616436216805248
+2026-08-19 16:39:24 [INFO] Título: Sem consenso e com disputa societária, Pontal-Thopen pede <b>recuperação judicial</b>
+2026-08-19 16:39:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:25 [INFO] Classificação: enviar
+2026-08-19 16:39:25 [INFO] Aguardando 2.81s...
+2026-08-19 16:39:27 [INFO] [5/16] ID: tag:google.com,2013:googlealerts/feed:16064212375924930609
+2026-08-19 16:39:27 [INFO] Título: Demitir antes e negociar depois: o que resta do Tema 638 do STF - Consultor Jurídico
+2026-08-19 16:39:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:28 [INFO] Classificação: nao_enviar
+2026-08-19 16:39:28 [INFO] Aguardando 2.61s...
+2026-08-19 16:39:30 [INFO] [6/16] ID: tag:google.com,2013:googlealerts/feed:11603624180892566374
+2026-08-19 16:39:30 [INFO] Título: Em <b>recuperação</b> no Brasil, Havanna tem prejuízo na Argentina e aposta no Messi para ...
+2026-08-19 16:39:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:31 [INFO] Classificação: nao_enviar
+2026-08-19 16:39:31 [INFO] Aguardando 2.59s...
+2026-08-19 16:39:33 [INFO] [7/16] ID: tag:google.com,2013:googlealerts/feed:15983780494462964047
+2026-08-19 16:39:33 [INFO] Título: Casas Bahia e outras “Casas” em <b>recuperação</b> judicial acendem a luz vermelha da ...
+2026-08-19 16:39:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:34 [INFO] Classificação: enviar
+2026-08-19 16:39:34 [INFO] Aguardando 2.70s...
+2026-08-19 16:39:36 [INFO] [8/16] ID: tag:google.com,2013:googlealerts/feed:7914479964328582529
+2026-08-19 16:39:36 [INFO] Título: Com juros altos e crédito restrito, recuperações judiciais crescem no Brasil - Portal 98 FM Natal
+2026-08-19 16:39:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:37 [INFO] Classificação: enviar
+2026-08-19 16:39:37 [INFO] Aguardando 2.73s...
+2026-08-19 16:39:39 [INFO] [9/16] ID: tag:google.com,2013:googlealerts/feed:11914783823512540062
+2026-08-19 16:39:39 [INFO] Título: <b>Recuperação</b> judicial da Casas Bahia: veja valores devidos às empresas moveleiras
+2026-08-19 16:39:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:40 [INFO] Classificação: enviar
+2026-08-19 16:39:40 [INFO] Aguardando 2.78s...
+2026-08-19 16:39:42 [INFO] [10/16] ID: tag:google.com,2013:googlealerts/feed:9153373058420432792
+2026-08-19 16:39:42 [INFO] Título: Após queda de quase 15%, FII esclarece impacto da <b>recuperação</b> judicial da Casas Bahia e ...
+2026-08-19 16:39:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:43 [INFO] Classificação: enviar
+2026-08-19 16:39:43 [INFO] Aguardando 2.64s...
+2026-08-19 16:39:45 [INFO] [11/16] ID: tag:google.com,2013:googlealerts/feed:8562505445145985629
+2026-08-19 16:39:45 [INFO] Título: Falta de capital novo limita renegociação | Empresas - Valor Econômico - Globo
+2026-08-19 16:39:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:46 [INFO] Classificação: nao_enviar
+2026-08-19 16:39:46 [INFO] Aguardando 2.48s...
+2026-08-19 16:39:48 [INFO] [12/16] ID: tag:google.com,2013:googlealerts/feed:5247104082189574169
+2026-08-19 16:39:48 [INFO] Título: Casas Bahia nega empréstimo de R$ 1 bilhão e diz que ainda negocia alternativas de financiamento
+2026-08-19 16:39:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:49 [INFO] Classificação: nao_enviar
+2026-08-19 16:39:49 [INFO] Aguardando 2.79s...
+2026-08-19 16:39:51 [INFO] [13/16] ID: tag:google.com,2013:googlealerts/feed:8556940759194258829
+2026-08-19 16:39:51 [INFO] Título: Varejo brasileiro chega a 986 empresas em <b>recuperação</b> judicial, alta de 20,4% em um ano
+2026-08-19 16:39:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:52 [INFO] Classificação: enviar
+2026-08-19 16:39:52 [INFO] Aguardando 2.53s...
+2026-08-19 16:39:54 [INFO] [14/16] ID: tag:google.com,2013:googlealerts/feed:8049970866192585624
+2026-08-19 16:39:54 [INFO] Título: <b>Recuperação</b> judicial sobe 20% no segundo trimestre de 2026 - Acia Araçatuba
+2026-08-19 16:39:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:55 [INFO] Classificação: enviar
+2026-08-19 16:39:55 [INFO] Aguardando 2.51s...
+2026-08-19 16:39:57 [INFO] [15/16] ID: tag:google.com,2013:googlealerts/feed:15164474924437539347
+2026-08-19 16:39:57 [INFO] Título: Com dívida de R$ 17,3 bilhões, Casas Bahia pede recuperação <b>judicial</b> - Vermelho
+2026-08-19 16:39:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:39:58 [INFO] Classificação: enviar
+2026-08-19 16:39:58 [INFO] Aguardando 2.69s...
+2026-08-19 16:40:00 [INFO] [16/16] ID: tag:google.com,2013:googlealerts/feed:12340740238280334811
+2026-08-19 16:40:00 [INFO] Título: Caso Master entra na reta final com depoimento de Vorcaro à PF | Brasil Paralelo
+2026-08-19 16:40:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 16:40:01 [INFO] Classificação: nao_enviar
+2026-08-19 16:40:01 [INFO] ======================================================================
+2026-08-19 16:40:01 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 16:40:01 [INFO] ======================================================================
+2026-08-19 16:40:01 [INFO] Processadas: 16
+2026-08-19 16:40:01 [INFO] Enviar: 10
+2026-08-19 16:40:01 [INFO] Não enviar: 6
+2026-08-19 16:40:01 [INFO] ======================================================================
