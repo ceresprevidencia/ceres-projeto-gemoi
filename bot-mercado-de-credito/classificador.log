@@ -2460,3 +2460,176 @@
 2026-08-19 13:01:01 [INFO] Enviar: 2
 2026-08-19 13:01:01 [INFO] Não enviar: 2
 2026-08-19 13:01:01 [INFO] ======================================================================
+2026-08-19 14:41:22 [INFO] ======================================================================
+2026-08-19 14:41:22 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 14:41:22 [INFO] ======================================================================
+2026-08-19 14:41:22 [INFO] Notícias com status 'extraida': 32
+2026-08-19 14:41:22 [INFO] Limite: 20 requisições/minuto
+2026-08-19 14:41:22 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 14:41:22 [INFO] ======================================================================
+2026-08-19 14:41:22 [INFO] [1/32] ID: tag:google.com,2013:googlealerts/feed:516517083667918422
+2026-08-19 14:41:22 [INFO] Título: Para além do varejo, crise de reestruturações contamina demais setores - CNN Brasil
+2026-08-19 14:41:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:23 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:23 [INFO] Aguardando 2.59s...
+2026-08-19 14:41:25 [INFO] [2/32] ID: tag:google.com,2013:googlealerts/feed:15493596218655783501
+2026-08-19 14:41:25 [INFO] Título: Casas Bahia diz buscar solução para crise, mas nega empréstimo de R$ 1 bi
+2026-08-19 14:41:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:26 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:26 [INFO] Aguardando 2.52s...
+2026-08-19 14:41:28 [INFO] [3/32] ID: tag:google.com,2013:googlealerts/feed:11921269755032297760
+2026-08-19 14:41:28 [INFO] Título: Ou o Brasil acaba com os juros altos, ou os juros altos acabam com o Brasil - NeoFeed
+2026-08-19 14:41:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:28 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:28 [INFO] Aguardando 2.83s...
+2026-08-19 14:41:31 [INFO] [4/32] ID: tag:google.com,2013:googlealerts/feed:1178746356341092251
+2026-08-19 14:41:31 [INFO] Título: STJ diverge se transação fiscal desobriga banco fiador da dívida - Consultor Jurídico
+2026-08-19 14:41:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:31 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:31 [INFO] Aguardando 2.72s...
+2026-08-19 14:41:34 [INFO] [5/32] ID: tag:google.com,2013:googlealerts/feed:13298389701816623249
+2026-08-19 14:41:34 [INFO] Título: Após queda de quase 15%, FII esclarece impacto da <b>recuperação judicial</b> da Casas Bahia e ...
+2026-08-19 14:41:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:34 [INFO] Classificação: enviar
+2026-08-19 14:41:34 [INFO] Aguardando 2.74s...
+2026-08-19 14:41:37 [INFO] [6/32] ID: tag:google.com,2013:googlealerts/feed:3092029342309904917
+2026-08-19 14:41:37 [INFO] Título: Detalhes importantes da decisão que bloqueou os bens de Fernando Cinelli - A Gazeta
+2026-08-19 14:41:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:38 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:38 [INFO] Aguardando 2.56s...
+2026-08-19 14:41:40 [INFO] [7/32] ID: tag:google.com,2013:googlealerts/feed:2146635740020405314
+2026-08-19 14:41:40 [INFO] Título: Braskem prepara pedido de <b>recuperação</b> extrajudicial - O GLOBO
+2026-08-19 14:41:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:40 [INFO] Classificação: enviar
+2026-08-19 14:41:40 [INFO] Aguardando 2.73s...
+2026-08-19 14:41:43 [INFO] [8/32] ID: tag:google.com,2013:googlealerts/feed:8973759463038260127
+2026-08-19 14:41:43 [INFO] Título: O Brasil é hostil ao empreendedor - Estadão
+2026-08-19 14:41:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:43 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:43 [INFO] Aguardando 2.74s...
+2026-08-19 14:41:46 [INFO] [9/32] ID: tag:google.com,2013:googlealerts/feed:3174232316635178316
+2026-08-19 14:41:46 [INFO] Título: Caso das Casas Bahia aponta para problema estrutural na economia, aponta Juliana Rosa
+2026-08-19 14:41:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:47 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:47 [INFO] Aguardando 2.39s...
+2026-08-19 14:41:49 [INFO] [10/32] ID: tag:google.com,2013:googlealerts/feed:78374023344288524
+2026-08-19 14:41:49 [INFO] Título: Geração distribuída entra em ajuste e acende alerta para reestruturações - CNN Brasil
+2026-08-19 14:41:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:49 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:49 [INFO] Aguardando 2.76s...
+2026-08-19 14:41:52 [INFO] [11/32] ID: tag:google.com,2013:googlealerts/feed:8692493448029152413
+2026-08-19 14:41:52 [INFO] Título: A conta dos juros altos está chegando: a “bomba-relógio” que ameaça o caixa das ...
+2026-08-19 14:41:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:52 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:52 [INFO] Aguardando 2.78s...
+2026-08-19 14:41:55 [INFO] [12/32] ID: tag:google.com,2013:googlealerts/feed:15481318338519967113
+2026-08-19 14:41:55 [INFO] Título: Recorde de recuperações judiciais é um alerta eloquente - GZH
+2026-08-19 14:41:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:56 [INFO] Classificação: enviar
+2026-08-19 14:41:56 [INFO] Aguardando 2.64s...
+2026-08-19 14:41:58 [INFO] [13/32] ID: tag:google.com,2013:googlealerts/feed:12636756881365343250
+2026-08-19 14:41:58 [INFO] Título: Justiça libera Braskem para colocar US$ 230 milhões na Idesa - Revista Veja
+2026-08-19 14:41:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:41:58 [INFO] Classificação: nao_enviar
+2026-08-19 14:41:58 [INFO] Aguardando 2.77s...
+2026-08-19 14:42:01 [INFO] [14/32] ID: tag:google.com,2013:googlealerts/feed:16507940559342313631
+2026-08-19 14:42:01 [INFO] Título: Leilão Casas Bahia (BHIA3): após fechar quase 300 lojas, varejista oferece eletrodomésticos ...
+2026-08-19 14:42:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:01 [INFO] Classificação: enviar
+2026-08-19 14:42:01 [INFO] Aguardando 2.70s...
+2026-08-19 14:42:04 [INFO] [15/32] ID: tag:google.com,2013:googlealerts/feed:986875758547633171
+2026-08-19 14:42:04 [INFO] Título: Fundo imobiliário da XP quer arrecadar até R$ 1 bilhão com novas emissões; veja as condições
+2026-08-19 14:42:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:04 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:04 [INFO] Aguardando 2.76s...
+2026-08-19 14:42:07 [INFO] [16/32] ID: tag:google.com,2013:googlealerts/feed:9421169138139024876
+2026-08-19 14:42:07 [INFO] Título: Cenário atual lembra 'tempestade perfeita' de dez anos atrás - Capital Aberto
+2026-08-19 14:42:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:08 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:08 [INFO] Aguardando 2.32s...
+2026-08-19 14:42:10 [INFO] [17/32] ID: tag:google.com,2013:googlealerts/feed:3871781501099264534
+2026-08-19 14:42:10 [INFO] Título: Ou o Brasil acaba com os juros altos, ou os juros altos acabam com o Brasil - NeoFeed
+2026-08-19 14:42:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:10 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:10 [INFO] Aguardando 2.79s...
+2026-08-19 14:42:13 [INFO] [18/32] ID: tag:google.com,2013:googlealerts/feed:8694062802172156155
+2026-08-19 14:42:13 [INFO] Título: Casas Bahia diz buscar solução para crise, mas nega empréstimo de R$ 1 bi
+2026-08-19 14:42:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:13 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:13 [INFO] Aguardando 2.81s...
+2026-08-19 14:42:16 [INFO] [19/32] ID: tag:google.com,2013:googlealerts/feed:11556122676189067491
+2026-08-19 14:42:16 [INFO] Título: A conta dos juros altos está chegando: a “bomba-relógio” que ameaça o caixa das ...
+2026-08-19 14:42:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:16 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:16 [INFO] Aguardando 2.79s...
+2026-08-19 14:42:19 [INFO] [20/32] ID: tag:google.com,2013:googlealerts/feed:14911048367495283824
+2026-08-19 14:42:19 [INFO] Título: Casas Bahia pede <b>recuperação</b> judicial com dívida de R$ 17,3 bilhões
+2026-08-19 14:42:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:19 [INFO] Classificação: enviar
+2026-08-19 14:42:19 [INFO] Aguardando 2.84s...
+2026-08-19 14:42:22 [INFO] [21/32] ID: tag:google.com,2013:googlealerts/feed:331046060128427151
+2026-08-19 14:42:22 [INFO] Título: "Só quero paz para governar", diz Flávio Bolsonaro sobre relação com STF - Band
+2026-08-19 14:42:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:23 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:23 [INFO] Aguardando 2.53s...
+2026-08-19 14:42:25 [INFO] [22/32] ID: tag:google.com,2013:googlealerts/feed:4223677410025694948
+2026-08-19 14:42:25 [INFO] Título: Grupo Multi anuncia provisão de R$ 20 mi para perdas com Casas Bahia - InfoMoney
+2026-08-19 14:42:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:26 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:26 [INFO] Aguardando 2.69s...
+2026-08-19 14:42:28 [INFO] [23/32] ID: tag:google.com,2013:googlealerts/feed:12486526389737578655
+2026-08-19 14:42:28 [INFO] Título: Para além do varejo, crise de reestruturações contamina demais setores - CNN Brasil
+2026-08-19 14:42:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:29 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:29 [INFO] Aguardando 2.58s...
+2026-08-19 14:42:31 [INFO] [24/32] ID: tag:google.com,2013:googlealerts/feed:12343295566640914504
+2026-08-19 14:42:31 [INFO] Título: Conversão de recuperação extrajudicial em <b>judicial</b> cresce | Empresas | Valor Econômico
+2026-08-19 14:42:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:32 [INFO] Classificação: enviar
+2026-08-19 14:42:32 [INFO] Aguardando 2.57s...
+2026-08-19 14:42:34 [INFO] [25/32] ID: tag:google.com,2013:googlealerts/feed:10573011794179930203
+2026-08-19 14:42:34 [INFO] Título: Casas Bahia deve R$ 63,7 mi a empresas de Michael Klein - 18/08/2026 - Folha
+2026-08-19 14:42:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:34 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:34 [INFO] Aguardando 2.73s...
+2026-08-19 14:42:37 [INFO] [26/32] ID: tag:google.com,2013:googlealerts/feed:17532758819941279118
+2026-08-19 14:42:37 [INFO] Título: Recuperação da Casas Bahia atinge também renda fixa e impacta investidor
+2026-08-19 14:42:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:38 [INFO] Classificação: enviar
+2026-08-19 14:42:38 [INFO] Aguardando 2.68s...
+2026-08-19 14:42:40 [INFO] [27/32] ID: tag:google.com,2013:googlealerts/feed:17253974789455926820
+2026-08-19 14:42:40 [INFO] Título: Quando preservar a empresa deixa de preservar o sistema - JOTA
+2026-08-19 14:42:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:40 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:40 [INFO] Aguardando 2.79s...
+2026-08-19 14:42:43 [INFO] [28/32] ID: tag:google.com,2013:googlealerts/feed:6121105494893613413
+2026-08-19 14:42:43 [INFO] Título: De Casas Bahia ao Grupo Pão de Açúcar: por que grandes varejistas estão revendo o ... - G1
+2026-08-19 14:42:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:44 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:44 [INFO] Aguardando 2.49s...
+2026-08-19 14:42:46 [INFO] [29/32] ID: tag:google.com,2013:googlealerts/feed:14129332351236090975
+2026-08-19 14:42:46 [INFO] Título: Grupo Multi provisiona R$ 20 milhões, após recuperação <b>judicial</b> da Casas Bahia - ADVFN
+2026-08-19 14:42:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:47 [INFO] Classificação: enviar
+2026-08-19 14:42:47 [INFO] Aguardando 2.50s...
+2026-08-19 14:42:49 [INFO] [30/32] ID: tag:google.com,2013:googlealerts/feed:10600818642373026969
+2026-08-19 14:42:49 [INFO] Título: Casas Bahia faz <b>liquidação</b> em depósito na região após fechar 298 lojas; veja onde
+2026-08-19 14:42:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:49 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:49 [INFO] Aguardando 2.71s...
+2026-08-19 14:42:52 [INFO] [31/32] ID: tag:google.com,2013:googlealerts/feed:1605782571375623337
+2026-08-19 14:42:52 [INFO] Título: Geração distribuída entra em ajuste e acende alerta para reestruturações - CNN Brasil
+2026-08-19 14:42:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:53 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:53 [INFO] Aguardando 2.58s...
+2026-08-19 14:42:55 [INFO] [32/32] ID: tag:google.com,2013:googlealerts/feed:7025353126120504528
+2026-08-19 14:42:55 [INFO] Título: A conta dos juros altos está chegando: a “bomba-relógio” que ameaça o caixa das ...
+2026-08-19 14:42:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 14:42:55 [INFO] Classificação: nao_enviar
+2026-08-19 14:42:55 [INFO] ======================================================================
+2026-08-19 14:42:55 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 14:42:55 [INFO] ======================================================================
+2026-08-19 14:42:55 [INFO] Processadas: 32
+2026-08-19 14:42:55 [INFO] Enviar: 8
+2026-08-19 14:42:55 [INFO] Não enviar: 24
+2026-08-19 14:42:55 [INFO] ======================================================================
