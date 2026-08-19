@@ -2832,3 +2832,116 @@
 2026-08-19 17:33:43 [INFO] Enviar: 4
 2026-08-19 17:33:43 [INFO] Não enviar: 5
 2026-08-19 17:33:43 [INFO] ======================================================================
+2026-08-19 18:45:47 [INFO] ======================================================================
+2026-08-19 18:45:47 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 18:45:47 [INFO] ======================================================================
+2026-08-19 18:45:47 [INFO] Notícias com status 'extraida': 20
+2026-08-19 18:45:47 [INFO] Limite: 20 requisições/minuto
+2026-08-19 18:45:47 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 18:45:47 [INFO] ======================================================================
+2026-08-19 18:45:47 [INFO] [1/20] ID: tag:google.com,2013:googlealerts/feed:9764657083099468711
+2026-08-19 18:45:47 [INFO] Título: Josias: <b>Recuperação judicial</b> da Casas Bahia não é licença para vale-tudo - UOL Economia
+2026-08-19 18:45:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:45:47 [INFO] Classificação: enviar
+2026-08-19 18:45:47 [INFO] Aguardando 2.70s...
+2026-08-19 18:45:50 [INFO] [2/20] ID: tag:google.com,2013:googlealerts/feed:5285698208548446573
+2026-08-19 18:45:50 [INFO] Título: Casas Bahia e Marabraz pedem <b>recuperação judicial</b> na mesma semana; entenda
+2026-08-19 18:45:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:45:50 [INFO] Classificação: enviar
+2026-08-19 18:45:50 [INFO] Aguardando 2.72s...
+2026-08-19 18:45:53 [INFO] [3/20] ID: tag:google.com,2013:googlealerts/feed:1848234797990660570
+2026-08-19 18:45:53 [INFO] Título: Demitidos da Casas Bahia podem receber menos do que têm direito; entenda - InfoMoney
+2026-08-19 18:45:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:45:53 [INFO] Classificação: nao_enviar
+2026-08-19 18:45:53 [INFO] Aguardando 2.64s...
+2026-08-19 18:45:56 [INFO] [4/20] ID: tag:google.com,2013:googlealerts/feed:7037791824811575038
+2026-08-19 18:45:56 [INFO] Título: IDPJ trabalhista em <b>recuperação judicial</b>: O que dizem STF, STJ e TST - Migalhas
+2026-08-19 18:45:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:45:56 [INFO] Classificação: enviar
+2026-08-19 18:45:56 [INFO] Aguardando 2.66s...
+2026-08-19 18:45:59 [INFO] [5/20] ID: tag:google.com,2013:googlealerts/feed:12029161989407346347
+2026-08-19 18:45:59 [INFO] Título: Casas Bahia é obrigada a manter empregos após pedido de <b>recuperação judicial</b>
+2026-08-19 18:45:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:45:59 [INFO] Classificação: enviar
+2026-08-19 18:45:59 [INFO] Aguardando 2.59s...
+2026-08-19 18:46:02 [INFO] [6/20] ID: tag:google.com,2013:googlealerts/feed:7658268338343503027
+2026-08-19 18:46:02 [INFO] Título: Justiça manda Casas Bahia restabelecer contrato de 1.900 demitidos - UOL Economia
+2026-08-19 18:46:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:02 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:02 [INFO] Aguardando 2.76s...
+2026-08-19 18:46:05 [INFO] [7/20] ID: tag:google.com,2013:googlealerts/feed:3644402125138104686
+2026-08-19 18:46:05 [INFO] Título: Multilaser prevê perdas de R$ 20 milhões com Casas Bahia - Folha - UOL
+2026-08-19 18:46:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:05 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:05 [INFO] Aguardando 2.72s...
+2026-08-19 18:46:08 [INFO] [8/20] ID: tag:google.com,2013:googlealerts/feed:10633049008463837139
+2026-08-19 18:46:08 [INFO] Título: Sindicato solicita reunião com as Casas Bahia e aciona o MPT - SEC RJ
+2026-08-19 18:46:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:08 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:08 [INFO] Aguardando 2.53s...
+2026-08-19 18:46:11 [INFO] [9/20] ID: tag:google.com,2013:googlealerts/feed:1830919394412937975
+2026-08-19 18:46:11 [INFO] Título: BDLL3 - Bardella - TradeMap
+2026-08-19 18:46:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:11 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:11 [INFO] Aguardando 2.73s...
+2026-08-19 18:46:14 [INFO] [10/20] ID: tag:google.com,2013:googlealerts/feed:4541149718921935129
+2026-08-19 18:46:14 [INFO] Título: Multilaser prevê perdas de R$ 20 milhões com Casas Bahia | Diário do Comércio
+2026-08-19 18:46:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:14 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:14 [INFO] Aguardando 2.60s...
+2026-08-19 18:46:17 [INFO] [11/20] ID: tag:google.com,2013:googlealerts/feed:1280926307638309475
+2026-08-19 18:46:17 [INFO] Título: Com R$ 17,3 bi em dívidas, Casas Bahia busca <b>recuperação</b> judicial - Novo Momento
+2026-08-19 18:46:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:17 [INFO] Classificação: enviar
+2026-08-19 18:46:17 [INFO] Aguardando 2.79s...
+2026-08-19 18:46:20 [INFO] [12/20] ID: tag:google.com,2013:googlealerts/feed:9084374268768702174
+2026-08-19 18:46:20 [INFO] Título: Recuperações judiciais crescem 66% com juros altos e crédito restrito, puxadas pelo agronegócio
+2026-08-19 18:46:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:20 [INFO] Classificação: enviar
+2026-08-19 18:46:20 [INFO] Aguardando 2.75s...
+2026-08-19 18:46:23 [INFO] [13/20] ID: tag:google.com,2013:googlealerts/feed:10669439980735901730
+2026-08-19 18:46:23 [INFO] Título: Google paga US$ 10 milhões por dados corporativos da Spirit Airlines - AERO Magazine
+2026-08-19 18:46:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:23 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:23 [INFO] Aguardando 2.80s...
+2026-08-19 18:46:26 [INFO] [14/20] ID: tag:google.com,2013:googlealerts/feed:1020838415718032710
+2026-08-19 18:46:26 [INFO] Título: Casas Bahia fecha 298 lojas e coloca centenas de eletrodomésticos em <b>liquidação</b> com até ...
+2026-08-19 18:46:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:26 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:26 [INFO] Aguardando 2.55s...
+2026-08-19 18:46:29 [INFO] [15/20] ID: tag:google.com,2013:googlealerts/feed:1264763446997683337
+2026-08-19 18:46:29 [INFO] Título: Casas Bahia e Marabraz pedem recuperação <b>judicial</b> na mesma semana; entenda
+2026-08-19 18:46:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:29 [INFO] Classificação: enviar
+2026-08-19 18:46:29 [INFO] Aguardando 2.74s...
+2026-08-19 18:46:32 [INFO] [16/20] ID: tag:google.com,2013:googlealerts/feed:5358786192602122990
+2026-08-19 18:46:32 [INFO] Título: Demitidos da Casas Bahia podem receber menos do que têm direito; entenda - InfoMoney
+2026-08-19 18:46:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:32 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:32 [INFO] Aguardando 2.81s...
+2026-08-19 18:46:35 [INFO] [17/20] ID: tag:google.com,2013:googlealerts/feed:16285305565732881361
+2026-08-19 18:46:35 [INFO] Título: IDPJ trabalhista em recuperação <b>judicial</b>: O que dizem STF, STJ e TST - Migalhas
+2026-08-19 18:46:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:35 [INFO] Classificação: enviar
+2026-08-19 18:46:35 [INFO] Aguardando 2.73s...
+2026-08-19 18:46:38 [INFO] [18/20] ID: tag:google.com,2013:googlealerts/feed:11926251110785248698
+2026-08-19 18:46:38 [INFO] Título: Casas Bahia é obrigada a manter empregos após pedido de recuperação <b>judicial</b>
+2026-08-19 18:46:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:38 [INFO] Classificação: enviar
+2026-08-19 18:46:38 [INFO] Aguardando 2.34s...
+2026-08-19 18:46:41 [INFO] [19/20] ID: tag:google.com,2013:googlealerts/feed:13764650247230480499
+2026-08-19 18:46:41 [INFO] Título: Caso Master: Vorcaro depõe à PF nesta 5ª sobre ataques ao BC - Metrópoles
+2026-08-19 18:46:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:41 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:41 [INFO] Aguardando 2.62s...
+2026-08-19 18:46:44 [INFO] [20/20] ID: tag:google.com,2013:googlealerts/feed:4192357884680708588
+2026-08-19 18:46:44 [INFO] Título: Ministério da Fazenda suspende 14 sites de apostas por irregularidades
+2026-08-19 18:46:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 18:46:44 [INFO] Classificação: nao_enviar
+2026-08-19 18:46:44 [INFO] ======================================================================
+2026-08-19 18:46:44 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 18:46:44 [INFO] ======================================================================
+2026-08-19 18:46:44 [INFO] Processadas: 20
+2026-08-19 18:46:44 [INFO] Enviar: 9
+2026-08-19 18:46:44 [INFO] Não enviar: 11
+2026-08-19 18:46:44 [INFO] ======================================================================
