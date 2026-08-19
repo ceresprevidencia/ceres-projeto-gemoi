@@ -2427,3 +2427,36 @@
 2026-08-19 11:33:39 [INFO] Enviar: 10
 2026-08-19 11:33:39 [INFO] Não enviar: 5
 2026-08-19 11:33:39 [INFO] ======================================================================
+2026-08-19 13:00:52 [INFO] ======================================================================
+2026-08-19 13:00:52 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 13:00:52 [INFO] ======================================================================
+2026-08-19 13:00:52 [INFO] Notícias com status 'extraida': 4
+2026-08-19 13:00:52 [INFO] Limite: 20 requisições/minuto
+2026-08-19 13:00:52 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 13:00:52 [INFO] ======================================================================
+2026-08-19 13:00:52 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:3859196420082877803
+2026-08-19 13:00:52 [INFO] Título: Grupo Multi provisiona R$ 20 milhões, após <b>recuperação judicial</b> da Casas Bahia - ADVFN
+2026-08-19 13:00:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 13:00:52 [INFO] Classificação: enviar
+2026-08-19 13:00:52 [INFO] Aguardando 2.76s...
+2026-08-19 13:00:55 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:8593623691049665356
+2026-08-19 13:00:55 [INFO] Título: Grupo Multi anuncia provisão de R$ 20 mi para perdas com Casas Bahia - InfoMoney
+2026-08-19 13:00:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 13:00:55 [INFO] Classificação: nao_enviar
+2026-08-19 13:00:55 [INFO] Aguardando 2.68s...
+2026-08-19 13:00:58 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:298989583279851097
+2026-08-19 13:00:58 [INFO] Título: <b>Recuperação</b> da Casas Bahia atinge também renda fixa e impacta investidor
+2026-08-19 13:00:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 13:00:59 [INFO] Classificação: enviar
+2026-08-19 13:00:59 [INFO] Aguardando 1.89s...
+2026-08-19 13:01:01 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:13474804259365468538
+2026-08-19 13:01:01 [INFO] Título: "NÃO TEM CONVERSA! O FLAMENGO ESTÁ CERTO de ENTRAR NESSE VESPEIRO ...
+2026-08-19 13:01:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 13:01:01 [INFO] Classificação: nao_enviar
+2026-08-19 13:01:01 [INFO] ======================================================================
+2026-08-19 13:01:01 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 13:01:01 [INFO] ======================================================================
+2026-08-19 13:01:01 [INFO] Processadas: 4
+2026-08-19 13:01:01 [INFO] Enviar: 2
+2026-08-19 13:01:01 [INFO] Não enviar: 2
+2026-08-19 13:01:01 [INFO] ======================================================================
