@@ -3096,3 +3096,86 @@
 2026-08-19 20:37:11 [INFO] Enviar: 4
 2026-08-19 20:37:11 [INFO] Não enviar: 11
 2026-08-19 20:37:11 [INFO] ======================================================================
+2026-08-19 21:32:56 [INFO] ======================================================================
+2026-08-19 21:32:56 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 21:32:56 [INFO] ======================================================================
+2026-08-19 21:32:56 [INFO] Notícias com status 'extraida': 14
+2026-08-19 21:32:56 [INFO] Limite: 20 requisições/minuto
+2026-08-19 21:32:56 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 21:32:56 [INFO] ======================================================================
+2026-08-19 21:32:56 [INFO] [1/14] ID: tag:google.com,2013:googlealerts/feed:18293194026615591901
+2026-08-19 21:32:56 [INFO] Título: Crise arrasta centenas de varejistas à <b>recuperação judicial</b> - Gazeta do Povo
+2026-08-19 21:32:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:32:58 [INFO] Classificação: enviar
+2026-08-19 21:32:58 [INFO] Aguardando 1.27s...
+2026-08-19 21:32:59 [INFO] [2/14] ID: tag:google.com,2013:googlealerts/feed:11228214419353183025
+2026-08-19 21:32:59 [INFO] Título: 'Pensei que ia ter saldão': a reação dos consumidores à <b>recuperação judicial</b> da Casas Bahia
+2026-08-19 21:32:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:32:59 [INFO] Classificação: enviar
+2026-08-19 21:32:59 [INFO] Aguardando 2.74s...
+2026-08-19 21:33:02 [INFO] [3/14] ID: tag:google.com,2013:googlealerts/feed:13314441948725269958
+2026-08-19 21:33:02 [INFO] Título: STJ limita pagamento de honorários em processos de <b>recuperação judicial</b> - JOTA
+2026-08-19 21:33:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:02 [INFO] Classificação: enviar
+2026-08-19 21:33:02 [INFO] Aguardando 2.80s...
+2026-08-19 21:33:05 [INFO] [4/14] ID: tag:google.com,2013:googlealerts/feed:17527611513062508565
+2026-08-19 21:33:05 [INFO] Título: <b>Recuperação judicial</b>? O que mais preocupa o BTG são as falências no varejo - O GLOBO
+2026-08-19 21:33:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:05 [INFO] Classificação: enviar
+2026-08-19 21:33:05 [INFO] Aguardando 2.71s...
+2026-08-19 21:33:08 [INFO] [5/14] ID: tag:google.com,2013:googlealerts/feed:14144971768146472642
+2026-08-19 21:33:08 [INFO] Título: Casas Bahia: crise vai além de juros altos e consumo fraco, dizem especialistas - Exame
+2026-08-19 21:33:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:08 [INFO] Classificação: nao_enviar
+2026-08-19 21:33:08 [INFO] Aguardando 2.78s...
+2026-08-19 21:33:11 [INFO] [6/14] ID: tag:google.com,2013:googlealerts/feed:9992459721644973958
+2026-08-19 21:33:11 [INFO] Título: O que o fim de semana das recuperações judiciais diz sobre o crédito no Brasil - Migalhas
+2026-08-19 21:33:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:12 [INFO] Classificação: enviar
+2026-08-19 21:33:12 [INFO] Aguardando 2.42s...
+2026-08-19 21:33:14 [INFO] [7/14] ID: tag:google.com,2013:googlealerts/feed:11418258229117167082
+2026-08-19 21:33:14 [INFO] Título: Justiça manda Casas Bahia restabelecer vínculo de trabalhadores, incluindo os da região
+2026-08-19 21:33:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:14 [INFO] Classificação: nao_enviar
+2026-08-19 21:33:14 [INFO] Aguardando 2.72s...
+2026-08-19 21:33:17 [INFO] [8/14] ID: tag:google.com,2013:googlealerts/feed:18170997980067501589
+2026-08-19 21:33:17 [INFO] Título: Apple é um dos credores de gigante varejista que entrou com pedido de <b>recuperação</b> judicial
+2026-08-19 21:33:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:18 [INFO] Classificação: enviar
+2026-08-19 21:33:18 [INFO] Aguardando 2.44s...
+2026-08-19 21:33:20 [INFO] [9/14] ID: tag:google.com,2013:googlealerts/feed:14946349967128484678
+2026-08-19 21:33:20 [INFO] Título: Justiça manda manter prazos de entrega de produtos da Casas Bahia e proíbe corte de água e luz
+2026-08-19 21:33:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:20 [INFO] Classificação: nao_enviar
+2026-08-19 21:33:20 [INFO] Aguardando 2.70s...
+2026-08-19 21:33:23 [INFO] [10/14] ID: tag:google.com,2013:googlealerts/feed:3512709207803187219
+2026-08-19 21:33:23 [INFO] Título: Casas Bahia e Marabraz expõem crise que arrasta centenas de varejistas à recuperação <b>judicial</b>
+2026-08-19 21:33:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:23 [INFO] Classificação: enviar
+2026-08-19 21:33:23 [INFO] Aguardando 2.62s...
+2026-08-19 21:33:26 [INFO] [11/14] ID: tag:google.com,2013:googlealerts/feed:12902627231235769871
+2026-08-19 21:33:26 [INFO] Título: Crédito automotivo: bolha, crise ou o fim de uma festa que já durou demais?
+2026-08-19 21:33:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:26 [INFO] Classificação: nao_enviar
+2026-08-19 21:33:26 [INFO] Aguardando 2.72s...
+2026-08-19 21:33:29 [INFO] [12/14] ID: tag:google.com,2013:googlealerts/feed:9552298820849410991
+2026-08-19 21:33:29 [INFO] Título: Casas Bahia: como uma dívida líquida de R$ 1,2 bilhão virou um passivo de R$ 17 bilhões ...
+2026-08-19 21:33:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:29 [INFO] Classificação: nao_enviar
+2026-08-19 21:33:29 [INFO] Aguardando 2.78s...
+2026-08-19 21:33:32 [INFO] [13/14] ID: tag:google.com,2013:googlealerts/feed:17010884598421857136
+2026-08-19 21:33:32 [INFO] Título: Justiça suspende demissões coletivas da Casas Bahia - Poder360
+2026-08-19 21:33:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:32 [INFO] Classificação: nao_enviar
+2026-08-19 21:33:32 [INFO] Aguardando 2.66s...
+2026-08-19 21:33:35 [INFO] [14/14] ID: tag:google.com,2013:googlealerts/feed:5284985178810848783
+2026-08-19 21:33:35 [INFO] Título: Justiça suspende demissões das Casas Bahia e restringe novos cortes - CNN Brasil
+2026-08-19 21:33:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 21:33:35 [INFO] Classificação: nao_enviar
+2026-08-19 21:33:35 [INFO] ======================================================================
+2026-08-19 21:33:35 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 21:33:35 [INFO] ======================================================================
+2026-08-19 21:33:35 [INFO] Processadas: 14
+2026-08-19 21:33:35 [INFO] Enviar: 7
+2026-08-19 21:33:35 [INFO] Não enviar: 7
+2026-08-19 21:33:35 [INFO] ======================================================================
