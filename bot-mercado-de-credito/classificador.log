@@ -3008,3 +3008,91 @@
 2026-08-19 19:33:02 [INFO] Enviar: 3
 2026-08-19 19:33:02 [INFO] Não enviar: 7
 2026-08-19 19:33:02 [INFO] ======================================================================
+2026-08-19 20:36:28 [INFO] ======================================================================
+2026-08-19 20:36:28 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 20:36:28 [INFO] ======================================================================
+2026-08-19 20:36:28 [INFO] Notícias com status 'extraida': 15
+2026-08-19 20:36:28 [INFO] Limite: 20 requisições/minuto
+2026-08-19 20:36:28 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 20:36:28 [INFO] ======================================================================
+2026-08-19 20:36:28 [INFO] [1/15] ID: tag:google.com,2013:googlealerts/feed:1133238119296076082
+2026-08-19 20:36:28 [INFO] Título: Crédito automotivo: bolha, crise ou o fim de uma festa que já durou demais?
+2026-08-19 20:36:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:29 [INFO] Classificação: nao_enviar
+2026-08-19 20:36:29 [INFO] Aguardando 2.60s...
+2026-08-19 20:36:31 [INFO] [2/15] ID: tag:google.com,2013:googlealerts/feed:8609370322600683240
+2026-08-19 20:36:31 [INFO] Título: BTG executa garantias e avança para assumir usinas da Thopen - MegaWhat - UOL
+2026-08-19 20:36:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:32 [INFO] Classificação: nao_enviar
+2026-08-19 20:36:32 [INFO] Aguardando 2.60s...
+2026-08-19 20:36:34 [INFO] [3/15] ID: tag:google.com,2013:googlealerts/feed:17652701292271194292
+2026-08-19 20:36:34 [INFO] Título: RZK diz que acusações da Pontal são falsas em <b>recuperação judicial</b> | CNN Brasil
+2026-08-19 20:36:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:35 [INFO] Classificação: enviar
+2026-08-19 20:36:35 [INFO] Aguardando 2.71s...
+2026-08-19 20:36:37 [INFO] [4/15] ID: tag:google.com,2013:googlealerts/feed:13292474206939489599
+2026-08-19 20:36:37 [INFO] Título: Justiça suspende demissões coletivas das Casas Bahia - Migalhas
+2026-08-19 20:36:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:38 [INFO] Classificação: nao_enviar
+2026-08-19 20:36:38 [INFO] Aguardando 2.78s...
+2026-08-19 20:36:40 [INFO] [5/15] ID: tag:google.com,2013:googlealerts/feed:9055346201923886953
+2026-08-19 20:36:40 [INFO] Título: Falta de capital novo limita renegociação | Empresas - Valor Econômico - Globo
+2026-08-19 20:36:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:41 [INFO] Classificação: nao_enviar
+2026-08-19 20:36:41 [INFO] Aguardando 2.62s...
+2026-08-19 20:36:43 [INFO] [6/15] ID: tag:google.com,2013:googlealerts/feed:8045403136284498371
+2026-08-19 20:36:43 [INFO] Título: A corda no pescoço do varejo: Casas Bahia (BHIA3) escancara os desafios do setor
+2026-08-19 20:36:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:44 [INFO] Classificação: nao_enviar
+2026-08-19 20:36:44 [INFO] Aguardando 2.74s...
+2026-08-19 20:36:46 [INFO] [7/15] ID: tag:google.com,2013:googlealerts/feed:3393614331983132388
+2026-08-19 20:36:46 [INFO] Título: Casas Bahia busca alternativas para reforçar caixa após pedido de <b>recuperação</b> judicial
+2026-08-19 20:36:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:47 [INFO] Classificação: enviar
+2026-08-19 20:36:47 [INFO] Aguardando 2.55s...
+2026-08-19 20:36:49 [INFO] [8/15] ID: tag:google.com,2013:googlealerts/feed:7110941357264145107
+2026-08-19 20:36:49 [INFO] Título: STJ limita pagamento de honorários em processos de recuperação <b>judicial</b> - JOTA
+2026-08-19 20:36:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:50 [INFO] Classificação: enviar
+2026-08-19 20:36:50 [INFO] Aguardando 2.78s...
+2026-08-19 20:36:52 [INFO] [9/15] ID: tag:google.com,2013:googlealerts/feed:10466858853053474319
+2026-08-19 20:36:52 [INFO] Título: Recuperação <b>judicial</b>? O que mais preocupa o BTG são as falências no varejo - O GLOBO
+2026-08-19 20:36:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:53 [INFO] Classificação: enviar
+2026-08-19 20:36:53 [INFO] Aguardando 2.76s...
+2026-08-19 20:36:55 [INFO] [10/15] ID: tag:google.com,2013:googlealerts/feed:14632513561994988167
+2026-08-19 20:36:55 [INFO] Título: Casas Bahia: crise vai além de juros altos e consumo fraco, dizem especialistas - Exame
+2026-08-19 20:36:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:56 [INFO] Classificação: nao_enviar
+2026-08-19 20:36:56 [INFO] Aguardando 2.70s...
+2026-08-19 20:36:58 [INFO] [11/15] ID: tag:google.com,2013:googlealerts/feed:2066596777795817065
+2026-08-19 20:36:58 [INFO] Título: Lojas vão reabrir? Funcionários retornam? Entenda decisão que suspendeu demissões nas ...
+2026-08-19 20:36:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:36:59 [INFO] Classificação: nao_enviar
+2026-08-19 20:36:59 [INFO] Aguardando 2.75s...
+2026-08-19 20:37:01 [INFO] [12/15] ID: tag:google.com,2013:googlealerts/feed:18151976800049945237
+2026-08-19 20:37:01 [INFO] Título: Multilaser prevê perdas de R$ 20 milhões com Casas Bahia | Diário do Comércio
+2026-08-19 20:37:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:37:02 [INFO] Classificação: nao_enviar
+2026-08-19 20:37:02 [INFO] Aguardando 2.67s...
+2026-08-19 20:37:04 [INFO] [13/15] ID: tag:google.com,2013:googlealerts/feed:14651608378786689358
+2026-08-19 20:37:04 [INFO] Título: Justiça suspende demissão coletiva das Casas Bahia e proíbe novos cortes
+2026-08-19 20:37:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:37:05 [INFO] Classificação: nao_enviar
+2026-08-19 20:37:05 [INFO] Aguardando 2.70s...
+2026-08-19 20:37:07 [INFO] [14/15] ID: tag:google.com,2013:googlealerts/feed:11512056449372043015
+2026-08-19 20:37:07 [INFO] Título: CVM possui mais de 300 processos contra o Master - O Brasilianista
+2026-08-19 20:37:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:37:08 [INFO] Classificação: nao_enviar
+2026-08-19 20:37:08 [INFO] Aguardando 2.61s...
+2026-08-19 20:37:10 [INFO] [15/15] ID: tag:google.com,2013:googlealerts/feed:12864839137229678329
+2026-08-19 20:37:10 [INFO] Título: Conselheiro da Nova Rota Oeste processa Taques e nega lavagem de dinheiro ao PCC
+2026-08-19 20:37:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 20:37:11 [INFO] Classificação: nao_enviar
+2026-08-19 20:37:11 [INFO] ======================================================================
+2026-08-19 20:37:11 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 20:37:11 [INFO] ======================================================================
+2026-08-19 20:37:11 [INFO] Processadas: 15
+2026-08-19 20:37:11 [INFO] Enviar: 4
+2026-08-19 20:37:11 [INFO] Não enviar: 11
+2026-08-19 20:37:11 [INFO] ======================================================================
