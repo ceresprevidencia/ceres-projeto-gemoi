@@ -2306,3 +2306,36 @@
 2026-08-19 09:41:16 [INFO] Enviar: 2
 2026-08-19 09:41:16 [INFO] Não enviar: 2
 2026-08-19 09:41:16 [INFO] ======================================================================
+2026-08-19 10:36:12 [INFO] ======================================================================
+2026-08-19 10:36:12 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 10:36:12 [INFO] ======================================================================
+2026-08-19 10:36:12 [INFO] Notícias com status 'extraida': 4
+2026-08-19 10:36:12 [INFO] Limite: 20 requisições/minuto
+2026-08-19 10:36:12 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 10:36:12 [INFO] ======================================================================
+2026-08-19 10:36:12 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:17909202301580690924
+2026-08-19 10:36:12 [INFO] Título: Casas Bahia deve R$ 63,7 mi a empresas de Michael Klein - 18/08/2026 - Folha - UOL
+2026-08-19 10:36:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 10:36:12 [INFO] Classificação: nao_enviar
+2026-08-19 10:36:12 [INFO] Aguardando 2.72s...
+2026-08-19 10:36:15 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:17575325243550244780
+2026-08-19 10:36:15 [INFO] Título: Além da Casas Bahia: juros altos e fluxo menor nas lojas colocam o varejo sob pressão
+2026-08-19 10:36:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 10:36:15 [INFO] Classificação: nao_enviar
+2026-08-19 10:36:15 [INFO] Aguardando 2.83s...
+2026-08-19 10:36:18 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:5770728764485546547
+2026-08-19 10:36:18 [INFO] Título: Casas Bahia possui dívida milionária com a Apple e sofre com crise colossal
+2026-08-19 10:36:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 10:36:18 [INFO] Classificação: nao_enviar
+2026-08-19 10:36:18 [INFO] Aguardando 2.70s...
+2026-08-19 10:36:21 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:12465090593181824415
+2026-08-19 10:36:21 [INFO] Título: Fechamento de lojas das Casas Bahia deixa 130 sem emprego no Estado - Campo Grande News
+2026-08-19 10:36:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 10:36:21 [INFO] Classificação: nao_enviar
+2026-08-19 10:36:21 [INFO] ======================================================================
+2026-08-19 10:36:21 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 10:36:21 [INFO] ======================================================================
+2026-08-19 10:36:21 [INFO] Processadas: 4
+2026-08-19 10:36:21 [INFO] Enviar: 0
+2026-08-19 10:36:21 [INFO] Não enviar: 4
+2026-08-19 10:36:21 [INFO] ======================================================================
