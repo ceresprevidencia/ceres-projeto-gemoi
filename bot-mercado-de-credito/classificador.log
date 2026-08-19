@@ -2945,3 +2945,66 @@
 2026-08-19 18:46:44 [INFO] Enviar: 9
 2026-08-19 18:46:44 [INFO] Não enviar: 11
 2026-08-19 18:46:44 [INFO] ======================================================================
+2026-08-19 19:32:35 [INFO] ======================================================================
+2026-08-19 19:32:35 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 19:32:35 [INFO] ======================================================================
+2026-08-19 19:32:35 [INFO] Notícias com status 'extraida': 10
+2026-08-19 19:32:35 [INFO] Limite: 20 requisições/minuto
+2026-08-19 19:32:35 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 19:32:35 [INFO] ======================================================================
+2026-08-19 19:32:35 [INFO] [1/10] ID: tag:google.com,2013:googlealerts/feed:5634955200910468780
+2026-08-19 19:32:35 [INFO] Título: Casas Bahia fez leilão após pedir <b>recuperação</b>? Entenda confusão nas redes
+2026-08-19 19:32:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:32:35 [INFO] Classificação: enviar
+2026-08-19 19:32:35 [INFO] Aguardando 2.32s...
+2026-08-19 19:32:38 [INFO] [2/10] ID: tag:google.com,2013:googlealerts/feed:15386279888900348329
+2026-08-19 19:32:38 [INFO] Título: Lojas vão reabrir? Funcionários retornam? Entenda decisão que suspendeu demissões nas ...
+2026-08-19 19:32:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:32:38 [INFO] Classificação: nao_enviar
+2026-08-19 19:32:38 [INFO] Aguardando 2.70s...
+2026-08-19 19:32:41 [INFO] [3/10] ID: tag:google.com,2013:googlealerts/feed:14577046091742382698
+2026-08-19 19:32:41 [INFO] Título: Justiça suspende demissão coletiva das Casas Bahia e proíbe novos cortes
+2026-08-19 19:32:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:32:41 [INFO] Classificação: nao_enviar
+2026-08-19 19:32:41 [INFO] Aguardando 2.73s...
+2026-08-19 19:32:44 [INFO] [4/10] ID: tag:google.com,2013:googlealerts/feed:12987537188586207808
+2026-08-19 19:32:44 [INFO] Título: Decreto da abertura do mercado não inibe aventureiros, avalia Neoenergia - MegaWhat
+2026-08-19 19:32:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:32:44 [INFO] Classificação: nao_enviar
+2026-08-19 19:32:44 [INFO] Aguardando 2.67s...
+2026-08-19 19:32:47 [INFO] [5/10] ID: tag:google.com,2013:googlealerts/feed:15854749244971790349
+2026-08-19 19:32:47 [INFO] Título: Casas Bahia: como uma dívida líquida de R$ 1,2 bilhão virou um passivo de R$ 17 bilhões ...
+2026-08-19 19:32:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:32:47 [INFO] Classificação: nao_enviar
+2026-08-19 19:32:47 [INFO] Aguardando 2.51s...
+2026-08-19 19:32:50 [INFO] [6/10] ID: tag:google.com,2013:googlealerts/feed:2940053591687946352
+2026-08-19 19:32:50 [INFO] Título: 'Pensei que ia ter saldão': a reação dos consumidores à recuperação <b>judicial</b> da Casas Bahia
+2026-08-19 19:32:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:32:50 [INFO] Classificação: enviar
+2026-08-19 19:32:50 [INFO] Aguardando 2.52s...
+2026-08-19 19:32:53 [INFO] [7/10] ID: tag:google.com,2013:googlealerts/feed:9527829442539144861
+2026-08-19 19:32:53 [INFO] Título: Justiça suspende demissões coletivas das Casas Bahia - Migalhas
+2026-08-19 19:32:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:32:53 [INFO] Classificação: nao_enviar
+2026-08-19 19:32:53 [INFO] Aguardando 2.55s...
+2026-08-19 19:32:56 [INFO] [8/10] ID: tag:google.com,2013:googlealerts/feed:14922208419060359145
+2026-08-19 19:32:56 [INFO] Título: Multilaser prevê perdas de R$ 20 milhões com Casas Bahia | Diário do Comércio
+2026-08-19 19:32:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:32:56 [INFO] Classificação: nao_enviar
+2026-08-19 19:32:56 [INFO] Aguardando 2.77s...
+2026-08-19 19:32:59 [INFO] [9/10] ID: tag:google.com,2013:googlealerts/feed:10507608792311377183
+2026-08-19 19:32:59 [INFO] Título: Casas Bahia fez leilão após pedir recuperação? Entenda confusão nas redes
+2026-08-19 19:32:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:32:59 [INFO] Classificação: enviar
+2026-08-19 19:32:59 [INFO] Aguardando 2.79s...
+2026-08-19 19:33:02 [INFO] [10/10] ID: tag:google.com,2013:googlealerts/feed:5787235560022290799
+2026-08-19 19:33:02 [INFO] Título: Daniel Vorcaro depõe à PF sobre ataques ao Banco Central nesta quinta
+2026-08-19 19:33:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 19:33:02 [INFO] Classificação: nao_enviar
+2026-08-19 19:33:02 [INFO] ======================================================================
+2026-08-19 19:33:02 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 19:33:02 [INFO] ======================================================================
+2026-08-19 19:33:02 [INFO] Processadas: 10
+2026-08-19 19:33:02 [INFO] Enviar: 3
+2026-08-19 19:33:02 [INFO] Não enviar: 7
+2026-08-19 19:33:02 [INFO] ======================================================================
