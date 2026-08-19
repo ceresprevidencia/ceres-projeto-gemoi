@@ -2774,3 +2774,61 @@
 2026-08-19 16:40:01 [INFO] Enviar: 10
 2026-08-19 16:40:01 [INFO] Não enviar: 6
 2026-08-19 16:40:01 [INFO] ======================================================================
+2026-08-19 17:33:18 [INFO] ======================================================================
+2026-08-19 17:33:18 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-19 17:33:18 [INFO] ======================================================================
+2026-08-19 17:33:18 [INFO] Notícias com status 'extraida': 9
+2026-08-19 17:33:18 [INFO] Limite: 20 requisições/minuto
+2026-08-19 17:33:18 [INFO] Intervalo mínimo: 3.0s
+2026-08-19 17:33:18 [INFO] ======================================================================
+2026-08-19 17:33:18 [INFO] [1/9] ID: tag:google.com,2013:googlealerts/feed:6935537547153945564
+2026-08-19 17:33:18 [INFO] Título: Casas Bahia e Marabraz pedem <b>recuperação</b> judicial na mesma semana; entenda
+2026-08-19 17:33:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 17:33:19 [INFO] Classificação: enviar
+2026-08-19 17:33:19 [INFO] Aguardando 2.61s...
+2026-08-19 17:33:21 [INFO] [2/9] ID: tag:google.com,2013:googlealerts/feed:16308640586109949203
+2026-08-19 17:33:21 [INFO] Título: Projeto sobre atuação do administrador pode engessar empresas - Consultor Jurídico
+2026-08-19 17:33:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 17:33:22 [INFO] Classificação: nao_enviar
+2026-08-19 17:33:22 [INFO] Aguardando 2.70s...
+2026-08-19 17:33:24 [INFO] [3/9] ID: tag:google.com,2013:googlealerts/feed:14696236205096521999
+2026-08-19 17:33:24 [INFO] Título: Casas Bahia na UTI: mercado, custo ou bolso vazio? - HojePR
+2026-08-19 17:33:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 17:33:25 [INFO] Classificação: nao_enviar
+2026-08-19 17:33:25 [INFO] Aguardando 2.70s...
+2026-08-19 17:33:27 [INFO] [4/9] ID: tag:google.com,2013:googlealerts/feed:13713452017284328026
+2026-08-19 17:33:27 [INFO] Título: BRASKEM IDESA, CONTROLADA PELA BRASKEM, PEDE RECUPERAÇÃO <b>JUDICIAL</b> NOS EUA
+2026-08-19 17:33:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 17:33:28 [INFO] Classificação: enviar
+2026-08-19 17:33:28 [INFO] Aguardando 2.68s...
+2026-08-19 17:33:30 [INFO] [5/9] ID: tag:google.com,2013:googlealerts/feed:7507389633156823302
+2026-08-19 17:33:30 [INFO] Título: Josias: Recuperação <b>judicial</b> da Casas Bahia não é licença para vale-tudo - UOL Economia
+2026-08-19 17:33:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 17:33:31 [INFO] Classificação: enviar
+2026-08-19 17:33:31 [INFO] Aguardando 2.65s...
+2026-08-19 17:33:33 [INFO] [6/9] ID: tag:google.com,2013:googlealerts/feed:17550916442034314828
+2026-08-19 17:33:33 [INFO] Título: Leilão Casas Bahia (BHIA3): após fechar quase 300 lojas, varejista oferece ...
+2026-08-19 17:33:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 17:33:34 [INFO] Classificação: enviar
+2026-08-19 17:33:34 [INFO] Aguardando 2.68s...
+2026-08-19 17:33:36 [INFO] [7/9] ID: tag:google.com,2013:googlealerts/feed:2715888930728701053
+2026-08-19 17:33:36 [INFO] Título: O Brasil é hostil ao empreendedor - Estadão
+2026-08-19 17:33:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 17:33:37 [INFO] Classificação: nao_enviar
+2026-08-19 17:33:37 [INFO] Aguardando 2.79s...
+2026-08-19 17:33:39 [INFO] [8/9] ID: tag:google.com,2013:googlealerts/feed:3072336640144680126
+2026-08-19 17:33:39 [INFO] Título: Casas Bahia coloca 391 produtos em leilão com celulares a partir de R$ 435; veja ofertas
+2026-08-19 17:33:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 17:33:40 [INFO] Classificação: nao_enviar
+2026-08-19 17:33:40 [INFO] Aguardando 2.55s...
+2026-08-19 17:33:42 [INFO] [9/9] ID: tag:google.com,2013:googlealerts/feed:14220133213423625476
+2026-08-19 17:33:42 [INFO] Título: Ministro chama taxa de juros de "insuportável" e aponta "cruzada" - Tribuna da Bahia
+2026-08-19 17:33:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-19 17:33:43 [INFO] Classificação: nao_enviar
+2026-08-19 17:33:43 [INFO] ======================================================================
+2026-08-19 17:33:43 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-19 17:33:43 [INFO] ======================================================================
+2026-08-19 17:33:43 [INFO] Processadas: 9
+2026-08-19 17:33:43 [INFO] Enviar: 4
+2026-08-19 17:33:43 [INFO] Não enviar: 5
+2026-08-19 17:33:43 [INFO] ======================================================================
