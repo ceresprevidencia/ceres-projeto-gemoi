@@ -4126,3 +4126,111 @@
 2026-08-20 19:38:05 [INFO] Enviar: 6
 2026-08-20 19:38:05 [INFO] Não enviar: 4
 2026-08-20 19:38:05 [INFO] ======================================================================
+2026-08-20 20:37:30 [INFO] ======================================================================
+2026-08-20 20:37:30 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 20:37:30 [INFO] ======================================================================
+2026-08-20 20:37:30 [INFO] Notícias com status 'extraida': 19
+2026-08-20 20:37:30 [INFO] Limite: 20 requisições/minuto
+2026-08-20 20:37:30 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 20:37:30 [INFO] ======================================================================
+2026-08-20 20:37:30 [INFO] [1/19] ID: tag:google.com,2013:googlealerts/feed:8866993085792866657
+2026-08-20 20:37:30 [INFO] Título: Aumento dos pedidos de <b>recuperação judicial</b> acende alerta para a economia brasileira
+2026-08-20 20:37:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:30 [INFO] Classificação: enviar
+2026-08-20 20:37:30 [INFO] Aguardando 2.78s...
+2026-08-20 20:37:33 [INFO] [2/19] ID: tag:google.com,2013:googlealerts/feed:3384338608373215649
+2026-08-20 20:37:33 [INFO] Título: Entenda o pedido de <b>recuperação judicial</b> das Casas Bahia - Grupo Folha
+2026-08-20 20:37:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:33 [INFO] Classificação: enviar
+2026-08-20 20:37:33 [INFO] Aguardando 2.66s...
+2026-08-20 20:37:36 [INFO] [3/19] ID: tag:google.com,2013:googlealerts/feed:8665621598276448563
+2026-08-20 20:37:36 [INFO] Título: Legado histórico, desafios de hoje e as fronteiras do amanhã inspiram debates na 26ª ... - TRT15
+2026-08-20 20:37:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:36 [INFO] Classificação: nao_enviar
+2026-08-20 20:37:36 [INFO] Aguardando 2.59s...
+2026-08-20 20:37:39 [INFO] [4/19] ID: tag:google.com,2013:googlealerts/feed:480754101170586732
+2026-08-20 20:37:39 [INFO] Título: RJ deixa de ser só renegociação e vira plataforma de ativos - Capital Aberto
+2026-08-20 20:37:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:39 [INFO] Classificação: nao_enviar
+2026-08-20 20:37:39 [INFO] Aguardando 2.53s...
+2026-08-20 20:37:42 [INFO] [5/19] ID: tag:google.com,2013:googlealerts/feed:416573046073521659
+2026-08-20 20:37:42 [INFO] Título: Falta de documentos cria novo obstáculo para <b>recuperação judicial</b> da Apex - Sim Notícias
+2026-08-20 20:37:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:42 [INFO] Classificação: enviar
+2026-08-20 20:37:42 [INFO] Aguardando 2.76s...
+2026-08-20 20:37:45 [INFO] [6/19] ID: tag:google.com,2013:googlealerts/feed:1643877619887739811
+2026-08-20 20:37:45 [INFO] Título: Apex Partners em <b>recuperação judicial</b> sem documentos - Acia Araçatuba
+2026-08-20 20:37:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:45 [INFO] Classificação: enviar
+2026-08-20 20:37:45 [INFO] Aguardando 2.68s...
+2026-08-20 20:37:48 [INFO] [7/19] ID: tag:google.com,2013:googlealerts/feed:18421873418054824448
+2026-08-20 20:37:48 [INFO] Título: Justiça do Trabalho suspende as demissões do grupo Casas Bahia - Correio Braziliense
+2026-08-20 20:37:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:48 [INFO] Classificação: nao_enviar
+2026-08-20 20:37:48 [INFO] Aguardando 2.72s...
+2026-08-20 20:37:51 [INFO] [8/19] ID: tag:google.com,2013:googlealerts/feed:1908072432677221670
+2026-08-20 20:37:51 [INFO] Título: Aumento dos pedidos de <b>recuperação</b> judicial acende alerta para a economia brasileira
+2026-08-20 20:37:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:51 [INFO] Classificação: enviar
+2026-08-20 20:37:51 [INFO] Aguardando 2.73s...
+2026-08-20 20:37:54 [INFO] [9/19] ID: tag:google.com,2013:googlealerts/feed:13340019945318758339
+2026-08-20 20:37:54 [INFO] Título: Justiça suspende demissão em massa de 1,9 mil trabalhadores das Casas Bahia
+2026-08-20 20:37:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:54 [INFO] Classificação: nao_enviar
+2026-08-20 20:37:54 [INFO] Aguardando 2.72s...
+2026-08-20 20:37:57 [INFO] [10/19] ID: tag:google.com,2013:googlealerts/feed:10116770388087810618
+2026-08-20 20:37:57 [INFO] Título: Casas Bahia confirma fechamento de 7 lojas e deixa 130 sem emprego no Mato Grosso do Sul
+2026-08-20 20:37:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:37:57 [INFO] Classificação: nao_enviar
+2026-08-20 20:37:57 [INFO] Aguardando 2.71s...
+2026-08-20 20:38:00 [INFO] [11/19] ID: tag:google.com,2013:googlealerts/feed:8861144628002576445
+2026-08-20 20:38:00 [INFO] Título: Justiça suspende recentes demissões coletivas das Casas Bahia
+2026-08-20 20:38:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:38:01 [INFO] Classificação: nao_enviar
+2026-08-20 20:38:01 [INFO] Aguardando 1.91s...
+2026-08-20 20:38:03 [INFO] [12/19] ID: tag:google.com,2013:googlealerts/feed:11329762895642052375
+2026-08-20 20:38:03 [INFO] Título: Varejo sob pressão: quantas empresas quebraram ou pediram recuperação <b>judicial</b> no ...
+2026-08-20 20:38:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:38:03 [INFO] Classificação: enviar
+2026-08-20 20:38:03 [INFO] Aguardando 2.83s...
+2026-08-20 20:38:06 [INFO] [13/19] ID: tag:google.com,2013:googlealerts/feed:15269759549581506368
+2026-08-20 20:38:06 [INFO] Título: Casas Bahia faz leilão de celulares e eletrodomésticos em meio a recuperação <b>judicial</b>
+2026-08-20 20:38:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:38:06 [INFO] Classificação: enviar
+2026-08-20 20:38:06 [INFO] Aguardando 2.78s...
+2026-08-20 20:38:09 [INFO] [14/19] ID: tag:google.com,2013:googlealerts/feed:17181119876488401666
+2026-08-20 20:38:09 [INFO] Título: Aumento dos pedidos de recuperação <b>judicial</b> acendem alerta para a economia brasileira
+2026-08-20 20:38:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:38:09 [INFO] Classificação: enviar
+2026-08-20 20:38:09 [INFO] Aguardando 2.72s...
+2026-08-20 20:38:12 [INFO] [15/19] ID: tag:google.com,2013:googlealerts/feed:5402386228570474739
+2026-08-20 20:38:12 [INFO] Título: RJ deixa de ser só renegociação e vira plataforma de ativos - Capital Aberto
+2026-08-20 20:38:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:38:12 [INFO] Classificação: nao_enviar
+2026-08-20 20:38:12 [INFO] Aguardando 2.78s...
+2026-08-20 20:38:15 [INFO] [16/19] ID: tag:google.com,2013:googlealerts/feed:18146527974764038984
+2026-08-20 20:38:15 [INFO] Título: Publicado edital de promoção e remoção para provimento de 34 unidades judiciais de ... - TJGO
+2026-08-20 20:38:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:38:15 [INFO] Classificação: nao_enviar
+2026-08-20 20:38:15 [INFO] Aguardando 2.63s...
+2026-08-20 20:38:18 [INFO] [17/19] ID: tag:google.com,2013:googlealerts/feed:10323106479156470819
+2026-08-20 20:38:18 [INFO] Título: Apex Partners em recuperação <b>judicial</b> sem documentos - Acia Araçatuba
+2026-08-20 20:38:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:38:18 [INFO] Classificação: enviar
+2026-08-20 20:38:18 [INFO] Aguardando 2.85s...
+2026-08-20 20:38:21 [INFO] [18/19] ID: tag:google.com,2013:googlealerts/feed:3102359042794812097
+2026-08-20 20:38:21 [INFO] Título: Recuperação <b>Judicial</b> não é atestado de fracasso, por Dr. Aislan Campos Rocco
+2026-08-20 20:38:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:38:21 [INFO] Classificação: enviar
+2026-08-20 20:38:21 [INFO] Aguardando 2.82s...
+2026-08-20 20:38:24 [INFO] [19/19] ID: tag:google.com,2013:googlealerts/feed:10035314331684508026
+2026-08-20 20:38:24 [INFO] Título: Principal risco da recuperação da Casas Bahia é lojas ficarem vazias - Broadcast
+2026-08-20 20:38:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 20:38:24 [INFO] Classificação: enviar
+2026-08-20 20:38:24 [INFO] ======================================================================
+2026-08-20 20:38:24 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 20:38:24 [INFO] ======================================================================
+2026-08-20 20:38:24 [INFO] Processadas: 19
+2026-08-20 20:38:24 [INFO] Enviar: 11
+2026-08-20 20:38:24 [INFO] Não enviar: 8
+2026-08-20 20:38:24 [INFO] ======================================================================
