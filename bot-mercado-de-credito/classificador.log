@@ -3671,3 +3671,86 @@
 2026-08-20 14:43:52 [INFO] Enviar: 0
 2026-08-20 14:43:52 [INFO] Não enviar: 0
 2026-08-20 14:43:52 [INFO] ======================================================================
+2026-08-20 15:40:54 [INFO] ======================================================================
+2026-08-20 15:40:54 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 15:40:54 [INFO] ======================================================================
+2026-08-20 15:40:54 [INFO] Notícias com status 'extraida': 14
+2026-08-20 15:40:54 [INFO] Limite: 20 requisições/minuto
+2026-08-20 15:40:54 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 15:40:54 [INFO] ======================================================================
+2026-08-20 15:40:54 [INFO] [1/14] ID: tag:google.com,2013:googlealerts/feed:18397966831785793073
+2026-08-20 15:40:54 [INFO] Título: Por que a Justiça ainda não aceitou a <b>recuperação judicial</b> da Casas Bahia - Exame
+2026-08-20 15:40:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:40:54 [INFO] Classificação: enviar
+2026-08-20 15:40:54 [INFO] Aguardando 2.60s...
+2026-08-20 15:40:57 [INFO] [2/14] ID: tag:google.com,2013:googlealerts/feed:4199432268351165995
+2026-08-20 15:40:57 [INFO] Título: Casas Bahia enfrenta ações de despejo de lojas e galpões logísticos - Folha - UOL
+2026-08-20 15:40:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:40:57 [INFO] Classificação: nao_enviar
+2026-08-20 15:40:57 [INFO] Aguardando 2.63s...
+2026-08-20 15:41:00 [INFO] [3/14] ID: tag:google.com,2013:googlealerts/feed:9867801773013601787
+2026-08-20 15:41:00 [INFO] Título: Casas Bahia deve R$ 5 bi ao Bradesco: como isso pode afetar a <b>recuperação</b> do banco?
+2026-08-20 15:41:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:00 [INFO] Classificação: nao_enviar
+2026-08-20 15:41:00 [INFO] Aguardando 2.62s...
+2026-08-20 15:41:03 [INFO] [4/14] ID: tag:google.com,2013:googlealerts/feed:4191578469255760611
+2026-08-20 15:41:03 [INFO] Título: Justiça suspende demissão coletiva no Grupo Casas Bahia - JOTA
+2026-08-20 15:41:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:03 [INFO] Classificação: nao_enviar
+2026-08-20 15:41:03 [INFO] Aguardando 2.74s...
+2026-08-20 15:41:06 [INFO] [5/14] ID: tag:google.com,2013:googlealerts/feed:12469254622246970490
+2026-08-20 15:41:06 [INFO] Título: Perito nomeado por juiz diz que Apex não está entregando documentos e dados - A Gazeta
+2026-08-20 15:41:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:06 [INFO] Classificação: nao_enviar
+2026-08-20 15:41:06 [INFO] Aguardando 2.74s...
+2026-08-20 15:41:09 [INFO] [6/14] ID: tag:google.com,2013:googlealerts/feed:9951942943075332407
+2026-08-20 15:41:09 [INFO] Título: Nasa Divulga Imagens da Cratera Formada na Lua Após Colisão do Foguete Falcon 9
+2026-08-20 15:41:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:09 [INFO] Classificação: nao_enviar
+2026-08-20 15:41:09 [INFO] Aguardando 2.77s...
+2026-08-20 15:41:12 [INFO] [7/14] ID: tag:google.com,2013:googlealerts/feed:6213144869136434712
+2026-08-20 15:41:12 [INFO] Título: Por que grandes redes de varejo estão fechando lojas e pedindo <b>recuperação judicial</b> - G1
+2026-08-20 15:41:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:12 [INFO] Classificação: enviar
+2026-08-20 15:41:12 [INFO] Aguardando 2.85s...
+2026-08-20 15:41:15 [INFO] [8/14] ID: tag:google.com,2013:googlealerts/feed:16796514033226837360
+2026-08-20 15:41:15 [INFO] Título: Dono da Havan comenta crise das Casas Bahia: "parece piada" - Gazeta do Povo
+2026-08-20 15:41:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:15 [INFO] Classificação: nao_enviar
+2026-08-20 15:41:15 [INFO] Aguardando 2.75s...
+2026-08-20 15:41:18 [INFO] [9/14] ID: tag:google.com,2013:googlealerts/feed:11395206352423402318
+2026-08-20 15:41:18 [INFO] Título: Pedrinho detona Bap após Flamengo notificar agência de fair play sobre gastos do Vasco
+2026-08-20 15:41:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:18 [INFO] Classificação: nao_enviar
+2026-08-20 15:41:18 [INFO] Aguardando 2.69s...
+2026-08-20 15:41:21 [INFO] [10/14] ID: tag:google.com,2013:googlealerts/feed:8206541640088755237
+2026-08-20 15:41:21 [INFO] Título: O @btgpactual executou as garantias referentes a um empréstimo dado a Thopen Energia ...
+2026-08-20 15:41:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:21 [INFO] Classificação: nao_enviar
+2026-08-20 15:41:21 [INFO] Aguardando 2.72s...
+2026-08-20 15:41:24 [INFO] [11/14] ID: tag:google.com,2013:googlealerts/feed:10941928450583723401
+2026-08-20 15:41:24 [INFO] Título: Justiça concede tutela de urgência parcial em pedido de RJ da Casas Bahia - Exame
+2026-08-20 15:41:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:24 [INFO] Classificação: enviar
+2026-08-20 15:41:24 [INFO] Aguardando 2.78s...
+2026-08-20 15:41:27 [INFO] [12/14] ID: tag:google.com,2013:googlealerts/feed:1188868472514811969
+2026-08-20 15:41:27 [INFO] Título: TJPI apresenta Robô Soseverino para automatizar processos sobrestados - Portal CNJ
+2026-08-20 15:41:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:27 [INFO] Classificação: nao_enviar
+2026-08-20 15:41:27 [INFO] Aguardando 2.73s...
+2026-08-20 15:41:30 [INFO] [13/14] ID: tag:google.com,2013:googlealerts/feed:6469429590539904862
+2026-08-20 15:41:30 [INFO] Título: <b>Recuperação judicial</b> da Casas Bahia: veja valores devidos às empresas moveleiras
+2026-08-20 15:41:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:30 [INFO] Classificação: enviar
+2026-08-20 15:41:30 [INFO] Aguardando 2.78s...
+2026-08-20 15:41:33 [INFO] [14/14] ID: tag:google.com,2013:googlealerts/feed:8260874790358308619
+2026-08-20 15:41:33 [INFO] Título: Casas Bahia e outras “Casas” em <b>recuperação judicial</b> acendem a luz vermelha da ...
+2026-08-20 15:41:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 15:41:33 [INFO] Classificação: enviar
+2026-08-20 15:41:33 [INFO] ======================================================================
+2026-08-20 15:41:33 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 15:41:33 [INFO] ======================================================================
+2026-08-20 15:41:33 [INFO] Processadas: 14
+2026-08-20 15:41:33 [INFO] Enviar: 5
+2026-08-20 15:41:33 [INFO] Não enviar: 9
+2026-08-20 15:41:33 [INFO] ======================================================================
