@@ -4234,3 +4234,76 @@
 2026-08-20 20:38:24 [INFO] Enviar: 11
 2026-08-20 20:38:24 [INFO] Não enviar: 8
 2026-08-20 20:38:24 [INFO] ======================================================================
+2026-08-20 21:35:20 [INFO] ======================================================================
+2026-08-20 21:35:20 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 21:35:20 [INFO] ======================================================================
+2026-08-20 21:35:20 [INFO] Notícias com status 'extraida': 12
+2026-08-20 21:35:20 [INFO] Limite: 20 requisições/minuto
+2026-08-20 21:35:20 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 21:35:20 [INFO] ======================================================================
+2026-08-20 21:35:20 [INFO] [1/12] ID: tag:google.com,2013:googlealerts/feed:1752950404585888005
+2026-08-20 21:35:20 [INFO] Título: Casas Bahia enfrenta ações de despejo de lojas e galpões - iG Economia
+2026-08-20 21:35:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:21 [INFO] Classificação: nao_enviar
+2026-08-20 21:35:21 [INFO] Aguardando 2.70s...
+2026-08-20 21:35:23 [INFO] [2/12] ID: tag:google.com,2013:googlealerts/feed:4196722138082901940
+2026-08-20 21:35:23 [INFO] Título: Caso Apex: <b>recuperação judicial</b> travada por dados - ES HOJE
+2026-08-20 21:35:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:24 [INFO] Classificação: enviar
+2026-08-20 21:35:24 [INFO] Aguardando 2.40s...
+2026-08-20 21:35:26 [INFO] [3/12] ID: tag:google.com,2013:googlealerts/feed:8758293150449280015
+2026-08-20 21:35:26 [INFO] Título: Casas Bahia e Marabraz em <b>recuperação</b>: quais são os direitos dos funcionários? - Exame
+2026-08-20 21:35:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:27 [INFO] Classificação: enviar
+2026-08-20 21:35:27 [INFO] Aguardando 2.46s...
+2026-08-20 21:35:29 [INFO] [4/12] ID: tag:google.com,2013:googlealerts/feed:16184441447939680429
+2026-08-20 21:35:29 [INFO] Título: STJ julga se perdão de dívida gera confusão patrimonial para IDPJ - Consultor Jurídico
+2026-08-20 21:35:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:30 [INFO] Classificação: nao_enviar
+2026-08-20 21:35:30 [INFO] Aguardando 2.71s...
+2026-08-20 21:35:32 [INFO] [5/12] ID: tag:google.com,2013:googlealerts/feed:6083045641015520848
+2026-08-20 21:35:32 [INFO] Título: É difícil sair de <b>recuperação judicial</b> feita no 'salve-se quem puder', diz analista da ESPM
+2026-08-20 21:35:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:33 [INFO] Classificação: enviar
+2026-08-20 21:35:33 [INFO] Aguardando 2.64s...
+2026-08-20 21:35:35 [INFO] [6/12] ID: tag:google.com,2013:googlealerts/feed:2104231877628741554
+2026-08-20 21:35:35 [INFO] Título: Apex Partners esbarra em falta de documentos e coloca em risco a própria <b>recuperação judicial</b>
+2026-08-20 21:35:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:36 [INFO] Classificação: enviar
+2026-08-20 21:35:36 [INFO] Aguardando 2.64s...
+2026-08-20 21:35:38 [INFO] [7/12] ID: tag:google.com,2013:googlealerts/feed:3676610001894132592
+2026-08-20 21:35:38 [INFO] Título: Oncoclínicas conclui venda de participação em joint venture saudita por US$ 6,55 milhões
+2026-08-20 21:35:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:39 [INFO] Classificação: nao_enviar
+2026-08-20 21:35:39 [INFO] Aguardando 2.64s...
+2026-08-20 21:35:41 [INFO] [8/12] ID: tag:google.com,2013:googlealerts/feed:16705463060380118733
+2026-08-20 21:35:41 [INFO] Título: Julgamento do Tema 1.424 e gratuidade da Justiça a pessoa jurídica - Migalhas
+2026-08-20 21:35:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:42 [INFO] Classificação: nao_enviar
+2026-08-20 21:35:42 [INFO] Aguardando 2.63s...
+2026-08-20 21:35:44 [INFO] [9/12] ID: tag:google.com,2013:googlealerts/feed:17596097283509183696
+2026-08-20 21:35:44 [INFO] Título: TJGO divulga edital de promoção e remoção para provimento de 46 unidades judiciais de ...
+2026-08-20 21:35:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:44 [INFO] Classificação: nao_enviar
+2026-08-20 21:35:44 [INFO] Aguardando 2.78s...
+2026-08-20 21:35:47 [INFO] [10/12] ID: tag:google.com,2013:googlealerts/feed:9772736130229888749
+2026-08-20 21:35:47 [INFO] Título: Apex trava a própria recuperação <b>judicial</b> por falta de documentação - Pipeline
+2026-08-20 21:35:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:47 [INFO] Classificação: enviar
+2026-08-20 21:35:47 [INFO] Aguardando 2.78s...
+2026-08-20 21:35:50 [INFO] [11/12] ID: tag:google.com,2013:googlealerts/feed:2215499599218884058
+2026-08-20 21:35:50 [INFO] Título: Tribunal mantém bloqueio de créditos de gestora de fundos em disputa com a Oi - Folha
+2026-08-20 21:35:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:51 [INFO] Classificação: nao_enviar
+2026-08-20 21:35:51 [INFO] Aguardando 2.61s...
+2026-08-20 21:35:53 [INFO] [12/12] ID: tag:google.com,2013:googlealerts/feed:7521022824085871893
+2026-08-20 21:35:53 [INFO] Título: Justiça do Trabalho suspende as demissões do grupo Casas Bahia - Correio Braziliense
+2026-08-20 21:35:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 21:35:54 [INFO] Classificação: nao_enviar
+2026-08-20 21:35:54 [INFO] ======================================================================
+2026-08-20 21:35:54 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 21:35:54 [INFO] ======================================================================
+2026-08-20 21:35:54 [INFO] Processadas: 12
+2026-08-20 21:35:54 [INFO] Enviar: 5
+2026-08-20 21:35:54 [INFO] Não enviar: 7
+2026-08-20 21:35:54 [INFO] ======================================================================
