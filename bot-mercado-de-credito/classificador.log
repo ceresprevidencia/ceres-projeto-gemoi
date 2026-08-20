@@ -3401,3 +3401,61 @@
 2026-08-20 03:04:55 [INFO] Enviar: 6
 2026-08-20 03:04:55 [INFO] Não enviar: 1
 2026-08-20 03:04:55 [INFO] ======================================================================
+2026-08-20 04:45:30 [INFO] ======================================================================
+2026-08-20 04:45:30 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 04:45:30 [INFO] ======================================================================
+2026-08-20 04:45:30 [INFO] Notícias com status 'extraida': 9
+2026-08-20 04:45:30 [INFO] Limite: 20 requisições/minuto
+2026-08-20 04:45:30 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 04:45:30 [INFO] ======================================================================
+2026-08-20 04:45:30 [INFO] [1/9] ID: tag:google.com,2013:googlealerts/feed:2262794089139905676
+2026-08-20 04:45:30 [INFO] Título: <b>Recuperação</b> da Casas Bahia avança, mas Justiça pede exame prévio - Poder360
+2026-08-20 04:45:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 04:45:31 [INFO] Classificação: enviar
+2026-08-20 04:45:31 [INFO] Aguardando 2.61s...
+2026-08-20 04:45:33 [INFO] [2/9] ID: tag:google.com,2013:googlealerts/feed:10158901218441285673
+2026-08-20 04:45:33 [INFO] Título: Exclusivo: Justiça defere parcialmente liminar para Casas Bahia; RJ ainda não é concedida
+2026-08-20 04:45:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 04:45:34 [INFO] Classificação: enviar
+2026-08-20 04:45:34 [INFO] Aguardando 2.65s...
+2026-08-20 04:45:36 [INFO] [3/9] ID: tag:google.com,2013:googlealerts/feed:11159583656178453179
+2026-08-20 04:45:36 [INFO] Título: RESENHA ZU E ZUZU: TAXA DAS BLUSINHAS CANCELADA? DIPLOMA DE ... - YouTube
+2026-08-20 04:45:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 04:45:37 [INFO] Classificação: nao_enviar
+2026-08-20 04:45:37 [INFO] Aguardando 2.73s...
+2026-08-20 04:45:39 [INFO] [4/9] ID: tag:google.com,2013:googlealerts/feed:18231145009686272906
+2026-08-20 04:45:39 [INFO] Título: Justiça manda Casas Bahia reverter demissões; veja como ficam os funcionários - G1
+2026-08-20 04:45:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 04:45:40 [INFO] Classificação: nao_enviar
+2026-08-20 04:45:40 [INFO] Aguardando 2.65s...
+2026-08-20 04:45:42 [INFO] [5/9] ID: tag:google.com,2013:googlealerts/feed:781549626651757413
+2026-08-20 04:45:42 [INFO] Título: Além da Casas Bahia: juros altos e fluxo menor nas lojas colocam o varejo sob pressão
+2026-08-20 04:45:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 04:45:43 [INFO] Classificação: nao_enviar
+2026-08-20 04:45:43 [INFO] Aguardando 2.69s...
+2026-08-20 04:45:45 [INFO] [6/9] ID: tag:google.com,2013:googlealerts/feed:6020225850131756310
+2026-08-20 04:45:45 [INFO] Título: Cenário de <b>recuperação</b> judicial se agrava, em cenário de juros abusivos - Correio do Brasil
+2026-08-20 04:45:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 04:45:46 [INFO] Classificação: enviar
+2026-08-20 04:45:46 [INFO] Aguardando 2.75s...
+2026-08-20 04:45:48 [INFO] [7/9] ID: tag:google.com,2013:googlealerts/feed:7657501333257207606
+2026-08-20 04:45:48 [INFO] Título: Justiça americana aprova empréstimo à Braskem Idesa - Pipeline
+2026-08-20 04:45:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 04:45:49 [INFO] Classificação: nao_enviar
+2026-08-20 04:45:49 [INFO] Aguardando 2.73s...
+2026-08-20 04:45:51 [INFO] [8/9] ID: tag:google.com,2013:googlealerts/feed:7191853843257573028
+2026-08-20 04:45:51 [INFO] Título: Recuperação da Casas Bahia avança, mas Justiça pede exame prévio - Poder360
+2026-08-20 04:45:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 04:45:52 [INFO] Classificação: enviar
+2026-08-20 04:45:52 [INFO] Aguardando 2.70s...
+2026-08-20 04:45:54 [INFO] [9/9] ID: tag:google.com,2013:googlealerts/feed:76895645221908984
+2026-08-20 04:45:54 [INFO] Título: Justiça manda Casas Bahia reverter demissões; veja como ficam os funcionários - G1
+2026-08-20 04:45:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 04:45:55 [INFO] Classificação: nao_enviar
+2026-08-20 04:45:55 [INFO] ======================================================================
+2026-08-20 04:45:55 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 04:45:55 [INFO] ======================================================================
+2026-08-20 04:45:55 [INFO] Processadas: 9
+2026-08-20 04:45:55 [INFO] Enviar: 4
+2026-08-20 04:45:55 [INFO] Não enviar: 5
+2026-08-20 04:45:55 [INFO] ======================================================================
