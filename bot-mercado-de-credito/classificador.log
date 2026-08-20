@@ -3473,3 +3473,26 @@
 2026-08-20 05:37:52 [INFO] Enviar: 0
 2026-08-20 05:37:52 [INFO] Não enviar: 0
 2026-08-20 05:37:52 [INFO] ======================================================================
+2026-08-20 06:57:56 [INFO] ======================================================================
+2026-08-20 06:57:56 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 06:57:56 [INFO] ======================================================================
+2026-08-20 06:57:56 [INFO] Notícias com status 'extraida': 2
+2026-08-20 06:57:56 [INFO] Limite: 20 requisições/minuto
+2026-08-20 06:57:56 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 06:57:56 [INFO] ======================================================================
+2026-08-20 06:57:56 [INFO] [1/2] ID: tag:google.com,2013:googlealerts/feed:16382802083296277331
+2026-08-20 06:57:56 [INFO] Título: Pedrinho, sobre empréstimo do Vasco: 'Não posso fazer contratações?' - LANCE!
+2026-08-20 06:57:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 06:57:57 [INFO] Classificação: nao_enviar
+2026-08-20 06:57:57 [INFO] Aguardando 2.56s...
+2026-08-20 06:57:59 [INFO] [2/2] ID: tag:google.com,2013:googlealerts/feed:13674182885847970910
+2026-08-20 06:57:59 [INFO] Título: Justiça suspende demissões das Casas Bahia - Revista Oeste
+2026-08-20 06:57:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 06:57:59 [INFO] Classificação: nao_enviar
+2026-08-20 06:57:59 [INFO] ======================================================================
+2026-08-20 06:57:59 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 06:57:59 [INFO] ======================================================================
+2026-08-20 06:57:59 [INFO] Processadas: 2
+2026-08-20 06:57:59 [INFO] Enviar: 0
+2026-08-20 06:57:59 [INFO] Não enviar: 2
+2026-08-20 06:57:59 [INFO] ======================================================================
