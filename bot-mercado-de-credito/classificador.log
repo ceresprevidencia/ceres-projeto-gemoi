@@ -3922,3 +3922,26 @@
 2026-08-20 16:43:57 [INFO] Enviar: 10
 2026-08-20 16:43:57 [INFO] Não enviar: 21
 2026-08-20 16:43:57 [INFO] ======================================================================
+2026-08-20 17:37:02 [INFO] ======================================================================
+2026-08-20 17:37:02 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 17:37:02 [INFO] ======================================================================
+2026-08-20 17:37:02 [INFO] Notícias com status 'extraida': 2
+2026-08-20 17:37:02 [INFO] Limite: 20 requisições/minuto
+2026-08-20 17:37:02 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 17:37:02 [INFO] ======================================================================
+2026-08-20 17:37:02 [INFO] [1/2] ID: tag:google.com,2013:googlealerts/feed:10767656803309402514
+2026-08-20 17:37:02 [INFO] Título: EquipSea destaca soluções na edição 364 do JornalCana
+2026-08-20 17:37:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 17:37:03 [INFO] Classificação: nao_enviar
+2026-08-20 17:37:03 [INFO] Aguardando 2.63s...
+2026-08-20 17:37:05 [INFO] [2/2] ID: tag:google.com,2013:googlealerts/feed:5493698813193730290
+2026-08-20 17:37:05 [INFO] Título: Fucae procura herdeiros de beneficiários falecidos da extinta Caixa Econômica Estadual
+2026-08-20 17:37:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 17:37:06 [INFO] Classificação: nao_enviar
+2026-08-20 17:37:06 [INFO] ======================================================================
+2026-08-20 17:37:06 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 17:37:06 [INFO] ======================================================================
+2026-08-20 17:37:06 [INFO] Processadas: 2
+2026-08-20 17:37:06 [INFO] Enviar: 0
+2026-08-20 17:37:06 [INFO] Não enviar: 2
+2026-08-20 17:37:06 [INFO] ======================================================================
