@@ -3285,3 +3285,71 @@
 2026-08-19 23:29:29 [INFO] Enviar: 1
 2026-08-19 23:29:29 [INFO] Não enviar: 2
 2026-08-19 23:29:29 [INFO] ======================================================================
+2026-08-20 01:43:17 [INFO] ======================================================================
+2026-08-20 01:43:17 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 01:43:17 [INFO] ======================================================================
+2026-08-20 01:43:17 [INFO] Notícias com status 'extraida': 11
+2026-08-20 01:43:17 [INFO] Limite: 20 requisições/minuto
+2026-08-20 01:43:17 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 01:43:17 [INFO] ======================================================================
+2026-08-20 01:43:17 [INFO] [1/11] ID: tag:google.com,2013:googlealerts/feed:14594333383401168973
+2026-08-20 01:43:17 [INFO] Título: <b>Recuperação judicial</b> em 2026: o que os dados revelam sobre a efetividade do instituto
+2026-08-20 01:43:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:18 [INFO] Classificação: enviar
+2026-08-20 01:43:18 [INFO] Aguardando 2.47s...
+2026-08-20 01:43:20 [INFO] [2/11] ID: tag:google.com,2013:googlealerts/feed:1865600788123123875
+2026-08-20 01:43:20 [INFO] Título: Na Toky, nem auditoria nem administrador <b>judicial</b> conseguem "enxergar" os números
+2026-08-20 01:43:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:21 [INFO] Classificação: enviar
+2026-08-20 01:43:21 [INFO] Aguardando 2.20s...
+2026-08-20 01:43:23 [INFO] [3/11] ID: tag:google.com,2013:googlealerts/feed:11060947950813402895
+2026-08-20 01:43:23 [INFO] Título: Justiça suspende demissões coletivas do Grupo Casas Bahia e proíbe novos cortes - Folha
+2026-08-20 01:43:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:24 [INFO] Classificação: nao_enviar
+2026-08-20 01:43:24 [INFO] Aguardando 2.27s...
+2026-08-20 01:43:26 [INFO] [4/11] ID: tag:google.com,2013:googlealerts/feed:5949864549604873185
+2026-08-20 01:43:26 [INFO] Título: Justiça rejeita queixa-crime de Silas Malafaia contra jornalistas do ICL
+2026-08-20 01:43:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:27 [INFO] Classificação: nao_enviar
+2026-08-20 01:43:27 [INFO] Aguardando 2.59s...
+2026-08-20 01:43:29 [INFO] [5/11] ID: tag:google.com,2013:googlealerts/feed:5981175984800195905
+2026-08-20 01:43:29 [INFO] Título: Everardo alerta para alta da dívida pública - YouTube
+2026-08-20 01:43:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:30 [INFO] Classificação: nao_enviar
+2026-08-20 01:43:30 [INFO] Aguardando 2.61s...
+2026-08-20 01:43:32 [INFO] [6/11] ID: tag:google.com,2013:googlealerts/feed:4801832502086316357
+2026-08-20 01:43:32 [INFO] Título: Casas Bahia deve bilhões a bancos, seguradoras e fabricantes; veja os maiores credores
+2026-08-20 01:43:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:32 [INFO] Classificação: nao_enviar
+2026-08-20 01:43:32 [INFO] Aguardando 2.77s...
+2026-08-20 01:43:35 [INFO] [7/11] ID: tag:google.com,2013:googlealerts/feed:16367539095045808818
+2026-08-20 01:43:35 [INFO] Título: Quando o credor vira sócio: a engenharia societária por trás das operações de debt-to-equity
+2026-08-20 01:43:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:35 [INFO] Classificação: nao_enviar
+2026-08-20 01:43:35 [INFO] Aguardando 2.74s...
+2026-08-20 01:43:38 [INFO] [8/11] ID: tag:google.com,2013:googlealerts/feed:7773102675594541431
+2026-08-20 01:43:38 [INFO] Título: Crise no varejo: Mappin, Mesbla, Arapuã e outras gigantes que faliram - Gazeta do Povo
+2026-08-20 01:43:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:38 [INFO] Classificação: nao_enviar
+2026-08-20 01:43:38 [INFO] Aguardando 2.72s...
+2026-08-20 01:43:41 [INFO] [9/11] ID: tag:google.com,2013:googlealerts/feed:3521439622127324418
+2026-08-20 01:43:41 [INFO] Título: Recuperação <b>judicial</b> em 2026: o que os dados revelam sobre a efetividade do instituto
+2026-08-20 01:43:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:41 [INFO] Classificação: enviar
+2026-08-20 01:43:41 [INFO] Aguardando 2.77s...
+2026-08-20 01:43:44 [INFO] [10/11] ID: tag:google.com,2013:googlealerts/feed:17662808633392976793
+2026-08-20 01:43:44 [INFO] Título: Casas Bahia coloca 391 produtos em leilão com celulares a partir de R$ 435; confira ofertas
+2026-08-20 01:43:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:45 [INFO] Classificação: nao_enviar
+2026-08-20 01:43:45 [INFO] Aguardando 2.68s...
+2026-08-20 01:43:47 [INFO] [11/11] ID: tag:google.com,2013:googlealerts/feed:13390313316002349450
+2026-08-20 01:43:47 [INFO] Título: Regra do TSE que restringe algoritmos de bigtechs é criticada pelos EUA
+2026-08-20 01:43:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 01:43:48 [INFO] Classificação: nao_enviar
+2026-08-20 01:43:48 [INFO] ======================================================================
+2026-08-20 01:43:48 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 01:43:48 [INFO] ======================================================================
+2026-08-20 01:43:48 [INFO] Processadas: 11
+2026-08-20 01:43:48 [INFO] Enviar: 3
+2026-08-20 01:43:48 [INFO] Não enviar: 8
+2026-08-20 01:43:48 [INFO] ======================================================================
