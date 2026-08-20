@@ -3945,3 +3945,121 @@
 2026-08-20 17:37:06 [INFO] Enviar: 0
 2026-08-20 17:37:06 [INFO] Não enviar: 2
 2026-08-20 17:37:06 [INFO] ======================================================================
+2026-08-20 18:51:53 [INFO] ======================================================================
+2026-08-20 18:51:53 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 18:51:53 [INFO] ======================================================================
+2026-08-20 18:51:53 [INFO] Notícias com status 'extraida': 21
+2026-08-20 18:51:53 [INFO] Limite: 20 requisições/minuto
+2026-08-20 18:51:53 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 18:51:53 [INFO] ======================================================================
+2026-08-20 18:51:53 [INFO] [1/21] ID: tag:google.com,2013:googlealerts/feed:16062307908077346162
+2026-08-20 18:51:53 [INFO] Título: Vasco, watchdog e governança em tempos de crise - Migalhas
+2026-08-20 18:51:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:51:53 [INFO] Classificação: nao_enviar
+2026-08-20 18:51:53 [INFO] Aguardando 2.61s...
+2026-08-20 18:51:56 [INFO] [2/21] ID: tag:google.com,2013:googlealerts/feed:17439305333654503469
+2026-08-20 18:51:56 [INFO] Título: <b>Recuperação Judicial</b> não é atestado de fracasso, por Dr. Aislan Campos Rocco
+2026-08-20 18:51:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:51:56 [INFO] Classificação: enviar
+2026-08-20 18:51:56 [INFO] Aguardando 2.79s...
+2026-08-20 18:51:59 [INFO] [3/21] ID: tag:google.com,2013:googlealerts/feed:8751135709162785512
+2026-08-20 18:51:59 [INFO] Título: Justiça pode multar Casas Bahia em R$ 100 mil por dia se dados de demissões forem apagados
+2026-08-20 18:51:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:51:59 [INFO] Classificação: nao_enviar
+2026-08-20 18:51:59 [INFO] Aguardando 2.78s...
+2026-08-20 18:52:02 [INFO] [4/21] ID: tag:google.com,2013:googlealerts/feed:17809406728382056246
+2026-08-20 18:52:02 [INFO] Título: Gigante do setor de móveis, Marabraz pede <b>recuperação judicial</b> com dívida de R$ 140 milhões
+2026-08-20 18:52:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:02 [INFO] Classificação: enviar
+2026-08-20 18:52:02 [INFO] Aguardando 2.64s...
+2026-08-20 18:52:05 [INFO] [5/21] ID: tag:google.com,2013:googlealerts/feed:1390855680538118840
+2026-08-20 18:52:05 [INFO] Título: Nem sempre cabe sucumbência em crédito em RJ e falência - Consultor Jurídico
+2026-08-20 18:52:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:05 [INFO] Classificação: enviar
+2026-08-20 18:52:05 [INFO] Aguardando 2.59s...
+2026-08-20 18:52:08 [INFO] [6/21] ID: tag:google.com,2013:googlealerts/feed:7543262707126498961
+2026-08-20 18:52:08 [INFO] Título: O que o poder de escolha do consumidor revela sobre a crise da Casas Bahia - Estadão
+2026-08-20 18:52:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:08 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:08 [INFO] Aguardando 2.78s...
+2026-08-20 18:52:11 [INFO] [7/21] ID: tag:google.com,2013:googlealerts/feed:8752266584409414203
+2026-08-20 18:52:11 [INFO] Título: Antes da crise, Casas Bahia apostou em futebol e João Gomes - Meio e Mensagem
+2026-08-20 18:52:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:12 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:12 [INFO] Aguardando 2.25s...
+2026-08-20 18:52:14 [INFO] [8/21] ID: tag:google.com,2013:googlealerts/feed:8364642765912445950
+2026-08-20 18:52:14 [INFO] Título: 'Pelo menos 40 empresas quebraram e as próximas quebrarão'; relembra a frase de Luiz ...
+2026-08-20 18:52:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:14 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:14 [INFO] Aguardando 2.60s...
+2026-08-20 18:52:17 [INFO] [9/21] ID: tag:google.com,2013:googlealerts/feed:5650322130138560186
+2026-08-20 18:52:17 [INFO] Título: De mina de ouro a risco bilionário: a virada do varejo para as seguradoras
+2026-08-20 18:52:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:17 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:17 [INFO] Aguardando 2.59s...
+2026-08-20 18:52:20 [INFO] [10/21] ID: tag:google.com,2013:googlealerts/feed:4993225962065543077
+2026-08-20 18:52:20 [INFO] Título: Demitidos das Casas Bahia voltam à folha, mas emprego ainda não está garantido
+2026-08-20 18:52:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:20 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:20 [INFO] Aguardando 2.71s...
+2026-08-20 18:52:23 [INFO] [11/21] ID: tag:google.com,2013:googlealerts/feed:7439155691204165794
+2026-08-20 18:52:23 [INFO] Título: Casas Bahia tentou segurar caixa com demissões; entenda - CNN Brasil
+2026-08-20 18:52:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:23 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:23 [INFO] Aguardando 2.70s...
+2026-08-20 18:52:26 [INFO] [12/21] ID: tag:google.com,2013:googlealerts/feed:12933687218593080484
+2026-08-20 18:52:26 [INFO] Título: Casas Bahia em crise: quem mais no varejo enfrenta pressão de dívida? - InfoMoney
+2026-08-20 18:52:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:26 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:26 [INFO] Aguardando 2.74s...
+2026-08-20 18:52:29 [INFO] [13/21] ID: tag:google.com,2013:googlealerts/feed:5639661509906348670
+2026-08-20 18:52:29 [INFO] Título: Varejo sob pressão: quantas empresas quebraram ou pediram <b>recuperação judicial</b> no ...
+2026-08-20 18:52:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:29 [INFO] Classificação: enviar
+2026-08-20 18:52:29 [INFO] Aguardando 2.46s...
+2026-08-20 18:52:32 [INFO] [14/21] ID: tag:google.com,2013:googlealerts/feed:14996538251681342488
+2026-08-20 18:52:32 [INFO] Título: É difícil sair de <b>recuperação</b> judicial feita no 'salve-se quem puder', diz analista da ESPM
+2026-08-20 18:52:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:32 [INFO] Classificação: enviar
+2026-08-20 18:52:32 [INFO] Aguardando 2.78s...
+2026-08-20 18:52:35 [INFO] [15/21] ID: tag:google.com,2013:googlealerts/feed:2965751971133838814
+2026-08-20 18:52:35 [INFO] Título: Casas Bahia obtém proteção contra credores na Justiça - BPMoney
+2026-08-20 18:52:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:35 [INFO] Classificação: enviar
+2026-08-20 18:52:35 [INFO] Aguardando 2.71s...
+2026-08-20 18:52:38 [INFO] [16/21] ID: tag:google.com,2013:googlealerts/feed:3172971949335332852
+2026-08-20 18:52:38 [INFO] Título: Fucae procura herdeiros de beneficiários falecidos da extinta Caixa Econômica Estadual
+2026-08-20 18:52:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:38 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:38 [INFO] Aguardando 2.83s...
+2026-08-20 18:52:41 [INFO] [17/21] ID: tag:google.com,2013:googlealerts/feed:9169570661889217776
+2026-08-20 18:52:41 [INFO] Título: Americanas assina contratos para vender 10 lojas da Hortifruti e fatia na Extrafruti
+2026-08-20 18:52:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:41 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:41 [INFO] Aguardando 2.57s...
+2026-08-20 18:52:44 [INFO] [18/21] ID: tag:google.com,2013:googlealerts/feed:6772851476893489874
+2026-08-20 18:52:44 [INFO] Título: Gigante do setor de móveis, Marabraz pede recuperação <b>judicial</b> com dívida de R$ 140 milhões
+2026-08-20 18:52:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:44 [INFO] Classificação: enviar
+2026-08-20 18:52:44 [INFO] Aguardando 2.64s...
+2026-08-20 18:52:47 [INFO] [19/21] ID: tag:google.com,2013:googlealerts/feed:17085019166406709107
+2026-08-20 18:52:47 [INFO] Título: Nem sempre cabe sucumbência em crédito em RJ e falência - Consultor Jurídico
+2026-08-20 18:52:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:47 [INFO] Classificação: enviar
+2026-08-20 18:52:47 [INFO] Aguardando 2.74s...
+2026-08-20 18:52:50 [INFO] [20/21] ID: tag:google.com,2013:googlealerts/feed:14909713097985558650
+2026-08-20 18:52:50 [INFO] Título: Membro do Fed diz que recomendaria elevar juros em setembro se inflação seguir alta
+2026-08-20 18:52:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:50 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:50 [INFO] Aguardando 2.73s...
+2026-08-20 18:52:53 [INFO] [21/21] ID: tag:google.com,2013:googlealerts/feed:10822913078675315051
+2026-08-20 18:52:53 [INFO] Título: Bancários fazem paralisação nacional de 24 horas nesta quinta-feira - Real Pioneiro
+2026-08-20 18:52:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 18:52:53 [INFO] Classificação: nao_enviar
+2026-08-20 18:52:53 [INFO] ======================================================================
+2026-08-20 18:52:53 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 18:52:53 [INFO] ======================================================================
+2026-08-20 18:52:53 [INFO] Processadas: 21
+2026-08-20 18:52:53 [INFO] Enviar: 8
+2026-08-20 18:52:53 [INFO] Não enviar: 13
+2026-08-20 18:52:53 [INFO] ======================================================================
