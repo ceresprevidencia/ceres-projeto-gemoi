@@ -4390,3 +4390,71 @@
 2026-08-20 22:36:28 [INFO] Enviar: 7
 2026-08-20 22:36:28 [INFO] Não enviar: 7
 2026-08-20 22:36:28 [INFO] ======================================================================
+2026-08-20 23:32:40 [INFO] ======================================================================
+2026-08-20 23:32:40 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 23:32:40 [INFO] ======================================================================
+2026-08-20 23:32:40 [INFO] Notícias com status 'extraida': 11
+2026-08-20 23:32:40 [INFO] Limite: 20 requisições/minuto
+2026-08-20 23:32:40 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 23:32:40 [INFO] ======================================================================
+2026-08-20 23:32:40 [INFO] [1/11] ID: tag:google.com,2013:googlealerts/feed:2529642681546090172
+2026-08-20 23:32:40 [INFO] Título: É difícil sair de <b>recuperação judicial</b> feita no 'salve-se quem puder', diz analista da ESPM
+2026-08-20 23:32:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:32:41 [INFO] Classificação: enviar
+2026-08-20 23:32:41 [INFO] Aguardando 2.45s...
+2026-08-20 23:32:43 [INFO] [2/11] ID: tag:google.com,2013:googlealerts/feed:2177770717992488336
+2026-08-20 23:32:43 [INFO] Título: Entre Despejos e Tombo de FIIs, Crise das Casas Bahia Põe sob Pressão 2,5 Milhões de M²
+2026-08-20 23:32:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:32:43 [INFO] Classificação: nao_enviar
+2026-08-20 23:32:43 [INFO] Aguardando 2.74s...
+2026-08-20 23:32:46 [INFO] [3/11] ID: tag:google.com,2013:googlealerts/feed:7133840834846516334
+2026-08-20 23:32:46 [INFO] Título: Pedido de falência pela PGFN reforça o papel da governança tributária - 20/08/2026 - Folha
+2026-08-20 23:32:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:32:47 [INFO] Classificação: enviar
+2026-08-20 23:32:47 [INFO] Aguardando 2.47s...
+2026-08-20 23:32:49 [INFO] [4/11] ID: tag:google.com,2013:googlealerts/feed:15019678881964423261
+2026-08-20 23:32:49 [INFO] Título: Juros altos e RJs reduzem oferta de crédito e ampliam disputa entre credores e devedores
+2026-08-20 23:32:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:32:50 [INFO] Classificação: enviar
+2026-08-20 23:32:50 [INFO] Aguardando 2.03s...
+2026-08-20 23:32:52 [INFO] [5/11] ID: tag:google.com,2013:googlealerts/feed:17466674706017206507
+2026-08-20 23:32:52 [INFO] Título: Brasil bateu recorde de recuperações <b>judiciais</b> em 2025, não de falências - UOL Notícias
+2026-08-20 23:32:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:32:53 [INFO] Classificação: enviar
+2026-08-20 23:32:53 [INFO] Aguardando 2.62s...
+2026-08-20 23:32:55 [INFO] [6/11] ID: tag:google.com,2013:googlealerts/feed:2382833712131867961
+2026-08-20 23:32:55 [INFO] Título: Casas Bahia: entenda os próximos passos da <b>recuperação judicial</b> da varejista
+2026-08-20 23:32:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:32:55 [INFO] Classificação: enviar
+2026-08-20 23:32:55 [INFO] Aguardando 2.75s...
+2026-08-20 23:32:58 [INFO] [7/11] ID: tag:google.com,2013:googlealerts/feed:13949088579857280210
+2026-08-20 23:32:58 [INFO] Título: GPA: por que a empresa escolheu <b>recuperação extrajudicial</b> em vez de ir à Justiça
+2026-08-20 23:32:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:32:58 [INFO] Classificação: enviar
+2026-08-20 23:32:58 [INFO] Aguardando 2.72s...
+2026-08-20 23:33:01 [INFO] [8/11] ID: tag:google.com,2013:googlealerts/feed:11532864403106587923
+2026-08-20 23:33:01 [INFO] Título: Casas Bahia e o risco da terceira chance - Painel Político
+2026-08-20 23:33:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:33:01 [INFO] Classificação: nao_enviar
+2026-08-20 23:33:01 [INFO] Aguardando 2.71s...
+2026-08-20 23:33:04 [INFO] [9/11] ID: tag:google.com,2013:googlealerts/feed:3794859678090000122
+2026-08-20 23:33:04 [INFO] Título: É difícil sair de recuperação <b>judicial</b> feita no 'salve-se quem puder', diz analista da ESPM
+2026-08-20 23:33:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:33:05 [INFO] Classificação: enviar
+2026-08-20 23:33:05 [INFO] Aguardando 2.58s...
+2026-08-20 23:33:07 [INFO] [10/11] ID: tag:google.com,2013:googlealerts/feed:15762720506944633212
+2026-08-20 23:33:07 [INFO] Título: Brasil bateu recorde de recuperações judiciais em 2025, não de falências - UOL Notícias
+2026-08-20 23:33:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:33:08 [INFO] Classificação: enviar
+2026-08-20 23:33:08 [INFO] Aguardando 2.44s...
+2026-08-20 23:33:10 [INFO] [11/11] ID: tag:google.com,2013:googlealerts/feed:10277576785826635736
+2026-08-20 23:33:10 [INFO] Título: Justiça derruba norma que permite a dentista fazer harmonização facial
+2026-08-20 23:33:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 23:33:10 [INFO] Classificação: nao_enviar
+2026-08-20 23:33:10 [INFO] ======================================================================
+2026-08-20 23:33:10 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 23:33:10 [INFO] ======================================================================
+2026-08-20 23:33:10 [INFO] Processadas: 11
+2026-08-20 23:33:10 [INFO] Enviar: 8
+2026-08-20 23:33:10 [INFO] Não enviar: 3
+2026-08-20 23:33:10 [INFO] ======================================================================
