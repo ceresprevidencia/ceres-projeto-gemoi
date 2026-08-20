@@ -4063,3 +4063,66 @@
 2026-08-20 18:52:53 [INFO] Enviar: 8
 2026-08-20 18:52:53 [INFO] Não enviar: 13
 2026-08-20 18:52:53 [INFO] ======================================================================
+2026-08-20 19:37:37 [INFO] ======================================================================
+2026-08-20 19:37:37 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 19:37:37 [INFO] ======================================================================
+2026-08-20 19:37:37 [INFO] Notícias com status 'extraida': 10
+2026-08-20 19:37:37 [INFO] Limite: 20 requisições/minuto
+2026-08-20 19:37:37 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 19:37:37 [INFO] ======================================================================
+2026-08-20 19:37:37 [INFO] [1/10] ID: tag:google.com,2013:googlealerts/feed:10886844205678839880
+2026-08-20 19:37:37 [INFO] Título: <b>Recuperação judicial</b> das Casas Bahia provoca dúvidas entre consumidores - Times Brasil
+2026-08-20 19:37:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:37:38 [INFO] Classificação: enviar
+2026-08-20 19:37:38 [INFO] Aguardando 2.62s...
+2026-08-20 19:37:40 [INFO] [2/10] ID: tag:google.com,2013:googlealerts/feed:5623762006938324991
+2026-08-20 19:37:40 [INFO] Título: <b>Recuperação judicial</b> das Casas Bahia: o que isso significa para quem tem um processo trabalhista?
+2026-08-20 19:37:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:37:41 [INFO] Classificação: enviar
+2026-08-20 19:37:41 [INFO] Aguardando 2.62s...
+2026-08-20 19:37:43 [INFO] [3/10] ID: tag:google.com,2013:googlealerts/feed:11359056911381879054
+2026-08-20 19:37:43 [INFO] Título: Juros altos e RJs reduzem oferta de crédito e ampliam disputa entre credores e devedores
+2026-08-20 19:37:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:37:44 [INFO] Classificação: enviar
+2026-08-20 19:37:44 [INFO] Aguardando 2.75s...
+2026-08-20 19:37:46 [INFO] [4/10] ID: tag:google.com,2013:googlealerts/feed:11107419143465958989
+2026-08-20 19:37:46 [INFO] Título: Aos 63 anos, dono de Havan comenta falência e lamenta uma das maiores perdas dos negócios
+2026-08-20 19:37:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:37:47 [INFO] Classificação: nao_enviar
+2026-08-20 19:37:47 [INFO] Aguardando 2.72s...
+2026-08-20 19:37:49 [INFO] [5/10] ID: tag:google.com,2013:googlealerts/feed:14721755778497949599
+2026-08-20 19:37:49 [INFO] Título: Casas Bahia mostra por que o investidor deve evitar ações de varejistas - Estadão
+2026-08-20 19:37:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:37:50 [INFO] Classificação: nao_enviar
+2026-08-20 19:37:50 [INFO] Aguardando 2.18s...
+2026-08-20 19:37:52 [INFO] [6/10] ID: tag:google.com,2013:googlealerts/feed:1252194041717205763
+2026-08-20 19:37:52 [INFO] Título: TJGO abre concurso de promoção e remoção para o 1º Juizado da Infância e da Juventude ...
+2026-08-20 19:37:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:37:53 [INFO] Classificação: nao_enviar
+2026-08-20 19:37:53 [INFO] Aguardando 2.75s...
+2026-08-20 19:37:55 [INFO] [7/10] ID: tag:google.com,2013:googlealerts/feed:4921458664424792413
+2026-08-20 19:37:55 [INFO] Título: Recuperação <b>judicial</b> das Casas Bahia: o que isso significa para quem tem um processo trabalhista?
+2026-08-20 19:37:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:37:56 [INFO] Classificação: enviar
+2026-08-20 19:37:56 [INFO] Aguardando 2.76s...
+2026-08-20 19:37:58 [INFO] [8/10] ID: tag:google.com,2013:googlealerts/feed:14553076320653146917
+2026-08-20 19:37:58 [INFO] Título: O Tema 1.424 do STJ e os novos requisitos estabelecidos para a concessão da gratuidade ...
+2026-08-20 19:37:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:37:59 [INFO] Classificação: nao_enviar
+2026-08-20 19:37:59 [INFO] Aguardando 2.74s...
+2026-08-20 19:38:01 [INFO] [9/10] ID: tag:google.com,2013:googlealerts/feed:756637929046546922
+2026-08-20 19:38:01 [INFO] Título: Cenário de recuperação <b>judicial</b> se agrava, em cenário de juros abusivos - Correio do Brasil
+2026-08-20 19:38:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:38:02 [INFO] Classificação: enviar
+2026-08-20 19:38:02 [INFO] Aguardando 2.81s...
+2026-08-20 19:38:04 [INFO] [10/10] ID: tag:google.com,2013:googlealerts/feed:1552934766840106655
+2026-08-20 19:38:04 [INFO] Título: Casas Bahia em recuperação <b>judicial</b>: o que acontece com compras, dívidas e garantias
+2026-08-20 19:38:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 19:38:05 [INFO] Classificação: enviar
+2026-08-20 19:38:05 [INFO] ======================================================================
+2026-08-20 19:38:05 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 19:38:05 [INFO] ======================================================================
+2026-08-20 19:38:05 [INFO] Processadas: 10
+2026-08-20 19:38:05 [INFO] Enviar: 6
+2026-08-20 19:38:05 [INFO] Não enviar: 4
+2026-08-20 19:38:05 [INFO] ======================================================================
