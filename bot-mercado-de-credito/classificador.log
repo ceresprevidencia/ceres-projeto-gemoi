@@ -3576,3 +3576,61 @@
 2026-08-20 10:37:59 [INFO] Enviar: 0
 2026-08-20 10:37:59 [INFO] Não enviar: 0
 2026-08-20 10:37:59 [INFO] ======================================================================
+2026-08-20 11:34:10 [INFO] ======================================================================
+2026-08-20 11:34:10 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 11:34:10 [INFO] ======================================================================
+2026-08-20 11:34:10 [INFO] Notícias com status 'extraida': 9
+2026-08-20 11:34:10 [INFO] Limite: 20 requisições/minuto
+2026-08-20 11:34:10 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 11:34:10 [INFO] ======================================================================
+2026-08-20 11:34:10 [INFO] [1/9] ID: tag:google.com,2013:googlealerts/feed:5458943657326307879
+2026-08-20 11:34:10 [INFO] Título: Após fechar lojas e demitir funcionários, presidente de gigante do varejo projeta um 2027 ainda pior
+2026-08-20 11:34:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 11:34:10 [INFO] Classificação: nao_enviar
+2026-08-20 11:34:10 [INFO] Aguardando 2.69s...
+2026-08-20 11:34:13 [INFO] [2/9] ID: tag:google.com,2013:googlealerts/feed:6896327468267872866
+2026-08-20 11:34:13 [INFO] Título: Apex trava a própria <b>recuperação</b> judicial por falta de documentação - Pipeline
+2026-08-20 11:34:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 11:34:13 [INFO] Classificação: enviar
+2026-08-20 11:34:13 [INFO] Aguardando 2.81s...
+2026-08-20 11:34:16 [INFO] [3/9] ID: tag:google.com,2013:googlealerts/feed:810780354676786
+2026-08-20 11:34:16 [INFO] Título: O que fazer com uma grande empresa que demite 3 mil empregados? - Causa Operária
+2026-08-20 11:34:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 11:34:16 [INFO] Classificação: nao_enviar
+2026-08-20 11:34:16 [INFO] Aguardando 2.80s...
+2026-08-20 11:34:19 [INFO] [4/9] ID: tag:google.com,2013:googlealerts/feed:1456962924511380694
+2026-08-20 11:34:19 [INFO] Título: Crise no varejo soma mais de R$ 68 bilhões em dívidas reestruturadas; Casas Bahia pede ...
+2026-08-20 11:34:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 11:34:19 [INFO] Classificação: enviar
+2026-08-20 11:34:19 [INFO] Aguardando 2.74s...
+2026-08-20 11:34:22 [INFO] [5/9] ID: tag:google.com,2013:googlealerts/feed:9084701588145953747
+2026-08-20 11:34:22 [INFO] Título: Braskem Idesa obtém financiamento nos EUA e Braskem (BRKM5) dispara no Ibovespa
+2026-08-20 11:34:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 11:34:22 [INFO] Classificação: nao_enviar
+2026-08-20 11:34:22 [INFO] Aguardando 2.79s...
+2026-08-20 11:34:25 [INFO] [6/9] ID: tag:google.com,2013:googlealerts/feed:16319752374421685025
+2026-08-20 11:34:25 [INFO] Título: Braskem Idesa ganha fôlego milionário nos EUA e BRKM5 dispara no Ibovespa
+2026-08-20 11:34:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 11:34:25 [INFO] Classificação: nao_enviar
+2026-08-20 11:34:25 [INFO] Aguardando 2.78s...
+2026-08-20 11:34:28 [INFO] [7/9] ID: tag:google.com,2013:googlealerts/feed:14638544287092082284
+2026-08-20 11:34:28 [INFO] Título: Crise da Casas Bahia (BHIA3) chega ao Grupo Multi (MLAS3), que provisiona R$ 20 milhões
+2026-08-20 11:34:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 11:34:28 [INFO] Classificação: nao_enviar
+2026-08-20 11:34:28 [INFO] Aguardando 2.73s...
+2026-08-20 11:34:31 [INFO] [8/9] ID: tag:google.com,2013:googlealerts/feed:17717276551098549747
+2026-08-20 11:34:31 [INFO] Título: Recuperações judiciais crescem 66% com juros altos e crédito restrito, puxadas pelo agronegócio
+2026-08-20 11:34:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 11:34:31 [INFO] Classificação: enviar
+2026-08-20 11:34:31 [INFO] Aguardando 2.57s...
+2026-08-20 11:34:34 [INFO] [9/9] ID: tag:google.com,2013:googlealerts/feed:10899241957175231289
+2026-08-20 11:34:34 [INFO] Título: casas bahia Archives – Debate Jurídico
+2026-08-20 11:34:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 11:34:34 [INFO] Classificação: nao_enviar
+2026-08-20 11:34:34 [INFO] ======================================================================
+2026-08-20 11:34:34 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 11:34:34 [INFO] ======================================================================
+2026-08-20 11:34:34 [INFO] Processadas: 9
+2026-08-20 11:34:34 [INFO] Enviar: 3
+2026-08-20 11:34:34 [INFO] Não enviar: 6
+2026-08-20 11:34:34 [INFO] ======================================================================
