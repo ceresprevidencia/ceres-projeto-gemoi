@@ -3634,3 +3634,26 @@
 2026-08-20 11:34:34 [INFO] Enviar: 3
 2026-08-20 11:34:34 [INFO] Não enviar: 6
 2026-08-20 11:34:34 [INFO] ======================================================================
+2026-08-20 13:03:29 [INFO] ======================================================================
+2026-08-20 13:03:29 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 13:03:29 [INFO] ======================================================================
+2026-08-20 13:03:29 [INFO] Notícias com status 'extraida': 2
+2026-08-20 13:03:29 [INFO] Limite: 20 requisições/minuto
+2026-08-20 13:03:29 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 13:03:29 [INFO] ======================================================================
+2026-08-20 13:03:29 [INFO] [1/2] ID: tag:google.com,2013:googlealerts/feed:1587038877510129604
+2026-08-20 13:03:29 [INFO] Título: Crise da Casas Bahia expõe novo papel da loja física - AdNews
+2026-08-20 13:03:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 13:03:29 [INFO] Classificação: nao_enviar
+2026-08-20 13:03:29 [INFO] Aguardando 2.76s...
+2026-08-20 13:03:32 [INFO] [2/2] ID: tag:google.com,2013:googlealerts/feed:17242782886528374941
+2026-08-20 13:03:32 [INFO] Título: Braskem (BRKM5) sobe mais de 10% na bolsa de valores após ter ajuda a operação no ...
+2026-08-20 13:03:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 13:03:32 [INFO] Classificação: nao_enviar
+2026-08-20 13:03:32 [INFO] ======================================================================
+2026-08-20 13:03:32 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 13:03:32 [INFO] ======================================================================
+2026-08-20 13:03:32 [INFO] Processadas: 2
+2026-08-20 13:03:32 [INFO] Enviar: 0
+2026-08-20 13:03:32 [INFO] Não enviar: 2
+2026-08-20 13:03:32 [INFO] ======================================================================
