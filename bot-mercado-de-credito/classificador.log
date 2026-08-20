@@ -4307,3 +4307,86 @@
 2026-08-20 21:35:54 [INFO] Enviar: 5
 2026-08-20 21:35:54 [INFO] Não enviar: 7
 2026-08-20 21:35:54 [INFO] ======================================================================
+2026-08-20 22:35:49 [INFO] ======================================================================
+2026-08-20 22:35:49 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 22:35:49 [INFO] ======================================================================
+2026-08-20 22:35:49 [INFO] Notícias com status 'extraida': 14
+2026-08-20 22:35:49 [INFO] Limite: 20 requisições/minuto
+2026-08-20 22:35:49 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 22:35:49 [INFO] ======================================================================
+2026-08-20 22:35:49 [INFO] [1/14] ID: tag:google.com,2013:googlealerts/feed:8339753289127192950
+2026-08-20 22:35:49 [INFO] Título: Grupo Estrela protocola plano de <b>recuperação judicial</b> | Empresas - Valor Econômico
+2026-08-20 22:35:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:35:49 [INFO] Classificação: enviar
+2026-08-20 22:35:49 [INFO] Aguardando 2.59s...
+2026-08-20 22:35:52 [INFO] [2/14] ID: tag:google.com,2013:googlealerts/feed:1981994687997615651
+2026-08-20 22:35:52 [INFO] Título: CNJ confirma proteção de atos cooperativos em processos de <b>recuperação judicial</b>
+2026-08-20 22:35:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:35:52 [INFO] Classificação: enviar
+2026-08-20 22:35:52 [INFO] Aguardando 2.73s...
+2026-08-20 22:35:55 [INFO] [3/14] ID: tag:google.com,2013:googlealerts/feed:10313239616466889332
+2026-08-20 22:35:55 [INFO] Título: Pontal-Thopen pede <b>recuperação judicial</b> logo após prometer faturamento bilionário
+2026-08-20 22:35:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:35:55 [INFO] Classificação: enviar
+2026-08-20 22:35:55 [INFO] Aguardando 2.66s...
+2026-08-20 22:35:58 [INFO] [4/14] ID: tag:google.com,2013:googlealerts/feed:14197675050576803800
+2026-08-20 22:35:58 [INFO] Título: Court suspends Casas Bahia layoffs after closing 298 stores | MARKET - YouTube
+2026-08-20 22:35:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:35:58 [INFO] Classificação: nao_enviar
+2026-08-20 22:35:58 [INFO] Aguardando 2.67s...
+2026-08-20 22:36:01 [INFO] [5/14] ID: tag:google.com,2013:googlealerts/feed:16950594759652917236
+2026-08-20 22:36:01 [INFO] Título: Oncoclínicas (ONCO3) conclui venda de participação em joint venture por US$ 6,55 milhões
+2026-08-20 22:36:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:01 [INFO] Classificação: nao_enviar
+2026-08-20 22:36:01 [INFO] Aguardando 2.65s...
+2026-08-20 22:36:04 [INFO] [6/14] ID: tag:google.com,2013:googlealerts/feed:18366259240585682631
+2026-08-20 22:36:04 [INFO] Título: Aeris aciona tutela cautelar para renegociar dívida com credores - NeoFeed
+2026-08-20 22:36:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:04 [INFO] Classificação: nao_enviar
+2026-08-20 22:36:04 [INFO] Aguardando 2.67s...
+2026-08-20 22:36:07 [INFO] [7/14] ID: tag:google.com,2013:googlealerts/feed:5405514382467931816
+2026-08-20 22:36:07 [INFO] Título: Grupo Estrela protocola plano de <b>recuperação</b> judicial | Empresas - Valor Econômico
+2026-08-20 22:36:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:07 [INFO] Classificação: enviar
+2026-08-20 22:36:07 [INFO] Aguardando 2.70s...
+2026-08-20 22:36:10 [INFO] [8/14] ID: tag:google.com,2013:googlealerts/feed:14905181978087493622
+2026-08-20 22:36:10 [INFO] Título: Oncoclínicas conclui venda de joint venture na Arábia Saudita - EuQueroInvestir
+2026-08-20 22:36:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:10 [INFO] Classificação: nao_enviar
+2026-08-20 22:36:10 [INFO] Aguardando 2.78s...
+2026-08-20 22:36:13 [INFO] [9/14] ID: tag:google.com,2013:googlealerts/feed:2342499013440413098
+2026-08-20 22:36:13 [INFO] Título: Principais players do setor de saúde apresentam bom desempenho financeiro
+2026-08-20 22:36:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:13 [INFO] Classificação: nao_enviar
+2026-08-20 22:36:13 [INFO] Aguardando 2.72s...
+2026-08-20 22:36:16 [INFO] [10/14] ID: tag:google.com,2013:googlealerts/feed:16826357202075199214
+2026-08-20 22:36:16 [INFO] Título: CNJ confirma proteção de atos cooperativos em processos de recuperação <b>judicial</b>
+2026-08-20 22:36:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:16 [INFO] Classificação: enviar
+2026-08-20 22:36:16 [INFO] Aguardando 2.59s...
+2026-08-20 22:36:19 [INFO] [11/14] ID: tag:google.com,2013:googlealerts/feed:2679271361131222579
+2026-08-20 22:36:19 [INFO] Título: Pontal-Thopen pede recuperação <b>judicial</b> logo após prometer faturamento bilionário
+2026-08-20 22:36:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:19 [INFO] Classificação: enviar
+2026-08-20 22:36:19 [INFO] Aguardando 2.80s...
+2026-08-20 22:36:22 [INFO] [12/14] ID: tag:google.com,2013:googlealerts/feed:8123120978516525204
+2026-08-20 22:36:22 [INFO] Título: Leilão da Casas Bahia tem notebooks, celulares e eletrodomésticos; veja como não cair em golpe
+2026-08-20 22:36:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:22 [INFO] Classificação: nao_enviar
+2026-08-20 22:36:22 [INFO] Aguardando 2.78s...
+2026-08-20 22:36:25 [INFO] [13/14] ID: tag:google.com,2013:googlealerts/feed:4123783389427260071
+2026-08-20 22:36:25 [INFO] Título: Casas Bahia: entenda os próximos passos da recuperação <b>judicial</b> da varejista
+2026-08-20 22:36:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:25 [INFO] Classificação: enviar
+2026-08-20 22:36:25 [INFO] Aguardando 2.82s...
+2026-08-20 22:36:28 [INFO] [14/14] ID: tag:google.com,2013:googlealerts/feed:9587775434433921219
+2026-08-20 22:36:28 [INFO] Título: PLP 124/22 e o novo desenho do contencioso tributário no CTN - Consultor Jurídico
+2026-08-20 22:36:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 22:36:28 [INFO] Classificação: nao_enviar
+2026-08-20 22:36:28 [INFO] ======================================================================
+2026-08-20 22:36:28 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 22:36:28 [INFO] ======================================================================
+2026-08-20 22:36:28 [INFO] Processadas: 14
+2026-08-20 22:36:28 [INFO] Enviar: 7
+2026-08-20 22:36:28 [INFO] Não enviar: 7
+2026-08-20 22:36:28 [INFO] ======================================================================
