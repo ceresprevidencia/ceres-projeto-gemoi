@@ -3510,3 +3510,41 @@
 2026-08-20 07:50:32 [INFO] Enviar: 0
 2026-08-20 07:50:32 [INFO] Não enviar: 0
 2026-08-20 07:50:32 [INFO] ======================================================================
+2026-08-20 08:49:09 [INFO] ======================================================================
+2026-08-20 08:49:09 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 08:49:09 [INFO] ======================================================================
+2026-08-20 08:49:09 [INFO] Notícias com status 'extraida': 5
+2026-08-20 08:49:09 [INFO] Limite: 20 requisições/minuto
+2026-08-20 08:49:09 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 08:49:09 [INFO] ======================================================================
+2026-08-20 08:49:09 [INFO] [1/5] ID: tag:google.com,2013:googlealerts/feed:13575277907837052974
+2026-08-20 08:49:09 [INFO] Título: CNJ confirma que atos cooperativos não se submetem a <b>recuperação judicial</b>
+2026-08-20 08:49:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 08:49:09 [INFO] Classificação: enviar
+2026-08-20 08:49:09 [INFO] Aguardando 2.69s...
+2026-08-20 08:49:12 [INFO] [2/5] ID: tag:google.com,2013:googlealerts/feed:16562305723214523323
+2026-08-20 08:49:12 [INFO] Título: Casas Bahia consegue proteção temporária contra credores na Justiça - InfoMoney
+2026-08-20 08:49:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 08:49:12 [INFO] Classificação: enviar
+2026-08-20 08:49:12 [INFO] Aguardando 2.67s...
+2026-08-20 08:49:15 [INFO] [3/5] ID: tag:google.com,2013:googlealerts/feed:1144671184027439935
+2026-08-20 08:49:15 [INFO] Título: Justiça manda Casas Bahia suspender demissões coletivas - YouTube
+2026-08-20 08:49:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 08:49:15 [INFO] Classificação: nao_enviar
+2026-08-20 08:49:15 [INFO] Aguardando 2.79s...
+2026-08-20 08:49:18 [INFO] [4/5] ID: tag:google.com,2013:googlealerts/feed:8532576698434666557
+2026-08-20 08:49:18 [INFO] Título: Pedrinho, sobre empréstimo do Vasco: 'Não posso fazer contratações?' - Lance!
+2026-08-20 08:49:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 08:49:18 [INFO] Classificação: nao_enviar
+2026-08-20 08:49:18 [INFO] Aguardando 2.76s...
+2026-08-20 08:49:21 [INFO] [5/5] ID: tag:google.com,2013:googlealerts/feed:1585744220632725614
+2026-08-20 08:49:21 [INFO] Título: Justiça suspende demissões das Casas Bahia - Revista Oeste
+2026-08-20 08:49:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 08:49:21 [INFO] Classificação: nao_enviar
+2026-08-20 08:49:21 [INFO] ======================================================================
+2026-08-20 08:49:21 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 08:49:21 [INFO] ======================================================================
+2026-08-20 08:49:21 [INFO] Processadas: 5
+2026-08-20 08:49:21 [INFO] Enviar: 2
+2026-08-20 08:49:21 [INFO] Não enviar: 3
+2026-08-20 08:49:21 [INFO] ======================================================================
