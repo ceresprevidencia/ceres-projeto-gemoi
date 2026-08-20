@@ -3754,3 +3754,171 @@
 2026-08-20 15:41:33 [INFO] Enviar: 5
 2026-08-20 15:41:33 [INFO] Não enviar: 9
 2026-08-20 15:41:33 [INFO] ======================================================================
+2026-08-20 16:42:27 [INFO] ======================================================================
+2026-08-20 16:42:27 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-20 16:42:27 [INFO] ======================================================================
+2026-08-20 16:42:27 [INFO] Notícias com status 'extraida': 31
+2026-08-20 16:42:27 [INFO] Limite: 20 requisições/minuto
+2026-08-20 16:42:27 [INFO] Intervalo mínimo: 3.0s
+2026-08-20 16:42:27 [INFO] ======================================================================
+2026-08-20 16:42:27 [INFO] [1/31] ID: tag:google.com,2013:googlealerts/feed:11478299493380617489
+2026-08-20 16:42:27 [INFO] Título: Ambipar: credores pedem suspensão de assembleia sobre <b>recuperação judicial</b>
+2026-08-20 16:42:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:28 [INFO] Classificação: enviar
+2026-08-20 16:42:28 [INFO] Aguardando 1.89s...
+2026-08-20 16:42:30 [INFO] [2/31] ID: tag:google.com,2013:googlealerts/feed:13125145427804308797
+2026-08-20 16:42:30 [INFO] Título: Justiça do Rio mantém arresto contra Pimco, credora e ex-acionista da Oi - TELETIME News
+2026-08-20 16:42:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:30 [INFO] Classificação: nao_enviar
+2026-08-20 16:42:30 [INFO] Aguardando 2.64s...
+2026-08-20 16:42:33 [INFO] [3/31] ID: tag:google.com,2013:googlealerts/feed:4979942050020846778
+2026-08-20 16:42:33 [INFO] Título: Crise no varejo: Mappin, Mesbla, Arapuã e outras gigantes que faliram - Gazeta do Povo
+2026-08-20 16:42:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:33 [INFO] Classificação: nao_enviar
+2026-08-20 16:42:33 [INFO] Aguardando 2.54s...
+2026-08-20 16:42:36 [INFO] [4/31] ID: tag:google.com,2013:googlealerts/feed:9615935910011466891
+2026-08-20 16:42:36 [INFO] Título: Apex trava a própria <b>recuperação judicial</b> por falta de documentação - Pipeline
+2026-08-20 16:42:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:36 [INFO] Classificação: enviar
+2026-08-20 16:42:36 [INFO] Aguardando 2.57s...
+2026-08-20 16:42:39 [INFO] [5/31] ID: tag:google.com,2013:googlealerts/feed:4229488873166704103
+2026-08-20 16:42:39 [INFO] Título: Transformação do varejo desafia grandes redes brasileiras - Gazeta do Povo
+2026-08-20 16:42:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:39 [INFO] Classificação: nao_enviar
+2026-08-20 16:42:39 [INFO] Aguardando 2.57s...
+2026-08-20 16:42:42 [INFO] [6/31] ID: tag:google.com,2013:googlealerts/feed:4777372019210338396
+2026-08-20 16:42:42 [INFO] Título: Casas Bahia e o risco da terceira chance - Conexão Tocantins - Portal de Notícias
+2026-08-20 16:42:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:42 [INFO] Classificação: nao_enviar
+2026-08-20 16:42:42 [INFO] Aguardando 2.61s...
+2026-08-20 16:42:45 [INFO] [7/31] ID: tag:google.com,2013:googlealerts/feed:17311920494430303977
+2026-08-20 16:42:45 [INFO] Título: Empresas alavancadas enfrentam dificuldade para refinanciar dívidas, dizem gestores
+2026-08-20 16:42:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:46 [INFO] Classificação: nao_enviar
+2026-08-20 16:42:46 [INFO] Aguardando 2.32s...
+2026-08-20 16:42:48 [INFO] [8/31] ID: tag:google.com,2013:googlealerts/feed:9460581974217203304
+2026-08-20 16:42:48 [INFO] Título: Entenda o pedido de <b>recuperação</b> judicial das Casas Bahia - Grupo Folha
+2026-08-20 16:42:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:48 [INFO] Classificação: enviar
+2026-08-20 16:42:48 [INFO] Aguardando 2.83s...
+2026-08-20 16:42:51 [INFO] [9/31] ID: tag:google.com,2013:googlealerts/feed:10351077082484012278
+2026-08-20 16:42:51 [INFO] Título: Cosan (CSAN3) vai vender fatia na Rumo (RAIL3): por que isso importa para os acionistas?
+2026-08-20 16:42:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:51 [INFO] Classificação: nao_enviar
+2026-08-20 16:42:51 [INFO] Aguardando 2.48s...
+2026-08-20 16:42:54 [INFO] [10/31] ID: tag:google.com,2013:googlealerts/feed:11968080759674707640
+2026-08-20 16:42:54 [INFO] Título: <b>Recuperação</b> Judicial não é atestado de fracasso - Revista Fator Brasil
+2026-08-20 16:42:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:54 [INFO] Classificação: enviar
+2026-08-20 16:42:54 [INFO] Aguardando 2.65s...
+2026-08-20 16:42:57 [INFO] [11/31] ID: tag:google.com,2013:googlealerts/feed:11073955844841724426
+2026-08-20 16:42:57 [INFO] Título: Os sinais incontestáveis de uma economia doente - Bem Paraná
+2026-08-20 16:42:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:42:57 [INFO] Classificação: nao_enviar
+2026-08-20 16:42:57 [INFO] Aguardando 2.53s...
+2026-08-20 16:43:00 [INFO] [12/31] ID: tag:google.com,2013:googlealerts/feed:13234972251794360432
+2026-08-20 16:43:00 [INFO] Título: Varejo brasileiro enfrenta pressão de juros e mudança no consumo
+2026-08-20 16:43:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:00 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:00 [INFO] Aguardando 2.74s...
+2026-08-20 16:43:03 [INFO] [13/31] ID: tag:google.com,2013:googlealerts/feed:10132637018358181362
+2026-08-20 16:43:03 [INFO] Título: Multilaser prevê perda de R$ 20 milhões com Casas Bahia
+2026-08-20 16:43:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:03 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:03 [INFO] Aguardando 2.80s...
+2026-08-20 16:43:06 [INFO] [14/31] ID: tag:google.com,2013:googlealerts/feed:5755231572640308806
+2026-08-20 16:43:06 [INFO] Título: Antes da crise, Casas Bahia apostou em futebol e João Gomes - Meio e Mensagem
+2026-08-20 16:43:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:06 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:06 [INFO] Aguardando 2.75s...
+2026-08-20 16:43:09 [INFO] [15/31] ID: tag:google.com,2013:googlealerts/feed:8187282895345106543
+2026-08-20 16:43:09 [INFO] Título: Casas Bahia enfrenta ações de despejo de lojas e galpões logísticos - Folha - UOL
+2026-08-20 16:43:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:09 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:09 [INFO] Aguardando 2.64s...
+2026-08-20 16:43:12 [INFO] [16/31] ID: tag:google.com,2013:googlealerts/feed:1504808506438592107
+2026-08-20 16:43:12 [INFO] Título: Justiça concede tutela de urgência parcial em pedido de RJ da Casas Bahia - Exame
+2026-08-20 16:43:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:12 [INFO] Classificação: enviar
+2026-08-20 16:43:12 [INFO] Aguardando 2.63s...
+2026-08-20 16:43:15 [INFO] [17/31] ID: tag:google.com,2013:googlealerts/feed:16645033548015872898
+2026-08-20 16:43:15 [INFO] Título: Casas Bahia deve R$ 5 bi ao Bradesco: como isso pode afetar a recuperação do banco?
+2026-08-20 16:43:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:15 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:15 [INFO] Aguardando 2.70s...
+2026-08-20 16:43:18 [INFO] [18/31] ID: tag:google.com,2013:googlealerts/feed:8041048621080485873
+2026-08-20 16:43:18 [INFO] Título: Ambipar: credores pedem suspensão de assembleia sobre recuperação <b>judicial</b>
+2026-08-20 16:43:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:18 [INFO] Classificação: enviar
+2026-08-20 16:43:18 [INFO] Aguardando 2.70s...
+2026-08-20 16:43:21 [INFO] [19/31] ID: tag:google.com,2013:googlealerts/feed:10867385266591019798
+2026-08-20 16:43:21 [INFO] Título: Justiça do Rio mantém arresto contra Pimco, credora e ex-acionista da Oi - TELETIME News
+2026-08-20 16:43:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:21 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:21 [INFO] Aguardando 2.74s...
+2026-08-20 16:43:24 [INFO] [20/31] ID: tag:google.com,2013:googlealerts/feed:2897005460676454157
+2026-08-20 16:43:24 [INFO] Título: Por que a Justiça ainda não aceitou a recuperação <b>judicial</b> da Casas Bahia - Exame
+2026-08-20 16:43:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:24 [INFO] Classificação: enviar
+2026-08-20 16:43:24 [INFO] Aguardando 2.53s...
+2026-08-20 16:43:27 [INFO] [21/31] ID: tag:google.com,2013:googlealerts/feed:11137879667149435003
+2026-08-20 16:43:27 [INFO] Título: Por que grandes redes de varejo estão fechando lojas e pedindo recuperação <b>judicial</b> - G1
+2026-08-20 16:43:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:27 [INFO] Classificação: enviar
+2026-08-20 16:43:27 [INFO] Aguardando 2.78s...
+2026-08-20 16:43:30 [INFO] [22/31] ID: tag:google.com,2013:googlealerts/feed:3440328511866565752
+2026-08-20 16:43:30 [INFO] Título: Casas Bahia tentou segurar caixa com demissões; entenda - CNN Brasil
+2026-08-20 16:43:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:30 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:30 [INFO] Aguardando 2.57s...
+2026-08-20 16:43:33 [INFO] [23/31] ID: tag:google.com,2013:googlealerts/feed:16320642793712905909
+2026-08-20 16:43:33 [INFO] Título: Recuperação <b>judicial</b> das Casas Bahia provoca dúvidas entre consumidores - Times Brasil
+2026-08-20 16:43:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:33 [INFO] Classificação: enviar
+2026-08-20 16:43:33 [INFO] Aguardando 2.74s...
+2026-08-20 16:43:36 [INFO] [24/31] ID: tag:google.com,2013:googlealerts/feed:1084152962965861440
+2026-08-20 16:43:36 [INFO] Título: FII HSLG11 esclarece impacto da Casas Bahia após tombo de 15% e projeta dividendos
+2026-08-20 16:43:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:36 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:36 [INFO] Aguardando 2.43s...
+2026-08-20 16:43:39 [INFO] [25/31] ID: tag:google.com,2013:googlealerts/feed:9221612122028403351
+2026-08-20 16:43:39 [INFO] Título: Exclusivo: Justiça defere parcialmente liminar para Casas Bahia; RJ ainda não é concedida
+2026-08-20 16:43:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:39 [INFO] Classificação: enviar
+2026-08-20 16:43:39 [INFO] Aguardando 2.52s...
+2026-08-20 16:43:42 [INFO] [26/31] ID: tag:google.com,2013:googlealerts/feed:2411680390752462223
+2026-08-20 16:43:42 [INFO] Título: Justiça barra demissão de 1.900 funcionários das Casas Bahia - SBT News
+2026-08-20 16:43:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:43 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:43 [INFO] Aguardando 2.28s...
+2026-08-20 16:43:45 [INFO] [27/31] ID: tag:google.com,2013:googlealerts/feed:11506533196525692249
+2026-08-20 16:43:45 [INFO] Título: Fechamento de creche em SP afeta famílias do Butantã após ruptura de parceria
+2026-08-20 16:43:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:45 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:45 [INFO] Aguardando 2.57s...
+2026-08-20 16:43:48 [INFO] [28/31] ID: tag:google.com,2013:googlealerts/feed:4633969894742863362
+2026-08-20 16:43:48 [INFO] Título: Daniel Vorcaro adia depoimento à PF em meio a nova estratégia para tentar delação
+2026-08-20 16:43:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:48 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:48 [INFO] Aguardando 2.76s...
+2026-08-20 16:43:51 [INFO] [29/31] ID: tag:google.com,2013:googlealerts/feed:6555256217668933036
+2026-08-20 16:43:51 [INFO] Título: O Tema 1.424 do STJ e os novos requisitos estabelecidos para a concessão da gratuidade ...
+2026-08-20 16:43:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:51 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:51 [INFO] Aguardando 2.73s...
+2026-08-20 16:43:54 [INFO] [30/31] ID: tag:google.com,2013:googlealerts/feed:3045339124792026418
+2026-08-20 16:43:54 [INFO] Título: O recente julgamento do Tema repetitivo 1.424 e entendimento do STJ quanto aos ...
+2026-08-20 16:43:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:54 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:54 [INFO] Aguardando 2.70s...
+2026-08-20 16:43:57 [INFO] [31/31] ID: tag:google.com,2013:googlealerts/feed:219257435809916343
+2026-08-20 16:43:57 [INFO] Título: Lojas vão reabrir? Funcionários retornam? Entenda decisão que suspendeu demissões nas ...
+2026-08-20 16:43:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-20 16:43:57 [INFO] Classificação: nao_enviar
+2026-08-20 16:43:57 [INFO] ======================================================================
+2026-08-20 16:43:57 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-20 16:43:57 [INFO] ======================================================================
+2026-08-20 16:43:57 [INFO] Processadas: 31
+2026-08-20 16:43:57 [INFO] Enviar: 10
+2026-08-20 16:43:57 [INFO] Não enviar: 21
+2026-08-20 16:43:57 [INFO] ======================================================================
