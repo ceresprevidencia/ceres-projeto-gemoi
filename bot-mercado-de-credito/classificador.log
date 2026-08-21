@@ -5088,3 +5088,76 @@
 2026-08-21 15:41:01 [INFO] Enviar: 5
 2026-08-21 15:41:01 [INFO] Não enviar: 1
 2026-08-21 15:41:01 [INFO] ======================================================================
+2026-08-21 16:42:33 [INFO] ======================================================================
+2026-08-21 16:42:33 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 16:42:33 [INFO] ======================================================================
+2026-08-21 16:42:33 [INFO] Notícias com status 'extraida': 12
+2026-08-21 16:42:33 [INFO] Limite: 20 requisições/minuto
+2026-08-21 16:42:33 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 16:42:33 [INFO] ======================================================================
+2026-08-21 16:42:33 [INFO] [1/12] ID: tag:google.com,2013:googlealerts/feed:3251739724181211528
+2026-08-21 16:42:33 [INFO] Título: Estrela (ESTR3) Protocola Plano para Renegociar Dívida de R$ 109 Milhões na ...
+2026-08-21 16:42:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:42:34 [INFO] Classificação: nao_enviar
+2026-08-21 16:42:34 [INFO] Aguardando 2.63s...
+2026-08-21 16:42:36 [INFO] [2/12] ID: tag:google.com,2013:googlealerts/feed:13956946367946718975
+2026-08-21 16:42:36 [INFO] Título: Braskem avalia proteção contra credores e nega decisão sobre reestruturação - InfoMoney
+2026-08-21 16:42:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:42:37 [INFO] Classificação: nao_enviar
+2026-08-21 16:42:37 [INFO] Aguardando 2.54s...
+2026-08-21 16:42:39 [INFO] [3/12] ID: tag:google.com,2013:googlealerts/feed:9595542599624859895
+2026-08-21 16:42:39 [INFO] Título: O colegiado da CVM vai avaliar na próxima semana a discussão sobre oferta pública ... - Instagram
+2026-08-21 16:42:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:42:39 [INFO] Classificação: nao_enviar
+2026-08-21 16:42:39 [INFO] Aguardando 2.85s...
+2026-08-21 16:42:42 [INFO] [4/12] ID: tag:google.com,2013:googlealerts/feed:3217351223132962657
+2026-08-21 16:42:42 [INFO] Título: A <b>recuperação</b> judicial da Casas Bahia não começou no domingo à noite
+2026-08-21 16:42:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:42:43 [INFO] Classificação: enviar
+2026-08-21 16:42:43 [INFO] Aguardando 2.81s...
+2026-08-21 16:42:45 [INFO] [5/12] ID: tag:google.com,2013:googlealerts/feed:14610166375572602461
+2026-08-21 16:42:45 [INFO] Título: Ambipar reconhece como credora empresa criada após pedido de recuperação <b>judicial</b>
+2026-08-21 16:42:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:42:46 [INFO] Classificação: enviar
+2026-08-21 16:42:46 [INFO] Aguardando 2.79s...
+2026-08-21 16:42:48 [INFO] [6/12] ID: tag:google.com,2013:googlealerts/feed:1095139820935887448
+2026-08-21 16:42:48 [INFO] Título: Estrela (ESTR3) Protocola Plano para Renegociar Dívida de R$ 109 Milhões na ...
+2026-08-21 16:42:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:42:48 [INFO] Classificação: nao_enviar
+2026-08-21 16:42:48 [INFO] Aguardando 2.84s...
+2026-08-21 16:42:51 [INFO] [7/12] ID: tag:google.com,2013:googlealerts/feed:5805076813070314209
+2026-08-21 16:42:51 [INFO] Título: FIDCs ligados à Casas Bahia somam R$ 3,95 bilhões após pedido de recuperação <b>judicial</b>
+2026-08-21 16:42:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:42:52 [INFO] Classificação: enviar
+2026-08-21 16:42:52 [INFO] Aguardando 2.65s...
+2026-08-21 16:42:54 [INFO] [8/12] ID: tag:google.com,2013:googlealerts/feed:9383849208780162051
+2026-08-21 16:42:54 [INFO] Título: Fornecedor exige pagamento à vista da Casas Bahia; veja impactos - iG Economia
+2026-08-21 16:42:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:42:55 [INFO] Classificação: nao_enviar
+2026-08-21 16:42:55 [INFO] Aguardando 2.79s...
+2026-08-21 16:42:57 [INFO] [9/12] ID: tag:google.com,2013:googlealerts/feed:14295574589717044876
+2026-08-21 16:42:57 [INFO] Título: Grupo Estrela apresenta plano de recuperação <b>judicial</b> para dívidas de R$ 109,1 milhões
+2026-08-21 16:42:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:42:58 [INFO] Classificação: enviar
+2026-08-21 16:42:58 [INFO] Aguardando 2.42s...
+2026-08-21 16:43:00 [INFO] [10/12] ID: tag:google.com,2013:googlealerts/feed:7480926759067682800
+2026-08-21 16:43:00 [INFO] Título: Análise: Os riscos de deixar o BRB sangrando em praça pública - Valor Econômico
+2026-08-21 16:43:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:43:01 [INFO] Classificação: nao_enviar
+2026-08-21 16:43:01 [INFO] Aguardando 2.58s...
+2026-08-21 16:43:03 [INFO] [11/12] ID: tag:google.com,2013:googlealerts/feed:15955361229393352544
+2026-08-21 16:43:03 [INFO] Título: TJ-BA encerra exclusividade do BRB em depósitos judiciais e adota novo sistema | Voz da Bahia
+2026-08-21 16:43:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:43:04 [INFO] Classificação: nao_enviar
+2026-08-21 16:43:04 [INFO] Aguardando 2.80s...
+2026-08-21 16:43:06 [INFO] [12/12] ID: tag:google.com,2013:googlealerts/feed:9477827351794956837
+2026-08-21 16:43:06 [INFO] Título: TJ-BA rompe com BRB após escândalo do Banco Master e transfere depósitos para a Caixa
+2026-08-21 16:43:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 16:43:07 [INFO] Classificação: nao_enviar
+2026-08-21 16:43:07 [INFO] ======================================================================
+2026-08-21 16:43:07 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 16:43:07 [INFO] ======================================================================
+2026-08-21 16:43:07 [INFO] Processadas: 12
+2026-08-21 16:43:07 [INFO] Enviar: 4
+2026-08-21 16:43:07 [INFO] Não enviar: 8
+2026-08-21 16:43:07 [INFO] ======================================================================
