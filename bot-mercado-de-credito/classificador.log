@@ -4715,3 +4715,41 @@
 2026-08-21 08:51:06 [INFO] Enviar: 0
 2026-08-21 08:51:06 [INFO] Não enviar: 3
 2026-08-21 08:51:06 [INFO] ======================================================================
+2026-08-21 09:45:26 [INFO] ======================================================================
+2026-08-21 09:45:26 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 09:45:26 [INFO] ======================================================================
+2026-08-21 09:45:26 [INFO] Notícias com status 'extraida': 5
+2026-08-21 09:45:26 [INFO] Limite: 20 requisições/minuto
+2026-08-21 09:45:26 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 09:45:26 [INFO] ======================================================================
+2026-08-21 09:45:26 [INFO] [1/5] ID: tag:google.com,2013:googlealerts/feed:14858173716520249439
+2026-08-21 09:45:26 [INFO] Título: “What's cautelar?” A pergunta que o gringo mais faz hoje sobre o Brasil - Brazil Journal
+2026-08-21 09:45:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 09:45:26 [INFO] Classificação: nao_enviar
+2026-08-21 09:45:26 [INFO] Aguardando 2.70s...
+2026-08-21 09:45:29 [INFO] [2/5] ID: tag:google.com,2013:googlealerts/feed:13124150454434715865
+2026-08-21 09:45:29 [INFO] Título: Vasco entra com recurso na Justiça para destravar empréstimo DIP - NETVASCO
+2026-08-21 09:45:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 09:45:29 [INFO] Classificação: nao_enviar
+2026-08-21 09:45:29 [INFO] Aguardando 2.78s...
+2026-08-21 09:45:32 [INFO] [3/5] ID: tag:google.com,2013:googlealerts/feed:14891106597748555313
+2026-08-21 09:45:32 [INFO] Título: ARTIGO - O plano das cooperativas agrícolas para blindar as margens até o fim do ano
+2026-08-21 09:45:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 09:45:32 [INFO] Classificação: nao_enviar
+2026-08-21 09:45:32 [INFO] Aguardando 2.79s...
+2026-08-21 09:45:35 [INFO] [4/5] ID: tag:google.com,2013:googlealerts/feed:12561087268168276312
+2026-08-21 09:45:35 [INFO] Título: Cooperativa vinícola da Serra investe R$ 50 milhões para ampliar estrutura até 2029 - GZH
+2026-08-21 09:45:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 09:45:35 [INFO] Classificação: nao_enviar
+2026-08-21 09:45:35 [INFO] Aguardando 2.73s...
+2026-08-21 09:45:38 [INFO] [5/5] ID: tag:google.com,2013:googlealerts/feed:9766832667372749063
+2026-08-21 09:45:38 [INFO] Título: Análise: Juros altos aceleram crise no varejo tradicional | WW - YouTube
+2026-08-21 09:45:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 09:45:38 [INFO] Classificação: nao_enviar
+2026-08-21 09:45:38 [INFO] ======================================================================
+2026-08-21 09:45:38 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 09:45:38 [INFO] ======================================================================
+2026-08-21 09:45:38 [INFO] Processadas: 5
+2026-08-21 09:45:38 [INFO] Enviar: 0
+2026-08-21 09:45:38 [INFO] Não enviar: 5
+2026-08-21 09:45:38 [INFO] ======================================================================
