@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 
 from utils.gerar_pdf import gerar_pdf
-from utils.queries.enquadramento import buscar_dados
+from utils.queries.enquadramento import buscar_dados_enquadramento
 from utils.helpers import (
     aplicar_destaque,
     formatar_percentual_br,
@@ -128,10 +128,9 @@ if "pills_desenq" not in st.session_state:
 
 # ── DADOS ─────────────────────────────────────────────────────────────────────
 
-@st.cache_data(ttl='24h', show_time=True)
 def carregar_dados() -> pd.DataFrame:
     """Carrega e cacheia o DataFrame principal por 1 hora."""
-    return buscar_dados()
+    return buscar_dados_enquadramento()
 
 
 df = carregar_dados()

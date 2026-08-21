@@ -31,7 +31,8 @@ due_diligence_st = st.Page("pages/s3_due_diligence_settings.py", title="Configur
 due_diligence_hp = st.Page("pages/s3_due_diligence_hp.py", title="Due Diligence",  url_path="due-diligence", visibility="hidden")
 due_diligence_questionario = st.Page("pages/s3_due_diligence_questionario.py", title="Questionário",  url_path="due-diligence-questionario", visibility="hidden")
 exportaveis = st.Page("pages/s5_exportaveis.py", title="Exportáveis",  url_path="exportaveis")
-recebimentos = st.Page("pages/s6_recebimentos.py", title="Recebimentos",  url_path="recebimentos", visibility="hidden")
+recebimentos = st.Page("pages/s6_recebimentos.py", title="Recebimentos",  url_path="recebimentos")
+
 
 current_page = st.navigation(
     {   
@@ -42,7 +43,8 @@ current_page = st.navigation(
         "Rentabilidade": [rent],
         "Due Diligence": [due_diligence_hp, due_diligence_st, due_diligence_questionario],
         '':[exportaveis],
-        "Recebimentos": [recebimentos]
+        "Risco de Liquidez": [recebimentos],
+       
         
     },
     position="top"

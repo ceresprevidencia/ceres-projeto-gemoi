@@ -1,9 +1,11 @@
 import pandas as pd
 from utils.db_sqlserver import get_connection
+from utils.diagnostico import registrar_consulta
 import streamlit as st
 
 @st.cache_data(ttl="24h")
-def buscar_dados() -> pd.DataFrame:
+@registrar_consulta("rent_mensal_planos")
+def buscar_dados_rent_mensal_planos() -> pd.DataFrame:
     query = """
         WITH rentabilidade_ajustada AS (
             SELECT *,

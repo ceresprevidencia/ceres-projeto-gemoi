@@ -1,7 +1,11 @@
 import pandas as pd
 from utils.db_oracle import get_connection
+from utils.diagnostico import registrar_consulta
+import streamlit as st
 
-def buscar_dados() -> pd.DataFrame:
+@st.cache_data(ttl='12h', show_time=True)
+@registrar_consulta("lim_operacionais")
+def buscar_dados_lim_operacionais() -> pd.DataFrame:
     query = """
     WITH alocacao AS (
     SELECT

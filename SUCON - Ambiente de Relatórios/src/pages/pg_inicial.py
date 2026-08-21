@@ -856,17 +856,12 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
               "description": "Apresentação dos Indicadores de Risco de Liquidez, fluxo de caixa e prazos de liquidação.",
               "badges": [
                   {
-                      "label": "Fluxo de Caixa dos Planos",
-                      "url": "/risco-planos",
-                      "tooltip": "Página em desenvolvimento.",
-                      "disabled": True,
+                      "label": "Recebimentos",
+                      "url": "/recebimentos",
+                      "tooltip": "Fluxo de recebimento dos planos.",
+                      "disabled": False,
                   },
-                  {
-                      "label": "Prazo de Liquidação dos Ativos",
-                      "url": "/risco-ativos",
-                      "tooltip": "Página em desenvolvimento.",
-                      "disabled": True,
-                  },
+                  
               ],
           },
           {

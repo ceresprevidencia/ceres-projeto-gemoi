@@ -8,7 +8,7 @@ import pandas as pd
 import streamlit as st
 
 from utils.helpers import _NOMES_PLANOS
-from utils.queries.risco_mercado_planos import buscar_dados
+from utils.queries.risco_mercado_planos import buscar_dados_risco_mercado_planos
 
 
 # =========================================================
@@ -813,7 +813,7 @@ def renderizar_rras():
 
     try:
 
-        df = buscar_dados()
+        df = buscar_dados_risco_mercado_planos()
 
 
     except Exception as erro:

@@ -1,7 +1,12 @@
 import pandas as pd
 from utils.db_oracle import get_connection
+from utils.diagnostico import registrar_consulta
+import streamlit as st
 
-def buscar_dados() -> pd.DataFrame:
+
+@st.cache_data(ttl='24h', show_time=True)
+@registrar_consulta("enquadramento")
+def buscar_dados_enquadramento() -> pd.DataFrame:
     query = """
                 
 WITH ENQUADRAMENTO AS (

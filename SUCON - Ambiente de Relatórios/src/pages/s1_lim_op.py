@@ -9,7 +9,7 @@ import streamlit as st
 
 from utils.gerar_pdf import gerar_pdf_limites_operacionais
 from utils.helpers import fmt_br, gerar_tabela_estilizada, nome_plano
-from utils.queries.lim_operacionais import buscar_dados
+from utils.queries.lim_operacionais import buscar_dados_lim_operacionais
 
 
 # ── CONSTANTES ────────────────────────────────────────────────────────────────
@@ -169,10 +169,10 @@ def formatar_data(valor) -> str:
 
 # ── DADOS ─────────────────────────────────────────────────────────────────────
 
-@st.cache_data(ttl='12h', show_time=True)
+
 def load_data() -> pd.DataFrame:
     """Carrega e cacheia os dados de limites operacionais por 12 horas."""
-    return buscar_dados()
+    return buscar_dados_lim_operacionais()
 
 
 data = load_data()
@@ -186,11 +186,6 @@ df_risco   = (
 )
 df_risco["Índice RiskBank"] = df_risco["Índice RiskBank"].apply(lambda x: fmt_br(x, 2))
 
-
-# ── SESSION STATE ─────────────────────────────────────────────────────────────
-
-if "data_selecionada" not in st.session_state:
-    st.session_state.data_selecionada = data["DATA_COTACAO"].max().date()
 
 #-----DIMENSÃO PÁGINA
 
@@ -255,7 +250,7 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
             ultima_data   = data["DATA_COTACAO"].max().date()
             st.date_input(
                 "Selecione a data posição",
-                value=st.session_state.data_selecionada,
+                value=ultima_data,
                 format="DD/MM/YYYY",
                 help=f"Datas disponíveis: {primeira_data.strftime('%d/%m/%Y')} a {ultima_data.strftime('%d/%m/%Y')}.",
                 min_value=primeira_data,

@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
 from utils.queries.ipca import buscar_dados_ipca 
-from utils.queries.rent_mensal_planos import buscar_dados as buscar_rent_mensal_planos
-from utils.queries.rent_grupos import buscar_dados as buscar_grupos
-from utils.queries.rent_planos import buscar_dados as buscar_planos
-from utils.queries.rent_produtos import buscar_dados as buscar_dados_produtos
+from utils.queries.rent_mensal_planos import buscar_dados_rent_mensal_planos
+from utils.queries.rent_grupos import buscar_dados_grupos as buscar_grupos
+from utils.queries.rent_planos import buscar_dados_rent_planos
+from utils.queries.rent_produtos import buscar_dados_rent_produtos 
 from utils.queries.bench_acumulado import buscar_dados_bench_acumulado 
 import plotly.graph_objects as go
 from utils.helpers import (primeiro_dia_util, 
@@ -35,10 +35,11 @@ df_benchmark_acumulado['TESOURARIA'] = df_benchmark_acumulado['TESOURARIA'].repl
 df_ipca = buscar_dados_ipca()
 
 
+
 df_grupos = buscar_grupos()
-df_planos = buscar_planos()
-df_produtos = buscar_dados_produtos()
-df_rent_mensal_planos = buscar_rent_mensal_planos()
+df_planos = buscar_dados_rent_planos()
+df_produtos = buscar_dados_rent_produtos()
+df_rent_mensal_planos = buscar_dados_rent_mensal_planos()
 
 df_ipca['PLANO'] = 'PGA'
 df_ipca['DATA'] = pd.to_datetime(df_ipca['DATA']).dt.to_period('M').dt.to_timestamp()

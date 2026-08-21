@@ -1,8 +1,10 @@
 import pandas as pd
 from utils.db_sqlserver import get_connection
+from utils.diagnostico import registrar_consulta
 import streamlit as st
 
 @st.cache_data(ttl="24h")
+@registrar_consulta("benchmark_ticker")
 def buscar_dados_ticker() -> pd.DataFrame:
     query = """
        WITH ultima_competencia AS (

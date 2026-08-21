@@ -1,8 +1,10 @@
 import streamlit as st
 import pandas as pd
 from utils.db_oracle import get_connection
+from utils.diagnostico import registrar_consulta
 
 @st.cache_data(ttl="24h")
+@registrar_consulta("recebimentos")
 def buscar_dados_recebimentos() -> pd.DataFrame:
     query = """
         WITH rendimentos AS (

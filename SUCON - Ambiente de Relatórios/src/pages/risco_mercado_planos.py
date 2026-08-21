@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 from utils.gerar_pdf import gerar_pdf_risco_planos
-from utils.queries.risco_mercado_planos import buscar_dados as buscar_dados_planos
-from utils.queries.risco_mercado_segmentos import buscar_dados as buscar_dados_segmentos
+from utils.queries.risco_mercado_planos import buscar_dados_risco_mercado_planos
 import os
 import plotly.graph_objects as go
 from utils.helpers import ( 
@@ -16,11 +15,12 @@ from utils.helpers import (
 
 # Carregar dados c
 
-@st.cache_data(ttl="1h", show_time=True)
+
 def carregar_dados() -> pd.DataFrame:
-    return buscar_dados_planos()
+    return buscar_dados_risco_mercado_planos()
 
  
+
 
 
 df_planos = carregar_dados()
