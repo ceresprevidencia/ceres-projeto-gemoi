@@ -4531,3 +4531,46 @@
 2026-08-21 01:49:19 [INFO] Enviar: 6
 2026-08-21 01:49:19 [INFO] Não enviar: 6
 2026-08-21 01:49:19 [INFO] ======================================================================
+2026-08-21 03:10:35 [INFO] ======================================================================
+2026-08-21 03:10:35 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 03:10:35 [INFO] ======================================================================
+2026-08-21 03:10:35 [INFO] Notícias com status 'extraida': 6
+2026-08-21 03:10:35 [INFO] Limite: 20 requisições/minuto
+2026-08-21 03:10:35 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 03:10:35 [INFO] ======================================================================
+2026-08-21 03:10:35 [INFO] [1/6] ID: tag:google.com,2013:googlealerts/feed:13074149788770220496
+2026-08-21 03:10:35 [INFO] Título: BB investiu R$ 2,9 bi nas Casas Bahia e corre atrás do prejuízo - Gazeta do Povo
+2026-08-21 03:10:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 03:10:35 [INFO] Classificação: nao_enviar
+2026-08-21 03:10:35 [INFO] Aguardando 2.61s...
+2026-08-21 03:10:38 [INFO] [2/6] ID: tag:google.com,2013:googlealerts/feed:1703243238865478797
+2026-08-21 03:10:38 [INFO] Título: Datagro vê salto no déficit do mercado de milho no Brasil em 26/27 com demanda do setor de etanol
+2026-08-21 03:10:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 03:10:38 [INFO] Classificação: nao_enviar
+2026-08-21 03:10:38 [INFO] Aguardando 2.74s...
+2026-08-21 03:10:41 [INFO] [3/6] ID: tag:google.com,2013:googlealerts/feed:4576940152315850531
+2026-08-21 03:10:41 [INFO] Título: Estrela (ESTR3; ESTR4) protocola plano de recuperação <b>judicial</b> - BPMoney
+2026-08-21 03:10:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 03:10:41 [INFO] Classificação: enviar
+2026-08-21 03:10:41 [INFO] Aguardando 2.76s...
+2026-08-21 03:10:44 [INFO] [4/6] ID: tag:google.com,2013:googlealerts/feed:6174131845533631726
+2026-08-21 03:10:44 [INFO] Título: Caso Apex: perito diz que grupo trava dados em recuperação <b>judicial</b> - ESHoje
+2026-08-21 03:10:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 03:10:44 [INFO] Classificação: enviar
+2026-08-21 03:10:44 [INFO] Aguardando 2.74s...
+2026-08-21 03:10:47 [INFO] [5/6] ID: tag:google.com,2013:googlealerts/feed:15625730368165131287
+2026-08-21 03:10:47 [INFO] Título: Entenda o pedido de recuperação <b>judicial</b> das Casas Bahia - Grupo Folha
+2026-08-21 03:10:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 03:10:47 [INFO] Classificação: enviar
+2026-08-21 03:10:47 [INFO] Aguardando 2.74s...
+2026-08-21 03:10:50 [INFO] [6/6] ID: tag:google.com,2013:googlealerts/feed:9078455392276424466
+2026-08-21 03:10:50 [INFO] Título: STJ julga se perdão de dívida gera confusão patrimonial para IDPJ - Consultor Jurídico
+2026-08-21 03:10:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 03:10:50 [INFO] Classificação: nao_enviar
+2026-08-21 03:10:50 [INFO] ======================================================================
+2026-08-21 03:10:50 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 03:10:50 [INFO] ======================================================================
+2026-08-21 03:10:50 [INFO] Processadas: 6
+2026-08-21 03:10:50 [INFO] Enviar: 3
+2026-08-21 03:10:50 [INFO] Não enviar: 3
+2026-08-21 03:10:50 [INFO] ======================================================================
