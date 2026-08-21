@@ -4785,3 +4785,71 @@
 2026-08-21 11:33:11 [INFO] Enviar: 0
 2026-08-21 11:33:11 [INFO] Não enviar: 1
 2026-08-21 11:33:11 [INFO] ======================================================================
+2026-08-21 13:02:41 [INFO] ======================================================================
+2026-08-21 13:02:41 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 13:02:41 [INFO] ======================================================================
+2026-08-21 13:02:41 [INFO] Notícias com status 'extraida': 11
+2026-08-21 13:02:41 [INFO] Limite: 20 requisições/minuto
+2026-08-21 13:02:41 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 13:02:41 [INFO] ======================================================================
+2026-08-21 13:02:41 [INFO] [1/11] ID: tag:google.com,2013:googlealerts/feed:15013596912044376840
+2026-08-21 13:02:41 [INFO] Título: Estrela apresenta plano de <b>recuperação judicial</b> para reestruturar dívida de R$ 109 milhões
+2026-08-21 13:02:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:02:41 [INFO] Classificação: enviar
+2026-08-21 13:02:41 [INFO] Aguardando 2.62s...
+2026-08-21 13:02:44 [INFO] [2/11] ID: tag:google.com,2013:googlealerts/feed:5764268673244879859
+2026-08-21 13:02:44 [INFO] Título: Pontal-Thopen entra em <b>recuperação judicial</b> após promessa bilionária - Acia Araçatuba
+2026-08-21 13:02:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:02:44 [INFO] Classificação: enviar
+2026-08-21 13:02:44 [INFO] Aguardando 2.86s...
+2026-08-21 13:02:47 [INFO] [3/11] ID: tag:google.com,2013:googlealerts/feed:17074927558263935952
+2026-08-21 13:02:47 [INFO] Título: Grupo Estrela apresenta plano de <b>recuperação judicial</b> - 21/08/2026 - Economia - Folha
+2026-08-21 13:02:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:02:47 [INFO] Classificação: enviar
+2026-08-21 13:02:47 [INFO] Aguardando 2.80s...
+2026-08-21 13:02:50 [INFO] [4/11] ID: tag:google.com,2013:googlealerts/feed:3490795170814431125
+2026-08-21 13:02:50 [INFO] Título: Após abandono saudita, <b>recuperação judicial</b> é hipótese para a LIV Golf - Sport Insider
+2026-08-21 13:02:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:02:50 [INFO] Classificação: enviar
+2026-08-21 13:02:50 [INFO] Aguardando 2.79s...
+2026-08-21 13:02:53 [INFO] [5/11] ID: tag:google.com,2013:googlealerts/feed:5579253995418958269
+2026-08-21 13:02:53 [INFO] Título: Fornecedor exige pagamento à vista da Casas Bahia, e empresa atrasa aluguel de galpões
+2026-08-21 13:02:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:02:53 [INFO] Classificação: nao_enviar
+2026-08-21 13:02:53 [INFO] Aguardando 2.67s...
+2026-08-21 13:02:56 [INFO] [6/11] ID: tag:google.com,2013:googlealerts/feed:12592169763519106951
+2026-08-21 13:02:56 [INFO] Título: A <b>recuperação judicial</b> da Casas Bahia (BHIA3) mostra por que prefiro ficar longe do varejo ...
+2026-08-21 13:02:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:02:56 [INFO] Classificação: enviar
+2026-08-21 13:02:56 [INFO] Aguardando 2.80s...
+2026-08-21 13:02:59 [INFO] [7/11] ID: tag:google.com,2013:googlealerts/feed:8899120428487269175
+2026-08-21 13:02:59 [INFO] Título: <b>Recuperação judicial</b> no agronegócio avança 22% no 1º trimestre e expõe pressão sobre o caixa
+2026-08-21 13:02:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:02:59 [INFO] Classificação: enviar
+2026-08-21 13:02:59 [INFO] Aguardando 2.88s...
+2026-08-21 13:03:02 [INFO] [8/11] ID: tag:google.com,2013:googlealerts/feed:2165968850111345259
+2026-08-21 13:03:02 [INFO] Título: Efeito do juro chegou: Mercado teme crise de crédito e não descarta recessão em 2027
+2026-08-21 13:03:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:03:02 [INFO] Classificação: nao_enviar
+2026-08-21 13:03:02 [INFO] Aguardando 2.80s...
+2026-08-21 13:03:05 [INFO] [9/11] ID: tag:google.com,2013:googlealerts/feed:1429257942894408360
+2026-08-21 13:03:05 [INFO] Título: <b>Recuperação judicial</b> das Casas Bahia: o que muda para o consumidor? - OCP News
+2026-08-21 13:03:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:03:06 [INFO] Classificação: enviar
+2026-08-21 13:03:06 [INFO] Aguardando 2.26s...
+2026-08-21 13:03:08 [INFO] [10/11] ID: tag:google.com,2013:googlealerts/feed:13410313382540976974
+2026-08-21 13:03:08 [INFO] Título: O que estudar para Delegado MA: conteúdo completo do edital
+2026-08-21 13:03:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:03:08 [INFO] Classificação: nao_enviar
+2026-08-21 13:03:08 [INFO] Aguardando 2.75s...
+2026-08-21 13:03:11 [INFO] [11/11] ID: tag:google.com,2013:googlealerts/feed:15162176354143546065
+2026-08-21 13:03:11 [INFO] Título: Aeris pede suspensão de cobranças por 60 dias para renegociar dívidas - UOL Economia
+2026-08-21 13:03:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 13:03:11 [INFO] Classificação: nao_enviar
+2026-08-21 13:03:12 [INFO] ======================================================================
+2026-08-21 13:03:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 13:03:12 [INFO] ======================================================================
+2026-08-21 13:03:12 [INFO] Processadas: 11
+2026-08-21 13:03:12 [INFO] Enviar: 7
+2026-08-21 13:03:12 [INFO] Não enviar: 4
+2026-08-21 13:03:12 [INFO] ======================================================================
