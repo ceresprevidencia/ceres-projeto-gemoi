@@ -4458,3 +4458,76 @@
 2026-08-20 23:33:10 [INFO] Enviar: 8
 2026-08-20 23:33:10 [INFO] Não enviar: 3
 2026-08-20 23:33:10 [INFO] ======================================================================
+2026-08-21 01:48:46 [INFO] ======================================================================
+2026-08-21 01:48:46 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 01:48:46 [INFO] ======================================================================
+2026-08-21 01:48:46 [INFO] Notícias com status 'extraida': 12
+2026-08-21 01:48:46 [INFO] Limite: 20 requisições/minuto
+2026-08-21 01:48:46 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 01:48:46 [INFO] ======================================================================
+2026-08-21 01:48:46 [INFO] [1/12] ID: tag:google.com,2013:googlealerts/feed:17260834691715802746
+2026-08-21 01:48:46 [INFO] Título: <b>Recuperação judicial</b> da Casas Bahia coloca Bradesco em dívida bilionária - A TARDE
+2026-08-21 01:48:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:48:46 [INFO] Classificação: enviar
+2026-08-21 01:48:46 [INFO] Aguardando 2.36s...
+2026-08-21 01:48:49 [INFO] [2/12] ID: tag:google.com,2013:googlealerts/feed:12003573850437505824
+2026-08-21 01:48:49 [INFO] Título: Após Casas Bahia, gigante dos móveis também pede <b>recuperação judicial</b> | A TARDE
+2026-08-21 01:48:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:48:49 [INFO] Classificação: enviar
+2026-08-21 01:48:49 [INFO] Aguardando 2.72s...
+2026-08-21 01:48:52 [INFO] [3/12] ID: tag:google.com,2013:googlealerts/feed:10112613113954775561
+2026-08-21 01:48:52 [INFO] Título: Proteção para a Casas Bahia - O Bastidor
+2026-08-21 01:48:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:48:52 [INFO] Classificação: nao_enviar
+2026-08-21 01:48:52 [INFO] Aguardando 2.74s...
+2026-08-21 01:48:55 [INFO] [4/12] ID: tag:google.com,2013:googlealerts/feed:15741661387654519718
+2026-08-21 01:48:55 [INFO] Título: Encontro Multiportas: Métodos Adequados de Solução de Conflitos na <b>Recuperação Judicial</b>
+2026-08-21 01:48:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:48:55 [INFO] Classificação: enviar
+2026-08-21 01:48:55 [INFO] Aguardando 2.61s...
+2026-08-21 01:48:58 [INFO] [5/12] ID: tag:google.com,2013:googlealerts/feed:119483708743461018
+2026-08-21 01:48:58 [INFO] Título: Aeris aciona tutela cautelar para renegociar dívida com credores - NeoFeed
+2026-08-21 01:48:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:48:58 [INFO] Classificação: nao_enviar
+2026-08-21 01:48:58 [INFO] Aguardando 2.62s...
+2026-08-21 01:49:01 [INFO] [6/12] ID: tag:google.com,2013:googlealerts/feed:1150432570954608924
+2026-08-21 01:49:01 [INFO] Título: Grupo Estrela protocola plano de <b>recuperação judicial</b> | Empresas - Valor Econômico
+2026-08-21 01:49:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:49:01 [INFO] Classificação: enviar
+2026-08-21 01:49:01 [INFO] Aguardando 2.67s...
+2026-08-21 01:49:04 [INFO] [7/12] ID: tag:google.com,2013:googlealerts/feed:11218828818712734670
+2026-08-21 01:49:04 [INFO] Título: Oncoclínicas vende participação saudita e compra remédios - UOL Economia
+2026-08-21 01:49:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:49:04 [INFO] Classificação: nao_enviar
+2026-08-21 01:49:04 [INFO] Aguardando 2.38s...
+2026-08-21 01:49:07 [INFO] [8/12] ID: tag:google.com,2013:googlealerts/feed:8706428044245514983
+2026-08-21 01:49:07 [INFO] Título: Casas Bahia abre leilão em meio à recuperação <b>judicial</b>; descontos chegam a 44%
+2026-08-21 01:49:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:49:07 [INFO] Classificação: enviar
+2026-08-21 01:49:07 [INFO] Aguardando 2.71s...
+2026-08-21 01:49:10 [INFO] [9/12] ID: tag:google.com,2013:googlealerts/feed:10305886437068335669
+2026-08-21 01:49:10 [INFO] Título: Proteção para a Casas Bahia - O Bastidor
+2026-08-21 01:49:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:49:10 [INFO] Classificação: nao_enviar
+2026-08-21 01:49:10 [INFO] Aguardando 2.73s...
+2026-08-21 01:49:13 [INFO] [10/12] ID: tag:google.com,2013:googlealerts/feed:6088053637735580064
+2026-08-21 01:49:13 [INFO] Título: Encontro Multiportas: Métodos Adequados de Solução de Conflitos na Recuperação <b>Judicial</b>
+2026-08-21 01:49:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:49:14 [INFO] Classificação: enviar
+2026-08-21 01:49:14 [INFO] Aguardando 2.16s...
+2026-08-21 01:49:16 [INFO] [11/12] ID: tag:google.com,2013:googlealerts/feed:4106035955317670893
+2026-08-21 01:49:16 [INFO] Título: De mina de ouro a risco bilionário: a virada do varejo para as seguradoras
+2026-08-21 01:49:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:49:16 [INFO] Classificação: nao_enviar
+2026-08-21 01:49:16 [INFO] Aguardando 2.65s...
+2026-08-21 01:49:19 [INFO] [12/12] ID: tag:google.com,2013:googlealerts/feed:2236996434571235751
+2026-08-21 01:49:19 [INFO] Título: TJ-BA encerra contrato com BRB para depósitos judiciais e adota novo sistema - Blog do Valente -
+2026-08-21 01:49:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 01:49:19 [INFO] Classificação: nao_enviar
+2026-08-21 01:49:19 [INFO] ======================================================================
+2026-08-21 01:49:19 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 01:49:19 [INFO] ======================================================================
+2026-08-21 01:49:19 [INFO] Processadas: 12
+2026-08-21 01:49:19 [INFO] Enviar: 6
+2026-08-21 01:49:19 [INFO] Não enviar: 6
+2026-08-21 01:49:19 [INFO] ======================================================================
