@@ -5355,3 +5355,61 @@
 2026-08-21 19:31:46 [INFO] Enviar: 5
 2026-08-21 19:31:46 [INFO] Não enviar: 6
 2026-08-21 19:31:46 [INFO] ======================================================================
+2026-08-21 20:33:16 [INFO] ======================================================================
+2026-08-21 20:33:16 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 20:33:16 [INFO] ======================================================================
+2026-08-21 20:33:16 [INFO] Notícias com status 'extraida': 9
+2026-08-21 20:33:16 [INFO] Limite: 20 requisições/minuto
+2026-08-21 20:33:16 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 20:33:16 [INFO] ======================================================================
+2026-08-21 20:33:16 [INFO] [1/9] ID: tag:google.com,2013:googlealerts/feed:8105845766311968453
+2026-08-21 20:33:16 [INFO] Título: TJ/GO inclui créditos de cooperativas em <b>recuperação</b> de produtor rural - Migalhas
+2026-08-21 20:33:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 20:33:16 [INFO] Classificação: enviar
+2026-08-21 20:33:16 [INFO] Aguardando 2.65s...
+2026-08-21 20:33:19 [INFO] [2/9] ID: tag:google.com,2013:googlealerts/feed:885711936648402777
+2026-08-21 20:33:19 [INFO] Título: Casas Bahia vira munição de Tarcísio contra economia de Lula - Revista Veja
+2026-08-21 20:33:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 20:33:20 [INFO] Classificação: nao_enviar
+2026-08-21 20:33:20 [INFO] Aguardando 2.53s...
+2026-08-21 20:33:22 [INFO] [3/9] ID: tag:google.com,2013:googlealerts/feed:9710941795552169563
+2026-08-21 20:33:22 [INFO] Título: Estrela propõe pagar dívidas em 15 anos na <b>recuperação judicial</b> - Revista Oeste
+2026-08-21 20:33:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 20:33:23 [INFO] Classificação: enviar
+2026-08-21 20:33:23 [INFO] Aguardando 2.46s...
+2026-08-21 20:33:25 [INFO] [4/9] ID: tag:google.com,2013:googlealerts/feed:5150935248049741812
+2026-08-21 20:33:25 [INFO] Título: Estrela (ESTR3) Protocola Plano para Renegociar Dívida de R$ 109 Milhões na ... - Forbes Brasil
+2026-08-21 20:33:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 20:33:25 [INFO] Classificação: nao_enviar
+2026-08-21 20:33:25 [INFO] Aguardando 2.62s...
+2026-08-21 20:33:28 [INFO] [5/9] ID: tag:google.com,2013:googlealerts/feed:1026692403632404095
+2026-08-21 20:33:28 [INFO] Título: CASAS BAHIA: <b>RECUPERAÇÃO JUDICIAL</b> DEIXA UMA DÍVIDA DE R$ 4,78 BI PARA BRADESCO
+2026-08-21 20:33:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 20:33:28 [INFO] Classificação: enviar
+2026-08-21 20:33:28 [INFO] Aguardando 2.71s...
+2026-08-21 20:33:31 [INFO] [6/9] ID: tag:google.com,2013:googlealerts/feed:3383666312325915669
+2026-08-21 20:33:31 [INFO] Título: O efeito das decisões judiciais no mercado livre de energia - Migalhas
+2026-08-21 20:33:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 20:33:31 [INFO] Classificação: nao_enviar
+2026-08-21 20:33:31 [INFO] Aguardando 2.72s...
+2026-08-21 20:33:34 [INFO] [7/9] ID: tag:google.com,2013:googlealerts/feed:10290140143765675717
+2026-08-21 20:33:34 [INFO] Título: TJ/GO inclui créditos de cooperativas em recuperação de produtor rural - Migalhas
+2026-08-21 20:33:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 20:33:34 [INFO] Classificação: enviar
+2026-08-21 20:33:34 [INFO] Aguardando 2.71s...
+2026-08-21 20:33:37 [INFO] [8/9] ID: tag:google.com,2013:googlealerts/feed:7424986753247347875
+2026-08-21 20:33:37 [INFO] Título: Estrela apresenta plano de recuperação <b>judicial</b> em Minas
+2026-08-21 20:33:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 20:33:38 [INFO] Classificação: enviar
+2026-08-21 20:33:38 [INFO] Aguardando 2.47s...
+2026-08-21 20:33:40 [INFO] [9/9] ID: tag:google.com,2013:googlealerts/feed:3570137492162439703
+2026-08-21 20:33:40 [INFO] Título: Goiás entra no radar da crise empresarial com avanço de dívidas e recuperações judiciais
+2026-08-21 20:33:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 20:33:40 [INFO] Classificação: enviar
+2026-08-21 20:33:40 [INFO] ======================================================================
+2026-08-21 20:33:40 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 20:33:40 [INFO] ======================================================================
+2026-08-21 20:33:40 [INFO] Processadas: 9
+2026-08-21 20:33:40 [INFO] Enviar: 6
+2026-08-21 20:33:40 [INFO] Não enviar: 3
+2026-08-21 20:33:40 [INFO] ======================================================================
