@@ -5161,3 +5161,81 @@
 2026-08-21 16:43:07 [INFO] Enviar: 4
 2026-08-21 16:43:07 [INFO] Não enviar: 8
 2026-08-21 16:43:07 [INFO] ======================================================================
+2026-08-21 17:36:12 [INFO] ======================================================================
+2026-08-21 17:36:12 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 17:36:12 [INFO] ======================================================================
+2026-08-21 17:36:12 [INFO] Notícias com status 'extraida': 13
+2026-08-21 17:36:12 [INFO] Limite: 20 requisições/minuto
+2026-08-21 17:36:12 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 17:36:12 [INFO] ======================================================================
+2026-08-21 17:36:12 [INFO] [1/13] ID: tag:google.com,2013:googlealerts/feed:6558770333684392536
+2026-08-21 17:36:12 [INFO] Título: <b>Recuperação judicial</b> dispara no Brasil | MERCADO - YouTube
+2026-08-21 17:36:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:12 [INFO] Classificação: enviar
+2026-08-21 17:36:12 [INFO] Aguardando 2.57s...
+2026-08-21 17:36:15 [INFO] [2/13] ID: tag:google.com,2013:googlealerts/feed:7763290254775596109
+2026-08-21 17:36:15 [INFO] Título: Goiás registra recorde de 552 empresas em <b>recuperação judicial</b> - Jornal Opção
+2026-08-21 17:36:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:15 [INFO] Classificação: enviar
+2026-08-21 17:36:15 [INFO] Aguardando 2.73s...
+2026-08-21 17:36:18 [INFO] [3/13] ID: tag:google.com,2013:googlealerts/feed:4951658229417943005
+2026-08-21 17:36:18 [INFO] Título: Ambipar reconhece como credora empresa criada após pedido de <b>recuperação judicial</b>
+2026-08-21 17:36:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:18 [INFO] Classificação: enviar
+2026-08-21 17:36:18 [INFO] Aguardando 2.71s...
+2026-08-21 17:36:21 [INFO] [4/13] ID: tag:google.com,2013:googlealerts/feed:16750675677784519082
+2026-08-21 17:36:21 [INFO] Título: Estrela apresenta plano de <b>recuperação judicial</b> com deságio de 90% e diversificação de receitas
+2026-08-21 17:36:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:21 [INFO] Classificação: enviar
+2026-08-21 17:36:21 [INFO] Aguardando 2.70s...
+2026-08-21 17:36:24 [INFO] [5/13] ID: tag:google.com,2013:googlealerts/feed:8833046747310301032
+2026-08-21 17:36:24 [INFO] Título: FIDCs ligados à Casas Bahia somam R$ 3,95 bilhões após pedido de <b>recuperação judicial</b>
+2026-08-21 17:36:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:24 [INFO] Classificação: enviar
+2026-08-21 17:36:24 [INFO] Aguardando 2.77s...
+2026-08-21 17:36:27 [INFO] [6/13] ID: tag:google.com,2013:googlealerts/feed:11686936433767655060
+2026-08-21 17:36:27 [INFO] Título: O que acontece com as ações trabalhistas da Casas Bahia? Tire suas dúvidas - Folha
+2026-08-21 17:36:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:27 [INFO] Classificação: nao_enviar
+2026-08-21 17:36:27 [INFO] Aguardando 2.70s...
+2026-08-21 17:36:30 [INFO] [7/13] ID: tag:google.com,2013:googlealerts/feed:4413829831563779859
+2026-08-21 17:36:30 [INFO] Título: Casas Bahia: o peso do jornalismo investigativo em um negócio “de família”
+2026-08-21 17:36:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:30 [INFO] Classificação: nao_enviar
+2026-08-21 17:36:30 [INFO] Aguardando 2.56s...
+2026-08-21 17:36:33 [INFO] [8/13] ID: tag:google.com,2013:googlealerts/feed:15256697336074046408
+2026-08-21 17:36:33 [INFO] Título: Pesquisa mostra 56 EFPCs com exposição de R$ 12 mi à Casas Bahia
+2026-08-21 17:36:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:33 [INFO] Classificação: nao_enviar
+2026-08-21 17:36:33 [INFO] Aguardando 2.70s...
+2026-08-21 17:36:36 [INFO] [9/13] ID: tag:google.com,2013:googlealerts/feed:11541968599056166063
+2026-08-21 17:36:36 [INFO] Título: Anatel cobra plano de contingência da Oi para localidades remotas - TELETIME News
+2026-08-21 17:36:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:36 [INFO] Classificação: nao_enviar
+2026-08-21 17:36:36 [INFO] Aguardando 2.76s...
+2026-08-21 17:36:39 [INFO] [10/13] ID: tag:google.com,2013:googlealerts/feed:1347923321212362907
+2026-08-21 17:36:39 [INFO] Título: A ruína das Casas Bahia e a conta do capitalismo selvagem – CartaCapital
+2026-08-21 17:36:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:39 [INFO] Classificação: nao_enviar
+2026-08-21 17:36:39 [INFO] Aguardando 2.51s...
+2026-08-21 17:36:42 [INFO] [11/13] ID: tag:google.com,2013:googlealerts/feed:3948465456067520980
+2026-08-21 17:36:42 [INFO] Título: Recuperação <b>judicial</b> dispara no Brasil | MERCADO - YouTube
+2026-08-21 17:36:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:42 [INFO] Classificação: enviar
+2026-08-21 17:36:42 [INFO] Aguardando 2.78s...
+2026-08-21 17:36:45 [INFO] [12/13] ID: tag:google.com,2013:googlealerts/feed:4240988787051282756
+2026-08-21 17:36:45 [INFO] Título: Estrela apresenta plano de recuperação <b>judicial</b> para reestruturar dívida de R$ 109 milhões
+2026-08-21 17:36:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:45 [INFO] Classificação: enviar
+2026-08-21 17:36:45 [INFO] Aguardando 2.62s...
+2026-08-21 17:36:48 [INFO] [13/13] ID: tag:google.com,2013:googlealerts/feed:9170967722138308792
+2026-08-21 17:36:48 [INFO] Título: Herdeiros de ex-funcionários da Caixa Econômica Estadual podem ter valores a receber
+2026-08-21 17:36:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 17:36:48 [INFO] Classificação: nao_enviar
+2026-08-21 17:36:48 [INFO] ======================================================================
+2026-08-21 17:36:48 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 17:36:48 [INFO] ======================================================================
+2026-08-21 17:36:48 [INFO] Processadas: 13
+2026-08-21 17:36:48 [INFO] Enviar: 7
+2026-08-21 17:36:48 [INFO] Não enviar: 6
+2026-08-21 17:36:48 [INFO] ======================================================================
