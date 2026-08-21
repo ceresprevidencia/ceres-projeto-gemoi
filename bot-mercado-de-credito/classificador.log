@@ -5239,3 +5239,51 @@
 2026-08-21 17:36:48 [INFO] Enviar: 7
 2026-08-21 17:36:48 [INFO] Não enviar: 6
 2026-08-21 17:36:48 [INFO] ======================================================================
+2026-08-21 18:48:23 [INFO] ======================================================================
+2026-08-21 18:48:23 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 18:48:23 [INFO] ======================================================================
+2026-08-21 18:48:23 [INFO] Notícias com status 'extraida': 7
+2026-08-21 18:48:23 [INFO] Limite: 20 requisições/minuto
+2026-08-21 18:48:23 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 18:48:23 [INFO] ======================================================================
+2026-08-21 18:48:23 [INFO] [1/7] ID: tag:google.com,2013:googlealerts/feed:12742952171987307307
+2026-08-21 18:48:23 [INFO] Título: Prazo do pagamento da <b>recuperação judicial</b> do grupo Oswaldo Cruz termina dia 31
+2026-08-21 18:48:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 18:48:23 [INFO] Classificação: enviar
+2026-08-21 18:48:23 [INFO] Aguardando 2.74s...
+2026-08-21 18:48:26 [INFO] [2/7] ID: tag:google.com,2013:googlealerts/feed:783075110637002677
+2026-08-21 18:48:26 [INFO] Título: Leilão de estoque da Casas Bahia acende alerta para quem busca produtos mais baratos
+2026-08-21 18:48:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 18:48:26 [INFO] Classificação: nao_enviar
+2026-08-21 18:48:26 [INFO] Aguardando 2.82s...
+2026-08-21 18:48:29 [INFO] [3/7] ID: tag:google.com,2013:googlealerts/feed:14563612885020248015
+2026-08-21 18:48:29 [INFO] Título: Mês da Advocacia: Lei 15.472/26 fortalece prerrogativas da advocacia com proteção aos honorários
+2026-08-21 18:48:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 18:48:29 [INFO] Classificação: nao_enviar
+2026-08-21 18:48:29 [INFO] Aguardando 2.70s...
+2026-08-21 18:48:32 [INFO] [4/7] ID: tag:google.com,2013:googlealerts/feed:16707032957340331785
+2026-08-21 18:48:32 [INFO] Título: Estrela apresenta plano de <b>recuperação judicial</b> para reestruturar dívida de R$ 109 milhões
+2026-08-21 18:48:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 18:48:33 [INFO] Classificação: enviar
+2026-08-21 18:48:33 [INFO] Aguardando 1.75s...
+2026-08-21 18:48:35 [INFO] [5/7] ID: tag:google.com,2013:googlealerts/feed:10704450187924063691
+2026-08-21 18:48:35 [INFO] Título: Nova liquidação da Casas Bahia teve kit com 25 eletrodomésticos vendido por R$ 1,9 mil e ...
+2026-08-21 18:48:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 18:48:35 [INFO] Classificação: nao_enviar
+2026-08-21 18:48:35 [INFO] Aguardando 2.66s...
+2026-08-21 18:48:38 [INFO] [6/7] ID: tag:google.com,2013:googlealerts/feed:9271209263599710767
+2026-08-21 18:48:38 [INFO] Título: EMPRESAS COM 100 OU MAIS EMPREGADOS DEVEM ATUALIZAR DADOS ATÉ DIA 31
+2026-08-21 18:48:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 18:48:38 [INFO] Classificação: nao_enviar
+2026-08-21 18:48:38 [INFO] Aguardando 2.66s...
+2026-08-21 18:48:41 [INFO] [7/7] ID: tag:google.com,2013:googlealerts/feed:6810798772842143958
+2026-08-21 18:48:41 [INFO] Título: Braskem (BRKM5) nega decisão sobre reestruturação financeira - Investidor10
+2026-08-21 18:48:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 18:48:41 [INFO] Classificação: nao_enviar
+2026-08-21 18:48:41 [INFO] ======================================================================
+2026-08-21 18:48:41 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 18:48:41 [INFO] ======================================================================
+2026-08-21 18:48:41 [INFO] Processadas: 7
+2026-08-21 18:48:41 [INFO] Enviar: 2
+2026-08-21 18:48:41 [INFO] Não enviar: 5
+2026-08-21 18:48:41 [INFO] ======================================================================
