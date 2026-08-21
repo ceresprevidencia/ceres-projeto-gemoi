@@ -5413,3 +5413,56 @@
 2026-08-21 20:33:40 [INFO] Enviar: 6
 2026-08-21 20:33:40 [INFO] Não enviar: 3
 2026-08-21 20:33:40 [INFO] ======================================================================
+2026-08-21 21:31:31 [INFO] ======================================================================
+2026-08-21 21:31:31 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 21:31:31 [INFO] ======================================================================
+2026-08-21 21:31:31 [INFO] Notícias com status 'extraida': 8
+2026-08-21 21:31:31 [INFO] Limite: 20 requisições/minuto
+2026-08-21 21:31:31 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 21:31:31 [INFO] ======================================================================
+2026-08-21 21:31:31 [INFO] [1/8] ID: tag:google.com,2013:googlealerts/feed:10119050707571428729
+2026-08-21 21:31:31 [INFO] Título: <b>Recuperação judicial</b> avança no Brasil. Veja o raio-X de cada setor - Gazeta do Povo
+2026-08-21 21:31:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 21:31:31 [INFO] Classificação: enviar
+2026-08-21 21:31:31 [INFO] Aguardando 2.53s...
+2026-08-21 21:31:34 [INFO] [2/8] ID: tag:google.com,2013:googlealerts/feed:12262564956294401453
+2026-08-21 21:31:34 [INFO] Título: Durigan nega crise no varejo após pedido de <b>recuperação</b> das Casas Bahia - Folha
+2026-08-21 21:31:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 21:31:34 [INFO] Classificação: enviar
+2026-08-21 21:31:34 [INFO] Aguardando 2.61s...
+2026-08-21 21:31:37 [INFO] [3/8] ID: tag:google.com,2013:googlealerts/feed:15201081232215473888
+2026-08-21 21:31:37 [INFO] Título: Braskem avalia proteção contra credores e negocia dívida - UOL Economia
+2026-08-21 21:31:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 21:31:37 [INFO] Classificação: enviar
+2026-08-21 21:31:37 [INFO] Aguardando 2.65s...
+2026-08-21 21:31:40 [INFO] [4/8] ID: tag:google.com,2013:googlealerts/feed:9103139206360567140
+2026-08-21 21:31:40 [INFO] Título: Podcast “Dias que Contam” resgata história do RN a partir de datas marcantes
+2026-08-21 21:31:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 21:31:40 [INFO] Classificação: nao_enviar
+2026-08-21 21:31:40 [INFO] Aguardando 2.74s...
+2026-08-21 21:31:43 [INFO] [5/8] ID: tag:google.com,2013:googlealerts/feed:3653894825647284088
+2026-08-21 21:31:43 [INFO] Título: Google compra dados da Spirit por US$ 10 milhões e rival da Starlink avança no Brasil
+2026-08-21 21:31:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 21:31:43 [INFO] Classificação: nao_enviar
+2026-08-21 21:31:43 [INFO] Aguardando 2.68s...
+2026-08-21 21:31:46 [INFO] [6/8] ID: tag:google.com,2013:googlealerts/feed:3687019857932758146
+2026-08-21 21:31:46 [INFO] Título: Recuperação <b>judicial</b> avança no Brasil. Veja o raio-X de cada setor - Gazeta do Povo
+2026-08-21 21:31:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 21:31:46 [INFO] Classificação: enviar
+2026-08-21 21:31:46 [INFO] Aguardando 2.63s...
+2026-08-21 21:31:49 [INFO] [7/8] ID: tag:google.com,2013:googlealerts/feed:4416660708596458955
+2026-08-21 21:31:49 [INFO] Título: Recuperação <b>judicial</b> das Casas Bahia: o que muda para consumidores, devedores e acionistas?
+2026-08-21 21:31:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 21:31:49 [INFO] Classificação: enviar
+2026-08-21 21:31:49 [INFO] Aguardando 2.83s...
+2026-08-21 21:31:52 [INFO] [8/8] ID: tag:google.com,2013:googlealerts/feed:4853252616914861177
+2026-08-21 21:31:52 [INFO] Título: Estrela apresenta plano de recuperação <b>judicial</b> com deságio de 90% e diversificação de receitas
+2026-08-21 21:31:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 21:31:52 [INFO] Classificação: enviar
+2026-08-21 21:31:52 [INFO] ======================================================================
+2026-08-21 21:31:52 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 21:31:52 [INFO] ======================================================================
+2026-08-21 21:31:52 [INFO] Processadas: 8
+2026-08-21 21:31:52 [INFO] Enviar: 6
+2026-08-21 21:31:52 [INFO] Não enviar: 2
+2026-08-21 21:31:52 [INFO] ======================================================================
