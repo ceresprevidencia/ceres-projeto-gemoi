@@ -4853,3 +4853,195 @@
 2026-08-21 13:03:12 [INFO] Enviar: 7
 2026-08-21 13:03:12 [INFO] Não enviar: 4
 2026-08-21 13:03:12 [INFO] ======================================================================
+2026-08-21 14:42:40 [INFO] ======================================================================
+2026-08-21 14:42:40 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 14:42:40 [INFO] ======================================================================
+2026-08-21 14:42:40 [INFO] Notícias com status 'extraida': 36
+2026-08-21 14:42:40 [INFO] Limite: 20 requisições/minuto
+2026-08-21 14:42:40 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 14:42:40 [INFO] ======================================================================
+2026-08-21 14:42:40 [INFO] [1/36] ID: tag:google.com,2013:googlealerts/feed:17311087728849772644
+2026-08-21 14:42:40 [INFO] Título: Imóveis do Grupo João Fortes em Niterói vão a leilão por mais de R$ 21 milhões para pagar dívidas
+2026-08-21 14:42:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:42:40 [INFO] Classificação: enviar
+2026-08-21 14:42:40 [INFO] Aguardando 2.48s...
+2026-08-21 14:42:43 [INFO] [2/36] ID: tag:google.com,2013:googlealerts/feed:5367412946399675195
+2026-08-21 14:42:43 [INFO] Título: Proteção contra credores: o que é e como ela afeta os investidores de empresas endividadas?
+2026-08-21 14:42:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:42:43 [INFO] Classificação: nao_enviar
+2026-08-21 14:42:43 [INFO] Aguardando 2.80s...
+2026-08-21 14:42:46 [INFO] [3/36] ID: tag:google.com,2013:googlealerts/feed:14869139238855006204
+2026-08-21 14:42:46 [INFO] Título: Em meio à <b>recuperação judicial</b>, empresa compra 13,2% da dona da Tok&Stok - Exame
+2026-08-21 14:42:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:42:46 [INFO] Classificação: enviar
+2026-08-21 14:42:46 [INFO] Aguardando 2.83s...
+2026-08-21 14:42:49 [INFO] [4/36] ID: tag:google.com,2013:googlealerts/feed:1238113851674967517
+2026-08-21 14:42:49 [INFO] Título: Braskem corre contra o tempo para fechar acordo com credores e evitar <b>recuperação judicial</b>
+2026-08-21 14:42:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:42:49 [INFO] Classificação: enviar
+2026-08-21 14:42:49 [INFO] Aguardando 2.68s...
+2026-08-21 14:42:52 [INFO] [5/36] ID: tag:google.com,2013:googlealerts/feed:899109308350661479
+2026-08-21 14:42:52 [INFO] Título: Grupo Estrela apresenta plano de <b>recuperação judicial</b> - ES HOJE
+2026-08-21 14:42:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:42:52 [INFO] Classificação: enviar
+2026-08-21 14:42:52 [INFO] Aguardando 2.70s...
+2026-08-21 14:42:55 [INFO] [6/36] ID: tag:google.com,2013:googlealerts/feed:10065696571859342912
+2026-08-21 14:42:55 [INFO] Título: Marabraz: pai denunciou “vida de luxo” e tentou tirar noivo de Marina Ruy Barbosa do ...
+2026-08-21 14:42:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:42:55 [INFO] Classificação: nao_enviar
+2026-08-21 14:42:55 [INFO] Aguardando 2.75s...
+2026-08-21 14:42:58 [INFO] [7/36] ID: tag:google.com,2013:googlealerts/feed:18008360896429447762
+2026-08-21 14:42:58 [INFO] Título: Mais uma: Aeris (AERI3) inicia conversas com credores e quer suspensão de execuções ...
+2026-08-21 14:42:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:42:58 [INFO] Classificação: enviar
+2026-08-21 14:42:58 [INFO] Aguardando 2.69s...
+2026-08-21 14:43:01 [INFO] [8/36] ID: tag:google.com,2013:googlealerts/feed:820392078762452731
+2026-08-21 14:43:01 [INFO] Título: Casas Bahia: confira o caminho dos FIDCs na RJ da varejista | Capital Aberto
+2026-08-21 14:43:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:01 [INFO] Classificação: enviar
+2026-08-21 14:43:01 [INFO] Aguardando 2.65s...
+2026-08-21 14:43:04 [INFO] [9/36] ID: tag:google.com,2013:googlealerts/feed:8022600713205388468
+2026-08-21 14:43:04 [INFO] Título: ELEIÇÕES 2026 | Juntos, Tarcísio e Flávio usam crise das Casas Bahia para fustigar Lula ...
+2026-08-21 14:43:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:04 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:04 [INFO] Aguardando 2.71s...
+2026-08-21 14:43:07 [INFO] [10/36] ID: tag:google.com,2013:googlealerts/feed:10028609214466668241
+2026-08-21 14:43:07 [INFO] Título: SPX e DSK Capital zeram aposta no Grupo Toky (TOKY3), mas ainda tem investidor ...
+2026-08-21 14:43:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:07 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:07 [INFO] Aguardando 2.59s...
+2026-08-21 14:43:10 [INFO] [11/36] ID: tag:google.com,2013:googlealerts/feed:15215343139388058697
+2026-08-21 14:43:10 [INFO] Título: Braskem quebra silêncio e fala sobre possível <b>recuperação extrajudicial</b> - Revista Veja
+2026-08-21 14:43:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:10 [INFO] Classificação: enviar
+2026-08-21 14:43:10 [INFO] Aguardando 2.71s...
+2026-08-21 14:43:13 [INFO] [12/36] ID: tag:google.com,2013:googlealerts/feed:17473575538398037688
+2026-08-21 14:43:13 [INFO] Título: Braskem admite avaliar medidas de proteção e intensifica negociação com credores
+2026-08-21 14:43:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:13 [INFO] Classificação: enviar
+2026-08-21 14:43:13 [INFO] Aguardando 2.67s...
+2026-08-21 14:43:16 [INFO] [13/36] ID: tag:google.com,2013:googlealerts/feed:15002411405851754220
+2026-08-21 14:43:16 [INFO] Título: Durigan diz que combate aos juros altos deve ser prioridade nos próximos anos
+2026-08-21 14:43:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:19 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:19 [INFO] [14/36] ID: tag:google.com,2013:googlealerts/feed:16363988083325443948
+2026-08-21 14:43:19 [INFO] Título: Onco3 - Oncoclinicas - Derretendo! Página 26 de 26 - ADVFN
+2026-08-21 14:43:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:19 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:19 [INFO] Aguardando 2.78s...
+2026-08-21 14:43:22 [INFO] [15/36] ID: tag:google.com,2013:googlealerts/feed:1803238884161090527
+2026-08-21 14:43:22 [INFO] Título: Braskem diz que negociações com credores se intensificaram e que avalia potenciais ...
+2026-08-21 14:43:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:22 [INFO] Classificação: enviar
+2026-08-21 14:43:22 [INFO] Aguardando 2.71s...
+2026-08-21 14:43:25 [INFO] [16/36] ID: tag:google.com,2013:googlealerts/feed:9567501461472542383
+2026-08-21 14:43:25 [INFO] Título: Oncoclínicas conclui venda de participação em joint venture saudita por US$ 6,55 milhões
+2026-08-21 14:43:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:25 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:25 [INFO] Aguardando 2.66s...
+2026-08-21 14:43:28 [INFO] [17/36] ID: tag:google.com,2013:googlealerts/feed:2257698231028834322
+2026-08-21 14:43:28 [INFO] Título: Oncoclínicas vende participação na Arábia Saudita por R$ 33,2 milhões - ADVFN
+2026-08-21 14:43:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:28 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:28 [INFO] Aguardando 2.58s...
+2026-08-21 14:43:31 [INFO] [18/36] ID: tag:google.com,2013:googlealerts/feed:11055997754836735488
+2026-08-21 14:43:31 [INFO] Título: Oncoclínicas (ONCO3) conclui venda de participação em joint venture por US$ 6,55 milhões
+2026-08-21 14:43:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:31 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:31 [INFO] Aguardando 2.69s...
+2026-08-21 14:43:34 [INFO] [19/36] ID: tag:google.com,2013:googlealerts/feed:17048837164593108279
+2026-08-21 14:43:34 [INFO] Título: Braskem avalia medidas de proteção contra credores e diz não haver decisão sobre reestruturação
+2026-08-21 14:43:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:34 [INFO] Classificação: enviar
+2026-08-21 14:43:34 [INFO] Aguardando 2.46s...
+2026-08-21 14:43:37 [INFO] [20/36] ID: tag:google.com,2013:googlealerts/feed:6377948656400423325
+2026-08-21 14:43:37 [INFO] Título: SLC Agrícola registra R$ 245,1 milhões no 2T26 - Revista Fator Brasil
+2026-08-21 14:43:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:37 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:37 [INFO] Aguardando 2.56s...
+2026-08-21 14:43:40 [INFO] [21/36] ID: tag:google.com,2013:googlealerts/feed:12445768250925855758
+2026-08-21 14:43:40 [INFO] Título: Casas Bahia: confira o caminho dos FIDCs na RJ da varejista | Capital Aberto
+2026-08-21 14:43:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:40 [INFO] Classificação: enviar
+2026-08-21 14:43:40 [INFO] Aguardando 2.69s...
+2026-08-21 14:43:43 [INFO] [22/36] ID: tag:google.com,2013:googlealerts/feed:14523398747251424508
+2026-08-21 14:43:43 [INFO] Título: Proteção contra credores: o que é e como ela afeta os investidores de empresas endividadas?
+2026-08-21 14:43:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:43 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:43 [INFO] Aguardando 2.71s...
+2026-08-21 14:43:46 [INFO] [23/36] ID: tag:google.com,2013:googlealerts/feed:10224345258963007501
+2026-08-21 14:43:46 [INFO] Título: Grupo Estrela apresenta plano de recuperação <b>judicial</b> - ES HOJE
+2026-08-21 14:43:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:48 [INFO] Classificação: enviar
+2026-08-21 14:43:48 [INFO] Aguardando 0.68s...
+2026-08-21 14:43:49 [INFO] [24/36] ID: tag:google.com,2013:googlealerts/feed:2619747737906674408
+2026-08-21 14:43:49 [INFO] Título: Grupo Estrela apresenta plano de recuperação <b>judicial</b> - 21/08/2026 - Economia - Folha
+2026-08-21 14:43:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:49 [INFO] Classificação: enviar
+2026-08-21 14:43:49 [INFO] Aguardando 2.74s...
+2026-08-21 14:43:52 [INFO] [25/36] ID: tag:google.com,2013:googlealerts/feed:4606711779874553767
+2026-08-21 14:43:52 [INFO] Título: Marabraz: pai denunciou “vida de luxo” e tentou tirar noivo de Marina Ruy Barbosa do ...
+2026-08-21 14:43:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:52 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:52 [INFO] Aguardando 2.73s...
+2026-08-21 14:43:55 [INFO] [26/36] ID: tag:google.com,2013:googlealerts/feed:16806651901096034807
+2026-08-21 14:43:55 [INFO] Título: Nova <b>liquidação</b> da Casas Bahia teve kit com 25 eletrodomésticos vendido por R$ 1,9 mil e ...
+2026-08-21 14:43:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:55 [INFO] Classificação: nao_enviar
+2026-08-21 14:43:55 [INFO] Aguardando 2.70s...
+2026-08-21 14:43:58 [INFO] [27/36] ID: tag:google.com,2013:googlealerts/feed:11831352824926269358
+2026-08-21 14:43:58 [INFO] Título: Falência da Oi: Justiça mantém bloqueio de créditos da Pimco | Exame INSIGHT
+2026-08-21 14:43:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:43:59 [INFO] Classificação: enviar
+2026-08-21 14:43:59 [INFO] Aguardando 1.60s...
+2026-08-21 14:44:01 [INFO] [28/36] ID: tag:google.com,2013:googlealerts/feed:15257066488422652058
+2026-08-21 14:44:01 [INFO] Título: Estrela apresenta plano de recuperação <b>judicial</b> para reestruturar dívida de R$ 109 milhões
+2026-08-21 14:44:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:44:01 [INFO] Classificação: enviar
+2026-08-21 14:44:01 [INFO] Aguardando 2.67s...
+2026-08-21 14:44:04 [INFO] [29/36] ID: tag:google.com,2013:googlealerts/feed:14821150210974383136
+2026-08-21 14:44:04 [INFO] Título: Pontal-Thopen entra em recuperação <b>judicial</b> após promessa bilionária - Acia Araçatuba
+2026-08-21 14:44:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:44:04 [INFO] Classificação: enviar
+2026-08-21 14:44:04 [INFO] Aguardando 2.59s...
+2026-08-21 14:44:07 [INFO] [30/36] ID: tag:google.com,2013:googlealerts/feed:16451707215892116391
+2026-08-21 14:44:07 [INFO] Título: Recuperação <b>judicial</b> da Casas Bahia coloca Bradesco em dívida bilionária | A TARDE
+2026-08-21 14:44:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:44:08 [INFO] Classificação: enviar
+2026-08-21 14:44:08 [INFO] Aguardando 1.74s...
+2026-08-21 14:44:10 [INFO] [31/36] ID: tag:google.com,2013:googlealerts/feed:17245401543736215008
+2026-08-21 14:44:10 [INFO] Título: Após abandono saudita, recuperação <b>judicial</b> é hipótese para a LIV Golf - Sport Insider
+2026-08-21 14:44:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:44:11 [INFO] Classificação: enviar
+2026-08-21 14:44:11 [INFO] Aguardando 2.36s...
+2026-08-21 14:44:13 [INFO] [32/36] ID: tag:google.com,2013:googlealerts/feed:5361046089585030445
+2026-08-21 14:44:13 [INFO] Título: Vasco, watchdog e governança em tempos de crise - Migalhas
+2026-08-21 14:44:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:44:13 [INFO] Classificação: nao_enviar
+2026-08-21 14:44:13 [INFO] Aguardando 2.65s...
+2026-08-21 14:44:16 [INFO] [33/36] ID: tag:google.com,2013:googlealerts/feed:5725226789499484726
+2026-08-21 14:44:16 [INFO] Título: CASAS BAHIA: RECUPERAÇÃO <b>JUDICIAL</b> DEIXA UMA DÍVIDA DE R$ 4,78 BI PARA BRADESCO
+2026-08-21 14:44:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:44:16 [INFO] Classificação: enviar
+2026-08-21 14:44:16 [INFO] Aguardando 2.64s...
+2026-08-21 14:44:19 [INFO] [34/36] ID: tag:google.com,2013:googlealerts/feed:12886998940625960953
+2026-08-21 14:44:19 [INFO] Título: Recuperação <b>judicial</b> das Casas Bahia: o que muda para o consumidor? - OCP News
+2026-08-21 14:44:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:44:19 [INFO] Classificação: enviar
+2026-08-21 14:44:19 [INFO] Aguardando 2.73s...
+2026-08-21 14:44:22 [INFO] [35/36] ID: tag:google.com,2013:googlealerts/feed:2293502446902352973
+2026-08-21 14:44:22 [INFO] Título: Recuperação <b>judicial</b> em alta alerta o mercado financeiro - Revista Fator Brasil
+2026-08-21 14:44:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:44:22 [INFO] Classificação: enviar
+2026-08-21 14:44:22 [INFO] Aguardando 2.67s...
+2026-08-21 14:44:25 [INFO] [36/36] ID: tag:google.com,2013:googlealerts/feed:404925504341328161
+2026-08-21 14:44:25 [INFO] Título: Leilão de estoque da Casas Bahia acende alerta para quem busca produtos mais baratos on-line
+2026-08-21 14:44:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 14:44:26 [INFO] Classificação: nao_enviar
+2026-08-21 14:44:26 [INFO] ======================================================================
+2026-08-21 14:44:26 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 14:44:26 [INFO] ======================================================================
+2026-08-21 14:44:26 [INFO] Processadas: 36
+2026-08-21 14:44:26 [INFO] Enviar: 21
+2026-08-21 14:44:26 [INFO] Não enviar: 15
+2026-08-21 14:44:26 [INFO] ======================================================================
