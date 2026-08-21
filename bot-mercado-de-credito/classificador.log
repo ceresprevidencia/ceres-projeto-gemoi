@@ -4664,3 +4664,26 @@
 2026-08-21 06:59:28 [INFO] Enviar: 0
 2026-08-21 06:59:28 [INFO] Não enviar: 0
 2026-08-21 06:59:28 [INFO] ======================================================================
+2026-08-21 07:52:29 [INFO] ======================================================================
+2026-08-21 07:52:29 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 07:52:29 [INFO] ======================================================================
+2026-08-21 07:52:29 [INFO] Notícias com status 'extraida': 2
+2026-08-21 07:52:29 [INFO] Limite: 20 requisições/minuto
+2026-08-21 07:52:29 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 07:52:29 [INFO] ======================================================================
+2026-08-21 07:52:29 [INFO] [1/2] ID: tag:google.com,2013:googlealerts/feed:4710939662113086569
+2026-08-21 07:52:29 [INFO] Título: Oncoclínicas vende participação na Arábia Saudita por R$ 33,23 milhões
+2026-08-21 07:52:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 07:52:29 [INFO] Classificação: nao_enviar
+2026-08-21 07:52:29 [INFO] Aguardando 2.75s...
+2026-08-21 07:52:32 [INFO] [2/2] ID: tag:google.com,2013:googlealerts/feed:3409728185526863229
+2026-08-21 07:52:32 [INFO] Título: Oncoclínicas vende participação em empresa saudita por R$ 33,23 milhões - O GLOBO
+2026-08-21 07:52:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 07:52:32 [INFO] Classificação: nao_enviar
+2026-08-21 07:52:32 [INFO] ======================================================================
+2026-08-21 07:52:32 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 07:52:32 [INFO] ======================================================================
+2026-08-21 07:52:32 [INFO] Processadas: 2
+2026-08-21 07:52:32 [INFO] Enviar: 0
+2026-08-21 07:52:32 [INFO] Não enviar: 2
+2026-08-21 07:52:32 [INFO] ======================================================================
