@@ -4574,3 +4574,61 @@
 2026-08-21 03:10:50 [INFO] Enviar: 3
 2026-08-21 03:10:50 [INFO] Não enviar: 3
 2026-08-21 03:10:50 [INFO] ======================================================================
+2026-08-21 04:47:57 [INFO] ======================================================================
+2026-08-21 04:47:57 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 04:47:57 [INFO] ======================================================================
+2026-08-21 04:47:57 [INFO] Notícias com status 'extraida': 9
+2026-08-21 04:47:57 [INFO] Limite: 20 requisições/minuto
+2026-08-21 04:47:57 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 04:47:57 [INFO] ======================================================================
+2026-08-21 04:47:57 [INFO] [1/9] ID: tag:google.com,2013:googlealerts/feed:13113100810727709188
+2026-08-21 04:47:57 [INFO] Título: Oinegue: E se as Casas Bahia fossem uma estatal feito os Correios? - Band
+2026-08-21 04:47:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 04:47:58 [INFO] Classificação: nao_enviar
+2026-08-21 04:47:58 [INFO] Aguardando 2.67s...
+2026-08-21 04:48:00 [INFO] [2/9] ID: tag:google.com,2013:googlealerts/feed:9869409156717779705
+2026-08-21 04:48:00 [INFO] Título: Oncoclínicas vende participação em joint venture saudita por R$ 33,3 milhões - Folha - UOL
+2026-08-21 04:48:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 04:48:01 [INFO] Classificação: nao_enviar
+2026-08-21 04:48:01 [INFO] Aguardando 2.80s...
+2026-08-21 04:48:03 [INFO] [3/9] ID: tag:google.com,2013:googlealerts/feed:6371589314058915426
+2026-08-21 04:48:03 [INFO] Título: TRXF11: CEO da TRX fala sobre futuro dos dividendos e alavancagem após fundo acelerar ...
+2026-08-21 04:48:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 04:48:04 [INFO] Classificação: nao_enviar
+2026-08-21 04:48:04 [INFO] Aguardando 2.60s...
+2026-08-21 04:48:06 [INFO] [4/9] ID: tag:google.com,2013:googlealerts/feed:16284914651891399556
+2026-08-21 04:48:06 [INFO] Título: Oncoclínicas vende participação em empresa saudita por R$ 33,3 milhões em meio à ...
+2026-08-21 04:48:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 04:48:07 [INFO] Classificação: nao_enviar
+2026-08-21 04:48:07 [INFO] Aguardando 2.72s...
+2026-08-21 04:48:09 [INFO] [5/9] ID: tag:google.com,2013:googlealerts/feed:661665461428126927
+2026-08-21 04:48:09 [INFO] Título: Braskem diz que ainda não decidiu condições para reestruturar sua estrutura de capital
+2026-08-21 04:48:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 04:48:10 [INFO] Classificação: nao_enviar
+2026-08-21 04:48:10 [INFO] Aguardando 2.69s...
+2026-08-21 04:48:12 [INFO] [6/9] ID: tag:google.com,2013:googlealerts/feed:5033164117333799071
+2026-08-21 04:48:12 [INFO] Título: Crise da Casas Bahia expõe fragilidade do varejo brasileiro #Shorts - YouTube
+2026-08-21 04:48:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 04:48:13 [INFO] Classificação: nao_enviar
+2026-08-21 04:48:13 [INFO] Aguardando 2.41s...
+2026-08-21 04:48:15 [INFO] [7/9] ID: tag:google.com,2013:googlealerts/feed:18381304434261359220
+2026-08-21 04:48:15 [INFO] Título: Oncoclínicas conclui venda de participação em empresa saudita por R$ 33,3 milhões
+2026-08-21 04:48:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 04:48:16 [INFO] Classificação: nao_enviar
+2026-08-21 04:48:16 [INFO] Aguardando 2.77s...
+2026-08-21 04:48:18 [INFO] [8/9] ID: tag:google.com,2013:googlealerts/feed:9556009631073101664
+2026-08-21 04:48:18 [INFO] Título: Vasco, watchdog e governança em tempos de crise - Migalhas
+2026-08-21 04:48:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 04:48:19 [INFO] Classificação: nao_enviar
+2026-08-21 04:48:19 [INFO] Aguardando 2.77s...
+2026-08-21 04:48:21 [INFO] [9/9] ID: tag:google.com,2013:googlealerts/feed:16144606175816636152
+2026-08-21 04:48:21 [INFO] Título: Medida provisória atualiza regras do Minha Casa, Minha Vida e impulsiona crédito
+2026-08-21 04:48:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 04:48:22 [INFO] Classificação: nao_enviar
+2026-08-21 04:48:22 [INFO] ======================================================================
+2026-08-21 04:48:22 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 04:48:22 [INFO] ======================================================================
+2026-08-21 04:48:22 [INFO] Processadas: 9
+2026-08-21 04:48:22 [INFO] Enviar: 0
+2026-08-21 04:48:22 [INFO] Não enviar: 9
+2026-08-21 04:48:22 [INFO] ======================================================================
