@@ -5045,3 +5045,46 @@
 2026-08-21 14:44:26 [INFO] Enviar: 21
 2026-08-21 14:44:26 [INFO] Não enviar: 15
 2026-08-21 14:44:26 [INFO] ======================================================================
+2026-08-21 15:40:46 [INFO] ======================================================================
+2026-08-21 15:40:46 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 15:40:46 [INFO] ======================================================================
+2026-08-21 15:40:46 [INFO] Notícias com status 'extraida': 6
+2026-08-21 15:40:46 [INFO] Limite: 20 requisições/minuto
+2026-08-21 15:40:46 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 15:40:46 [INFO] ======================================================================
+2026-08-21 15:40:46 [INFO] [1/6] ID: tag:google.com,2013:googlealerts/feed:11141754246810920118
+2026-08-21 15:40:46 [INFO] Título: Em Crise, Oncoclínicas (ONCO3) Se Desfaz de Joint Venture na Arábia Saudita por R$ 33,3 Milhões
+2026-08-21 15:40:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 15:40:46 [INFO] Classificação: nao_enviar
+2026-08-21 15:40:46 [INFO] Aguardando 2.69s...
+2026-08-21 15:40:49 [INFO] [2/6] ID: tag:google.com,2013:googlealerts/feed:2692468176968549584
+2026-08-21 15:40:49 [INFO] Título: Braskem intensifica negociação com credores e avalia medidas de proteção
+2026-08-21 15:40:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 15:40:49 [INFO] Classificação: enviar
+2026-08-21 15:40:49 [INFO] Aguardando 2.60s...
+2026-08-21 15:40:52 [INFO] [3/6] ID: tag:google.com,2013:googlealerts/feed:12822519538138262448
+2026-08-21 15:40:52 [INFO] Título: Braskem corre contra o tempo para fechar acordo com credores e evitar <b>recuperação</b> judicial
+2026-08-21 15:40:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 15:40:52 [INFO] Classificação: enviar
+2026-08-21 15:40:52 [INFO] Aguardando 2.55s...
+2026-08-21 15:40:55 [INFO] [4/6] ID: tag:google.com,2013:googlealerts/feed:14312383514527620698
+2026-08-21 15:40:55 [INFO] Título: Braskem avalia medidas de proteção contra credores e diz não haver decisão sobre reestruturação
+2026-08-21 15:40:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 15:40:55 [INFO] Classificação: enviar
+2026-08-21 15:40:55 [INFO] Aguardando 2.50s...
+2026-08-21 15:40:58 [INFO] [5/6] ID: tag:google.com,2013:googlealerts/feed:10772516836231667624
+2026-08-21 15:40:58 [INFO] Título: Braskem corre contra o tempo para fechar acordo com credores e evitar recuperação <b>judicial</b>
+2026-08-21 15:40:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 15:40:59 [INFO] Classificação: enviar
+2026-08-21 15:40:59 [INFO] Aguardando 2.21s...
+2026-08-21 15:41:01 [INFO] [6/6] ID: tag:google.com,2013:googlealerts/feed:2255897079969034434
+2026-08-21 15:41:01 [INFO] Título: Casas Bahia: confira o caminho dos FIDCs na RJ da varejista | Capital Aberto
+2026-08-21 15:41:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 15:41:01 [INFO] Classificação: enviar
+2026-08-21 15:41:01 [INFO] ======================================================================
+2026-08-21 15:41:01 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 15:41:01 [INFO] ======================================================================
+2026-08-21 15:41:01 [INFO] Processadas: 6
+2026-08-21 15:41:01 [INFO] Enviar: 5
+2026-08-21 15:41:01 [INFO] Não enviar: 1
+2026-08-21 15:41:01 [INFO] ======================================================================
