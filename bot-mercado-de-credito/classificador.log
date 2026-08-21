@@ -5287,3 +5287,71 @@
 2026-08-21 18:48:41 [INFO] Enviar: 2
 2026-08-21 18:48:41 [INFO] Não enviar: 5
 2026-08-21 18:48:41 [INFO] ======================================================================
+2026-08-21 19:31:16 [INFO] ======================================================================
+2026-08-21 19:31:16 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 19:31:16 [INFO] ======================================================================
+2026-08-21 19:31:16 [INFO] Notícias com status 'extraida': 11
+2026-08-21 19:31:16 [INFO] Limite: 20 requisições/minuto
+2026-08-21 19:31:16 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 19:31:16 [INFO] ======================================================================
+2026-08-21 19:31:16 [INFO] [1/11] ID: tag:google.com,2013:googlealerts/feed:1323538719108556218
+2026-08-21 19:31:16 [INFO] Título: PL 4.906/26 e o dever de diligência na pré-insolvência: Avanço necessário ou insuficiente?
+2026-08-21 19:31:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:16 [INFO] Classificação: nao_enviar
+2026-08-21 19:31:16 [INFO] Aguardando 2.58s...
+2026-08-21 19:31:19 [INFO] [2/11] ID: tag:google.com,2013:googlealerts/feed:5216837909682678209
+2026-08-21 19:31:19 [INFO] Título: Vasco entra na Justiça contra Fla-Flu para usar Maracanã na Copa do Brasil - UOL
+2026-08-21 19:31:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:19 [INFO] Classificação: nao_enviar
+2026-08-21 19:31:19 [INFO] Aguardando 2.68s...
+2026-08-21 19:31:22 [INFO] [3/11] ID: tag:google.com,2013:googlealerts/feed:3659562717183254435
+2026-08-21 19:31:22 [INFO] Título: Empresa de investimentos compra 13,2% de grupo dono da Tok&Stok - UOL Economia
+2026-08-21 19:31:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:22 [INFO] Classificação: nao_enviar
+2026-08-21 19:31:22 [INFO] Aguardando 2.80s...
+2026-08-21 19:31:25 [INFO] [4/11] ID: tag:google.com,2013:googlealerts/feed:8332456402723111610
+2026-08-21 19:31:25 [INFO] Título: Braskem recebe propostas de credores, mas segue sem acordo a três dias de prazo final
+2026-08-21 19:31:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:25 [INFO] Classificação: enviar
+2026-08-21 19:31:25 [INFO] Aguardando 2.61s...
+2026-08-21 19:31:28 [INFO] [5/11] ID: tag:google.com,2013:googlealerts/feed:12555649079846136070
+2026-08-21 19:31:28 [INFO] Título: Lula castiga o varejo e o consumidor - Revista Oeste
+2026-08-21 19:31:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:28 [INFO] Classificação: nao_enviar
+2026-08-21 19:31:28 [INFO] Aguardando 2.72s...
+2026-08-21 19:31:31 [INFO] [6/11] ID: tag:google.com,2013:googlealerts/feed:9659904493124305165
+2026-08-21 19:31:31 [INFO] Título: PL 4.906/26 e o dever de diligência na pré-insolvência: Avanço necessário ou insuficiente?
+2026-08-21 19:31:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:31 [INFO] Classificação: nao_enviar
+2026-08-21 19:31:31 [INFO] Aguardando 2.63s...
+2026-08-21 19:31:34 [INFO] [7/11] ID: tag:google.com,2013:googlealerts/feed:17041284992726982293
+2026-08-21 19:31:34 [INFO] Título: Braskem (BRKM5) negocia com credores e avalia medidas de proteção - Estadão
+2026-08-21 19:31:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:34 [INFO] Classificação: enviar
+2026-08-21 19:31:34 [INFO] Aguardando 2.75s...
+2026-08-21 19:31:37 [INFO] [8/11] ID: tag:google.com,2013:googlealerts/feed:2902938067246424152
+2026-08-21 19:31:37 [INFO] Título: Em <b>recuperação extrajudicial</b>, Oncoclínicas vende fatia em empresa na Arábia Saudita
+2026-08-21 19:31:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:37 [INFO] Classificação: enviar
+2026-08-21 19:31:37 [INFO] Aguardando 2.80s...
+2026-08-21 19:31:40 [INFO] [9/11] ID: tag:google.com,2013:googlealerts/feed:6268226774298122179
+2026-08-21 19:31:40 [INFO] Título: <b>Recuperação</b> judicial dispara no Brasil | MERCADO - YouTube
+2026-08-21 19:31:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:40 [INFO] Classificação: enviar
+2026-08-21 19:31:40 [INFO] Aguardando 2.68s...
+2026-08-21 19:31:43 [INFO] [10/11] ID: tag:google.com,2013:googlealerts/feed:8125812373367762319
+2026-08-21 19:31:43 [INFO] Título: Estrela propõe pagar dívidas em 15 anos na recuperação <b>judicial</b> - Revista Oeste
+2026-08-21 19:31:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:43 [INFO] Classificação: enviar
+2026-08-21 19:31:43 [INFO] Aguardando 2.66s...
+2026-08-21 19:31:46 [INFO] [11/11] ID: tag:google.com,2013:googlealerts/feed:16832884201356135586
+2026-08-21 19:31:46 [INFO] Título: Caso Apex: defesa de ex-presidente contesta bloqueio - ES Hoje
+2026-08-21 19:31:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 19:31:46 [INFO] Classificação: nao_enviar
+2026-08-21 19:31:46 [INFO] ======================================================================
+2026-08-21 19:31:46 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 19:31:46 [INFO] ======================================================================
+2026-08-21 19:31:46 [INFO] Processadas: 11
+2026-08-21 19:31:46 [INFO] Enviar: 5
+2026-08-21 19:31:46 [INFO] Não enviar: 6
+2026-08-21 19:31:46 [INFO] ======================================================================
