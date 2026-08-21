@@ -5549,3 +5549,71 @@
 2026-08-21 22:33:16 [INFO] Enviar: 4
 2026-08-21 22:33:16 [INFO] Não enviar: 10
 2026-08-21 22:33:16 [INFO] ======================================================================
+2026-08-21 23:31:10 [INFO] ======================================================================
+2026-08-21 23:31:10 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 23:31:10 [INFO] ======================================================================
+2026-08-21 23:31:10 [INFO] Notícias com status 'extraida': 11
+2026-08-21 23:31:10 [INFO] Limite: 20 requisições/minuto
+2026-08-21 23:31:10 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 23:31:10 [INFO] ======================================================================
+2026-08-21 23:31:10 [INFO] [1/11] ID: tag:google.com,2013:googlealerts/feed:5321385945028983705
+2026-08-21 23:31:10 [INFO] Título: Irmãos Batista, da J&F, compram 100% da Avibras, a maior indústria bélica do País
+2026-08-21 23:31:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:11 [INFO] Classificação: nao_enviar
+2026-08-21 23:31:11 [INFO] Aguardando 2.51s...
+2026-08-21 23:31:13 [INFO] [2/11] ID: tag:google.com,2013:googlealerts/feed:17362344841597173618
+2026-08-21 23:31:13 [INFO] Título: O relógio eleitoral da 6×1 - O Bastidor
+2026-08-21 23:31:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:13 [INFO] Classificação: nao_enviar
+2026-08-21 23:31:13 [INFO] Aguardando 2.62s...
+2026-08-21 23:31:16 [INFO] [3/11] ID: tag:google.com,2013:googlealerts/feed:18243254695621002840
+2026-08-21 23:31:16 [INFO] Título: Juros elevados atrapalham a economia - Monitor Mercantil
+2026-08-21 23:31:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:16 [INFO] Classificação: nao_enviar
+2026-08-21 23:31:16 [INFO] Aguardando 2.69s...
+2026-08-21 23:31:19 [INFO] [4/11] ID: tag:google.com,2013:googlealerts/feed:2942132611326127716
+2026-08-21 23:31:19 [INFO] Título: Nem sempre cabe sucumbência em casos de crédito em RJ e falências, afirma STJ
+2026-08-21 23:31:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:20 [INFO] Classificação: enviar
+2026-08-21 23:31:20 [INFO] Aguardando 2.42s...
+2026-08-21 23:31:22 [INFO] [5/11] ID: tag:google.com,2013:googlealerts/feed:16855091338399314585
+2026-08-21 23:31:22 [INFO] Título: <b>Recuperação judicial</b> das Casas Bahia: o que muda para consumidores, devedores e acionistas?
+2026-08-21 23:31:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:22 [INFO] Classificação: enviar
+2026-08-21 23:31:22 [INFO] Aguardando 2.65s...
+2026-08-21 23:31:25 [INFO] [6/11] ID: tag:google.com,2013:googlealerts/feed:11170380207480222525
+2026-08-21 23:31:25 [INFO] Título: Ibovespa sobe 1,8% impulsionado por Vale e bancos; dólar cai a R$ 5,14
+2026-08-21 23:31:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:25 [INFO] Classificação: nao_enviar
+2026-08-21 23:31:25 [INFO] Aguardando 2.70s...
+2026-08-21 23:31:28 [INFO] [7/11] ID: tag:google.com,2013:googlealerts/feed:1379853501806990919
+2026-08-21 23:31:28 [INFO] Título: Braskem avalia proteção contra credores e negocia dívida - UOL Economia
+2026-08-21 23:31:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:28 [INFO] Classificação: enviar
+2026-08-21 23:31:28 [INFO] Aguardando 2.59s...
+2026-08-21 23:31:31 [INFO] [8/11] ID: tag:google.com,2013:googlealerts/feed:10945798524596051751
+2026-08-21 23:31:31 [INFO] Título: Irmãos Batista, da J&F, compram 100% da Avibras, a maior indústria bélica do País
+2026-08-21 23:31:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:31 [INFO] Classificação: nao_enviar
+2026-08-21 23:31:31 [INFO] Aguardando 2.68s...
+2026-08-21 23:31:34 [INFO] [9/11] ID: tag:google.com,2013:googlealerts/feed:1895839453968733808
+2026-08-21 23:31:34 [INFO] Título: Casas Bahia: recuperação <b>judicial</b> não suspende direitos do consumidor - Debate Jurídico
+2026-08-21 23:31:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:34 [INFO] Classificação: enviar
+2026-08-21 23:31:34 [INFO] Aguardando 2.73s...
+2026-08-21 23:31:37 [INFO] [10/11] ID: tag:google.com,2013:googlealerts/feed:9052893782281693089
+2026-08-21 23:31:37 [INFO] Título: Casas Bahia deve R$ 5 bi ao Bradesco: como isso pode afetar a recuperação do banco?
+2026-08-21 23:31:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:37 [INFO] Classificação: nao_enviar
+2026-08-21 23:31:37 [INFO] Aguardando 2.65s...
+2026-08-21 23:31:40 [INFO] [11/11] ID: tag:google.com,2013:googlealerts/feed:16057839450564428292
+2026-08-21 23:31:40 [INFO] Título: FICT3 vira FASA3 a partir de 31 de agosto; veja o que muda para o acionista da antiga Fictor
+2026-08-21 23:31:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 23:31:40 [INFO] Classificação: nao_enviar
+2026-08-21 23:31:40 [INFO] ======================================================================
+2026-08-21 23:31:40 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 23:31:40 [INFO] ======================================================================
+2026-08-21 23:31:40 [INFO] Processadas: 11
+2026-08-21 23:31:40 [INFO] Enviar: 4
+2026-08-21 23:31:40 [INFO] Não enviar: 7
+2026-08-21 23:31:40 [INFO] ======================================================================
