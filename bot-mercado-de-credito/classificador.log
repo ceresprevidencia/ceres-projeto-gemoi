@@ -5466,3 +5466,86 @@
 2026-08-21 21:31:52 [INFO] Enviar: 6
 2026-08-21 21:31:52 [INFO] Não enviar: 2
 2026-08-21 21:31:52 [INFO] ======================================================================
+2026-08-21 22:32:36 [INFO] ======================================================================
+2026-08-21 22:32:36 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-21 22:32:36 [INFO] ======================================================================
+2026-08-21 22:32:36 [INFO] Notícias com status 'extraida': 14
+2026-08-21 22:32:36 [INFO] Limite: 20 requisições/minuto
+2026-08-21 22:32:36 [INFO] Intervalo mínimo: 3.0s
+2026-08-21 22:32:36 [INFO] ======================================================================
+2026-08-21 22:32:36 [INFO] [1/14] ID: tag:google.com,2013:googlealerts/feed:15723118822157684554
+2026-08-21 22:32:36 [INFO] Título: A ruína das Casas Bahia e a conta do capitalismo selvagem – CartaCapital
+2026-08-21 22:32:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:32:37 [INFO] Classificação: nao_enviar
+2026-08-21 22:32:37 [INFO] Aguardando 2.68s...
+2026-08-21 22:32:39 [INFO] [2/14] ID: tag:google.com,2013:googlealerts/feed:16964095571791819571
+2026-08-21 22:32:39 [INFO] Título: OAB/MS e ESA/MS realizam aula magna sobre controle de legalidade na <b>recuperação</b> ...
+2026-08-21 22:32:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:32:40 [INFO] Classificação: nao_enviar
+2026-08-21 22:32:40 [INFO] Aguardando 2.73s...
+2026-08-21 22:32:42 [INFO] [3/14] ID: tag:google.com,2013:googlealerts/feed:7023556187639103650
+2026-08-21 22:32:42 [INFO] Título: Durigan diz que crise da Casas Bahia não indica problema geral na economia: 'Não há'
+2026-08-21 22:32:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:32:43 [INFO] Classificação: nao_enviar
+2026-08-21 22:32:43 [INFO] Aguardando 2.61s...
+2026-08-21 22:32:45 [INFO] [4/14] ID: tag:google.com,2013:googlealerts/feed:2893570380698036659
+2026-08-21 22:32:45 [INFO] Título: Durigan diz que <b>recuperação judicial</b> da Casas Bahia não indica crise geral
+2026-08-21 22:32:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:32:46 [INFO] Classificação: enviar
+2026-08-21 22:32:46 [INFO] Aguardando 2.60s...
+2026-08-21 22:32:48 [INFO] [5/14] ID: tag:google.com,2013:googlealerts/feed:4416796008806896486
+2026-08-21 22:32:48 [INFO] Título: Mudança nos juros da Fictor - O Bastidor
+2026-08-21 22:32:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:32:49 [INFO] Classificação: nao_enviar
+2026-08-21 22:32:49 [INFO] Aguardando 2.71s...
+2026-08-21 22:32:51 [INFO] [6/14] ID: tag:google.com,2013:googlealerts/feed:161509053641669911
+2026-08-21 22:32:51 [INFO] Título: Casas Bahia deve R$ 5 bi ao Bradesco: como isso pode afetar a <b>recuperação</b> do banco?
+2026-08-21 22:32:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:32:52 [INFO] Classificação: nao_enviar
+2026-08-21 22:32:52 [INFO] Aguardando 2.65s...
+2026-08-21 22:32:54 [INFO] [7/14] ID: tag:google.com,2013:googlealerts/feed:5505438351705989042
+2026-08-21 22:32:54 [INFO] Título: Por que tantas grandes empresas estão reestruturando suas dívidas? - CM
+2026-08-21 22:32:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:32:55 [INFO] Classificação: nao_enviar
+2026-08-21 22:32:55 [INFO] Aguardando 2.09s...
+2026-08-21 22:32:57 [INFO] [8/14] ID: tag:google.com,2013:googlealerts/feed:1580524064184118637
+2026-08-21 22:32:57 [INFO] Título: Casas Bahia (BHIA3): Ministro nega haver crise no varejo e culpa juros altos e e-commerce por ...
+2026-08-21 22:32:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:32:58 [INFO] Classificação: nao_enviar
+2026-08-21 22:32:58 [INFO] Aguardando 2.27s...
+2026-08-21 22:33:00 [INFO] [9/14] ID: tag:google.com,2013:googlealerts/feed:17901961575658225557
+2026-08-21 22:33:00 [INFO] Título: Durigan diz que crise da Casas Bahia não indica problema geral na economia: 'Não há'
+2026-08-21 22:33:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:33:01 [INFO] Classificação: nao_enviar
+2026-08-21 22:33:01 [INFO] Aguardando 2.71s...
+2026-08-21 22:33:03 [INFO] [10/14] ID: tag:google.com,2013:googlealerts/feed:11029076449102480105
+2026-08-21 22:33:03 [INFO] Título: Repaginada: Fictor Alimentos muda de nome e ticker na B3 após recuperação <b>judicial</b>
+2026-08-21 22:33:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:33:04 [INFO] Classificação: enviar
+2026-08-21 22:33:04 [INFO] Aguardando 2.75s...
+2026-08-21 22:33:06 [INFO] [11/14] ID: tag:google.com,2013:googlealerts/feed:12519275962974203769
+2026-08-21 22:33:06 [INFO] Título: OAB/MS e ESA/MS realizam aula magna sobre controle de legalidade na recuperação ...
+2026-08-21 22:33:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:33:07 [INFO] Classificação: nao_enviar
+2026-08-21 22:33:07 [INFO] Aguardando 2.68s...
+2026-08-21 22:33:09 [INFO] [12/14] ID: tag:google.com,2013:googlealerts/feed:2654076380201347812
+2026-08-21 22:33:09 [INFO] Título: Durigan diz que recuperação <b>judicial</b> da Casas Bahia não indica crise geral
+2026-08-21 22:33:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:33:10 [INFO] Classificação: enviar
+2026-08-21 22:33:10 [INFO] Aguardando 2.82s...
+2026-08-21 22:33:12 [INFO] [13/14] ID: tag:google.com,2013:googlealerts/feed:17202629694305110921
+2026-08-21 22:33:12 [INFO] Título: Leilões da Casas Bahia já ocorriam meses antes da recuperação <b>judicial</b>
+2026-08-21 22:33:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:33:13 [INFO] Classificação: enviar
+2026-08-21 22:33:13 [INFO] Aguardando 2.70s...
+2026-08-21 22:33:15 [INFO] [14/14] ID: tag:google.com,2013:googlealerts/feed:10669854822155289391
+2026-08-21 22:33:15 [INFO] Título: TJPR participa de reunião da Câmara Nacional de Gestão de Precatórios em Teresina
+2026-08-21 22:33:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-21 22:33:16 [INFO] Classificação: nao_enviar
+2026-08-21 22:33:16 [INFO] ======================================================================
+2026-08-21 22:33:16 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-21 22:33:16 [INFO] ======================================================================
+2026-08-21 22:33:16 [INFO] Processadas: 14
+2026-08-21 22:33:16 [INFO] Enviar: 4
+2026-08-21 22:33:16 [INFO] Não enviar: 10
+2026-08-21 22:33:16 [INFO] ======================================================================
