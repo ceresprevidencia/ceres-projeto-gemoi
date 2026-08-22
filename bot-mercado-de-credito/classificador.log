@@ -6333,3 +6333,66 @@
 2026-08-22 19:28:44 [INFO] Enviar: 5
 2026-08-22 19:28:44 [INFO] Não enviar: 3
 2026-08-22 19:28:44 [INFO] ======================================================================
+2026-08-22 20:31:28 [INFO] ======================================================================
+2026-08-22 20:31:28 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 20:31:28 [INFO] ======================================================================
+2026-08-22 20:31:28 [INFO] Notícias com status 'extraida': 10
+2026-08-22 20:31:28 [INFO] Limite: 20 requisições/minuto
+2026-08-22 20:31:28 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 20:31:28 [INFO] ======================================================================
+2026-08-22 20:31:28 [INFO] [1/10] ID: tag:google.com,2013:googlealerts/feed:13743204868234005017
+2026-08-22 20:31:28 [INFO] Título: Donos da JBS compram Avibras e entram no setor de defesa; transação depende deste ...
+2026-08-22 20:31:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:28 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:28 [INFO] Aguardando 2.64s...
+2026-08-22 20:31:31 [INFO] [2/10] ID: tag:google.com,2013:googlealerts/feed:18308004411870839109
+2026-08-22 20:31:31 [INFO] Título: Documentos falsos teriam sido usados no ES para obter indenizações de vítimas
+2026-08-22 20:31:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:31 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:31 [INFO] Aguardando 2.70s...
+2026-08-22 20:31:34 [INFO] [3/10] ID: tag:google.com,2013:googlealerts/feed:16601902436542153355
+2026-08-22 20:31:34 [INFO] Título: Por que família Batista, da JBS, comprou Avibras via family office | Exame INSIGHT
+2026-08-22 20:31:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:34 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:34 [INFO] Aguardando 2.60s...
+2026-08-22 20:31:37 [INFO] [4/10] ID: tag:google.com,2013:googlealerts/feed:11134261897479832872
+2026-08-22 20:31:37 [INFO] Título: Dono da Havan vem a público comentar falência de loja histórica - Diario de Pernambuco
+2026-08-22 20:31:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:37 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:37 [INFO] Aguardando 2.70s...
+2026-08-22 20:31:40 [INFO] [5/10] ID: tag:google.com,2013:googlealerts/feed:4639850990682982478
+2026-08-22 20:31:40 [INFO] Título: Filipe Andson: Segura o Caixa senão o RJ vai te pegar - WSCOM
+2026-08-22 20:31:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:40 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:40 [INFO] Aguardando 2.62s...
+2026-08-22 20:31:43 [INFO] [6/10] ID: tag:google.com,2013:googlealerts/feed:6480462587483594589
+2026-08-22 20:31:43 [INFO] Título: Casas Bahia demite 2 mil funcionários e fecha lojas - Agência GBC
+2026-08-22 20:31:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:43 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:43 [INFO] Aguardando 2.68s...
+2026-08-22 20:31:46 [INFO] [7/10] ID: tag:google.com,2013:googlealerts/feed:15580095562620013197
+2026-08-22 20:31:46 [INFO] Título: Primeiro repetitivo julgado em sessão totalmente virtual define requisitos para justiça ...
+2026-08-22 20:31:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:46 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:46 [INFO] Aguardando 2.71s...
+2026-08-22 20:31:49 [INFO] [8/10] ID: tag:google.com,2013:googlealerts/feed:12057570970710874679
+2026-08-22 20:31:49 [INFO] Título: Filipe Andson: Segura o Caixa senão o RJ vai te pegar - WSCOM
+2026-08-22 20:31:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:49 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:49 [INFO] Aguardando 2.69s...
+2026-08-22 20:31:52 [INFO] [9/10] ID: tag:google.com,2013:googlealerts/feed:5068446224069281778
+2026-08-22 20:31:52 [INFO] Título: Nova decisão do CNJ impede o tabelião local de condicionar a lavratura da escritura do ...
+2026-08-22 20:31:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:52 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:52 [INFO] Aguardando 2.81s...
+2026-08-22 20:31:55 [INFO] [10/10] ID: tag:google.com,2013:googlealerts/feed:5038129881810615263
+2026-08-22 20:31:55 [INFO] Título: Fazenda descarta crise geral no varejo e afasta socorro - SBT News
+2026-08-22 20:31:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 20:31:55 [INFO] Classificação: nao_enviar
+2026-08-22 20:31:55 [INFO] ======================================================================
+2026-08-22 20:31:55 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 20:31:55 [INFO] ======================================================================
+2026-08-22 20:31:55 [INFO] Processadas: 10
+2026-08-22 20:31:55 [INFO] Enviar: 0
+2026-08-22 20:31:55 [INFO] Não enviar: 10
+2026-08-22 20:31:55 [INFO] ======================================================================
