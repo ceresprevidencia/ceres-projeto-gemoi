@@ -6003,3 +6003,36 @@
 2026-08-22 14:29:43 [INFO] Enviar: 5
 2026-08-22 14:29:43 [INFO] Não enviar: 8
 2026-08-22 14:29:43 [INFO] ======================================================================
+2026-08-22 15:28:40 [INFO] ======================================================================
+2026-08-22 15:28:40 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 15:28:40 [INFO] ======================================================================
+2026-08-22 15:28:40 [INFO] Notícias com status 'extraida': 4
+2026-08-22 15:28:40 [INFO] Limite: 20 requisições/minuto
+2026-08-22 15:28:40 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 15:28:40 [INFO] ======================================================================
+2026-08-22 15:28:40 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:12476442113166659216
+2026-08-22 15:28:40 [INFO] Título: Entidades bancárias estão cautelosas com crédito, diz CEO da Pact - CNN Brasil
+2026-08-22 15:28:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 15:28:40 [INFO] Classificação: nao_enviar
+2026-08-22 15:28:40 [INFO] Aguardando 2.32s...
+2026-08-22 15:28:43 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:16124399205187920590
+2026-08-22 15:28:43 [INFO] Título: Durigan diz que crise da Casas Bahia não reflete problema geral na economia - BPMoney
+2026-08-22 15:28:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 15:28:43 [INFO] Classificação: nao_enviar
+2026-08-22 15:28:43 [INFO] Aguardando 2.50s...
+2026-08-22 15:28:46 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:9855027052454083461
+2026-08-22 15:28:46 [INFO] Título: O que o pedido de <b>recuperação</b> judicial das Casas Bahia revela sobre o atual cenário de ... - AL1
+2026-08-22 15:28:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 15:28:46 [INFO] Classificação: enviar
+2026-08-22 15:28:46 [INFO] Aguardando 2.73s...
+2026-08-22 15:28:49 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:7806892499848231710
+2026-08-22 15:28:49 [INFO] Título: Ministro da Fazenda nega crise no varejo após <b>recuperação</b> judicial das Casas Bahia
+2026-08-22 15:28:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 15:28:49 [INFO] Classificação: enviar
+2026-08-22 15:28:49 [INFO] ======================================================================
+2026-08-22 15:28:49 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 15:28:49 [INFO] ======================================================================
+2026-08-22 15:28:49 [INFO] Processadas: 4
+2026-08-22 15:28:49 [INFO] Enviar: 2
+2026-08-22 15:28:49 [INFO] Não enviar: 2
+2026-08-22 15:28:49 [INFO] ======================================================================
