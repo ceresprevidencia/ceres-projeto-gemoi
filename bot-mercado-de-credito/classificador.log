@@ -6217,3 +6217,66 @@
 2026-08-22 17:28:01 [INFO] Enviar: 4
 2026-08-22 17:28:01 [INFO] Não enviar: 7
 2026-08-22 17:28:01 [INFO] ======================================================================
+2026-08-22 18:40:27 [INFO] ======================================================================
+2026-08-22 18:40:27 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 18:40:27 [INFO] ======================================================================
+2026-08-22 18:40:27 [INFO] Notícias com status 'extraida': 10
+2026-08-22 18:40:27 [INFO] Limite: 20 requisições/minuto
+2026-08-22 18:40:27 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 18:40:27 [INFO] ======================================================================
+2026-08-22 18:40:27 [INFO] [1/10] ID: tag:google.com,2013:googlealerts/feed:2064002896977181918
+2026-08-22 18:40:27 [INFO] Título: Disputa <b>judicial</b> da Marabraz cita até anel de R$ 6 milhões dado a Marina Ruy Barbosa
+2026-08-22 18:40:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:28 [INFO] Classificação: nao_enviar
+2026-08-22 18:40:28 [INFO] Aguardando 2.58s...
+2026-08-22 18:40:30 [INFO] [2/10] ID: tag:google.com,2013:googlealerts/feed:14954222105151140304
+2026-08-22 18:40:30 [INFO] Título: STF valida restrições à <b>recuperação judicial</b> de devedor contumaz - Gazeta do Paraná
+2026-08-22 18:40:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:30 [INFO] Classificação: enviar
+2026-08-22 18:40:31 [INFO] Aguardando 2.80s...
+2026-08-22 18:40:33 [INFO] [3/10] ID: tag:google.com,2013:googlealerts/feed:6609922543269537765
+2026-08-22 18:40:33 [INFO] Título: Bastidores: Lamacchia se compromete a antecipar pagamentos da <b>recuperação judicial</b> do Vasco
+2026-08-22 18:40:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:34 [INFO] Classificação: enviar
+2026-08-22 18:40:34 [INFO] Aguardando 2.75s...
+2026-08-22 18:40:36 [INFO] [4/10] ID: tag:google.com,2013:googlealerts/feed:4849900517144534225
+2026-08-22 18:40:36 [INFO] Título: Família Batista, da JBS, compra 100% da Avibras, fabricante de armas de guerra
+2026-08-22 18:40:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:37 [INFO] Classificação: nao_enviar
+2026-08-22 18:40:37 [INFO] Aguardando 2.75s...
+2026-08-22 18:40:39 [INFO] [5/10] ID: tag:google.com,2013:googlealerts/feed:17155659274675281645
+2026-08-22 18:40:39 [INFO] Título: Vasco tem negociações avançadas com um meia, mas empréstimo travado dificulta acerto
+2026-08-22 18:40:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:39 [INFO] Classificação: nao_enviar
+2026-08-22 18:40:39 [INFO] Aguardando 2.85s...
+2026-08-22 18:40:42 [INFO] [6/10] ID: tag:google.com,2013:googlealerts/feed:16109004293234006845
+2026-08-22 18:40:42 [INFO] Título: <b>Recuperação judicial</b>: os sinais que aparecem antes do anúncio - Nord Investimentos
+2026-08-22 18:40:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:43 [INFO] Classificação: enviar
+2026-08-22 18:40:43 [INFO] Aguardando 2.68s...
+2026-08-22 18:40:45 [INFO] [7/10] ID: tag:google.com,2013:googlealerts/feed:1971187043128902926
+2026-08-22 18:40:45 [INFO] Título: Grupo Estrela apresenta plano de <b>recuperação judicial</b> - JR - JORNAL DA REGIÃO
+2026-08-22 18:40:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:46 [INFO] Classificação: enviar
+2026-08-22 18:40:46 [INFO] Aguardando 2.80s...
+2026-08-22 18:40:48 [INFO] [8/10] ID: tag:google.com,2013:googlealerts/feed:15008841319718219076
+2026-08-22 18:40:48 [INFO] Título: MAIS DE SEIS MIL EMPRESAS BRASILEIRAS LUTAM PARA SOBREVIVER
+2026-08-22 18:40:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:48 [INFO] Classificação: nao_enviar
+2026-08-22 18:40:48 [INFO] Aguardando 2.82s...
+2026-08-22 18:40:51 [INFO] [9/10] ID: tag:google.com,2013:googlealerts/feed:8767919908472114622
+2026-08-22 18:40:51 [INFO] Título: Quase mil empresas entram em <b>recuperação</b> judicial no varejo no segundo trimestre de ...
+2026-08-22 18:40:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:52 [INFO] Classificação: enviar
+2026-08-22 18:40:52 [INFO] Aguardando 2.78s...
+2026-08-22 18:40:54 [INFO] [10/10] ID: tag:google.com,2013:googlealerts/feed:11958094728597766338
+2026-08-22 18:40:54 [INFO] Título: Retail faces wave of store closures, bankruptcies, and restructuring; expert comments
+2026-08-22 18:40:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 18:40:55 [INFO] Classificação: nao_enviar
+2026-08-22 18:40:55 [INFO] ======================================================================
+2026-08-22 18:40:55 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 18:40:55 [INFO] ======================================================================
+2026-08-22 18:40:55 [INFO] Processadas: 10
+2026-08-22 18:40:55 [INFO] Enviar: 5
+2026-08-22 18:40:55 [INFO] Não enviar: 5
+2026-08-22 18:40:55 [INFO] ======================================================================
