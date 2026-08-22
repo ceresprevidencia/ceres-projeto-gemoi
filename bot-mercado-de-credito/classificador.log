@@ -6502,3 +6502,71 @@
 2026-08-22 22:30:12 [INFO] Enviar: 1
 2026-08-22 22:30:12 [INFO] Não enviar: 9
 2026-08-22 22:30:12 [INFO] ======================================================================
+2026-08-22 23:27:46 [INFO] ======================================================================
+2026-08-22 23:27:46 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 23:27:46 [INFO] ======================================================================
+2026-08-22 23:27:46 [INFO] Notícias com status 'extraida': 11
+2026-08-22 23:27:46 [INFO] Limite: 20 requisições/minuto
+2026-08-22 23:27:46 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 23:27:46 [INFO] ======================================================================
+2026-08-22 23:27:46 [INFO] [1/11] ID: tag:google.com,2013:googlealerts/feed:1960077866023670284
+2026-08-22 23:27:46 [INFO] Título: Resumo da Semana - OABMS
+2026-08-22 23:27:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:27:46 [INFO] Classificação: nao_enviar
+2026-08-22 23:27:46 [INFO] Aguardando 2.57s...
+2026-08-22 23:27:49 [INFO] [2/11] ID: tag:google.com,2013:googlealerts/feed:13919235446015703366
+2026-08-22 23:27:49 [INFO] Título: Casas Bahia no limite: o que a <b>recuperação judicial</b> revela sobre o crédito no país
+2026-08-22 23:27:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:27:49 [INFO] Classificação: enviar
+2026-08-22 23:27:49 [INFO] Aguardando 2.72s...
+2026-08-22 23:27:52 [INFO] [3/11] ID: tag:google.com,2013:googlealerts/feed:12546752617324993282
+2026-08-22 23:27:52 [INFO] Título: Caso Dallas: a jornada de adquirentes para salvar o patrimônio no Recife - JC
+2026-08-22 23:27:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:27:52 [INFO] Classificação: nao_enviar
+2026-08-22 23:27:52 [INFO] Aguardando 2.62s...
+2026-08-22 23:27:55 [INFO] [4/11] ID: tag:google.com,2013:googlealerts/feed:13508236263058469917
+2026-08-22 23:27:55 [INFO] Título: Irmãos Batista dizem ao Cade que compra da Avibras é entrada em defesa nacional - Folha - UOL
+2026-08-22 23:27:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:27:55 [INFO] Classificação: nao_enviar
+2026-08-22 23:27:55 [INFO] Aguardando 2.83s...
+2026-08-22 23:27:58 [INFO] [5/11] ID: tag:google.com,2013:googlealerts/feed:13743999599385180205
+2026-08-22 23:27:58 [INFO] Título: Vidroforte encerra <b>recuperação judicial</b> e retoma investimentos em Caxias do Sul | Notícia
+2026-08-22 23:27:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:27:58 [INFO] Classificação: enviar
+2026-08-22 23:27:58 [INFO] Aguardando 2.77s...
+2026-08-22 23:28:01 [INFO] [6/11] ID: tag:google.com,2013:googlealerts/feed:13209372644133551491
+2026-08-22 23:28:01 [INFO] Título: Filipe Andson: Segura o Caixa senão o RJ vai te pegar - WSCOM
+2026-08-22 23:28:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:28:01 [INFO] Classificação: nao_enviar
+2026-08-22 23:28:01 [INFO] Aguardando 2.71s...
+2026-08-22 23:28:04 [INFO] [7/11] ID: tag:google.com,2013:googlealerts/feed:18169374769132495790
+2026-08-22 23:28:04 [INFO] Título: Donos da JBS compram Avibras e entram no setor de defesa; transação depende deste ...
+2026-08-22 23:28:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:28:04 [INFO] Classificação: nao_enviar
+2026-08-22 23:28:04 [INFO] Aguardando 2.65s...
+2026-08-22 23:28:07 [INFO] [8/11] ID: tag:google.com,2013:googlealerts/feed:5895418115088102847
+2026-08-22 23:28:07 [INFO] Título: Irmãos Batista, da J&F, compram 100% da Avibras, a maior indústria bélica do País - Folha Vitória
+2026-08-22 23:28:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:28:07 [INFO] Classificação: nao_enviar
+2026-08-22 23:28:07 [INFO] Aguardando 2.77s...
+2026-08-22 23:28:10 [INFO] [9/11] ID: tag:google.com,2013:googlealerts/feed:5157841922692871044
+2026-08-22 23:28:10 [INFO] Título: Casas Bahia enfrenta ações de despejo em lojas do Grande ABC - dgabc
+2026-08-22 23:28:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:28:10 [INFO] Classificação: nao_enviar
+2026-08-22 23:28:10 [INFO] Aguardando 2.87s...
+2026-08-22 23:28:13 [INFO] [10/11] ID: tag:google.com,2013:googlealerts/feed:2653982165794851852
+2026-08-22 23:28:13 [INFO] Título: Rebaixamento do Bordeaux para a sexta divisão é confirmado pela Justiça, enquanto ex ...
+2026-08-22 23:28:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:28:13 [INFO] Classificação: nao_enviar
+2026-08-22 23:28:13 [INFO] Aguardando 2.84s...
+2026-08-22 23:28:16 [INFO] [11/11] ID: tag:google.com,2013:googlealerts/feed:16959849327058760409
+2026-08-22 23:28:16 [INFO] Título: Vidroforte encerra recuperação <b>judicial</b> e retoma investimentos em Caxias do Sul | Notícia
+2026-08-22 23:28:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 23:28:16 [INFO] Classificação: enviar
+2026-08-22 23:28:16 [INFO] ======================================================================
+2026-08-22 23:28:16 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 23:28:16 [INFO] ======================================================================
+2026-08-22 23:28:16 [INFO] Processadas: 11
+2026-08-22 23:28:16 [INFO] Enviar: 3
+2026-08-22 23:28:16 [INFO] Não enviar: 8
+2026-08-22 23:28:16 [INFO] ======================================================================
