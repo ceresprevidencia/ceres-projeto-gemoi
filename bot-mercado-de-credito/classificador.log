@@ -6280,3 +6280,56 @@
 2026-08-22 18:40:55 [INFO] Enviar: 5
 2026-08-22 18:40:55 [INFO] Não enviar: 5
 2026-08-22 18:40:55 [INFO] ======================================================================
+2026-08-22 19:28:23 [INFO] ======================================================================
+2026-08-22 19:28:23 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 19:28:23 [INFO] ======================================================================
+2026-08-22 19:28:23 [INFO] Notícias com status 'extraida': 8
+2026-08-22 19:28:23 [INFO] Limite: 20 requisições/minuto
+2026-08-22 19:28:23 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 19:28:23 [INFO] ======================================================================
+2026-08-22 19:28:23 [INFO] [1/8] ID: tag:google.com,2013:googlealerts/feed:9887483699844526997
+2026-08-22 19:28:23 [INFO] Título: Casas Bahia entra em <b>recuperação judicial</b> após prejuízo de R$ 10 bilhões - YouTube
+2026-08-22 19:28:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 19:28:24 [INFO] Classificação: enviar
+2026-08-22 19:28:24 [INFO] Aguardando 2.72s...
+2026-08-22 19:28:26 [INFO] [2/8] ID: tag:google.com,2013:googlealerts/feed:1494088061245932408
+2026-08-22 19:28:26 [INFO] Título: PF investiga possível maquiagem em metas da Casas Bahia - Revista Oeste
+2026-08-22 19:28:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 19:28:26 [INFO] Classificação: nao_enviar
+2026-08-22 19:28:26 [INFO] Aguardando 2.83s...
+2026-08-22 19:28:29 [INFO] [3/8] ID: tag:google.com,2013:googlealerts/feed:1970189491037774749
+2026-08-22 19:28:29 [INFO] Título: À Justiça, Vasco prevê quase R$ 90 mi para reforços apesar de 'colapso' - UOL
+2026-08-22 19:28:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 19:28:30 [INFO] Classificação: nao_enviar
+2026-08-22 19:28:30 [INFO] Aguardando 2.65s...
+2026-08-22 19:28:32 [INFO] [4/8] ID: tag:google.com,2013:googlealerts/feed:16238079701845940528
+2026-08-22 19:28:32 [INFO] Título: Casas Bahia: <b>Recuperação</b> judicial pode custar R$ 70 mi a Arapongas - CRN1
+2026-08-22 19:28:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 19:28:33 [INFO] Classificação: enviar
+2026-08-22 19:28:33 [INFO] Aguardando 2.40s...
+2026-08-22 19:28:35 [INFO] [5/8] ID: tag:google.com,2013:googlealerts/feed:14329219740362399596
+2026-08-22 19:28:35 [INFO] Título: <b>Recuperação</b> judicial: os sinais que aparecem antes do anúncio - Nord Investimentos
+2026-08-22 19:28:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 19:28:36 [INFO] Classificação: enviar
+2026-08-22 19:28:36 [INFO] Aguardando 2.47s...
+2026-08-22 19:28:38 [INFO] [6/8] ID: tag:google.com,2013:googlealerts/feed:18084977016194122489
+2026-08-22 19:28:38 [INFO] Título: Casas Bahia entra em recuperação <b>judicial</b> após prejuízo de R$ 10 bilhões - YouTube
+2026-08-22 19:28:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 19:28:39 [INFO] Classificação: enviar
+2026-08-22 19:28:39 [INFO] Aguardando 2.49s...
+2026-08-22 19:28:41 [INFO] [7/8] ID: tag:google.com,2013:googlealerts/feed:15338851040086758455
+2026-08-22 19:28:41 [INFO] Título: Avibras confirma venda para irmãos Batista e aguarda aprovação do Cade | G1 - Globo
+2026-08-22 19:28:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 19:28:42 [INFO] Classificação: nao_enviar
+2026-08-22 19:28:42 [INFO] Aguardando 2.73s...
+2026-08-22 19:28:44 [INFO] [8/8] ID: tag:google.com,2013:googlealerts/feed:6484506639585469481
+2026-08-22 19:28:44 [INFO] Título: Recuperação <b>judicial</b>: os sinais que aparecem antes do anúncio - Nord Investimentos
+2026-08-22 19:28:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 19:28:44 [INFO] Classificação: enviar
+2026-08-22 19:28:44 [INFO] ======================================================================
+2026-08-22 19:28:44 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 19:28:44 [INFO] ======================================================================
+2026-08-22 19:28:44 [INFO] Processadas: 8
+2026-08-22 19:28:44 [INFO] Enviar: 5
+2026-08-22 19:28:44 [INFO] Não enviar: 3
+2026-08-22 19:28:44 [INFO] ======================================================================
