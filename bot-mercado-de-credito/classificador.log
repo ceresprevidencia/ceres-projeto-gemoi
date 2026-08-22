@@ -5925,3 +5925,81 @@
 2026-08-22 13:37:37 [INFO] Enviar: 0
 2026-08-22 13:37:37 [INFO] Não enviar: 0
 2026-08-22 13:37:37 [INFO] ======================================================================
+2026-08-22 14:29:07 [INFO] ======================================================================
+2026-08-22 14:29:07 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 14:29:07 [INFO] ======================================================================
+2026-08-22 14:29:07 [INFO] Notícias com status 'extraida': 13
+2026-08-22 14:29:07 [INFO] Limite: 20 requisições/minuto
+2026-08-22 14:29:07 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 14:29:07 [INFO] ======================================================================
+2026-08-22 14:29:07 [INFO] [1/13] ID: tag:google.com,2013:googlealerts/feed:10437368673693590630
+2026-08-22 14:29:07 [INFO] Título: Casas Bahia (BHIA3): Ministro nega haver crise no varejo e culpa juros altos e e-commerce por ...
+2026-08-22 14:29:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:07 [INFO] Classificação: nao_enviar
+2026-08-22 14:29:07 [INFO] Aguardando 2.74s...
+2026-08-22 14:29:10 [INFO] [2/13] ID: tag:google.com,2013:googlealerts/feed:612631504934267157
+2026-08-22 14:29:10 [INFO] Título: Após recorrer à Justiça para reestruturar dívidas bilionárias, Casas Bahia faz leilão virtual ...
+2026-08-22 14:29:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:10 [INFO] Classificação: enviar
+2026-08-22 14:29:10 [INFO] Aguardando 2.68s...
+2026-08-22 14:29:13 [INFO] [3/13] ID: tag:google.com,2013:googlealerts/feed:1046965608477867914
+2026-08-22 14:29:13 [INFO] Título: Juíza mantém trava a empréstimo de R$ 150 milhões do Vasco e faz críticas à gestão ...
+2026-08-22 14:29:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:13 [INFO] Classificação: nao_enviar
+2026-08-22 14:29:13 [INFO] Aguardando 2.71s...
+2026-08-22 14:29:16 [INFO] [4/13] ID: tag:google.com,2013:googlealerts/feed:6801193457063529916
+2026-08-22 14:29:16 [INFO] Título: Administração <b>Judicial</b> apoia pedido do Vasco para a realização de uma audiência especial ...
+2026-08-22 14:29:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:16 [INFO] Classificação: nao_enviar
+2026-08-22 14:29:16 [INFO] Aguardando 2.48s...
+2026-08-22 14:29:19 [INFO] [5/13] ID: tag:google.com,2013:googlealerts/feed:3564835177163322116
+2026-08-22 14:29:19 [INFO] Título: Varejo enfrenta onda de fechamentos, recuperações <b>judiciais</b> e falências - YouTube
+2026-08-22 14:29:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:19 [INFO] Classificação: enviar
+2026-08-22 14:29:19 [INFO] Aguardando 2.63s...
+2026-08-22 14:29:22 [INFO] [6/13] ID: tag:google.com,2013:googlealerts/feed:16199713738711874380
+2026-08-22 14:29:22 [INFO] Título: CNJ confirma proteção de atos cooperativos em processos de <b>recuperação judicial</b> de produtor rural
+2026-08-22 14:29:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:22 [INFO] Classificação: enviar
+2026-08-22 14:29:22 [INFO] Aguardando 2.85s...
+2026-08-22 14:29:25 [INFO] [7/13] ID: tag:google.com,2013:googlealerts/feed:11335165023860069768
+2026-08-22 14:29:25 [INFO] Título: SJAC - Justiça Federal do Acre participa de conferência sobre <b>recuperação</b> de ativos e ... - TRF1
+2026-08-22 14:29:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:25 [INFO] Classificação: nao_enviar
+2026-08-22 14:29:25 [INFO] Aguardando 2.69s...
+2026-08-22 14:29:28 [INFO] [8/13] ID: tag:google.com,2013:googlealerts/feed:6798042249684792721
+2026-08-22 14:29:28 [INFO] Título: A conta chegou. E não é só do varejo - UOL Economia
+2026-08-22 14:29:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:28 [INFO] Classificação: nao_enviar
+2026-08-22 14:29:28 [INFO] Aguardando 2.69s...
+2026-08-22 14:29:31 [INFO] [9/13] ID: tag:google.com,2013:googlealerts/feed:3982151224399366271
+2026-08-22 14:29:31 [INFO] Título: Análise: Juros altos afetam empresas, mas crise de empresas como a Casas Bahia não se ...
+2026-08-22 14:29:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:31 [INFO] Classificação: nao_enviar
+2026-08-22 14:29:31 [INFO] Aguardando 2.70s...
+2026-08-22 14:29:34 [INFO] [10/13] ID: tag:google.com,2013:googlealerts/feed:12046103207202641938
+2026-08-22 14:29:34 [INFO] Título: <b>Recuperação</b> da Oncoclínicas: R$ 33 mi da venda vão a medicamentos - Economic News Brasil
+2026-08-22 14:29:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:34 [INFO] Classificação: enviar
+2026-08-22 14:29:34 [INFO] Aguardando 2.59s...
+2026-08-22 14:29:37 [INFO] [11/13] ID: tag:google.com,2013:googlealerts/feed:1132185059777043852
+2026-08-22 14:29:37 [INFO] Título: Os altos gastos do governo já contrataram o freio de arrumação para 2027 - Estadão
+2026-08-22 14:29:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:37 [INFO] Classificação: nao_enviar
+2026-08-22 14:29:37 [INFO] Aguardando 2.48s...
+2026-08-22 14:29:40 [INFO] [12/13] ID: tag:google.com,2013:googlealerts/feed:16911151911856863029
+2026-08-22 14:29:40 [INFO] Título: Conselho da Petrobras deve discutir preços de combustíveis e apoio à Braskem nesta sexta
+2026-08-22 14:29:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:40 [INFO] Classificação: nao_enviar
+2026-08-22 14:29:40 [INFO] Aguardando 2.70s...
+2026-08-22 14:29:43 [INFO] [13/13] ID: tag:google.com,2013:googlealerts/feed:5678642332216717199
+2026-08-22 14:29:43 [INFO] Título: O que falta para gigante varejista ter pedido de <b>recuperação</b> justiça aceito pela justiça
+2026-08-22 14:29:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 14:29:43 [INFO] Classificação: enviar
+2026-08-22 14:29:43 [INFO] ======================================================================
+2026-08-22 14:29:43 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 14:29:43 [INFO] ======================================================================
+2026-08-22 14:29:43 [INFO] Processadas: 13
+2026-08-22 14:29:43 [INFO] Enviar: 5
+2026-08-22 14:29:43 [INFO] Não enviar: 8
+2026-08-22 14:29:43 [INFO] ======================================================================
