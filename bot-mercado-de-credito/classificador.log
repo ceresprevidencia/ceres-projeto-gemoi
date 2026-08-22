@@ -6396,3 +6396,46 @@
 2026-08-22 20:31:55 [INFO] Enviar: 0
 2026-08-22 20:31:55 [INFO] Não enviar: 10
 2026-08-22 20:31:55 [INFO] ======================================================================
+2026-08-22 21:28:46 [INFO] ======================================================================
+2026-08-22 21:28:46 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 21:28:46 [INFO] ======================================================================
+2026-08-22 21:28:46 [INFO] Notícias com status 'extraida': 6
+2026-08-22 21:28:46 [INFO] Limite: 20 requisições/minuto
+2026-08-22 21:28:46 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 21:28:46 [INFO] ======================================================================
+2026-08-22 21:28:46 [INFO] [1/6] ID: tag:google.com,2013:googlealerts/feed:14810137420619246372
+2026-08-22 21:28:46 [INFO] Título: Anel de R$ 6 milhões de Marina Ruy Barbosa vira disputa <b>judicial</b> na família do noivo: 'Luxo extremo'
+2026-08-22 21:28:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 21:28:46 [INFO] Classificação: nao_enviar
+2026-08-22 21:28:46 [INFO] Aguardando 2.49s...
+2026-08-22 21:28:49 [INFO] [2/6] ID: tag:google.com,2013:googlealerts/feed:6834588610147035799
+2026-08-22 21:28:49 [INFO] Título: Lances para leilão virtual de eletrodomésticos das Casas Bahia vão até terça
+2026-08-22 21:28:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 21:28:49 [INFO] Classificação: nao_enviar
+2026-08-22 21:28:49 [INFO] Aguardando 2.75s...
+2026-08-22 21:28:52 [INFO] [3/6] ID: tag:google.com,2013:googlealerts/feed:15323250978495733681
+2026-08-22 21:28:52 [INFO] Título: Análise: Juros altos afetam empresas, mas crise de empresas como a Casas Bahia não se ...
+2026-08-22 21:28:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 21:28:52 [INFO] Classificação: nao_enviar
+2026-08-22 21:28:52 [INFO] Aguardando 2.85s...
+2026-08-22 21:28:55 [INFO] [4/6] ID: tag:google.com,2013:googlealerts/feed:602582776163117610
+2026-08-22 21:28:55 [INFO] Título: PF investiga Casas Bahia por suspeita de fraude em metas de funcionários
+2026-08-22 21:28:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 21:28:55 [INFO] Classificação: nao_enviar
+2026-08-22 21:28:55 [INFO] Aguardando 2.86s...
+2026-08-22 21:28:58 [INFO] [5/6] ID: tag:google.com,2013:googlealerts/feed:8810854111677185722
+2026-08-22 21:28:58 [INFO] Título: Casas Bahia construiu império ao dar crédito a quem não tinha dinheiro à vista - NSC Total
+2026-08-22 21:28:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 21:28:58 [INFO] Classificação: nao_enviar
+2026-08-22 21:28:58 [INFO] Aguardando 2.76s...
+2026-08-22 21:29:01 [INFO] [6/6] ID: tag:google.com,2013:googlealerts/feed:10501460447432781835
+2026-08-22 21:29:01 [INFO] Título: Casas Bahia no limite: o que a <b>recuperação</b> judicial revela sobre o crédito no país
+2026-08-22 21:29:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 21:29:01 [INFO] Classificação: enviar
+2026-08-22 21:29:01 [INFO] ======================================================================
+2026-08-22 21:29:01 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 21:29:01 [INFO] ======================================================================
+2026-08-22 21:29:01 [INFO] Processadas: 6
+2026-08-22 21:29:01 [INFO] Enviar: 1
+2026-08-22 21:29:01 [INFO] Não enviar: 5
+2026-08-22 21:29:01 [INFO] ======================================================================
