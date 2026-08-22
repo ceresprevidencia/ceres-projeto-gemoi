@@ -5874,3 +5874,26 @@
 2026-08-22 10:31:13 [INFO] Enviar: 0
 2026-08-22 10:31:13 [INFO] Não enviar: 1
 2026-08-22 10:31:13 [INFO] ======================================================================
+2026-08-22 11:27:33 [INFO] ======================================================================
+2026-08-22 11:27:33 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 11:27:33 [INFO] ======================================================================
+2026-08-22 11:27:33 [INFO] Notícias com status 'extraida': 2
+2026-08-22 11:27:33 [INFO] Limite: 20 requisições/minuto
+2026-08-22 11:27:33 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 11:27:33 [INFO] ======================================================================
+2026-08-22 11:27:33 [INFO] [1/2] ID: tag:google.com,2013:googlealerts/feed:11324189679631671703
+2026-08-22 11:27:33 [INFO] Título: Marcelo Tognozzi | Ninguém segura emprego na marra - Poder360
+2026-08-22 11:27:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 11:27:33 [INFO] Classificação: nao_enviar
+2026-08-22 11:27:33 [INFO] Aguardando 2.65s...
+2026-08-22 11:27:36 [INFO] [2/2] ID: tag:google.com,2013:googlealerts/feed:6171166007352799723
+2026-08-22 11:27:36 [INFO] Título: Military takes over migrant children's cases after cuts to legal aid in the US | LIVE UPDATES
+2026-08-22 11:27:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 11:27:36 [INFO] Classificação: nao_enviar
+2026-08-22 11:27:36 [INFO] ======================================================================
+2026-08-22 11:27:36 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 11:27:36 [INFO] ======================================================================
+2026-08-22 11:27:36 [INFO] Processadas: 2
+2026-08-22 11:27:36 [INFO] Enviar: 0
+2026-08-22 11:27:36 [INFO] Não enviar: 2
+2026-08-22 11:27:36 [INFO] ======================================================================
