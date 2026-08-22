@@ -5751,3 +5751,66 @@
 2026-08-22 05:34:27 [INFO] Enviar: 0
 2026-08-22 05:34:27 [INFO] Não enviar: 0
 2026-08-22 05:34:27 [INFO] ======================================================================
+2026-08-22 06:52:38 [INFO] ======================================================================
+2026-08-22 06:52:38 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 06:52:38 [INFO] ======================================================================
+2026-08-22 06:52:38 [INFO] Notícias com status 'extraida': 10
+2026-08-22 06:52:38 [INFO] Limite: 20 requisições/minuto
+2026-08-22 06:52:38 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 06:52:38 [INFO] ======================================================================
+2026-08-22 06:52:38 [INFO] [1/10] ID: tag:google.com,2013:googlealerts/feed:2054371848962153684
+2026-08-22 06:52:38 [INFO] Título: Marcos Lamacchia promete antecipar 2 anos de pagamentos da <b>recuperação judicial</b> do Vasco
+2026-08-22 06:52:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:52:38 [INFO] Classificação: enviar
+2026-08-22 06:52:38 [INFO] Aguardando 2.63s...
+2026-08-22 06:52:41 [INFO] [2/10] ID: tag:google.com,2013:googlealerts/feed:11338469573095664615
+2026-08-22 06:52:41 [INFO] Título: Casas Bahia é obrigada a manter empregos após pedido de <b>recuperação judicial</b>
+2026-08-22 06:52:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:52:41 [INFO] Classificação: enviar
+2026-08-22 06:52:41 [INFO] Aguardando 2.81s...
+2026-08-22 06:52:44 [INFO] [3/10] ID: tag:google.com,2013:googlealerts/feed:4694411541310057067
+2026-08-22 06:52:44 [INFO] Título: Leilão da Casas Bahia termina com descontos de até 67% - SBT News
+2026-08-22 06:52:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:52:44 [INFO] Classificação: nao_enviar
+2026-08-22 06:52:44 [INFO] Aguardando 2.81s...
+2026-08-22 06:52:47 [INFO] [4/10] ID: tag:google.com,2013:googlealerts/feed:5491334783122416999
+2026-08-22 06:52:47 [INFO] Título: Casas Bahia e Nestlé: o que explica a crise de grandes grupos - iG Economia
+2026-08-22 06:52:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:52:47 [INFO] Classificação: nao_enviar
+2026-08-22 06:52:47 [INFO] Aguardando 2.81s...
+2026-08-22 06:52:50 [INFO] [5/10] ID: tag:google.com,2013:googlealerts/feed:5579900203377051417
+2026-08-22 06:52:50 [INFO] Título: Observatório de Causas de Grande Repercussão faz reunião para debater casos no Pará
+2026-08-22 06:52:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:52:51 [INFO] Classificação: nao_enviar
+2026-08-22 06:52:51 [INFO] Aguardando 2.41s...
+2026-08-22 06:52:53 [INFO] [6/10] ID: tag:google.com,2013:googlealerts/feed:2660646313987470659
+2026-08-22 06:52:53 [INFO] Título: Fique por dentro das principais notícias da semana com o Ponto Final da Jovem Pan! #Shorts
+2026-08-22 06:52:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:52:54 [INFO] Classificação: nao_enviar
+2026-08-22 06:52:54 [INFO] Aguardando 2.55s...
+2026-08-22 06:52:56 [INFO] [7/10] ID: tag:google.com,2013:googlealerts/feed:14162008954393245960
+2026-08-22 06:52:56 [INFO] Título: Oncoclínicas (ONCO3) vende joint venture saudita por R$33 milhões - Estadão
+2026-08-22 06:52:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:52:56 [INFO] Classificação: nao_enviar
+2026-08-22 06:52:56 [INFO] Aguardando 2.73s...
+2026-08-22 06:52:59 [INFO] [8/10] ID: tag:google.com,2013:googlealerts/feed:8747435265305054165
+2026-08-22 06:52:59 [INFO] Título: Marcos Lamacchia promete antecipar 2 anos de pagamentos da recuperação <b>judicial</b> do Vasco
+2026-08-22 06:52:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:52:59 [INFO] Classificação: enviar
+2026-08-22 06:52:59 [INFO] Aguardando 2.80s...
+2026-08-22 06:53:02 [INFO] [9/10] ID: tag:google.com,2013:googlealerts/feed:14664943335080699356
+2026-08-22 06:53:02 [INFO] Título: Casas Bahia é obrigada a manter empregos após pedido de recuperação <b>judicial</b>
+2026-08-22 06:53:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:53:02 [INFO] Classificação: enviar
+2026-08-22 06:53:02 [INFO] Aguardando 2.81s...
+2026-08-22 06:53:05 [INFO] [10/10] ID: tag:google.com,2013:googlealerts/feed:15439922681053197180
+2026-08-22 06:53:05 [INFO] Título: Mais um grupo do agro mato-grossense entra com pedido de recuperação <b>judicial</b>
+2026-08-22 06:53:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 06:53:06 [INFO] Classificação: enviar
+2026-08-22 06:53:06 [INFO] ======================================================================
+2026-08-22 06:53:06 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 06:53:06 [INFO] ======================================================================
+2026-08-22 06:53:06 [INFO] Processadas: 10
+2026-08-22 06:53:06 [INFO] Enviar: 5
+2026-08-22 06:53:06 [INFO] Não enviar: 5
+2026-08-22 06:53:06 [INFO] ======================================================================
