@@ -6439,3 +6439,66 @@
 2026-08-22 21:29:01 [INFO] Enviar: 1
 2026-08-22 21:29:01 [INFO] Não enviar: 5
 2026-08-22 21:29:01 [INFO] ======================================================================
+2026-08-22 22:29:44 [INFO] ======================================================================
+2026-08-22 22:29:44 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 22:29:44 [INFO] ======================================================================
+2026-08-22 22:29:44 [INFO] Notícias com status 'extraida': 10
+2026-08-22 22:29:44 [INFO] Limite: 20 requisições/minuto
+2026-08-22 22:29:44 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 22:29:44 [INFO] ======================================================================
+2026-08-22 22:29:44 [INFO] [1/10] ID: tag:google.com,2013:googlealerts/feed:7916207385998466656
+2026-08-22 22:29:44 [INFO] Título: Casas Bahia enfrenta ações de despejo em lojas do Grande ABC - dgabc
+2026-08-22 22:29:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:29:45 [INFO] Classificação: nao_enviar
+2026-08-22 22:29:45 [INFO] Aguardando 2.71s...
+2026-08-22 22:29:47 [INFO] [2/10] ID: tag:google.com,2013:googlealerts/feed:12723392731389398067
+2026-08-22 22:29:47 [INFO] Título: Leilão Casas Bahia tem eletrodomésticos a partir de terça; veja como participar - O TEMPO
+2026-08-22 22:29:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:29:48 [INFO] Classificação: nao_enviar
+2026-08-22 22:29:48 [INFO] Aguardando 2.79s...
+2026-08-22 22:29:50 [INFO] [3/10] ID: tag:google.com,2013:googlealerts/feed:415656128703823613
+2026-08-22 22:29:50 [INFO] Título: J&F, dos irmãos Batista, compra fabricante de armas de guerra Avibras - Carta Capital
+2026-08-22 22:29:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:29:51 [INFO] Classificação: nao_enviar
+2026-08-22 22:29:51 [INFO] Aguardando 2.68s...
+2026-08-22 22:29:53 [INFO] [4/10] ID: tag:google.com,2013:googlealerts/feed:17618258950745883304
+2026-08-22 22:29:53 [INFO] Título: Dívida das Casas Bahia pode representar 30% dos valores que dona da Brastemp e ... - NSC Total
+2026-08-22 22:29:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:29:54 [INFO] Classificação: nao_enviar
+2026-08-22 22:29:54 [INFO] Aguardando 2.76s...
+2026-08-22 22:29:56 [INFO] [5/10] ID: tag:google.com,2013:googlealerts/feed:4210667521474553977
+2026-08-22 22:29:56 [INFO] Título: Juíza alerta para efeitos dos empréstimos na venda da SAF pelo modelo UPI Equity
+2026-08-22 22:29:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:29:57 [INFO] Classificação: nao_enviar
+2026-08-22 22:29:57 [INFO] Aguardando 2.63s...
+2026-08-22 22:29:59 [INFO] [6/10] ID: tag:google.com,2013:googlealerts/feed:472480452734120176
+2026-08-22 22:29:59 [INFO] Título: Avibras adquirida pelo grupo J&F dos irmãos Joesley e Wesley Batista
+2026-08-22 22:30:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:30:00 [INFO] Classificação: nao_enviar
+2026-08-22 22:30:00 [INFO] Aguardando 2.84s...
+2026-08-22 22:30:02 [INFO] [7/10] ID: tag:google.com,2013:googlealerts/feed:9459366866380252497
+2026-08-22 22:30:02 [INFO] Título: 68% de desconto: Casas Bahia abre novo leilão com 151 lotes de eletrodomésticos e ...
+2026-08-22 22:30:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:30:03 [INFO] Classificação: nao_enviar
+2026-08-22 22:30:03 [INFO] Aguardando 2.67s...
+2026-08-22 22:30:05 [INFO] [8/10] ID: tag:google.com,2013:googlealerts/feed:13950465506064961419
+2026-08-22 22:30:05 [INFO] Título: Às vésperas de recuperação <b>judicial</b>, Ponto Frio fecha loja em shopping de Cuiabá
+2026-08-22 22:30:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:30:06 [INFO] Classificação: enviar
+2026-08-22 22:30:06 [INFO] Aguardando 2.79s...
+2026-08-22 22:30:08 [INFO] [9/10] ID: tag:google.com,2013:googlealerts/feed:14697470608307003316
+2026-08-22 22:30:08 [INFO] Título: Leilão Casas Bahia tem eletrodomésticos a partir de terça; veja como participar - O TEMPO
+2026-08-22 22:30:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:30:09 [INFO] Classificação: nao_enviar
+2026-08-22 22:30:09 [INFO] Aguardando 2.68s...
+2026-08-22 22:30:11 [INFO] [10/10] ID: tag:google.com,2013:googlealerts/feed:14787026872983397876
+2026-08-22 22:30:11 [INFO] Título: Nova aposta dos irmãos Batista: Joesley e Wesley compram Avibras, maior indústria bélica ...
+2026-08-22 22:30:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 22:30:12 [INFO] Classificação: nao_enviar
+2026-08-22 22:30:12 [INFO] ======================================================================
+2026-08-22 22:30:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 22:30:12 [INFO] ======================================================================
+2026-08-22 22:30:12 [INFO] Processadas: 10
+2026-08-22 22:30:12 [INFO] Enviar: 1
+2026-08-22 22:30:12 [INFO] Não enviar: 9
+2026-08-22 22:30:12 [INFO] ======================================================================
