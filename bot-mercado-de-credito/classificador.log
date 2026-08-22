@@ -5617,3 +5617,56 @@
 2026-08-21 23:31:40 [INFO] Enviar: 4
 2026-08-21 23:31:40 [INFO] Não enviar: 7
 2026-08-21 23:31:40 [INFO] ======================================================================
+2026-08-22 01:42:13 [INFO] ======================================================================
+2026-08-22 01:42:13 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 01:42:13 [INFO] ======================================================================
+2026-08-22 01:42:13 [INFO] Notícias com status 'extraida': 8
+2026-08-22 01:42:13 [INFO] Limite: 20 requisições/minuto
+2026-08-22 01:42:13 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 01:42:13 [INFO] ======================================================================
+2026-08-22 01:42:13 [INFO] [1/8] ID: tag:google.com,2013:googlealerts/feed:6019824324798416920
+2026-08-22 01:42:13 [INFO] Título: Compra de fabricante de armas pelos irmãos Batista ainda depende do Cade - Poder360
+2026-08-22 01:42:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 01:42:13 [INFO] Classificação: nao_enviar
+2026-08-22 01:42:13 [INFO] Aguardando 2.62s...
+2026-08-22 01:42:16 [INFO] [2/8] ID: tag:google.com,2013:googlealerts/feed:17041287110780698942
+2026-08-22 01:42:16 [INFO] Título: Fornecedor exige pagamento à vista da Casas Bahia; veja impactos - iG Economia
+2026-08-22 01:42:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 01:42:16 [INFO] Classificação: nao_enviar
+2026-08-22 01:42:16 [INFO] Aguardando 2.74s...
+2026-08-22 01:42:19 [INFO] [3/8] ID: tag:google.com,2013:googlealerts/feed:14047461486963431351
+2026-08-22 01:42:19 [INFO] Título: Repaginada: Fictor Alimentos muda de nome e ticker na B3 após <b>recuperação judicial</b>
+2026-08-22 01:42:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 01:42:19 [INFO] Classificação: enviar
+2026-08-22 01:42:19 [INFO] Aguardando 2.70s...
+2026-08-22 01:42:22 [INFO] [4/8] ID: tag:google.com,2013:googlealerts/feed:14947569548454799724
+2026-08-22 01:42:22 [INFO] Título: Irmãos Batista compram fabricante de armas de guerra - CNN Brasil
+2026-08-22 01:42:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 01:42:22 [INFO] Classificação: nao_enviar
+2026-08-22 01:42:22 [INFO] Aguardando 2.65s...
+2026-08-22 01:42:25 [INFO] [5/8] ID: tag:google.com,2013:googlealerts/feed:15274230972920057329
+2026-08-22 01:42:25 [INFO] Título: Braskem breaks silence and addresses possible out-of-court restructuring | MARKET
+2026-08-22 01:42:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 01:42:25 [INFO] Classificação: enviar
+2026-08-22 01:42:25 [INFO] Aguardando 2.84s...
+2026-08-22 01:42:28 [INFO] [6/8] ID: tag:google.com,2013:googlealerts/feed:8438811949932426964
+2026-08-22 01:42:28 [INFO] Título: Estrangeiro foge da Bolsa e agrava crise por juro alto e quebradeira de empresas
+2026-08-22 01:42:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 01:42:28 [INFO] Classificação: nao_enviar
+2026-08-22 01:42:28 [INFO] Aguardando 2.68s...
+2026-08-22 01:42:31 [INFO] [7/8] ID: tag:google.com,2013:googlealerts/feed:4855989187479860066
+2026-08-22 01:42:31 [INFO] Título: Justiça anula contratos de SCP da Fictor na recuperação <b>judicial</b> e os reclassifica como empréstimos
+2026-08-22 01:42:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 01:42:31 [INFO] Classificação: enviar
+2026-08-22 01:42:31 [INFO] Aguardando 2.76s...
+2026-08-22 01:42:34 [INFO] [8/8] ID: tag:google.com,2013:googlealerts/feed:12963611652012748941
+2026-08-22 01:42:34 [INFO] Título: Petrobras negocia exploração em Gana para ampliar presença na África - Coluna Política
+2026-08-22 01:42:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 01:42:34 [INFO] Classificação: nao_enviar
+2026-08-22 01:42:34 [INFO] ======================================================================
+2026-08-22 01:42:34 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 01:42:34 [INFO] ======================================================================
+2026-08-22 01:42:34 [INFO] Processadas: 8
+2026-08-22 01:42:34 [INFO] Enviar: 3
+2026-08-22 01:42:34 [INFO] Não enviar: 5
+2026-08-22 01:42:34 [INFO] ======================================================================
