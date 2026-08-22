@@ -6036,3 +6036,116 @@
 2026-08-22 15:28:49 [INFO] Enviar: 2
 2026-08-22 15:28:49 [INFO] Não enviar: 2
 2026-08-22 15:28:49 [INFO] ======================================================================
+2026-08-22 16:33:11 [INFO] ======================================================================
+2026-08-22 16:33:11 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 16:33:11 [INFO] ======================================================================
+2026-08-22 16:33:11 [INFO] Notícias com status 'extraida': 20
+2026-08-22 16:33:11 [INFO] Limite: 20 requisições/minuto
+2026-08-22 16:33:11 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 16:33:11 [INFO] ======================================================================
+2026-08-22 16:33:11 [INFO] [1/20] ID: tag:google.com,2013:googlealerts/feed:12754300833594113022
+2026-08-22 16:33:11 [INFO] Título: STF restringe acesso do devedor contumaz à <b>recuperação judicial</b> - Consultor Jurídico
+2026-08-22 16:33:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:12 [INFO] Classificação: enviar
+2026-08-22 16:33:12 [INFO] Aguardando 1.97s...
+2026-08-22 16:33:14 [INFO] [2/20] ID: tag:google.com,2013:googlealerts/feed:10787668083622039447
+2026-08-22 16:33:14 [INFO] Título: Casas Bahia faz leilão virtual de eletrodomésticos; lances vão até terça (25) - ICL Notícias
+2026-08-22 16:33:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:15 [INFO] Classificação: nao_enviar
+2026-08-22 16:33:15 [INFO] Aguardando 2.62s...
+2026-08-22 16:33:17 [INFO] [3/20] ID: tag:google.com,2013:googlealerts/feed:4311833217370493731
+2026-08-22 16:33:17 [INFO] Título: A conta chegou. E não é só do varejo - UOL Economia
+2026-08-22 16:33:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:18 [INFO] Classificação: nao_enviar
+2026-08-22 16:33:18 [INFO] Aguardando 2.61s...
+2026-08-22 16:33:20 [INFO] [4/20] ID: tag:google.com,2013:googlealerts/feed:2262234952808124752
+2026-08-22 16:33:20 [INFO] Título: Durigan nega crise no varejo após pedido de <b>recuperação</b> das Casas Bahia - Folha
+2026-08-22 16:33:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:21 [INFO] Classificação: enviar
+2026-08-22 16:33:21 [INFO] Aguardando 2.58s...
+2026-08-22 16:33:23 [INFO] [5/20] ID: tag:google.com,2013:googlealerts/feed:448207109305567872
+2026-08-22 16:33:23 [INFO] Título: <b>Recuperação judicial</b> no agronegócio: um 'trampolim' para a troca de mãos de ativos?
+2026-08-22 16:33:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:23 [INFO] Classificação: enviar
+2026-08-22 16:33:23 [INFO] Aguardando 2.71s...
+2026-08-22 16:33:26 [INFO] [6/20] ID: tag:google.com,2013:googlealerts/feed:11434408622102656041
+2026-08-22 16:33:26 [INFO] Título: Irmãos Batista compram fabricante de armas de guerra Avibras - InvestNews
+2026-08-22 16:33:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:27 [INFO] Classificação: nao_enviar
+2026-08-22 16:33:27 [INFO] Aguardando 2.49s...
+2026-08-22 16:33:29 [INFO] [7/20] ID: tag:google.com,2013:googlealerts/feed:9340228989408310020
+2026-08-22 16:33:29 [INFO] Título: Mais um grupo do agro mato-grossense entra com pedido de <b>recuperação judicial</b>
+2026-08-22 16:33:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:30 [INFO] Classificação: enviar
+2026-08-22 16:33:30 [INFO] Aguardando 2.52s...
+2026-08-22 16:33:32 [INFO] [8/20] ID: tag:google.com,2013:googlealerts/feed:13763417727064757488
+2026-08-22 16:33:32 [INFO] Título: Leilões da Casas Bahia já ocorriam meses antes da <b>recuperação judicial</b>
+2026-08-22 16:33:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:32 [INFO] Classificação: enviar
+2026-08-22 16:33:32 [INFO] Aguardando 2.89s...
+2026-08-22 16:33:35 [INFO] [9/20] ID: tag:google.com,2013:googlealerts/feed:8925253922162613407
+2026-08-22 16:33:35 [INFO] Título: Casas Bahia faz leilão virtual de eletrodomésticos; lances vão até terça (25) - ICL Notícias
+2026-08-22 16:33:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:35 [INFO] Classificação: nao_enviar
+2026-08-22 16:33:35 [INFO] Aguardando 2.77s...
+2026-08-22 16:33:38 [INFO] [10/20] ID: tag:google.com,2013:googlealerts/feed:14489623413481666391
+2026-08-22 16:33:38 [INFO] Título: Bastidores: Lamacchia se compromete a antecipar pagamentos da recuperação <b>judicial</b> do Vasco
+2026-08-22 16:33:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:38 [INFO] Classificação: enviar
+2026-08-22 16:33:38 [INFO] Aguardando 2.70s...
+2026-08-22 16:33:41 [INFO] [11/20] ID: tag:google.com,2013:googlealerts/feed:1751456256918477841
+2026-08-22 16:33:41 [INFO] Título: Marcelo Tognozzi | Ninguém segura emprego na marra - Poder360
+2026-08-22 16:33:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:42 [INFO] Classificação: nao_enviar
+2026-08-22 16:33:42 [INFO] Aguardando 2.57s...
+2026-08-22 16:33:44 [INFO] [12/20] ID: tag:google.com,2013:googlealerts/feed:5770430919358592761
+2026-08-22 16:33:44 [INFO] Título: Após recorrer à Justiça para reestruturar dívidas bilionárias, Casas Bahia faz leilão virtual ...
+2026-08-22 16:33:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:45 [INFO] Classificação: enviar
+2026-08-22 16:33:45 [INFO] Aguardando 2.65s...
+2026-08-22 16:33:47 [INFO] [13/20] ID: tag:google.com,2013:googlealerts/feed:2627961110776793175
+2026-08-22 16:33:47 [INFO] Título: FIDCs ligados à Casas Bahia chegam a R$ 3,95 bilhões após RJ - Acia Araçatuba
+2026-08-22 16:33:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:48 [INFO] Classificação: enviar
+2026-08-22 16:33:48 [INFO] Aguardando 2.67s...
+2026-08-22 16:33:50 [INFO] [14/20] ID: tag:google.com,2013:googlealerts/feed:2204077647095134881
+2026-08-22 16:33:50 [INFO] Título: CNJ confirma proteção de atos cooperativos em processos de recuperação <b>judicial</b> de produtor rural
+2026-08-22 16:33:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:50 [INFO] Classificação: enviar
+2026-08-22 16:33:50 [INFO] Aguardando 2.78s...
+2026-08-22 16:33:53 [INFO] [15/20] ID: tag:google.com,2013:googlealerts/feed:14488832789256384032
+2026-08-22 16:33:53 [INFO] Título: Novo leilão da Casas Bahia tem megakit com 200 eletrodomésticos e desconto de 67%
+2026-08-22 16:33:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:54 [INFO] Classificação: nao_enviar
+2026-08-22 16:33:54 [INFO] Aguardando 2.61s...
+2026-08-22 16:33:56 [INFO] [16/20] ID: tag:google.com,2013:googlealerts/feed:5256315245774544801
+2026-08-22 16:33:56 [INFO] Título: Marcos Lamacchia promete antecipar 2 anos de pagamentos da recuperação <b>judicial</b> do Vasco
+2026-08-22 16:33:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:33:57 [INFO] Classificação: enviar
+2026-08-22 16:33:57 [INFO] Aguardando 2.68s...
+2026-08-22 16:33:59 [INFO] [17/20] ID: tag:google.com,2013:googlealerts/feed:10477927840374596178
+2026-08-22 16:33:59 [INFO] Título: Tok&Stok: 5 pontos explicam a crise da varejista - Times Brasil | CNBC
+2026-08-22 16:34:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:34:00 [INFO] Classificação: nao_enviar
+2026-08-22 16:34:00 [INFO] Aguardando 2.66s...
+2026-08-22 16:34:02 [INFO] [18/20] ID: tag:google.com,2013:googlealerts/feed:9234375087889743878
+2026-08-22 16:34:02 [INFO] Título: Fundação procura herdeiros de 192 ex-funcionários da extinta Caixa Estadual
+2026-08-22 16:34:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:34:03 [INFO] Classificação: nao_enviar
+2026-08-22 16:34:03 [INFO] Aguardando 2.51s...
+2026-08-22 16:34:05 [INFO] [19/20] ID: tag:google.com,2013:googlealerts/feed:7943070648707619245
+2026-08-22 16:34:05 [INFO] Título: Mais de 3 milhões com benefícios federais são bloqueados em bets - Real Pioneiro
+2026-08-22 16:34:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:34:06 [INFO] Classificação: nao_enviar
+2026-08-22 16:34:06 [INFO] Aguardando 2.49s...
+2026-08-22 16:34:08 [INFO] [20/20] ID: tag:google.com,2013:googlealerts/feed:7596462391539610698
+2026-08-22 16:34:08 [INFO] Título: Nova decisão do CNJ impede o tabelião local de condicionar a lavratura da escritura do ...
+2026-08-22 16:34:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 16:34:08 [INFO] Classificação: nao_enviar
+2026-08-22 16:34:08 [INFO] ======================================================================
+2026-08-22 16:34:08 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 16:34:08 [INFO] ======================================================================
+2026-08-22 16:34:08 [INFO] Processadas: 20
+2026-08-22 16:34:08 [INFO] Enviar: 10
+2026-08-22 16:34:08 [INFO] Não enviar: 10
+2026-08-22 16:34:08 [INFO] ======================================================================
