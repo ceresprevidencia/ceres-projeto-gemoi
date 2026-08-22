@@ -6149,3 +6149,71 @@
 2026-08-22 16:34:08 [INFO] Enviar: 10
 2026-08-22 16:34:08 [INFO] Não enviar: 10
 2026-08-22 16:34:08 [INFO] ======================================================================
+2026-08-22 17:27:30 [INFO] ======================================================================
+2026-08-22 17:27:30 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 17:27:30 [INFO] ======================================================================
+2026-08-22 17:27:30 [INFO] Notícias com status 'extraida': 11
+2026-08-22 17:27:30 [INFO] Limite: 20 requisições/minuto
+2026-08-22 17:27:30 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 17:27:30 [INFO] ======================================================================
+2026-08-22 17:27:30 [INFO] [1/11] ID: tag:google.com,2013:googlealerts/feed:8742368434730303632
+2026-08-22 17:27:30 [INFO] Título: Quem é a Avibras, empresa de defesa que pode ser comprada pelos irmãos Batista
+2026-08-22 17:27:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:31 [INFO] Classificação: nao_enviar
+2026-08-22 17:27:31 [INFO] Aguardando 2.63s...
+2026-08-22 17:27:33 [INFO] [2/11] ID: tag:google.com,2013:googlealerts/feed:12671547891555080456
+2026-08-22 17:27:33 [INFO] Título: Fazenda descarta crise geral no varejo e afasta socorro - SBT News
+2026-08-22 17:27:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:34 [INFO] Classificação: nao_enviar
+2026-08-22 17:27:34 [INFO] Aguardando 2.70s...
+2026-08-22 17:27:36 [INFO] [3/11] ID: tag:google.com,2013:googlealerts/feed:9991777588842295290
+2026-08-22 17:27:36 [INFO] Título: Às vésperas de julgamento sobre OPA da Oncoclínicas, Centaurus entra com pedido de arbitragem
+2026-08-22 17:27:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:36 [INFO] Classificação: nao_enviar
+2026-08-22 17:27:36 [INFO] Aguardando 2.77s...
+2026-08-22 17:27:39 [INFO] [4/11] ID: tag:google.com,2013:googlealerts/feed:16104654358419201215
+2026-08-22 17:27:39 [INFO] Título: Grupo Estrela apresenta plano de <b>recuperação</b> judicial | O Popular
+2026-08-22 17:27:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:40 [INFO] Classificação: enviar
+2026-08-22 17:27:40 [INFO] Aguardando 2.46s...
+2026-08-22 17:27:42 [INFO] [5/11] ID: tag:google.com,2013:googlealerts/feed:2664493683512576973
+2026-08-22 17:27:42 [INFO] Título: Casas Bahia: <b>Recuperação</b> judicial pode custar R$ 70 mi a Arapongas - CRN1
+2026-08-22 17:27:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:43 [INFO] Classificação: enviar
+2026-08-22 17:27:43 [INFO] Aguardando 2.42s...
+2026-08-22 17:27:45 [INFO] [6/11] ID: tag:google.com,2013:googlealerts/feed:9314874504631615646
+2026-08-22 17:27:45 [INFO] Título: Ministro da Fazenda separa caso Casas Bahia de crise econômica ampla - TMC
+2026-08-22 17:27:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:46 [INFO] Classificação: nao_enviar
+2026-08-22 17:27:46 [INFO] Aguardando 2.69s...
+2026-08-22 17:27:48 [INFO] [7/11] ID: tag:google.com,2013:googlealerts/feed:1532723267311226759
+2026-08-22 17:27:48 [INFO] Título: STF valida restrições à recuperação <b>judicial</b> de devedor contumaz - Gazeta do Paraná
+2026-08-22 17:27:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:49 [INFO] Classificação: enviar
+2026-08-22 17:27:49 [INFO] Aguardando 2.74s...
+2026-08-22 17:27:51 [INFO] [8/11] ID: tag:google.com,2013:googlealerts/feed:3777994944274617093
+2026-08-22 17:27:51 [INFO] Título: Grupo Estrela apresenta plano de recuperação <b>judicial</b> - JR - JORNAL DA REGIÃO
+2026-08-22 17:27:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:51 [INFO] Classificação: enviar
+2026-08-22 17:27:51 [INFO] Aguardando 2.80s...
+2026-08-22 17:27:54 [INFO] [9/11] ID: tag:google.com,2013:googlealerts/feed:8098368254275200190
+2026-08-22 17:27:54 [INFO] Título: Centaurus pede arbitragem contra Latache para evitar OPA da Oncoclínicas antes de ...
+2026-08-22 17:27:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:55 [INFO] Classificação: nao_enviar
+2026-08-22 17:27:55 [INFO] Aguardando 2.60s...
+2026-08-22 17:27:57 [INFO] [10/11] ID: tag:google.com,2013:googlealerts/feed:13194588745218906923
+2026-08-22 17:27:57 [INFO] Título: Primeiro repetitivo julgado em sessão totalmente virtual define requisitos para justiça ...
+2026-08-22 17:27:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:27:58 [INFO] Classificação: nao_enviar
+2026-08-22 17:27:58 [INFO] Aguardando 2.74s...
+2026-08-22 17:28:00 [INFO] [11/11] ID: tag:google.com,2013:googlealerts/feed:8643002998755053656
+2026-08-22 17:28:00 [INFO] Título: Santander promove mais um Leilão com mais de 200 imóveis no país, com opção ... - Gazeta Digital
+2026-08-22 17:28:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 17:28:01 [INFO] Classificação: nao_enviar
+2026-08-22 17:28:01 [INFO] ======================================================================
+2026-08-22 17:28:01 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 17:28:01 [INFO] ======================================================================
+2026-08-22 17:28:01 [INFO] Processadas: 11
+2026-08-22 17:28:01 [INFO] Enviar: 4
+2026-08-22 17:28:01 [INFO] Não enviar: 7
+2026-08-22 17:28:01 [INFO] ======================================================================
