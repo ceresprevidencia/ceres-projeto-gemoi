@@ -5670,3 +5670,56 @@
 2026-08-22 01:42:34 [INFO] Enviar: 3
 2026-08-22 01:42:34 [INFO] Não enviar: 5
 2026-08-22 01:42:34 [INFO] ======================================================================
+2026-08-22 03:01:30 [INFO] ======================================================================
+2026-08-22 03:01:30 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-22 03:01:30 [INFO] ======================================================================
+2026-08-22 03:01:30 [INFO] Notícias com status 'extraida': 8
+2026-08-22 03:01:30 [INFO] Limite: 20 requisições/minuto
+2026-08-22 03:01:30 [INFO] Intervalo mínimo: 3.0s
+2026-08-22 03:01:30 [INFO] ======================================================================
+2026-08-22 03:01:30 [INFO] [1/8] ID: tag:google.com,2013:googlealerts/feed:11815844737377216332
+2026-08-22 03:01:30 [INFO] Título: Recuperações <b>judiciais</b> batem recorde; é hora de fugir do crédito privado? - Folha - UOL
+2026-08-22 03:01:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 03:01:30 [INFO] Classificação: enviar
+2026-08-22 03:01:30 [INFO] Aguardando 2.63s...
+2026-08-22 03:01:33 [INFO] [2/8] ID: tag:google.com,2013:googlealerts/feed:9265741979529066422
+2026-08-22 03:01:33 [INFO] Título: Empresas brasileiras buscam socorro <b>judicial</b> em ritmo acelerado - Gazeta do Povo
+2026-08-22 03:01:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 03:01:33 [INFO] Classificação: enviar
+2026-08-22 03:01:33 [INFO] Aguardando 2.56s...
+2026-08-22 03:01:36 [INFO] [3/8] ID: tag:google.com,2013:googlealerts/feed:12094779698960429573
+2026-08-22 03:01:36 [INFO] Título: Justiça anula contratos de SCP da Fictor na <b>recuperação judicial</b> e os reclassifica como empréstimos
+2026-08-22 03:01:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 03:01:36 [INFO] Classificação: enviar
+2026-08-22 03:01:36 [INFO] Aguardando 2.68s...
+2026-08-22 03:01:39 [INFO] [4/8] ID: tag:google.com,2013:googlealerts/feed:8484533221635410119
+2026-08-22 03:01:39 [INFO] Título: Marisa em crise: veja os 5 principais pontos - Times Brasil | CNBC
+2026-08-22 03:01:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 03:01:39 [INFO] Classificação: nao_enviar
+2026-08-22 03:01:39 [INFO] Aguardando 2.70s...
+2026-08-22 03:01:42 [INFO] [5/8] ID: tag:google.com,2013:googlealerts/feed:10447881605184888452
+2026-08-22 03:01:42 [INFO] Título: Com dívida bilionária, Casas Bahia fecha 355 lojas e demite mais de 11 mil funcionários
+2026-08-22 03:01:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 03:01:42 [INFO] Classificação: nao_enviar
+2026-08-22 03:01:42 [INFO] Aguardando 2.65s...
+2026-08-22 03:01:45 [INFO] [6/8] ID: tag:google.com,2013:googlealerts/feed:1709131310114945769
+2026-08-22 03:01:45 [INFO] Título: Durigan nega crise no varejo após pedido de <b>recuperação</b> das Casas Bahia | Jornal de Brasília
+2026-08-22 03:01:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 03:01:45 [INFO] Classificação: enviar
+2026-08-22 03:01:45 [INFO] Aguardando 2.66s...
+2026-08-22 03:01:48 [INFO] [7/8] ID: tag:google.com,2013:googlealerts/feed:8728150716521906298
+2026-08-22 03:01:48 [INFO] Título: Quem é o bilionário que quer salvar o Pão de Açúcar que já foi controlado pela Família Diniz
+2026-08-22 03:01:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 03:01:48 [INFO] Classificação: nao_enviar
+2026-08-22 03:01:48 [INFO] Aguardando 2.71s...
+2026-08-22 03:01:51 [INFO] [8/8] ID: tag:google.com,2013:googlealerts/feed:10120938945164594069
+2026-08-22 03:01:51 [INFO] Título: Empresas brasileiras buscam socorro <b>judicial</b> em ritmo acelerado - Gazeta do Povo
+2026-08-22 03:01:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-22 03:01:51 [INFO] Classificação: enviar
+2026-08-22 03:01:51 [INFO] ======================================================================
+2026-08-22 03:01:51 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-22 03:01:51 [INFO] ======================================================================
+2026-08-22 03:01:51 [INFO] Processadas: 8
+2026-08-22 03:01:51 [INFO] Enviar: 5
+2026-08-22 03:01:51 [INFO] Não enviar: 3
+2026-08-22 03:01:51 [INFO] ======================================================================
