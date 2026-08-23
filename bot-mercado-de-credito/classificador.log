@@ -6765,3 +6765,41 @@
 2026-08-23 06:53:45 [INFO] Enviar: 0
 2026-08-23 06:53:45 [INFO] Não enviar: 1
 2026-08-23 06:53:45 [INFO] ======================================================================
+2026-08-23 07:39:56 [INFO] ======================================================================
+2026-08-23 07:39:56 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 07:39:56 [INFO] ======================================================================
+2026-08-23 07:39:56 [INFO] Notícias com status 'extraida': 5
+2026-08-23 07:39:56 [INFO] Limite: 20 requisições/minuto
+2026-08-23 07:39:56 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 07:39:56 [INFO] ======================================================================
+2026-08-23 07:39:56 [INFO] [1/5] ID: tag:google.com,2013:googlealerts/feed:12005049045268404704
+2026-08-23 07:39:56 [INFO] Título: João Gomes e futebol: o que a Casas Bahia fez para se salvar antes de anunciar crise
+2026-08-23 07:39:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 07:39:57 [INFO] Classificação: nao_enviar
+2026-08-23 07:39:57 [INFO] Aguardando 2.52s...
+2026-08-23 07:39:59 [INFO] [2/5] ID: tag:google.com,2013:googlealerts/feed:9732126312445921014
+2026-08-23 07:39:59 [INFO] Título: Fundo pede arbitragem para evitar oferta pública de ações de mais de R$ 6 bilhões da Oncoclínicas
+2026-08-23 07:40:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 07:40:00 [INFO] Classificação: nao_enviar
+2026-08-23 07:40:00 [INFO] Aguardando 2.76s...
+2026-08-23 07:40:02 [INFO] [3/5] ID: tag:google.com,2013:googlealerts/feed:6051849278101171402
+2026-08-23 07:40:02 [INFO] Título: Crise da Casas Bahia é pontual e não há contágio, diz Durigan - SpaceMoney
+2026-08-23 07:40:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 07:40:03 [INFO] Classificação: nao_enviar
+2026-08-23 07:40:03 [INFO] Aguardando 2.79s...
+2026-08-23 07:40:05 [INFO] [4/5] ID: tag:google.com,2013:googlealerts/feed:13870907552598526296
+2026-08-23 07:40:05 [INFO] Título: Braskem avalia medidas de proteção contra credores | O Estado de S. Paulo - PressReader
+2026-08-23 07:40:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 07:40:06 [INFO] Classificação: nao_enviar
+2026-08-23 07:40:06 [INFO] Aguardando 2.67s...
+2026-08-23 07:40:08 [INFO] [5/5] ID: tag:google.com,2013:googlealerts/feed:8349507284630019177
+2026-08-23 07:40:08 [INFO] Título: Ações de despejo da Casas Bahia no Grande ABC - Associação Comercial e Industrial de Araçatuba
+2026-08-23 07:40:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 07:40:09 [INFO] Classificação: nao_enviar
+2026-08-23 07:40:09 [INFO] ======================================================================
+2026-08-23 07:40:09 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 07:40:09 [INFO] ======================================================================
+2026-08-23 07:40:09 [INFO] Processadas: 5
+2026-08-23 07:40:09 [INFO] Enviar: 0
+2026-08-23 07:40:09 [INFO] Não enviar: 5
+2026-08-23 07:40:09 [INFO] ======================================================================
