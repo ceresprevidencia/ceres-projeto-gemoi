@@ -6885,3 +6885,51 @@
 2026-08-23 11:27:44 [INFO] Enviar: 0
 2026-08-23 11:27:44 [INFO] Não enviar: 1
 2026-08-23 11:27:44 [INFO] ======================================================================
+2026-08-23 12:54:31 [INFO] ======================================================================
+2026-08-23 12:54:31 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 12:54:31 [INFO] ======================================================================
+2026-08-23 12:54:31 [INFO] Notícias com status 'extraida': 7
+2026-08-23 12:54:31 [INFO] Limite: 20 requisições/minuto
+2026-08-23 12:54:31 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 12:54:31 [INFO] ======================================================================
+2026-08-23 12:54:31 [INFO] [1/7] ID: tag:google.com,2013:googlealerts/feed:4911185296971412297
+2026-08-23 12:54:31 [INFO] Título: Irmãos Batista dizem ao Cade que compra da Avibras fortalecerá a defesa nacional
+2026-08-23 12:54:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 12:54:31 [INFO] Classificação: nao_enviar
+2026-08-23 12:54:31 [INFO] Aguardando 2.65s...
+2026-08-23 12:54:34 [INFO] [2/7] ID: tag:google.com,2013:googlealerts/feed:16540038161412233605
+2026-08-23 12:54:34 [INFO] Título: O que acontece com pedidos feitos nas empresas em <b>recuperação judicial</b> - Revista Oeste
+2026-08-23 12:54:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 12:54:34 [INFO] Classificação: enviar
+2026-08-23 12:54:34 [INFO] Aguardando 2.86s...
+2026-08-23 12:54:37 [INFO] [3/7] ID: tag:google.com,2013:googlealerts/feed:4795329860534329956
+2026-08-23 12:54:37 [INFO] Título: Casas Bahia cai 14,3% na semana depois de agravamento da crise - Poder360
+2026-08-23 12:54:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 12:54:37 [INFO] Classificação: nao_enviar
+2026-08-23 12:54:37 [INFO] Aguardando 2.72s...
+2026-08-23 12:54:40 [INFO] [4/7] ID: tag:google.com,2013:googlealerts/feed:4945050872553838346
+2026-08-23 12:54:40 [INFO] Título: Ajuste na largada: pacto político deve ser 1º passo do presidente eleito para evitar crise ...
+2026-08-23 12:54:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 12:54:40 [INFO] Classificação: nao_enviar
+2026-08-23 12:54:40 [INFO] Aguardando 2.73s...
+2026-08-23 12:54:43 [INFO] [5/7] ID: tag:google.com,2013:googlealerts/feed:13843192173670277078
+2026-08-23 12:54:43 [INFO] Título: Casas Bahia expõe na RJ quase R$ 470 milhões da cadeia moveleira | Móveis de Valor
+2026-08-23 12:54:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 12:54:43 [INFO] Classificação: enviar
+2026-08-23 12:54:43 [INFO] Aguardando 2.76s...
+2026-08-23 12:54:46 [INFO] [6/7] ID: tag:google.com,2013:googlealerts/feed:3175454747883299096
+2026-08-23 12:54:46 [INFO] Título: Representantes de setores diversos debaterão, no Recife, caminhos e desafios da ...
+2026-08-23 12:54:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 12:54:46 [INFO] Classificação: nao_enviar
+2026-08-23 12:54:46 [INFO] Aguardando 2.75s...
+2026-08-23 12:54:49 [INFO] [7/7] ID: tag:google.com,2013:googlealerts/feed:6855364725202484942
+2026-08-23 12:54:49 [INFO] Título: Casas Bahia atrasa aluguel e acende alerta para investidores do HSLG11 - A Revista
+2026-08-23 12:54:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 12:54:51 [INFO] Classificação: nao_enviar
+2026-08-23 12:54:51 [INFO] ======================================================================
+2026-08-23 12:54:51 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 12:54:51 [INFO] ======================================================================
+2026-08-23 12:54:51 [INFO] Processadas: 7
+2026-08-23 12:54:51 [INFO] Enviar: 2
+2026-08-23 12:54:51 [INFO] Não enviar: 5
+2026-08-23 12:54:51 [INFO] ======================================================================
