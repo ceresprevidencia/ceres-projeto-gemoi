@@ -6826,3 +6826,26 @@
 2026-08-23 08:39:39 [INFO] Enviar: 0
 2026-08-23 08:39:39 [INFO] Não enviar: 2
 2026-08-23 08:39:39 [INFO] ======================================================================
+2026-08-23 09:35:08 [INFO] ======================================================================
+2026-08-23 09:35:08 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 09:35:08 [INFO] ======================================================================
+2026-08-23 09:35:08 [INFO] Notícias com status 'extraida': 2
+2026-08-23 09:35:08 [INFO] Limite: 20 requisições/minuto
+2026-08-23 09:35:08 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 09:35:08 [INFO] ======================================================================
+2026-08-23 09:35:08 [INFO] [1/2] ID: tag:google.com,2013:googlealerts/feed:2503660942307274826
+2026-08-23 09:35:08 [INFO] Título: O conceito de devedor contumaz na LC 225: problema ou solução? - JOTA
+2026-08-23 09:35:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 09:35:09 [INFO] Classificação: nao_enviar
+2026-08-23 09:35:09 [INFO] Aguardando 2.53s...
+2026-08-23 09:35:11 [INFO] [2/2] ID: tag:google.com,2013:googlealerts/feed:15034071509855112114
+2026-08-23 09:35:11 [INFO] Título: Confusão com juros no caso da Casas Bahia - 22/08/2026 - Alexandra Moraes - Ombudsman - Folha
+2026-08-23 09:35:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 09:35:11 [INFO] Classificação: nao_enviar
+2026-08-23 09:35:12 [INFO] ======================================================================
+2026-08-23 09:35:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 09:35:12 [INFO] ======================================================================
+2026-08-23 09:35:12 [INFO] Processadas: 2
+2026-08-23 09:35:12 [INFO] Enviar: 0
+2026-08-23 09:35:12 [INFO] Não enviar: 2
+2026-08-23 09:35:12 [INFO] ======================================================================
