@@ -6984,3 +6984,56 @@
 2026-08-23 14:30:33 [INFO] Enviar: 0
 2026-08-23 14:30:33 [INFO] Não enviar: 3
 2026-08-23 14:30:33 [INFO] ======================================================================
+2026-08-23 15:30:04 [INFO] ======================================================================
+2026-08-23 15:30:04 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 15:30:04 [INFO] ======================================================================
+2026-08-23 15:30:04 [INFO] Notícias com status 'extraida': 8
+2026-08-23 15:30:04 [INFO] Limite: 20 requisições/minuto
+2026-08-23 15:30:04 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 15:30:04 [INFO] ======================================================================
+2026-08-23 15:30:04 [INFO] [1/8] ID: tag:google.com,2013:googlealerts/feed:12270243955902714910
+2026-08-23 15:30:04 [INFO] Título: Irmãos Batista, da J&F, compram 100% da Avibras, a maior indústria bélica do País - Folha Vitória
+2026-08-23 15:30:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 15:30:05 [INFO] Classificação: nao_enviar
+2026-08-23 15:30:05 [INFO] Aguardando 2.64s...
+2026-08-23 15:30:07 [INFO] [2/8] ID: tag:google.com,2013:googlealerts/feed:18108126602349437909
+2026-08-23 15:30:07 [INFO] Título: Honorários devidos pelo Grupo Colombo não se submetem à RJ - Ponto na Curva
+2026-08-23 15:30:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 15:30:08 [INFO] Classificação: enviar
+2026-08-23 15:30:08 [INFO] Aguardando 2.59s...
+2026-08-23 15:30:10 [INFO] [3/8] ID: tag:google.com,2013:googlealerts/feed:12048157940849219449
+2026-08-23 15:30:10 [INFO] Título: Demora em reestruturações destrói valor e prejudica credores, trabalhadores, fornecedores ...
+2026-08-23 15:30:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 15:30:11 [INFO] Classificação: nao_enviar
+2026-08-23 15:30:11 [INFO] Aguardando 2.72s...
+2026-08-23 15:30:13 [INFO] [4/8] ID: tag:google.com,2013:googlealerts/feed:7474863362555964805
+2026-08-23 15:30:13 [INFO] Título: Casas Bahia: <b>recuperação judicial</b> não suspende direitos do consumidor - Rota Jurídica
+2026-08-23 15:30:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 15:30:14 [INFO] Classificação: enviar
+2026-08-23 15:30:14 [INFO] Aguardando 2.75s...
+2026-08-23 15:30:16 [INFO] [5/8] ID: tag:google.com,2013:googlealerts/feed:14353536082746209758
+2026-08-23 15:30:16 [INFO] Título: Lucro da Cemig e proventos no agro lideram as leituras - Visno Invest
+2026-08-23 15:30:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 15:30:17 [INFO] Classificação: nao_enviar
+2026-08-23 15:30:17 [INFO] Aguardando 2.79s...
+2026-08-23 15:30:19 [INFO] [6/8] ID: tag:google.com,2013:googlealerts/feed:16491360273693527783
+2026-08-23 15:30:19 [INFO] Título: Antes da insolvência: o debate que o Brasil evita - Pipeline
+2026-08-23 15:30:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 15:30:20 [INFO] Classificação: nao_enviar
+2026-08-23 15:30:20 [INFO] Aguardando 2.76s...
+2026-08-23 15:30:22 [INFO] [7/8] ID: tag:google.com,2013:googlealerts/feed:9013221041342243013
+2026-08-23 15:30:22 [INFO] Título: Honorários devidos pelo Grupo Colombo não se submetem à RJ - Ponto na Curva
+2026-08-23 15:30:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 15:30:23 [INFO] Classificação: enviar
+2026-08-23 15:30:23 [INFO] Aguardando 2.69s...
+2026-08-23 15:30:25 [INFO] [8/8] ID: tag:google.com,2013:googlealerts/feed:4037909443225753881
+2026-08-23 15:30:25 [INFO] Título: Casas Bahia: recuperação <b>judicial</b> não suspende direitos do consumidor - Capital News
+2026-08-23 15:30:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 15:30:26 [INFO] Classificação: enviar
+2026-08-23 15:30:26 [INFO] ======================================================================
+2026-08-23 15:30:26 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 15:30:26 [INFO] ======================================================================
+2026-08-23 15:30:26 [INFO] Processadas: 8
+2026-08-23 15:30:26 [INFO] Enviar: 4
+2026-08-23 15:30:26 [INFO] Não enviar: 4
+2026-08-23 15:30:26 [INFO] ======================================================================
