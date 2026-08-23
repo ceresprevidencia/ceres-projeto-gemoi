@@ -7176,3 +7176,36 @@
 2026-08-23 18:40:00 [INFO] Enviar: 1
 2026-08-23 18:40:00 [INFO] Não enviar: 6
 2026-08-23 18:40:00 [INFO] ======================================================================
+2026-08-23 19:27:36 [INFO] ======================================================================
+2026-08-23 19:27:36 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 19:27:36 [INFO] ======================================================================
+2026-08-23 19:27:36 [INFO] Notícias com status 'extraida': 4
+2026-08-23 19:27:36 [INFO] Limite: 20 requisições/minuto
+2026-08-23 19:27:36 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 19:27:36 [INFO] ======================================================================
+2026-08-23 19:27:36 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:243334589469181428
+2026-08-23 19:27:36 [INFO] Título: De Mísseis no Iraque à <b>Recuperação Judicial</b>, Saiba Quem É a Avibras, Recém-comprada ...
+2026-08-23 19:27:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 19:27:37 [INFO] Classificação: enviar
+2026-08-23 19:27:37 [INFO] Aguardando 2.69s...
+2026-08-23 19:27:39 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:17952420529625468864
+2026-08-23 19:27:39 [INFO] Título: Fundação Habitacional do Exército desclassifica Alphaville e anula leilão de R$ 494,4 ...
+2026-08-23 19:27:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 19:27:39 [INFO] Classificação: nao_enviar
+2026-08-23 19:27:39 [INFO] Aguardando 2.74s...
+2026-08-23 19:27:42 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:4309686876515436845
+2026-08-23 19:27:42 [INFO] Título: Com camisa do Vasco, Marcos Lamacchia está no Nubank Parque para assistir à partida
+2026-08-23 19:27:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 19:27:42 [INFO] Classificação: nao_enviar
+2026-08-23 19:27:42 [INFO] Aguardando 2.83s...
+2026-08-23 19:27:45 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:7044702901596852368
+2026-08-23 19:27:45 [INFO] Título: BI.COOP amplia o acesso aos dados do cooperativismo financeiro
+2026-08-23 19:27:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 19:27:46 [INFO] Classificação: nao_enviar
+2026-08-23 19:27:46 [INFO] ======================================================================
+2026-08-23 19:27:46 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 19:27:46 [INFO] ======================================================================
+2026-08-23 19:27:46 [INFO] Processadas: 4
+2026-08-23 19:27:46 [INFO] Enviar: 1
+2026-08-23 19:27:46 [INFO] Não enviar: 3
+2026-08-23 19:27:46 [INFO] ======================================================================
