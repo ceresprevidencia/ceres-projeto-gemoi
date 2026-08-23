@@ -7209,3 +7209,46 @@
 2026-08-23 19:27:46 [INFO] Enviar: 1
 2026-08-23 19:27:46 [INFO] Não enviar: 3
 2026-08-23 19:27:46 [INFO] ======================================================================
+2026-08-23 20:31:50 [INFO] ======================================================================
+2026-08-23 20:31:50 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 20:31:50 [INFO] ======================================================================
+2026-08-23 20:31:50 [INFO] Notícias com status 'extraida': 6
+2026-08-23 20:31:50 [INFO] Limite: 20 requisições/minuto
+2026-08-23 20:31:50 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 20:31:50 [INFO] ======================================================================
+2026-08-23 20:31:50 [INFO] [1/6] ID: tag:google.com,2013:googlealerts/feed:17009094727412798105
+2026-08-23 20:31:50 [INFO] Título: A profícua contribuição do ministro Moura Ribeiro para o aperfeiçoamento da jurisprudência ...
+2026-08-23 20:31:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 20:31:50 [INFO] Classificação: nao_enviar
+2026-08-23 20:31:50 [INFO] Aguardando 2.60s...
+2026-08-23 20:31:53 [INFO] [2/6] ID: tag:google.com,2013:googlealerts/feed:9666048595823965857
+2026-08-23 20:31:53 [INFO] Título: Retail bankruptcy filings rise, sounding alarm in Brazil; expert weighs in - YouTube
+2026-08-23 20:31:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 20:31:53 [INFO] Classificação: nao_enviar
+2026-08-23 20:31:53 [INFO] Aguardando 2.62s...
+2026-08-23 20:31:56 [INFO] [3/6] ID: tag:google.com,2013:googlealerts/feed:8222611817208318528
+2026-08-23 20:31:56 [INFO] Título: Casas Bahia: do auge à <b>recuperação judicial</b> - Associação Comercial e Industrial de Araçatuba
+2026-08-23 20:31:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 20:31:56 [INFO] Classificação: enviar
+2026-08-23 20:31:56 [INFO] Aguardando 2.75s...
+2026-08-23 20:31:59 [INFO] [4/6] ID: tag:google.com,2013:googlealerts/feed:10672762569822931736
+2026-08-23 20:31:59 [INFO] Título: Canadá Promete Retaliar Tarifas Dos EUA Com Medidas 'dólar Por Dólar' - Portal Gurupí
+2026-08-23 20:31:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 20:31:59 [INFO] Classificação: nao_enviar
+2026-08-23 20:31:59 [INFO] Aguardando 2.66s...
+2026-08-23 20:32:02 [INFO] [5/6] ID: tag:google.com,2013:googlealerts/feed:15350819626673687008
+2026-08-23 20:32:02 [INFO] Título: A profícua contribuição do ministro Moura Ribeiro para o aperfeiçoamento da jurisprudência ...
+2026-08-23 20:32:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 20:32:02 [INFO] Classificação: nao_enviar
+2026-08-23 20:32:02 [INFO] Aguardando 2.62s...
+2026-08-23 20:32:05 [INFO] [6/6] ID: tag:google.com,2013:googlealerts/feed:2409519647968894728
+2026-08-23 20:32:05 [INFO] Título: Casas Bahia: do auge à recuperação <b>judicial</b> - Associação Comercial e Industrial de Araçatuba
+2026-08-23 20:32:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 20:32:05 [INFO] Classificação: enviar
+2026-08-23 20:32:05 [INFO] ======================================================================
+2026-08-23 20:32:05 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 20:32:05 [INFO] ======================================================================
+2026-08-23 20:32:05 [INFO] Processadas: 6
+2026-08-23 20:32:05 [INFO] Enviar: 2
+2026-08-23 20:32:05 [INFO] Não enviar: 4
+2026-08-23 20:32:05 [INFO] ======================================================================
