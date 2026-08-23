@@ -7037,3 +7037,66 @@
 2026-08-23 15:30:26 [INFO] Enviar: 4
 2026-08-23 15:30:26 [INFO] Não enviar: 4
 2026-08-23 15:30:26 [INFO] ======================================================================
+2026-08-23 16:34:27 [INFO] ======================================================================
+2026-08-23 16:34:27 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 16:34:27 [INFO] ======================================================================
+2026-08-23 16:34:27 [INFO] Notícias com status 'extraida': 10
+2026-08-23 16:34:27 [INFO] Limite: 20 requisições/minuto
+2026-08-23 16:34:27 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 16:34:27 [INFO] ======================================================================
+2026-08-23 16:34:27 [INFO] [1/10] ID: tag:google.com,2013:googlealerts/feed:1528975543564408808
+2026-08-23 16:34:27 [INFO] Título: Como crise no varejo vai mudar o mapa dos imóveis comerciais | Exame INSIGHT
+2026-08-23 16:34:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:28 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:28 [INFO] Aguardando 2.42s...
+2026-08-23 16:34:30 [INFO] [2/10] ID: tag:google.com,2013:googlealerts/feed:2973012812131354986
+2026-08-23 16:34:30 [INFO] Título: Confira mais informações da venda da SAF do Vasco para Marcos Lamacchia - NETVASCO
+2026-08-23 16:34:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:30 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:30 [INFO] Aguardando 2.66s...
+2026-08-23 16:34:33 [INFO] [3/10] ID: tag:google.com,2013:googlealerts/feed:2998483472312167797
+2026-08-23 16:34:33 [INFO] Título: Novo presidente do STJ vê o Judiciário do mundo da Lua - UOL Notícias
+2026-08-23 16:34:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:34 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:34 [INFO] Aguardando 2.44s...
+2026-08-23 16:34:36 [INFO] [4/10] ID: tag:google.com,2013:googlealerts/feed:2433511251264553552
+2026-08-23 16:34:36 [INFO] Título: União não paga honorários de sucumbência em ação civil pública - Consultor Jurídico
+2026-08-23 16:34:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:36 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:36 [INFO] Aguardando 2.72s...
+2026-08-23 16:34:39 [INFO] [5/10] ID: tag:google.com,2013:googlealerts/feed:6316964569864329890
+2026-08-23 16:34:39 [INFO] Título: São Bernardo possui a segunda maior área ocupada pela Casas Bahia em São Paulo
+2026-08-23 16:34:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:39 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:39 [INFO] Aguardando 2.76s...
+2026-08-23 16:34:42 [INFO] [6/10] ID: tag:google.com,2013:googlealerts/feed:16933395228681224614
+2026-08-23 16:34:42 [INFO] Título: Baixa umidade e calor intenso exigem atenção à saúde de crianças e idosos em Goiânia
+2026-08-23 16:34:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:42 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:43 [INFO] Aguardando 2.64s...
+2026-08-23 16:34:45 [INFO] [7/10] ID: tag:google.com,2013:googlealerts/feed:7257567840877315244
+2026-08-23 16:34:45 [INFO] Título: Ações da Casas Bahia caem 14,3% com agravamento da crise | Vero Notícias
+2026-08-23 16:34:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:45 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:45 [INFO] Aguardando 2.79s...
+2026-08-23 16:34:48 [INFO] [8/10] ID: tag:google.com,2013:googlealerts/feed:11845678177648140593
+2026-08-23 16:34:48 [INFO] Título: Fras-le (FRAS3) e mais duas empresas pagam dividendos nesta semana; veja o calendário
+2026-08-23 16:34:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:49 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:49 [INFO] Aguardando 2.63s...
+2026-08-23 16:34:51 [INFO] [9/10] ID: tag:google.com,2013:googlealerts/feed:9222160381658821763
+2026-08-23 16:34:51 [INFO] Título: Financiamento de veículos: entenda os riscos da inadimplência e o impacto das novas leis
+2026-08-23 16:34:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:51 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:51 [INFO] Aguardando 2.69s...
+2026-08-23 16:34:54 [INFO] [10/10] ID: tag:google.com,2013:googlealerts/feed:13915743782798853369
+2026-08-23 16:34:54 [INFO] Título: Irmãos Batista avançam no setor de defesa com compra da Avibras - Jornal Opção
+2026-08-23 16:34:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 16:34:54 [INFO] Classificação: nao_enviar
+2026-08-23 16:34:54 [INFO] ======================================================================
+2026-08-23 16:34:54 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 16:34:54 [INFO] ======================================================================
+2026-08-23 16:34:54 [INFO] Processadas: 10
+2026-08-23 16:34:54 [INFO] Enviar: 0
+2026-08-23 16:34:54 [INFO] Não enviar: 10
+2026-08-23 16:34:54 [INFO] ======================================================================
