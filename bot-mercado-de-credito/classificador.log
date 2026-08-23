@@ -6803,3 +6803,26 @@
 2026-08-23 07:40:09 [INFO] Enviar: 0
 2026-08-23 07:40:09 [INFO] Não enviar: 5
 2026-08-23 07:40:09 [INFO] ======================================================================
+2026-08-23 08:39:36 [INFO] ======================================================================
+2026-08-23 08:39:36 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 08:39:36 [INFO] ======================================================================
+2026-08-23 08:39:36 [INFO] Notícias com status 'extraida': 2
+2026-08-23 08:39:36 [INFO] Limite: 20 requisições/minuto
+2026-08-23 08:39:36 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 08:39:36 [INFO] ======================================================================
+2026-08-23 08:39:36 [INFO] [1/2] ID: tag:google.com,2013:googlealerts/feed:17107689609585434944
+2026-08-23 08:39:36 [INFO] Título: Ações de despejo da Casas Bahia no Grande ABC - Associação Comercial e Industrial de Araçatuba
+2026-08-23 08:39:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 08:39:37 [INFO] Classificação: nao_enviar
+2026-08-23 08:39:37 [INFO] Aguardando 2.59s...
+2026-08-23 08:39:39 [INFO] [2/2] ID: tag:google.com,2013:googlealerts/feed:16988952224825154444
+2026-08-23 08:39:39 [INFO] Título: Relator da 6x1 diz que dará 'maior agilidade possível' à PEC - ICL Notícias
+2026-08-23 08:39:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 08:39:39 [INFO] Classificação: nao_enviar
+2026-08-23 08:39:39 [INFO] ======================================================================
+2026-08-23 08:39:39 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 08:39:39 [INFO] ======================================================================
+2026-08-23 08:39:39 [INFO] Processadas: 2
+2026-08-23 08:39:39 [INFO] Enviar: 0
+2026-08-23 08:39:39 [INFO] Não enviar: 2
+2026-08-23 08:39:39 [INFO] ======================================================================
