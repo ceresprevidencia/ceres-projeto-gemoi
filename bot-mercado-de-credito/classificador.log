@@ -6685,3 +6685,65 @@
 2026-08-23 04:45:09 [INFO] Enviar: 0
 2026-08-23 04:45:09 [INFO] Não enviar: 1
 2026-08-23 04:45:09 [INFO] ======================================================================
+2026-08-23 05:36:37 [INFO] ======================================================================
+2026-08-23 05:36:37 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 05:36:37 [INFO] ======================================================================
+2026-08-23 05:36:37 [INFO] Notícias com status 'extraida': 10
+2026-08-23 05:36:37 [INFO] Limite: 20 requisições/minuto
+2026-08-23 05:36:37 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 05:36:37 [INFO] ======================================================================
+2026-08-23 05:36:37 [INFO] [1/10] ID: tag:google.com,2013:googlealerts/feed:14635066865090022415
+2026-08-23 05:36:37 [INFO] Título: Casas Bahia entra em <b>recuperação judicial</b> com dívidas de 17 bilhões de reais
+2026-08-23 05:36:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:36:37 [INFO] Classificação: enviar
+2026-08-23 05:36:37 [INFO] Aguardando 2.75s...
+2026-08-23 05:36:40 [INFO] [2/10] ID: tag:google.com,2013:googlealerts/feed:8480855985645156982
+2026-08-23 05:36:40 [INFO] Título: Casas Bahia entra em <b>recuperação judicial</b> com dívidas de R$ 17,3 bi - Tribuna do Paraná
+2026-08-23 05:36:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:36:40 [INFO] Classificação: enviar
+2026-08-23 05:36:40 [INFO] Aguardando 2.39s...
+2026-08-23 05:36:43 [INFO] [3/10] ID: tag:google.com,2013:googlealerts/feed:6929215430981601896
+2026-08-23 05:36:43 [INFO] Título: Mil imóveis no Centro de Vitória não podem ser vendidos; entenda - Tribuna Online
+2026-08-23 05:36:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:36:43 [INFO] Classificação: nao_enviar
+2026-08-23 05:36:43 [INFO] Aguardando 2.76s...
+2026-08-23 05:36:46 [INFO] [4/10] ID: tag:google.com,2013:googlealerts/feed:14936755644362514154
+2026-08-23 05:36:46 [INFO] Título: <b>Recuperação judicial</b> das Casas Bahia e de outras grandes redes do varejo não é uma ...
+2026-08-23 05:36:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:36:51 [INFO] Classificação: enviar
+2026-08-23 05:36:51 [INFO] [5/10] ID: tag:google.com,2013:googlealerts/feed:7824163424604123846
+2026-08-23 05:36:51 [INFO] Título: Oncoclínicas: às vésperas de julgamento sobre oferta obrigatória a acionistas, Centaurus ...
+2026-08-23 05:36:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:36:51 [INFO] Classificação: nao_enviar
+2026-08-23 05:36:51 [INFO] Aguardando 2.79s...
+2026-08-23 05:36:54 [INFO] [6/10] ID: tag:google.com,2013:googlealerts/feed:13617402653287631375
+2026-08-23 05:36:54 [INFO] Título: Nova aposta dos irmãos Batista: Joesley e Wesley compram Avibras, maior indústria bélica ...
+2026-08-23 05:36:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:36:55 [INFO] Classificação: nao_enviar
+2026-08-23 05:36:55 [INFO] Aguardando 1.33s...
+2026-08-23 05:36:57 [INFO] [7/10] ID: tag:google.com,2013:googlealerts/feed:6908205106955379751
+2026-08-23 05:36:57 [INFO] Título: Fábrica de pão de queijo que nasceu em garagem amplia portfólio com empanadas e mira ...
+2026-08-23 05:36:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:36:57 [INFO] Classificação: nao_enviar
+2026-08-23 05:36:57 [INFO] Aguardando 2.53s...
+2026-08-23 05:37:00 [INFO] [8/10] ID: tag:google.com,2013:googlealerts/feed:14082262242308637815
+2026-08-23 05:37:00 [INFO] Título: Casas Bahia entra em recuperação <b>judicial</b> com dívidas de 17 bilhões de reais
+2026-08-23 05:37:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:37:00 [INFO] Classificação: enviar
+2026-08-23 05:37:00 [INFO] Aguardando 2.74s...
+2026-08-23 05:37:03 [INFO] [9/10] ID: tag:google.com,2013:googlealerts/feed:3874208872496591323
+2026-08-23 05:37:03 [INFO] Título: Marcos Lamacchia se compromete a antecipar pagamentos da recuperação <b>judicial</b> do Vasco | Olé
+2026-08-23 05:37:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:37:03 [INFO] Classificação: enviar
+2026-08-23 05:37:03 [INFO] Aguardando 2.74s...
+2026-08-23 05:37:06 [INFO] [10/10] ID: tag:google.com,2013:googlealerts/feed:2725561384662701752
+2026-08-23 05:37:06 [INFO] Título: João Gomes e futebol: o que a Casas Bahia fez para se salvar antes de anunciar crise
+2026-08-23 05:37:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 05:37:06 [INFO] Classificação: nao_enviar
+2026-08-23 05:37:06 [INFO] ======================================================================
+2026-08-23 05:37:06 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 05:37:06 [INFO] ======================================================================
+2026-08-23 05:37:06 [INFO] Processadas: 10
+2026-08-23 05:37:06 [INFO] Enviar: 5
+2026-08-23 05:37:06 [INFO] Não enviar: 5
+2026-08-23 05:37:06 [INFO] ======================================================================
