@@ -7270,3 +7270,26 @@
 2026-08-23 21:28:39 [INFO] Enviar: 1
 2026-08-23 21:28:39 [INFO] Não enviar: 0
 2026-08-23 21:28:39 [INFO] ======================================================================
+2026-08-23 22:29:54 [INFO] ======================================================================
+2026-08-23 22:29:54 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 22:29:54 [INFO] ======================================================================
+2026-08-23 22:29:54 [INFO] Notícias com status 'extraida': 2
+2026-08-23 22:29:54 [INFO] Limite: 20 requisições/minuto
+2026-08-23 22:29:54 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 22:29:54 [INFO] ======================================================================
+2026-08-23 22:29:54 [INFO] [1/2] ID: tag:google.com,2013:googlealerts/feed:542990461688152378
+2026-08-23 22:29:54 [INFO] Título: Brazil hits record for delinquent businesses - YouTube
+2026-08-23 22:29:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 22:29:54 [INFO] Classificação: nao_enviar
+2026-08-23 22:29:54 [INFO] Aguardando 2.66s...
+2026-08-23 22:29:57 [INFO] [2/2] ID: tag:google.com,2013:googlealerts/feed:15335342405133379196
+2026-08-23 22:29:57 [INFO] Título: Especialista analisa crise no varejo: “Quem se preparou está bem” | CNN AGORA
+2026-08-23 22:29:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 22:29:57 [INFO] Classificação: nao_enviar
+2026-08-23 22:29:57 [INFO] ======================================================================
+2026-08-23 22:29:57 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 22:29:57 [INFO] ======================================================================
+2026-08-23 22:29:57 [INFO] Processadas: 2
+2026-08-23 22:29:57 [INFO] Enviar: 0
+2026-08-23 22:29:57 [INFO] Não enviar: 2
+2026-08-23 22:29:57 [INFO] ======================================================================
