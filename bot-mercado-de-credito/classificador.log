@@ -7293,3 +7293,36 @@
 2026-08-23 22:29:57 [INFO] Enviar: 0
 2026-08-23 22:29:57 [INFO] Não enviar: 2
 2026-08-23 22:29:57 [INFO] ======================================================================
+2026-08-23 23:28:08 [INFO] ======================================================================
+2026-08-23 23:28:08 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 23:28:08 [INFO] ======================================================================
+2026-08-23 23:28:08 [INFO] Notícias com status 'extraida': 4
+2026-08-23 23:28:08 [INFO] Limite: 20 requisições/minuto
+2026-08-23 23:28:08 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 23:28:08 [INFO] ======================================================================
+2026-08-23 23:28:08 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:12271400572554355538
+2026-08-23 23:28:08 [INFO] Título: Irmãos Batista compram Avibras, fabricante brasileira de armamentos - via @podergoias
+2026-08-23 23:28:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 23:28:08 [INFO] Classificação: nao_enviar
+2026-08-23 23:28:08 [INFO] Aguardando 2.68s...
+2026-08-23 23:28:11 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:14969200741527561069
+2026-08-23 23:28:11 [INFO] Título: Casas Bahia faz leilão virtual de eletrodomésticos | O Popular
+2026-08-23 23:28:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 23:28:11 [INFO] Classificação: nao_enviar
+2026-08-23 23:28:11 [INFO] Aguardando 2.45s...
+2026-08-23 23:28:14 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:9167390236026033387
+2026-08-23 23:28:14 [INFO] Título: Ambipar mantém análise contábil sob sigilo antes de assembleia de credores - InvestNews
+2026-08-23 23:28:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 23:28:14 [INFO] Classificação: enviar
+2026-08-23 23:28:14 [INFO] Aguardando 2.46s...
+2026-08-23 23:28:17 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:13199650768565495729
+2026-08-23 23:28:17 [INFO] Título: Lamacchia comenta processo de compra da SAF: 'Transformar o Vasco' - LANCE!
+2026-08-23 23:28:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 23:28:17 [INFO] Classificação: nao_enviar
+2026-08-23 23:28:17 [INFO] ======================================================================
+2026-08-23 23:28:17 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 23:28:17 [INFO] ======================================================================
+2026-08-23 23:28:17 [INFO] Processadas: 4
+2026-08-23 23:28:17 [INFO] Enviar: 1
+2026-08-23 23:28:17 [INFO] Não enviar: 3
+2026-08-23 23:28:17 [INFO] ======================================================================
