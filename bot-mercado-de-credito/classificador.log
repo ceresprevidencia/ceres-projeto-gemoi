@@ -6933,3 +6933,26 @@
 2026-08-23 12:54:51 [INFO] Enviar: 2
 2026-08-23 12:54:51 [INFO] Não enviar: 5
 2026-08-23 12:54:51 [INFO] ======================================================================
+2026-08-23 13:38:15 [INFO] ======================================================================
+2026-08-23 13:38:15 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-23 13:38:15 [INFO] ======================================================================
+2026-08-23 13:38:15 [INFO] Notícias com status 'extraida': 2
+2026-08-23 13:38:15 [INFO] Limite: 20 requisições/minuto
+2026-08-23 13:38:15 [INFO] Intervalo mínimo: 3.0s
+2026-08-23 13:38:15 [INFO] ======================================================================
+2026-08-23 13:38:15 [INFO] [1/2] ID: tag:google.com,2013:googlealerts/feed:6783613473394096272
+2026-08-23 13:38:15 [INFO] Título: Casas Bahia: recuperação <b>judicial</b> não suspende direitos do consumidor - Rota Jurídica
+2026-08-23 13:38:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 13:38:16 [INFO] Classificação: enviar
+2026-08-23 13:38:16 [INFO] Aguardando 2.44s...
+2026-08-23 13:38:18 [INFO] [2/2] ID: tag:google.com,2013:googlealerts/feed:16540309373809367085
+2026-08-23 13:38:18 [INFO] Título: Casas Bahia entra em recuperação <b>judicial</b> com dívidas de R$ 17,3 bi - Tribuna do Paraná
+2026-08-23 13:38:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-23 13:38:19 [INFO] Classificação: enviar
+2026-08-23 13:38:19 [INFO] ======================================================================
+2026-08-23 13:38:19 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-23 13:38:19 [INFO] ======================================================================
+2026-08-23 13:38:19 [INFO] Processadas: 2
+2026-08-23 13:38:19 [INFO] Enviar: 2
+2026-08-23 13:38:19 [INFO] Não enviar: 0
+2026-08-23 13:38:19 [INFO] ======================================================================
