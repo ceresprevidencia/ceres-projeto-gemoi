@@ -8634,3 +8634,76 @@
 2026-08-24 20:40:02 [INFO] Enviar: 8
 2026-08-24 20:40:02 [INFO] Não enviar: 0
 2026-08-24 20:40:02 [INFO] ======================================================================
+2026-08-24 21:36:47 [INFO] ======================================================================
+2026-08-24 21:36:47 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 21:36:47 [INFO] ======================================================================
+2026-08-24 21:36:47 [INFO] Notícias com status 'extraida': 12
+2026-08-24 21:36:47 [INFO] Limite: 20 requisições/minuto
+2026-08-24 21:36:47 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 21:36:47 [INFO] ======================================================================
+2026-08-24 21:36:47 [INFO] [1/12] ID: tag:google.com,2013:googlealerts/feed:3021876999498899452
+2026-08-24 21:36:47 [INFO] Título: É falso que 8.000 empresas faliram no Brasil em junho | Aos Fatos
+2026-08-24 21:36:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:36:47 [INFO] Classificação: nao_enviar
+2026-08-24 21:36:47 [INFO] Aguardando 2.62s...
+2026-08-24 21:36:50 [INFO] [2/12] ID: tag:google.com,2013:googlealerts/feed:18241790088093074812
+2026-08-24 21:36:50 [INFO] Título: Na espera pelo fim da <b>recuperação judicial</b>, Light muda identidade visual para virar página
+2026-08-24 21:36:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:36:50 [INFO] Classificação: enviar
+2026-08-24 21:36:50 [INFO] Aguardando 2.70s...
+2026-08-24 21:36:53 [INFO] [3/12] ID: tag:google.com,2013:googlealerts/feed:13918751527133963471
+2026-08-24 21:36:53 [INFO] Título: Braskem Pede <b>Recuperação Extrajudicial</b>: Entenda a Crise e Quem Controla a Empresa
+2026-08-24 21:36:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:36:53 [INFO] Classificação: enviar
+2026-08-24 21:36:53 [INFO] Aguardando 2.81s...
+2026-08-24 21:36:56 [INFO] [4/12] ID: tag:google.com,2013:googlealerts/feed:15303530111466454871
+2026-08-24 21:36:56 [INFO] Título: Braskem protocola pedido de <b>recuperação extrajudicial</b> para reestruturar dívida de R$ 56 bilhões
+2026-08-24 21:36:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:36:56 [INFO] Classificação: enviar
+2026-08-24 21:36:56 [INFO] Aguardando 2.81s...
+2026-08-24 21:36:59 [INFO] [5/12] ID: tag:google.com,2013:googlealerts/feed:16054657083002845505
+2026-08-24 21:36:59 [INFO] Título: Braskem pede <b>recuperação extrajudicial</b> para dívida de R$ 55bi - YouTube
+2026-08-24 21:36:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:36:59 [INFO] Classificação: enviar
+2026-08-24 21:36:59 [INFO] Aguardando 2.80s...
+2026-08-24 21:37:02 [INFO] [6/12] ID: tag:google.com,2013:googlealerts/feed:6463590114507719148
+2026-08-24 21:37:02 [INFO] Título: Conselho da Braskem aprova pedido de <b>recuperação extrajudicial</b> para dívida de US$ 10,9 bi
+2026-08-24 21:37:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:37:02 [INFO] Classificação: enviar
+2026-08-24 21:37:02 [INFO] Aguardando 2.82s...
+2026-08-24 21:37:05 [INFO] [7/12] ID: tag:google.com,2013:googlealerts/feed:4072806251958350379
+2026-08-24 21:37:05 [INFO] Título: Braskem Pede Recuperação Extrajudicial: Entenda a Crise e Quem Controla a Empresa
+2026-08-24 21:37:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:37:05 [INFO] Classificação: enviar
+2026-08-24 21:37:05 [INFO] Aguardando 2.68s...
+2026-08-24 21:37:08 [INFO] [8/12] ID: tag:google.com,2013:googlealerts/feed:5444082690001408408
+2026-08-24 21:37:08 [INFO] Título: Braskem protocola pedido de recuperação extrajudicial para reestruturar dívida de R$ 56 bilhões
+2026-08-24 21:37:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:37:08 [INFO] Classificação: enviar
+2026-08-24 21:37:08 [INFO] Aguardando 2.79s...
+2026-08-24 21:37:11 [INFO] [9/12] ID: tag:google.com,2013:googlealerts/feed:521177921880057191
+2026-08-24 21:37:11 [INFO] Título: Conselho da Braskem aprova pedido de recuperação extrajudicial para dívida de US$ 10,9 bi
+2026-08-24 21:37:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:37:11 [INFO] Classificação: enviar
+2026-08-24 21:37:11 [INFO] Aguardando 2.69s...
+2026-08-24 21:37:14 [INFO] [10/12] ID: tag:google.com,2013:googlealerts/feed:1864078921704499727
+2026-08-24 21:37:14 [INFO] Título: Na espera pelo fim da recuperação <b>judicial</b>, Light muda identidade visual para virar página
+2026-08-24 21:37:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:37:14 [INFO] Classificação: enviar
+2026-08-24 21:37:14 [INFO] Aguardando 2.66s...
+2026-08-24 21:37:17 [INFO] [11/12] ID: tag:google.com,2013:googlealerts/feed:2020194574025132634
+2026-08-24 21:37:17 [INFO] Título: O preço invisível do “risco zero” - Times Brasil | CNBC
+2026-08-24 21:37:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:37:17 [INFO] Classificação: nao_enviar
+2026-08-24 21:37:17 [INFO] Aguardando 2.66s...
+2026-08-24 21:37:20 [INFO] [12/12] ID: tag:google.com,2013:googlealerts/feed:12747253193238984381
+2026-08-24 21:37:20 [INFO] Título: Tempo real: Ibovespa avança e dribla cautela no exterior com sanções dos EUA ao Irã; dólar sobe
+2026-08-24 21:37:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 21:37:20 [INFO] Classificação: nao_enviar
+2026-08-24 21:37:20 [INFO] ======================================================================
+2026-08-24 21:37:20 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 21:37:20 [INFO] ======================================================================
+2026-08-24 21:37:20 [INFO] Processadas: 12
+2026-08-24 21:37:20 [INFO] Enviar: 9
+2026-08-24 21:37:20 [INFO] Não enviar: 3
+2026-08-24 21:37:20 [INFO] ======================================================================
