@@ -7326,3 +7326,56 @@
 2026-08-23 23:28:17 [INFO] Enviar: 1
 2026-08-23 23:28:17 [INFO] Não enviar: 3
 2026-08-23 23:28:17 [INFO] ======================================================================
+2026-08-24 01:49:18 [INFO] ======================================================================
+2026-08-24 01:49:18 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 01:49:18 [INFO] ======================================================================
+2026-08-24 01:49:18 [INFO] Notícias com status 'extraida': 8
+2026-08-24 01:49:18 [INFO] Limite: 20 requisições/minuto
+2026-08-24 01:49:18 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 01:49:18 [INFO] ======================================================================
+2026-08-24 01:49:18 [INFO] [1/8] ID: tag:google.com,2013:googlealerts/feed:10550530109203568360
+2026-08-24 01:49:18 [INFO] Título: Ausente de debate, Flávio publica vídeo: “Quero debater com quem destrói o Brasil”
+2026-08-24 01:49:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 01:49:18 [INFO] Classificação: nao_enviar
+2026-08-24 01:49:18 [INFO] Aguardando 2.64s...
+2026-08-24 01:49:21 [INFO] [2/8] ID: tag:google.com,2013:googlealerts/feed:10730376735679256398
+2026-08-24 01:49:21 [INFO] Título: HAVE BRAZILIANS STOPPED SHOPPING? UNDERSTANDING THE CRISIS HITTING RETAIL
+2026-08-24 01:49:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 01:49:21 [INFO] Classificação: nao_enviar
+2026-08-24 01:49:21 [INFO] Aguardando 2.77s...
+2026-08-24 01:49:24 [INFO] [3/8] ID: tag:google.com,2013:googlealerts/feed:9999043969207612405
+2026-08-24 01:49:24 [INFO] Título: Por que investidores argentinos estão comprando empresas brasileiras - Gazeta do Povo
+2026-08-24 01:49:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 01:49:24 [INFO] Classificação: nao_enviar
+2026-08-24 01:49:24 [INFO] Aguardando 2.73s...
+2026-08-24 01:49:27 [INFO] [4/8] ID: tag:google.com,2013:googlealerts/feed:6599644371159476067
+2026-08-24 01:49:27 [INFO] Título: A semeadura é opcional, a colheita é obrigatória - Consumidor RS
+2026-08-24 01:49:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 01:49:27 [INFO] Classificação: nao_enviar
+2026-08-24 01:49:27 [INFO] Aguardando 2.77s...
+2026-08-24 01:49:30 [INFO] [5/8] ID: tag:google.com,2013:googlealerts/feed:17086057888707692108
+2026-08-24 01:49:30 [INFO] Título: Ao vivo: checagem do primeiro debate com candidatos à Presidência da República
+2026-08-24 01:49:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 01:49:30 [INFO] Classificação: nao_enviar
+2026-08-24 01:49:30 [INFO] Aguardando 2.58s...
+2026-08-24 01:49:33 [INFO] [6/8] ID: tag:google.com,2013:googlealerts/feed:10169690878457752264
+2026-08-24 01:49:33 [INFO] Título: Podcast: Varejo sufocado pelos juros; alerta Casas Bahia; ajuste fiscal no foco
+2026-08-24 01:49:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 01:49:33 [INFO] Classificação: nao_enviar
+2026-08-24 01:49:33 [INFO] Aguardando 2.45s...
+2026-08-24 01:49:36 [INFO] [7/8] ID: tag:google.com,2013:googlealerts/feed:17719056486991521327
+2026-08-24 01:49:36 [INFO] Título: O que foi o escândalo do Banco Digimais? Entenda as fraudes investigadas pela PF em 2026 - Terra
+2026-08-24 01:49:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 01:49:36 [INFO] Classificação: nao_enviar
+2026-08-24 01:49:36 [INFO] Aguardando 2.86s...
+2026-08-24 01:49:39 [INFO] [8/8] ID: tag:google.com,2013:googlealerts/feed:10342060627513454790
+2026-08-24 01:49:39 [INFO] Título: Caso Master: entenda o escândalo de R$ 12 bilhões que envolve o Banco Central e foi ...
+2026-08-24 01:49:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 01:49:39 [INFO] Classificação: nao_enviar
+2026-08-24 01:49:39 [INFO] ======================================================================
+2026-08-24 01:49:39 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 01:49:39 [INFO] ======================================================================
+2026-08-24 01:49:39 [INFO] Processadas: 8
+2026-08-24 01:49:39 [INFO] Enviar: 0
+2026-08-24 01:49:39 [INFO] Não enviar: 8
+2026-08-24 01:49:39 [INFO] ======================================================================
