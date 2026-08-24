@@ -8795,3 +8795,61 @@
 2026-08-24 22:35:30 [INFO] Enviar: 14
 2026-08-24 22:35:30 [INFO] Não enviar: 1
 2026-08-24 22:35:30 [INFO] ======================================================================
+2026-08-24 23:28:31 [INFO] ======================================================================
+2026-08-24 23:28:31 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 23:28:31 [INFO] ======================================================================
+2026-08-24 23:28:31 [INFO] Notícias com status 'extraida': 9
+2026-08-24 23:28:31 [INFO] Limite: 20 requisições/minuto
+2026-08-24 23:28:31 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 23:28:31 [INFO] ======================================================================
+2026-08-24 23:28:31 [INFO] [1/9] ID: tag:google.com,2013:googlealerts/feed:6433434141621861247
+2026-08-24 23:28:31 [INFO] Título: ADIn 7.613 e créditos de acordos de leniência na <b>recuperação judicial</b> - Migalhas
+2026-08-24 23:28:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 23:28:31 [INFO] Classificação: enviar
+2026-08-24 23:28:31 [INFO] Aguardando 2.61s...
+2026-08-24 23:28:34 [INFO] [2/9] ID: tag:google.com,2013:googlealerts/feed:9270939748049905747
+2026-08-24 23:28:34 [INFO] Título: <b>Recuperação judicial</b> e extrajudicial: Entenda a diferença entre medidas - CNN Brasil
+2026-08-24 23:28:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 23:28:34 [INFO] Classificação: enviar
+2026-08-24 23:28:34 [INFO] Aguardando 2.78s...
+2026-08-24 23:28:37 [INFO] [3/9] ID: tag:google.com,2013:googlealerts/feed:17759696924812708461
+2026-08-24 23:28:37 [INFO] Título: Entenda plano de <b>recuperação</b> extrajudicial da Braskem (BRKM5) - InfoMoney
+2026-08-24 23:28:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 23:28:37 [INFO] Classificação: enviar
+2026-08-24 23:28:37 [INFO] Aguardando 2.67s...
+2026-08-24 23:28:40 [INFO] [4/9] ID: tag:google.com,2013:googlealerts/feed:4611788872973421780
+2026-08-24 23:28:40 [INFO] Título: <b>Recuperação judicial</b> não é salvo-conduto: A defesa do crédito fiduciário - Migalhas
+2026-08-24 23:28:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 23:28:40 [INFO] Classificação: enviar
+2026-08-24 23:28:40 [INFO] Aguardando 2.69s...
+2026-08-24 23:28:43 [INFO] [5/9] ID: tag:google.com,2013:googlealerts/feed:18286317488950158720
+2026-08-24 23:28:43 [INFO] Título: Braskem: <b>recuperação extrajudicial</b> é 'pedido de socorro' - 24/08/2026 - Painel S.A. - Folha
+2026-08-24 23:28:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 23:28:43 [INFO] Classificação: enviar
+2026-08-24 23:28:43 [INFO] Aguardando 2.68s...
+2026-08-24 23:28:46 [INFO] [6/9] ID: tag:google.com,2013:googlealerts/feed:17773243326132902485
+2026-08-24 23:28:46 [INFO] Título: Entenda plano de recuperação extrajudicial da Braskem (BRKM5) - InfoMoney
+2026-08-24 23:28:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 23:28:46 [INFO] Classificação: enviar
+2026-08-24 23:28:46 [INFO] Aguardando 2.78s...
+2026-08-24 23:28:49 [INFO] [7/9] ID: tag:google.com,2013:googlealerts/feed:1041993179975670785
+2026-08-24 23:28:49 [INFO] Título: Braskem pede recuperação <b>judicial</b> - BandNews em Dois Minutos - (24/08/2026) - YouTube
+2026-08-24 23:28:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 23:28:49 [INFO] Classificação: enviar
+2026-08-24 23:28:49 [INFO] Aguardando 2.66s...
+2026-08-24 23:28:52 [INFO] [8/9] ID: tag:google.com,2013:googlealerts/feed:6178901205903616331
+2026-08-24 23:28:52 [INFO] Título: Guia de FIIs: semana recheada de negociaçoes e AGEs - BB InvesTalk
+2026-08-24 23:28:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 23:28:52 [INFO] Classificação: nao_enviar
+2026-08-24 23:28:52 [INFO] Aguardando 2.76s...
+2026-08-24 23:28:55 [INFO] [9/9] ID: tag:google.com,2013:googlealerts/feed:14360180309704392698
+2026-08-24 23:28:55 [INFO] Título: Recuperação judicial e <b>extrajudicial</b>: Entenda a diferença entre medidas - CNN Brasil
+2026-08-24 23:28:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 23:28:55 [INFO] Classificação: nao_enviar
+2026-08-24 23:28:55 [INFO] ======================================================================
+2026-08-24 23:28:55 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 23:28:55 [INFO] ======================================================================
+2026-08-24 23:28:55 [INFO] Processadas: 9
+2026-08-24 23:28:55 [INFO] Enviar: 7
+2026-08-24 23:28:55 [INFO] Não enviar: 2
+2026-08-24 23:28:55 [INFO] ======================================================================
