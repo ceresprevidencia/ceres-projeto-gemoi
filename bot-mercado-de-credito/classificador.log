@@ -8581,3 +8581,56 @@
 2026-08-24 19:36:41 [INFO] Enviar: 13
 2026-08-24 19:36:41 [INFO] Não enviar: 2
 2026-08-24 19:36:41 [INFO] ======================================================================
+2026-08-24 20:39:40 [INFO] ======================================================================
+2026-08-24 20:39:40 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 20:39:40 [INFO] ======================================================================
+2026-08-24 20:39:40 [INFO] Notícias com status 'extraida': 8
+2026-08-24 20:39:40 [INFO] Limite: 20 requisições/minuto
+2026-08-24 20:39:40 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 20:39:40 [INFO] ======================================================================
+2026-08-24 20:39:40 [INFO] [1/8] ID: tag:google.com,2013:googlealerts/feed:8067545005638935915
+2026-08-24 20:39:40 [INFO] Título: STF valida norma que impede devedor contumaz de seguir com <b>recuperação judicial</b>
+2026-08-24 20:39:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 20:39:41 [INFO] Classificação: enviar
+2026-08-24 20:39:41 [INFO] Aguardando 2.64s...
+2026-08-24 20:39:43 [INFO] [2/8] ID: tag:google.com,2013:googlealerts/feed:1480192321593284174
+2026-08-24 20:39:43 [INFO] Título: <b>Recuperação judicial</b>: riscos e decisões que credores e investidores devem enfrentar
+2026-08-24 20:39:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 20:39:44 [INFO] Classificação: enviar
+2026-08-24 20:39:44 [INFO] Aguardando 2.77s...
+2026-08-24 20:39:46 [INFO] [3/8] ID: tag:google.com,2013:googlealerts/feed:12410136318807732338
+2026-08-24 20:39:46 [INFO] Título: Os detalhes do plano de <b>recuperação extrajudicial</b> da Braskem - Revista Veja
+2026-08-24 20:39:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 20:39:47 [INFO] Classificação: enviar
+2026-08-24 20:39:47 [INFO] Aguardando 2.65s...
+2026-08-24 20:39:49 [INFO] [4/8] ID: tag:google.com,2013:googlealerts/feed:10457753392384392580
+2026-08-24 20:39:49 [INFO] Título: Plano de <b>recuperação extrajudicial</b> da Braskem inclui possível oferta de ações, dizem fontes
+2026-08-24 20:39:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 20:39:50 [INFO] Classificação: enviar
+2026-08-24 20:39:50 [INFO] Aguardando 2.77s...
+2026-08-24 20:39:52 [INFO] [5/8] ID: tag:google.com,2013:googlealerts/feed:14304480885504084430
+2026-08-24 20:39:52 [INFO] Título: Dívidas de grandes empresas que pediram recuperação nos últimos 2 anos superam R ...
+2026-08-24 20:39:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 20:39:53 [INFO] Classificação: enviar
+2026-08-24 20:39:53 [INFO] Aguardando 2.68s...
+2026-08-24 20:39:55 [INFO] [6/8] ID: tag:google.com,2013:googlealerts/feed:4161037879439966958
+2026-08-24 20:39:55 [INFO] Título: Qual a diferença entre recuperação <b>judicial</b> e extrajudicial? Entenda - TMC
+2026-08-24 20:39:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 20:39:56 [INFO] Classificação: enviar
+2026-08-24 20:39:56 [INFO] Aguardando 2.48s...
+2026-08-24 20:39:58 [INFO] [7/8] ID: tag:google.com,2013:googlealerts/feed:8705845941488453338
+2026-08-24 20:39:58 [INFO] Título: Com dívidas de R$ 56 bi, Braskem alvança para recuperação <b>judicial</b> - Jornal Toda Palavra
+2026-08-24 20:39:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 20:39:59 [INFO] Classificação: enviar
+2026-08-24 20:39:59 [INFO] Aguardando 2.75s...
+2026-08-24 20:40:01 [INFO] [8/8] ID: tag:google.com,2013:googlealerts/feed:16533120636882245582
+2026-08-24 20:40:01 [INFO] Título: Recuperação <b>judicial</b>: riscos e decisões que credores e investidores devem enfrentar
+2026-08-24 20:40:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 20:40:02 [INFO] Classificação: enviar
+2026-08-24 20:40:02 [INFO] ======================================================================
+2026-08-24 20:40:02 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 20:40:02 [INFO] ======================================================================
+2026-08-24 20:40:02 [INFO] Processadas: 8
+2026-08-24 20:40:02 [INFO] Enviar: 8
+2026-08-24 20:40:02 [INFO] Não enviar: 0
+2026-08-24 20:40:02 [INFO] ======================================================================
