@@ -7519,3 +7519,36 @@
 2026-08-24 09:57:51 [INFO] Enviar: 0
 2026-08-24 09:57:51 [INFO] Não enviar: 4
 2026-08-24 09:57:51 [INFO] ======================================================================
+2026-08-24 10:47:50 [INFO] ======================================================================
+2026-08-24 10:47:50 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 10:47:50 [INFO] ======================================================================
+2026-08-24 10:47:50 [INFO] Notícias com status 'extraida': 4
+2026-08-24 10:47:50 [INFO] Limite: 20 requisições/minuto
+2026-08-24 10:47:50 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 10:47:50 [INFO] ======================================================================
+2026-08-24 10:47:50 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:14371106205949826522
+2026-08-24 10:47:50 [INFO] Título: Justiça de MT mantém ação contra dono de empresa de ônibus - FOLHAMAX
+2026-08-24 10:47:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 10:47:50 [INFO] Classificação: nao_enviar
+2026-08-24 10:47:50 [INFO] Aguardando 2.60s...
+2026-08-24 10:47:53 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:18038342682959546065
+2026-08-24 10:47:53 [INFO] Título: “Eu vou ficar louca”: funcionária das Casas Bahia viraliza ao ser abordada por vários ...
+2026-08-24 10:47:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 10:47:53 [INFO] Classificação: nao_enviar
+2026-08-24 10:47:53 [INFO] Aguardando 2.83s...
+2026-08-24 10:47:56 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:1169417525398820497
+2026-08-24 10:47:56 [INFO] Título: Oncoclínicas (ONCO3): disputa bilionária esquenta e Centaurus tenta barrar OPA de R$ 6,5 bilhões
+2026-08-24 10:47:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 10:47:56 [INFO] Classificação: nao_enviar
+2026-08-24 10:47:56 [INFO] Aguardando 2.56s...
+2026-08-24 10:47:59 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:13401995548297356275
+2026-08-24 10:47:59 [INFO] Título: BRKM5: Reestruturação ou <b>recuperação</b>? Braskem admite pressão dos credores e avalia ...
+2026-08-24 10:47:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 10:47:59 [INFO] Classificação: enviar
+2026-08-24 10:47:59 [INFO] ======================================================================
+2026-08-24 10:47:59 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 10:47:59 [INFO] ======================================================================
+2026-08-24 10:47:59 [INFO] Processadas: 4
+2026-08-24 10:47:59 [INFO] Enviar: 1
+2026-08-24 10:47:59 [INFO] Não enviar: 3
+2026-08-24 10:47:59 [INFO] ======================================================================
