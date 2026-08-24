@@ -8370,3 +8370,126 @@
 2026-08-24 17:37:38 [INFO] Enviar: 3
 2026-08-24 17:37:38 [INFO] Não enviar: 1
 2026-08-24 17:37:38 [INFO] ======================================================================
+2026-08-24 18:51:33 [INFO] ======================================================================
+2026-08-24 18:51:33 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 18:51:33 [INFO] ======================================================================
+2026-08-24 18:51:33 [INFO] Notícias com status 'extraida': 22
+2026-08-24 18:51:33 [INFO] Limite: 20 requisições/minuto
+2026-08-24 18:51:33 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 18:51:33 [INFO] ======================================================================
+2026-08-24 18:51:33 [INFO] [1/22] ID: tag:google.com,2013:googlealerts/feed:16122924856653802805
+2026-08-24 18:51:33 [INFO] Título: AÇÕES DA BRASKEM DESPENCAM APÓS ANÚNCIO DE <b>RECUPERAÇÃO JUDICIAL</b>
+2026-08-24 18:51:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:51:33 [INFO] Classificação: enviar
+2026-08-24 18:51:33 [INFO] Aguardando 2.73s...
+2026-08-24 18:51:36 [INFO] [2/22] ID: tag:google.com,2013:googlealerts/feed:6825526056592585101
+2026-08-24 18:51:36 [INFO] Título: CNMP instala fórum para aprimorar atuação do Ministério Público em casos de insolvência
+2026-08-24 18:51:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:51:36 [INFO] Classificação: nao_enviar
+2026-08-24 18:51:36 [INFO] Aguardando 2.65s...
+2026-08-24 18:51:39 [INFO] [3/22] ID: tag:google.com,2013:googlealerts/feed:11988117598055628305
+2026-08-24 18:51:39 [INFO] Título: Altas taxas de juros e comércio online provocaram queda das Casas Bahia, diz economista
+2026-08-24 18:51:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:51:39 [INFO] Classificação: nao_enviar
+2026-08-24 18:51:39 [INFO] Aguardando 2.75s...
+2026-08-24 18:51:42 [INFO] [4/22] ID: tag:google.com,2013:googlealerts/feed:5728900052818897920
+2026-08-24 18:51:42 [INFO] Título: <b>Recuperação</b> extrajudicial: entenda como funciona e o que muda - NC News
+2026-08-24 18:51:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:51:42 [INFO] Classificação: enviar
+2026-08-24 18:51:42 [INFO] Aguardando 2.78s...
+2026-08-24 18:51:45 [INFO] [5/22] ID: tag:google.com,2013:googlealerts/feed:17417726859803544474
+2026-08-24 18:51:45 [INFO] Título: Braskem: Saiba como funciona uma <b>recuperação</b> extrajudicial - Valor Econômico
+2026-08-24 18:51:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:51:45 [INFO] Classificação: enviar
+2026-08-24 18:51:45 [INFO] Aguardando 2.72s...
+2026-08-24 18:51:48 [INFO] [6/22] ID: tag:google.com,2013:googlealerts/feed:11634665908424661874
+2026-08-24 18:51:48 [INFO] Título: Braskem chega a acordo com credores para reestruturar US$ 10 bi em dívidas, dizem fontes
+2026-08-24 18:51:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:51:48 [INFO] Classificação: enviar
+2026-08-24 18:51:48 [INFO] Aguardando 2.67s...
+2026-08-24 18:51:51 [INFO] [7/22] ID: tag:google.com,2013:googlealerts/feed:12384817224255944005
+2026-08-24 18:51:51 [INFO] Título: Ações da Braskem têm forte queda após pedido de <b>recuperação</b> extrajudicial - CNN Brasil
+2026-08-24 18:51:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:51:51 [INFO] Classificação: enviar
+2026-08-24 18:51:51 [INFO] Aguardando 2.69s...
+2026-08-24 18:51:54 [INFO] [8/22] ID: tag:google.com,2013:googlealerts/feed:5909685441313808846
+2026-08-24 18:51:54 [INFO] Título: Braskem entra com pedido de <b>recuperação extrajudicial</b>, dizem fontes | LIVE CNN
+2026-08-24 18:51:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:51:54 [INFO] Classificação: enviar
+2026-08-24 18:51:54 [INFO] Aguardando 2.62s...
+2026-08-24 18:51:57 [INFO] [9/22] ID: tag:google.com,2013:googlealerts/feed:17643737774871737469
+2026-08-24 18:51:57 [INFO] Título: Braskem confirma <b>recuperação extrajudicial</b> em comunicado à CVM - YouTube
+2026-08-24 18:51:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:51:57 [INFO] Classificação: enviar
+2026-08-24 18:51:57 [INFO] Aguardando 2.73s...
+2026-08-24 18:52:00 [INFO] [10/22] ID: tag:google.com,2013:googlealerts/feed:957762513797793465
+2026-08-24 18:52:00 [INFO] Título: Com reparação em andamento por colapso em Maceió, Braskem aprova pedido de ...
+2026-08-24 18:52:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:00 [INFO] Classificação: nao_enviar
+2026-08-24 18:52:00 [INFO] Aguardando 2.68s...
+2026-08-24 18:52:03 [INFO] [11/22] ID: tag:google.com,2013:googlealerts/feed:12451070026653749231
+2026-08-24 18:52:03 [INFO] Título: B3 exclui Braskem do Ibovespa após pedido de <b>recuperação extrajudicial</b> - UOL Economia
+2026-08-24 18:52:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:03 [INFO] Classificação: enviar
+2026-08-24 18:52:03 [INFO] Aguardando 2.79s...
+2026-08-24 18:52:06 [INFO] [12/22] ID: tag:google.com,2013:googlealerts/feed:14864216552411478490
+2026-08-24 18:52:06 [INFO] Título: Braskem será excluída de índices da B3, após <b>recuperação extrajudicial</b> - ADVFN
+2026-08-24 18:52:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:06 [INFO] Classificação: enviar
+2026-08-24 18:52:06 [INFO] Aguardando 2.64s...
+2026-08-24 18:52:09 [INFO] [13/22] ID: tag:google.com,2013:googlealerts/feed:17390073280342878432
+2026-08-24 18:52:09 [INFO] Título: Braskem (BRKM5) avança para pedir <b>recuperação extrajudicial</b> com mais de US$ 10 ...
+2026-08-24 18:52:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:09 [INFO] Classificação: enviar
+2026-08-24 18:52:09 [INFO] Aguardando 2.65s...
+2026-08-24 18:52:12 [INFO] [14/22] ID: tag:google.com,2013:googlealerts/feed:3868421394612267810
+2026-08-24 18:52:12 [INFO] Título: Braskem protocola pedido de <b>recuperação extrajudicial</b> | #NewsMnahã - YouTube
+2026-08-24 18:52:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:12 [INFO] Classificação: enviar
+2026-08-24 18:52:12 [INFO] Aguardando 2.76s...
+2026-08-24 18:52:15 [INFO] [15/22] ID: tag:google.com,2013:googlealerts/feed:6627425345933774164
+2026-08-24 18:52:15 [INFO] Título: Bolsa e dólar sobem com setor corporativo no radar | CNN MERCADO - YouTube
+2026-08-24 18:52:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:15 [INFO] Classificação: nao_enviar
+2026-08-24 18:52:15 [INFO] Aguardando 2.75s...
+2026-08-24 18:52:18 [INFO] [16/22] ID: tag:google.com,2013:googlealerts/feed:5644279357894848815
+2026-08-24 18:52:18 [INFO] Título: BRASKEM fecha acordo e pede <b>recuperação extrajudicial</b> com dívida de R$ 54 BILHÕES
+2026-08-24 18:52:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:18 [INFO] Classificação: enviar
+2026-08-24 18:52:18 [INFO] Aguardando 2.66s...
+2026-08-24 18:52:21 [INFO] [17/22] ID: tag:google.com,2013:googlealerts/feed:11478731737976097215
+2026-08-24 18:52:21 [INFO] Título: A crise é da empresa; a conta não pode ser só do trabalhador - Congresso em Foco
+2026-08-24 18:52:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:21 [INFO] Classificação: nao_enviar
+2026-08-24 18:52:21 [INFO] Aguardando 2.76s...
+2026-08-24 18:52:24 [INFO] [18/22] ID: tag:google.com,2013:googlealerts/feed:10239724680023620233
+2026-08-24 18:52:24 [INFO] Título: Braskem chega a acordo para recuperação extrajudicial - Pipeline
+2026-08-24 18:52:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:24 [INFO] Classificação: enviar
+2026-08-24 18:52:24 [INFO] Aguardando 2.79s...
+2026-08-24 18:52:27 [INFO] [19/22] ID: tag:google.com,2013:googlealerts/feed:10488793411851110564
+2026-08-24 18:52:27 [INFO] Título: STF valida proibição de devedor contumaz pedir recuperação <b>judicial</b> - JOTA
+2026-08-24 18:52:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:27 [INFO] Classificação: enviar
+2026-08-24 18:52:27 [INFO] Aguardando 2.71s...
+2026-08-24 18:52:30 [INFO] [20/22] ID: tag:google.com,2013:googlealerts/feed:2290497540186550437
+2026-08-24 18:52:30 [INFO] Título: AÇÕES DA BRASKEM DESPENCAM APÓS ANÚNCIO DE RECUPERAÇÃO <b>JUDICIAL</b>
+2026-08-24 18:52:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:30 [INFO] Classificação: enviar
+2026-08-24 18:52:30 [INFO] Aguardando 2.83s...
+2026-08-24 18:52:33 [INFO] [21/22] ID: tag:google.com,2013:googlealerts/feed:17034932874057868864
+2026-08-24 18:52:33 [INFO] Título: B3 anuncia exclusão de ativos da Braskem (BRKM5) em índices após ajuizar pedido de ...
+2026-08-24 18:52:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:33 [INFO] Classificação: nao_enviar
+2026-08-24 18:52:33 [INFO] Aguardando 2.59s...
+2026-08-24 18:52:36 [INFO] [22/22] ID: tag:google.com,2013:googlealerts/feed:13692973785190795782
+2026-08-24 18:52:36 [INFO] Título: Recuperação extrajudicial: entenda como funciona e o que muda - NC News
+2026-08-24 18:52:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 18:52:36 [INFO] Classificação: enviar
+2026-08-24 18:52:36 [INFO] ======================================================================
+2026-08-24 18:52:36 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 18:52:36 [INFO] ======================================================================
+2026-08-24 18:52:36 [INFO] Processadas: 22
+2026-08-24 18:52:36 [INFO] Enviar: 16
+2026-08-24 18:52:36 [INFO] Não enviar: 6
+2026-08-24 18:52:36 [INFO] ======================================================================
