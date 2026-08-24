@@ -7379,3 +7379,31 @@
 2026-08-24 01:49:39 [INFO] Enviar: 0
 2026-08-24 01:49:39 [INFO] Não enviar: 8
 2026-08-24 01:49:39 [INFO] ======================================================================
+2026-08-24 03:11:43 [INFO] ======================================================================
+2026-08-24 03:11:43 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 03:11:43 [INFO] ======================================================================
+2026-08-24 03:11:43 [INFO] Notícias com status 'extraida': 3
+2026-08-24 03:11:43 [INFO] Limite: 20 requisições/minuto
+2026-08-24 03:11:43 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 03:11:43 [INFO] ======================================================================
+2026-08-24 03:11:43 [INFO] [1/3] ID: tag:google.com,2013:googlealerts/feed:7217314828921015388
+2026-08-24 03:11:43 [INFO] Título: Ausente no debate, Flávio publica vídeo mirando em Lula - SBT News
+2026-08-24 03:11:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 03:11:43 [INFO] Classificação: nao_enviar
+2026-08-24 03:11:43 [INFO] Aguardando 2.56s...
+2026-08-24 03:11:46 [INFO] [2/3] ID: tag:google.com,2013:googlealerts/feed:18312166083241347823
+2026-08-24 03:11:46 [INFO] Título: Irmãos Batista assumem controle da Avibras, gigante brasileira do setor de defesa
+2026-08-24 03:11:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 03:11:46 [INFO] Classificação: nao_enviar
+2026-08-24 03:11:46 [INFO] Aguardando 2.68s...
+2026-08-24 03:11:49 [INFO] [3/3] ID: tag:google.com,2013:googlealerts/feed:11787885911542288507
+2026-08-24 03:11:49 [INFO] Título: Ambipar mantém dados contábeis sob sigilo antes de assembleia de credores; entenda
+2026-08-24 03:11:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 03:11:49 [INFO] Classificação: enviar
+2026-08-24 03:11:49 [INFO] ======================================================================
+2026-08-24 03:11:49 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 03:11:49 [INFO] ======================================================================
+2026-08-24 03:11:49 [INFO] Processadas: 3
+2026-08-24 03:11:49 [INFO] Enviar: 1
+2026-08-24 03:11:49 [INFO] Não enviar: 2
+2026-08-24 03:11:49 [INFO] ======================================================================
