@@ -7407,3 +7407,31 @@
 2026-08-24 03:11:49 [INFO] Enviar: 1
 2026-08-24 03:11:49 [INFO] Não enviar: 2
 2026-08-24 03:11:49 [INFO] ======================================================================
+2026-08-24 04:54:13 [INFO] ======================================================================
+2026-08-24 04:54:13 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 04:54:13 [INFO] ======================================================================
+2026-08-24 04:54:13 [INFO] Notícias com status 'extraida': 3
+2026-08-24 04:54:13 [INFO] Limite: 20 requisições/minuto
+2026-08-24 04:54:13 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 04:54:13 [INFO] ======================================================================
+2026-08-24 04:54:13 [INFO] [1/3] ID: tag:google.com,2013:googlealerts/feed:6356258203582352667
+2026-08-24 04:54:13 [INFO] Título: O preço da terra está barato demais pra ignorar, dizem estes gestores - Brazil Journal
+2026-08-24 04:54:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 04:54:13 [INFO] Classificação: nao_enviar
+2026-08-24 04:54:13 [INFO] Aguardando 2.63s...
+2026-08-24 04:54:16 [INFO] [2/3] ID: tag:google.com,2013:googlealerts/feed:8511350331045444711
+2026-08-24 04:54:16 [INFO] Título: HAVE BRAZILIANS STOPPED SHOPPING? UNDERSTANDING THE CRISIS HITTING RETAIL
+2026-08-24 04:54:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 04:54:16 [INFO] Classificação: nao_enviar
+2026-08-24 04:54:16 [INFO] Aguardando 2.76s...
+2026-08-24 04:54:19 [INFO] [3/3] ID: tag:google.com,2013:googlealerts/feed:6252167054376775823
+2026-08-24 04:54:19 [INFO] Título: Casas Bahia: crise desencadeia corrida de varejo regional por mercado de R$ 300 milhões
+2026-08-24 04:54:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 04:54:19 [INFO] Classificação: nao_enviar
+2026-08-24 04:54:19 [INFO] ======================================================================
+2026-08-24 04:54:19 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 04:54:19 [INFO] ======================================================================
+2026-08-24 04:54:19 [INFO] Processadas: 3
+2026-08-24 04:54:19 [INFO] Enviar: 0
+2026-08-24 04:54:19 [INFO] Não enviar: 3
+2026-08-24 04:54:19 [INFO] ======================================================================
