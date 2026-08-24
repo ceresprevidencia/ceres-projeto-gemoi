@@ -7486,3 +7486,36 @@
 2026-08-24 08:57:27 [INFO] Enviar: 0
 2026-08-24 08:57:27 [INFO] Não enviar: 0
 2026-08-24 08:57:27 [INFO] ======================================================================
+2026-08-24 09:57:41 [INFO] ======================================================================
+2026-08-24 09:57:41 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 09:57:41 [INFO] ======================================================================
+2026-08-24 09:57:41 [INFO] Notícias com status 'extraida': 4
+2026-08-24 09:57:41 [INFO] Limite: 20 requisições/minuto
+2026-08-24 09:57:41 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 09:57:41 [INFO] ======================================================================
+2026-08-24 09:57:41 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:3795492838390892821
+2026-08-24 09:57:41 [INFO] Título: O que falta para Marcos Lamacchia comprar a SAF do Vasco? Veja - Terra
+2026-08-24 09:57:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 09:57:42 [INFO] Classificação: nao_enviar
+2026-08-24 09:57:42 [INFO] Aguardando 2.49s...
+2026-08-24 09:57:44 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:11535130654712411705
+2026-08-24 09:57:44 [INFO] Título: Casas Bahia deve a 28 mil credores; veja quem pode sofrer mais para receber
+2026-08-24 09:57:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 09:57:45 [INFO] Classificação: nao_enviar
+2026-08-24 09:57:45 [INFO] Aguardando 2.71s...
+2026-08-24 09:57:47 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:14370037731351345838
+2026-08-24 09:57:47 [INFO] Título: Public finance challenges for the next president of Brazil - YouTube
+2026-08-24 09:57:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 09:57:48 [INFO] Classificação: nao_enviar
+2026-08-24 09:57:48 [INFO] Aguardando 2.50s...
+2026-08-24 09:57:50 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:373229029234923512
+2026-08-24 09:57:50 [INFO] Título: Varejistas derretem na Bolsa enquanto juros altos pressionam empresas - CNN Brasil
+2026-08-24 09:57:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 09:57:51 [INFO] Classificação: nao_enviar
+2026-08-24 09:57:51 [INFO] ======================================================================
+2026-08-24 09:57:51 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 09:57:51 [INFO] ======================================================================
+2026-08-24 09:57:51 [INFO] Processadas: 4
+2026-08-24 09:57:51 [INFO] Enviar: 0
+2026-08-24 09:57:51 [INFO] Não enviar: 4
+2026-08-24 09:57:51 [INFO] ======================================================================
