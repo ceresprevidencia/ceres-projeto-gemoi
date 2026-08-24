@@ -10700,6 +10700,42 @@
       "updated": "2026-08-24T15:58:20Z",
       "content": "O Banco Master encontra-se extinto e em processo de <b>liquidação extrajudicial</b> decretada pelo Banco Central do Brasil desde 18 de novembro de 2025.",
       "status": "nao_enviar"
+    },
+    "tag:google.com,2013:googlealerts/feed:16609881895897163527": {
+      "id": "tag:google.com,2013:googlealerts/feed:16609881895897163527",
+      "title": "Braskem: Saiba como funciona uma recuperação extrajudicial - Valor Econômico",
+      "link": "https://valor.globo.com/empresas/noticia/2026/08/24/como-funciona-uma-recuperacao-extrajudicial.ghtml",
+      "published": "2026-08-24T16:06:01Z",
+      "updated": "2026-08-24T16:06:01Z",
+      "content": "Processo acordado entre a Braskem e seus credores é mais simples do que uma recuperação <b>judicial</b>.",
+      "status": "enviado"
+    },
+    "tag:google.com,2013:googlealerts/feed:574350353413997547": {
+      "id": "tag:google.com,2013:googlealerts/feed:574350353413997547",
+      "title": "Braskem pede recuperação extrajudicial: quem pode perder dinheiro com dívida de US$ 10 bilhões?",
+      "link": "https://www.estadao.com.br/einvestidor/cenarios-e-mercado/braskem-pede-recuperacao-extrajudicial-quem-pode-perder-dinheiro-com-divida-de-us-10-bilhoes/",
+      "published": "2026-08-24T13:46:43Z",
+      "updated": "2026-08-24T13:46:43Z",
+      "content": "No mercado, a recuperação extrajudicial é vista como uma alternativa mais favorável à empresa do que a recuperação <b>judicial</b>, considerada mais complexa ...",
+      "status": "enviado"
+    },
+    "tag:google.com,2013:googlealerts/feed:2676362740740621513": {
+      "id": "tag:google.com,2013:googlealerts/feed:2676362740740621513",
+      "title": "Braskem fecha acordo para pedir recuperação extrajudicial - Jornal do Comércio",
+      "link": "https://www.jornaldocomercio.com/economia/2026/08/1260703-braskem-fecha-acordo-para-pedir-recuperacao-extrajudicial.html",
+      "published": "2026-08-24T13:14:09Z",
+      "updated": "2026-08-24T13:14:09Z",
+      "content": "Na última terça-feira (18), a joint venture entrou com o semelhante à recuperação <b>judicial</b> nos EUA. A companhia chegou a acordos com credores e ...",
+      "status": "enviado"
+    },
+    "tag:google.com,2013:googlealerts/feed:3868648266633395588": {
+      "id": "tag:google.com,2013:googlealerts/feed:3868648266633395588",
+      "title": "Brasil promulga acordo sobre comércio eletrônico no Mercosul - Mirian Gasparin",
+      "link": "https://miriangasparin.com.br/2026/08/brasil-promulga-acordo-sobre-comercio-eletronico-no-mercosul/",
+      "published": "2026-08-24T17:10:09Z",
+      "updated": "2026-08-24T17:10:09Z",
+      "content": "<b>Liquidação extrajudicial</b> · Conselho aprova pedido de recuperação extrajudicial da Braskem · Mirian Gasparin · 24 de agosto de 2026 · 0 · Mercado reduz ...",
+      "status": "nao_enviar"
     }
   }
 }

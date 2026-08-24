@@ -8337,3 +8337,36 @@
 2026-08-24 16:49:57 [INFO] Enviar: 40
 2026-08-24 16:49:57 [INFO] Não enviar: 5
 2026-08-24 16:49:57 [INFO] ======================================================================
+2026-08-24 17:37:29 [INFO] ======================================================================
+2026-08-24 17:37:29 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 17:37:29 [INFO] ======================================================================
+2026-08-24 17:37:29 [INFO] Notícias com status 'extraida': 4
+2026-08-24 17:37:29 [INFO] Limite: 20 requisições/minuto
+2026-08-24 17:37:29 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 17:37:29 [INFO] ======================================================================
+2026-08-24 17:37:29 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:16609881895897163527
+2026-08-24 17:37:29 [INFO] Título: Braskem: Saiba como funciona uma recuperação extrajudicial - Valor Econômico
+2026-08-24 17:37:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 17:37:29 [INFO] Classificação: enviar
+2026-08-24 17:37:29 [INFO] Aguardando 2.53s...
+2026-08-24 17:37:32 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:574350353413997547
+2026-08-24 17:37:32 [INFO] Título: Braskem pede recuperação extrajudicial: quem pode perder dinheiro com dívida de US$ 10 bilhões?
+2026-08-24 17:37:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 17:37:32 [INFO] Classificação: enviar
+2026-08-24 17:37:32 [INFO] Aguardando 2.68s...
+2026-08-24 17:37:35 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:2676362740740621513
+2026-08-24 17:37:35 [INFO] Título: Braskem fecha acordo para pedir recuperação extrajudicial - Jornal do Comércio
+2026-08-24 17:37:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 17:37:35 [INFO] Classificação: enviar
+2026-08-24 17:37:35 [INFO] Aguardando 2.72s...
+2026-08-24 17:37:38 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:3868648266633395588
+2026-08-24 17:37:38 [INFO] Título: Brasil promulga acordo sobre comércio eletrônico no Mercosul - Mirian Gasparin
+2026-08-24 17:37:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 17:37:38 [INFO] Classificação: nao_enviar
+2026-08-24 17:37:38 [INFO] ======================================================================
+2026-08-24 17:37:38 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 17:37:38 [INFO] ======================================================================
+2026-08-24 17:37:38 [INFO] Processadas: 4
+2026-08-24 17:37:38 [INFO] Enviar: 3
+2026-08-24 17:37:38 [INFO] Não enviar: 1
+2026-08-24 17:37:38 [INFO] ======================================================================
