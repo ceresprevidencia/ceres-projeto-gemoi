@@ -8021,3 +8021,81 @@
 2026-08-24 14:52:20 [INFO] Enviar: 30
 2026-08-24 14:52:20 [INFO] Não enviar: 2
 2026-08-24 14:52:20 [INFO] ======================================================================
+2026-08-24 15:47:54 [INFO] ======================================================================
+2026-08-24 15:47:54 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-24 15:47:54 [INFO] ======================================================================
+2026-08-24 15:47:54 [INFO] Notícias com status 'extraida': 13
+2026-08-24 15:47:54 [INFO] Limite: 20 requisições/minuto
+2026-08-24 15:47:54 [INFO] Intervalo mínimo: 3.0s
+2026-08-24 15:47:54 [INFO] ======================================================================
+2026-08-24 15:47:54 [INFO] [1/13] ID: tag:google.com,2013:googlealerts/feed:2435795778822504041
+2026-08-24 15:47:54 [INFO] Título: 'Braskem: <b>recuperação extrajudicial</b> mostra estratégia de proteção' | Monitor Mercantil
+2026-08-24 15:47:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:47:55 [INFO] Classificação: enviar
+2026-08-24 15:47:55 [INFO] Aguardando 2.80s...
+2026-08-24 15:47:57 [INFO] [2/13] ID: tag:google.com,2013:googlealerts/feed:8275303927742348919
+2026-08-24 15:47:57 [INFO] Título: Com dívidas de R$ 56 bilhões, Braskem pede <b>recuperação</b> extrajudical - Terra
+2026-08-24 15:47:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:47:58 [INFO] Classificação: enviar
+2026-08-24 15:47:58 [INFO] Aguardando 2.76s...
+2026-08-24 15:48:00 [INFO] [3/13] ID: tag:google.com,2013:googlealerts/feed:3011359284294616483
+2026-08-24 15:48:00 [INFO] Título: Braskem pede <b>recuperação extrajudicial</b> para renegociar dívida de R$ 54 bilhões
+2026-08-24 15:48:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:01 [INFO] Classificação: enviar
+2026-08-24 15:48:01 [INFO] Aguardando 2.75s...
+2026-08-24 15:48:03 [INFO] [4/13] ID: tag:google.com,2013:googlealerts/feed:7432801761316777002
+2026-08-24 15:48:03 [INFO] Título: O que é <b>recuperação extrajudicial</b>? Entenda as diferenças para recuperação judicial ...
+2026-08-24 15:48:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:04 [INFO] Classificação: enviar
+2026-08-24 15:48:04 [INFO] Aguardando 2.79s...
+2026-08-24 15:48:06 [INFO] [5/13] ID: tag:google.com,2013:googlealerts/feed:14765894316037939043
+2026-08-24 15:48:06 [INFO] Título: Braskem anuncia <b>recuperação extrajudicial</b> em meio a dívidas - SBT News
+2026-08-24 15:48:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:07 [INFO] Classificação: enviar
+2026-08-24 15:48:07 [INFO] Aguardando 2.64s...
+2026-08-24 15:48:09 [INFO] [6/13] ID: tag:google.com,2013:googlealerts/feed:9448027044136417573
+2026-08-24 15:48:09 [INFO] Título: Gestora propõe <b>liquidação</b> de três fundos imobiliários aos cotistas; Ifix avança
+2026-08-24 15:48:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:10 [INFO] Classificação: enviar
+2026-08-24 15:48:10 [INFO] Aguardando 2.84s...
+2026-08-24 15:48:12 [INFO] [7/13] ID: tag:google.com,2013:googlealerts/feed:7450474934241622661
+2026-08-24 15:48:12 [INFO] Título: Conselho aprova pedido de recuperação <b>extrajudicial</b> da Braskem - Mirian Gasparin
+2026-08-24 15:48:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:13 [INFO] Classificação: enviar
+2026-08-24 15:48:13 [INFO] Aguardando 2.70s...
+2026-08-24 15:48:15 [INFO] [8/13] ID: tag:google.com,2013:googlealerts/feed:15320575216508167399
+2026-08-24 15:48:15 [INFO] Título: Braskem pede recuperação <b>extrajudicial</b> para renegociar dívida de R$ 54 bi
+2026-08-24 15:48:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:16 [INFO] Classificação: enviar
+2026-08-24 15:48:16 [INFO] Aguardando 2.78s...
+2026-08-24 15:48:18 [INFO] [9/13] ID: tag:google.com,2013:googlealerts/feed:7031018747158915569
+2026-08-24 15:48:18 [INFO] Título: O que é recuperação <b>extrajudicial</b>? Entenda as diferenças para recuperação judicial ...
+2026-08-24 15:48:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:19 [INFO] Classificação: enviar
+2026-08-24 15:48:19 [INFO] Aguardando 2.79s...
+2026-08-24 15:48:21 [INFO] [10/13] ID: tag:google.com,2013:googlealerts/feed:9980553300081521805
+2026-08-24 15:48:21 [INFO] Título: Do Pix às criptomoedas: Congresso discute 14 projetos sobre regulação do setor financeiro
+2026-08-24 15:48:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:22 [INFO] Classificação: nao_enviar
+2026-08-24 15:48:22 [INFO] Aguardando 2.82s...
+2026-08-24 15:48:24 [INFO] [11/13] ID: tag:google.com,2013:googlealerts/feed:11370875304508095217
+2026-08-24 15:48:24 [INFO] Título: Com dívida de R$ 54 bilhões, Braskem pede recuperação <b>extrajudicial</b> - portal lj
+2026-08-24 15:48:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:25 [INFO] Classificação: enviar
+2026-08-24 15:48:25 [INFO] Aguardando 2.85s...
+2026-08-24 15:48:27 [INFO] [12/13] ID: tag:google.com,2013:googlealerts/feed:4076700866081407777
+2026-08-24 15:48:27 [INFO] Título: Braskem pede recuperação <b>extrajudicial</b> com dívida de R$ 54 bilhões - Bnews
+2026-08-24 15:48:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:28 [INFO] Classificação: enviar
+2026-08-24 15:48:28 [INFO] Aguardando 2.72s...
+2026-08-24 15:48:30 [INFO] [13/13] ID: tag:google.com,2013:googlealerts/feed:3936098192630987304
+2026-08-24 15:48:30 [INFO] Título: Pix volta a funcionar após instabilidade neste domingo - Jornal do Tocantins
+2026-08-24 15:48:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-24 15:48:31 [INFO] Classificação: nao_enviar
+2026-08-24 15:48:31 [INFO] ======================================================================
+2026-08-24 15:48:31 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-24 15:48:31 [INFO] ======================================================================
+2026-08-24 15:48:31 [INFO] Processadas: 13
+2026-08-24 15:48:31 [INFO] Enviar: 11
+2026-08-24 15:48:31 [INFO] Não enviar: 2
+2026-08-24 15:48:31 [INFO] ======================================================================
