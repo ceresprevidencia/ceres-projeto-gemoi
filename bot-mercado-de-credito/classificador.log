@@ -9587,3 +9587,91 @@
 2026-08-25 17:38:19 [INFO] Enviar: 4
 2026-08-25 17:38:19 [INFO] Não enviar: 6
 2026-08-25 17:38:19 [INFO] ======================================================================
+2026-08-25 18:50:04 [INFO] ======================================================================
+2026-08-25 18:50:04 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 18:50:04 [INFO] ======================================================================
+2026-08-25 18:50:04 [INFO] Notícias com status 'extraida': 15
+2026-08-25 18:50:04 [INFO] Limite: 20 requisições/minuto
+2026-08-25 18:50:04 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 18:50:04 [INFO] ======================================================================
+2026-08-25 18:50:04 [INFO] [1/15] ID: https://conjur.com.br/2026-ago-25/credito-fiscal-e-o-mito-da-desidia-na-recuperacao-judicial/
+2026-08-25 18:50:04 [INFO] Título: Crédito fiscal e o mito do devedor relapso na <b>recuperação judicial</b> - Consultor Jurídico
+2026-08-25 18:50:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:04 [INFO] Classificação: enviar
+2026-08-25 18:50:04 [INFO] Aguardando 2.73s...
+2026-08-25 18:50:07 [INFO] [2/15] ID: https://telesintese.com.br/justica-confirma-falencia-da-oi-e-rejeita-recursos-de-itau-e-bradesco/
+2026-08-25 18:50:07 [INFO] Título: Justiça confirma falência da Oi e rejeita recursos de Itaú e Bradesco - TeleSíntese
+2026-08-25 18:50:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:08 [INFO] Classificação: nao_enviar
+2026-08-25 18:50:08 [INFO] Aguardando 2.60s...
+2026-08-25 18:50:10 [INFO] [3/15] ID: https://teletime.com.br/25/08/2026/justica-do-rio-de-janeiro-decide-pela-falencia-da-oi/
+2026-08-25 18:50:10 [INFO] Título: Justiça do Rio de Janeiro decide pela falência da Oi - TELETIME News
+2026-08-25 18:50:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:10 [INFO] Classificação: enviar
+2026-08-25 18:50:10 [INFO] Aguardando 2.76s...
+2026-08-25 18:50:13 [INFO] [4/15] ID: https://sbtnews.sbt.com.br/colunas/nova-economia/recuperacao-judicial-avanca-entre-micro-e-pequenas-empresas
+2026-08-25 18:50:13 [INFO] Título: A <b>recuperação judicial</b> está chegando às pequenas empresas | Nova Economia - SBT News
+2026-08-25 18:50:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:13 [INFO] Classificação: enviar
+2026-08-25 18:50:13 [INFO] Aguardando 2.76s...
+2026-08-25 18:50:16 [INFO] [5/15] ID: https://economia.uol.com.br/noticias/redacao/2026/08/25/oi-tem-falencia-decretada-pela-justica-novamente.ghtm
+2026-08-25 18:50:16 [INFO] Título: Oi tem falência decretada pela Justiça novamente - UOL Economia
+2026-08-25 18:50:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:17 [INFO] Classificação: enviar
+2026-08-25 18:50:17 [INFO] Aguardando 2.05s...
+2026-08-25 18:50:19 [INFO] [6/15] ID: https://www.jota.info/trabalho/trt10-mantem-decisao-que-suspendeu-demissoes-coletivas-no-grupo-casas-bahia
+2026-08-25 18:50:19 [INFO] Título: TRT10 mantém decisão que suspendeu demissões coletivas no Grupo Casas Bahia - JOTA
+2026-08-25 18:50:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:19 [INFO] Classificação: nao_enviar
+2026-08-25 18:50:19 [INFO] Aguardando 2.72s...
+2026-08-25 18:50:22 [INFO] [7/15] ID: https://www.youtube.com/watch?v=RIk2XlfliyE
+2026-08-25 18:50:22 [INFO] Título: Braskem pede <b>recuperação extrajudicial</b> para renegociar R$ 56 bilhões em dívidas
+2026-08-25 18:50:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:22 [INFO] Classificação: enviar
+2026-08-25 18:50:22 [INFO] Aguardando 2.82s...
+2026-08-25 18:50:25 [INFO] [8/15] ID: https://www.cartacapital.com.br/justica/dino-autoriza-pf-a-acessar-dados-de-operacao-contra-produtora-de-filme-sobre-bolsonaro/
+2026-08-25 18:50:25 [INFO] Título: Dino autoriza PF a acessar dados de operação contra produtora de filme sobre Bolsonaro
+2026-08-25 18:50:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:25 [INFO] Classificação: nao_enviar
+2026-08-25 18:50:25 [INFO] Aguardando 2.84s...
+2026-08-25 18:50:28 [INFO] [9/15] ID: https://www.infomoney.com.br/mercados/arrecadacao-julho-confianca-consumidor-eua-agenda-25082026/
+2026-08-25 18:50:28 [INFO] Título: Arrecadação de julho, confiança do consumidor nos EUA e mais destaques desta terça
+2026-08-25 18:50:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:28 [INFO] Classificação: nao_enviar
+2026-08-25 18:50:28 [INFO] Aguardando 2.80s...
+2026-08-25 18:50:31 [INFO] [10/15] ID: https://blocktrends.com.br/braskem-recuperacao-extrajudicial-divida-54-bilhoes/
+2026-08-25 18:50:31 [INFO] Título: Braskem protocola <b>recuperação extrajudicial</b> para reestruturar R$ 54 bilhões em dívida e ...
+2026-08-25 18:50:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:32 [INFO] Classificação: enviar
+2026-08-25 18:50:32 [INFO] Aguardando 2.62s...
+2026-08-25 18:50:34 [INFO] [11/15] ID: https://www1.folha.uol.com.br/mercado/2026/08/justica-decreta-falencia-da-oi.shtml
+2026-08-25 18:50:34 [INFO] Título: Oi: Operadora tem falência decretada pela Justiça - 25/08/2026 - Economia - Folha
+2026-08-25 18:50:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:34 [INFO] Classificação: nao_enviar
+2026-08-25 18:50:34 [INFO] Aguardando 2.71s...
+2026-08-25 18:50:37 [INFO] [12/15] ID: https://www.ojacare.com.br/2026/08/25/tabosa-minimiza-operacao-e-diz-que-master-e-o-maior-escandalo-do-brasil/
+2026-08-25 18:50:37 [INFO] Título: Tabosa minimiza operação e diz que Master é o maior escândalo do Brasil - O Jacaré
+2026-08-25 18:50:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:38 [INFO] Classificação: nao_enviar
+2026-08-25 18:50:38 [INFO] Aguardando 2.50s...
+2026-08-25 18:50:40 [INFO] [13/15] ID: https://www.metro1.com.br/noticias/politica/187308,vice-prefeita-e-alvo-de-operacao-da-pf-sobre-investimento-de-rdollar-12-milhao-no-banco-master
+2026-08-25 18:50:40 [INFO] Título: Vice-prefeita é alvo de operação da PF sobre investimento de R$ 1,2 milhão no Banco Master
+2026-08-25 18:50:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:41 [INFO] Classificação: nao_enviar
+2026-08-25 18:50:41 [INFO] Aguardando 2.46s...
+2026-08-25 18:50:43 [INFO] [14/15] ID: https://www.metropoles.com/colunas/mirelle-pinheiro/master-vice-prefeita-e-alvo-da-pf-em-acao-que-mira-previdencia-no-ms
+2026-08-25 18:50:43 [INFO] Título: Master: vice-prefeita é alvo da PF em ação que mira Previdência no MS - Metrópoles
+2026-08-25 18:50:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:43 [INFO] Classificação: nao_enviar
+2026-08-25 18:50:43 [INFO] Aguardando 2.72s...
+2026-08-25 18:50:46 [INFO] [15/15] ID: https://midiamax.com.br/policia/2026/prefeitura-afirma-recursos-impcg-estao-protegidos-apos-operacao-pf/
+2026-08-25 18:50:46 [INFO] Título: Prefeitura afirma que recursos do IMPCG estão protegidos após operação da PF
+2026-08-25 18:50:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 18:50:47 [INFO] Classificação: nao_enviar
+2026-08-25 18:50:47 [INFO] ======================================================================
+2026-08-25 18:50:47 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 18:50:47 [INFO] ======================================================================
+2026-08-25 18:50:47 [INFO] Processadas: 15
+2026-08-25 18:50:47 [INFO] Enviar: 6
+2026-08-25 18:50:47 [INFO] Não enviar: 9
+2026-08-25 18:50:47 [INFO] ======================================================================
