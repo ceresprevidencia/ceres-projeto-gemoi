@@ -9373,3 +9373,101 @@
 2026-08-25 14:54:25 [INFO] Enviar: 16
 2026-08-25 14:54:25 [INFO] Não enviar: 3
 2026-08-25 14:54:25 [INFO] ======================================================================
+2026-08-25 15:51:44 [INFO] ======================================================================
+2026-08-25 15:51:44 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 15:51:44 [INFO] ======================================================================
+2026-08-25 15:51:44 [INFO] Notícias com status 'extraida': 17
+2026-08-25 15:51:44 [INFO] Limite: 20 requisições/minuto
+2026-08-25 15:51:44 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 15:51:44 [INFO] ======================================================================
+2026-08-25 15:51:44 [INFO] [1/17] ID: https://www.metropoles.com/brasil/economia-br/senacon-casas-bahia-marabraz
+2026-08-25 15:51:44 [INFO] Título: Senacon monitora <b>recuperação judicial</b> da Casas Bahia e da Marabraz - Metrópoles
+2026-08-25 15:51:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:51:45 [INFO] Classificação: enviar
+2026-08-25 15:51:45 [INFO] Aguardando 2.64s...
+2026-08-25 15:51:47 [INFO] [2/17] ID: https://economia.uol.com.br/noticias/redacao/2026/08/25/justica-mantem-suspensao-de-demissoes-em-massa-da-casas-bahia.ghtm
+2026-08-25 15:51:47 [INFO] Título: Justiça mantém suspensão de demissões em massa da Casas Bahia - UOL Economia
+2026-08-25 15:51:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:51:47 [INFO] Classificação: nao_enviar
+2026-08-25 15:51:47 [INFO] Aguardando 2.83s...
+2026-08-25 15:51:50 [INFO] [3/17] ID: https://www.moneytimes.com.br/recuperacao-judicial-da-casas-bahia-afetara-seguradoras-e-fornecedores/
+2026-08-25 15:51:50 [INFO] Título: <b>Recuperação judicial</b> da Casas Bahia afetará seguradoras e fornecedores - Money Times
+2026-08-25 15:51:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:51:50 [INFO] Classificação: enviar
+2026-08-25 15:51:50 [INFO] Aguardando 2.75s...
+2026-08-25 15:51:53 [INFO] [4/17] ID: https://valor.globo.com/empresas/noticia/2026/08/25/pedidos-somam-dividas-de-r-1745-bi-neste-ano.ghtml
+2026-08-25 15:51:53 [INFO] Título: Pedidos somam dívidas de R$ 174,5 bi neste ano | Empresas - Valor Econômico
+2026-08-25 15:51:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:51:54 [INFO] Classificação: nao_enviar
+2026-08-25 15:51:54 [INFO] Aguardando 2.68s...
+2026-08-25 15:51:56 [INFO] [5/17] ID: https://www.band.com.br/radio-bandeirantes/videos/recuperacao-judicial-cresce-no-brasil-e-desafia-empresas-202608250907
+2026-08-25 15:51:56 [INFO] Título: <b>Recuperação judicial</b> cresce no Brasil e desafia empresas - Band
+2026-08-25 15:51:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:51:57 [INFO] Classificação: enviar
+2026-08-25 15:51:57 [INFO] Aguardando 2.61s...
+2026-08-25 15:51:59 [INFO] [6/17] ID: https://exame.com/insight/braskem-ganha-tempo-com-recuperacao-extrajudicial-agora-alguem-tera-de-ceder/p
+2026-08-25 15:51:59 [INFO] Título: Braskem ganha tempo com <b>recuperação extrajudicial</b>. Agora, alguém terá de ceder - Exame
+2026-08-25 15:51:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:51:59 [INFO] Classificação: enviar
+2026-08-25 15:51:59 [INFO] Aguardando 2.79s...
+2026-08-25 15:52:02 [INFO] [7/17] ID: https://www1.folha.uol.com.br/mercado/2026/08/lupatech-consegue-aval-de-credores-para-plano-de-recuperacao-extrajudicial.shtml
+2026-08-25 15:52:02 [INFO] Título: Lupatech consegue aval de credores para plano de <b>recuperação extrajudicial</b> - Folha
+2026-08-25 15:52:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:03 [INFO] Classificação: enviar
+2026-08-25 15:52:03 [INFO] Aguardando 2.69s...
+2026-08-25 15:52:05 [INFO] [8/17] ID: https://valor.globo.com/empresas/noticia/2026/08/25/braskem-pede-recuperacao-extrajudicial-e-ganha-tempo.ghtml
+2026-08-25 15:52:05 [INFO] Título: Braskem pede <b>recuperação extrajudicial</b> e ganha tempo | Empresas | Valor Econômico
+2026-08-25 15:52:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:05 [INFO] Classificação: enviar
+2026-08-25 15:52:05 [INFO] Aguardando 2.85s...
+2026-08-25 15:52:08 [INFO] [9/17] ID: https://br.investing.com/news/stock-market-news/brkm5-b3-exclui-braskem-de-indices-hoje-por-recuperacao-extrajudicial-2048896
+2026-08-25 15:52:08 [INFO] Título: BRKM5: B3 exclui Braskem de índices hoje por <b>recuperação extrajudicial</b> - Investing.com
+2026-08-25 15:52:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:08 [INFO] Classificação: enviar
+2026-08-25 15:52:09 [INFO] Aguardando 2.72s...
+2026-08-25 15:52:11 [INFO] [10/17] ID: https://www.jornaldocomercio.com/economia/2026/08/1260830-recuperacao-extrajudicial-da-braskem-acende-alerta-entre-investidores.html
+2026-08-25 15:52:11 [INFO] Título: <b>Recuperação extrajudicial</b> da Braskem acende alerta entre investidores
+2026-08-25 15:52:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:11 [INFO] Classificação: enviar
+2026-08-25 15:52:12 [INFO] Aguardando 2.72s...
+2026-08-25 15:52:14 [INFO] [11/17] ID: https://www.broadcast.com.br/news/braskem-apresenta-pedido-de-recuperacao-extrajudicial/
+2026-08-25 15:52:14 [INFO] Título: Braskem apresenta pedido de <b>recuperação extrajudicial</b> - O mercado financeiro em tempo real
+2026-08-25 15:52:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:15 [INFO] Classificação: enviar
+2026-08-25 15:52:15 [INFO] Aguardando 2.64s...
+2026-08-25 15:52:17 [INFO] [12/17] ID: https://www.clubefiinews.com.br/acoes/braskem-protocolo-pedido-recuperacao-extrajudicial-reestruturacao-financeira
+2026-08-25 15:52:17 [INFO] Título: Braskem protocolou pedido de <b>recuperação extrajudicial</b> visando reestruturação financeira
+2026-08-25 15:52:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:17 [INFO] Classificação: enviar
+2026-08-25 15:52:17 [INFO] Aguardando 2.78s...
+2026-08-25 15:52:20 [INFO] [13/17] ID: https://www.oab.org.br/noticia/64506/lei-que-reconhece-natureza-alimentar-dos-honorarios-consolida-atuacao-historica-da-oab-nacional
+2026-08-25 15:52:20 [INFO] Título: Lei que reconhece natureza alimentar dos honorários consolida atuação histórica da OAB Nacional
+2026-08-25 15:52:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:20 [INFO] Classificação: nao_enviar
+2026-08-25 15:52:20 [INFO] Aguardando 2.74s...
+2026-08-25 15:52:23 [INFO] [14/17] ID: https://www.campograndenews.com.br/cidades/capital/pf-faz-operacao-no-impcg-por-aplicacao-de-r-1-2-milhao-no-banco-master
+2026-08-25 15:52:23 [INFO] Título: PF faz operação no IMPCG por aplicação de R$ 1,2 milhão no Banco Master - Campo Grande News
+2026-08-25 15:52:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:23 [INFO] Classificação: nao_enviar
+2026-08-25 15:52:23 [INFO] Aguardando 2.77s...
+2026-08-25 15:52:26 [INFO] [15/17] ID: https://www.capitaldopantanal.com.br/policia/2026/08/25/pf-vasculha-secretaria-de-assistencia-social-e-instituto-de-previdencia-de-campo-grande.html
+2026-08-25 15:52:26 [INFO] Título: PF vasculha Secretaria de Assistência Social e Instituto de Previdência de Campo Grande
+2026-08-25 15:52:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:27 [INFO] Classificação: nao_enviar
+2026-08-25 15:52:27 [INFO] Aguardando 2.71s...
+2026-08-25 15:52:29 [INFO] [16/17] ID: https://coximagora.com.br/campo-grande/gabinete-da-vice-prefeita-de-campo-grande-e-alvo-da-policia-federal/
+2026-08-25 15:52:29 [INFO] Título: Gabinete da vice-prefeita de Campo Grande é alvo da Polícia Federal - Coxim Agora
+2026-08-25 15:52:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:29 [INFO] Classificação: nao_enviar
+2026-08-25 15:52:29 [INFO] Aguardando 2.78s...
+2026-08-25 15:52:32 [INFO] [17/17] ID: https://www.otempo.com.br/opiniao/2026/8/25/brb-quando-o-balanco-atrasa-o-problema-e-maior-do-que-parece.amp
+2026-08-25 15:52:32 [INFO] Título: BRB: quando o balanço atrasa, o problema é maior do que parece - O TEMPO
+2026-08-25 15:52:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 15:52:33 [INFO] Classificação: nao_enviar
+2026-08-25 15:52:33 [INFO] ======================================================================
+2026-08-25 15:52:33 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 15:52:33 [INFO] ======================================================================
+2026-08-25 15:52:33 [INFO] Processadas: 17
+2026-08-25 15:52:33 [INFO] Enviar: 10
+2026-08-25 15:52:33 [INFO] Não enviar: 7
+2026-08-25 15:52:33 [INFO] ======================================================================
