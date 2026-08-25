@@ -8996,3 +8996,31 @@
 2026-08-25 05:38:15 [INFO] Enviar: 0
 2026-08-25 05:38:15 [INFO] Não enviar: 0
 2026-08-25 05:38:15 [INFO] ======================================================================
+2026-08-25 07:00:10 [INFO] ======================================================================
+2026-08-25 07:00:10 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 07:00:10 [INFO] ======================================================================
+2026-08-25 07:00:10 [INFO] Notícias com status 'extraida': 3
+2026-08-25 07:00:10 [INFO] Limite: 20 requisições/minuto
+2026-08-25 07:00:10 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 07:00:10 [INFO] ======================================================================
+2026-08-25 07:00:10 [INFO] [1/3] ID: tag:google.com,2013:googlealerts/feed:12530949208450358970
+2026-08-25 07:00:10 [INFO] Título: Confira detalhes dos valores que Marcos Lamacchia propôs antecipar para os credores da ...
+2026-08-25 07:00:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 07:00:11 [INFO] Classificação: nao_enviar
+2026-08-25 07:00:11 [INFO] Aguardando 2.57s...
+2026-08-25 07:00:13 [INFO] [2/3] ID: tag:google.com,2013:googlealerts/feed:1203352317626939928
+2026-08-25 07:00:13 [INFO] Título: Confira detalhes dos valores que Marcos Lamacchia propôs antecipar para os credores da ...
+2026-08-25 07:00:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 07:00:13 [INFO] Classificação: enviar
+2026-08-25 07:00:13 [INFO] Aguardando 2.79s...
+2026-08-25 07:00:16 [INFO] [3/3] ID: tag:google.com,2013:googlealerts/feed:14162254421637795616
+2026-08-25 07:00:16 [INFO] Título: Braskem: Petrobras foi fundamental para que credores aceitassem plano de recuperação
+2026-08-25 07:00:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 07:00:16 [INFO] Classificação: enviar
+2026-08-25 07:00:16 [INFO] ======================================================================
+2026-08-25 07:00:16 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 07:00:16 [INFO] ======================================================================
+2026-08-25 07:00:16 [INFO] Processadas: 3
+2026-08-25 07:00:16 [INFO] Enviar: 2
+2026-08-25 07:00:16 [INFO] Não enviar: 1
+2026-08-25 07:00:16 [INFO] ======================================================================
