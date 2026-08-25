@@ -11699,6 +11699,15 @@
       "updated": "2026-08-25T05:37:52Z",
       "content": "... <b>liquidação</b> antecipada, que antecipam o vencimento de créditos diante de eventos como o pedido de recuperação <b>extrajudicial</b>. \"No total, estima-se ...",
       "status": "enviado"
+    },
+    "tag:google.com,2013:googlealerts/feed:3846258713592593138": {
+      "id": "tag:google.com,2013:googlealerts/feed:3846258713592593138",
+      "title": "Fitch downgrades Thopen Solar 07 to 'D(bra)'",
+      "link": "https://www.fitchratings.com/research/pt/infrastructure-project-finance/fitch-downgrades-thopen-solar-07-to-d-bra-24-08-2026",
+      "published": "2026-08-25T01:35:48Z",
+      "updated": "2026-08-25T01:35:48Z",
+      "content": "... <b>recuperação judicial</b> da Thopen Energia S.A., que também incluiu a emissora Thopen Solar 07. De acordo com a escritura de emissão, o ingresso em ...",
+      "status": "nao_enviar"
     }
   }
 }
