@@ -8926,3 +8926,41 @@
 2026-08-25 01:44:20 [INFO] Enviar: 8
 2026-08-25 01:44:20 [INFO] Não enviar: 4
 2026-08-25 01:44:20 [INFO] ======================================================================
+2026-08-25 03:07:00 [INFO] ======================================================================
+2026-08-25 03:07:00 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 03:07:00 [INFO] ======================================================================
+2026-08-25 03:07:00 [INFO] Notícias com status 'extraida': 5
+2026-08-25 03:07:00 [INFO] Limite: 20 requisições/minuto
+2026-08-25 03:07:00 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 03:07:00 [INFO] ======================================================================
+2026-08-25 03:07:00 [INFO] [1/5] ID: tag:google.com,2013:googlealerts/feed:14655016653987818472
+2026-08-25 03:07:00 [INFO] Título: Braskem (BRKM5) confirma pedido de <b>recuperação</b> extrajudicial para dívidas de R$ 11 bi
+2026-08-25 03:07:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 03:07:01 [INFO] Classificação: enviar
+2026-08-25 03:07:01 [INFO] Aguardando 2.60s...
+2026-08-25 03:07:03 [INFO] [2/5] ID: tag:google.com,2013:googlealerts/feed:9457226026509691966
+2026-08-25 03:07:03 [INFO] Título: Crise do varejo chega aos FIIs de logística. Veja os mais afetados – e os menos
+2026-08-25 03:07:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 03:07:04 [INFO] Classificação: nao_enviar
+2026-08-25 03:07:04 [INFO] Aguardando 2.72s...
+2026-08-25 03:07:06 [INFO] [3/5] ID: tag:google.com,2013:googlealerts/feed:4224409396703856550
+2026-08-25 03:07:06 [INFO] Título: Fucape pede para sair de ação <b>judicial</b> que blinda patrimônio da Apex - A Gazeta
+2026-08-25 03:07:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 03:07:07 [INFO] Classificação: nao_enviar
+2026-08-25 03:07:07 [INFO] Aguardando 2.60s...
+2026-08-25 03:07:09 [INFO] [4/5] ID: tag:google.com,2013:googlealerts/feed:18160258711823926045
+2026-08-25 03:07:09 [INFO] Título: Braskem protocola pedido de <b>recuperação</b> extrajudicial de US$ 10,9 bi - Agência iNFRA
+2026-08-25 03:07:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 03:07:09 [INFO] Classificação: enviar
+2026-08-25 03:07:09 [INFO] Aguardando 2.82s...
+2026-08-25 03:07:12 [INFO] [5/5] ID: tag:google.com,2013:googlealerts/feed:16017113667243292906
+2026-08-25 03:07:12 [INFO] Título: Braskem busca recuperação extrajudicial para US$ 10,9 bi | Capital Aberto
+2026-08-25 03:07:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 03:07:12 [INFO] Classificação: enviar
+2026-08-25 03:07:12 [INFO] ======================================================================
+2026-08-25 03:07:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 03:07:12 [INFO] ======================================================================
+2026-08-25 03:07:12 [INFO] Processadas: 5
+2026-08-25 03:07:12 [INFO] Enviar: 3
+2026-08-25 03:07:12 [INFO] Não enviar: 2
+2026-08-25 03:07:12 [INFO] ======================================================================
