@@ -9222,3 +9222,46 @@
 2026-08-25 13:02:06 [INFO] Enviar: 6
 2026-08-25 13:02:06 [INFO] Não enviar: 4
 2026-08-25 13:02:06 [INFO] ======================================================================
+2026-08-25 10:28:44 [INFO] ======================================================================
+2026-08-25 10:28:44 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 10:28:44 [INFO] ======================================================================
+2026-08-25 10:28:44 [INFO] Notícias com status 'extraida': 6
+2026-08-25 10:28:44 [INFO] Limite: 20 requisições/minuto
+2026-08-25 10:28:44 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 10:28:44 [INFO] ======================================================================
+2026-08-25 10:28:44 [INFO] [1/6] ID: https://economia.uol.com.br/noticias/redacao/2026/08/25/recuperacao-judicial---lupatech.ghtm
+2026-08-25 10:28:44 [INFO] Título: Lupatech consegue aval dos credores para plano de <b>recuperação</b> extrajudicial
+2026-08-25 10:28:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:28:46 [INFO] Classificação: enviar
+2026-08-25 10:28:46 [INFO] Aguardando 1.47s...
+2026-08-25 10:28:47 [INFO] [2/6] ID: https://www.youtube.com/watch?v=5cSey_XaSXQ
+2026-08-25 10:28:47 [INFO] Título: Recuperação <b>judicial</b> cresce no Brasil e desafia empresas - YouTube
+2026-08-25 10:28:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:28:48 [INFO] Classificação: enviar
+2026-08-25 10:28:48 [INFO] Aguardando 2.35s...
+2026-08-25 10:28:50 [INFO] [3/6] ID: https://economia.uol.com.br/noticias/redacao/2026/08/25/braskem-petrobras-plano-de-recuperacao-extrajudicial-credores-dividas.ghtm
+2026-08-25 10:28:50 [INFO] Título: Sem dinheiro da Petrobras, plano de recuperação da Braskem pode fracassar
+2026-08-25 10:28:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:28:51 [INFO] Classificação: enviar
+2026-08-25 10:28:51 [INFO] Aguardando 2.09s...
+2026-08-25 10:28:53 [INFO] [4/6] ID: https://www.metropoles.com/colunas/milena-teixeira/recuperacao-da-braskem-e-das-casas-bahia-acende-alerta-na-campanha-de-lula
+2026-08-25 10:28:53 [INFO] Título: Recuperação da Braskem e das Casas Bahia acende alerta na campanha de Lula
+2026-08-25 10:28:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:28:53 [INFO] Classificação: enviar
+2026-08-25 10:28:54 [INFO] Aguardando 2.63s...
+2026-08-25 10:28:56 [INFO] [5/6] ID: https://www.jornalcruzeiro.com.br/sorocaba/noticias/2026/08/764441-casas-bahia-demite-90-na-regiao-mas-justica-suspende.html
+2026-08-25 10:28:56 [INFO] Título: Casas Bahia demite 90 na região, mas Justiça suspende - Jornal Cruzeiro do Sul
+2026-08-25 10:28:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:28:57 [INFO] Classificação: nao_enviar
+2026-08-25 10:28:57 [INFO] Aguardando 2.25s...
+2026-08-25 10:28:59 [INFO] [6/6] ID: https://www.folhavitoria.com.br/economia/casas-bahia-o-preco-do-dinheiro-e-a-nova-onda-de-recuperacoes/
+2026-08-25 10:28:59 [INFO] Título: Casas Bahia: o preço do dinheiro e a nova onda de recuperações - Folha Vitória
+2026-08-25 10:28:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:28:59 [INFO] Classificação: enviar
+2026-08-25 10:29:00 [INFO] ======================================================================
+2026-08-25 10:29:00 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 10:29:00 [INFO] ======================================================================
+2026-08-25 10:29:00 [INFO] Processadas: 6
+2026-08-25 10:29:00 [INFO] Enviar: 5
+2026-08-25 10:29:00 [INFO] Não enviar: 1
+2026-08-25 10:29:00 [INFO] ======================================================================

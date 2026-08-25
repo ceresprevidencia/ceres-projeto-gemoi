@@ -230,9 +230,6 @@ def parse_google_alerts(xml_bytes: bytes) -> List[Dict[str, str]]:
             entry.find("atom:content", ATOM_NS)
         )
 
-        if not google_alert_id:
-            continue
-
         item = {
             "id": google_alert_id,
             "title": title,
@@ -242,6 +239,10 @@ def parse_google_alerts(xml_bytes: bytes) -> List[Dict[str, str]]:
             "content": content,
             "status": "extraida",
         }
+
+        if not item["link"]:
+            logger.warning("Notícia ignorada por não possuir link: %s", title)
+            continue
 
         noticias.append(item)
 
@@ -280,9 +281,10 @@ def load_history(history_path: Path) -> Dict[str, dict]:
     if not isinstance(noticias, dict):
         return {}
 
+    noticias_por_link = {}
     alterado = False
 
-    for noticia in noticias.values():
+    for chave_atual, noticia in noticias.items():
 
         if not isinstance(noticia, dict):
             continue
@@ -291,10 +293,33 @@ def load_history(history_path: Path) -> Dict[str, dict]:
             noticia["status"] = "extraida"
             alterado = True
 
-    if alterado:
-        save_history(history_path, noticias)
+        link = clean_google_alert_link(str(noticia.get("link") or "").strip())
+        if not link:
+            logger.warning(
+                "Notícia sem link ignorada ao migrar o histórico: %s",
+                chave_atual,
+            )
+            alterado = True
+            continue
 
-    return noticias
+        noticia["link"] = link
+        if chave_atual != link:
+            alterado = True
+
+        if link in noticias_por_link:
+            logger.warning(
+                "Link duplicado no histórico; mantendo a primeira ocorrência: %s",
+                link,
+            )
+            alterado = True
+            continue
+
+        noticias_por_link[link] = noticia
+
+    if alterado:
+        save_history(history_path, noticias_por_link)
+
+    return noticias_por_link
 
 
 def save_history(
@@ -382,14 +407,14 @@ def process_feeds(
 
         for item in items:
 
-            google_alert_id = item["id"]
+            link = item["link"]
 
-            # Se o ID já estiver salvo,
+            # Se o link já estiver salvo,
             # pula para a próxima notícia.
-            if google_alert_id in noticias_salvas:
+            if link in noticias_salvas:
                 continue
 
-            noticias_salvas[google_alert_id] = item
+            noticias_salvas[link] = item
 
             novas_no_feed += 1
             total_novas += 1

@@ -8,7 +8,6 @@ import streamlit as st
 def buscar_dados_rent_produtos() -> pd.DataFrame:
     query = """
         WITH ranked_posicao AS (
-    -- CONSULTA 2: Posição DF
     SELECT
         RAF.DATA_COTACAO,
         RME.TESOURARIA,
@@ -28,7 +27,7 @@ def buscar_dados_rent_produtos() -> pd.DataFrame:
     WHERE RME.NIVEL_AGREGACAO = 'Sintético Nível 4' 
     AND RA.NOME LIKE '[RESULTADO] FUNDAÇÃO CERES DIARIO OFICIAL#%'
 )
--- SELECT FINAL: Junta as duas CTEs
+
 SELECT 
     *
 FROM ranked_posicao  
