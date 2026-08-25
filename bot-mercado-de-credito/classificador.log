@@ -9957,3 +9957,51 @@
 2026-08-25 22:35:51 [INFO] Enviar: 7
 2026-08-25 22:35:51 [INFO] Não enviar: 2
 2026-08-25 22:35:51 [INFO] ======================================================================
+2026-08-25 23:31:07 [INFO] ======================================================================
+2026-08-25 23:31:07 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 23:31:07 [INFO] ======================================================================
+2026-08-25 23:31:07 [INFO] Notícias com status 'extraida': 7
+2026-08-25 23:31:07 [INFO] Limite: 20 requisições/minuto
+2026-08-25 23:31:07 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 23:31:07 [INFO] ======================================================================
+2026-08-25 23:31:07 [INFO] [1/7] ID: https://www.instagram.com/p/DcetruTjVIp/
+2026-08-25 23:31:07 [INFO] Título: Há dez anos se arrastando em processo de <b>recuperação judicial</b>, a Oi teve a falência ... - Instagram
+2026-08-25 23:31:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 23:31:08 [INFO] Classificação: enviar
+2026-08-25 23:31:08 [INFO] Aguardando 2.66s...
+2026-08-25 23:31:10 [INFO] [2/7] ID: https://www.cnnbrasil.com.br/economia/money/macroeconomia/marabraz-pede-recuperacao-judicial-com-dividas-de-r-140-milhoes/
+2026-08-25 23:31:10 [INFO] Título: Marabraz pede <b>recuperação judicial</b> com dívidas de R$ 140 milhões - CNN Brasil
+2026-08-25 23:31:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 23:31:11 [INFO] Classificação: enviar
+2026-08-25 23:31:11 [INFO] Aguardando 2.74s...
+2026-08-25 23:31:13 [INFO] [3/7] ID: https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/ambipar-adia-votacao-do-plano-de-recuperacao-judicial-apos-falta-de-quorum-veja-nova-data/
+2026-08-25 23:31:13 [INFO] Título: Ambipar adia votação do plano de <b>recuperação judicial</b> após falta de quórum; veja nova data
+2026-08-25 23:31:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 23:31:14 [INFO] Classificação: enviar
+2026-08-25 23:31:14 [INFO] Aguardando 2.68s...
+2026-08-25 23:31:16 [INFO] [4/7] ID: https://www.youtube.com/watch?v=LH7rO1NDOc4
+2026-08-25 23:31:16 [INFO] Título: Schüler discusses the end of the 6x1 work schedule and warns of economic risks - YouTube
+2026-08-25 23:31:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 23:31:17 [INFO] Classificação: nao_enviar
+2026-08-25 23:31:17 [INFO] Aguardando 2.69s...
+2026-08-25 23:31:19 [INFO] [5/7] ID: https://revistaoeste.com/economia/brasil-tem-63-mil-empresas-em-recuperacao-judicial/
+2026-08-25 23:31:19 [INFO] Título: Brasil tem 6,3 mil empresas em recuperação <b>judicial</b> - Revista Oeste
+2026-08-25 23:31:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 23:31:20 [INFO] Classificação: enviar
+2026-08-25 23:31:20 [INFO] Aguardando 2.78s...
+2026-08-25 23:31:22 [INFO] [6/7] ID: https://teletime.com.br/25/08/2026/anatel-oi-prioridade/
+2026-08-25 23:31:22 [INFO] Título: Anatel: prioridade é continuidade de serviços prestados pela Oi - TELETIME News
+2026-08-25 23:31:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 23:31:23 [INFO] Classificação: nao_enviar
+2026-08-25 23:31:23 [INFO] Aguardando 2.67s...
+2026-08-25 23:31:25 [INFO] [7/7] ID: https://www.itatiaia.com.br/brasil/brasil-geral/pf-investiga-aplicacao-de-r-12-milhao-da-previdencia-de-campo-grande-no-master/
+2026-08-25 23:31:25 [INFO] Título: PF investiga aplicação de R$ 1,2 milhão da previdência de Campo Grande no Master
+2026-08-25 23:31:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 23:31:26 [INFO] Classificação: nao_enviar
+2026-08-25 23:31:26 [INFO] ======================================================================
+2026-08-25 23:31:26 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 23:31:26 [INFO] ======================================================================
+2026-08-25 23:31:26 [INFO] Processadas: 7
+2026-08-25 23:31:26 [INFO] Enviar: 4
+2026-08-25 23:31:26 [INFO] Não enviar: 3
+2026-08-25 23:31:26 [INFO] ======================================================================
