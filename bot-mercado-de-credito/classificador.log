@@ -9816,3 +9816,86 @@
 2026-08-25 20:38:36 [INFO] Enviar: 6
 2026-08-25 20:38:36 [INFO] Não enviar: 10
 2026-08-25 20:38:36 [INFO] ======================================================================
+2026-08-25 21:35:59 [INFO] ======================================================================
+2026-08-25 21:35:59 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 21:35:59 [INFO] ======================================================================
+2026-08-25 21:35:59 [INFO] Notícias com status 'extraida': 14
+2026-08-25 21:35:59 [INFO] Limite: 20 requisições/minuto
+2026-08-25 21:35:59 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 21:35:59 [INFO] ======================================================================
+2026-08-25 21:35:59 [INFO] [1/14] ID: https://neofeed.com.br/negocios/exclusivo-administradora-judicial-da-fictor-pede-afastamento-de-fundador-e-diretores/
+2026-08-25 21:35:59 [INFO] Título: EXCLUSIVO: Administradora <b>judicial</b> da Fictor pede afastamento de fundador e diretores
+2026-08-25 21:35:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:35:59 [INFO] Classificação: enviar
+2026-08-25 21:35:59 [INFO] Aguardando 2.60s...
+2026-08-25 21:36:02 [INFO] [2/14] ID: https://www1.folha.uol.com.br/mercado/2026/08/justica-mantem-suspensas-as-demissoes-na-casas-bahia.shtml
+2026-08-25 21:36:02 [INFO] Título: Justiça mantém suspensas as demissões na Casas Bahia - Folha - UOL
+2026-08-25 21:36:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:02 [INFO] Classificação: nao_enviar
+2026-08-25 21:36:02 [INFO] Aguardando 2.75s...
+2026-08-25 21:36:05 [INFO] [3/14] ID: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/ambipar-adia-votacao-do-plano-de-recuperacao-judicial-apos-falta-de-quorum-veja-nova-data/
+2026-08-25 21:36:05 [INFO] Título: Ambipar adia votação do plano de <b>recuperação judicial</b> após falta de quórum; veja nova data
+2026-08-25 21:36:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:05 [INFO] Classificação: enviar
+2026-08-25 21:36:05 [INFO] Aguardando 2.73s...
+2026-08-25 21:36:08 [INFO] [4/14] ID: https://conjur.com.br/2026-ago-25/cnj-impoe-limites-a-administradores-judiciais-em-grandes-recuperacoes/
+2026-08-25 21:36:08 [INFO] Título: CNJ impõe limites a administradores <b>judiciais</b> em grandes recuperações
+2026-08-25 21:36:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:08 [INFO] Classificação: enviar
+2026-08-25 21:36:08 [INFO] Aguardando 2.84s...
+2026-08-25 21:36:11 [INFO] [5/14] ID: https://www.bloomberglinea.com.br/negocios/recuperacao-extrajudicial-de-us-11-bi-da-braskem-poe-petrobras-no-centro-das-atencoes/
+2026-08-25 21:36:11 [INFO] Título: <b>Recuperação extrajudicial</b> de US$ 11 bi da Braskem põe Petrobras no centro das atenções
+2026-08-25 21:36:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:11 [INFO] Classificação: enviar
+2026-08-25 21:36:11 [INFO] Aguardando 2.68s...
+2026-08-25 21:36:14 [INFO] [6/14] ID: https://investnews.com.br/negocios/como-a-recuperacao-extrajudicial-da-braskem-afeta-a-petrobras/
+2026-08-25 21:36:14 [INFO] Título: Como a <b>recuperação extrajudicial</b> da Braskem afeta a Petrobras - InvestNews
+2026-08-25 21:36:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:14 [INFO] Classificação: enviar
+2026-08-25 21:36:14 [INFO] Aguardando 2.67s...
+2026-08-25 21:36:17 [INFO] [7/14] ID: https://www.youtube.com/shorts/y9UCFVO0j8w
+2026-08-25 21:36:17 [INFO] Título: Braskem e Casas Bahia: o que está acontecendo no mercado brasileiro? - YouTube
+2026-08-25 21:36:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:17 [INFO] Classificação: nao_enviar
+2026-08-25 21:36:17 [INFO] Aguardando 2.72s...
+2026-08-25 21:36:20 [INFO] [8/14] ID: https://www.terra.com.br/economia/braskem-recorre-a-recuperacao-extrajudicial-sob-peso-de-us11-bi-em-dividas,4e6dd02dba21280a7652ef9e824934f539aekd8c.html
+2026-08-25 21:36:20 [INFO] Título: Braskem recorre a <b>recuperação extrajudicial</b> sob peso de US$11 bi em dívidas - Terra
+2026-08-25 21:36:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:20 [INFO] Classificação: enviar
+2026-08-25 21:36:20 [INFO] Aguardando 2.75s...
+2026-08-25 21:36:23 [INFO] [9/14] ID: https://www.infomoney.com.br/mercados/oi-confirma-falencia-decretada-pela-justica-do-rj/
+2026-08-25 21:36:23 [INFO] Título: Oi confirma falência decretada pela Justiça do RJ - InfoMoney
+2026-08-25 21:36:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:23 [INFO] Classificação: nao_enviar
+2026-08-25 21:36:23 [INFO] Aguardando 2.67s...
+2026-08-25 21:36:26 [INFO] [10/14] ID: https://www.clickguarulhos.com.br/2026/08/25/recuperacao-judicial-das-casas-bahia-expoe-mudanca-estrutural-no-varejo-aponta-especialista-da-umc/
+2026-08-25 21:36:26 [INFO] Título: Recuperação <b>judicial</b> das Casas Bahia expõe mudança estrutural no varejo ... - Click Guarulhos
+2026-08-25 21:36:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:26 [INFO] Classificação: enviar
+2026-08-25 21:36:26 [INFO] Aguardando 2.66s...
+2026-08-25 21:36:29 [INFO] [11/14] ID: https://forbes.com.br/geral/2026/08/justica-confirma-falencia-oi-recursos-itau-bradesco/
+2026-08-25 21:36:29 [INFO] Título: Justiça Confirma Falência da Oi após Rejeitar Recursos de Itaú e Bradesco - Forbes Brasil
+2026-08-25 21:36:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:29 [INFO] Classificação: nao_enviar
+2026-08-25 21:36:29 [INFO] Aguardando 2.71s...
+2026-08-25 21:36:32 [INFO] [12/14] ID: https://www.contabeis.com.br/noticias/78991/stf-valida-restricao-a-recuperacao-de-devedor-contumaz/
+2026-08-25 21:36:32 [INFO] Título: STF valida restrição à recuperação de devedor contumaz - Portal Contábeis
+2026-08-25 21:36:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:32 [INFO] Classificação: enviar
+2026-08-25 21:36:32 [INFO] Aguardando 2.73s...
+2026-08-25 21:36:35 [INFO] [13/14] ID: https://www.jd1noticias.com/policia/2026/08/25/apos-operacao-da-pf-prefeitura-afirma-que-resgatou-investimento-do-impcg.html
+2026-08-25 21:36:35 [INFO] Título: Após operação da PF, prefeitura afirma que resgatou investimento do IMPCG | JD1 Notícias
+2026-08-25 21:36:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:35 [INFO] Classificação: nao_enviar
+2026-08-25 21:36:35 [INFO] Aguardando 2.64s...
+2026-08-25 21:36:38 [INFO] [14/14] ID: https://claudiodantas.com.br/pf-mira-aplicacao-de-recursos-da-previdencia-de-campo-grande-no-master/
+2026-08-25 21:36:38 [INFO] Título: PF mira aplicação de recursos da previdência de Campo Grande no Master
+2026-08-25 21:36:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 21:36:38 [INFO] Classificação: nao_enviar
+2026-08-25 21:36:38 [INFO] ======================================================================
+2026-08-25 21:36:38 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 21:36:38 [INFO] ======================================================================
+2026-08-25 21:36:38 [INFO] Processadas: 14
+2026-08-25 21:36:38 [INFO] Enviar: 8
+2026-08-25 21:36:38 [INFO] Não enviar: 6
+2026-08-25 21:36:38 [INFO] ======================================================================
