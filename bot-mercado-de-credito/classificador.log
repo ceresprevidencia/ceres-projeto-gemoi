@@ -9024,3 +9024,41 @@
 2026-08-25 07:00:16 [INFO] Enviar: 2
 2026-08-25 07:00:16 [INFO] Não enviar: 1
 2026-08-25 07:00:16 [INFO] ======================================================================
+2026-08-25 07:54:05 [INFO] ======================================================================
+2026-08-25 07:54:05 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 07:54:05 [INFO] ======================================================================
+2026-08-25 07:54:05 [INFO] Notícias com status 'extraida': 5
+2026-08-25 07:54:05 [INFO] Limite: 20 requisições/minuto
+2026-08-25 07:54:05 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 07:54:05 [INFO] ======================================================================
+2026-08-25 07:54:05 [INFO] [1/5] ID: tag:google.com,2013:googlealerts/feed:4583117016967481148
+2026-08-25 07:54:05 [INFO] Título: Braskem protocola pedido de <b>recuperação extrajudicial</b> | Diário do Comércio
+2026-08-25 07:54:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 07:54:06 [INFO] Classificação: enviar
+2026-08-25 07:54:06 [INFO] Aguardando 2.69s...
+2026-08-25 07:54:08 [INFO] [2/5] ID: tag:google.com,2013:googlealerts/feed:6157094975173739529
+2026-08-25 07:54:08 [INFO] Título: Braskem entra com pedido de <b>recuperação extrajudicial</b>; conheça as razões | CNN 360º
+2026-08-25 07:54:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 07:54:09 [INFO] Classificação: enviar
+2026-08-25 07:54:09 [INFO] Aguardando 2.83s...
+2026-08-25 07:54:11 [INFO] [3/5] ID: tag:google.com,2013:googlealerts/feed:15399738437708917019
+2026-08-25 07:54:11 [INFO] Título: Recuperação extrajudicial da Braskem é pedido de socorro, diz especialista - Brasilagro
+2026-08-25 07:54:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 07:54:12 [INFO] Classificação: enviar
+2026-08-25 07:54:12 [INFO] Aguardando 2.62s...
+2026-08-25 07:54:14 [INFO] [4/5] ID: tag:google.com,2013:googlealerts/feed:15363314976914004536
+2026-08-25 07:54:14 [INFO] Título: ADIn 7.613 e créditos de acordos de leniência na recuperação <b>judicial</b> - Migalhas
+2026-08-25 07:54:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 07:54:15 [INFO] Classificação: enviar
+2026-08-25 07:54:15 [INFO] Aguardando 2.71s...
+2026-08-25 07:54:17 [INFO] [5/5] ID: tag:google.com,2013:googlealerts/feed:15234157276886052338
+2026-08-25 07:54:17 [INFO] Título: Braskem protocola pedido de recuperação <b>extrajudicial</b> com dívidas de R$ 56,5 bi - JOTA
+2026-08-25 07:54:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 07:54:18 [INFO] Classificação: enviar
+2026-08-25 07:54:18 [INFO] ======================================================================
+2026-08-25 07:54:18 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 07:54:18 [INFO] ======================================================================
+2026-08-25 07:54:18 [INFO] Processadas: 5
+2026-08-25 07:54:18 [INFO] Enviar: 5
+2026-08-25 07:54:18 [INFO] Não enviar: 0
+2026-08-25 07:54:18 [INFO] ======================================================================
