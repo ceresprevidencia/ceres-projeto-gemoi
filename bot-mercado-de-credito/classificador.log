@@ -9723,3 +9723,96 @@
 2026-08-25 19:38:43 [INFO] Enviar: 5
 2026-08-25 19:38:43 [INFO] Não enviar: 2
 2026-08-25 19:38:43 [INFO] ======================================================================
+2026-08-25 20:37:51 [INFO] ======================================================================
+2026-08-25 20:37:51 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 20:37:51 [INFO] ======================================================================
+2026-08-25 20:37:51 [INFO] Notícias com status 'extraida': 16
+2026-08-25 20:37:51 [INFO] Limite: 20 requisições/minuto
+2026-08-25 20:37:51 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 20:37:51 [INFO] ======================================================================
+2026-08-25 20:37:51 [INFO] [1/16] ID: https://noticias.stf.jus.br/postsnoticias/stf-valida-regra-que-impede-devedor-contumaz-de-pedir-recuperacao-judicial/
+2026-08-25 20:37:51 [INFO] Título: STF valida regra que impede devedor contumaz de pedir <b>recuperação judicial</b>
+2026-08-25 20:37:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:37:51 [INFO] Classificação: enviar
+2026-08-25 20:37:51 [INFO] Aguardando 2.60s...
+2026-08-25 20:37:54 [INFO] [2/16] ID: https://www.gov.br/mj/pt-br/assuntos/noticias-1/senacon-orienta-consumidores-apos-pedido-de-recuperacao-judicial-do-grupo-casas-bahia
+2026-08-25 20:37:54 [INFO] Título: Senacon abre monitoramento de Casas Bahia, Tok&Stok e Marabraz após pedidos de ...
+2026-08-25 20:37:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:37:54 [INFO] Classificação: enviar
+2026-08-25 20:37:54 [INFO] Aguardando 2.71s...
+2026-08-25 20:37:57 [INFO] [3/16] ID: https://sbtnews.sbt.com.br/noticia/economia/justica-decreta-falencia-da-oi-pela-segunda-vez
+2026-08-25 20:37:57 [INFO] Título: Justiça decreta falência da Oi pela segunda vez - SBT News
+2026-08-25 20:37:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:37:57 [INFO] Classificação: nao_enviar
+2026-08-25 20:37:57 [INFO] Aguardando 2.70s...
+2026-08-25 20:38:00 [INFO] [4/16] ID: https://www2.oabrs.org.br/noticia/pelo-10-ano-comissao-de-direito-agrario-e-do-agronegocio-leva-evento-para-a-expointer/66626
+2026-08-25 20:38:00 [INFO] Título: Pelo 10º ano, Comissão de Direito Agrário e do Agronegócio leva evento para a Expointer
+2026-08-25 20:38:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:00 [INFO] Classificação: nao_enviar
+2026-08-25 20:38:00 [INFO] Aguardando 2.78s...
+2026-08-25 20:38:03 [INFO] [5/16] ID: https://www.poder360.com.br/poder-justica/tribunal-de-justica-do-rio-decreta-falencia-da-oi/
+2026-08-25 20:38:03 [INFO] Título: Tribunal de Justiça do Rio decreta falência da Oi
+2026-08-25 20:38:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:03 [INFO] Classificação: enviar
+2026-08-25 20:38:03 [INFO] Aguardando 2.60s...
+2026-08-25 20:38:06 [INFO] [6/16] ID: https://convergenciadigital.com.br/governo/oi-agoniza-e-tera-dia-d-na-justica-do-rio-de-janeiro/
+2026-08-25 20:38:06 [INFO] Título: Oi agoniza e terá dia D na Justiça do Rio de Janeiro - ConvergenciaDigital
+2026-08-25 20:38:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:06 [INFO] Classificação: nao_enviar
+2026-08-25 20:38:06 [INFO] Aguardando 2.69s...
+2026-08-25 20:38:09 [INFO] [7/16] ID: https://neofeed.com.br/negocios/pulverizacao-da-divida-e-resistencia-de-credores-os-desafios-de-curto-prazo-da-braskem/
+2026-08-25 20:38:09 [INFO] Título: Pulverização da dívida e resistência de credores: os desafios (de curto prazo) da Braskem
+2026-08-25 20:38:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:09 [INFO] Classificação: nao_enviar
+2026-08-25 20:38:09 [INFO] Aguardando 2.69s...
+2026-08-25 20:38:12 [INFO] [8/16] ID: https://vermelho.org.br/2026/08/25/crises-em-serie-levam-braskem-a-pedido-de-recuperacao-extrajudicial/
+2026-08-25 20:38:12 [INFO] Título: Crises em série levam Braskem a pedido de <b>recuperação extrajudicial</b> - Vermelho
+2026-08-25 20:38:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:12 [INFO] Classificação: enviar
+2026-08-25 20:38:12 [INFO] Aguardando 2.76s...
+2026-08-25 20:38:15 [INFO] [9/16] ID: https://g1.globo.com/bom-dia-brasil/noticia/2026/08/25/miriam-leitao-explica-o-que-levou-braskem-a-crise-e-o-que-pode-acontecer-agora.ghtml
+2026-08-25 20:38:15 [INFO] Título: Miriam Leitão explica o que levou Braskem à crise | G1 - Globo
+2026-08-25 20:38:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:15 [INFO] Classificação: nao_enviar
+2026-08-25 20:38:15 [INFO] Aguardando 2.71s...
+2026-08-25 20:38:18 [INFO] [10/16] ID: https://www.youtube.com/watch?v=BiKkkpFYgrI
+2026-08-25 20:38:18 [INFO] Título: Casas Bahia entra com pedido de recuperação <b>judicial</b>; Denise Campos de Toledo analisa
+2026-08-25 20:38:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:18 [INFO] Classificação: enviar
+2026-08-25 20:38:18 [INFO] Aguardando 2.77s...
+2026-08-25 20:38:21 [INFO] [11/16] ID: https://economia.ig.com.br/2026-08-25/qual-a-diferenca-entre-recuperacao-judicial-e-falencia-.html
+2026-08-25 20:38:21 [INFO] Título: Qual a diferença entre recuperação <b>judicial</b> e falência? - iG Economia
+2026-08-25 20:38:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:21 [INFO] Classificação: nao_enviar
+2026-08-25 20:38:21 [INFO] Aguardando 2.70s...
+2026-08-25 20:38:24 [INFO] [12/16] ID: https://agenciadcnews.com.br/publicacao/s/falencia-da-oi-e-confirmada-pelo-tribunal-de-justica-do-rio
+2026-08-25 20:38:24 [INFO] Título: Falência da Oi é confirmada pelo Tribunal de Justiça do Rio - Diário do Comércio
+2026-08-25 20:38:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:24 [INFO] Classificação: nao_enviar
+2026-08-25 20:38:24 [INFO] Aguardando 2.75s...
+2026-08-25 20:38:27 [INFO] [13/16] ID: https://www.diariodigital.com.br/geral/dinheiro-da-previdencia-aplicado-no-banco-master-foi-recuperado-diz-prefeita
+2026-08-25 20:38:27 [INFO] Título: Dinheiro da Previdência aplicado no Banco Master foi recuperado, diz prefeita - Geral
+2026-08-25 20:38:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:27 [INFO] Classificação: nao_enviar
+2026-08-25 20:38:27 [INFO] Aguardando 2.70s...
+2026-08-25 20:38:30 [INFO] [14/16] ID: https://ncnews.com.br/2026/08/25/justica-do-rio-decreta-falencia-da-oi/
+2026-08-25 20:38:30 [INFO] Título: Tribunal de Justiça do Rio decreta falência da Oi - NC News
+2026-08-25 20:38:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:30 [INFO] Classificação: enviar
+2026-08-25 20:38:30 [INFO] Aguardando 2.67s...
+2026-08-25 20:38:33 [INFO] [15/16] ID: https://opetroleo.com.br/fundo-garantidor-de-creditos-como-funciona-e-quem-recebe/
+2026-08-25 20:38:33 [INFO] Título: Fundo Garantidor de Créditos: como funciona e quem recebe
+2026-08-25 20:38:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:33 [INFO] Classificação: nao_enviar
+2026-08-25 20:38:33 [INFO] Aguardando 2.82s...
+2026-08-25 20:38:36 [INFO] [16/16] ID: https://bocadopovonews.com.br/prefeitura-nega-irregularidades-em-aplicacoes-do-impcg-e-acompanha-investigacao-da-pf/
+2026-08-25 20:38:36 [INFO] Título: Prefeitura nega irregularidades em aplicações do IMPCG e acompanha investigação da PF
+2026-08-25 20:38:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 20:38:36 [INFO] Classificação: nao_enviar
+2026-08-25 20:38:36 [INFO] ======================================================================
+2026-08-25 20:38:36 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 20:38:36 [INFO] ======================================================================
+2026-08-25 20:38:36 [INFO] Processadas: 16
+2026-08-25 20:38:36 [INFO] Enviar: 6
+2026-08-25 20:38:36 [INFO] Não enviar: 10
+2026-08-25 20:38:36 [INFO] ======================================================================
