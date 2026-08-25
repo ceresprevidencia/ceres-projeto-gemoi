@@ -9265,3 +9265,111 @@
 2026-08-25 10:29:00 [INFO] Enviar: 5
 2026-08-25 10:29:00 [INFO] Não enviar: 1
 2026-08-25 10:29:00 [INFO] ======================================================================
+2026-08-25 14:53:30 [INFO] ======================================================================
+2026-08-25 14:53:30 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 14:53:30 [INFO] ======================================================================
+2026-08-25 14:53:30 [INFO] Notícias com status 'extraida': 19
+2026-08-25 14:53:30 [INFO] Limite: 20 requisições/minuto
+2026-08-25 14:53:30 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 14:53:30 [INFO] ======================================================================
+2026-08-25 14:53:30 [INFO] [1/19] ID: https://forbes.com.br/forbes-money/2026/08/osx-eike-batista-recuperacao-judicial-divida-75-bilhoes/
+2026-08-25 14:53:30 [INFO] Título: OSX, Controlada por Eike Batista, Avança em <b>Recuperação Judicial</b> Bilionária
+2026-08-25 14:53:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:31 [INFO] Classificação: enviar
+2026-08-25 14:53:31 [INFO] Aguardando 2.72s...
+2026-08-25 14:53:33 [INFO] [2/19] ID: https://valor.globo.com/legislacao/noticia/2026/08/25/stf-valida-legislacao-que-impede-pedido-de-recuperacao-judicial-por-devedor-contumaz.ghtml
+2026-08-25 14:53:33 [INFO] Título: STF valida legislação que impede pedido de <b>recuperação judicial</b> por devedor contumaz
+2026-08-25 14:53:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:34 [INFO] Classificação: enviar
+2026-08-25 14:53:34 [INFO] Aguardando 2.81s...
+2026-08-25 14:53:36 [INFO] [3/19] ID: https://www.infomoney.com.br/politica/stf-valida-legislacao-que-impede-pedido-de-recuperacao-judicial-por-devedor-contumaz/
+2026-08-25 14:53:36 [INFO] Título: STF valida legislação que impede pedido de <b>recuperação judicial</b> por devedor contumaz
+2026-08-25 14:53:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:37 [INFO] Classificação: enviar
+2026-08-25 14:53:37 [INFO] Aguardando 2.80s...
+2026-08-25 14:53:39 [INFO] [4/19] ID: https://investidor10.com.br/noticias/casas-bahia-bhia3-coloca-executivos-sob-escolta-apos-credor-ameacar-diretores-122236/
+2026-08-25 14:53:39 [INFO] Título: Casas Bahia coloca executivos sob escolta após credor ameaçar diretores - Investidor10
+2026-08-25 14:53:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:40 [INFO] Classificação: nao_enviar
+2026-08-25 14:53:40 [INFO] Aguardando 2.79s...
+2026-08-25 14:53:42 [INFO] [5/19] ID: https://portalaquivale.com.br/em-meio-a-recuperacao-judicial-casas-bahia-realiza-leilao-online-de-eletrodomesticos
+2026-08-25 14:53:42 [INFO] Título: Em meio a <b>recuperação judicial</b>, Casas Bahia realiza leilão online de eletrodomésticos
+2026-08-25 14:53:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:43 [INFO] Classificação: enviar
+2026-08-25 14:53:43 [INFO] Aguardando 2.82s...
+2026-08-25 14:53:45 [INFO] [6/19] ID: https://teletime.com.br/24/08/2026/governo-trabalha-com-cenario-de-falencia-da-oi-na-retomada-do-julgamento/
+2026-08-25 14:53:45 [INFO] Título: Governo trabalha com cenário de falência da Oi na retomada do julgamento
+2026-08-25 14:53:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:46 [INFO] Classificação: nao_enviar
+2026-08-25 14:53:46 [INFO] Aguardando 2.55s...
+2026-08-25 14:53:48 [INFO] [7/19] ID: https://www.youtube.com/watch?v=M1XoaXuA3UY
+2026-08-25 14:53:48 [INFO] Título: Crise econômica leva empresas a pedir <b>recuperação judicial</b> - YouTube
+2026-08-25 14:53:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:49 [INFO] Classificação: enviar
+2026-08-25 14:53:49 [INFO] Aguardando 2.86s...
+2026-08-25 14:53:51 [INFO] [8/19] ID: https://www1.folha.uol.com.br/mercado/2026/08/braskem-perdeu-mercado-para-industria-estrangeira-nos-ultimos-anos-dizem-especialistas.shtml
+2026-08-25 14:53:51 [INFO] Título: Braskem perdeu mercado para indústria estrangeira nos últimos anos, dizem especialistas - Folha
+2026-08-25 14:53:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:52 [INFO] Classificação: nao_enviar
+2026-08-25 14:53:52 [INFO] Aguardando 2.64s...
+2026-08-25 14:53:54 [INFO] [9/19] ID: https://br.advfn.com/jornal/2026/08/braskem-pede-recuperacao-extrajudicial-para-reestruturar-us-10-9-bilhoes-em-dividas
+2026-08-25 14:53:54 [INFO] Título: Braskem pede <b>recuperação extrajudicial</b> para reestruturar US$ 10,9 bilhões em dívidas
+2026-08-25 14:53:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:55 [INFO] Classificação: enviar
+2026-08-25 14:53:55 [INFO] Aguardando 2.81s...
+2026-08-25 14:53:57 [INFO] [10/19] ID: https://www1.folha.uol.com.br/mercado/2026/08/recuperacao-da-braskem-pode-afetar-fundos-coes-e-debentures.shtml
+2026-08-25 14:53:57 [INFO] Título: <b>Recuperação</b> da Braskem pode afetar fundos, COEs e debêntures - Folha - UOL
+2026-08-25 14:53:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:53:58 [INFO] Classificação: enviar
+2026-08-25 14:53:58 [INFO] Aguardando 2.27s...
+2026-08-25 14:54:00 [INFO] [11/19] ID: https://www.migalhas.com.br/quentes/463082/braskem-busca-recuperacao-extrajudicial-veja-a-integra-do-pedido
+2026-08-25 14:54:00 [INFO] Título: Braskem busca <b>recuperação extrajudicial</b>; veja a íntegra do pedido - Migalhas
+2026-08-25 14:54:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:54:01 [INFO] Classificação: enviar
+2026-08-25 14:54:01 [INFO] Aguardando 2.77s...
+2026-08-25 14:54:03 [INFO] [12/19] ID: https://www.youtube.com/watch?v=mBu8aSEeXI0
+2026-08-25 14:54:03 [INFO] Título: Braskem protocola pedido de <b>recuperação extrajudicial</b>; Dino autoriza acesso da PF a ...
+2026-08-25 14:54:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:54:04 [INFO] Classificação: enviar
+2026-08-25 14:54:04 [INFO] Aguardando 2.77s...
+2026-08-25 14:54:06 [INFO] [13/19] ID: https://www.seudinheiro.com/2026/empresas/mais-uma-braskem-brkm5-entra-com-pedido-de-recuperacao-extrajudicial-com-mais-de-us-10-bilhoes-em-divida-giov/
+2026-08-25 14:54:06 [INFO] Título: Agora é pra valer: Braskem (BRKM5) entra com pedido de <b>recuperação extrajudicial</b> com ...
+2026-08-25 14:54:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:54:07 [INFO] Classificação: enviar
+2026-08-25 14:54:07 [INFO] Aguardando 2.59s...
+2026-08-25 14:54:09 [INFO] [14/19] ID: https://br.investing.com/news/stock-market-news/braskem-faz-pedido-de-recuperacao-extrajudicial-2048174
+2026-08-25 14:54:09 [INFO] Título: Braskem apresenta pedido de <b>recuperação extrajudicial</b> Por Reuters - Investing.com
+2026-08-25 14:54:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:54:10 [INFO] Classificação: enviar
+2026-08-25 14:54:10 [INFO] Aguardando 2.70s...
+2026-08-25 14:54:12 [INFO] [15/19] ID: https://valor.globo.com/empresas/noticia/2026/08/24/braskem-protocola-recuperao-extrajudicial-com-apoio-de-credores-que-detm-396-pontos-percentuais-da-dvida.ghtml
+2026-08-25 14:54:12 [INFO] Título: Braskem protocola <b>recuperação extrajudicial</b> com apoio de credores que detêm 39,6% da dívida
+2026-08-25 14:54:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:54:13 [INFO] Classificação: enviar
+2026-08-25 14:54:13 [INFO] Aguardando 2.77s...
+2026-08-25 14:54:15 [INFO] [16/19] ID: https://monitormercantil.com.br/braskem-investidores-expostos-a-divida-podem-perder-com-recuperacao-extrajudicial/
+2026-08-25 14:54:15 [INFO] Título: Braskem: investidor exposto à dívida pode perder com <b>recuperação extrajudicial</b>
+2026-08-25 14:54:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:54:16 [INFO] Classificação: enviar
+2026-08-25 14:54:16 [INFO] Aguardando 2.80s...
+2026-08-25 14:54:18 [INFO] [17/19] ID: https://investnews.com.br/negocios/braskem-adesao-credores-re1/
+2026-08-25 14:54:18 [INFO] Título: Braskem reúne apoio de 39,6% dos credores para negociar <b>recuperação extrajudicial</b>
+2026-08-25 14:54:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:54:19 [INFO] Classificação: enviar
+2026-08-25 14:54:19 [INFO] Aguardando 2.38s...
+2026-08-25 14:54:21 [INFO] [18/19] ID: https://www.estadao.com.br/economia/negocios/braskem-protocola-pedido-de-recuperacao-extrajudicial/
+2026-08-25 14:54:21 [INFO] Título: Braskem protocola pedido de <b>recuperação extrajudicial</b>, para renegociar R$ 56,5 bilhões
+2026-08-25 14:54:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:54:22 [INFO] Classificação: enviar
+2026-08-25 14:54:22 [INFO] Aguardando 2.88s...
+2026-08-25 14:54:24 [INFO] [19/19] ID: https://investidor10.com.br/noticias/braskem-brkm5-sai-do-ibovespa-apos-recuperacao-extrajudicial-entenda-122234/
+2026-08-25 14:54:24 [INFO] Título: Braskem (BRKM5) sai do Ibovespa após <b>recuperação extrajudicial</b>; entenda - Investidor10
+2026-08-25 14:54:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 14:54:25 [INFO] Classificação: enviar
+2026-08-25 14:54:25 [INFO] ======================================================================
+2026-08-25 14:54:25 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 14:54:25 [INFO] ======================================================================
+2026-08-25 14:54:25 [INFO] Processadas: 19
+2026-08-25 14:54:25 [INFO] Enviar: 16
+2026-08-25 14:54:25 [INFO] Não enviar: 3
+2026-08-25 14:54:25 [INFO] ======================================================================
