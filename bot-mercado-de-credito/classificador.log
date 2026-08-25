@@ -9471,3 +9471,56 @@
 2026-08-25 15:52:33 [INFO] Enviar: 10
 2026-08-25 15:52:33 [INFO] Não enviar: 7
 2026-08-25 15:52:33 [INFO] ======================================================================
+2026-08-25 16:47:07 [INFO] ======================================================================
+2026-08-25 16:47:07 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 16:47:07 [INFO] ======================================================================
+2026-08-25 16:47:07 [INFO] Notícias com status 'extraida': 8
+2026-08-25 16:47:07 [INFO] Limite: 20 requisições/minuto
+2026-08-25 16:47:07 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 16:47:07 [INFO] ======================================================================
+2026-08-25 16:47:07 [INFO] [1/8] ID: https://www.lance.com.br/fora-de-campo/alex-meschini-questiona-decisoes-judiciais-envolvendo-flamengo-e-vasco.html
+2026-08-25 16:47:07 [INFO] Título: Alex Meschini questiona decisões <b>judiciais</b> envolvendo Flamengo e Vasco - LANCE!
+2026-08-25 16:47:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 16:47:07 [INFO] Classificação: nao_enviar
+2026-08-25 16:47:07 [INFO] Aguardando 2.64s...
+2026-08-25 16:47:10 [INFO] [2/8] ID: https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/08/mantida-suspensao-das-demissoes-da-casas-bahia-que-fechou-25-lojas-e-dispensou-200-trabalhadores-no-rs-cmt8lgwcb00g30179nl7jzvxp.html
+2026-08-25 16:47:10 [INFO] Título: Mantida suspensão das demissões da Casas Bahia, que fechou 25 lojas e dispensou 200 ... - GZH
+2026-08-25 16:47:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 16:47:10 [INFO] Classificação: nao_enviar
+2026-08-25 16:47:10 [INFO] Aguardando 2.74s...
+2026-08-25 16:47:13 [INFO] [3/8] ID: https://www.terra.com.br/economia/recuperacao-judicial-da-casas-bahia-afetara-seguradoras-e-fornecedores,fe2d78050d039df9ad208f211bcab625k40n7nzq.html
+2026-08-25 16:47:13 [INFO] Título: <b>Recuperação judicial</b> da Casas Bahia afetará seguradoras e fornecedores - Terra
+2026-08-25 16:47:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 16:47:14 [INFO] Classificação: enviar
+2026-08-25 16:47:14 [INFO] Aguardando 1.98s...
+2026-08-25 16:47:16 [INFO] [4/8] ID: https://veja.abril.com.br/economia/braskem-deixa-o-ibovespa-a-partir-de-hoje-apos-recuperacao-extrajudicial/
+2026-08-25 16:47:16 [INFO] Título: Braskem deixa o Ibovespa a partir de hoje após <b>recuperação extrajudicial</b> - Revista Veja
+2026-08-25 16:47:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 16:47:16 [INFO] Classificação: enviar
+2026-08-25 16:47:16 [INFO] Aguardando 2.68s...
+2026-08-25 16:47:19 [INFO] [5/8] ID: https://almapreta.com.br/sessao/cotidiano/braskem-recuperacao-extrajudicial-desastre-maceio/
+2026-08-25 16:47:19 [INFO] Título: Braskem pede <b>recuperação extrajudicial</b> - Alma Preta
+2026-08-25 16:47:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 16:47:19 [INFO] Classificação: enviar
+2026-08-25 16:47:19 [INFO] Aguardando 2.61s...
+2026-08-25 16:47:22 [INFO] [6/8] ID: https://www.cnnbrasil.com.br/blogs/lucinda-pinto/infra/braskem-crise-de-quase-uma-decada-termina-em-reestruturacao-de-us-109-bi/
+2026-08-25 16:47:22 [INFO] Título: Braskem: Crise de quase uma década termina em reestruturação de US$ 10,9 bi | Blogs
+2026-08-25 16:47:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 16:47:23 [INFO] Classificação: nao_enviar
+2026-08-25 16:47:23 [INFO] Aguardando 2.60s...
+2026-08-25 16:47:25 [INFO] [7/8] ID: https://noticias.uol.com.br/colunas/carlos-madeiro/2026/08/24/vitimas-cobram-exclusao-do-afundamento-em-maceio-da-recuperacao-da-braskem.htm
+2026-08-25 16:47:25 [INFO] Título: Vítimas cobram Braskem após <b>recuperação</b>: 'Não se pode apagar este passivo'
+2026-08-25 16:47:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 16:47:26 [INFO] Classificação: enviar
+2026-08-25 16:47:26 [INFO] Aguardando 2.58s...
+2026-08-25 16:47:28 [INFO] [8/8] ID: https://forbes.com.br/forbes-money/2026/08/braskem-deixa-ibovespa-apos-recuperacao-extrajudicial-e-forca-mudanca-nas-carteiras-da-bolsa/
+2026-08-25 16:47:28 [INFO] Título: Braskem Deixa Ibovespa e Força Mudança nas Carteiras da Bolsa - Forbes Brasil
+2026-08-25 16:47:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 16:47:28 [INFO] Classificação: nao_enviar
+2026-08-25 16:47:28 [INFO] ======================================================================
+2026-08-25 16:47:28 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 16:47:28 [INFO] ======================================================================
+2026-08-25 16:47:28 [INFO] Processadas: 8
+2026-08-25 16:47:28 [INFO] Enviar: 4
+2026-08-25 16:47:28 [INFO] Não enviar: 4
+2026-08-25 16:47:28 [INFO] ======================================================================
