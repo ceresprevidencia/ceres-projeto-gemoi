@@ -9080,3 +9080,31 @@
 2026-08-25 08:52:27 [INFO] Enviar: 0
 2026-08-25 08:52:27 [INFO] Não enviar: 1
 2026-08-25 08:52:27 [INFO] ======================================================================
+2026-08-25 09:43:35 [INFO] ======================================================================
+2026-08-25 09:43:35 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 09:43:35 [INFO] ======================================================================
+2026-08-25 09:43:35 [INFO] Notícias com status 'extraida': 3
+2026-08-25 09:43:35 [INFO] Limite: 20 requisições/minuto
+2026-08-25 09:43:35 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 09:43:35 [INFO] ======================================================================
+2026-08-25 09:43:35 [INFO] [1/3] ID: tag:google.com,2013:googlealerts/feed:8029700588485463189
+2026-08-25 09:43:35 [INFO] Título: Casas Bahia, Braskem e a onda de recuperações <b>judiciais</b> pelo Brasil - O Assunto #1790
+2026-08-25 09:43:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 09:43:35 [INFO] Classificação: enviar
+2026-08-25 09:43:35 [INFO] Aguardando 2.48s...
+2026-08-25 09:43:38 [INFO] [2/3] ID: tag:google.com,2013:googlealerts/feed:13369956862808087176
+2026-08-25 09:43:38 [INFO] Título: O fim da Casas Bahia? Entenda o rombo de R$5 bilhões; especialistas analisam - YouTube
+2026-08-25 09:43:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 09:43:38 [INFO] Classificação: nao_enviar
+2026-08-25 09:43:38 [INFO] Aguardando 2.78s...
+2026-08-25 09:43:41 [INFO] [3/3] ID: tag:google.com,2013:googlealerts/feed:7023413278097293991
+2026-08-25 09:43:41 [INFO] Título: É falso que 8.000 empresas faliram no Brasil em junho | Aos Fatos
+2026-08-25 09:43:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 09:43:41 [INFO] Classificação: nao_enviar
+2026-08-25 09:43:41 [INFO] ======================================================================
+2026-08-25 09:43:41 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 09:43:41 [INFO] ======================================================================
+2026-08-25 09:43:41 [INFO] Processadas: 3
+2026-08-25 09:43:41 [INFO] Enviar: 1
+2026-08-25 09:43:41 [INFO] Não enviar: 2
+2026-08-25 09:43:41 [INFO] ======================================================================
