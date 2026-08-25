@@ -9675,3 +9675,51 @@
 2026-08-25 18:50:47 [INFO] Enviar: 6
 2026-08-25 18:50:47 [INFO] Não enviar: 9
 2026-08-25 18:50:47 [INFO] ======================================================================
+2026-08-25 19:38:24 [INFO] ======================================================================
+2026-08-25 19:38:24 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 19:38:24 [INFO] ======================================================================
+2026-08-25 19:38:24 [INFO] Notícias com status 'extraida': 7
+2026-08-25 19:38:24 [INFO] Limite: 20 requisições/minuto
+2026-08-25 19:38:24 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 19:38:24 [INFO] ======================================================================
+2026-08-25 19:38:24 [INFO] [1/7] ID: https://propmark.com.br/mercado/braskem-abre-pedido-de-recuperacao-extrajudicial-para-reestruturar-divida-de-u-109-bi/
+2026-08-25 19:38:24 [INFO] Título: Braskem abre pedido de <b>recuperação extrajudicial</b> para reestruturar dívida de U$ 10,9 bi
+2026-08-25 19:38:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 19:38:25 [INFO] Classificação: enviar
+2026-08-25 19:38:25 [INFO] Aguardando 2.66s...
+2026-08-25 19:38:27 [INFO] [2/7] ID: https://www.infomoney.com.br/mercados/braskem-brkm5-deixa-hoje-o-ibovespa-entenda-criterio-de-indices/
+2026-08-25 19:38:27 [INFO] Título: Braskem (BRKM5) deixa hoje o Ibovespa; entenda critério de índices - InfoMoney
+2026-08-25 19:38:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 19:38:28 [INFO] Classificação: nao_enviar
+2026-08-25 19:38:28 [INFO] Aguardando 2.63s...
+2026-08-25 19:38:30 [INFO] [3/7] ID: https://www.moneytimes.com.br/braskem-brkm5-engrossa-lista-de-45-empresas-que-ja-pediram-recuperacao-extrajudicial-so-neste-ano-entenda/
+2026-08-25 19:38:30 [INFO] Título: Braskem (BRKM5) engrossa lista de 45 empresas que já pediram <b>recuperação extrajudicial</b> ...
+2026-08-25 19:38:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 19:38:31 [INFO] Classificação: enviar
+2026-08-25 19:38:31 [INFO] Aguardando 2.73s...
+2026-08-25 19:38:33 [INFO] [4/7] ID: https://eixos.com.br/newsletters/comece-seu-dia/majors-do-petroleo-tem-dificuldades-para-viabilizar-hidrogenio-ccs-e-eolica-offshore/
+2026-08-25 19:38:33 [INFO] Título: Majors do petróleo têm dificuldades para viabilizar hidrogênio, CCS e eólica offshore | eixos
+2026-08-25 19:38:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 19:38:34 [INFO] Classificação: nao_enviar
+2026-08-25 19:38:34 [INFO] Aguardando 2.66s...
+2026-08-25 19:38:36 [INFO] [5/7] ID: https://br.advfn.com/noticias/PAPERBR/2026/artigo/99186996
+2026-08-25 19:38:36 [INFO] Título: Braskem pede <b>recuperação extrajudicial</b> para reestruturar US$ 10,9 bilhões em dívidas
+2026-08-25 19:38:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 19:38:37 [INFO] Classificação: enviar
+2026-08-25 19:38:37 [INFO] Aguardando 2.51s...
+2026-08-25 19:38:39 [INFO] [6/7] ID: https://www.migalhas.com.br/quentes/463169/tj-rj-decreta-falencia-da-oi-e-encerra-recuperacao-judicial
+2026-08-25 19:38:39 [INFO] Título: TJ/RJ decreta falência da Oi e encerra recuperação <b>judicial</b> - Migalhas
+2026-08-25 19:38:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 19:38:40 [INFO] Classificação: enviar
+2026-08-25 19:38:40 [INFO] Aguardando 2.70s...
+2026-08-25 19:38:42 [INFO] [7/7] ID: https://istoedinheiro.com.br/stf-barra-devedor-contumaz-recuperacao-judicial
+2026-08-25 19:38:42 [INFO] Título: STF valida blindagem fiscal e barra devedor contumaz da recuperação <b>judicial</b>
+2026-08-25 19:38:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 19:38:43 [INFO] Classificação: enviar
+2026-08-25 19:38:43 [INFO] ======================================================================
+2026-08-25 19:38:43 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 19:38:43 [INFO] ======================================================================
+2026-08-25 19:38:43 [INFO] Processadas: 7
+2026-08-25 19:38:43 [INFO] Enviar: 5
+2026-08-25 19:38:43 [INFO] Não enviar: 2
+2026-08-25 19:38:43 [INFO] ======================================================================
