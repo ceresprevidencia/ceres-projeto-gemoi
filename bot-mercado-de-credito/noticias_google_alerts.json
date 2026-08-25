@@ -11735,6 +11735,42 @@
       "updated": "2026-08-25T08:19:34Z",
       "content": "Empresas em processo de falência ou recuperação <b>judicial</b> no Brasil. Número acumulado de CNPJs envolvidos em processos.",
       "status": "nao_enviar"
+    },
+    "tag:google.com,2013:googlealerts/feed:12621789945289549194": {
+      "id": "tag:google.com,2013:googlealerts/feed:12621789945289549194",
+      "title": "<b>Recuperação</b> extrajudicial da Braskem é pedido de socorro, diz especialista - Brasilagro",
+      "link": "https://www.brasilagro.com.br/conteudo/recuperacao-extrajudicial-da-braskem-e-pedido-de-socorro-diz-especialista.html",
+      "published": "2026-08-25T06:44:17Z",
+      "updated": "2026-08-25T06:44:17Z",
+      "content": "A Braskem protocolou nesta segunda-feira (24) pedido de <b>recuperação</b> extrajudicial na 2ª Vara de Falências e Recuperações <b>Judiciais</b> da Comarca da ...",
+      "status": "enviado"
+    },
+    "tag:google.com,2013:googlealerts/feed:18186596544582529986": {
+      "id": "tag:google.com,2013:googlealerts/feed:18186596544582529986",
+      "title": "Casas Bahia, Braskem e a onda de recuperações judiciais pelo Brasil - O Assunto #1790",
+      "link": "https://g1.globo.com/podcast/o-assunto/noticia/2026/08/25/casas-bahia-braskem-e-a-onda-de-recuperacoes-judiciais-pelo-brasil-o-assunto-1790.ghtml",
+      "published": "2026-08-25T09:39:12Z",
+      "updated": "2026-08-25T09:39:12Z",
+      "content": "A Braskem protocolou um pedido de recuperação extrajudicial. Na semana passada, Casas Bahia e Marabraz recorreram à recuperação <b>judicial</b> para ...",
+      "status": "enviado"
+    },
+    "tag:google.com,2013:googlealerts/feed:15740482722710500245": {
+      "id": "tag:google.com,2013:googlealerts/feed:15740482722710500245",
+      "title": "Braskem entra com pedido de recuperação extrajudicial para renegociar dívida de R$ 54 bilhões",
+      "link": "https://timesbrasil.com.br/empresas-e-negocios/braskem-entra-com-pedido-de-recuperacao-extrajudicial-para-renegociar-divida-de-r-54-bilhoes/",
+      "published": "2026-08-25T08:33:56Z",
+      "updated": "2026-08-25T08:33:56Z",
+      "content": "A recuperação extrajudicial permite que a companhia negocie diretamente com grupos de credores e leve o acordo à homologação <b>judicial</b>, sem que isso ...",
+      "status": "enviado"
+    },
+    "tag:google.com,2013:googlealerts/feed:15746047730350403898": {
+      "id": "tag:google.com,2013:googlealerts/feed:15746047730350403898",
+      "title": "Com recuperação extrajudicial engatilhada, Braskem tem oito fábricas e 1,6 mil funcionários no RS",
+      "link": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/08/com-recuperacao-extrajudicial-engatilhada-braskem-tem-oito-fabricas-e-16-mil-funcionarios-no-rs-cmt7cbuvv003q015gnbq0sges.html",
+      "published": "2026-08-25T08:08:19Z",
+      "updated": "2026-08-25T08:08:19Z",
+      "content": "A recuperação extrajudicial é para negociar dívidas com credores, principalmente financeiros. É menos engessada do que a <b>judicial</b>. A vantagem sobre a ...",
+      "status": "enviado"
     }
   }
 }

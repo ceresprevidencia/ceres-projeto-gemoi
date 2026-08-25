@@ -9108,3 +9108,36 @@
 2026-08-25 09:43:41 [INFO] Enviar: 1
 2026-08-25 09:43:41 [INFO] Não enviar: 2
 2026-08-25 09:43:41 [INFO] ======================================================================
+2026-08-25 10:40:39 [INFO] ======================================================================
+2026-08-25 10:40:39 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 10:40:39 [INFO] ======================================================================
+2026-08-25 10:40:39 [INFO] Notícias com status 'extraida': 4
+2026-08-25 10:40:39 [INFO] Limite: 20 requisições/minuto
+2026-08-25 10:40:39 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 10:40:39 [INFO] ======================================================================
+2026-08-25 10:40:39 [INFO] [1/4] ID: tag:google.com,2013:googlealerts/feed:12621789945289549194
+2026-08-25 10:40:39 [INFO] Título: <b>Recuperação</b> extrajudicial da Braskem é pedido de socorro, diz especialista - Brasilagro
+2026-08-25 10:40:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:40:39 [INFO] Classificação: enviar
+2026-08-25 10:40:39 [INFO] Aguardando 2.51s...
+2026-08-25 10:40:42 [INFO] [2/4] ID: tag:google.com,2013:googlealerts/feed:18186596544582529986
+2026-08-25 10:40:42 [INFO] Título: Casas Bahia, Braskem e a onda de recuperações judiciais pelo Brasil - O Assunto #1790
+2026-08-25 10:40:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:40:42 [INFO] Classificação: enviar
+2026-08-25 10:40:42 [INFO] Aguardando 2.71s...
+2026-08-25 10:40:45 [INFO] [3/4] ID: tag:google.com,2013:googlealerts/feed:15740482722710500245
+2026-08-25 10:40:45 [INFO] Título: Braskem entra com pedido de recuperação extrajudicial para renegociar dívida de R$ 54 bilhões
+2026-08-25 10:40:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:40:45 [INFO] Classificação: enviar
+2026-08-25 10:40:45 [INFO] Aguardando 2.53s...
+2026-08-25 10:40:48 [INFO] [4/4] ID: tag:google.com,2013:googlealerts/feed:15746047730350403898
+2026-08-25 10:40:48 [INFO] Título: Com recuperação extrajudicial engatilhada, Braskem tem oito fábricas e 1,6 mil funcionários no RS
+2026-08-25 10:40:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 10:40:48 [INFO] Classificação: enviar
+2026-08-25 10:40:48 [INFO] ======================================================================
+2026-08-25 10:40:48 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 10:40:48 [INFO] ======================================================================
+2026-08-25 10:40:48 [INFO] Processadas: 4
+2026-08-25 10:40:48 [INFO] Enviar: 4
+2026-08-25 10:40:48 [INFO] Não enviar: 0
+2026-08-25 10:40:48 [INFO] ======================================================================
