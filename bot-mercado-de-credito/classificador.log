@@ -9899,3 +9899,61 @@
 2026-08-25 21:36:38 [INFO] Enviar: 8
 2026-08-25 21:36:38 [INFO] Não enviar: 6
 2026-08-25 21:36:38 [INFO] ======================================================================
+2026-08-25 22:35:27 [INFO] ======================================================================
+2026-08-25 22:35:27 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 22:35:27 [INFO] ======================================================================
+2026-08-25 22:35:27 [INFO] Notícias com status 'extraida': 9
+2026-08-25 22:35:27 [INFO] Limite: 20 requisições/minuto
+2026-08-25 22:35:27 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 22:35:27 [INFO] ======================================================================
+2026-08-25 22:35:27 [INFO] [1/9] ID: https://checamos.afp.com/doc.afp.com.C6H97KE
+2026-08-25 22:35:27 [INFO] Título: Gráfico mostra dados de <b>recuperação judicial</b>, não de falência de empresas | Checamos
+2026-08-25 22:35:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:35:27 [INFO] Classificação: enviar
+2026-08-25 22:35:27 [INFO] Aguardando 2.64s...
+2026-08-25 22:35:30 [INFO] [2/9] ID: https://aciara.com.br/recuperacao-extrajudicial-braskem-apresenta-r/
+2026-08-25 22:35:30 [INFO] Título: Braskem apresenta <b>recuperação extrajudicial</b> de R$ 56 bilhões - Acia Araçatuba
+2026-08-25 22:35:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:35:30 [INFO] Classificação: enviar
+2026-08-25 22:35:30 [INFO] Aguardando 2.67s...
+2026-08-25 22:35:33 [INFO] [3/9] ID: https://www.moneytimes.com.br/braskem-brkm5-acoes-estendem-perdas-com-re-e-discussao-de-acordo-com-a-petrobras-no-radar-lmrs/
+2026-08-25 22:35:33 [INFO] Título: Braskem (BRKM5): Ações estendem perdas com <b>recuperação extrajudicial</b> e discussão de acordo ...
+2026-08-25 22:35:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:35:33 [INFO] Classificação: enviar
+2026-08-25 22:35:33 [INFO] Aguardando 2.65s...
+2026-08-25 22:35:36 [INFO] [4/9] ID: https://aciara.com.br/recuperacao-extrajudicial-braskem-protocola-pedido/
+2026-08-25 22:35:36 [INFO] Título: Braskem protocola pedido de <b>recuperação extrajudicial</b> - Acia Araçatuba
+2026-08-25 22:35:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:35:36 [INFO] Classificação: enviar
+2026-08-25 22:35:36 [INFO] Aguardando 2.57s...
+2026-08-25 22:35:39 [INFO] [5/9] ID: https://www.infomoney.com.br/mercados/hapvida-desktop-braskem-viveo-e-mais-acoes-para-acompanhar-hoje/
+2026-08-25 22:35:39 [INFO] Título: Hapvida, Desktop, Braskem, Viveo e mais ações para acompanhar hoje - InfoMoney
+2026-08-25 22:35:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:35:39 [INFO] Classificação: nao_enviar
+2026-08-25 22:35:39 [INFO] Aguardando 2.60s...
+2026-08-25 22:35:42 [INFO] [6/9] ID: https://www.seudinheiro.com/2026/empresas/crise-das-casas-bahia-bhia3-o-que-realmente-aconteceu-para-levar-a-varejista-a-recuperacao-judicial/
+2026-08-25 22:35:42 [INFO] Título: Crise das Casas Bahia (BHIA3): o que realmente aconteceu para levar a varejista à recuperação ...
+2026-08-25 22:35:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:35:42 [INFO] Classificação: enviar
+2026-08-25 22:35:42 [INFO] Aguardando 2.56s...
+2026-08-25 22:35:45 [INFO] [7/9] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/08/25/falencia-da-oi-servicos-que-dependem-da-tele-serao-mantidos-trabalhadores-vao-receber-entenda.ghtml
+2026-08-25 22:35:45 [INFO] Título: Falência da Oi: serviços que dependem da tele serão mantidos? Trabalhadores vão ...
+2026-08-25 22:35:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:35:45 [INFO] Classificação: enviar
+2026-08-25 22:35:45 [INFO] Aguardando 2.69s...
+2026-08-25 22:35:48 [INFO] [8/9] ID: https://www.moneytimes.com.br/oi-oibr3-justica-confirma-falencia-da-telecom-lmrs/
+2026-08-25 22:35:48 [INFO] Título: Oi (OIBR3): Justiça confirma falência da telecom - Money Times
+2026-08-25 22:35:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:35:48 [INFO] Classificação: enviar
+2026-08-25 22:35:48 [INFO] Aguardando 2.61s...
+2026-08-25 22:35:51 [INFO] [9/9] ID: https://miriangasparin.com.br/2026/08/startup-curitibana-esta-entre-empresas-selecionadas-para-ranking-nacional-de-negocios-em-expansao/
+2026-08-25 22:35:51 [INFO] Título: Startup curitibana está entre empresas selecionadas para ranking nacional de Negócios em ...
+2026-08-25 22:35:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 22:35:51 [INFO] Classificação: nao_enviar
+2026-08-25 22:35:51 [INFO] ======================================================================
+2026-08-25 22:35:51 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 22:35:51 [INFO] ======================================================================
+2026-08-25 22:35:51 [INFO] Processadas: 9
+2026-08-25 22:35:51 [INFO] Enviar: 7
+2026-08-25 22:35:51 [INFO] Não enviar: 2
+2026-08-25 22:35:51 [INFO] ======================================================================
