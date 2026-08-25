@@ -9159,3 +9159,66 @@
 2026-08-25 11:35:36 [INFO] Enviar: 0
 2026-08-25 11:35:36 [INFO] Não enviar: 1
 2026-08-25 11:35:36 [INFO] ======================================================================
+2026-08-25 13:01:39 [INFO] ======================================================================
+2026-08-25 13:01:39 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 13:01:39 [INFO] ======================================================================
+2026-08-25 13:01:39 [INFO] Notícias com status 'extraida': 10
+2026-08-25 13:01:39 [INFO] Limite: 20 requisições/minuto
+2026-08-25 13:01:39 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 13:01:39 [INFO] ======================================================================
+2026-08-25 13:01:39 [INFO] [1/10] ID: tag:google.com,2013:googlealerts/feed:16672702864760090809
+2026-08-25 13:01:39 [INFO] Título: Casas Bahia tem mais R$ 11 bi em dívidas fora da <b>recuperação judicial</b> - InfoMoney
+2026-08-25 13:01:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:01:39 [INFO] Classificação: enviar
+2026-08-25 13:01:39 [INFO] Aguardando 2.73s...
+2026-08-25 13:01:42 [INFO] [2/10] ID: tag:google.com,2013:googlealerts/feed:5473654222842168048
+2026-08-25 13:01:42 [INFO] Título: Lupatech consegue aval dos credores para plano de <b>recuperação</b> extrajudicial
+2026-08-25 13:01:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:01:42 [INFO] Classificação: enviar
+2026-08-25 13:01:42 [INFO] Aguardando 2.74s...
+2026-08-25 13:01:45 [INFO] [3/10] ID: tag:google.com,2013:googlealerts/feed:16797717293703726923
+2026-08-25 13:01:45 [INFO] Título: Recuperações <b>judiciais</b> em meio à campanha viram munição para rivais de Lula
+2026-08-25 13:01:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:01:45 [INFO] Classificação: enviar
+2026-08-25 13:01:45 [INFO] Aguardando 2.76s...
+2026-08-25 13:01:48 [INFO] [4/10] ID: tag:google.com,2013:googlealerts/feed:3528209798913326300
+2026-08-25 13:01:48 [INFO] Título: Por que os postos quebram 22 vezes mais que o varejo, mas quase nunca fecham?
+2026-08-25 13:01:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:01:48 [INFO] Classificação: nao_enviar
+2026-08-25 13:01:48 [INFO] Aguardando 2.77s...
+2026-08-25 13:01:51 [INFO] [5/10] ID: tag:google.com,2013:googlealerts/feed:8352007353357621227
+2026-08-25 13:01:51 [INFO] Título: Tema 1.250/STJ: impugnar um crédito pode encarecer honorários - Consultor Jurídico
+2026-08-25 13:01:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:01:51 [INFO] Classificação: nao_enviar
+2026-08-25 13:01:51 [INFO] Aguardando 2.68s...
+2026-08-25 13:01:54 [INFO] [6/10] ID: tag:google.com,2013:googlealerts/feed:2479215551193106983
+2026-08-25 13:01:54 [INFO] Título: Entenda pedido de <b>recuperação extrajudicial</b> da Braskem - CNN Brasil
+2026-08-25 13:01:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:01:54 [INFO] Classificação: enviar
+2026-08-25 13:01:54 [INFO] Aguardando 2.76s...
+2026-08-25 13:01:57 [INFO] [7/10] ID: tag:google.com,2013:googlealerts/feed:10174769690232960244
+2026-08-25 13:01:57 [INFO] Título: <b>Recuperação</b> judicial e <b>extrajudicial</b>: Entenda a diferença entre medidas - CNN Brasil
+2026-08-25 13:01:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:01:57 [INFO] Classificação: nao_enviar
+2026-08-25 13:01:57 [INFO] Aguardando 2.76s...
+2026-08-25 13:02:00 [INFO] [8/10] ID: tag:google.com,2013:googlealerts/feed:6669866608556945769
+2026-08-25 13:02:00 [INFO] Título: Recuperação <b>judicial</b> e extrajudicial: entenda as diferenças - YouTube
+2026-08-25 13:02:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:02:00 [INFO] Classificação: enviar
+2026-08-25 13:02:00 [INFO] Aguardando 2.86s...
+2026-08-25 13:02:03 [INFO] [9/10] ID: tag:google.com,2013:googlealerts/feed:11118824268491649215
+2026-08-25 13:02:03 [INFO] Título: Lupatech consegue aval dos credores para plano de recuperação extrajudicial
+2026-08-25 13:02:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:02:03 [INFO] Classificação: enviar
+2026-08-25 13:02:03 [INFO] Aguardando 2.86s...
+2026-08-25 13:02:06 [INFO] [10/10] ID: tag:google.com,2013:googlealerts/feed:1743643073971464135
+2026-08-25 13:02:06 [INFO] Título: Tema 1.250/STJ: impugnar um crédito pode encarecer honorários - Consultor Jurídico
+2026-08-25 13:02:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 13:02:06 [INFO] Classificação: nao_enviar
+2026-08-25 13:02:06 [INFO] ======================================================================
+2026-08-25 13:02:06 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 13:02:06 [INFO] ======================================================================
+2026-08-25 13:02:06 [INFO] Processadas: 10
+2026-08-25 13:02:06 [INFO] Enviar: 6
+2026-08-25 13:02:06 [INFO] Não enviar: 4
+2026-08-25 13:02:06 [INFO] ======================================================================
