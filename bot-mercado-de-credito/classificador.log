@@ -9524,3 +9524,66 @@
 2026-08-25 16:47:28 [INFO] Enviar: 4
 2026-08-25 16:47:28 [INFO] Não enviar: 4
 2026-08-25 16:47:28 [INFO] ======================================================================
+2026-08-25 17:37:51 [INFO] ======================================================================
+2026-08-25 17:37:51 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-25 17:37:51 [INFO] ======================================================================
+2026-08-25 17:37:51 [INFO] Notícias com status 'extraida': 10
+2026-08-25 17:37:51 [INFO] Limite: 20 requisições/minuto
+2026-08-25 17:37:51 [INFO] Intervalo mínimo: 3.0s
+2026-08-25 17:37:51 [INFO] ======================================================================
+2026-08-25 17:37:51 [INFO] [1/10] ID: https://veja.abril.com.br/economia/acoes-da-braskem-despencam-apos-conselho-aprovar-recuperacao-extrajudicial/
+2026-08-25 17:37:51 [INFO] Título: Ações da Braskem despencam após conselho aprovar <b>recuperação extrajudicial</b> | VEJA
+2026-08-25 17:37:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:37:52 [INFO] Classificação: enviar
+2026-08-25 17:37:52 [INFO] Aguardando 2.55s...
+2026-08-25 17:37:54 [INFO] [2/10] ID: https://www.seudinheiro.com/2026/renda-fixa/recuperacao-extrajudicial-da-braskem-deixa-quase-10-mil-investidores-de-renda-fixa-em-compasso-de-espera-vou-receber-meu-dinheiro-mlim/
+2026-08-25 17:37:54 [INFO] Título: <b>Recuperação extrajudicial</b> da Braskem deixa quase 10 mil investidores de renda fixa em ...
+2026-08-25 17:37:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:37:55 [INFO] Classificação: enviar
+2026-08-25 17:37:55 [INFO] Aguardando 2.70s...
+2026-08-25 17:37:57 [INFO] [3/10] ID: https://www.youtube.com/watch?v=_iLeJMDSSKk
+2026-08-25 17:37:57 [INFO] Título: Miriam Leitão: <b>Recuperação extrajudicial</b> da Braskem pode respingar na Petrobras
+2026-08-25 17:37:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:37:57 [INFO] Classificação: enviar
+2026-08-25 17:37:58 [INFO] Aguardando 2.77s...
+2026-08-25 17:38:00 [INFO] [4/10] ID: https://br.investing.com/news/stock-market-news/recuperacao-judicial-da-casas-bahia-afetara-seguradoras-e-fornecedores-2048914
+2026-08-25 17:38:00 [INFO] Título: Recuperação <b>judicial</b> da Casas Bahia afetará seguradoras e fornecedores - Investing.com
+2026-08-25 17:38:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:38:01 [INFO] Classificação: enviar
+2026-08-25 17:38:01 [INFO] Aguardando 2.75s...
+2026-08-25 17:38:03 [INFO] [5/10] ID: https://primeirapagina.com.br/seguranca/apos-operacao-presciencia-impcg-garante-ter-recuperado-dinheiro-investido-no-master/
+2026-08-25 17:38:03 [INFO] Título: Após Operação Presciência, IMPCG garante ter recuperado dinheiro investido no Master
+2026-08-25 17:38:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:38:04 [INFO] Classificação: nao_enviar
+2026-08-25 17:38:04 [INFO] Aguardando 2.70s...
+2026-08-25 17:38:06 [INFO] [6/10] ID: https://www.campograndenews.com.br/cidades/capital/prefeitura-diz-que-recuperou-valor-aplicado-no-master-e-acompanha-investigacao
+2026-08-25 17:38:06 [INFO] Título: Prefeitura diz que recuperou valor aplicado no Master e acompanha investigação
+2026-08-25 17:38:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:38:07 [INFO] Classificação: nao_enviar
+2026-08-25 17:38:07 [INFO] Aguardando 2.73s...
+2026-08-25 17:38:09 [INFO] [7/10] ID: https://site.mppr.mp.br/civel/Noticia/Escrituras-de-inventario-extrajudicial-nao-dependem-mais-de-quitacao-previa-do-ITCMD
+2026-08-25 17:38:09 [INFO] Título: Escrituras de inventário <b>extrajudicial</b> não dependem mais de quitação prévia do ITCMD, decide CNJ
+2026-08-25 17:38:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:38:10 [INFO] Classificação: nao_enviar
+2026-08-25 17:38:10 [INFO] Aguardando 2.70s...
+2026-08-25 17:38:12 [INFO] [8/10] ID: https://www.aonca.com.br/prefeitura-diz-que-investimento-do-impcg-no-banco-master-foi-ressarcido-e-segue-apuracao-da-pf/
+2026-08-25 17:38:12 [INFO] Título: Prefeitura diz que investimento do IMPCG no Banco Master foi ressarcido e segue apuração da PF
+2026-08-25 17:38:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:38:13 [INFO] Classificação: nao_enviar
+2026-08-25 17:38:13 [INFO] Aguardando 2.76s...
+2026-08-25 17:38:15 [INFO] [9/10] ID: https://www.rcn67.com.br/campo-grande/pf-deflagra-operacao-contra-irregularidades-na-aplicacao-da-previdencia-municipal-de-campo-grande-no-banco-master/
+2026-08-25 17:38:15 [INFO] Título: PF deflagra operação contra irregularidades na aplicação da previdência municipal de ...
+2026-08-25 17:38:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:38:16 [INFO] Classificação: nao_enviar
+2026-08-25 17:38:16 [INFO] Aguardando 2.58s...
+2026-08-25 17:38:18 [INFO] [10/10] ID: https://www.ofarroupilha.com.br/ultimas-noticias/herdeiros-da-extinta-caixa-economica-estadual-podem-ter-direitos-para-receber/
+2026-08-25 17:38:18 [INFO] Título: Herdeiros da extinta Caixa Econômica Estadual podem ter direitos para receber - O Farroupilha
+2026-08-25 17:38:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-25 17:38:19 [INFO] Classificação: nao_enviar
+2026-08-25 17:38:19 [INFO] ======================================================================
+2026-08-25 17:38:19 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-25 17:38:19 [INFO] ======================================================================
+2026-08-25 17:38:19 [INFO] Processadas: 10
+2026-08-25 17:38:19 [INFO] Enviar: 4
+2026-08-25 17:38:19 [INFO] Não enviar: 6
+2026-08-25 17:38:19 [INFO] ======================================================================
