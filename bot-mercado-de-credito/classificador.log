@@ -10302,3 +10302,36 @@
 2026-08-26 10:42:30 [INFO] Enviar: 3
 2026-08-26 10:42:30 [INFO] Não enviar: 3
 2026-08-26 10:42:30 [INFO] ======================================================================
+2026-08-26 11:36:54 [INFO] ======================================================================
+2026-08-26 11:36:54 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 11:36:54 [INFO] ======================================================================
+2026-08-26 11:36:54 [INFO] Notícias com status 'extraida': 4
+2026-08-26 11:36:54 [INFO] Limite: 20 requisições/minuto
+2026-08-26 11:36:54 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 11:36:54 [INFO] ======================================================================
+2026-08-26 11:36:54 [INFO] [1/4] ID: https://www1.folha.uol.com.br/mercado/2026/08/e-cliente-de-uma-varejista-que-pediu-recuperacao-judicial-veja-riscos-e-como-agir.shtml
+2026-08-26 11:36:54 [INFO] Título: É cliente de uma varejista que pediu <b>recuperação judicial</b>? Veja riscos e como agir - Folha - UOL
+2026-08-26 11:36:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 11:36:55 [INFO] Classificação: enviar
+2026-08-26 11:36:55 [INFO] Aguardando 2.69s...
+2026-08-26 11:36:57 [INFO] [2/4] ID: https://www.coad.com.br/home/noticias-detalhe/139384/stf-valida-regra-que-impede-devedor-contumaz-de-pedir-recuperacao-judicial
+2026-08-26 11:36:57 [INFO] Título: STF valida regra que impede devedor contumaz de pedir <b>recuperação judicial</b> - COAD
+2026-08-26 11:36:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 11:36:58 [INFO] Classificação: enviar
+2026-08-26 11:36:58 [INFO] Aguardando 2.69s...
+2026-08-26 11:37:00 [INFO] [3/4] ID: https://www.estadao.com.br/economia/camila-farani/com-a-braskem-o-brasil-bate-recorde-de-r-180-bi-em-dividas-em-recuperacao-judicial-e-extrajudicial/
+2026-08-26 11:37:00 [INFO] Título: Com a Braskem, o Brasil bate recorde de R$ 180 bi em dívidas em <b>recuperação judicial</b> e ...
+2026-08-26 11:37:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 11:37:01 [INFO] Classificação: enviar
+2026-08-26 11:37:01 [INFO] Aguardando 2.55s...
+2026-08-26 11:37:03 [INFO] [4/4] ID: https://www.poder360.com.br/poder-justica/casas-bahia-pede-a-justica-que-bb-devolva-r-422-milhoes-diz-jornal/
+2026-08-26 11:37:03 [INFO] Título: Casas Bahia pede à Justiça que BB devolva R$ 422 milhões, diz jornal - Poder360
+2026-08-26 11:37:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 11:37:04 [INFO] Classificação: nao_enviar
+2026-08-26 11:37:04 [INFO] ======================================================================
+2026-08-26 11:37:04 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 11:37:04 [INFO] ======================================================================
+2026-08-26 11:37:04 [INFO] Processadas: 4
+2026-08-26 11:37:04 [INFO] Enviar: 3
+2026-08-26 11:37:04 [INFO] Não enviar: 1
+2026-08-26 11:37:04 [INFO] ======================================================================
