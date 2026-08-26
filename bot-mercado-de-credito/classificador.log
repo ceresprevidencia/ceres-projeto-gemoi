@@ -10486,3 +10486,66 @@
 2026-08-26 14:52:34 [INFO] Enviar: 9
 2026-08-26 14:52:34 [INFO] Não enviar: 7
 2026-08-26 14:52:34 [INFO] ======================================================================
+2026-08-26 16:24:42 [INFO] ======================================================================
+2026-08-26 16:24:42 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 16:24:42 [INFO] ======================================================================
+2026-08-26 16:24:42 [INFO] Notícias com status 'extraida': 10
+2026-08-26 16:24:42 [INFO] Limite: 20 requisições/minuto
+2026-08-26 16:24:42 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 16:24:42 [INFO] ======================================================================
+2026-08-26 16:24:42 [INFO] [1/10] ID: https://timesbrasil.com.br/empresas-e-negocios/braskem-pedido-de-recuperacao-extrajudicial-acende-sinal-de-alerta-no-setor-quimico-brasileiro-diz-abiquim/
+2026-08-26 16:24:42 [INFO] Título: Braskem: pedido de <b>recuperação extrajudicial</b> acende alerta para o setor químico brasileiro
+2026-08-26 16:24:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:24:43 [INFO] Classificação: enviar
+2026-08-26 16:24:43 [INFO] Aguardando 2.61s...
+2026-08-26 16:24:45 [INFO] [2/10] ID: https://timesbrasil.com.br/brasil/economia-brasileira/entenda-por-que-aumentaram-os-pedidos-de-recuperacao-judicial/
+2026-08-26 16:24:45 [INFO] Título: Pedidos de <b>recuperação extrajudicial</b> disparam 90,7% em dois anos no Brasil
+2026-08-26 16:24:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:24:45 [INFO] Classificação: enviar
+2026-08-26 16:24:45 [INFO] Aguardando 2.73s...
+2026-08-26 16:24:48 [INFO] [3/10] ID: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/08/26/dolar-bolsa-abre-hoje-26-de-agosto-de-2026.ghtm
+2026-08-26 16:24:48 [INFO] Título: Bolsa sobe e dólar vai a R$ 5,16, com petróleo, IPCA-15 e PIB de EUA no dia
+2026-08-26 16:24:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:24:48 [INFO] Classificação: nao_enviar
+2026-08-26 16:24:48 [INFO] Aguardando 2.77s...
+2026-08-26 16:24:51 [INFO] [4/10] ID: https://br.advfn.com/jornal/2026/08/oncoclinicas-cvm-determina-opa-da-centaurus-e-oferta-pode-superar-r-6-bilhoes
+2026-08-26 16:24:51 [INFO] Título: Oncoclínicas: CVM determina OPA da Centaurus e oferta pode superar R$ 6 bilhões
+2026-08-26 16:24:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:24:51 [INFO] Classificação: nao_enviar
+2026-08-26 16:24:51 [INFO] Aguardando 2.80s...
+2026-08-26 16:24:54 [INFO] [5/10] ID: https://oglobo.globo.com/economia/financas/noticia/2026/08/26/caso-braskem-o-que-acontece-com-quem-investiu-em-cra-cri-e-debentures-de-empresas-em-crise.ghtml
+2026-08-26 16:24:54 [INFO] Título: Caso Braskem: o que acontece com quem investiu em CRA, CRI e debêntures de empresas ...
+2026-08-26 16:24:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:24:54 [INFO] Classificação: enviar
+2026-08-26 16:24:54 [INFO] Aguardando 2.73s...
+2026-08-26 16:24:57 [INFO] [6/10] ID: https://jornalgrandebahia.com.br/2026/08/proposta-de-delacao-cita-fundo-exclusivo-de-acm-neto-com-ganho-patrimonial-de-r-401-milhoes-e-exposicao-de-986-a-ativo-ligado-ao-banco-master/
+2026-08-26 16:24:57 [INFO] Título: Proposta de delação cita fundo exclusivo de ACM Neto com ganho patrimonial de R$ 4,01 ...
+2026-08-26 16:24:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:24:57 [INFO] Classificação: nao_enviar
+2026-08-26 16:24:57 [INFO] Aguardando 2.68s...
+2026-08-26 16:25:00 [INFO] [7/10] ID: https://www.band.com.br/noticias/ex-dono-da-reag-investimentos-entrega-proposta-de-delacao-focada-em-vorcaro-202608261116
+2026-08-26 16:25:00 [INFO] Título: Ex-dono da Reag Investimentos entrega proposta de delação focada em Vorcaro - Band
+2026-08-26 16:25:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:25:00 [INFO] Classificação: nao_enviar
+2026-08-26 16:25:00 [INFO] Aguardando 2.66s...
+2026-08-26 16:25:03 [INFO] [8/10] ID: https://obrasilianista.com.br/2026/08/26/justica/possivel-delacao-de-mansur-pode-ampliar-caso-master/
+2026-08-26 16:25:03 [INFO] Título: Possível delação de Mansur pode ampliar caso Master - O Brasilianista
+2026-08-26 16:25:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:25:03 [INFO] Classificação: nao_enviar
+2026-08-26 16:25:03 [INFO] Aguardando 2.71s...
+2026-08-26 16:25:06 [INFO] [9/10] ID: https://www.tribunadosertao.com.br/financas/2026/08/26/967197-falencia-da-oi-entenda-a-diferenca-entre-recuperacao-judicial-e-extrajudicial
+2026-08-26 16:25:06 [INFO] Título: Falência da Oi: entenda a diferença entre recuperação judicial e <b>extrajudicial</b>
+2026-08-26 16:25:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:25:06 [INFO] Classificação: enviar
+2026-08-26 16:25:06 [INFO] Aguardando 2.67s...
+2026-08-26 16:25:09 [INFO] [10/10] ID: https://jornalgrandebahia.com.br/2026/08/tjba-encerra-contrato-com-brb-direciona-novos-depositos-judiciais-a-caixa-e-prepara-migracao-gradual-com-bankjus/
+2026-08-26 16:25:09 [INFO] Título: TJBA encerra contrato com BRB, direciona novos depósitos judiciais à Caixa e prepara ...
+2026-08-26 16:25:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 16:25:09 [INFO] Classificação: nao_enviar
+2026-08-26 16:25:09 [INFO] ======================================================================
+2026-08-26 16:25:09 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 16:25:09 [INFO] ======================================================================
+2026-08-26 16:25:09 [INFO] Processadas: 10
+2026-08-26 16:25:09 [INFO] Enviar: 4
+2026-08-26 16:25:09 [INFO] Não enviar: 6
+2026-08-26 16:25:09 [INFO] ======================================================================
