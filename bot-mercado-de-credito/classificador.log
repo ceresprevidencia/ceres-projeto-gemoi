@@ -10335,3 +10335,61 @@
 2026-08-26 11:37:04 [INFO] Enviar: 3
 2026-08-26 11:37:04 [INFO] Não enviar: 1
 2026-08-26 11:37:04 [INFO] ======================================================================
+2026-08-26 13:06:58 [INFO] ======================================================================
+2026-08-26 13:06:58 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 13:06:58 [INFO] ======================================================================
+2026-08-26 13:06:58 [INFO] Notícias com status 'extraida': 9
+2026-08-26 13:06:58 [INFO] Limite: 20 requisições/minuto
+2026-08-26 13:06:58 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 13:06:58 [INFO] ======================================================================
+2026-08-26 13:06:58 [INFO] [1/9] ID: https://www.rotajuridica.com.br/supremo-valida-proibicao-de-devedor-contumaz-pedir-recuperacao-judicial/
+2026-08-26 13:06:58 [INFO] Título: Supremo valida proibição de devedor contumaz pedir <b>recuperação judicial</b> - Rota Jurídica
+2026-08-26 13:06:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:06:59 [INFO] Classificação: enviar
+2026-08-26 13:06:59 [INFO] Aguardando 2.64s...
+2026-08-26 13:07:01 [INFO] [2/9] ID: https://www.folhape.com.br/colunistas/magaly-barbosa/como-fica-o-credito-trabalhista-junto-as-empresas-em-recuperacao-judicial/59289/
+2026-08-26 13:07:01 [INFO] Título: Como fica o crédito trabalhista junto as empresas em <b>Recuperação Judicial</b>? - Folha PE
+2026-08-26 13:07:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:07:02 [INFO] Classificação: enviar
+2026-08-26 13:07:02 [INFO] Aguardando 2.49s...
+2026-08-26 13:07:04 [INFO] [3/9] ID: https://www1.folha.uol.com.br/mercado/2026/08/recuperacao-extrajudicial-da-braskem-poe-petrobras-no-foco.shtml
+2026-08-26 13:07:04 [INFO] Título: <b>Recuperação</b> extrajudicial da Braskem põe Petrobras no foco - Folha - UOL
+2026-08-26 13:07:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:07:04 [INFO] Classificação: enviar
+2026-08-26 13:07:04 [INFO] Aguardando 2.78s...
+2026-08-26 13:07:07 [INFO] [4/9] ID: https://veronoticias.com/economia/braskem-inicia-recuperacao-extrajudicial-de-divida-de-us-11-bilhoes/
+2026-08-26 13:07:07 [INFO] Título: Braskem inicia <b>recuperação extrajudicial</b> de dívida de US$ 11 bilhões | Vero Notícias
+2026-08-26 13:07:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:07:07 [INFO] Classificação: enviar
+2026-08-26 13:07:07 [INFO] Aguardando 2.83s...
+2026-08-26 13:07:10 [INFO] [5/9] ID: https://www.migalhas.com.br/amp/amanhecidas/463189/migalhas-n-6-421
+2026-08-26 13:07:10 [INFO] Título: MIGALHAS nº 6.421
+2026-08-26 13:07:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:07:10 [INFO] Classificação: nao_enviar
+2026-08-26 13:07:10 [INFO] Aguardando 2.71s...
+2026-08-26 13:07:13 [INFO] [6/9] ID: https://eixos.com.br/empresas/plano-da-braskem-escala-petrobras-como-garantidora-com-acordo-bilionario-para-nafta/
+2026-08-26 13:07:13 [INFO] Título: Plano da Braskem escala Petrobras como garantidora, com acordo bilionário para nafta
+2026-08-26 13:07:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:07:14 [INFO] Classificação: nao_enviar
+2026-08-26 13:07:14 [INFO] Aguardando 2.66s...
+2026-08-26 13:07:16 [INFO] [7/9] ID: https://www.gazetadopovo.com.br/economia/divida-ativa-empresas-quase-triplica/
+2026-08-26 13:07:16 [INFO] Título: Dívida ativa quase triplica e atinge 20% das empresas - Gazeta do Povo
+2026-08-26 13:07:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:07:17 [INFO] Classificação: nao_enviar
+2026-08-26 13:07:17 [INFO] Aguardando 2.62s...
+2026-08-26 13:07:19 [INFO] [8/9] ID: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/08/25/dolar-bolsa-fechamento-hoje-25-de-agosto-de-2026.ghtm
+2026-08-26 13:07:19 [INFO] Título: Dólar cai a R$ 5,14 e Ibovespa tem forte alta com otimismo no exterior - UOL Economia
+2026-08-26 13:07:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:07:19 [INFO] Classificação: nao_enviar
+2026-08-26 13:07:19 [INFO] Aguardando 2.77s...
+2026-08-26 13:07:22 [INFO] [9/9] ID: https://aredacao.com.br/b3-anuncia-exclusao-de-ativos-da-braskem-em-indices-apos-pedido-de-recuperacao-extrajudicial/
+2026-08-26 13:07:22 [INFO] Título: B3 anuncia exclusão de ativos da Braskem em índices após pedido de <b>recuperação extrajudicial</b>
+2026-08-26 13:07:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 13:07:23 [INFO] Classificação: enviar
+2026-08-26 13:07:23 [INFO] ======================================================================
+2026-08-26 13:07:23 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 13:07:23 [INFO] ======================================================================
+2026-08-26 13:07:23 [INFO] Processadas: 9
+2026-08-26 13:07:23 [INFO] Enviar: 5
+2026-08-26 13:07:23 [INFO] Não enviar: 4
+2026-08-26 13:07:23 [INFO] ======================================================================
