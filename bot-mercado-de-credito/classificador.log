@@ -10259,3 +10259,46 @@
 2026-08-26 09:51:05 [INFO] Enviar: 0
 2026-08-26 09:51:05 [INFO] Não enviar: 0
 2026-08-26 09:51:05 [INFO] ======================================================================
+2026-08-26 10:42:14 [INFO] ======================================================================
+2026-08-26 10:42:14 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 10:42:14 [INFO] ======================================================================
+2026-08-26 10:42:14 [INFO] Notícias com status 'extraida': 6
+2026-08-26 10:42:14 [INFO] Limite: 20 requisições/minuto
+2026-08-26 10:42:14 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 10:42:14 [INFO] ======================================================================
+2026-08-26 10:42:14 [INFO] [1/6] ID: https://www.estadao.com.br/economia/o-sistema-de-protecao-a-industria-nacional-que-vem-de-decadas-esta-destruido-diz-mendonca-de-barros/
+2026-08-26 10:42:14 [INFO] Título: O sistema de proteção à indústria nacional que vem de décadas está destruído, diz ...
+2026-08-26 10:42:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 10:42:15 [INFO] Classificação: nao_enviar
+2026-08-26 10:42:15 [INFO] Aguardando 2.20s...
+2026-08-26 10:42:17 [INFO] [2/6] ID: https://www.youtube.com/watch?v=Su90nMP20RU
+2026-08-26 10:42:17 [INFO] Título: Braskem tem adesão desigual de credores à <b>recuperação</b>; veja no Fato Relevante
+2026-08-26 10:42:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 10:42:18 [INFO] Classificação: enviar
+2026-08-26 10:42:18 [INFO] Aguardando 2.11s...
+2026-08-26 10:42:20 [INFO] [3/6] ID: https://aredacao.com.br/braskem-confirma-que-conselho-aprovou-ajuizamento-de-pedido-de-recuperacao-extrajudicial/
+2026-08-26 10:42:20 [INFO] Título: Braskem confirma que conselho aprovou ajuizamento de pedido de <b>recuperação extrajudicial</b>
+2026-08-26 10:42:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 10:42:21 [INFO] Classificação: enviar
+2026-08-26 10:42:21 [INFO] Aguardando 2.59s...
+2026-08-26 10:42:23 [INFO] [4/6] ID: https://tribunahoje.com/noticias/politica/2026/08/25/192157-braskem-pede-recuperacao-extrajudicial
+2026-08-26 10:42:23 [INFO] Título: Braskem pede <b>recuperação extrajudicial</b> - TribunaHoje.com
+2026-08-26 10:42:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 10:42:24 [INFO] Classificação: enviar
+2026-08-26 10:42:24 [INFO] Aguardando 2.22s...
+2026-08-26 10:42:26 [INFO] [5/6] ID: https://pipelinevalor.globo.com/negocios/noticia/no-plano-da-braskem-conversao-de-divida-sera-ultimo-recurso.ghtml
+2026-08-26 10:42:26 [INFO] Título: No plano da Braskem, conversão de dívida será último recurso - Pipeline - Globo
+2026-08-26 10:42:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 10:42:27 [INFO] Classificação: nao_enviar
+2026-08-26 10:42:27 [INFO] Aguardando 2.55s...
+2026-08-26 10:42:29 [INFO] [6/6] ID: https://www.migalhas.com.br/coluna/migalhas-notariais-e-registrais/463087/cnj-dispensa-de-tributos-na-lavratura-de-escrituras
+2026-08-26 10:42:29 [INFO] Título: CNJ: Dispensa de tributos na lavratura de escrituras - Migalhas
+2026-08-26 10:42:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 10:42:30 [INFO] Classificação: nao_enviar
+2026-08-26 10:42:30 [INFO] ======================================================================
+2026-08-26 10:42:30 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 10:42:30 [INFO] ======================================================================
+2026-08-26 10:42:30 [INFO] Processadas: 6
+2026-08-26 10:42:30 [INFO] Enviar: 3
+2026-08-26 10:42:30 [INFO] Não enviar: 3
+2026-08-26 10:42:30 [INFO] ======================================================================
