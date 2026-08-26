@@ -10134,3 +10134,46 @@
 2026-08-26 05:40:52 [INFO] Enviar: 0
 2026-08-26 05:40:52 [INFO] Não enviar: 0
 2026-08-26 05:40:52 [INFO] ======================================================================
+2026-08-26 07:01:02 [INFO] ======================================================================
+2026-08-26 07:01:02 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 07:01:02 [INFO] ======================================================================
+2026-08-26 07:01:02 [INFO] Notícias com status 'extraida': 6
+2026-08-26 07:01:02 [INFO] Limite: 20 requisições/minuto
+2026-08-26 07:01:02 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 07:01:02 [INFO] ======================================================================
+2026-08-26 07:01:02 [INFO] [1/6] ID: https://www.campograndenews.com.br/brasil/cidades/supremo-mantem-veto-a-recuperacao-judicial-para-maus-pagadores
+2026-08-26 07:01:02 [INFO] Título: Supremo mantém veto a <b>recuperação judicial</b> para maus pagadores - Campo Grande News
+2026-08-26 07:01:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 07:01:03 [INFO] Classificação: enviar
+2026-08-26 07:01:03 [INFO] Aguardando 2.59s...
+2026-08-26 07:01:05 [INFO] [2/6] ID: https://diariodopoder.com.br/brasil-e-regioes/e10-brasil/recuperacao-judicial-atinge-63-mil-empresas-no-brasil
+2026-08-26 07:01:05 [INFO] Título: <b>Recuperação judicial</b> atinge 6,3 mil empresas no Brasil - Diário do Poder
+2026-08-26 07:01:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 07:01:06 [INFO] Classificação: enviar
+2026-08-26 07:01:06 [INFO] Aguardando 2.65s...
+2026-08-26 07:01:08 [INFO] [3/6] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/08/26/falencia-da-oi-entenda-a-diferenca-de-recuperacao-judicial-e-extrajudicial.ghtml
+2026-08-26 07:01:08 [INFO] Título: Falência da Oi: entenda a diferença de <b>recuperação judicial</b> e extrajudicial - O GLOBO
+2026-08-26 07:01:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 07:01:09 [INFO] Classificação: enviar
+2026-08-26 07:01:09 [INFO] Aguardando 2.69s...
+2026-08-26 07:01:11 [INFO] [4/6] ID: https://www.gazetadopovo.com.br/economia/justica-mantem-suspensao-demissoes-casas-bahia/
+2026-08-26 07:01:11 [INFO] Título: Justiça mantém suspensão das demissões das Casas Bahia - Gazeta do Povo
+2026-08-26 07:01:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 07:01:12 [INFO] Classificação: nao_enviar
+2026-08-26 07:01:12 [INFO] Aguardando 2.74s...
+2026-08-26 07:01:14 [INFO] [5/6] ID: https://www.panrotas.com.br/aviacao/empresas/2026/08/sem-operar-ha-quase-20-dias-flybondi-retoma-site-e-venda-de-passagens_231391.html
+2026-08-26 07:01:14 [INFO] Título: Sem operar há quase 20 dias, Flybondi retoma site e venda de passagens
+2026-08-26 07:01:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 07:01:15 [INFO] Classificação: nao_enviar
+2026-08-26 07:01:15 [INFO] Aguardando 2.64s...
+2026-08-26 07:01:17 [INFO] [6/6] ID: https://www.youtube.com/shorts/ulsiDO82HF4
+2026-08-26 07:01:17 [INFO] Título: “Chapter 11 bankruptcy is like an ICU for businesses,” says corporate lawyer #Shorts - YouTube
+2026-08-26 07:01:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 07:01:18 [INFO] Classificação: enviar
+2026-08-26 07:01:18 [INFO] ======================================================================
+2026-08-26 07:01:18 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 07:01:18 [INFO] ======================================================================
+2026-08-26 07:01:18 [INFO] Processadas: 6
+2026-08-26 07:01:18 [INFO] Enviar: 4
+2026-08-26 07:01:18 [INFO] Não enviar: 2
+2026-08-26 07:01:18 [INFO] ======================================================================
