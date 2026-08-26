@@ -10549,3 +10549,156 @@
 2026-08-26 16:25:09 [INFO] Enviar: 4
 2026-08-26 16:25:09 [INFO] Não enviar: 6
 2026-08-26 16:25:09 [INFO] ======================================================================
+2026-08-26 19:11:57 [INFO] ======================================================================
+2026-08-26 19:11:57 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 19:11:57 [INFO] ======================================================================
+2026-08-26 19:11:57 [INFO] Notícias com status 'extraida': 28
+2026-08-26 19:11:57 [INFO] Limite: 20 requisições/minuto
+2026-08-26 19:11:57 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 19:11:57 [INFO] ======================================================================
+2026-08-26 19:11:57 [INFO] [1/28] ID: https://www.espn.com.br/futebol/brasileirao/artigo/_/id/17166617/bap-flamengo-processa-pedrinho-vasco-indenizacao-danos-morais-retratacao-publica
+2026-08-26 19:11:57 [INFO] Título: Bap processa Pedrinho, pede indenização por danos morais e exige retratação pública
+2026-08-26 19:11:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:11:57 [INFO] Classificação: nao_enviar
+2026-08-26 19:11:57 [INFO] Aguardando 2.47s...
+2026-08-26 19:12:00 [INFO] [2/28] ID: https://investidor10.com.br/noticias/justica-do-rj-decreta-falencia-da-oi-oibr3-e-governo-responde-entenda-122265/
+2026-08-26 19:12:00 [INFO] Título: Justiça do RJ decreta falência da Oi (OIBR3) e governo responde; entenda - Investidor10
+2026-08-26 19:12:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:00 [INFO] Classificação: enviar
+2026-08-26 19:12:00 [INFO] Aguardando 2.66s...
+2026-08-26 19:12:03 [INFO] [3/28] ID: https://investalk.bb.com.br/noticias/mercado/fim-da-linha-para-a-oi-quem-investiu-na-empresa-pode-recuperar-o-dinheiro
+2026-08-26 19:12:03 [INFO] Título: Fim da linha para a Oi: quem investiu na empresa pode recuperar o dinheiro?
+2026-08-26 19:12:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:03 [INFO] Classificação: enviar
+2026-08-26 19:12:03 [INFO] Aguardando 2.76s...
+2026-08-26 19:12:06 [INFO] [4/28] ID: https://ojornalextra.com.br/noticias/alagoas/2026/08/130427-recuperacao-extrajudicial-da-braskem-traz-inseguranca-as-vitimas-de-maceio
+2026-08-26 19:12:06 [INFO] Título: <b>Recuperação extrajudicial</b> da Braskem traz insegurança às vítimas de Maceió
+2026-08-26 19:12:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:06 [INFO] Classificação: enviar
+2026-08-26 19:12:06 [INFO] Aguardando 2.66s...
+2026-08-26 19:12:09 [INFO] [5/28] ID: https://www.infomoney.com.br/mercados/acao-barata-ou-cilada-os-sinais-de-que-a-queda-pode-esconder-problemas-maiores/
+2026-08-26 19:12:09 [INFO] Título: Ação barata ou cilada? Os sinais de que a queda pode esconder problemas maiores
+2026-08-26 19:12:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:09 [INFO] Classificação: nao_enviar
+2026-08-26 19:12:09 [INFO] Aguardando 2.59s...
+2026-08-26 19:12:12 [INFO] [6/28] ID: https://www.youtube.com/watch?v=cPJhX0Wdzq0
+2026-08-26 19:12:12 [INFO] Título: Justiça mantém recontratação de quase 2 mil funcionários das Casas Bahia - YouTube
+2026-08-26 19:12:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:12 [INFO] Classificação: nao_enviar
+2026-08-26 19:12:12 [INFO] Aguardando 2.64s...
+2026-08-26 19:12:15 [INFO] [7/28] ID: https://timesbrasil.com.br/empresas-e-negocios/entenda-a-divida-da-braskem/
+2026-08-26 19:12:15 [INFO] Título: Braskem: dívida equivale a 6,7 vezes o Ebitda; entenda por que empresa recorreu à <b>recuperação</b>
+2026-08-26 19:12:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:15 [INFO] Classificação: enviar
+2026-08-26 19:12:15 [INFO] Aguardando 2.62s...
+2026-08-26 19:12:18 [INFO] [8/28] ID: https://economia.uol.com.br/noticias/redacao/2026/08/26/braskem-inflacao-consumidor-plastico-importacao-industria.ghtm
+2026-08-26 19:12:18 [INFO] Título: Crise na Braskem ameaça encarecer os produtos feitos de plástico no Brasil
+2026-08-26 19:12:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:18 [INFO] Classificação: nao_enviar
+2026-08-26 19:12:18 [INFO] Aguardando 2.74s...
+2026-08-26 19:12:21 [INFO] [9/28] ID: https://www.poder360.com.br/poder-economia/cvm-obriga-centaurus-a-comprar-acoes-de-minoritarios-da-oncoclinicas/.modal-box--author
+2026-08-26 19:12:21 [INFO] Título: CVM obriga Centaurus a comprar ações de minoritários da Oncoclínicas - Poder360
+2026-08-26 19:12:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:21 [INFO] Classificação: nao_enviar
+2026-08-26 19:12:21 [INFO] Aguardando 2.54s...
+2026-08-26 19:12:24 [INFO] [10/28] ID: https://www.infomoney.com.br/mercados/acao-da-oncoclinicas-sobe-mais-de-12-apos-colegiado-da-cvm-decidir-a-favor-de-opa/
+2026-08-26 19:12:24 [INFO] Título: Ação da Oncoclínicas sobe mais de 12% após colegiado da CVM decidir a favor de OPA
+2026-08-26 19:12:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:24 [INFO] Classificação: nao_enviar
+2026-08-26 19:12:24 [INFO] Aguardando 2.50s...
+2026-08-26 19:12:27 [INFO] [11/28] ID: https://oglobo.globo.com/google/amp/economia/financas/noticia/2026/08/26/caso-braskem-o-que-acontece-com-quem-investiu-em-cra-cri-e-debentures-de-empresas-em-crise.ghtml
+2026-08-26 19:12:27 [INFO] Título: Caso Braskem: o que acontece com quem investiu em CRA, CRI e debêntures de empresas ...
+2026-08-26 19:12:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:27 [INFO] Classificação: enviar
+2026-08-26 19:12:27 [INFO] Aguardando 2.60s...
+2026-08-26 19:12:30 [INFO] [12/28] ID: https://diariodopoder.com.br/dinheiro/ttc-dinheiro/recuperacao-judicial-atinge-63-mil-empresas-no-brasil
+2026-08-26 19:12:30 [INFO] Título: <b>Recuperação</b> judicial atinge 6,3 mil empresas no Brasil - Diário do Poder
+2026-08-26 19:12:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:30 [INFO] Classificação: enviar
+2026-08-26 19:12:30 [INFO] Aguardando 2.77s...
+2026-08-26 19:12:33 [INFO] [13/28] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/08/26/de-campea-nacional-a-falencia-entenda-a-crise-da-operadora-oi.ghtml
+2026-08-26 19:12:33 [INFO] Título: Falência da Oi: preocupação com continuidade do serviço pesou na decisão da Justiça
+2026-08-26 19:12:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:34 [INFO] Classificação: enviar
+2026-08-26 19:12:34 [INFO] Aguardando 2.21s...
+2026-08-26 19:12:36 [INFO] [14/28] ID: https://atlaspublico.com.br/cvm/noticias/braskem-protocola-recuperacao-extrajudicial-para-82627
+2026-08-26 19:12:36 [INFO] Título: Braskem protocola <b>recuperação extrajudicial</b> para reestruturar dívida e negociar capital
+2026-08-26 19:12:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:36 [INFO] Classificação: enviar
+2026-08-26 19:12:36 [INFO] Aguardando 2.79s...
+2026-08-26 19:12:39 [INFO] [15/28] ID: https://istoedinheiro.com.br/falencia-da-oi-confirmada-tj-rj-liquidacao-ativos
+2026-08-26 19:12:39 [INFO] Título: A Oi ainda pode escapar da falência? O que dizem juristas após a decisão do TJ-RJ
+2026-08-26 19:12:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:39 [INFO] Classificação: enviar
+2026-08-26 19:12:39 [INFO] Aguardando 2.69s...
+2026-08-26 19:12:42 [INFO] [16/28] ID: https://www.estadao.com.br/economia/negocios/oi-busca-vender-massa-falida-manter-servicos-essenciais-e-pagar-o-que-der/
+2026-08-26 19:12:42 [INFO] Título: Oi busca vender massa falida, manter serviços essenciais e pagar 'o que der' - Estadão
+2026-08-26 19:12:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:43 [INFO] Classificação: enviar
+2026-08-26 19:12:43 [INFO] Aguardando 1.72s...
+2026-08-26 19:12:45 [INFO] [17/28] ID: https://debatejuridico.com.br/falencia-da-oi-recuperacao-judicial-nao-pode-prolongar-empresa-inviavel-avaliam-especialistas/
+2026-08-26 19:12:45 [INFO] Título: Falência da Oi: recuperação <b>judicial</b> não pode prolongar empresa inviável - Debate Jurídico
+2026-08-26 19:12:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:45 [INFO] Classificação: enviar
+2026-08-26 19:12:45 [INFO] Aguardando 2.74s...
+2026-08-26 19:12:48 [INFO] [18/28] ID: https://www.cnnbrasil.com.br/blogs/victor-iraja/economia/money/negocios/a-propria-oi-disse-a-justica-que-precisava-falir/
+2026-08-26 19:12:48 [INFO] Título: A própria Oi disse à Justiça que precisava falir | Blogs - CNN Brasil
+2026-08-26 19:12:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:48 [INFO] Classificação: enviar
+2026-08-26 19:12:48 [INFO] Aguardando 2.70s...
+2026-08-26 19:12:51 [INFO] [19/28] ID: https://conjur.com.br/2026-ago-25/vasco-nao-depende-de-auditoria-previa-para-concessao-de-financiamento/
+2026-08-26 19:12:51 [INFO] Título: Vasco não depende de auditoria prévia para concessão de financiamento
+2026-08-26 19:12:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:51 [INFO] Classificação: nao_enviar
+2026-08-26 19:12:51 [INFO] Aguardando 2.65s...
+2026-08-26 19:12:54 [INFO] [20/28] ID: https://teletime.com.br/25/08/2026/sergio-zveiter-oi/
+2026-08-26 19:12:54 [INFO] Título: Sergio Zveiter deve administrar massa falida da Oi junto a Bruno Rezende
+2026-08-26 19:12:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:54 [INFO] Classificação: enviar
+2026-08-26 19:12:54 [INFO] Aguardando 2.53s...
+2026-08-26 19:12:57 [INFO] [21/28] ID: https://www.gazetadopovo.com.br/economia/fux-impede-justica-da-bahia-de-trocar-brb-pela-caixa-por-risco-sistemico/
+2026-08-26 19:12:57 [INFO] Título: Fux impede Justiça da Bahia de trocar BRB pela Caixa por "risco sistêmico" à economia
+2026-08-26 19:12:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:12:57 [INFO] Classificação: nao_enviar
+2026-08-26 19:12:57 [INFO] Aguardando 2.67s...
+2026-08-26 19:13:00 [INFO] [22/28] ID: https://www.infomoney.com.br/politica/vorcaro-vai-depor-a-policia-federal-em-inquerito-sobre-ataques-ao-banco-central/
+2026-08-26 19:13:00 [INFO] Título: Vorcaro vai depor à Polícia Federal em inquérito sobre ataques ao Banco Central
+2026-08-26 19:13:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:13:00 [INFO] Classificação: nao_enviar
+2026-08-26 19:13:00 [INFO] Aguardando 2.67s...
+2026-08-26 19:13:03 [INFO] [23/28] ID: https://www.capitalnews.com.br/politica-e-poder/executivo/prefeitura-diz-que-recursos-do-impcg-estao-protegidos-apos-operacao-da-policia-federal/446004
+2026-08-26 19:13:03 [INFO] Título: Prefeitura diz que recursos do IMPCG estão protegidos após operação da Polícia Federal
+2026-08-26 19:13:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:13:03 [INFO] Classificação: nao_enviar
+2026-08-26 19:13:03 [INFO] Aguardando 2.65s...
+2026-08-26 19:13:06 [INFO] [24/28] ID: https://jovempan.com.br/politica/lula-diz-que-ira-se-reunir-com-motta-e-alcolumbre-para-tratar-de-urgencias/
+2026-08-26 19:13:06 [INFO] Título: Lula diz que irá se reunir com Motta e Alcolumbre para tratar de 'urgências' - Jovem Pan
+2026-08-26 19:13:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:13:06 [INFO] Classificação: nao_enviar
+2026-08-26 19:13:06 [INFO] Aguardando 2.71s...
+2026-08-26 19:13:09 [INFO] [25/28] ID: https://vermelho.org.br/2026/08/26/ex-dono-da-reag-quer-delatar-esquema-com-vorcaro-a-pgr/
+2026-08-26 19:13:09 [INFO] Título: Ex-dono da Reag quer delatar esquema com Vorcaro à PGR - Vermelho
+2026-08-26 19:13:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:13:09 [INFO] Classificação: nao_enviar
+2026-08-26 19:13:09 [INFO] Aguardando 2.50s...
+2026-08-26 19:13:12 [INFO] [26/28] ID: https://jovempan.com.br/politica/ex-dono-da-reag-envia-proposta-de-delacao-a-pgr-com-foco-em-vorcaro/
+2026-08-26 19:13:12 [INFO] Título: Ex-dono da Reag envia proposta de delação à PGR com foco em Vorcaro | Jovem Pan
+2026-08-26 19:13:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:13:12 [INFO] Classificação: nao_enviar
+2026-08-26 19:13:12 [INFO] Aguardando 2.68s...
+2026-08-26 19:13:15 [INFO] [27/28] ID: https://taroba.com.br/noticias/brasil-e-mundo/ex-dono-da-reag-propoe-delacao-com-foco-no-banco-master/amp
+2026-08-26 19:13:15 [INFO] Título: Ex-dono da Reag propõe delação com foco no Banco Master
+2026-08-26 19:13:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:13:16 [INFO] Classificação: nao_enviar
+2026-08-26 19:13:16 [INFO] Aguardando 1.88s...
+2026-08-26 19:13:18 [INFO] [28/28] ID: https://www.folhape.com.br/noticia/amp/508758/falencia-da-oi-entenda-a-diferenca-de-recuperacao-judicial-e/
+2026-08-26 19:13:18 [INFO] Título: Falência da Oi: entenda a diferença de recuperação judicial e <b>extrajudicial</b> - Folha PE
+2026-08-26 19:13:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 19:13:18 [INFO] Classificação: enviar
+2026-08-26 19:13:18 [INFO] ======================================================================
+2026-08-26 19:13:18 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 19:13:18 [INFO] ======================================================================
+2026-08-26 19:13:18 [INFO] Processadas: 28
+2026-08-26 19:13:18 [INFO] Enviar: 14
+2026-08-26 19:13:18 [INFO] Não enviar: 14
+2026-08-26 19:13:18 [INFO] ======================================================================
