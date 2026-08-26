@@ -10702,3 +10702,241 @@
 2026-08-26 19:13:18 [INFO] Enviar: 14
 2026-08-26 19:13:18 [INFO] Não enviar: 14
 2026-08-26 19:13:18 [INFO] ======================================================================
+2026-08-26 23:18:13 [INFO] ======================================================================
+2026-08-26 23:18:13 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 23:18:13 [INFO] ======================================================================
+2026-08-26 23:18:13 [INFO] Notícias com status 'extraida': 45
+2026-08-26 23:18:13 [INFO] Limite: 20 requisições/minuto
+2026-08-26 23:18:13 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 23:18:13 [INFO] ======================================================================
+2026-08-26 23:18:13 [INFO] [1/45] ID: https://www.uol.com.br/esporte/futebol/colunas/rodrigo-mattos/2026/08/26/recuperacao-judicial-nao-pode-virar-subsidio-para-desequilibrio-esportivo.htm
+2026-08-26 23:18:13 [INFO] Título: <b>Recuperação Judicial</b> não pode virar subsídio para desequilíbrio esportivo - UOL
+2026-08-26 23:18:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:13 [INFO] Classificação: enviar
+2026-08-26 23:18:13 [INFO] Aguardando 2.67s...
+2026-08-26 23:18:16 [INFO] [2/45] ID: https://neofeed.com.br/negocios/o-que-vai-ser-do-habibs-com-o-pedido-de-recuperacao-judicial/
+2026-08-26 23:18:16 [INFO] Título: O que vai ser do Habib's com o pedido de <b>recuperação judicial</b> - NeoFeed
+2026-08-26 23:18:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:16 [INFO] Classificação: enviar
+2026-08-26 23:18:16 [INFO] Aguardando 2.76s...
+2026-08-26 23:18:19 [INFO] [3/45] ID: https://veja.abril.com.br/economia/nem-a-recuperacao-judicial-livra-habibs-do-sufoco-de-caixa/
+2026-08-26 23:18:19 [INFO] Título: Nem a <b>recuperação judicial</b> livra Habib's do sufoco de caixa - Revista Veja
+2026-08-26 23:18:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:20 [INFO] Classificação: enviar
+2026-08-26 23:18:20 [INFO] Aguardando 2.30s...
+2026-08-26 23:18:22 [INFO] [4/45] ID: https://www.terra.com.br/economia/habibs-entra-em-recuperacao-judicial-com-r-265-milhoes-em-dividas,48c07d40fed91aaf8c3ad33852832007r2s5g18y.html
+2026-08-26 23:18:22 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com R$ 265 milhões em dívidas - Terra
+2026-08-26 23:18:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:22 [INFO] Classificação: enviar
+2026-08-26 23:18:22 [INFO] Aguardando 2.69s...
+2026-08-26 23:18:25 [INFO] [5/45] ID: https://www.bloomberglinea.com.br/negocios/dono-de-habibs-e-ragazzo-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes/
+2026-08-26 23:18:25 [INFO] Título: Dono de Habib's e Ragazzo entra em <b>recuperação judicial</b> com dívida de R$ 265 milhões
+2026-08-26 23:18:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:26 [INFO] Classificação: enviar
+2026-08-26 23:18:26 [INFO] Aguardando 2.42s...
+2026-08-26 23:18:28 [INFO] [6/45] ID: https://jovempan.com.br/brasil/habibs-entra-com-pedido-de-recuperacao-judicial-com-divida-de-r-265-milhoes/
+2026-08-26 23:18:28 [INFO] Título: Dona do Habib's entra com pedido de <b>recuperação judicial</b> com dívida de R$ 265 milhões
+2026-08-26 23:18:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:29 [INFO] Classificação: enviar
+2026-08-26 23:18:29 [INFO] Aguardando 2.64s...
+2026-08-26 23:18:31 [INFO] [7/45] ID: https://www.youtube.com/watch?v=uPeqFMiKD_U
+2026-08-26 23:18:31 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265 milhões | CNN MERCADO
+2026-08-26 23:18:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:31 [INFO] Classificação: enviar
+2026-08-26 23:18:31 [INFO] Aguardando 2.73s...
+2026-08-26 23:18:34 [INFO] [8/45] ID: https://investnews.com.br/negocios/habibs-recuperacao-judicial-divida-265-milhoes/
+2026-08-26 23:18:34 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívidas de R$ 265,2 milhões - InvestNews
+2026-08-26 23:18:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:34 [INFO] Classificação: enviar
+2026-08-26 23:18:34 [INFO] Aguardando 2.70s...
+2026-08-26 23:18:37 [INFO] [9/45] ID: https://g1.globo.com/economia/noticia/2026/08/26/recuperacao-judicial-proximos-passos.ghtml
+2026-08-26 23:18:37 [INFO] Título: Habib's em <b>recuperação judicial</b>: veja quais são os próximos passos - G1
+2026-08-26 23:18:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:37 [INFO] Classificação: enviar
+2026-08-26 23:18:37 [INFO] Aguardando 2.75s...
+2026-08-26 23:18:40 [INFO] [10/45] ID: https://www.poder360.com.br/poder-economia/grupo-gennius-dono-do-habibs-entra-em-recuperacao-judicial/
+2026-08-26 23:18:40 [INFO] Título: Grupo Gennius, dono do Habib's, entra em <b>recuperação judicial</b> - Poder360
+2026-08-26 23:18:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:40 [INFO] Classificação: enviar
+2026-08-26 23:18:40 [INFO] Aguardando 2.77s...
+2026-08-26 23:18:43 [INFO] [11/45] ID: https://www.infomoney.com.br/business/com-divida-de-r-265-milhoes-dono-do-habibs-anuncia-recuperacao-judicial/
+2026-08-26 23:18:43 [INFO] Título: Com dívida de R$ 265 milhões, dono do Habib´s anuncia <b>recuperação judicial</b> - InfoMoney
+2026-08-26 23:18:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:44 [INFO] Classificação: enviar
+2026-08-26 23:18:44 [INFO] Aguardando 2.43s...
+2026-08-26 23:18:46 [INFO] [12/45] ID: https://g1.globo.com/economia/noticia/2026/08/26/recuperacao-judicial-habibs.ghtml
+2026-08-26 23:18:46 [INFO] Título: Dona de Habib's e Ragazzo entra em <b>recuperação judicial</b> com dívida de R$ 265,2 milhões
+2026-08-26 23:18:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:47 [INFO] Classificação: enviar
+2026-08-26 23:18:47 [INFO] Aguardando 2.45s...
+2026-08-26 23:18:49 [INFO] [13/45] ID: https://www.migalhas.com.br/quentes/463308/com-divida-de-r-265-2-mi-justica-autoriza-recuperacao-do-habib-s
+2026-08-26 23:18:49 [INFO] Título: Com dívida de R$ 265,2 milhões, Justiça autoriza <b>recuperação judicial</b> do Habib's
+2026-08-26 23:18:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:50 [INFO] Classificação: enviar
+2026-08-26 23:18:50 [INFO] Aguardando 2.64s...
+2026-08-26 23:18:52 [INFO] [14/45] ID: https://sbtnews.sbt.com.br/noticia/economia/habib-s-entra-em-recuperacao-judicial-divida-e-de-r-265-mi
+2026-08-26 23:18:52 [INFO] Título: Habib's entra em <b>recuperação judicial</b>; dívida é de R$ 265 mi | SBT News
+2026-08-26 23:18:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:53 [INFO] Classificação: enviar
+2026-08-26 23:18:53 [INFO] Aguardando 2.60s...
+2026-08-26 23:18:55 [INFO] [15/45] ID: https://www.meioemensagem.com.br/marketing/dono-do-habibs-entra-em-recuperacao-judicial
+2026-08-26 23:18:55 [INFO] Título: Grupo dono do Habib's entra em <b>recuperação judicial</b> - Meio e Mensagem
+2026-08-26 23:18:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:55 [INFO] Classificação: enviar
+2026-08-26 23:18:55 [INFO] Aguardando 2.74s...
+2026-08-26 23:18:58 [INFO] [16/45] ID: https://www.estadao.com.br/em-alta/economia/negocios/habibs-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes/
+2026-08-26 23:18:58 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265 milhões - Estadão
+2026-08-26 23:18:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:18:59 [INFO] Classificação: enviar
+2026-08-26 23:18:59 [INFO] Aguardando 2.65s...
+2026-08-26 23:19:01 [INFO] [17/45] ID: https://www.moneytimes.com.br/mais-uma-empresa-em-recuperacao-judicial-dividas-chegam-a-r-265-milhoes/
+2026-08-26 23:19:01 [INFO] Título: Mais uma empresa em <b>recuperação judicial</b>; dívidas chegam a R$ 265 milhões
+2026-08-26 23:19:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:02 [INFO] Classificação: enviar
+2026-08-26 23:19:02 [INFO] Aguardando 2.65s...
+2026-08-26 23:19:04 [INFO] [18/45] ID: https://www.estadao.com.br/amp/economia/negocios/habibs-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes/
+2026-08-26 23:19:04 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265 milhões - Estadão
+2026-08-26 23:19:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:04 [INFO] Classificação: enviar
+2026-08-26 23:19:04 [INFO] Aguardando 2.76s...
+2026-08-26 23:19:07 [INFO] [19/45] ID: https://economia.uol.com.br/noticias/redacao/2026/08/26/habibs-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes.ghtm
+2026-08-26 23:19:07 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265 milhões - UOL Economia
+2026-08-26 23:19:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:08 [INFO] Classificação: enviar
+2026-08-26 23:19:08 [INFO] Aguardando 2.20s...
+2026-08-26 23:19:10 [INFO] [20/45] ID: https://veja.abril.com.br/economia/habibs-entra-em-recuperacao-judicial-apos-alegar-dificuldade-para-pagar-credores/
+2026-08-26 23:19:10 [INFO] Título: Habib's entra em <b>recuperação judicial</b> após alegar dificuldade para pagar credores | VEJA
+2026-08-26 23:19:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:11 [INFO] Classificação: enviar
+2026-08-26 23:19:11 [INFO] Aguardando 2.49s...
+2026-08-26 23:19:13 [INFO] [21/45] ID: https://euqueroinvestir.com/acoes/braskem-qualquer-solucao-ira-diluir-os-acionistas
+2026-08-26 23:19:13 [INFO] Título: Braskem: Qualquer solução irá diluir os acionistas - EuQueroInvestir
+2026-08-26 23:19:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:14 [INFO] Classificação: nao_enviar
+2026-08-26 23:19:14 [INFO] Aguardando 2.61s...
+2026-08-26 23:19:16 [INFO] [22/45] ID: https://www.band.com.br/economia/noticias/habibs-pede-recuperacao-judicial-e-aponta-divida-de-r-265-milhoes-202608261717
+2026-08-26 23:19:16 [INFO] Título: Habib's pede <b>recuperação</b> judicial e aponta dívida de R$ 265 milhões - Band
+2026-08-26 23:19:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:17 [INFO] Classificação: enviar
+2026-08-26 23:19:17 [INFO] Aguardando 2.63s...
+2026-08-26 23:19:19 [INFO] [23/45] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/08/26/habibs-entra-com-pedido-de-recuperacao-judicial-com-dividas-de-r-265-milhoes.ghtml
+2026-08-26 23:19:19 [INFO] Título: Habib's pede <b>recuperação</b> judicial, com passsivo de R$ 265 milhões, e amplia lista de ...
+2026-08-26 23:19:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:19 [INFO] Classificação: enviar
+2026-08-26 23:19:19 [INFO] Aguardando 2.77s...
+2026-08-26 23:19:22 [INFO] [24/45] ID: https://www.moneytimes.com.br/braskem-brkm5-cai-mais-de-6-no-primeiro-dia-fora-do-ibovespa-confira-o-que-mexe-com-o-papel-apsa/
+2026-08-26 23:19:22 [INFO] Título: Braskem (BRKM5) cai mais de 6% no primeiro dia fora do Ibovespa; confira o que mexe com o papel
+2026-08-26 23:19:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:22 [INFO] Classificação: nao_enviar
+2026-08-26 23:19:22 [INFO] Aguardando 2.72s...
+2026-08-26 23:19:25 [INFO] [25/45] ID: https://www.bloomberglinea.com.br/negocios/detentores-de-bonds-lideram-apoio-a-reestruturacao-da-braskem/
+2026-08-26 23:19:25 [INFO] Título: Detentores de 'bonds' lideram apoio à reestruturação da Braskem - Bloomberg Linea
+2026-08-26 23:19:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:25 [INFO] Classificação: enviar
+2026-08-26 23:19:25 [INFO] Aguardando 2.73s...
+2026-08-26 23:19:28 [INFO] [26/45] ID: https://veja.abril.com.br/economia/brasil-tem-recorde-de-empresas-em-recuperacao-judicial/
+2026-08-26 23:19:28 [INFO] Título: Brasil tem recorde de empresas em <b>recuperação</b> judicial - Revista Veja
+2026-08-26 23:19:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:29 [INFO] Classificação: enviar
+2026-08-26 23:19:29 [INFO] Aguardando 2.58s...
+2026-08-26 23:19:31 [INFO] [27/45] ID: https://valor.globo.com/empresas/noticia/2026/08/26/com-divida-de-r-265-milhoes-habibs-entra-em-recuperacao-judicial.ghtml
+2026-08-26 23:19:31 [INFO] Título: Com dívida de R$ 265 milhões, Habib's entra em <b>recuperação</b> judicial - Valor Econômico
+2026-08-26 23:19:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:32 [INFO] Classificação: enviar
+2026-08-26 23:19:32 [INFO] Aguardando 2.65s...
+2026-08-26 23:19:34 [INFO] [28/45] ID: https://exclusivo.com.br/negocios/com-quase-us-11-bilhoes-em-dividas-braskem-pede-recuperacao-extrajudicial/
+2026-08-26 23:19:34 [INFO] Título: Com quase US$ 11 bilhões em dívidas, Braskem pede <b>recuperação extrajudicial</b> | Exclusivo
+2026-08-26 23:19:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:34 [INFO] Classificação: enviar
+2026-08-26 23:19:34 [INFO] Aguardando 2.75s...
+2026-08-26 23:19:37 [INFO] [29/45] ID: https://valor.globo.com/empresas/noticia/2026/08/26/acao-pna-da-braskem-cai-quase-26percent-na-semana-apos-pedido-de-recuperacao-extrajudicial-e-saida-do-ibovespa.ghtml
+2026-08-26 23:19:37 [INFO] Título: Ação PNA da Braskem cai quase 26% na semana após pedido de <b>recuperação</b> ...
+2026-08-26 23:19:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:38 [INFO] Classificação: enviar
+2026-08-26 23:19:38 [INFO] Aguardando 2.44s...
+2026-08-26 23:19:40 [INFO] [30/45] ID: https://investnews.com.br/negocios/credores-estrangeiros-lideram-apoio-a-reestruturacao-da-braskem/
+2026-08-26 23:19:40 [INFO] Título: Credores estrangeiros lideram apoio à reestruturação da Braskem - InvestNews
+2026-08-26 23:19:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:41 [INFO] Classificação: nao_enviar
+2026-08-26 23:19:41 [INFO] Aguardando 2.61s...
+2026-08-26 23:19:43 [INFO] [31/45] ID: https://trademap.com.br/noticias/news-2935361
+2026-08-26 23:19:43 [INFO] Título: Vibra (VBBR3): Volume de vendas aumenta significativamente e lucro salta 85,1% no 2º trimestre
+2026-08-26 23:19:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:44 [INFO] Classificação: nao_enviar
+2026-08-26 23:19:44 [INFO] Aguardando 2.48s...
+2026-08-26 23:19:46 [INFO] [32/45] ID: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/08/26/acoes-da-oncoclinicas-disparam-apos-cvm-exigir-opa-para-minoritarios.ghtm
+2026-08-26 23:19:46 [INFO] Título: Ações da Oncoclínicas disparam quase 30% na Bolsa após decisão da CVM
+2026-08-26 23:19:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:47 [INFO] Classificação: nao_enviar
+2026-08-26 23:19:47 [INFO] Aguardando 2.24s...
+2026-08-26 23:19:49 [INFO] [33/45] ID: https://aciara.com.br/recuperacao-judicial-extrajudicial-entenda-falencia/
+2026-08-26 23:19:49 [INFO] Título: Entenda a falência da Oi e sua <b>recuperação</b> judicial e <b>extrajudicial</b> - Acia Araçatuba
+2026-08-26 23:19:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:50 [INFO] Classificação: enviar
+2026-08-26 23:19:50 [INFO] Aguardando 2.31s...
+2026-08-26 23:19:52 [INFO] [34/45] ID: https://www.cnnbrasil.com.br/blogs/gabriel-monteiro/economia/money/mercado/mercado-negocia-dividas-da-braskem-com-mais-de-60-de-desagio/
+2026-08-26 23:19:52 [INFO] Título: Mercado negocia dívidas da Braskem com mais de 60% de deságio | Blogs - CNN Brasil
+2026-08-26 23:19:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:53 [INFO] Classificação: nao_enviar
+2026-08-26 23:19:53 [INFO] Aguardando 2.03s...
+2026-08-26 23:19:55 [INFO] [35/45] ID: https://br.advfn.com/noticias/PAPERBR/2026/artigo/99195731
+2026-08-26 23:19:55 [INFO] Título: Oncoclínicas: CVM determina OPA da Centaurus e oferta pode superar R$ 6 bilhões
+2026-08-26 23:19:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:55 [INFO] Classificação: nao_enviar
+2026-08-26 23:19:56 [INFO] Aguardando 2.67s...
+2026-08-26 23:19:58 [INFO] [36/45] ID: https://www.infomoney.com.br/business/diretor-pede-vista-em-julgamento-da-cvm-de-executivos-da-oi-por-irregularidades/
+2026-08-26 23:19:58 [INFO] Título: Diretor pede vista em julgamento da CVM de executivos da Oi por irregularidades
+2026-08-26 23:19:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:19:59 [INFO] Classificação: nao_enviar
+2026-08-26 23:19:59 [INFO] Aguardando 2.55s...
+2026-08-26 23:20:01 [INFO] [37/45] ID: https://www.tudocelular.com/mercado/noticias/n261536/falencia-oi-confirmada-justica-bancos.html
+2026-08-26 23:20:01 [INFO] Título: Falência da Oi é confirmada pela Justiça mesmo após bancos tentarem barrar processo
+2026-08-26 23:20:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:20:02 [INFO] Classificação: enviar
+2026-08-26 23:20:02 [INFO] Aguardando 2.55s...
+2026-08-26 23:20:04 [INFO] [38/45] ID: https://www.cnnbrasil.com.br/economia/money/negocios/habibs-entra-em-recuperacao-judicial/
+2026-08-26 23:20:04 [INFO] Título: Habib's entra em recuperação <b>judicial</b> com dívida de R$ 265 milhões - CNN Brasil
+2026-08-26 23:20:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:20:05 [INFO] Classificação: enviar
+2026-08-26 23:20:05 [INFO] Aguardando 2.38s...
+2026-08-26 23:20:07 [INFO] [39/45] ID: https://exame.com/negocios/habibs-entra-em-recuperacao-judicial-com-divida-de-r-2652-milhoes/
+2026-08-26 23:20:07 [INFO] Título: Habib's entra em recuperação <b>judicial</b> com dívida de R$ 265,2 milhões - Exame
+2026-08-26 23:20:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:20:08 [INFO] Classificação: enviar
+2026-08-26 23:20:08 [INFO] Aguardando 2.57s...
+2026-08-26 23:20:10 [INFO] [40/45] ID: https://veronoticias.com/economia/habibs-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes/
+2026-08-26 23:20:10 [INFO] Título: Habib's entra em recuperação <b>judicial</b> com dívida de R$ 265 milhões - Vero Notícias
+2026-08-26 23:20:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:20:11 [INFO] Classificação: enviar
+2026-08-26 23:20:11 [INFO] Aguardando 2.49s...
+2026-08-26 23:20:13 [INFO] [41/45] ID: https://painelpolitico.com/mansur-o-pcc-e-o-banco-master-o-que-o-fundador-da-reag-quer-delatar
+2026-08-26 23:20:13 [INFO] Título: Mansur, o PCC e o Banco Master: o que o fundador da Reag quer delatar | Painel Político
+2026-08-26 23:20:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:20:14 [INFO] Classificação: nao_enviar
+2026-08-26 23:20:14 [INFO] Aguardando 2.01s...
+2026-08-26 23:20:16 [INFO] [42/45] ID: https://veja.abril.com.br/economia/brb-pode-ter-que-resgatar-shopping-apos-herdar-fundo-do-master/
+2026-08-26 23:20:16 [INFO] Título: BRB pode ter que resgatar shopping após herdar fundo do Master - Revista Veja
+2026-08-26 23:20:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:20:17 [INFO] Classificação: nao_enviar
+2026-08-26 23:20:17 [INFO] Aguardando 2.62s...
+2026-08-26 23:20:19 [INFO] [43/45] ID: https://jovempan.com.br/politica/mendonca-deve-rejeitar-pedido-da-pgr-para-tirar-caso-lulinha-do-stf/
+2026-08-26 23:20:19 [INFO] Título: Mendonça deve rejeitar pedido da PGR para tirar caso Lulinha do STF - Jovem Pan
+2026-08-26 23:20:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:20:20 [INFO] Classificação: nao_enviar
+2026-08-26 23:20:20 [INFO] Aguardando 2.48s...
+2026-08-26 23:20:22 [INFO] [44/45] ID: https://bpmoney.com.br/noticias/daniel-vorcaro-depoe-a-pf-sobre-banco-master-nesta-quinta-veja-o-que-esta-em-jogo/
+2026-08-26 23:20:22 [INFO] Título: Daniel Vorcaro depõe à PF sobre Banco Master nesta quinta; veja o que está em jogo
+2026-08-26 23:20:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:20:23 [INFO] Classificação: nao_enviar
+2026-08-26 23:20:23 [INFO] Aguardando 2.43s...
+2026-08-26 23:20:25 [INFO] [45/45] ID: https://porcinews.com/pt-br/languiru-pode-ser-vendido-e-retomar-abates-de-suinos/amp/
+2026-08-26 23:20:25 [INFO] Título: Frigorífico da Languiru pode ser vendido e voltar a operar ainda em 2026 - porciNews
+2026-08-26 23:20:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 23:20:26 [INFO] Classificação: nao_enviar
+2026-08-26 23:20:26 [INFO] ======================================================================
+2026-08-26 23:20:26 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 23:20:26 [INFO] ======================================================================
+2026-08-26 23:20:26 [INFO] Processadas: 45
+2026-08-26 23:20:26 [INFO] Enviar: 32
+2026-08-26 23:20:26 [INFO] Não enviar: 13
+2026-08-26 23:20:26 [INFO] ======================================================================
