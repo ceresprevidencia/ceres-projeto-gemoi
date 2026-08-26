@@ -10393,3 +10393,96 @@
 2026-08-26 13:07:23 [INFO] Enviar: 5
 2026-08-26 13:07:23 [INFO] Não enviar: 4
 2026-08-26 13:07:23 [INFO] ======================================================================
+2026-08-26 14:51:49 [INFO] ======================================================================
+2026-08-26 14:51:49 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 14:51:49 [INFO] ======================================================================
+2026-08-26 14:51:49 [INFO] Notícias com status 'extraida': 16
+2026-08-26 14:51:49 [INFO] Limite: 20 requisições/minuto
+2026-08-26 14:51:49 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 14:51:49 [INFO] ======================================================================
+2026-08-26 14:51:49 [INFO] [1/16] ID: https://www1.folha.uol.com.br/mercado/2026/08/osx-de-eike-batista-tem-aprovacao-da-maioria-dos-credores-para-plano-de-recuperacao-judicial.shtml
+2026-08-26 14:51:49 [INFO] Título: OSX, de Eike Batista, tem aprovação da maioria dos credores para plano de <b>recuperação judicial</b>
+2026-08-26 14:51:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:51:50 [INFO] Classificação: enviar
+2026-08-26 14:51:50 [INFO] Aguardando 2.65s...
+2026-08-26 14:51:52 [INFO] [2/16] ID: https://monitormercantil.com.br/falencia-da-oi-tambem-resulta-de-problemas-no-sistema-de-recuperacao-judicial/
+2026-08-26 14:51:52 [INFO] Título: Falência da Oi também resulta de problemas no sistema de <b>recuperação judicial</b>
+2026-08-26 14:51:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:51:53 [INFO] Classificação: enviar
+2026-08-26 14:51:53 [INFO] Aguardando 2.50s...
+2026-08-26 14:51:55 [INFO] [3/16] ID: https://www.nsctotal.com.br/economia/novo-leilao-da-casas-bahia-tem-eletrodomesticos-com-desconto-de-ate-68-e-kit-com-15-itens-por-r-1-mil
+2026-08-26 14:51:55 [INFO] Título: Novo leilão da Casas Bahia tem eletrodomésticos com desconto de até 68% e kit com 15 ...
+2026-08-26 14:51:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:51:55 [INFO] Classificação: nao_enviar
+2026-08-26 14:51:55 [INFO] Aguardando 2.80s...
+2026-08-26 14:51:58 [INFO] [4/16] ID: https://br.advfn.com/jornal/2026/08/ambipar-tera-nova-assembleia-de-credores-apos-falta-de-quorum-na-recuperacao-judicial
+2026-08-26 14:51:58 [INFO] Título: Ambipar terá nova assembleia de credores, após falta de quórum na <b>recuperação judicial</b>
+2026-08-26 14:51:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:51:59 [INFO] Classificação: enviar
+2026-08-26 14:51:59 [INFO] Aguardando 2.33s...
+2026-08-26 14:52:01 [INFO] [5/16] ID: https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/26/vasco-pode-ter-falencia-pedida-se-emprestimo-de-lamacchia-nao-for-aprovado.ghtm
+2026-08-26 14:52:01 [INFO] Título: Vasco pode ter falência pedida se empréstimo de Lamacchia não for aprovado - UOL
+2026-08-26 14:52:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:02 [INFO] Classificação: nao_enviar
+2026-08-26 14:52:02 [INFO] Aguardando 2.14s...
+2026-08-26 14:52:04 [INFO] [6/16] ID: https://br.advfn.com/jornal/2026/08/oi-confirma-falencia-e-encerra-recuperacao-judicial
+2026-08-26 14:52:04 [INFO] Título: Oi confirma falência e encerra <b>recuperação judicial</b> - ADVFN
+2026-08-26 14:52:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:04 [INFO] Classificação: enviar
+2026-08-26 14:52:04 [INFO] Aguardando 2.80s...
+2026-08-26 14:52:07 [INFO] [7/16] ID: https://economia.uol.com.br/noticias/redacao/2026/08/26/oi-sonho-supertele-falencia.ghtm
+2026-08-26 14:52:07 [INFO] Título: Oi: como o sonho da 'supertele' terminou em falência - UOL Economia
+2026-08-26 14:52:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:07 [INFO] Classificação: nao_enviar
+2026-08-26 14:52:07 [INFO] Aguardando 2.75s...
+2026-08-26 14:52:10 [INFO] [8/16] ID: https://www.youtube.com/watch?v=1TImWcMf-XI
+2026-08-26 14:52:10 [INFO] Título: A própria Oi disse à Justiça que precisava falir; entenda | CNN NOVO DIA - YouTube
+2026-08-26 14:52:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:10 [INFO] Classificação: enviar
+2026-08-26 14:52:10 [INFO] Aguardando 2.78s...
+2026-08-26 14:52:13 [INFO] [9/16] ID: https://obastidor.com.br/economia/a-corrida-pelo-caixa-da-casas-bahia/
+2026-08-26 14:52:13 [INFO] Título: A corrida pelo caixa da Casas Bahia - O Bastidor
+2026-08-26 14:52:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:13 [INFO] Classificação: nao_enviar
+2026-08-26 14:52:13 [INFO] Aguardando 2.76s...
+2026-08-26 14:52:16 [INFO] [10/16] ID: https://br.investing.com/analysis/braskem-brkm5-recuperacao-extrajudicial-divida-e-cenarios-de-reestruturacao-200479245
+2026-08-26 14:52:16 [INFO] Título: Braskem (BRKM5): <b>recuperação extrajudicial</b>, dívida e cenários de reestruturação | Investing.com
+2026-08-26 14:52:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:18 [INFO] Classificação: enviar
+2026-08-26 14:52:18 [INFO] Aguardando 0.91s...
+2026-08-26 14:52:19 [INFO] [11/16] ID: https://minaspetro.com.br/de-braskem-a-raizen-recuperacoes-extrajudiciais-quase-dobram-no-brasil-em-dois-anos/
+2026-08-26 14:52:19 [INFO] Título: De Braskem a Raízen, recuperações extrajudiciais quase dobram no Brasil em dois anos
+2026-08-26 14:52:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:20 [INFO] Classificação: enviar
+2026-08-26 14:52:20 [INFO] Aguardando 2.69s...
+2026-08-26 14:52:22 [INFO] [12/16] ID: https://www.infomoney.com.br/economia/recessao-brasil-riscos-economia-2027/
+2026-08-26 14:52:22 [INFO] Título: Por que freio brusco no crédito se tornou a maior ameaça para a economia - InfoMoney
+2026-08-26 14:52:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:23 [INFO] Classificação: nao_enviar
+2026-08-26 14:52:23 [INFO] Aguardando 2.30s...
+2026-08-26 14:52:25 [INFO] [13/16] ID: https://www.bloomberglinea.com.br/mercados/o-mercado-aquecido-do-credito-inadimplente/
+2026-08-26 14:52:25 [INFO] Título: O mercado aquecido do crédito inadimplente - Bloomberg Linea
+2026-08-26 14:52:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:25 [INFO] Classificação: nao_enviar
+2026-08-26 14:52:25 [INFO] Aguardando 2.77s...
+2026-08-26 14:52:28 [INFO] [14/16] ID: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/08/25/ambev-entra-no-top-10-das-acoes-mais-negociadas-da-b3-em-julho.ghtm
+2026-08-26 14:52:28 [INFO] Título: Ambev entra no top 10 das ações mais negociadas na Bolsa: veja ranking - UOL Economia
+2026-08-26 14:52:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:29 [INFO] Classificação: nao_enviar
+2026-08-26 14:52:29 [INFO] Aguardando 2.53s...
+2026-08-26 14:52:31 [INFO] [15/16] ID: https://spdiario.com.br/noticias/economia/braskem-deixa-ibovespa-e-outros-17-indices-da-b3-apos-recuperacao-extrajudicial.html
+2026-08-26 14:52:31 [INFO] Título: Braskem deixa Ibovespa e outros 17 índices da B3 após <b>recuperação extrajudicial</b>
+2026-08-26 14:52:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:32 [INFO] Classificação: enviar
+2026-08-26 14:52:32 [INFO] Aguardando 2.59s...
+2026-08-26 14:52:34 [INFO] [16/16] ID: https://www.estadao.com.br/em-alta/politica/coluna-do-estadao/industria-quimica-pede-agenda-de-competitividade-apos-pedido-de-recuperacao-judicial-da-braskem/
+2026-08-26 14:52:34 [INFO] Título: Braskem: setor químico cobra agenda de competitividade após pedido de <b>recuperação extrajudicial</b>
+2026-08-26 14:52:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 14:52:34 [INFO] Classificação: enviar
+2026-08-26 14:52:34 [INFO] ======================================================================
+2026-08-26 14:52:34 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 14:52:34 [INFO] ======================================================================
+2026-08-26 14:52:34 [INFO] Processadas: 16
+2026-08-26 14:52:34 [INFO] Enviar: 9
+2026-08-26 14:52:34 [INFO] Não enviar: 7
+2026-08-26 14:52:34 [INFO] ======================================================================
