@@ -10177,3 +10177,71 @@
 2026-08-26 07:01:18 [INFO] Enviar: 4
 2026-08-26 07:01:18 [INFO] Não enviar: 2
 2026-08-26 07:01:18 [INFO] ======================================================================
+2026-08-26 08:53:43 [INFO] ======================================================================
+2026-08-26 08:53:43 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 08:53:43 [INFO] ======================================================================
+2026-08-26 08:53:43 [INFO] Notícias com status 'extraida': 11
+2026-08-26 08:53:43 [INFO] Limite: 20 requisições/minuto
+2026-08-26 08:53:43 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 08:53:43 [INFO] ======================================================================
+2026-08-26 08:53:43 [INFO] [1/11] ID: https://brazileconomy.com.br/politica/2026/08/supremo-tribunal-federal-mantem-veto-a-recuperacao-judicial-por-devedor-contumaz/
+2026-08-26 08:53:43 [INFO] Título: Supremo Tribunal Federal mantém veto à <b>recuperação judicial</b> por devedor contumaz
+2026-08-26 08:53:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:53:43 [INFO] Classificação: enviar
+2026-08-26 08:53:43 [INFO] Aguardando 2.56s...
+2026-08-26 08:53:46 [INFO] [2/11] ID: https://www1.folha.uol.com.br/mercado/2026/08/casas-bahia-pede-a-justica-que-bb-devolva-r-422-mi-e-tenta-estancar-saida-de-mais-recursos.shtml
+2026-08-26 08:53:46 [INFO] Título: Casas Bahia pede à Justiça que BB devolva R$ 422 mi - 25/08/2026 - Economia - Folha
+2026-08-26 08:53:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:53:46 [INFO] Classificação: nao_enviar
+2026-08-26 08:53:46 [INFO] Aguardando 2.68s...
+2026-08-26 08:53:49 [INFO] [3/11] ID: https://www.gazetadopovo.com.br/economia/justica-decreta-falencia-da-oi-pela-segunda-vez-apos-administrador-prever-apagao/
+2026-08-26 08:53:49 [INFO] Título: Justiça decreta falência da Oi pela segunda vez após administrador prever apagão
+2026-08-26 08:53:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:53:49 [INFO] Classificação: nao_enviar
+2026-08-26 08:53:49 [INFO] Aguardando 2.75s...
+2026-08-26 08:53:52 [INFO] [4/11] ID: https://investidorinstitucional.com.br/investidores/fundos-de-pensao/recuperacao-judicial-e-falencia-preocupam-participantes-de-efpcs/
+2026-08-26 08:53:52 [INFO] Título: <b>Recuperação</b> judicial e falência preocupam participantes de EFPCs
+2026-08-26 08:53:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:53:52 [INFO] Classificação: enviar
+2026-08-26 08:53:52 [INFO] Aguardando 2.69s...
+2026-08-26 08:53:55 [INFO] [5/11] ID: https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/08/marca-de-motos-criada-na-italia-em-1937-estreia-no-rs-cmt8tlhv500lw0179dhe9g6zo.html
+2026-08-26 08:53:55 [INFO] Título: Marca de motos criada na Itália em 1937 estreia no RS - GZH
+2026-08-26 08:53:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:53:55 [INFO] Classificação: nao_enviar
+2026-08-26 08:53:55 [INFO] Aguardando 2.80s...
+2026-08-26 08:53:58 [INFO] [6/11] ID: https://www.cnnbrasil.com.br/colunas/duda-herriot/economia/money/negocios/o-que-realmente-sobra-quando-um-megaevento-vai-embora/
+2026-08-26 08:53:58 [INFO] Título: Megaeventos mudam lógica do mercado e imóveis compactos viram "queridinhos" - CNN Brasil
+2026-08-26 08:53:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:53:58 [INFO] Classificação: nao_enviar
+2026-08-26 08:53:58 [INFO] Aguardando 2.56s...
+2026-08-26 08:54:01 [INFO] [7/11] ID: https://investalk.bb.com.br/noticias/mercado/mercado-agora-25-08-26
+2026-08-26 08:54:01 [INFO] Título: Fechamento (25/08) | Ibovespa fecha em nova alta, de 1,55%, aos 174.576 pontos
+2026-08-26 08:54:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:54:01 [INFO] Classificação: nao_enviar
+2026-08-26 08:54:01 [INFO] Aguardando 2.55s...
+2026-08-26 08:54:04 [INFO] [8/11] ID: https://oglobo.globo.com/google/amp/economia/negocios/noticia/2026/08/26/falencia-da-oi-entenda-a-diferenca-de-recuperacao-judicial-e-extrajudicial.ghtml
+2026-08-26 08:54:04 [INFO] Título: Falência da Oi: entenda a diferença de <b>recuperação</b> judicial e <b>extrajudicial</b> - O GLOBO
+2026-08-26 08:54:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:54:04 [INFO] Classificação: enviar
+2026-08-26 08:54:04 [INFO] Aguardando 2.79s...
+2026-08-26 08:54:07 [INFO] [9/11] ID: https://www.correiodopovo.com.br/esportes/grêmio/gremio-sofre-bloqueio-preventivo-para-registro-de-novas-contratacoes-1.1742082
+2026-08-26 08:54:07 [INFO] Título: Grêmio sofre bloqueio preventivo para registro de novas contratações - Correio do Povo
+2026-08-26 08:54:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:54:07 [INFO] Classificação: nao_enviar
+2026-08-26 08:54:07 [INFO] Aguardando 2.71s...
+2026-08-26 08:54:10 [INFO] [10/11] ID: https://forbes.com.br/forbes-money/2026/08/lupatech-lupa3-obtem-apoio-de-credores-e-avanca-no-plano-de-recuperacao-extrajudicial/
+2026-08-26 08:54:10 [INFO] Título: Lupatech (LUPA3) Obtém Apoio de Credores e Avança no Plano de <b>Recuperação Extrajudicial</b>
+2026-08-26 08:54:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:54:11 [INFO] Classificação: enviar
+2026-08-26 08:54:11 [INFO] Aguardando 2.48s...
+2026-08-26 08:54:13 [INFO] [11/11] ID: https://www.minhaoperadora.com.br/2026/08/justica-do-rio-decreta-falencia-da-oi-e-encerra-recuperacao-judicial.html
+2026-08-26 08:54:13 [INFO] Título: Justiça do Rio decreta falência da Oi e encerra recuperação <b>judicial</b> - Minha Operadora
+2026-08-26 08:54:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 08:54:15 [INFO] Classificação: enviar
+2026-08-26 08:54:15 [INFO] ======================================================================
+2026-08-26 08:54:15 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 08:54:15 [INFO] ======================================================================
+2026-08-26 08:54:15 [INFO] Processadas: 11
+2026-08-26 08:54:15 [INFO] Enviar: 5
+2026-08-26 08:54:15 [INFO] Não enviar: 6
+2026-08-26 08:54:15 [INFO] ======================================================================
