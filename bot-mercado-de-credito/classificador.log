@@ -10068,3 +10068,41 @@
 2026-08-26 01:49:53 [INFO] Enviar: 6
 2026-08-26 01:49:53 [INFO] Não enviar: 4
 2026-08-26 01:49:53 [INFO] ======================================================================
+2026-08-26 03:13:25 [INFO] ======================================================================
+2026-08-26 03:13:25 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 03:13:25 [INFO] ======================================================================
+2026-08-26 03:13:25 [INFO] Notícias com status 'extraida': 5
+2026-08-26 03:13:25 [INFO] Limite: 20 requisições/minuto
+2026-08-26 03:13:25 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 03:13:25 [INFO] ======================================================================
+2026-08-26 03:13:25 [INFO] [1/5] ID: https://telesintese.com.br/a-longa-despedida-da-oi/
+2026-08-26 03:13:25 [INFO] Título: A longa despedida da Oi - TeleSíntese
+2026-08-26 03:13:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 03:13:26 [INFO] Classificação: enviar
+2026-08-26 03:13:26 [INFO] Aguardando 2.53s...
+2026-08-26 03:13:28 [INFO] [2/5] ID: https://www.estadao.com.br/economia/negocios/justica-confirma-falencia-da-oi-em-decisao-unanime/
+2026-08-26 03:13:28 [INFO] Título: Justiça confirma falência da Oi em decisão unânime - Estadão
+2026-08-26 03:13:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 03:13:29 [INFO] Classificação: nao_enviar
+2026-08-26 03:13:29 [INFO] Aguardando 2.70s...
+2026-08-26 03:13:31 [INFO] [3/5] ID: https://www.folhape.com.br/noticia/amp/508719/stf-valida-proibicao-de-devedor-contumaz-pedir-recuperacao-judicial/
+2026-08-26 03:13:31 [INFO] Título: STF valida proibição de devedor contumaz pedir <b>recuperação judicial</b> - Folha PE
+2026-08-26 03:13:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 03:13:31 [INFO] Classificação: enviar
+2026-08-26 03:13:31 [INFO] Aguardando 2.83s...
+2026-08-26 03:13:34 [INFO] [4/5] ID: https://www.estadao.com.br/economia/qualquer-empresa-com-divida-alta-vai-se-esborrachar-diz-o-reestruturador-ricardo-k/
+2026-08-26 03:13:34 [INFO] Título: 'Qualquer empresa com dívida alta vai se esborrachar', diz o reestruturador Ricardo K.
+2026-08-26 03:13:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 03:13:34 [INFO] Classificação: nao_enviar
+2026-08-26 03:13:35 [INFO] Aguardando 2.79s...
+2026-08-26 03:13:37 [INFO] [5/5] ID: https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/25/justica-decreta-falencia-da-oi-pela-segunda-vez-desde-novembro.ghtml
+2026-08-26 03:13:37 [INFO] Título: Falência da Oi é decretada pela Justiça do Rio de Janeiro | G1
+2026-08-26 03:13:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 03:13:38 [INFO] Classificação: enviar
+2026-08-26 03:13:38 [INFO] ======================================================================
+2026-08-26 03:13:38 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 03:13:38 [INFO] ======================================================================
+2026-08-26 03:13:38 [INFO] Processadas: 5
+2026-08-26 03:13:38 [INFO] Enviar: 3
+2026-08-26 03:13:38 [INFO] Não enviar: 2
+2026-08-26 03:13:38 [INFO] ======================================================================
