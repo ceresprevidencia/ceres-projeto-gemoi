@@ -10005,3 +10005,66 @@
 2026-08-25 23:31:26 [INFO] Enviar: 4
 2026-08-25 23:31:26 [INFO] Não enviar: 3
 2026-08-25 23:31:26 [INFO] ======================================================================
+2026-08-26 01:49:26 [INFO] ======================================================================
+2026-08-26 01:49:26 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-26 01:49:26 [INFO] ======================================================================
+2026-08-26 01:49:26 [INFO] Notícias com status 'extraida': 10
+2026-08-26 01:49:26 [INFO] Limite: 20 requisições/minuto
+2026-08-26 01:49:26 [INFO] Intervalo mínimo: 3.0s
+2026-08-26 01:49:26 [INFO] ======================================================================
+2026-08-26 01:49:26 [INFO] [1/10] ID: https://conjur.com.br/2026-ago-25/casas-bahia-em-recuperacao-judicial-riscos-e-decisoes-para-credores/
+2026-08-26 01:49:26 [INFO] Título: Casas Bahia em <b>recuperação judicial</b>: riscos e decisões para credores - Consultor Jurídico
+2026-08-26 01:49:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:26 [INFO] Classificação: enviar
+2026-08-26 01:49:26 [INFO] Aguardando 2.55s...
+2026-08-26 01:49:29 [INFO] [2/10] ID: https://rdmonline.com.br/grandes-empresas-entram-em-recuperacao-judicial-no-brasil/
+2026-08-26 01:49:29 [INFO] Título: Grandes empresas entram em <b>recuperação judicial</b> no Brasil - RDM ONLINE
+2026-08-26 01:49:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:29 [INFO] Classificação: enviar
+2026-08-26 01:49:29 [INFO] Aguardando 2.65s...
+2026-08-26 01:49:32 [INFO] [3/10] ID: https://telesintese.com.br/tj-rj-valida-venda-das-upis-da-oi-e-acolhe-recurso-da-v-tal-sobre-contas-escrow/
+2026-08-26 01:49:32 [INFO] Título: TJ-RJ valida venda das UPIs da Oi e acolhe recurso da V.tal sobre contas escrow
+2026-08-26 01:49:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:32 [INFO] Classificação: nao_enviar
+2026-08-26 01:49:32 [INFO] Aguardando 2.70s...
+2026-08-26 01:49:35 [INFO] [4/10] ID: https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=115124&pagina=1
+2026-08-26 01:49:35 [INFO] Título: Implantação do eproc na Fazenda Pública: saiba como acessar - Tribunal de Justiça
+2026-08-26 01:49:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:35 [INFO] Classificação: nao_enviar
+2026-08-26 01:49:35 [INFO] Aguardando 2.67s...
+2026-08-26 01:49:38 [INFO] [5/10] ID: https://timesbrasil.com.br/brasil/casas-bahia-tem-r-11-bi-em-dividas-fora-da-recuperacao-judicial-bancos-concentram-r-65-bi/
+2026-08-26 01:49:38 [INFO] Título: Casas Bahia tem R$ 11 bi fora da <b>recuperação judicial</b> - Times Brasil
+2026-08-26 01:49:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:38 [INFO] Classificação: enviar
+2026-08-26 01:49:38 [INFO] Aguardando 2.67s...
+2026-08-26 01:49:41 [INFO] [6/10] ID: https://www.terra.com.br/economia/braskem-apresenta-pedido-de-recuperacao-extrajudicial,bc574f138fabba1454696560908e19a2b9bdwuiz.html
+2026-08-26 01:49:41 [INFO] Título: Braskem apresenta pedido de <b>recuperação extrajudicial</b> - Terra
+2026-08-26 01:49:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:41 [INFO] Classificação: enviar
+2026-08-26 01:49:41 [INFO] Aguardando 2.76s...
+2026-08-26 01:49:44 [INFO] [7/10] ID: https://www.bbc.com/portuguese/articles/c70dww3j9ypo
+2026-08-26 01:49:44 [INFO] Título: Braskem em Maceió: moradores afetados temem pedido de <b>recuperação extrajudicial</b> - BBC
+2026-08-26 01:49:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:44 [INFO] Classificação: enviar
+2026-08-26 01:49:44 [INFO] Aguardando 2.64s...
+2026-08-26 01:49:47 [INFO] [8/10] ID: https://www.instagram.com/p/DceBIoIjMjE/
+2026-08-26 01:49:47 [INFO] Título: O plano que será desenhado pela Braskem , controlada pela @ig4capital e ... - Instagram
+2026-08-26 01:49:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:47 [INFO] Classificação: nao_enviar
+2026-08-26 01:49:47 [INFO] Aguardando 2.70s...
+2026-08-26 01:49:50 [INFO] [9/10] ID: https://revistarpanews.com.br/braskem-aprova-pedido-de-recuperacao-extrajudicial-para-reestruturar-us-109-bilhoes-em-divida/
+2026-08-26 01:49:50 [INFO] Título: Braskem aprova pedido de <b>recuperação extrajudicial</b> para reestruturar US$ 10,9 bilhões em dívida
+2026-08-26 01:49:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:50 [INFO] Classificação: enviar
+2026-08-26 01:49:50 [INFO] Aguardando 2.77s...
+2026-08-26 01:49:53 [INFO] [10/10] ID: https://www.enfoquems.com.br/denuncia-de-vereadora-levou-pf-a-investigar-r-12-milhao-do-impcg-vice-prefeita-foi-alvo-de-buscas/
+2026-08-26 01:49:53 [INFO] Título: Denúncia de vereadora levou PF a investigar R$ 1,2 milhão do IMPCG; vice-prefeita foi alvo ...
+2026-08-26 01:49:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-26 01:49:53 [INFO] Classificação: nao_enviar
+2026-08-26 01:49:53 [INFO] ======================================================================
+2026-08-26 01:49:53 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-26 01:49:53 [INFO] ======================================================================
+2026-08-26 01:49:53 [INFO] Processadas: 10
+2026-08-26 01:49:53 [INFO] Enviar: 6
+2026-08-26 01:49:53 [INFO] Não enviar: 4
+2026-08-26 01:49:53 [INFO] ======================================================================
