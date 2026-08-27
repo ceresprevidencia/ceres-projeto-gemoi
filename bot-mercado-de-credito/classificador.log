@@ -11118,3 +11118,341 @@
 2026-08-27 09:21:10 [INFO] Enviar: 21
 2026-08-27 09:21:10 [INFO] Não enviar: 12
 2026-08-27 09:21:10 [INFO] ======================================================================
+2026-08-27 20:16:33 [INFO] ======================================================================
+2026-08-27 20:16:33 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-27 20:16:33 [INFO] ======================================================================
+2026-08-27 20:16:33 [INFO] Notícias com status 'extraida': 65
+2026-08-27 20:16:33 [INFO] Limite: 20 requisições/minuto
+2026-08-27 20:16:33 [INFO] Intervalo mínimo: 3.0s
+2026-08-27 20:16:33 [INFO] ======================================================================
+2026-08-27 20:16:33 [INFO] [1/65] ID: https://www.migalhas.com.br/quentes/463363/caso-oi-especialistas-avaliam-limites-da-recuperacao-judicial
+2026-08-27 20:16:33 [INFO] Título: Caso Oi: Especialistas avaliam limites da <b>recuperação judicial</b> - Migalhas
+2026-08-27 20:16:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:16:33 [INFO] Classificação: enviar
+2026-08-27 20:16:33 [INFO] Aguardando 2.49s...
+2026-08-27 20:16:36 [INFO] [2/65] ID: https://www.terra.com.br/economia/habibs-em-recuperacao-judicial-entenda-os-motivos-e-o-que-muda,e6acc29e0da1dd90b1323c0f23170c32ohuns1cm.html
+2026-08-27 20:16:36 [INFO] Título: Habib's em <b>recuperação judicial</b>: entenda os motivos e o que muda - Terra
+2026-08-27 20:16:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:16:36 [INFO] Classificação: enviar
+2026-08-27 20:16:36 [INFO] Aguardando 2.74s...
+2026-08-27 20:16:39 [INFO] [3/65] ID: https://agfeed.com.br/negocios/heringer-pede-protecao-a-justica-e-inicia-mediacao-com-credores-apos-novo-trimestre-no-vermelho/
+2026-08-27 20:16:39 [INFO] Título: Heringer pede proteção à Justiça e inicia mediação com credores após novo trimestre no vermelho
+2026-08-27 20:16:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:16:39 [INFO] Classificação: enviar
+2026-08-27 20:16:39 [INFO] Aguardando 2.68s...
+2026-08-27 20:16:42 [INFO] [4/65] ID: https://www.canalrural.com.br/opiniao-noticias/quando-ate-o-habibs-pede-recuperacao-judicial-o-problema-e-o-brasil/
+2026-08-27 20:16:42 [INFO] Título: Quando até o Habib's pede <b>recuperação judicial</b>, o problema é o Brasil - Canal Rural
+2026-08-27 20:16:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:16:42 [INFO] Classificação: enviar
+2026-08-27 20:16:42 [INFO] Aguardando 2.61s...
+2026-08-27 20:16:45 [INFO] [5/65] ID: https://www.tjrj.jus.br/web/portal-conhecimento/noticias/noticia/-/visualizar-conteudo/5736540/406614655
+2026-08-27 20:16:45 [INFO] Título: Revista de Direito do TJRJ publica Enunciados do CEDES sobre Direito Empresarial
+2026-08-27 20:16:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:16:45 [INFO] Classificação: nao_enviar
+2026-08-27 20:16:45 [INFO] Aguardando 2.61s...
+2026-08-27 20:16:48 [INFO] [6/65] ID: https://www.youtube.com/watch?v=XzuhBVbOfSE
+2026-08-27 20:16:48 [INFO] Título: Grupo Habib's pede <b>recuperação judicial</b> com dívida de R$ 265 milhões - YouTube
+2026-08-27 20:16:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:16:48 [INFO] Classificação: enviar
+2026-08-27 20:16:48 [INFO] Aguardando 2.76s...
+2026-08-27 20:16:51 [INFO] [7/65] ID: https://www.youtube.com/watch?v=O7RMcivA-NI
+2026-08-27 20:16:51 [INFO] Título: DEBATEDORES ANALISAM AUMENTO RADICAL DE EMPRESAS ENTRANDO EM ... - YouTube
+2026-08-27 20:16:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:16:51 [INFO] Classificação: enviar
+2026-08-27 20:16:51 [INFO] Aguardando 2.50s...
+2026-08-27 20:16:54 [INFO] [8/65] ID: https://www.youtube.com/watch?v=h8eJKlXwDjo
+2026-08-27 20:16:54 [INFO] Título: Habib's entra em <b>recuperação judicial</b> - YouTube
+2026-08-27 20:16:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:16:54 [INFO] Classificação: enviar
+2026-08-27 20:16:54 [INFO] Aguardando 2.71s...
+2026-08-27 20:16:57 [INFO] [9/65] ID: https://conjur.com.br/2026-ago-27/stj-evita-que-honorarios-virem-entrave-aos-credores-na-rj-e-falencia/
+2026-08-27 20:16:57 [INFO] Título: STJ evita que sucumbência afete credores na <b>recuperação judicial</b> - Conjur
+2026-08-27 20:16:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:16:57 [INFO] Classificação: enviar
+2026-08-27 20:16:57 [INFO] Aguardando 2.65s...
+2026-08-27 20:17:00 [INFO] [10/65] ID: https://www.terra.com.br/noticias/habibs-entra-em-recuperacao-judicial,93feb7feb02ec9a3d8deeabe0dc287b8t25ds35v.html
+2026-08-27 20:17:00 [INFO] Título: Habib's entra em <b>recuperação judicial</b> - Terra
+2026-08-27 20:17:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:00 [INFO] Classificação: enviar
+2026-08-27 20:17:00 [INFO] Aguardando 2.54s...
+2026-08-27 20:17:03 [INFO] [11/65] ID: https://www.youtube.com/watch?v=GS1MZwC7mLQ
+2026-08-27 20:17:03 [INFO] Título: Grupo que controla Habib´s e Ragazzo entra em <b>recuperação judicial</b> - YouTube
+2026-08-27 20:17:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:03 [INFO] Classificação: enviar
+2026-08-27 20:17:03 [INFO] Aguardando 2.65s...
+2026-08-27 20:17:06 [INFO] [12/65] ID: https://www.metropoles.com/brasil/pandemia-e-selic-os-motivos-do-pedido-de-recuperacao-judicial-do-habibs
+2026-08-27 20:17:06 [INFO] Título: Pandemia e Selic: os motivos do pedido de <b>recuperação judicial</b> do Habib's - Metrópoles
+2026-08-27 20:17:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:06 [INFO] Classificação: enviar
+2026-08-27 20:17:06 [INFO] Aguardando 2.57s...
+2026-08-27 20:17:09 [INFO] [13/65] ID: https://www.metropoles.com/brasil/habibs-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes
+2026-08-27 20:17:09 [INFO] Título: Habib's entra em <b>recuperação judicial</b> e declara dívida de R$ 265 milhões - Metrópoles
+2026-08-27 20:17:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:09 [INFO] Classificação: enviar
+2026-08-27 20:17:09 [INFO] Aguardando 2.77s...
+2026-08-27 20:17:12 [INFO] [14/65] ID: https://www.correiobraziliense.com.br/economia/2026/08/7488176-juros-altos-agravam-crise-e-levam-empresas-a-recuperacao-judicial.html
+2026-08-27 20:17:12 [INFO] Título: Juros altos agravam crise e levam empresas à <b>recuperação judicial</b> - Correio Braziliense
+2026-08-27 20:17:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:12 [INFO] Classificação: enviar
+2026-08-27 20:17:12 [INFO] Aguardando 2.58s...
+2026-08-27 20:17:15 [INFO] [15/65] ID: https://secrj.org.br/2026/08/26/casas-bahia-calote-sindicato/
+2026-08-27 20:17:15 [INFO] Título: Sindicato repudia calote aos trabalhadores do Grupo Casas Bahia - SEC RJ
+2026-08-27 20:17:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:15 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:15 [INFO] Aguardando 2.71s...
+2026-08-27 20:17:18 [INFO] [16/65] ID: https://noticias.r7.com/jr-na-tv/video/grupo-que-controla-as-redes-de-lanchonetes-habibs-e-ragazzo-entra-em-recuperacao-judicial-26082026/
+2026-08-27 20:17:18 [INFO] Título: Grupo que controla as redes de lanchonetes Habib's e Ragazzo entra em <b>recuperação judicial</b>
+2026-08-27 20:17:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:18 [INFO] Classificação: enviar
+2026-08-27 20:17:18 [INFO] Aguardando 2.78s...
+2026-08-27 20:17:21 [INFO] [17/65] ID: https://investalk.bb.com.br/radar/habibs-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes
+2026-08-27 20:17:21 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265 milhões - BB InvesTalk
+2026-08-27 20:17:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:21 [INFO] Classificação: enviar
+2026-08-27 20:17:21 [INFO] Aguardando 2.68s...
+2026-08-27 20:17:24 [INFO] [18/65] ID: https://www.bbc.com/portuguese/articles/czjz794k8v7o
+2026-08-27 20:17:24 [INFO] Título: Do Habib's às Casas Bahia, por que tantas empresas estão quebrando no Brasil? - BBC
+2026-08-27 20:17:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:24 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:24 [INFO] Aguardando 2.60s...
+2026-08-27 20:17:27 [INFO] [19/65] ID: https://br.advfn.com/jornal/2026/08/braskem-ganha-folego-com-novo-credito-da-petrobras-e-acoes-disparam
+2026-08-27 20:17:27 [INFO] Título: Braskem ganha fôlego com novo crédito da Petrobras e ações disparam
+2026-08-27 20:17:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:27 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:27 [INFO] Aguardando 2.60s...
+2026-08-27 20:17:30 [INFO] [20/65] ID: https://www.infomoney.com.br/mercados/petrobras-braskem-yduqs-vale-oncoclinicas-e-mais-acoes-para-acompanhar-hoje/
+2026-08-27 20:17:30 [INFO] Título: Petrobras, Braskem, Yduqs, Vale, Oncoclínicas e mais ações para acompanhar hoje
+2026-08-27 20:17:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:30 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:30 [INFO] Aguardando 2.60s...
+2026-08-27 20:17:33 [INFO] [21/65] ID: https://www.clubefiinews.com.br/acoes/motiva-infraestrutura-mobilidade-anuncia-renuncia-diretor-vice-presidente-pedro-sutter
+2026-08-27 20:17:33 [INFO] Título: Motiva Infraestrutura de Mobilidade anuncia renúncia de Diretor Vice-Presidente
+2026-08-27 20:17:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:33 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:33 [INFO] Aguardando 2.61s...
+2026-08-27 20:17:36 [INFO] [22/65] ID: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/08/27/acoes-da-braskem-sobem-12-apos-ampliacao-de-credito-com-petrobras.ghtm
+2026-08-27 20:17:36 [INFO] Título: Ações da Braskem sobem 14,5% após ampliação de crédito com Petrobras
+2026-08-27 20:17:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:36 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:36 [INFO] Aguardando 2.65s...
+2026-08-27 20:17:39 [INFO] [23/65] ID: https://investalk.bb.com.br/noticias/mercado/credito-privado-analise-emissores-Cury-Ago26
+2026-08-27 20:17:39 [INFO] Título: Cury: Atualização de crédito (Agosto/2026) - BB InvesTalk - Banco do Brasil
+2026-08-27 20:17:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:39 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:39 [INFO] Aguardando 2.36s...
+2026-08-27 20:17:42 [INFO] [24/65] ID: https://www.sonhoseguro.com.br/2026/08/casas-bahia-ameaca-perdas-maiores-que-americanas-e-testa-lrs-e-seguro-fianca/
+2026-08-27 20:17:42 [INFO] Título: Casas Bahia ameaça perdas maiores que Americanas e testa LRS e seguro fiança
+2026-08-27 20:17:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:42 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:42 [INFO] Aguardando 2.63s...
+2026-08-27 20:17:45 [INFO] [25/65] ID: https://tvtnews.com.br/braskem-crise-financeira-recuperacao-extrajudicial-e-os-impactos-sobre-trabalhadores-e-setor-petroquimico/
+2026-08-27 20:17:45 [INFO] Título: Braskem: crise financeira, <b>recuperação extrajudicial</b> e os impactos sobre trabalhadores e ...
+2026-08-27 20:17:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:45 [INFO] Classificação: enviar
+2026-08-27 20:17:45 [INFO] Aguardando 2.75s...
+2026-08-27 20:17:48 [INFO] [26/65] ID: https://veja.abril.com.br/economia/a-engenharia-da-ig4-para-impedir-que-a-re-da-braskem-desmorone/
+2026-08-27 20:17:48 [INFO] Título: A engenharia da IG4 para impedir que a RE da Braskem desmorone - Revista Veja
+2026-08-27 20:17:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:48 [INFO] Classificação: enviar
+2026-08-27 20:17:48 [INFO] Aguardando 2.63s...
+2026-08-27 20:17:51 [INFO] [27/65] ID: https://pipelinevalor.globo.com/negocios/noticia/plano-da-oncoclinicas-preve-haircut-de-ate-80percent-do-valor-da-divida.ghtml
+2026-08-27 20:17:51 [INFO] Título: Oncoclínicas prevê haircut de até 80% da dívida (falta convencer o BB) - Pipeline - Globo
+2026-08-27 20:17:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:51 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:51 [INFO] Aguardando 2.75s...
+2026-08-27 20:17:54 [INFO] [28/65] ID: https://www.poder360.com.br/opiniao/o-brasil-precisa-parar-de-castigar-empresa-boa/
+2026-08-27 20:17:54 [INFO] Título: Marcello D'Angelo | O Brasil precisa parar de castigar empresa boa - Poder360
+2026-08-27 20:17:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:54 [INFO] Classificação: nao_enviar
+2026-08-27 20:17:54 [INFO] Aguardando 2.49s...
+2026-08-27 20:17:57 [INFO] [29/65] ID: https://www1.folha.uol.com.br/webstories/economia/2026/08/empresas-que-entraram-em-recuperacao-no-brasil-em-2026/
+2026-08-27 20:17:57 [INFO] Título: Empresas que entraram em <b>recuperação</b> no Brasil em 2026 - Grupo Folha
+2026-08-27 20:17:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:17:57 [INFO] Classificação: enviar
+2026-08-27 20:17:57 [INFO] Aguardando 2.57s...
+2026-08-27 20:18:00 [INFO] [30/65] ID: https://investnews.com.br/negocios/petrobras-fara-resgate-antecipado-de-us-1-bilhao-em-titulos-com-vencimento-em-2028/amp/
+2026-08-27 20:18:00 [INFO] Título: Petrobras fará resgate antecipado de US$ 1 bilhão em títulos com vencimento em 2028
+2026-08-27 20:18:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:00 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:00 [INFO] Aguardando 2.75s...
+2026-08-27 20:18:03 [INFO] [31/65] ID: https://www.youtube.com/shorts/Npkdho6JKYY
+2026-08-27 20:18:03 [INFO] Título: <b>Extrajudicial</b> vs. Judicial Reorganization: Understand the Differences - YouTube
+2026-08-27 20:18:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:03 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:03 [INFO] Aguardando 2.64s...
+2026-08-27 20:18:06 [INFO] [32/65] ID: https://valor.globo.com/empresas/noticia/2026/08/27/petrobras-amplia-limite-de-crdito-comercial-braskem-de-r-350-milhes-para-r-235-bi.ghtml
+2026-08-27 20:18:06 [INFO] Título: Petrobras amplia limite de crédito comercial à Braskem de R$ 350 milhões para R$ 2,35 bi
+2026-08-27 20:18:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:06 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:06 [INFO] Aguardando 2.66s...
+2026-08-27 20:18:09 [INFO] [33/65] ID: https://exame.com/insight/na-fusao-entre-afya-e-yduqs-fantasma-de-kroton-estacio-ronda-o-negocio/p
+2026-08-27 20:18:09 [INFO] Título: Na fusão entre Afya e Yduqs, fantasma de Kroton-Estácio ronda o negócio - Exame
+2026-08-27 20:18:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:09 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:09 [INFO] Aguardando 2.73s...
+2026-08-27 20:18:12 [INFO] [34/65] ID: https://diariocampineiro.com.br/economia-regional-dividas-levam-mais-uma-empresa-da-regiao-a-pedir-recuperacao-extrajudicial/
+2026-08-27 20:18:12 [INFO] Título: Economia Regional - Dívidas levam mais uma empresa da região a pedir <b>recuperação extrajudicial</b>
+2026-08-27 20:18:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:12 [INFO] Classificação: enviar
+2026-08-27 20:18:12 [INFO] Aguardando 2.76s...
+2026-08-27 20:18:15 [INFO] [35/65] ID: https://br.advfn.com/jornal/2026/08/oncoclinicas-atualiza-plano-de-recuperacao-extrajudicial-e-mantem-negociacao-com-credores
+2026-08-27 20:18:15 [INFO] Título: Oncoclínicas atualiza plano de <b>recuperação extrajudicial</b> e mantém negociação com credores
+2026-08-27 20:18:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:15 [INFO] Classificação: enviar
+2026-08-27 20:18:15 [INFO] Aguardando 2.64s...
+2026-08-27 20:18:18 [INFO] [36/65] ID: https://economia.uol.com.br/noticias/redacao/2026/08/27/petrobras-e-braskem-elevam-limite-de-credito-entre-as-duas-a-r-235-bi.ghtm
+2026-08-27 20:18:18 [INFO] Título: Em crise, Braskem eleva limite de crédito com acionista Petrobras - UOL Economia
+2026-08-27 20:18:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:18 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:18 [INFO] Aguardando 2.64s...
+2026-08-27 20:18:21 [INFO] [37/65] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/08/27/oncoclnicas-submete-minuta-atualizada-do-plano-de-recuperao-extrajudicial-justia-em-sp.ghtml
+2026-08-27 20:18:21 [INFO] Título: Oncoclínicas submete minuta atualizada do plano de <b>recuperação extrajudicial</b> à Justiça em SP
+2026-08-27 20:18:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:22 [INFO] Classificação: enviar
+2026-08-27 20:18:22 [INFO] Aguardando 1.43s...
+2026-08-27 20:18:24 [INFO] [38/65] ID: https://www1.folha.uol.com.br/mercado/2026/08/bb-diz-a-justica-que-nao-debitou-r-422-mi-da-casas-bahia-e-acusa-empresa-de-ma-fe.shtml
+2026-08-27 20:18:24 [INFO] Título: BB diz à Justiça que não debitou R$ 422 mi da Casas Bahia e acusa empresa de má-fé
+2026-08-27 20:18:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:24 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:24 [INFO] Aguardando 2.57s...
+2026-08-27 20:18:27 [INFO] [39/65] ID: https://valor.globo.com/empresas/noticia/2026/08/27/quantas-empresas-pediram-recuperacao-judicial-em-2026.ghtml
+2026-08-27 20:18:27 [INFO] Título: Quantas empresas pediram recuperação <b>judicial</b> em 2026? - Valor Econômico - Globo
+2026-08-27 20:18:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:27 [INFO] Classificação: enviar
+2026-08-27 20:18:27 [INFO] Aguardando 2.63s...
+2026-08-27 20:18:30 [INFO] [40/65] ID: https://www.youtube.com/watch?v=vIFa1ehX72c
+2026-08-27 20:18:30 [INFO] Título: Recuperação <b>judicial</b> do Habib's acende alerta sobre crédito e juros altos - YouTube
+2026-08-27 20:18:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:30 [INFO] Classificação: enviar
+2026-08-27 20:18:30 [INFO] Aguardando 2.63s...
+2026-08-27 20:18:33 [INFO] [41/65] ID: https://jurinews.com.br/destaques-ultimas/justica-autoriza-recuperacao-judicial-do-habibs-apos-grupo-acumular-divida-de-r-2652-milhoes
+2026-08-27 20:18:33 [INFO] Título: Justiça autoriza recuperação <b>judicial</b> do Habib's após grupo acumular dívida de R$ 265,2 milhões
+2026-08-27 20:18:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:33 [INFO] Classificação: enviar
+2026-08-27 20:18:33 [INFO] Aguardando 2.68s...
+2026-08-27 20:18:36 [INFO] [42/65] ID: https://www.nordinvestimentos.com.br/blog/amp/produto-potencial-recuperacao-judicial-inflacao-brasil/
+2026-08-27 20:18:36 [INFO] Título: Produto potencial: por que a recuperação <b>judicial</b> em massa afeta a inflação no Brasil
+2026-08-27 20:18:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:36 [INFO] Classificação: enviar
+2026-08-27 20:18:36 [INFO] Aguardando 2.58s...
+2026-08-27 20:18:39 [INFO] [43/65] ID: https://revistapegn.globo.com/franquias/noticia/2026/08/habibs-entra-em-recuperacao-judicial-com-divida-de-r-2652-milhoes-quais-os-impactos-para-franqueados.ghtml
+2026-08-27 20:18:39 [INFO] Título: Habib's entra em recuperação <b>judicial</b> com dívida de R$ 265,2 milhões - Globo
+2026-08-27 20:18:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:39 [INFO] Classificação: enviar
+2026-08-27 20:18:39 [INFO] Aguardando 2.65s...
+2026-08-27 20:18:42 [INFO] [44/65] ID: https://www.cnnbrasil.com.br/blogs/debora-oliveira/economia/money/negocios/casas-bahia-trava-disputa-por-mais-de-r-119-bilhao-para-reforcar-o-caixa/
+2026-08-27 20:18:42 [INFO] Título: Casas Bahia trava disputa por mais de R$ 1,19 bilhão para reforçar o caixa - CNN Brasil
+2026-08-27 20:18:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:43 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:43 [INFO] Aguardando 1.47s...
+2026-08-27 20:18:45 [INFO] [45/65] ID: https://www.meioemensagem.com.br/marketing/por-que-o-setor-eletro-e-mais-afetado-pela-crise-no-varejo
+2026-08-27 20:18:45 [INFO] Título: Por que o setor eletro é o mais afetado pela crise no varejo? - Meio e Mensagem
+2026-08-27 20:18:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:45 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:45 [INFO] Aguardando 2.58s...
+2026-08-27 20:18:48 [INFO] [46/65] ID: https://www.estadao.com.br/estadao-verifica/fechamentos-de-agencias-de-banco-e-de-lojas-de-rede-varejista-nao-ilustram-crise-na-economia/
+2026-08-27 20:18:48 [INFO] Título: Post engana ao relacionar fechamento de agências do Bradesco a recuperação <b>judicial</b> das ...
+2026-08-27 20:18:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:48 [INFO] Classificação: enviar
+2026-08-27 20:18:48 [INFO] Aguardando 2.67s...
+2026-08-27 20:18:51 [INFO] [47/65] ID: https://www.metropoles.com/brasil/habibs-pode-fechar-apos-pedido-de-recuperacao-judicial-entenda
+2026-08-27 20:18:51 [INFO] Título: Habib's pode fechar após pedido de recuperação <b>judicial</b>? Entenda - Metrópoles
+2026-08-27 20:18:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:51 [INFO] Classificação: enviar
+2026-08-27 20:18:51 [INFO] Aguardando 2.63s...
+2026-08-27 20:18:54 [INFO] [48/65] ID: https://m.imirante.com/noticias/brasil/2026/08/27/ipolitica-depoimento-de-daniel-vorcaro-a-pf-e-adiado-por-falhas
+2026-08-27 20:18:54 [INFO] Título: Depoimento de Daniel Vorcaro à PF é adiado por falhas técnicas - Imirante
+2026-08-27 20:18:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:54 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:54 [INFO] Aguardando 2.59s...
+2026-08-27 20:18:57 [INFO] [49/65] ID: https://imirante.com/noticias/brasil/2026/08/27/ipolitica-depoimento-de-daniel-vorcaro-a-pf-e-adiado-por-falhas
+2026-08-27 20:18:57 [INFO] Título: Depoimento de Daniel Vorcaro à PF é adiado por falhas técnicas - Imirante.com
+2026-08-27 20:18:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:18:57 [INFO] Classificação: nao_enviar
+2026-08-27 20:18:57 [INFO] Aguardando 2.35s...
+2026-08-27 20:19:00 [INFO] [50/65] ID: https://www.folhape.com.br/politica/depoimento-de-vorcaro-a-pf-sobre-fraudes-do-master-e-adiado-por/509099/
+2026-08-27 20:19:00 [INFO] Título: Depoimento de Vorcaro à PF sobre fraudes do Master é adiado por problemas técnicos
+2026-08-27 20:19:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:00 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:00 [INFO] Aguardando 2.83s...
+2026-08-27 20:19:03 [INFO] [51/65] ID: https://jornalggn.com.br/justica-2/vorcaro-depoe-a-pf-nesta-sexta-28-apos-fracasso-de-delacao/
+2026-08-27 20:19:03 [INFO] Título: Vorcaro depõe à PF nesta sexta (28) após fracasso de delação - Jornal GGN
+2026-08-27 20:19:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:03 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:03 [INFO] Aguardando 2.64s...
+2026-08-27 20:19:06 [INFO] [52/65] ID: https://www.brasil247.com/brasil/depoimento-de-vorcaro-a-pf-sobre-fraudes-no-master-e-adiado-por-falha-tecnica/
+2026-08-27 20:19:06 [INFO] Título: Depoimento de Vorcaro à PF sobre fraudes no Master é adiado por falha técnica
+2026-08-27 20:19:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:06 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:06 [INFO] Aguardando 2.60s...
+2026-08-27 20:19:09 [INFO] [53/65] ID: https://www.brasil247.com/brasil/com-bolo-de-descomemoracao-lindbergh-cobra-explicacoes-de-flavio-bolsonaro-sobre-dark-horse/
+2026-08-27 20:19:09 [INFO] Título: Com bolo de 'descomemoração', Lindbergh cobra explicações de Flávio Bolsonaro sobre ...
+2026-08-27 20:19:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:09 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:09 [INFO] Aguardando 2.47s...
+2026-08-27 20:19:12 [INFO] [54/65] ID: https://spdiario.com.br/noticias/policia/daniel-vorcaro-depoe-a-policia-federal-nesta-quinta-feira-em-investigacao-sobre-o-banco-master.html
+2026-08-27 20:19:12 [INFO] Título: Daniel Vorcaro depõe à Polícia Federal nesta quinta-feira em investigação sobre o Banco Master
+2026-08-27 20:19:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:13 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:13 [INFO] Aguardando 2.23s...
+2026-08-27 20:19:15 [INFO] [55/65] ID: https://www.diario24horas.com.br/noticia/69867-daniel-vorcaro-presta-depoimento-a-policia-federal-na-papudinha-e-muda-estrategia-juridica
+2026-08-27 20:19:15 [INFO] Título: Daniel Vorcaro presta depoimento à Polícia Federal na Papudinha e muda estratégia jurídica
+2026-08-27 20:19:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:15 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:15 [INFO] Aguardando 2.35s...
+2026-08-27 20:19:18 [INFO] [56/65] ID: https://ultimosegundo.ig.com.br/2026-08-27/daniel-vorcaro--ex-controlador-do-banco-master--depoe-a-pf.html
+2026-08-27 20:19:18 [INFO] Título: Daniel Vorcaro, ex-controlador do Banco Master, depõe à PF - Último Segundo
+2026-08-27 20:19:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:19 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:19 [INFO] Aguardando 2.01s...
+2026-08-27 20:19:21 [INFO] [57/65] ID: https://www.em.com.br/nacional/2026/08/7488428-caso-daniel-vorcaro-entenda-como-funciona-a-cooperacao-com-o-exterior.html
+2026-08-27 20:19:21 [INFO] Título: Caso Daniel Vorcaro: entenda como funciona a cooperação com o exterior - Estado de Minas
+2026-08-27 20:19:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:21 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:21 [INFO] Aguardando 2.69s...
+2026-08-27 20:19:24 [INFO] [58/65] ID: https://obrasilianista.com.br/2026/08/27/economia/como-ficou-a-oferta-de-acoes-da-oncoclinicas/
+2026-08-27 20:19:24 [INFO] Título: Como ficou a oferta de ações da Oncoclínicas? - O Brasilianista
+2026-08-27 20:19:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:24 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:24 [INFO] Aguardando 2.73s...
+2026-08-27 20:19:27 [INFO] [59/65] ID: https://www.comprerural.com/?p=415415
+2026-08-27 20:19:27 [INFO] Título: Frigorífico de quase R$ 170 milhões, parado há três anos, pode voltar a abater suínos ainda ...
+2026-08-27 20:19:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:27 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:27 [INFO] Aguardando 2.63s...
+2026-08-27 20:19:30 [INFO] [60/65] ID: https://tribunadainternet.com.br/2026/08/26/vorcaro-depoe-a-pf-nesta-quinta-sob-pressao-apos-fracasso-de-duas-tentativas-de-delacao/
+2026-08-27 20:19:30 [INFO] Título: Vorcaro depõe à PF nesta quinta sob pressão após fracasso de duas tentativas de delação
+2026-08-27 20:19:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:30 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:30 [INFO] Aguardando 2.62s...
+2026-08-27 20:19:33 [INFO] [61/65] ID: https://www.infomoney.com.br/politica/vorcaro-presta-depoimento-a-pf-por-em-inquerito-sobre-fraudes-do-master/
+2026-08-27 20:19:33 [INFO] Título: Vorcaro presta depoimento à PF por em inquérito sobre fraudes do Master - InfoMoney
+2026-08-27 20:19:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:33 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:33 [INFO] Aguardando 2.62s...
+2026-08-27 20:19:36 [INFO] [62/65] ID: https://www.folhape.com.br/noticia/amp/508991/vorcaro-presta-depoimento-a-pf-por-videoconferencia-em-inquerito-sobre/
+2026-08-27 20:19:36 [INFO] Título: Vorcaro presta depoimento à PF por videoconferência em inquérito sobre fraudes do Master
+2026-08-27 20:19:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:36 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:36 [INFO] Aguardando 2.61s...
+2026-08-27 20:19:39 [INFO] [63/65] ID: https://www.infomoney.com.br/onde-investir/fidcs-fundos-tem-maior-apagao-do-ano-e-anbima-acende-alerta/
+2026-08-27 20:19:39 [INFO] Título: FIDCs: fundos têm maior “apagão” do ano, e Anbima acende alerta - InfoMoney
+2026-08-27 20:19:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:39 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:39 [INFO] Aguardando 2.61s...
+2026-08-27 20:19:42 [INFO] [64/65] ID: https://www.pressreader.com/brazil/o-globo/20260827/281719801438252
+2026-08-27 20:19:42 [INFO] Título: Após trocar de advogado, Vorcaro volta a depor sobre fraude no Master | O Globo
+2026-08-27 20:19:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:43 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:43 [INFO] Aguardando 2.31s...
+2026-08-27 20:19:45 [INFO] [65/65] ID: https://www.gazetadigital.com.br/editorias/brasil/buzios-inaugura-banco-vermelho-em-memoria-a-vitimas-de-feminicidio/857528
+2026-08-27 20:19:45 [INFO] Título: Búzios inaugura Banco Vermelho em memória a vítimas de feminicídio - Gazeta Digital
+2026-08-27 20:19:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 20:19:46 [INFO] Classificação: nao_enviar
+2026-08-27 20:19:46 [INFO] ======================================================================
+2026-08-27 20:19:46 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-27 20:19:46 [INFO] ======================================================================
+2026-08-27 20:19:46 [INFO] Processadas: 65
+2026-08-27 20:19:46 [INFO] Enviar: 28
+2026-08-27 20:19:46 [INFO] Não enviar: 37
+2026-08-27 20:19:46 [INFO] ======================================================================
