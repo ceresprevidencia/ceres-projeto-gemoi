@@ -10940,3 +10940,181 @@
 2026-08-26 23:20:26 [INFO] Enviar: 32
 2026-08-26 23:20:26 [INFO] Não enviar: 13
 2026-08-26 23:20:26 [INFO] ======================================================================
+2026-08-27 09:19:33 [INFO] ======================================================================
+2026-08-27 09:19:33 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-27 09:19:33 [INFO] ======================================================================
+2026-08-27 09:19:33 [INFO] Notícias com status 'extraida': 33
+2026-08-27 09:19:33 [INFO] Limite: 20 requisições/minuto
+2026-08-27 09:19:33 [INFO] Intervalo mínimo: 3.0s
+2026-08-27 09:19:33 [INFO] ======================================================================
+2026-08-27 09:19:33 [INFO] [1/33] ID: https://g1.globo.com/economia/noticia/2026/08/27/dona-do-habibs-em-recuperacao-judicial-o-que-acontece-agora.ghtml
+2026-08-27 09:19:33 [INFO] Título: Habib's em <b>recuperação judicial</b>: quais os motivos? O que acontece? - G1 - Globo
+2026-08-27 09:19:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:19:34 [INFO] Classificação: enviar
+2026-08-27 09:19:34 [INFO] Aguardando 2.64s...
+2026-08-27 09:19:36 [INFO] [2/33] ID: https://www.youtube.com/watch?v=wfRRO_Yd0vs
+2026-08-27 09:19:36 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265,2 milhões - YouTube
+2026-08-27 09:19:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:19:37 [INFO] Classificação: enviar
+2026-08-27 09:19:37 [INFO] Aguardando 2.67s...
+2026-08-27 09:19:39 [INFO] [3/33] ID: https://forbes.com.br/forbes-money/2026/08/dona-do-habibs-entra-em-recuperacao-judicial-com-divida-de-r-2652-milhoes/
+2026-08-27 09:19:39 [INFO] Título: Dona do Habib's Entra em <b>Recuperação Judicial</b> com Dívida de R$ 265,2 Milhões
+2026-08-27 09:19:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:19:40 [INFO] Classificação: enviar
+2026-08-27 09:19:40 [INFO] Aguardando 2.78s...
+2026-08-27 09:19:42 [INFO] [4/33] ID: https://braziljournal.com/esfiha-de-juros-habibs-entra-em-rj-com-dividas-de-r-265-milhoes/
+2026-08-27 09:19:42 [INFO] Título: Nem a esfiha aguenta essa Selic: Habib's entra em RJ - Brazil Journal
+2026-08-27 09:19:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:19:43 [INFO] Classificação: enviar
+2026-08-27 09:19:43 [INFO] Aguardando 2.63s...
+2026-08-27 09:19:45 [INFO] [5/33] ID: https://www.youtube.com/watch?v=O7dr45iIn8s
+2026-08-27 09:19:45 [INFO] Título: REDE DE FAST FOOD HABIB'S PEDE <b>RECUPERAÇÃO JUDICIAL</b> - YouTube
+2026-08-27 09:19:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:19:46 [INFO] Classificação: enviar
+2026-08-27 09:19:46 [INFO] Aguardando 2.75s...
+2026-08-27 09:19:48 [INFO] [6/33] ID: https://www.cnnbrasil.com.br/economia/money/negocios/apos-5-decadas-habibs-vai-de-esfiha-a-r-050-a-recuperacao-judicial/
+2026-08-27 09:19:48 [INFO] Título: Após 5 décadas, Habib's vai de esfiha a R$ 0,50 à <b>recuperação judicial</b> - CNN Brasil
+2026-08-27 09:19:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:19:49 [INFO] Classificação: enviar
+2026-08-27 09:19:49 [INFO] Aguardando 2.71s...
+2026-08-27 09:19:51 [INFO] [7/33] ID: https://www.correiobraziliense.com.br/economia/2026/08/7487935-grupo-habibs-entra-em-recuperacao-judicial.html
+2026-08-27 09:19:51 [INFO] Título: Grupo Habib's entra em <b>recuperação judicial</b> - Correio Braziliense
+2026-08-27 09:19:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:19:52 [INFO] Classificação: enviar
+2026-08-27 09:19:52 [INFO] Aguardando 2.80s...
+2026-08-27 09:19:54 [INFO] [8/33] ID: https://www.brasil247.com/negocios/habibs-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes/
+2026-08-27 09:19:54 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265 milhões - Brasil 247
+2026-08-27 09:19:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:19:55 [INFO] Classificação: enviar
+2026-08-27 09:19:55 [INFO] Aguardando 2.57s...
+2026-08-27 09:19:57 [INFO] [9/33] ID: https://www.agazeta.com.br/esportes/vasco-pode-ter-falencia-pedida-se-emprestimo-de-lamacchia-nao-for-aprovado-0826
+2026-08-27 09:19:57 [INFO] Título: Vasco pode ter falência pedida se empréstimo de Lamacchia não for aprovado - A Gazeta
+2026-08-27 09:19:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:19:58 [INFO] Classificação: nao_enviar
+2026-08-27 09:19:58 [INFO] Aguardando 2.70s...
+2026-08-27 09:20:00 [INFO] [10/33] ID: https://telesintese.com.br/oi-afirma-que-servicos-seguem-normalmente-apos-tj-rj-manter-falencia/
+2026-08-27 09:20:00 [INFO] Título: Oi afirma que serviços seguem normalmente após TJ-RJ manter falência - TeleSíntese
+2026-08-27 09:20:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:01 [INFO] Classificação: enviar
+2026-08-27 09:20:01 [INFO] Aguardando 2.42s...
+2026-08-27 09:20:03 [INFO] [11/33] ID: https://revistaoeste.com/economia/grupo-habibs-pede-recuperacao-judicial-com-divida-de-r-265-milhoes/
+2026-08-27 09:20:03 [INFO] Título: Grupo Habib's pede <b>recuperação judicial</b> com dívida de R$ 265 milhões - Revista Oeste
+2026-08-27 09:20:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:04 [INFO] Classificação: enviar
+2026-08-27 09:20:04 [INFO] Aguardando 2.85s...
+2026-08-27 09:20:06 [INFO] [12/33] ID: https://www.youtube.com/watch?v=w8Xt737GmJQ
+2026-08-27 09:20:06 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265 mi; veja no Fato Relevante
+2026-08-27 09:20:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:07 [INFO] Classificação: enviar
+2026-08-27 09:20:07 [INFO] Aguardando 2.69s...
+2026-08-27 09:20:09 [INFO] [13/33] ID: https://veja.abril.com.br/coluna/faria-lima-news/brasil-bate-r-180-bilhoes-em-dividas-sob-recuperacao-judicial-no-governo-lula/
+2026-08-27 09:20:09 [INFO] Título: Brasil bate R$ 180 bilhões em dívidas sob <b>recuperação judicial</b> no governo Lula | VEJA
+2026-08-27 09:20:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:10 [INFO] Classificação: enviar
+2026-08-27 09:20:10 [INFO] Aguardando 2.71s...
+2026-08-27 09:20:12 [INFO] [14/33] ID: https://www.youtube.com/watch?v=wkqQt1k3rnA
+2026-08-27 09:20:12 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265 milhões | Jornal da Band
+2026-08-27 09:20:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:13 [INFO] Classificação: enviar
+2026-08-27 09:20:13 [INFO] Aguardando 2.46s...
+2026-08-27 09:20:15 [INFO] [15/33] ID: https://jornaldebrasilia.com.br/noticias/economia/habibs-entra-em-recuperacao-judicial-com-divida-de-r-2652-milhoes/
+2026-08-27 09:20:15 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265,2 milhões | Jornal de Brasília
+2026-08-27 09:20:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:16 [INFO] Classificação: enviar
+2026-08-27 09:20:16 [INFO] Aguardando 2.60s...
+2026-08-27 09:20:18 [INFO] [16/33] ID: https://www.youtube.com/watch?v=bB9bsZkqH9Y
+2026-08-27 09:20:18 [INFO] Título: Habib's entra em <b>recuperação judicial</b> com dívida de R$ 265,2 milhões - YouTube
+2026-08-27 09:20:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:19 [INFO] Classificação: enviar
+2026-08-27 09:20:19 [INFO] Aguardando 2.81s...
+2026-08-27 09:20:21 [INFO] [17/33] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/08/27/habibs-casas-bahia-grupo-toky-por-que-cresce-a-lista-de-empresas-pedindo-recuperacao-judicial-no-pais-entenda.ghtml
+2026-08-27 09:20:21 [INFO] Título: Habib's, Casas Bahia, Grupo Toky: por que cresce a lista de empresas pedindo ... - O GLOBO
+2026-08-27 09:20:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:22 [INFO] Classificação: enviar
+2026-08-27 09:20:22 [INFO] Aguardando 2.65s...
+2026-08-27 09:20:24 [INFO] [18/33] ID: https://economia.ig.com.br/2026-08-26/casas-bahia-faz-leilao-de-eletrodomesticos-a-partir-de-158-reais.html
+2026-08-27 09:20:24 [INFO] Título: Casas Bahia faz leilão de eletrodomésticos a partir de R$ 158 - iG Economia
+2026-08-27 09:20:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:25 [INFO] Classificação: nao_enviar
+2026-08-27 09:20:25 [INFO] Aguardando 2.63s...
+2026-08-27 09:20:27 [INFO] [19/33] ID: https://www.instagram.com/p/DchMwNDgBNC/
+2026-08-27 09:20:27 [INFO] Título: Imediatamente após a decisão favorável do Colegiado da CVM para a OPA na Oncoclínicas ...
+2026-08-27 09:20:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:28 [INFO] Classificação: nao_enviar
+2026-08-27 09:20:28 [INFO] Aguardando 2.71s...
+2026-08-27 09:20:30 [INFO] [20/33] ID: https://www.seudinheiro.com/2026/empresas/el-nino-sao-martinho-smto3-xp-eleva-recomendacao-valorizacao-50-davs/
+2026-08-27 09:20:30 [INFO] Título: Peso do El Niño na São Martinho (SMTO3) é menor do que parece: XP eleva ...
+2026-08-27 09:20:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:31 [INFO] Classificação: nao_enviar
+2026-08-27 09:20:31 [INFO] Aguardando 2.44s...
+2026-08-27 09:20:33 [INFO] [21/33] ID: https://timesbrasil.com.br/empresas-e-negocios/recuperacao-extrajudicial-veja-por-que-empresas-estao-recorrendo-a-modalidade/
+2026-08-27 09:20:33 [INFO] Título: <b>Recuperação extrajudicial</b>: veja por que empresas estão recorrendo à modalidade
+2026-08-27 09:20:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:34 [INFO] Classificação: enviar
+2026-08-27 09:20:34 [INFO] Aguardando 2.73s...
+2026-08-27 09:20:36 [INFO] [22/33] ID: https://investnews.com.br/investimentos/fidcs-da-casas-bahia-ofereciam-retornos-de-ate-cdi30-ao-ano-e-tiveram-crescimento-acelerado-em-meio-a-crise/amp/
+2026-08-27 09:20:36 [INFO] Título: Fidcs da Casas Bahia ofereciam retornos de até CDI+30% ao ano - InvestNews
+2026-08-27 09:20:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:37 [INFO] Classificação: nao_enviar
+2026-08-27 09:20:37 [INFO] Aguardando 2.55s...
+2026-08-27 09:20:39 [INFO] [23/33] ID: https://www.fecombustiveis.org.br/noticia/de-braskem-a-raizen-recuperacoes-extrajudiciais-quase-dobram-no-brasil-em-dois-anos/265604
+2026-08-27 09:20:39 [INFO] Título: De Braskem a Raízen, recuperações extrajudiciais quase dobram no Brasil em dois anos
+2026-08-27 09:20:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:40 [INFO] Classificação: enviar
+2026-08-27 09:20:40 [INFO] Aguardando 2.85s...
+2026-08-27 09:20:42 [INFO] [24/33] ID: https://investalk.bb.com.br/noticias/mercado/tesouro-ipca-e-a-bola-da-vez-mas-volatilidade-pode-assustar-entenda
+2026-08-27 09:20:42 [INFO] Título: Tesouro IPCA+ é a bola da vez, mas volatilidade pode assustar: entenda - BB InvesTalk
+2026-08-27 09:20:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:43 [INFO] Classificação: nao_enviar
+2026-08-27 09:20:43 [INFO] Aguardando 2.73s...
+2026-08-27 09:20:45 [INFO] [25/33] ID: https://www.moneytimes.com.br/hapvida-anuncia-reducao-da-divida-bruta-em-r-3226-milhoes-com-recompra-de-debentures-e-liquidacao-antecipada-de-hedge/
+2026-08-27 09:20:45 [INFO] Título: Hapvida anuncia redução da dívida bruta em R$ 322,6 milhões com recompra de ... - Money Times
+2026-08-27 09:20:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:46 [INFO] Classificação: nao_enviar
+2026-08-27 09:20:46 [INFO] Aguardando 2.67s...
+2026-08-27 09:20:48 [INFO] [26/33] ID: https://www.estadao.com.br/economia/negocios/habibs-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes/
+2026-08-27 09:20:48 [INFO] Título: Habib's entra em recuperação <b>judicial</b> com dívida de R$ 265 milhões - Estadão
+2026-08-27 09:20:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:49 [INFO] Classificação: enviar
+2026-08-27 09:20:49 [INFO] Aguardando 2.74s...
+2026-08-27 09:20:51 [INFO] [27/33] ID: https://www.gazetadopovo.com.br/economia/habibs-entra-em-recuperacao-judicial-com-divida-de-r-265-milhoes/
+2026-08-27 09:20:51 [INFO] Título: Habib's entra em recuperação <b>judicial</b> com dívida de R$ 265 milhões - Gazeta do Povo
+2026-08-27 09:20:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:52 [INFO] Classificação: enviar
+2026-08-27 09:20:52 [INFO] Aguardando 2.57s...
+2026-08-27 09:20:54 [INFO] [28/33] ID: https://www.youtube.com/watch?v=6H4jbt_ZGpw
+2026-08-27 09:20:54 [INFO] Título: Dona de Habib's e Ragazzo entra em recuperação <b>judicial</b> por dívida de R$ 265,2 milhões ...
+2026-08-27 09:20:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:55 [INFO] Classificação: enviar
+2026-08-27 09:20:55 [INFO] Aguardando 2.70s...
+2026-08-27 09:20:57 [INFO] [29/33] ID: https://jovempan.com.br/politica/mendonca-minimiza-fala-sobre-condicao-media-com-salario-do-stf-e-fala-em-proposito/
+2026-08-27 09:20:57 [INFO] Título: Mendonça minimiza fala sobre 'condição média' com salário do STF e fala em 'propósito'
+2026-08-27 09:20:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:20:58 [INFO] Classificação: nao_enviar
+2026-08-27 09:20:58 [INFO] Aguardando 2.74s...
+2026-08-27 09:21:00 [INFO] [30/33] ID: https://www.radiopampa.com.br/banqueiro-daniel-vorcaro-depoe-nesta-quinta-a-policia-federal/
+2026-08-27 09:21:00 [INFO] Título: Banqueiro Daniel Vorcaro depõe nesta quinta à Polícia Federal - Rádio Pampa
+2026-08-27 09:21:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:21:01 [INFO] Classificação: nao_enviar
+2026-08-27 09:21:01 [INFO] Aguardando 2.67s...
+2026-08-27 09:21:03 [INFO] [31/33] ID: https://diariodopoder.com.br/dinheiro/ttc-dinheiro/vorcaro-depoe-a-pf-e-pode-revelar-detalhes-do-banco-master
+2026-08-27 09:21:03 [INFO] Título: Vorcaro depõe nesta quinta à PF sobre suas relações com Banco Central - Diário do Poder
+2026-08-27 09:21:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:21:05 [INFO] Classificação: nao_enviar
+2026-08-27 09:21:05 [INFO] Aguardando 1.77s...
+2026-08-27 09:21:06 [INFO] [32/33] ID: https://oglobo.globo.com/economia/noticia/2026/08/26/prolongamento-da-crise-do-brb-pode-diminuir-custo-para-fgc-e-preocupacao-do-bc-com-impacto-de-eventual-liquidacao.ghtml
+2026-08-27 09:21:06 [INFO] Título: Prolongamento da crise do BRB pode diminuir custo para FGC e preocupação do BC com ...
+2026-08-27 09:21:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:21:07 [INFO] Classificação: nao_enviar
+2026-08-27 09:21:07 [INFO] Aguardando 2.34s...
+2026-08-27 09:21:09 [INFO] [33/33] ID: https://reporterceara.com.br/2026/08/26/ex-dono-da-reag-apresenta-a-pgr-proposta-de-delacao-sobre-esquema-envolvendo-banco-master/?amp=1
+2026-08-27 09:21:09 [INFO] Título: Ex-dono da Reag apresenta à PGR proposta de delação sobre esquema envolvendo Banco Master
+2026-08-27 09:21:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-27 09:21:10 [INFO] Classificação: nao_enviar
+2026-08-27 09:21:10 [INFO] ======================================================================
+2026-08-27 09:21:10 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-27 09:21:10 [INFO] ======================================================================
+2026-08-27 09:21:10 [INFO] Processadas: 33
+2026-08-27 09:21:10 [INFO] Enviar: 21
+2026-08-27 09:21:10 [INFO] Não enviar: 12
+2026-08-27 09:21:10 [INFO] ======================================================================
