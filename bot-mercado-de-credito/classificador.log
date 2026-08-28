@@ -11724,3 +11724,291 @@
 2026-08-28 05:13:41 [INFO] Enviar: 23
 2026-08-28 05:13:41 [INFO] Não enviar: 28
 2026-08-28 05:13:41 [INFO] ======================================================================
+2026-08-28 18:31:30 [INFO] ======================================================================
+2026-08-28 18:31:30 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-28 18:31:30 [INFO] ======================================================================
+2026-08-28 18:31:30 [INFO] Notícias com status 'extraida': 55
+2026-08-28 18:31:30 [INFO] Limite: 20 requisições/minuto
+2026-08-28 18:31:30 [INFO] Intervalo mínimo: 3.0s
+2026-08-28 18:31:30 [INFO] ======================================================================
+2026-08-28 18:31:30 [INFO] [1/55] ID: https://veja.abril.com.br/brasil/casas-bahia-nos-cartorios-as-dividas-milionarias-da-varejista-espalhadas-pelo-pais/
+2026-08-28 18:31:30 [INFO] Título: Casas Bahia nos cartórios: as dívidas milionárias da varejista espalhadas pelo país | VEJA
+2026-08-28 18:31:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:30 [INFO] Classificação: nao_enviar
+2026-08-28 18:31:31 [INFO] Aguardando 2.59s...
+2026-08-28 18:31:33 [INFO] [2/55] ID: https://g1.globo.com/economia/negocios/noticia/2026/08/28/o-que-explica-a-onda-de-recuperacoes-em-2026.ghtml
+2026-08-28 18:31:33 [INFO] Título: Casas Bahia, Habib's e Braskem: o que explica a onda de recuperações - G1 - Globo
+2026-08-28 18:31:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:33 [INFO] Classificação: enviar
+2026-08-28 18:31:33 [INFO] Aguardando 2.71s...
+2026-08-28 18:31:36 [INFO] [3/55] ID: https://conjur.com.br/2026-ago-28/devedor-contumaz-e-o-progressivo-esvaziamento-da-recuperacao-judicial/
+2026-08-28 18:31:36 [INFO] Título: Devedor contumaz e o progressivo esvaziamento da <b>recuperação judicial</b> - Conjur
+2026-08-28 18:31:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:36 [INFO] Classificação: enviar
+2026-08-28 18:31:36 [INFO] Aguardando 2.80s...
+2026-08-28 18:31:39 [INFO] [4/55] ID: https://www.capitalnews.com.br/economia-e-agronegocio/economia/crise-financeira-leva-grupo-dono-do-habibs-a-recuperacao-judicial/446120
+2026-08-28 18:31:39 [INFO] Título: Crise financeira leva grupo dono do Habib's à <b>recuperação judicial</b> - Capital News
+2026-08-28 18:31:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:39 [INFO] Classificação: enviar
+2026-08-28 18:31:39 [INFO] Aguardando 2.87s...
+2026-08-28 18:31:42 [INFO] [5/55] ID: https://agfeed.com.br/campo-das-ideias/artigo-quando-a-garantia-deixa-de-ser-garantia/
+2026-08-28 18:31:42 [INFO] Título: ARTIGO - Quando a garantia deixa de ser garantia - AgFeed
+2026-08-28 18:31:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:42 [INFO] Classificação: nao_enviar
+2026-08-28 18:31:42 [INFO] Aguardando 2.81s...
+2026-08-28 18:31:45 [INFO] [6/55] ID: https://www.nexojornal.com.br/expresso/2026/08/28/empresa-casas-bahia-braskem-recuperacao-judicial
+2026-08-28 18:31:45 [INFO] Título: O que levar em conta em meio à onda de recuperações <b>judiciais</b> - Nexo Jornal
+2026-08-28 18:31:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:46 [INFO] Classificação: enviar
+2026-08-28 18:31:46 [INFO] Aguardando 2.55s...
+2026-08-28 18:31:48 [INFO] [7/55] ID: https://economia.uol.com.br/noticias/redacao/2026/08/28/oi-telefonia-falencia-operacao-servicos-essenciais.ghtm
+2026-08-28 18:31:48 [INFO] Título: Se Oi colapsar, Anatel pode obrigar Claro, Vivo e TIM a assumirem rede - UOL Economia
+2026-08-28 18:31:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:49 [INFO] Classificação: nao_enviar
+2026-08-28 18:31:49 [INFO] Aguardando 2.54s...
+2026-08-28 18:31:51 [INFO] [8/55] ID: https://www.gazetadopovo.com.br/vozes/alan-ghani/socialismo-now-casas-bahias-e-obrigada-a-recontratar-funcionarios/
+2026-08-28 18:31:51 [INFO] Título: Socialismo Now: Casas Bahias é obrigada a recontratar funcionários - Gazeta do Povo
+2026-08-28 18:31:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:51 [INFO] Classificação: nao_enviar
+2026-08-28 18:31:52 [INFO] Aguardando 2.60s...
+2026-08-28 18:31:54 [INFO] [9/55] ID: https://economia.uol.com.br/noticias/redacao/2026/08/28/justica-aceita-pedido-de-recuperacao-extrajudicial-da-braskem.ghtm
+2026-08-28 18:31:54 [INFO] Título: Justiça aceita pedido de <b>recuperação</b> extrajudicial da Braskem - UOL Economia
+2026-08-28 18:31:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:54 [INFO] Classificação: enviar
+2026-08-28 18:31:54 [INFO] Aguardando 2.83s...
+2026-08-28 18:31:57 [INFO] [10/55] ID: https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-critica-haddad-e-fala-em-quebradeira-de-empresas/
+2026-08-28 18:31:57 [INFO] Título: Tarcísio critica Haddad e fala em “quebradeira” de empresas - Poder360
+2026-08-28 18:31:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:31:58 [INFO] Classificação: nao_enviar
+2026-08-28 18:31:58 [INFO] Aguardando 2.45s...
+2026-08-28 18:32:00 [INFO] [11/55] ID: https://omatogrosso.com/comprei-e-a-empresa-sumiu-golpe-recuperacao-judicial-ou-descumprimento-o-que-diz-a-lei/
+2026-08-28 18:32:00 [INFO] Título: Comprei e a empresa sumiu: golpe, <b>recuperação judicial</b> ou descumprimento? O que diz a lei
+2026-08-28 18:32:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:00 [INFO] Classificação: enviar
+2026-08-28 18:32:00 [INFO] Aguardando 2.72s...
+2026-08-28 18:32:03 [INFO] [12/55] ID: https://agrimidia.com.br/suinocultura-industrial/2026/08/28/grupo-do-habibs-entra-em-recuperacao-judicial-com-divida-de-r-70-mi-no-agro/
+2026-08-28 18:32:03 [INFO] Título: Grupo do Habib's entra em <b>recuperação judicial</b> com dívida de R$ 70 mi no agro - Agrimidia
+2026-08-28 18:32:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:03 [INFO] Classificação: enviar
+2026-08-28 18:32:03 [INFO] Aguardando 2.69s...
+2026-08-28 18:32:06 [INFO] [13/55] ID: https://dcomercio.com.br/publicacao/s/mp-questiona-plano-de-recuperacao-do-gpa-e-aponta-risco-a-credores-minoritarios
+2026-08-28 18:32:06 [INFO] Título: MP questiona plano de <b>recuperação</b> do GPA e aponta risco a credores minoritários
+2026-08-28 18:32:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:06 [INFO] Classificação: enviar
+2026-08-28 18:32:06 [INFO] Aguardando 2.73s...
+2026-08-28 18:32:09 [INFO] [14/55] ID: https://www.folhavitoria.com.br/economia/ar-condicionado-fogoes-e-air-fryer-casas-bahia-leiloa-produtos-com-ate-68-de-desconto/
+2026-08-28 18:32:09 [INFO] Título: Leilão da Casas Bahia reúne 367 lotes; veja descontos de até 68% - Folha Vitória
+2026-08-28 18:32:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:09 [INFO] Classificação: nao_enviar
+2026-08-28 18:32:09 [INFO] Aguardando 2.66s...
+2026-08-28 18:32:12 [INFO] [15/55] ID: https://www.instagram.com/p/DcjqY2ltCpT/
+2026-08-28 18:32:12 [INFO] Título: O Grupo Gennius, responsável pelo controle do Habib's, ingressou com um pedido de ... - Instagram
+2026-08-28 18:32:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:12 [INFO] Classificação: enviar
+2026-08-28 18:32:12 [INFO] Aguardando 2.62s...
+2026-08-28 18:32:15 [INFO] [16/55] ID: https://economia.uol.com.br/noticias/redacao/2026/08/28/recuperacao-judicial-do-habibs-coloca-abastecimento-de-franquias-em-risco.ghtm
+2026-08-28 18:32:15 [INFO] Título: Crise do Habib's ameaça abastecimento e faturamento de franquias - UOL Economia
+2026-08-28 18:32:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:15 [INFO] Classificação: nao_enviar
+2026-08-28 18:32:15 [INFO] Aguardando 2.69s...
+2026-08-28 18:32:18 [INFO] [17/55] ID: https://www.folhadoestado.com.br/judiciario/casas-bahia-disputa-r-119-bilhao-na-recuperacao-judicial-para-reforcar-o-caixa/642040
+2026-08-28 18:32:18 [INFO] Título: Casas Bahia disputa R$ 1,19 bilhão na <b>recuperação judicial</b> para reforçar o caixa
+2026-08-28 18:32:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:18 [INFO] Classificação: enviar
+2026-08-28 18:32:18 [INFO] Aguardando 2.68s...
+2026-08-28 18:32:21 [INFO] [18/55] ID: https://aciara.com.br/recuperacao-judicial-explica-aumento-empresas/
+2026-08-28 18:32:21 [INFO] Título: O que explica o aumento de empresas em <b>recuperação judicial</b>? - Acia Araçatuba
+2026-08-28 18:32:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:21 [INFO] Classificação: enviar
+2026-08-28 18:32:21 [INFO] Aguardando 2.68s...
+2026-08-28 18:32:24 [INFO] [19/55] ID: https://opovo.com.br/trends/justica-decreta-falencia-da-operadora-brasileira-apos-novo-capitulo-da-recuperacao-judicial/
+2026-08-28 18:32:24 [INFO] Título: Justiça decreta falência da operadora brasileira após novo capítulo da <b>recuperação judicial</b>
+2026-08-28 18:32:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:24 [INFO] Classificação: enviar
+2026-08-28 18:32:24 [INFO] Aguardando 2.68s...
+2026-08-28 18:32:27 [INFO] [20/55] ID: https://www.migalhas.com.br/depeso/463154/texas-nao-sao-paulo-por-que-a-crise-brasileira-vira-chapter-11
+2026-08-28 18:32:27 [INFO] Título: Texas, não São Paulo: Por que a crise brasileira vira Chapter 11 - Migalhas
+2026-08-28 18:32:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:27 [INFO] Classificação: enviar
+2026-08-28 18:32:28 [INFO] Aguardando 2.61s...
+2026-08-28 18:32:30 [INFO] [21/55] ID: https://investidor10.com.br/noticias/braskem-brkm5-avanca-com-recuperacao-extrajudicial-na-justica-122322/
+2026-08-28 18:32:30 [INFO] Título: Braskem (BRKM5) avança com <b>recuperação extrajudicial</b> na Justiça - Investidor10
+2026-08-28 18:32:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:30 [INFO] Classificação: enviar
+2026-08-28 18:32:30 [INFO] Aguardando 2.73s...
+2026-08-28 18:32:33 [INFO] [22/55] ID: https://br.advfn.com/jornal/2026/08/braskem-tem-recuperacao-extrajudicial-aprovada-para-reestruturar-divida-de-us-10-9-bilhoes
+2026-08-28 18:32:33 [INFO] Título: Braskem tem <b>recuperação extrajudicial</b> aprovada para reestruturar dívida de US$ 10,9 bilhões
+2026-08-28 18:32:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:33 [INFO] Classificação: enviar
+2026-08-28 18:32:33 [INFO] Aguardando 2.70s...
+2026-08-28 18:32:36 [INFO] [23/55] ID: https://www.bomdiamercado.com.br/mercado-financeiro/empresas/braskem-volta-a-cair-mesmo-apos-justica-aprovar-processamento-de-recuperacao-extrajudicial/
+2026-08-28 18:32:36 [INFO] Título: Braskem volta a cair, mesmo após Justiça aprovar processamento de <b>recuperação extrajudicial</b>
+2026-08-28 18:32:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:36 [INFO] Classificação: enviar
+2026-08-28 18:32:36 [INFO] Aguardando 2.72s...
+2026-08-28 18:32:39 [INFO] [24/55] ID: https://www.brasil247.com/negocios/justica-de-sao-paulo-aceita-pedido-de-recuperacao-extrajudicial-da-braskem/
+2026-08-28 18:32:39 [INFO] Título: Justiça de São Paulo aceita pedido de <b>recuperação extrajudicial</b> da Braskem - Brasil 247
+2026-08-28 18:32:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:39 [INFO] Classificação: enviar
+2026-08-28 18:32:39 [INFO] Aguardando 2.64s...
+2026-08-28 18:32:42 [INFO] [25/55] ID: https://agenciainfra.com/blog/justica-de-sp-defere-processamento-da-recuperacao-extrajudicial-da-braskem/
+2026-08-28 18:32:42 [INFO] Título: Justiça de SP defere processamento da <b>recuperação extrajudicial</b> da Braskem
+2026-08-28 18:32:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:42 [INFO] Classificação: enviar
+2026-08-28 18:32:42 [INFO] Aguardando 2.69s...
+2026-08-28 18:32:45 [INFO] [26/55] ID: https://investnews.com.br/negocios/justica-aceita-pedido-de-recuperacao-extrajudial-da-braskem-que-tem-90-dias-para-apresentar-plano/
+2026-08-28 18:32:45 [INFO] Título: Justiça aceita pedido de <b>recuperação</b> extrajudial da Braskem, que tem 90 dias para ...
+2026-08-28 18:32:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:45 [INFO] Classificação: enviar
+2026-08-28 18:32:45 [INFO] Aguardando 2.64s...
+2026-08-28 18:32:48 [INFO] [27/55] ID: https://www.metropoles.com/brasil/economia-br/justica-recuperacao-braskem
+2026-08-28 18:32:48 [INFO] Título: Justiça de SP aceita pedido de <b>recuperação extrajudicial</b> da Braskem - Metrópoles
+2026-08-28 18:32:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:48 [INFO] Classificação: enviar
+2026-08-28 18:32:48 [INFO] Aguardando 2.68s...
+2026-08-28 18:32:51 [INFO] [28/55] ID: https://exame.com/invest/mercados/braskem-recebe-aval-da-justica-para-recuperacao-extrajudicial-de-divida-de-us-109-bi/
+2026-08-28 18:32:51 [INFO] Título: Braskem recebe aval da Justiça para <b>recuperação extrajudicial</b> de dívida de US$ 10,9 bi
+2026-08-28 18:32:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:51 [INFO] Classificação: enviar
+2026-08-28 18:32:51 [INFO] Aguardando 2.64s...
+2026-08-28 18:32:54 [INFO] [29/55] ID: https://forbes.com.br/geral/2026/08/braskem-diz-que-justica-aprovou-processamento-da-recuperacao-extrajudicial/
+2026-08-28 18:32:54 [INFO] Título: Braskem Diz Que Justiça Aprovou Processamento da <b>Recuperação Extrajudicial</b> - Forbes
+2026-08-28 18:32:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:54 [INFO] Classificação: enviar
+2026-08-28 18:32:54 [INFO] Aguardando 2.76s...
+2026-08-28 18:32:57 [INFO] [30/55] ID: https://www.nordinvestimentos.com.br/blog/amp/risco-credito-brasil-raizen-braskem-casas-bahia/
+2026-08-28 18:32:57 [INFO] Título: Raízen, Braskem, Casas Bahia: o retrato do risco de crédito no Brasil | Nord News
+2026-08-28 18:32:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:32:57 [INFO] Classificação: nao_enviar
+2026-08-28 18:32:57 [INFO] Aguardando 2.67s...
+2026-08-28 18:33:00 [INFO] [31/55] ID: https://www.cnnbrasil.com.br/infra/juizo-aceita-processamento-da-recuperacao-extrajudicial-da-braskem/
+2026-08-28 18:33:00 [INFO] Título: Juízo aceita processamento da <b>recuperação extrajudicial</b> da Braskem - CNN Brasil
+2026-08-28 18:33:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:00 [INFO] Classificação: enviar
+2026-08-28 18:33:00 [INFO] Aguardando 2.68s...
+2026-08-28 18:33:03 [INFO] [32/55] ID: https://www.gazetadopovo.com.br/economia/braskem-avanca-em-recuperacao-extrajudicial-e-ganha-novo-prazo-contra-cobrancas/
+2026-08-28 18:33:03 [INFO] Título: Braskem avança em <b>recuperação extrajudicial</b> e ganha novo prazo contra cobranças
+2026-08-28 18:33:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:03 [INFO] Classificação: enviar
+2026-08-28 18:33:04 [INFO] Aguardando 2.61s...
+2026-08-28 18:33:06 [INFO] [33/55] ID: https://www1.folha.uol.com.br/mercado/2026/08/braskem-diz-que-justica-aprovou-processamento-da-recuperacao-extrajudicial.shtml
+2026-08-28 18:33:06 [INFO] Título: Braskem diz que Justiça aprovou processamento da <b>recuperação extrajudicial</b> - 28/08/2026 - Folha
+2026-08-28 18:33:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:06 [INFO] Classificação: enviar
+2026-08-28 18:33:06 [INFO] Aguardando 2.69s...
+2026-08-28 18:33:09 [INFO] [34/55] ID: https://www.diariodepernambuco.com.br/economia/2026/08/11722479-justica-aceita-pedido-de-recuperacao-extrajudicial-da-braskem.html
+2026-08-28 18:33:09 [INFO] Título: Justiça aceita pedido de <b>recuperação extrajudicial</b> da Braskem - Diario de Pernambuco
+2026-08-28 18:33:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:09 [INFO] Classificação: enviar
+2026-08-28 18:33:09 [INFO] Aguardando 2.74s...
+2026-08-28 18:33:12 [INFO] [35/55] ID: https://jovempan.com.br/economia/braskem-obtem-aval-da-justica-para-iniciar-recuperacao-extrajudicial/
+2026-08-28 18:33:12 [INFO] Título: Braskem obtém aval da Justiça para iniciar <b>recuperação extrajudicial</b> - Jovem Pan
+2026-08-28 18:33:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:13 [INFO] Classificação: enviar
+2026-08-28 18:33:13 [INFO] Aguardando 2.59s...
+2026-08-28 18:33:15 [INFO] [36/55] ID: https://www.cnnbrasil.com.br/economia/money/negocios/braskem-diz-que-justica-aprovou-processamento-da-recuperacao-extrajudicial/
+2026-08-28 18:33:15 [INFO] Título: Braskem diz que Justiça aprovou processamento da <b>recuperação extrajudicial</b> - CNN Brasil
+2026-08-28 18:33:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:15 [INFO] Classificação: enviar
+2026-08-28 18:33:15 [INFO] Aguardando 2.69s...
+2026-08-28 18:33:18 [INFO] [37/55] ID: https://www.terra.com.br/economia/braskem-diz-que-justica-aprovou-processamento-da-recuperacao-extrajudicial,d09f1296fa0bc20948cb32a6b584df32clj72qw2.html
+2026-08-28 18:33:18 [INFO] Título: Braskem diz que Justiça aprovou processamento da <b>recuperação extrajudicial</b> - Terra
+2026-08-28 18:33:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:18 [INFO] Classificação: enviar
+2026-08-28 18:33:18 [INFO] Aguardando 2.80s...
+2026-08-28 18:33:21 [INFO] [38/55] ID: https://www.terra.com.br/noticias/brasil/do-habibs-as-casas-bahia-por-que-tantas-empresas-estao-quebrando-no-brasil,da8cb7514804ac6d6471415f43f6dc4d77gke5jd.html
+2026-08-28 18:33:21 [INFO] Título: Do Habib's às Casas Bahia, por que tantas empresas estão quebrando no Brasil? - Terra
+2026-08-28 18:33:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:21 [INFO] Classificação: nao_enviar
+2026-08-28 18:33:21 [INFO] Aguardando 2.64s...
+2026-08-28 18:33:24 [INFO] [39/55] ID: https://forbes.com.br/forbes-money/2026/08/braskem-diz-que-justica-aprovou-processamento-da-recuperacao-extrajudicial/
+2026-08-28 18:33:24 [INFO] Título: Braskem Diz Que Justiça Aprovou Processamento da Recuperação Extrajudicial - Forbes
+2026-08-28 18:33:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:25 [INFO] Classificação: enviar
+2026-08-28 18:33:25 [INFO] Aguardando 2.45s...
+2026-08-28 18:33:27 [INFO] [40/55] ID: https://www.cnnbrasil.com.br/agro/grupo-do-habibs-acumula-r-70-milhoes-em-dividas-com-fornecedores-do-agro/
+2026-08-28 18:33:27 [INFO] Título: Grupo do Habib's acumula R$ 70 milhões em dívidas com fornecedores do agro
+2026-08-28 18:33:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:27 [INFO] Classificação: nao_enviar
+2026-08-28 18:33:27 [INFO] Aguardando 2.66s...
+2026-08-28 18:33:30 [INFO] [41/55] ID: https://forbes.com.br/forbes-money/2026/08/osx-justica-aprovar-plano-recuperacao-um-credor/
+2026-08-28 18:33:30 [INFO] Título: Um Único Voto Trava Plano de Recuperação da OSX, Que Agora Recorre À Justiça
+2026-08-28 18:33:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:31 [INFO] Classificação: enviar
+2026-08-28 18:33:31 [INFO] Aguardando 2.59s...
+2026-08-28 18:33:33 [INFO] [42/55] ID: https://aciara.com.br/empresas-endividadas-em-recuperacao-judicial-entenda/
+2026-08-28 18:33:33 [INFO] Título: Empresas endividadas em recuperação <b>judicial</b>: entenda - Acia Araçatuba
+2026-08-28 18:33:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:34 [INFO] Classificação: enviar
+2026-08-28 18:33:34 [INFO] Aguardando 2.38s...
+2026-08-28 18:33:36 [INFO] [43/55] ID: https://www.moneytimes.com.br/apos-recuperacao-judicial-de-r-2-bilhoes-fertilizantes-heringer-fher3-volta-a-justica-e-pede-protecao-de-60-dias-contra-credores-pads/
+2026-08-28 18:33:36 [INFO] Título: Após recuperação <b>judicial</b> de R$ 2 bilhões, Fertilizantes Heringer (FHER3) volta à justiça e ...
+2026-08-28 18:33:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:36 [INFO] Classificação: enviar
+2026-08-28 18:33:36 [INFO] Aguardando 2.69s...
+2026-08-28 18:33:39 [INFO] [44/55] ID: https://www.nordinvestimentos.com.br/blog/risco-credito-brasil-raizen-braskem-casas-bahia/
+2026-08-28 18:33:39 [INFO] Título: Raízen, Braskem, Casas Bahia: o retrato do risco de crédito no Brasil - Nord Investimentos
+2026-08-28 18:33:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:39 [INFO] Classificação: nao_enviar
+2026-08-28 18:33:39 [INFO] Aguardando 2.63s...
+2026-08-28 18:33:42 [INFO] [45/55] ID: https://www.brasil247.com/brasil/em-depoimento-a-pf-vorcaro-sinaliza-interesse-em-fechar-acordo-de-delacao-premiada/
+2026-08-28 18:33:42 [INFO] Título: Em depoimento à PF, Vorcaro sinaliza interesse em fechar acordo de delação premiada
+2026-08-28 18:33:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:42 [INFO] Classificação: nao_enviar
+2026-08-28 18:33:42 [INFO] Aguardando 2.71s...
+2026-08-28 18:33:45 [INFO] [46/55] ID: https://www.brasil247.com/brasil/vorcaro-depoe-a-pf-sobre-suspeita-de-favorecimento-ao-banco-master/
+2026-08-28 18:33:45 [INFO] Título: Vorcaro depõe à PF sobre suspeita de favorecimento ao Banco Master - Brasil 247
+2026-08-28 18:33:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:45 [INFO] Classificação: nao_enviar
+2026-08-28 18:33:46 [INFO] Aguardando 2.62s...
+2026-08-28 18:33:48 [INFO] [47/55] ID: https://jornalportuario.com.br/noticias/reequilibrio-economico-financeiro-quando-a-mudanca-no-contrato-chega-ao-caixa
+2026-08-28 18:33:48 [INFO] Título: Reequilíbrio econômico-financeiro: quando a mudança no contrato chega ao caixa
+2026-08-28 18:33:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:48 [INFO] Classificação: nao_enviar
+2026-08-28 18:33:48 [INFO] Aguardando 2.69s...
+2026-08-28 18:33:51 [INFO] [48/55] ID: https://finsidersbrasil.com.br/regulamentacao/bc-cancela-autorizacao-da-reag-ip-ligada-a-grupo-investigado-pela-pf/
+2026-08-28 18:33:51 [INFO] Título: Reag IP tem autorização cancelada pelo Banco Central - Finsiders
+2026-08-28 18:33:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:51 [INFO] Classificação: nao_enviar
+2026-08-28 18:33:51 [INFO] Aguardando 2.68s...
+2026-08-28 18:33:54 [INFO] [49/55] ID: https://www.diariodocentrodomundo.com.br/apos-adiamentos-vorcaro-deve-depor-a-pf-nesta-sexta-28/
+2026-08-28 18:33:54 [INFO] Título: Após adiamentos, Vorcaro deve depor à PF nesta sexta (28) - DCM
+2026-08-28 18:33:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:54 [INFO] Classificação: nao_enviar
+2026-08-28 18:33:55 [INFO] Aguardando 2.62s...
+2026-08-28 18:33:57 [INFO] [50/55] ID: https://revistatempo.com.br/2026/08/28/64009/
+2026-08-28 18:33:57 [INFO] Título: Revista Tempo A melhor revista de Montes Claros
+2026-08-28 18:33:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:33:58 [INFO] Classificação: nao_enviar
+2026-08-28 18:33:58 [INFO] Aguardando 2.43s...
+2026-08-28 18:34:00 [INFO] [51/55] ID: https://www.infomoney.com.br/mercados/vorcaro-deve-prestar-depoimento-a-pf-nesta-sexta-sobre-fraudes-no-master/
+2026-08-28 18:34:00 [INFO] Título: Vorcaro deve prestar depoimento à PF nesta sexta sobre fraudes no Master - InfoMoney
+2026-08-28 18:34:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:34:00 [INFO] Classificação: nao_enviar
+2026-08-28 18:34:00 [INFO] Aguardando 2.81s...
+2026-08-28 18:34:03 [INFO] [52/55] ID: https://noticiasdoplanalto.com.br/vorcaro-vai-depor-na-pf-sobre-fraudes-no-master-apos-adiamentos/
+2026-08-28 18:34:03 [INFO] Título: Vorcaro vai depor na PF sobre fraudes no Master após adiamentos - Notícias do Planalto
+2026-08-28 18:34:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:34:04 [INFO] Classificação: nao_enviar
+2026-08-28 18:34:04 [INFO] Aguardando 2.49s...
+2026-08-28 18:34:06 [INFO] [53/55] ID: https://jornalgrandebahia.com.br/2026/08/proposta-de-delacao-liga-fundo-de-acm-neto-a-consignados-do-banco-master-historico-da-pms-revela-conexoes-com-consiglog-credcesta-e-reag/
+2026-08-28 18:34:06 [INFO] Título: Proposta de delação liga fundo de ACM Neto a consignados do Banco Master
+2026-08-28 18:34:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:34:06 [INFO] Classificação: nao_enviar
+2026-08-28 18:34:06 [INFO] Aguardando 2.67s...
+2026-08-28 18:34:09 [INFO] [54/55] ID: https://clube.fm/noticias/fgc-inicia-pagamento-a-clientes-afetados-com-liquidacao-do-banco-pleno
+2026-08-28 18:34:09 [INFO] Título: FGC inicia pagamento a clientes afetados com <b>liquidação</b> do Banco Pleno | Clube FM
+2026-08-28 18:34:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:34:09 [INFO] Classificação: enviar
+2026-08-28 18:34:09 [INFO] Aguardando 2.65s...
+2026-08-28 18:34:12 [INFO] [55/55] ID: https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/08/27/veja-o-que-e-fato-e-o-que-e-fake-na-entrevista-de-lula-a-globo.ghtml
+2026-08-28 18:34:12 [INFO] Título: Fato ou Fake: entrevista de Lula (PT) à Globo no 1º turno
+2026-08-28 18:34:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-28 18:34:13 [INFO] Classificação: nao_enviar
+2026-08-28 18:34:13 [INFO] ======================================================================
+2026-08-28 18:34:13 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-28 18:34:13 [INFO] ======================================================================
+2026-08-28 18:34:13 [INFO] Processadas: 55
+2026-08-28 18:34:13 [INFO] Enviar: 34
+2026-08-28 18:34:13 [INFO] Não enviar: 21
+2026-08-28 18:34:13 [INFO] ======================================================================
