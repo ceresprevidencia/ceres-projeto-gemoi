@@ -12012,3 +12012,246 @@
 2026-08-28 18:34:13 [INFO] Enviar: 34
 2026-08-28 18:34:13 [INFO] Não enviar: 21
 2026-08-28 18:34:13 [INFO] ======================================================================
+2026-08-29 02:02:55 [INFO] ======================================================================
+2026-08-29 02:02:55 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-29 02:02:55 [INFO] ======================================================================
+2026-08-29 02:02:55 [INFO] Notícias com status 'extraida': 46
+2026-08-29 02:02:55 [INFO] Limite: 20 requisições/minuto
+2026-08-29 02:02:55 [INFO] Intervalo mínimo: 3.0s
+2026-08-29 02:02:55 [INFO] ======================================================================
+2026-08-29 02:02:55 [INFO] [1/46] ID: https://www.youtube.com/shorts/SnmHpUX5I5o
+2026-08-29 02:02:55 [INFO] Título: Habib's, Casas Bahia, Tok&stok: O que é <b>recuperação judicial</b>? - YouTube
+2026-08-29 02:02:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:02:55 [INFO] Classificação: enviar
+2026-08-29 02:02:55 [INFO] Aguardando 2.65s...
+2026-08-29 02:02:58 [INFO] [2/46] ID: https://www.estadao.com.br/tv/economia/habibs-casas-bahia-tokstok-por-que-as-empresas-estao-em-recuperacao-judicial/
+2026-08-29 02:02:58 [INFO] Título: Habib's, Casas Bahia, Tok&Stok: Por que as empresas estão em <b>recuperação judicial</b>? | Estadão
+2026-08-29 02:02:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:02:58 [INFO] Classificação: enviar
+2026-08-29 02:02:58 [INFO] Aguardando 2.70s...
+2026-08-29 02:03:01 [INFO] [3/46] ID: https://www.terra.com.br/esportes/vasco/justica-publica-edital-para-venda-da-saf-do-vasco,7773eb946b5e027343f31a4ffbc96c1728vap6q4.html
+2026-08-29 02:03:01 [INFO] Título: Justiça publica edital para venda da SAF do Vasco - Terra
+2026-08-29 02:03:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:01 [INFO] Classificação: nao_enviar
+2026-08-29 02:03:01 [INFO] Aguardando 2.78s...
+2026-08-29 02:03:04 [INFO] [4/46] ID: https://www.lance.com.br/vasco/justica-publica-edital-e-abre-processo-competitivo-para-venda-da-saf-do-vasco.html
+2026-08-29 02:03:04 [INFO] Título: Justiça publica edital e abre processo competitivo para venda da SAF do Vasco - LANCE!
+2026-08-29 02:03:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:04 [INFO] Classificação: nao_enviar
+2026-08-29 02:03:04 [INFO] Aguardando 2.63s...
+2026-08-29 02:03:07 [INFO] [5/46] ID: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/em-recuperacao-judicial-casas-bahia-aprova-garantia-de-mais-de-r-50-milhoes-ao-banco-digio/
+2026-08-29 02:03:07 [INFO] Título: Em <b>recuperação judicial</b>, Casas Bahia aprova garantia de mais de R$ 50 milhões ao Banco Digio
+2026-08-29 02:03:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:07 [INFO] Classificação: enviar
+2026-08-29 02:03:07 [INFO] Aguardando 2.55s...
+2026-08-29 02:03:10 [INFO] [6/46] ID: https://valor.globo.com/empresas/noticia/2026/08/28/casas-bahia-antecipa-efeitos-da-recuperacao-para-se-blindar-de-credores.ghtml
+2026-08-29 02:03:10 [INFO] Título: Casas Bahia consegue antecipar efeitos da <b>recuperação</b> para se blindar de credores
+2026-08-29 02:03:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:10 [INFO] Classificação: enviar
+2026-08-29 02:03:10 [INFO] Aguardando 2.84s...
+2026-08-29 02:03:13 [INFO] [7/46] ID: https://www.campograndenews.com.br/economia/negocio-desfavoravel-aos-credores-abre-nova-disputa-apos-falencia-de-frigorifico
+2026-08-29 02:03:13 [INFO] Título: Negócio desfavorável aos credores abre nova disputa após falência de frigorífico
+2026-08-29 02:03:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:13 [INFO] Classificação: nao_enviar
+2026-08-29 02:03:13 [INFO] Aguardando 2.66s...
+2026-08-29 02:03:16 [INFO] [8/46] ID: https://timesbrasil.com.br/empresas-e-negocios/habibs-tentou-negociar-com-credores-antes-da-recuperacao-judicial/
+2026-08-29 02:03:16 [INFO] Título: Habib's tentou negociar com credores antes da <b>recuperação judicial</b>; entenda por que não deu certo
+2026-08-29 02:03:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:16 [INFO] Classificação: enviar
+2026-08-29 02:03:16 [INFO] Aguardando 2.77s...
+2026-08-29 02:03:19 [INFO] [9/46] ID: https://folhadoabc.com.br/recorde-em-recuperacao-judicial/
+2026-08-29 02:03:19 [INFO] Título: Recorde em <b>recuperação judicial</b> - FOLHA DO ABC
+2026-08-29 02:03:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:19 [INFO] Classificação: enviar
+2026-08-29 02:03:19 [INFO] Aguardando 2.62s...
+2026-08-29 02:03:22 [INFO] [10/46] ID: https://www.poder360.com.br/brasil/casas-bahia-desiste-de-pedido-judicial-para-que-bb-devolva-r-422-mi/
+2026-08-29 02:03:22 [INFO] Título: Casas Bahia desiste de pedido <b>judicial</b> para que BB devolva R$ 422 mi - Poder360
+2026-08-29 02:03:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:22 [INFO] Classificação: nao_enviar
+2026-08-29 02:03:22 [INFO] Aguardando 2.76s...
+2026-08-29 02:03:25 [INFO] [11/46] ID: https://www.aasp.org.br/encontro-anual/insolvencia-e-seus-desafios-contemporaneos-e-tema-no-17o-encontro-anual-aasp/
+2026-08-29 02:03:25 [INFO] Título: Insolvência e seus Desafios Contemporâneos é tema no 17º Encontro Anual AASP
+2026-08-29 02:03:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:25 [INFO] Classificação: nao_enviar
+2026-08-29 02:03:25 [INFO] Aguardando 2.72s...
+2026-08-29 02:03:28 [INFO] [12/46] ID: https://oglobo.globo.com/google/amp/blogs/miriam-leitao/post/2026/08/habibs-juros-altos-nao-sao-a-unica-causa-da-recuperacao-judicial.ghtml
+2026-08-29 02:03:28 [INFO] Título: Habib's: juros altos não são a única causa da <b>recuperação judicial</b> | Míriam Leitão | O Globo
+2026-08-29 02:03:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:28 [INFO] Classificação: enviar
+2026-08-29 02:03:28 [INFO] Aguardando 2.66s...
+2026-08-29 02:03:31 [INFO] [13/46] ID: https://www1.folha.uol.com.br/mercado/2026/08/casas-bahia-desiste-de-pedidos-contra-bb-e-diz-buscar-consenso-apos-acusacao-de-ma-fe.shtml
+2026-08-29 02:03:31 [INFO] Título: Casas Bahia desiste de pedidos contra BB e diz buscar consenso após acusação de ma-fé - Folha
+2026-08-29 02:03:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:31 [INFO] Classificação: nao_enviar
+2026-08-29 02:03:31 [INFO] Aguardando 2.69s...
+2026-08-29 02:03:34 [INFO] [14/46] ID: https://institutocombustivellegal.org.br/segundo-estimativas-do-icl-integracao-publico-privada-retirou-cerca-de-10-bilhoes-de-litros-da-ilegalidade-no-mercado-de-combustiveis/?swcfpc=1
+2026-08-29 02:03:34 [INFO] Título: Segundo estimativas do ICL, integração público-privada retirou cerca de 10 bilhões de litros ...
+2026-08-29 02:03:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:34 [INFO] Classificação: nao_enviar
+2026-08-29 02:03:34 [INFO] Aguardando 2.70s...
+2026-08-29 02:03:37 [INFO] [15/46] ID: https://spdiario.com.br/noticias/economia/justica-aprova-recuperacao-judicial-do-grupo-dono-de-habibs-e-ragazzo.html
+2026-08-29 02:03:37 [INFO] Título: Justiça aprova <b>recuperação judicial</b> do grupo dono de Habib's e Ragazzo
+2026-08-29 02:03:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:37 [INFO] Classificação: enviar
+2026-08-29 02:03:37 [INFO] Aguardando 2.69s...
+2026-08-29 02:03:40 [INFO] [16/46] ID: https://consumidormoderno.com.br/empresa-recuperacao-judicial-entrega-produto/
+2026-08-29 02:03:40 [INFO] Título: Comprei em uma empresa que pediu <b>recuperação judicial</b>. Vou receber meu produto? - CM
+2026-08-29 02:03:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:40 [INFO] Classificação: enviar
+2026-08-29 02:03:40 [INFO] Aguardando 2.75s...
+2026-08-29 02:03:43 [INFO] [17/46] ID: https://www.youtube.com/watch?v=zlOiyDg7N9c
+2026-08-29 02:03:43 [INFO] Título: HABIB'S EM <b>RECUPERAÇÃO JUDICIAL</b> /HAAGEN-DAZS PARA DE SER DISTRIBUÍDA NO BRASIL
+2026-08-29 02:03:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:43 [INFO] Classificação: enviar
+2026-08-29 02:03:43 [INFO] Aguardando 2.65s...
+2026-08-29 02:03:46 [INFO] [18/46] ID: https://www.demarest.com.br/braskem-vai-usar-recuperacao-extrajudicial-para-negociar-divida-de-us-10-bilhoes/
+2026-08-29 02:03:46 [INFO] Título: Braskem vai usar <b>recuperação extrajudicial</b> para negociar dívida de US$ 10 bilhões
+2026-08-29 02:03:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:46 [INFO] Classificação: enviar
+2026-08-29 02:03:46 [INFO] Aguardando 2.69s...
+2026-08-29 02:03:49 [INFO] [19/46] ID: https://www.jornaldocomercio.com/economia/2026/08/1261443-governo-atende-braskem-e-renova-aliquota-de-importacao-de-resinas-de-plastico.html
+2026-08-29 02:03:49 [INFO] Título: Governo atende Braskem e renova alíquota de importação de resinas de plástico
+2026-08-29 02:03:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:49 [INFO] Classificação: nao_enviar
+2026-08-29 02:03:49 [INFO] Aguardando 2.74s...
+2026-08-29 02:03:52 [INFO] [20/46] ID: https://www.supervarejo.com.br/varejo/ministerio-publico-contesta-plano-de-recuperacao-extrajudicial-do-grupo-pao-de-acucar
+2026-08-29 02:03:52 [INFO] Título: Ministério Público contesta plano de <b>recuperação Extrajudicial</b> do Grupo Pão de Açúcar
+2026-08-29 02:03:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:52 [INFO] Classificação: enviar
+2026-08-29 02:03:52 [INFO] Aguardando 2.66s...
+2026-08-29 02:03:55 [INFO] [21/46] ID: https://economia.ig.com.br/2026-08-28/mp-sp-questiona-plano-de-recuperacao-do-grupo-pao-de-acucar.html
+2026-08-29 02:03:55 [INFO] Título: MP-SP questiona plano de <b>recuperação</b> do Grupo Pão de Açúcar - iG Economia
+2026-08-29 02:03:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:55 [INFO] Classificação: enviar
+2026-08-29 02:03:55 [INFO] Aguardando 2.67s...
+2026-08-29 02:03:58 [INFO] [22/46] ID: https://gironews.com/supermercado/ministerio-publico-contesta-plano-de-recuperacao-do-pao-de-acucar/
+2026-08-29 02:03:58 [INFO] Título: Ministério Público contesta plano de <b>recuperação</b> do Pão de Açúcar - Giro News
+2026-08-29 02:03:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:03:58 [INFO] Classificação: enviar
+2026-08-29 02:03:58 [INFO] Aguardando 2.68s...
+2026-08-29 02:04:01 [INFO] [23/46] ID: https://www.metro1.com.br/noticias/brasil/187483,justica-aprova-processamento-da-recuperacao-extrajudicial-da-braskem
+2026-08-29 02:04:01 [INFO] Título: Justiça aprova processamento da <b>recuperação extrajudicial</b> da Braskem - Metro 1
+2026-08-29 02:04:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:01 [INFO] Classificação: enviar
+2026-08-29 02:04:01 [INFO] Aguardando 2.71s...
+2026-08-29 02:04:04 [INFO] [24/46] ID: https://megawhat.uol.com.br/economia-e-politica/empresas/justica-aceita-pedido-de-recuperacao-extrajudicial-da-braskem/
+2026-08-29 02:04:04 [INFO] Título: Justiça aceita pedido de <b>recuperação extrajudicial</b> da Braskem - MegaWhat - UOL
+2026-08-29 02:04:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:04 [INFO] Classificação: enviar
+2026-08-29 02:04:04 [INFO] Aguardando 2.86s...
+2026-08-29 02:04:07 [INFO] [25/46] ID: https://veja.abril.com.br/economia/divisao-entre-bondholders-abriu-caminho-para-recuperacao-extrajudicial-da-braskem/
+2026-08-29 02:04:07 [INFO] Título: Divisão entre bondholders abriu caminho para <b>recuperação extrajudicial</b> da Braskem
+2026-08-29 02:04:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:07 [INFO] Classificação: enviar
+2026-08-29 02:04:07 [INFO] Aguardando 2.71s...
+2026-08-29 02:04:10 [INFO] [26/46] ID: https://rede98.com.br/noticias/economia/justica-de-sao-paulo-aceita-recuperacao-extrajudicial-da-braskem/
+2026-08-29 02:04:10 [INFO] Título: Justiça de São Paulo aceita <b>recuperação extrajudicial</b> da Braskem - Rede 98
+2026-08-29 02:04:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:10 [INFO] Classificação: enviar
+2026-08-29 02:04:10 [INFO] Aguardando 2.77s...
+2026-08-29 02:04:13 [INFO] [27/46] ID: https://timesbrasil.com.br/brasil/braskem-justica-de-sao-paulo-aprova-pedido-de-recuperacao-extrajudicial-empresa-tenta-reorganizar-r-56-bilhoes-em-dividas/
+2026-08-29 02:04:13 [INFO] Título: Braskem: Justiça de SP aprova pedido de <b>recuperação extrajudicial</b> - Times Brasil | CNBC
+2026-08-29 02:04:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:13 [INFO] Classificação: enviar
+2026-08-29 02:04:13 [INFO] Aguardando 2.76s...
+2026-08-29 02:04:16 [INFO] [28/46] ID: https://revistaoeste.com/economia/justica-de-sp-aceita-recuperacao-extrajudicial-da-braskem/
+2026-08-29 02:04:16 [INFO] Título: Justiça de SP aceita <b>recuperação extrajudicial</b> da Braskem - Revista Oeste
+2026-08-29 02:04:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:16 [INFO] Classificação: enviar
+2026-08-29 02:04:16 [INFO] Aguardando 2.11s...
+2026-08-29 02:04:19 [INFO] [29/46] ID: https://obastidor.com.br/economia/braskem-ganha-tempo/
+2026-08-29 02:04:19 [INFO] Título: Braskem ganha tempo - O Bastidor
+2026-08-29 02:04:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:19 [INFO] Classificação: nao_enviar
+2026-08-29 02:04:19 [INFO] Aguardando 2.64s...
+2026-08-29 02:04:22 [INFO] [30/46] ID: https://noticias.r7.com/brasilia/braskem-juizo-aceita-processamento-da-recuperacao-extrajudicial-da-empresa-e-controladas-28082026/
+2026-08-29 02:04:22 [INFO] Título: Braskem: juízo aceita processamento da <b>recuperação extrajudicial</b> da empresa e controladas
+2026-08-29 02:04:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:22 [INFO] Classificação: enviar
+2026-08-29 02:04:22 [INFO] Aguardando 2.66s...
+2026-08-29 02:04:25 [INFO] [31/46] ID: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/em-recuperacao-judicial-casas-bahia-aprova-garantia-de-mais-de-r-50-milhoes-ao-banco-digio/
+2026-08-29 02:04:25 [INFO] Título: Casas Bahia (BHIA3) aprova fiança de mais de R$ 50 mi ao Banco Digio - Estadão
+2026-08-29 02:04:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:25 [INFO] Classificação: nao_enviar
+2026-08-29 02:04:25 [INFO] Aguardando 2.65s...
+2026-08-29 02:04:28 [INFO] [32/46] ID: https://valor.globo.com/empresas/noticia/2026/08/28/conselho-da-casas-bahia-aprova-outorga-de-fianca-acima-de-r-50-milhoes-em-favor-do-banco-digio.ghtml
+2026-08-29 02:04:28 [INFO] Título: Conselho da Casas Bahia aprova outorga de fiança acima de R$ 50 milhões em favor do ...
+2026-08-29 02:04:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:28 [INFO] Classificação: nao_enviar
+2026-08-29 02:04:28 [INFO] Aguardando 2.70s...
+2026-08-29 02:04:31 [INFO] [33/46] ID: https://revistaoeste.com/economia/petrobras-antecipa-pagamento-de-us-1-bi-em-divida-que-venceria-em-2028/
+2026-08-29 02:04:31 [INFO] Título: Petrobras antecipa pagamento de US$ 1 bi em dívida que venceria em 2028
+2026-08-29 02:04:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:31 [INFO] Classificação: nao_enviar
+2026-08-29 02:04:31 [INFO] Aguardando 2.76s...
+2026-08-29 02:04:34 [INFO] [34/46] ID: https://www.obomdanoticia.com.br/judiciario/plano-de-recuperacao-judicial-com-passivo-superior-a-r-600-milhoes-e-aprovado/243519
+2026-08-29 02:04:34 [INFO] Título: Plano de recuperação <b>judicial</b> com passivo superior a R$ 600 milhões é aprovado
+2026-08-29 02:04:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:34 [INFO] Classificação: enviar
+2026-08-29 02:04:34 [INFO] Aguardando 2.78s...
+2026-08-29 02:04:37 [INFO] [35/46] ID: https://www.migalhas.com.br/quentes/463454/disputa-milionaria-reduz-garantia-de-trabalhadores-na-recuperacao
+2026-08-29 02:04:37 [INFO] Título: Disputa milionária reduz garantia de trabalhadores na recuperação <b>judicial</b> - Migalhas
+2026-08-29 02:04:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:37 [INFO] Classificação: enviar
+2026-08-29 02:04:37 [INFO] Aguardando 2.77s...
+2026-08-29 02:04:40 [INFO] [36/46] ID: https://bahiaeconomica.com.br/wp/2026/08/28/casas-bahia-tenta-reaver-r-119-bilhao-em-meio-a-recuperacao-judicial/
+2026-08-29 02:04:40 [INFO] Título: CASAS BAHIA TENTA REAVER R$ 1,19 BILHÃO EM MEIO À RECUPERAÇÃO <b>JUDICIAL</b>
+2026-08-29 02:04:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:40 [INFO] Classificação: enviar
+2026-08-29 02:04:40 [INFO] Aguardando 2.67s...
+2026-08-29 02:04:43 [INFO] [37/46] ID: https://timesbrasil.com.br/empresas-e-negocios/veja-o-que-envolve-a-recuperacao-judicial-do-habibs/
+2026-08-29 02:04:43 [INFO] Título: Habib's, Ragazzo e Tendal: recuperação <b>judicial</b> envolve 151 restaurantes; veja a divisão
+2026-08-29 02:04:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:43 [INFO] Classificação: enviar
+2026-08-29 02:04:43 [INFO] Aguardando 2.79s...
+2026-08-29 02:04:46 [INFO] [38/46] ID: https://valor.globo.com/empresas/noticia/2026/08/28/mpsp-e-contra-homologacao-de-plano-de-recuperacao-do-gpa-rede-defende-acordo.ghtml
+2026-08-29 02:04:46 [INFO] Título: MPSP é contra homologação de plano de recuperação do GPA; rede defende acordo
+2026-08-29 02:04:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:46 [INFO] Classificação: enviar
+2026-08-29 02:04:46 [INFO] Aguardando 2.71s...
+2026-08-29 02:04:49 [INFO] [39/46] ID: https://www.jd1noticias.com/economia/2026/08/28/serasa-libera-16-milhao-de-ofertas-com-desconto-extra-para-negociar-dividas-em-ms.html
+2026-08-29 02:04:49 [INFO] Título: Serasa libera 1,6 milhão de ofertas com desconto extra para negociar dívidas em MS
+2026-08-29 02:04:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:49 [INFO] Classificação: nao_enviar
+2026-08-29 02:04:49 [INFO] Aguardando 2.83s...
+2026-08-29 02:04:52 [INFO] [40/46] ID: https://jurinews.com.br/destaque-nacional/daniel-vorcaro-nega-propina-a-servidores-do-bc-e-sinaliza-nova-tentativa-de-delacao-a-pf
+2026-08-29 02:04:52 [INFO] Título: Daniel Vorcaro nega propina a servidores do BC e sinaliza nova tentativa de delação à PF
+2026-08-29 02:04:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:52 [INFO] Classificação: nao_enviar
+2026-08-29 02:04:52 [INFO] Aguardando 2.69s...
+2026-08-29 02:04:55 [INFO] [41/46] ID: https://plox.com.br/noticia/28/08/2026/daniel-vorcaro-nega-corrupcao-banco-central
+2026-08-29 02:04:55 [INFO] Título: Daniel Vorcaro nega à PF corrupção com ex-servidores do Banco Central - Plox
+2026-08-29 02:04:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:55 [INFO] Classificação: nao_enviar
+2026-08-29 02:04:55 [INFO] Aguardando 2.70s...
+2026-08-29 02:04:58 [INFO] [42/46] ID: https://claudiodantas.com.br/vorcaro-interesse-delacao-durante-depoimento/
+2026-08-29 02:04:58 [INFO] Título: Vorcaro sinaliza interesse em delação durante depoimento, diz defesa - Claudio Dantas
+2026-08-29 02:04:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:04:58 [INFO] Classificação: nao_enviar
+2026-08-29 02:04:58 [INFO] Aguardando 2.65s...
+2026-08-29 02:05:01 [INFO] [43/46] ID: https://redeutv.com.br/vorcaro-nega-corrupcao-de-servidores-do-bc-para-informarem-sobre-liquidacao-do-master
+2026-08-29 02:05:01 [INFO] Título: Vorcaro nega corrupção de servidores do BC para informarem sobre <b>liquidação</b> do Master
+2026-08-29 02:05:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:05:01 [INFO] Classificação: nao_enviar
+2026-08-29 02:05:01 [INFO] Aguardando 2.65s...
+2026-08-29 02:05:04 [INFO] [44/46] ID: https://gauchazh.clicrbs.com.br/politica/noticia/2026/08/daniel-vorcaro-depoe-a-pf-sobre-investigacao-do-banco-master-e-nega-corrupcao-diz-defesa-cmtda0cqi022c015gsxpw06yx.html
+2026-08-29 02:05:04 [INFO] Título: Daniel Vorcaro depõe à PF sobre investigação do Banco Master e nega corrupção, diz defesa | GZH
+2026-08-29 02:05:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:05:04 [INFO] Classificação: nao_enviar
+2026-08-29 02:05:04 [INFO] Aguardando 2.81s...
+2026-08-29 02:05:07 [INFO] [45/46] ID: https://reportermaceio.com.br/cancelamento-da-reag-ip-pelo-banco-central-marca-nova-fase-em-investigacao-e-desdobramentos-no-setor-financeiro-brasileiro-envolvendo-mudancas-e-polemicas/amp/
+2026-08-29 02:05:07 [INFO] Título: Cancelamento da Reag IP pelo Banco Central marca nova fase em investigação e ...
+2026-08-29 02:05:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:05:07 [INFO] Classificação: nao_enviar
+2026-08-29 02:05:07 [INFO] Aguardando 2.64s...
+2026-08-29 02:05:10 [INFO] [46/46] ID: https://agendadopoder.com.br/pf-conclui-depoimento-de-vorcaro-por-video-direto-da-papudinha/
+2026-08-29 02:05:10 [INFO] Título: PF conclui depoimento de Vorcaro por vídeo direto da Papudinha - Agenda do Poder
+2026-08-29 02:05:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 02:05:10 [INFO] Classificação: nao_enviar
+2026-08-29 02:05:10 [INFO] ======================================================================
+2026-08-29 02:05:10 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-29 02:05:10 [INFO] ======================================================================
+2026-08-29 02:05:10 [INFO] Processadas: 46
+2026-08-29 02:05:10 [INFO] Enviar: 26
+2026-08-29 02:05:10 [INFO] Não enviar: 20
+2026-08-29 02:05:10 [INFO] ======================================================================
