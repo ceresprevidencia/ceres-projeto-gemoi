@@ -12554,3 +12554,81 @@
 2026-08-29 18:24:37 [INFO] Enviar: 16
 2026-08-29 18:24:37 [INFO] Não enviar: 12
 2026-08-29 18:24:37 [INFO] ======================================================================
+2026-08-29 21:38:36 [INFO] ======================================================================
+2026-08-29 21:38:36 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-29 21:38:36 [INFO] ======================================================================
+2026-08-29 21:38:36 [INFO] Notícias com status 'extraida': 13
+2026-08-29 21:38:36 [INFO] Limite: 20 requisições/minuto
+2026-08-29 21:38:36 [INFO] Intervalo mínimo: 3.0s
+2026-08-29 21:38:36 [INFO] ======================================================================
+2026-08-29 21:38:36 [INFO] [1/13] ID: https://www.youtube.com/watch?v=-AHGwXTEOI4
+2026-08-29 21:38:36 [INFO] Título: <b>Recuperação judicial</b> no agronegócio cresce quase 22% | BandNews TV - YouTube
+2026-08-29 21:38:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:38:36 [INFO] Classificação: enviar
+2026-08-29 21:38:36 [INFO] Aguardando 2.73s...
+2026-08-29 21:38:39 [INFO] [2/13] ID: https://economia.uol.com.br/noticias/estadao-conteudo/2026/08/29/justica-antecipa-periodo-de-suspensao-de-cobrancas-contra-casas-bahia.htm
+2026-08-29 21:38:39 [INFO] Título: Justiça antecipa período de suspensão de cobranças contra Casas Bahia - UOL Economia
+2026-08-29 21:38:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:38:39 [INFO] Classificação: enviar
+2026-08-29 21:38:39 [INFO] Aguardando 2.59s...
+2026-08-29 21:38:42 [INFO] [3/13] ID: https://revistaoeste.com/economia/justica-de-sp-suspende-acoes-contra-casas-bahia-por-180-dias/
+2026-08-29 21:38:42 [INFO] Título: Justiça de SP suspende ações contra Casas Bahia por 180 dias - Revista Oeste
+2026-08-29 21:38:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:38:42 [INFO] Classificação: nao_enviar
+2026-08-29 21:38:42 [INFO] Aguardando 2.70s...
+2026-08-29 21:38:45 [INFO] [4/13] ID: https://trademap.com.br/noticias/news-3002941
+2026-08-29 21:38:45 [INFO] Título: Caged mostra emprego formal ainda forte, mas contratação no comércio e serviços perde ritmo
+2026-08-29 21:38:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:38:45 [INFO] Classificação: nao_enviar
+2026-08-29 21:38:45 [INFO] Aguardando 2.80s...
+2026-08-29 21:38:48 [INFO] [5/13] ID: https://conjur.com.br/2026-ago-28/ex-empregados-da-schahin-nao-recebem-creditos-mesmo-com-dinheiro-em-caixa/
+2026-08-29 21:38:48 [INFO] Título: Ex-empregados da Schahin não recebem créditos mesmo com dinheiro em caixa - Conjur
+2026-08-29 21:38:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:38:48 [INFO] Classificação: nao_enviar
+2026-08-29 21:38:48 [INFO] Aguardando 2.77s...
+2026-08-29 21:38:51 [INFO] [6/13] ID: https://www.metro1.com.br/noticias/brasil/187516,governo-recua-e-suspende-obrigacao-de-cnpj-para-nanoempreendedor
+2026-08-29 21:38:51 [INFO] Título: Governo recua e suspende obrigação de CNPJ para nanoempreendedor - Metro 1
+2026-08-29 21:38:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:38:51 [INFO] Classificação: nao_enviar
+2026-08-29 21:38:51 [INFO] Aguardando 2.78s...
+2026-08-29 21:38:54 [INFO] [7/13] ID: https://timesbrasil.com.br/empresas-e-negocios/braskem-quem-sao-os-donos-da-petroquimica/
+2026-08-29 21:38:54 [INFO] Título: Braskem: quem são os donos da petroquímica que tenta reestruturar R$ 54 bilhões em dívidas
+2026-08-29 21:38:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:38:54 [INFO] Classificação: enviar
+2026-08-29 21:38:54 [INFO] Aguardando 2.56s...
+2026-08-29 21:38:57 [INFO] [8/13] ID: https://bandnewstv.uol.com.br/geral/justica-de-sao-paulo-aceita-recuperacao-extrajudicial-da-braskem
+2026-08-29 21:38:57 [INFO] Título: Justiça de São Paulo aceita <b>recuperação extrajudicial</b> da Braskem | BandNews - UOL
+2026-08-29 21:38:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:38:57 [INFO] Classificação: enviar
+2026-08-29 21:38:57 [INFO] Aguardando 2.51s...
+2026-08-29 21:39:00 [INFO] [9/13] ID: https://jovempan.com.br/economia/novo-desenrola-brasil-que-permite-renegociar-dividas-termina-nesta-segunda-feira/
+2026-08-29 21:39:00 [INFO] Título: Novo Desenrola Brasil, que permite renegociar dívidas, termina nesta segunda-feira
+2026-08-29 21:39:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:39:00 [INFO] Classificação: nao_enviar
+2026-08-29 21:39:00 [INFO] Aguardando 2.51s...
+2026-08-29 21:39:03 [INFO] [10/13] ID: https://www.moneyreport.com.br/brasil/empresas-deixando-o-brasil-fakes-pegam-carona-em-onda-de-recuperacoes-judiciais/
+2026-08-29 21:39:03 [INFO] Título: Empresas deixando o Brasil? Fakes pegam carona em onda de recuperações judiciais
+2026-08-29 21:39:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:39:03 [INFO] Classificação: enviar
+2026-08-29 21:39:03 [INFO] Aguardando 2.76s...
+2026-08-29 21:39:06 [INFO] [11/13] ID: https://atlaspublico.com.br/cvm/noticias/oncoclinicas-detalha-opcoes-de-pagamento-e-negociacao-de-83440
+2026-08-29 21:39:06 [INFO] Título: Oncoclínicas detalha opções de pagamento e negociação de plano de R$ 5,1 bilhões
+2026-08-29 21:39:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:39:06 [INFO] Classificação: nao_enviar
+2026-08-29 21:39:06 [INFO] Aguardando 2.63s...
+2026-08-29 21:39:09 [INFO] [12/13] ID: https://www.estadao.com.br/economia/justica-antecipa-periodo-de-suspensao-de-cobrancas-contra-casas-bahia/
+2026-08-29 21:39:09 [INFO] Título: Justiça antecipa período de suspensão de cobranças contra Casas Bahia - Estadão
+2026-08-29 21:39:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:39:09 [INFO] Classificação: enviar
+2026-08-29 21:39:09 [INFO] Aguardando 2.70s...
+2026-08-29 21:39:12 [INFO] [13/13] ID: https://istoedinheiro.com.br/split-payment-exige-adaptacao-financeira-empresas-2026
+2026-08-29 21:39:12 [INFO] Título: Split payment retém tributos na <b>liquidação</b> e reduz caixa disponível das empresas
+2026-08-29 21:39:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 21:39:12 [INFO] Classificação: nao_enviar
+2026-08-29 21:39:12 [INFO] ======================================================================
+2026-08-29 21:39:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-29 21:39:12 [INFO] ======================================================================
+2026-08-29 21:39:12 [INFO] Processadas: 13
+2026-08-29 21:39:12 [INFO] Enviar: 6
+2026-08-29 21:39:12 [INFO] Não enviar: 7
+2026-08-29 21:39:12 [INFO] ======================================================================
