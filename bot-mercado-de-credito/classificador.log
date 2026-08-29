@@ -12255,3 +12255,66 @@
 2026-08-29 02:05:10 [INFO] Enviar: 26
 2026-08-29 02:05:10 [INFO] Não enviar: 20
 2026-08-29 02:05:10 [INFO] ======================================================================
+2026-08-29 09:57:11 [INFO] ======================================================================
+2026-08-29 09:57:11 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-29 09:57:11 [INFO] ======================================================================
+2026-08-29 09:57:11 [INFO] Notícias com status 'extraida': 10
+2026-08-29 09:57:11 [INFO] Limite: 20 requisições/minuto
+2026-08-29 09:57:11 [INFO] Intervalo mínimo: 3.0s
+2026-08-29 09:57:11 [INFO] ======================================================================
+2026-08-29 09:57:11 [INFO] [1/10] ID: https://www.gazetadopovo.com.br/economia/acoes-empresas-brasileiras-mais-desvalorizaram-bolsa-valores-b3/
+2026-08-29 09:57:11 [INFO] Título: 13 empresas brasileiras que derreteram na Bolsa nos últimos três anos - Gazeta do Povo
+2026-08-29 09:57:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:11 [INFO] Classificação: nao_enviar
+2026-08-29 09:57:11 [INFO] Aguardando 2.76s...
+2026-08-29 09:57:14 [INFO] [2/10] ID: https://www.correio24horas.com.br/brasil/casas-bahia-desiste-de-pedidos-contra-banco-do-brasil-em-recuperacao-judicial-0826
+2026-08-29 09:57:14 [INFO] Título: Casas Bahia desiste de pedidos contra Banco do Brasil em <b>recuperação judicial</b>
+2026-08-29 09:57:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:14 [INFO] Classificação: enviar
+2026-08-29 09:57:14 [INFO] Aguardando 2.78s...
+2026-08-29 09:57:17 [INFO] [3/10] ID: https://timesbrasil.com.br/empresas-e-negocios/apos-pedir-recuperacao-judicial-casas-bahia-aprova-garantia-de-mais-de-r-50-mi-ao-banco-digio/
+2026-08-29 09:57:17 [INFO] Título: Após pedir <b>recuperação judicial</b>, Casas Bahia aprova garantia de mais de R$ 50 mi ao Banco Digio
+2026-08-29 09:57:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:17 [INFO] Classificação: enviar
+2026-08-29 09:57:17 [INFO] Aguardando 2.80s...
+2026-08-29 09:57:20 [INFO] [4/10] ID: https://www1.folha.uol.com.br/mercado/2026/08/casas-bahia-obtem-blindagem-judicial-contra-credores-por-180-dias.shtml
+2026-08-29 09:57:20 [INFO] Título: Casas Bahia obtém blindagem contra cobranças de credores por 180 dias - Folha - UOL
+2026-08-29 09:57:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:20 [INFO] Classificação: enviar
+2026-08-29 09:57:20 [INFO] Aguardando 2.72s...
+2026-08-29 09:57:23 [INFO] [5/10] ID: https://investidor10.com.br/amp/noticias/varejo-concentra-21-das-empresas-em-recuperacao-judicial-no-brasil-122331/
+2026-08-29 09:57:23 [INFO] Título: Varejo concentra 21% das empresas em <b>recuperação judicial</b> no Brasil - Investidor10
+2026-08-29 09:57:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:23 [INFO] Classificação: enviar
+2026-08-29 09:57:23 [INFO] Aguardando 2.83s...
+2026-08-29 09:57:26 [INFO] [6/10] ID: https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/08/28/vasco-poe-90-da-saf-a-venda-novo-dono-tera-aporte-de-r-500-mi.ghtm
+2026-08-29 09:57:26 [INFO] Título: Vasco põe 90% da SAF à venda; novo dono terá aporte de R$ 500 milhões
+2026-08-29 09:57:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:26 [INFO] Classificação: nao_enviar
+2026-08-29 09:57:26 [INFO] Aguardando 2.80s...
+2026-08-29 09:57:29 [INFO] [7/10] ID: https://www.infomoney.com.br/mercados/light-morgan-stanley-eleva-recomendacao-e-ve-gatilho-capaz-de-transformar-empresa/
+2026-08-29 09:57:29 [INFO] Título: Light: Morgan Stanley eleva recomendação e vê gatilho capaz de transformar empresa
+2026-08-29 09:57:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:29 [INFO] Classificação: nao_enviar
+2026-08-29 09:57:29 [INFO] Aguardando 2.73s...
+2026-08-29 09:57:32 [INFO] [8/10] ID: https://atarde.com.br/economia/justica-autoriza-recuperacao-extrajudicial-da-braskem-em-meio-a-divida-bilionaria-1400079
+2026-08-29 09:57:32 [INFO] Título: Justiça autoriza <b>recuperação extrajudicial</b> da Braskem em meio a dívida bilionária
+2026-08-29 09:57:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:32 [INFO] Classificação: enviar
+2026-08-29 09:57:32 [INFO] Aguardando 2.69s...
+2026-08-29 09:57:35 [INFO] [9/10] ID: https://www.demarest.com.br/judiciario-livra-recursos-de-vgbl-do-irpf/
+2026-08-29 09:57:35 [INFO] Título: Judiciário livra recursos de VGBL do IRPF - Demarest
+2026-08-29 09:57:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:35 [INFO] Classificação: nao_enviar
+2026-08-29 09:57:35 [INFO] Aguardando 2.80s...
+2026-08-29 09:57:38 [INFO] [10/10] ID: https://oglobo.globo.com/blogs/miriam-leitao/post/2026/08/habibs-juros-altos-nao-sao-a-unica-causa-da-recuperacao-judicial.ghtml
+2026-08-29 09:57:38 [INFO] Título: Juros altos não explicam tudo: entenda a crise que levou o Habib's à recuperação <b>judicial</b>
+2026-08-29 09:57:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 09:57:38 [INFO] Classificação: enviar
+2026-08-29 09:57:38 [INFO] ======================================================================
+2026-08-29 09:57:38 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-29 09:57:38 [INFO] ======================================================================
+2026-08-29 09:57:38 [INFO] Processadas: 10
+2026-08-29 09:57:38 [INFO] Enviar: 6
+2026-08-29 09:57:38 [INFO] Não enviar: 4
+2026-08-29 09:57:38 [INFO] ======================================================================
