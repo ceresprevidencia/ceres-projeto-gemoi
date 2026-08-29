@@ -12318,3 +12318,86 @@
 2026-08-29 09:57:38 [INFO] Enviar: 6
 2026-08-29 09:57:38 [INFO] Não enviar: 4
 2026-08-29 09:57:38 [INFO] ======================================================================
+2026-08-29 15:00:03 [INFO] ======================================================================
+2026-08-29 15:00:03 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-29 15:00:03 [INFO] ======================================================================
+2026-08-29 15:00:03 [INFO] Notícias com status 'extraida': 14
+2026-08-29 15:00:03 [INFO] Limite: 20 requisições/minuto
+2026-08-29 15:00:03 [INFO] Intervalo mínimo: 3.0s
+2026-08-29 15:00:03 [INFO] ======================================================================
+2026-08-29 15:00:03 [INFO] [1/14] ID: https://aciara.com.br/casas-bahia-recuperacao-judicial-blindagem-contra-credores/
+2026-08-29 15:00:03 [INFO] Título: Casas Bahia <b>recuperação judicial</b>: blindagem contra credores - Acia Araçatuba
+2026-08-29 15:00:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:03 [INFO] Classificação: enviar
+2026-08-29 15:00:03 [INFO] Aguardando 2.57s...
+2026-08-29 15:00:06 [INFO] [2/14] ID: https://www.fatosdematogrosso.com.br/cidades/grupo-do-agronegocio-entra-em-recuperacao-judicial-com-r-435-milhoes-em-dividas/15324
+2026-08-29 15:00:06 [INFO] Título: Grupo do agronegócio entra em <b>recuperação judicial</b> com R$ 43,5 milhões em dívidas
+2026-08-29 15:00:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:06 [INFO] Classificação: enviar
+2026-08-29 15:00:06 [INFO] Aguardando 2.84s...
+2026-08-29 15:00:09 [INFO] [3/14] ID: https://veronoticias.com/economia/salario-minimo-de-r-1-741-deve-elevar-gasto-em-r-496-bi/
+2026-08-29 15:00:09 [INFO] Título: Salário mínimo de R$ 1.741 deve elevar gasto em R$ 49,6 bi | Vero Notícias
+2026-08-29 15:00:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:09 [INFO] Classificação: nao_enviar
+2026-08-29 15:00:09 [INFO] Aguardando 2.74s...
+2026-08-29 15:00:12 [INFO] [4/14] ID: https://www.agazeta.com.br/es/economia/justica-suspende-demissoes-de-funcionarios-da-casas-bahia-no-es-0826
+2026-08-29 15:00:12 [INFO] Título: Justiça suspende demissões de funcionários da Casas Bahia no ES - A Gazeta
+2026-08-29 15:00:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:12 [INFO] Classificação: nao_enviar
+2026-08-29 15:00:12 [INFO] Aguardando 2.60s...
+2026-08-29 15:00:15 [INFO] [5/14] ID: https://g1.globo.com/economia/noticia/2026/08/29/justica-protege-casas-bahia-de-cobrancas-por-180-dias-durante-recuperacao-judicial.ghtml
+2026-08-29 15:00:15 [INFO] Título: Justiça protege Casas Bahia de cobranças por 180 dias durante <b>recuperação judicial</b> | G1
+2026-08-29 15:00:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:15 [INFO] Classificação: enviar
+2026-08-29 15:00:15 [INFO] Aguardando 2.74s...
+2026-08-29 15:00:18 [INFO] [6/14] ID: https://www.band.com.br/esportes/justica-do-rio-de-janeiro-estabelece-regras-para-processo-de-venda-da-saf-do-vasco-202608282212
+2026-08-29 15:00:18 [INFO] Título: Justiça autoriza avanço da venda da SAF do Vasco; entenda as regras - Band
+2026-08-29 15:00:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:18 [INFO] Classificação: nao_enviar
+2026-08-29 15:00:18 [INFO] Aguardando 2.63s...
+2026-08-29 15:00:21 [INFO] [7/14] ID: https://jornaldodiase.com.br/itaguassu-agro-industrial-s-a-em-recuperacao-judicial-15/
+2026-08-29 15:00:21 [INFO] Título: ITAGUASSU AGRO INDUSTRIAL S.A. EM <b>RECUPERAÇÃO JUDICIAL</b> - Jornal do dia Se
+2026-08-29 15:00:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:21 [INFO] Classificação: enviar
+2026-08-29 15:00:21 [INFO] Aguardando 2.82s...
+2026-08-29 15:00:24 [INFO] [8/14] ID: https://investidor10.com.br/amp/noticias/casas-bahia-bhia3-justica-manda-btg-e-maquininhas-devolverem-dinheiro-retido-122333/
+2026-08-29 15:00:24 [INFO] Título: Casas Bahia (BHIA3): Justiça manda BTG e maquininhas devolverem dinheiro retido
+2026-08-29 15:00:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:24 [INFO] Classificação: nao_enviar
+2026-08-29 15:00:24 [INFO] Aguardando 2.59s...
+2026-08-29 15:00:27 [INFO] [9/14] ID: https://www.correiodopovo.com.br/notícias/economia/recuperacao-judicial-entenda-como-funciona-o-mecanismo-usado-por-empresas-em-crise-1.1743122
+2026-08-29 15:00:27 [INFO] Título: <b>Recuperação judicial</b>: entenda como funciona o mecanismo usado por empresas em crise
+2026-08-29 15:00:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:27 [INFO] Classificação: enviar
+2026-08-29 15:00:27 [INFO] Aguardando 2.83s...
+2026-08-29 15:00:30 [INFO] [10/14] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/08/28/casas-bahia-admite-corrida-de-credores-e-justica-antecipa-efeitos-da-recuperacao-judicial-para-proteger-varejista.ghtml
+2026-08-29 15:00:30 [INFO] Título: Casas Bahia admite 'corrida de credores' e Justiça antecipa efeitos da <b>recuperação</b> para ...
+2026-08-29 15:00:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:30 [INFO] Classificação: enviar
+2026-08-29 15:00:30 [INFO] Aguardando 2.82s...
+2026-08-29 15:00:33 [INFO] [11/14] ID: https://visnoinvest.com.br/news/15022/brkm5-protocola-recuperacao-extrajudicial-e-yduq3-capta-r-12-bi
+2026-08-29 15:00:33 [INFO] Título: BRKM5 protocola <b>recuperação extrajudicial</b> e YDUQ3 capta R$ 1,2 bi | Visno Invest
+2026-08-29 15:00:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:33 [INFO] Classificação: enviar
+2026-08-29 15:00:33 [INFO] Aguardando 2.30s...
+2026-08-29 15:00:36 [INFO] [12/14] ID: https://valor.globo.com/empresas/noticia/2026/08/28/oferta-para-toda-base-de-acionistas-da-oncoclinicas-com-correcao-pela-selic-deve-gerar-questionamentos.ghtml
+2026-08-29 15:00:36 [INFO] Título: Oferta para toda base de acionistas da Oncoclínicas, com correção pela Selic, deve gerar ...
+2026-08-29 15:00:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:36 [INFO] Classificação: nao_enviar
+2026-08-29 15:00:36 [INFO] Aguardando 2.82s...
+2026-08-29 15:00:39 [INFO] [13/14] ID: https://br.investing.com/news/stock-market-news/braskem-diz-que-justica-aprovou-processamento-da-recuperacao-extrajudicial-2052307
+2026-08-29 15:00:39 [INFO] Título: Braskem diz que Justiça aprovou processamento da <b>recuperação extrajudicial</b> Por Reuters
+2026-08-29 15:00:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:39 [INFO] Classificação: enviar
+2026-08-29 15:00:39 [INFO] Aguardando 2.68s...
+2026-08-29 15:00:42 [INFO] [14/14] ID: https://www.infomoney.com.br/business/casas-bahia-admite-corrida-de-credores-e-justica-antecipa-efeitos-de-rj/
+2026-08-29 15:00:42 [INFO] Título: Casas Bahia admite 'corrida de credores', e Justiça antecipa efeitos de RJ - InfoMoney
+2026-08-29 15:00:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 15:00:42 [INFO] Classificação: enviar
+2026-08-29 15:00:42 [INFO] ======================================================================
+2026-08-29 15:00:42 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-29 15:00:42 [INFO] ======================================================================
+2026-08-29 15:00:42 [INFO] Processadas: 14
+2026-08-29 15:00:42 [INFO] Enviar: 9
+2026-08-29 15:00:42 [INFO] Não enviar: 5
+2026-08-29 15:00:42 [INFO] ======================================================================
