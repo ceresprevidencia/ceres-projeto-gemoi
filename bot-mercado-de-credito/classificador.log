@@ -12401,3 +12401,156 @@
 2026-08-29 15:00:42 [INFO] Enviar: 9
 2026-08-29 15:00:42 [INFO] Não enviar: 5
 2026-08-29 15:00:42 [INFO] ======================================================================
+2026-08-29 18:23:15 [INFO] ======================================================================
+2026-08-29 18:23:15 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-29 18:23:15 [INFO] ======================================================================
+2026-08-29 18:23:15 [INFO] Notícias com status 'extraida': 28
+2026-08-29 18:23:15 [INFO] Limite: 20 requisições/minuto
+2026-08-29 18:23:15 [INFO] Intervalo mínimo: 3.0s
+2026-08-29 18:23:15 [INFO] ======================================================================
+2026-08-29 18:23:15 [INFO] [1/28] ID: https://veronoticias.com/economia/grupo-sefert-entra-em-recuperacao-judicial-com-divida-de-r-240-mi/
+2026-08-29 18:23:15 [INFO] Título: Grupo Sefert entra em <b>recuperação judicial</b> com dívida de R$ 240 mi | Vero Notícias
+2026-08-29 18:23:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:15 [INFO] Classificação: enviar
+2026-08-29 18:23:15 [INFO] Aguardando 2.63s...
+2026-08-29 18:23:18 [INFO] [2/28] ID: https://www.cnnbrasil.com.br/agro/grupo-sefert-entra-em-recuperacao-judicial-com-divida-de-r-240-milhoes/
+2026-08-29 18:23:18 [INFO] Título: Grupo Sefert entra em <b>recuperação judicial</b> com dívida de R$ 240 milhões - CNN Brasil
+2026-08-29 18:23:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:18 [INFO] Classificação: enviar
+2026-08-29 18:23:18 [INFO] Aguardando 2.64s...
+2026-08-29 18:23:21 [INFO] [3/28] ID: https://www.bandab.com.br/economia/casas-bahia-justica-suspende-cobrancas-recuperacao-judicial/
+2026-08-29 18:23:21 [INFO] Título: Justiça suspende cobranças contra Casas Bahia por 180 dias durante <b>recuperação judicial</b>
+2026-08-29 18:23:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:21 [INFO] Classificação: enviar
+2026-08-29 18:23:22 [INFO] Aguardando 2.54s...
+2026-08-29 18:23:24 [INFO] [4/28] ID: https://acritica.net/economia/grupo-gennius-habibs-ragazzo-recuperacao-judicial-divida-265-milhoes/
+2026-08-29 18:23:24 [INFO] Título: Dono de Habib's e Ragazzo entra em <b>recuperação judicial</b> com dívida de R$ 265 milhões
+2026-08-29 18:23:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:24 [INFO] Classificação: enviar
+2026-08-29 18:23:24 [INFO] Aguardando 2.67s...
+2026-08-29 18:23:27 [INFO] [5/28] ID: https://valor.globo.com/brasil/noticia/2026/08/29/juros-altos-recuperaes-judiciais-e-compras-online-afetam-emprego-formal-em-julho.ghtml
+2026-08-29 18:23:27 [INFO] Título: Juros altos, recuperações <b>judiciais</b> e compras on-line afetam emprego formal em julho
+2026-08-29 18:23:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:28 [INFO] Classificação: enviar
+2026-08-29 18:23:28 [INFO] Aguardando 1.94s...
+2026-08-29 18:23:30 [INFO] [6/28] ID: https://obastidor.com.br/economia/mais-tempo-para-as-casas-bahia/
+2026-08-29 18:23:30 [INFO] Título: Mais tempo para as Casas Bahia - O Bastidor
+2026-08-29 18:23:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:30 [INFO] Classificação: nao_enviar
+2026-08-29 18:23:30 [INFO] Aguardando 2.68s...
+2026-08-29 18:23:33 [INFO] [7/28] ID: https://www.poder360.com.br/poder-justica/justica-protege-casas-bahia-de-credores-por-180-dias/
+2026-08-29 18:23:33 [INFO] Título: Justiça protege Casas Bahia de credores por 180 dias - Poder360
+2026-08-29 18:23:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:34 [INFO] Classificação: enviar
+2026-08-29 18:23:34 [INFO] Aguardando 2.41s...
+2026-08-29 18:23:36 [INFO] [8/28] ID: https://www.gazetadigital.com.br/editorias/economia/credores-aprovam-plano-de-recuperacao-judicial-de-grupo-do-agro-com-passivo-superior-a-r-600-milhoes/857803
+2026-08-29 18:23:36 [INFO] Título: Credores aprovam plano de <b>recuperação judicial</b> de grupo do agro com passivo superior a ...
+2026-08-29 18:23:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:36 [INFO] Classificação: enviar
+2026-08-29 18:23:36 [INFO] Aguardando 2.71s...
+2026-08-29 18:23:39 [INFO] [9/28] ID: https://portalaquivale.com.br/petroquimica-braskem-soma-grupo-de-empresas-que-entraram-em-recuperacao-judicial
+2026-08-29 18:23:39 [INFO] Título: Petroquímica Braskem soma grupo de empresas que entraram em <b>recuperação judicial</b>
+2026-08-29 18:23:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:39 [INFO] Classificação: enviar
+2026-08-29 18:23:39 [INFO] Aguardando 2.59s...
+2026-08-29 18:23:42 [INFO] [10/28] ID: https://conjur.com.br/2026-ago-28/cooperativa-medica-pode-limitar-vagas-e-exigir-processo-seletivo/
+2026-08-29 18:23:42 [INFO] Título: Cooperativa médica pode limitar vagas e fazer processo seletivo, decide STJ - Conjur
+2026-08-29 18:23:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:42 [INFO] Classificação: nao_enviar
+2026-08-29 18:23:42 [INFO] Aguardando 2.62s...
+2026-08-29 18:23:45 [INFO] [11/28] ID: https://visnoinvest.com.br/news/15024/rcsl4-347-lidera-quedas-azev3-brkm5-e-brav3-tambem-recuam
+2026-08-29 18:23:45 [INFO] Título: RCSL4 (-34,7%) lidera quedas; AZEV3, BRKM5 e BRAV3 também recuam | Visno Invest
+2026-08-29 18:23:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:45 [INFO] Classificação: nao_enviar
+2026-08-29 18:23:45 [INFO] Aguardando 2.80s...
+2026-08-29 18:23:48 [INFO] [12/28] ID: https://www.cn1.com.br/noticias/2/146208,justica-de-sao-paulo-autoriza-processamento-de-recuperacao-extrajudicial-da-braskem.html
+2026-08-29 18:23:48 [INFO] Título: Justiça de São Paulo autoriza processamento de <b>recuperação extrajudicial</b> da Braskem
+2026-08-29 18:23:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:48 [INFO] Classificação: enviar
+2026-08-29 18:23:48 [INFO] Aguardando 2.56s...
+2026-08-29 18:23:51 [INFO] [13/28] ID: https://agenciagbc.com/2026/08/29/empresa-da-petrobras-prepara-recuperacao-extrajudicial-apos-acumular-divida-bilionaria/
+2026-08-29 18:23:51 [INFO] Título: Empresa da Petrobrás prepara <b>recuperação extrajudicial</b> após acumular dívida bilionária
+2026-08-29 18:23:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:51 [INFO] Classificação: enviar
+2026-08-29 18:23:51 [INFO] Aguardando 2.63s...
+2026-08-29 18:23:54 [INFO] [14/28] ID: https://www.infomoney.com.br/web-stories/ws-por-que-a-braskem-entrou-em-crise/
+2026-08-29 18:23:54 [INFO] Título: Por que a Braskem entrou em crise? - InfoMoney
+2026-08-29 18:23:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:54 [INFO] Classificação: nao_enviar
+2026-08-29 18:23:54 [INFO] Aguardando 2.78s...
+2026-08-29 18:23:57 [INFO] [15/28] ID: https://www.poder360.com.br/poder-economia/fred-trajano-critica-pressa-eleitoreira-e-ve-risco-ao-varejo/
+2026-08-29 18:23:57 [INFO] Título: Fred Trajano critica "pressa eleitoreira" e vê risco ao varejo - Poder360
+2026-08-29 18:23:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:23:57 [INFO] Classificação: nao_enviar
+2026-08-29 18:23:57 [INFO] Aguardando 2.73s...
+2026-08-29 18:24:00 [INFO] [16/28] ID: https://www.infomoney.com.br/onde-investir/projecoes-para-a-selic-ipca-15-e-braskem-em-recuperacao-veja-os-destaques-da-semana/
+2026-08-29 18:24:00 [INFO] Título: Projeções para a Selic, IPCA-15 e Braskem em <b>recuperação</b>; veja os destaques da semana
+2026-08-29 18:24:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:00 [INFO] Classificação: enviar
+2026-08-29 18:24:00 [INFO] Aguardando 2.75s...
+2026-08-29 18:24:03 [INFO] [17/28] ID: https://veronoticias.com/economia/braskem-obtem-aval-judicial-para-reestruturar-divida-bilionaria/
+2026-08-29 18:24:03 [INFO] Título: Braskem obtém aval judicial para reestruturar dívida bilionária | Vero Notícias
+2026-08-29 18:24:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:03 [INFO] Classificação: enviar
+2026-08-29 18:24:04 [INFO] Aguardando 2.55s...
+2026-08-29 18:24:06 [INFO] [18/28] ID: https://www.seudinheiro.com/2026/empresas/ganho-de-1200-por-que-os-acionistas-da-oncoclinicas-onco3-podem-receber-cerca-de-r-16-por-uma-acao-que-hoje-vale-menos-de-r-2-bdap/
+2026-08-29 18:24:06 [INFO] Título: Ganho de 1200%: Por que os acionistas da Oncoclínicas (ONCO3) podem receber cerca de R ...
+2026-08-29 18:24:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:07 [INFO] Classificação: nao_enviar
+2026-08-29 18:24:07 [INFO] Aguardando 2.51s...
+2026-08-29 18:24:09 [INFO] [19/28] ID: https://aciara.com.br/soja-em-chicago-rompe-us-13-com-trigo-vendas-do-usda/
+2026-08-29 18:24:09 [INFO] Título: Soja em Chicago rompe US$ 13 com trigo e vendas do USDA - Acia Araçatuba
+2026-08-29 18:24:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:09 [INFO] Classificação: nao_enviar
+2026-08-29 18:24:09 [INFO] Aguardando 2.71s...
+2026-08-29 18:24:12 [INFO] [20/28] ID: https://visnoinvest.com.br/news/15018/oncoclinicas-onco3-esclarece-termos-de-plano-de-recuperacao
+2026-08-29 18:24:12 [INFO] Título: Oncoclínicas (ONCO3) esclarece termos de plano de <b>recuperação</b> - Visno Invest
+2026-08-29 18:24:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:12 [INFO] Classificação: enviar
+2026-08-29 18:24:12 [INFO] Aguardando 2.69s...
+2026-08-29 18:24:15 [INFO] [21/28] ID: https://www.deolhonacidade.net/braskem-tem-recuperacao-extrajudicial-aceita-pela-justica-e-ganha-prazo-para-reorganizar-dividas
+2026-08-29 18:24:15 [INFO] Título: Braskem tem <b>recuperação extrajudicial</b> aceita pela Justiça e ganha prazo para reorganizar dívidas
+2026-08-29 18:24:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:15 [INFO] Classificação: enviar
+2026-08-29 18:24:15 [INFO] Aguardando 2.70s...
+2026-08-29 18:24:18 [INFO] [22/28] ID: https://www.diariodigital.com.br/geral/stf-valida-proibicao-de-devedor-contumaz-pedir-recuperacao-judicial
+2026-08-29 18:24:18 [INFO] Título: STF valida proibição de devedor contumaz pedir recuperação <b>judicial</b> - Geral - Diário Digital
+2026-08-29 18:24:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:18 [INFO] Classificação: enviar
+2026-08-29 18:24:18 [INFO] Aguardando 2.80s...
+2026-08-29 18:24:21 [INFO] [23/28] ID: https://www.gazetadopovo.com.br/economia/justica-concede-blindagem-casas-bahia-contra-credores-180-dias/
+2026-08-29 18:24:21 [INFO] Título: Justiça concede blindagem às Casas Bahia contra credores por 180 dias - Gazeta do Povo
+2026-08-29 18:24:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:22 [INFO] Classificação: enviar
+2026-08-29 18:24:22 [INFO] Aguardando 1.86s...
+2026-08-29 18:24:24 [INFO] [24/28] ID: https://www.diariodocentrodomundo.com.br/vorcaro-nega-corrupcao-bc-depoimento-pf-delacao/
+2026-08-29 18:24:24 [INFO] Título: Vorcaro nega corrupção no BC em depoimento à PF e volta a buscar delação - DCM
+2026-08-29 18:24:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:24 [INFO] Classificação: nao_enviar
+2026-08-29 18:24:24 [INFO] Aguardando 2.63s...
+2026-08-29 18:24:27 [INFO] [25/28] ID: https://opiniaoempauta.com.br/sem-claudio-castro-rio-volta-a-respirar/
+2026-08-29 18:24:27 [INFO] Título: Sem Cláudio Castro, Rio volta a respirar - Opinião em Pauta
+2026-08-29 18:24:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:28 [INFO] Classificação: nao_enviar
+2026-08-29 18:24:28 [INFO] Aguardando 2.29s...
+2026-08-29 18:24:30 [INFO] [26/28] ID: https://reportermaceio.com.br/banqueiro-daniel-vorcaro-presta-depoimento-a-policia-federal-e-renova-tentativa-de-colaboracao-premiada-em-meio-a-investigacoes-sobre-fraudes-financeiras-no-banco-master/amp/
+2026-08-29 18:24:30 [INFO] Título: Banqueiro Daniel Vorcaro presta depoimento à Polícia Federal e renova tentativa de ...
+2026-08-29 18:24:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:30 [INFO] Classificação: nao_enviar
+2026-08-29 18:24:30 [INFO] Aguardando 2.73s...
+2026-08-29 18:24:33 [INFO] [27/28] ID: https://ver-o-fato.com.br/lula-abre-propaganda-na-tv-com-ataque-a-flavio-bolsonaro/
+2026-08-29 18:24:33 [INFO] Título: Lula abre propaganda na TV com ataque a Flávio Bolsonaro - Ver-o-Fato
+2026-08-29 18:24:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:33 [INFO] Classificação: nao_enviar
+2026-08-29 18:24:33 [INFO] Aguardando 2.78s...
+2026-08-29 18:24:36 [INFO] [28/28] ID: https://correiodopovo-al.com.br/noticia/2026/08/29/delacao-premiada-de-vorcaro-e-discutida-em-depoimento-a-pf
+2026-08-29 18:24:36 [INFO] Título: Delação premiada de Vorcaro é discutida em depoimento à PF - Correio do Povo Penedo
+2026-08-29 18:24:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-29 18:24:37 [INFO] Classificação: nao_enviar
+2026-08-29 18:24:37 [INFO] ======================================================================
+2026-08-29 18:24:37 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-29 18:24:37 [INFO] ======================================================================
+2026-08-29 18:24:37 [INFO] Processadas: 28
+2026-08-29 18:24:37 [INFO] Enviar: 16
+2026-08-29 18:24:37 [INFO] Não enviar: 12
+2026-08-29 18:24:37 [INFO] ======================================================================
