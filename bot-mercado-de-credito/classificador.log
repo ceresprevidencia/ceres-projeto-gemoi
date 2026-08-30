@@ -12838,3 +12838,61 @@
 2026-08-30 06:29:10 [INFO] Enviar: 9
 2026-08-30 06:29:10 [INFO] Não enviar: 11
 2026-08-30 06:29:10 [INFO] ======================================================================
+2026-08-30 12:45:40 [INFO] ======================================================================
+2026-08-30 12:45:40 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-30 12:45:40 [INFO] ======================================================================
+2026-08-30 12:45:40 [INFO] Notícias com status 'extraida': 9
+2026-08-30 12:45:40 [INFO] Limite: 20 requisições/minuto
+2026-08-30 12:45:40 [INFO] Intervalo mínimo: 3.0s
+2026-08-30 12:45:40 [INFO] ======================================================================
+2026-08-30 12:45:40 [INFO] [1/9] ID: https://portalterradaluz.com.br/principal/agronegocio-grupo-sefert-entra-em-recuperacao-judicial/
+2026-08-30 12:45:40 [INFO] Título: Agronegócio: Grupo Sefert entra em <b>recuperação judicial</b> - Portal Terra da Luz
+2026-08-30 12:45:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 12:45:41 [INFO] Classificação: enviar
+2026-08-30 12:45:41 [INFO] Aguardando 2.65s...
+2026-08-30 12:45:43 [INFO] [2/9] ID: https://colunapolitica.com.br/videos/hugo-napoleao-o-advogado-que-conviveu-com-jk-sarney-e-fhc-conta-o-que-viu-por-dentro-do-poder/
+2026-08-30 12:45:43 [INFO] Título: O advogado que conviveu com JK, Sarney e FHC conta o que viu por dentro do poder
+2026-08-30 12:45:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 12:45:44 [INFO] Classificação: nao_enviar
+2026-08-30 12:45:44 [INFO] Aguardando 2.76s...
+2026-08-30 12:45:46 [INFO] [3/9] ID: https://investidorinstitucional.com.br/investidores/fundos-de-pensao/fundiagua-nao-quer-problemas/
+2026-08-30 12:45:46 [INFO] Título: Fundiágua não quer problemas - Revista Investidor Institucional
+2026-08-30 12:45:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 12:45:47 [INFO] Classificação: nao_enviar
+2026-08-30 12:45:47 [INFO] Aguardando 2.70s...
+2026-08-30 12:45:49 [INFO] [4/9] ID: https://diariodonordeste.verdesmares.com.br/negocios/agro/recuperacao-judicial-no-agronegocio-como-funciona-e-casos-no-ceara-1.3786573
+2026-08-30 12:45:49 [INFO] Título: <b>Recuperação</b> judicial no agronegócio: como funciona e casos no Ceará - Agro
+2026-08-30 12:45:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 12:45:50 [INFO] Classificação: enviar
+2026-08-30 12:45:50 [INFO] Aguardando 2.74s...
+2026-08-30 12:45:52 [INFO] [5/9] ID: https://ge.globo.com/sp/tem-esporte/futebol/times/paulista/noticia/2026/08/30/saf-do-paulista-preve-aporte-inicial-de-r-30-milhoes-e-assume-garantia-de-divida-do-clube.ghtml
+2026-08-30 12:45:52 [INFO] Título: SAF do Paulista prevê aporte inicial de R$ 30 milhões e assume garantia de dívida do clube
+2026-08-30 12:45:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 12:45:53 [INFO] Classificação: nao_enviar
+2026-08-30 12:45:53 [INFO] Aguardando 2.67s...
+2026-08-30 12:45:55 [INFO] [6/9] ID: https://exame.com/bussola/o-que-esta-por-tras-da-nova-onda-de-recuperacoes-judiciais/
+2026-08-30 12:45:55 [INFO] Título: O que está por trás da nova onda de recuperações judiciais? - Exame
+2026-08-30 12:45:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 12:45:56 [INFO] Classificação: enviar
+2026-08-30 12:45:56 [INFO] Aguardando 2.75s...
+2026-08-30 12:45:58 [INFO] [7/9] ID: https://timesbrasil.com.br/empresas-e-negocios/companhias-milionarias-e-com-mais-de-30-anos-de-mercado-lideram-pedidos-de-recuperacao-judicial-no-brasil/
+2026-08-30 12:45:58 [INFO] Título: Companhias milionárias e com mais de 30 anos de mercado lideram pedidos de ... - Times Brasil
+2026-08-30 12:45:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 12:45:59 [INFO] Classificação: enviar
+2026-08-30 12:45:59 [INFO] Aguardando 2.53s...
+2026-08-30 12:46:01 [INFO] [8/9] ID: https://www.estadao.com.br/economia/gastanca-publica-e-recuperacoes-judiciais-a-bomba-de-efeito-retardado-em-preparacao-no-planalto/
+2026-08-30 12:46:01 [INFO] Título: Gastança pública e recuperações judiciais: a bomba de efeito retardado em preparação no Planalto
+2026-08-30 12:46:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 12:46:02 [INFO] Classificação: enviar
+2026-08-30 12:46:02 [INFO] Aguardando 2.69s...
+2026-08-30 12:46:04 [INFO] [9/9] ID: https://midiamax.com.br/politica/transparencia/2026/antonio-joao-lanca-refis-promete-ate-100-desconto-juros-multas-dividas/
+2026-08-30 12:46:04 [INFO] Título: Antônio João lança Refis e promete até 100% de desconto sobre juros e multas de dívidas
+2026-08-30 12:46:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 12:46:05 [INFO] Classificação: nao_enviar
+2026-08-30 12:46:05 [INFO] ======================================================================
+2026-08-30 12:46:05 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-30 12:46:05 [INFO] ======================================================================
+2026-08-30 12:46:05 [INFO] Processadas: 9
+2026-08-30 12:46:05 [INFO] Enviar: 5
+2026-08-30 12:46:05 [INFO] Não enviar: 4
+2026-08-30 12:46:05 [INFO] ======================================================================
