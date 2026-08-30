@@ -12896,3 +12896,196 @@
 2026-08-30 12:46:05 [INFO] Enviar: 5
 2026-08-30 12:46:05 [INFO] Não enviar: 4
 2026-08-30 12:46:05 [INFO] ======================================================================
+2026-08-30 17:19:09 [INFO] ======================================================================
+2026-08-30 17:19:09 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-30 17:19:09 [INFO] ======================================================================
+2026-08-30 17:19:09 [INFO] Notícias com status 'extraida': 36
+2026-08-30 17:19:09 [INFO] Limite: 20 requisições/minuto
+2026-08-30 17:19:09 [INFO] Intervalo mínimo: 3.0s
+2026-08-30 17:19:09 [INFO] ======================================================================
+2026-08-30 17:19:09 [INFO] [1/36] ID: https://www.seudinheiro.com/2026/empresas/casas-bahia-americanas-magazine-luiza-e-outras-varejistas-fecham-mais-de-11-mil-lojas-em-quatro-anos-mlim/
+2026-08-30 17:19:09 [INFO] Título: Casas Bahia, Americanas, Magazine Luiza e outras varejistas fecham mais de 1,1 mil lojas ...
+2026-08-30 17:19:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:10 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:10 [INFO] Aguardando 2.67s...
+2026-08-30 17:19:12 [INFO] [2/36] ID: https://www.olhardireto.com.br/juridico/noticias/justica-autoriza-recuperacao-judicial-de-r-227-milhoes-de-grupo-de-produtores-rurais
+2026-08-30 17:19:12 [INFO] Título: Justiça autoriza <b>recuperação judicial</b> de R$ 22,7 milhões de grupo de produtores rurais
+2026-08-30 17:19:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:12 [INFO] Classificação: enviar
+2026-08-30 17:19:12 [INFO] Aguardando 2.78s...
+2026-08-30 17:19:15 [INFO] [3/36] ID: https://blogs.correiobraziliense.com.br/aricunha/falencia-da-oi-2026-2027-a-vista/
+2026-08-30 17:19:15 [INFO] Título: Falência da Oi 2026 - 2027 à vista - Blog do Ari Cunha % - Blogs do Correio Braziliense
+2026-08-30 17:19:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:15 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:16 [INFO] Aguardando 2.76s...
+2026-08-30 17:19:18 [INFO] [4/36] ID: https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/30/policia-holding-lavar-dinheiro-adilsinho.ghtml
+2026-08-30 17:19:18 [INFO] Título: Adilsinho: Holding era 'motor financeiro' para mortes e lavagem | G1 - Globo
+2026-08-30 17:19:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:19 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:19 [INFO] Aguardando 2.74s...
+2026-08-30 17:19:21 [INFO] [5/36] ID: https://www1.folha.uol.com.br/colunas/eliogaspari/2026/08/a-corrupcao-e-e-sera-tema-central-da-campanha-eleitoral.shtml
+2026-08-30 17:19:21 [INFO] Título: A corrupção é e será tema central da campanha eleitoral - 29/08/2026 - Elio Gaspari - Folha
+2026-08-30 17:19:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:21 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:21 [INFO] Aguardando 2.79s...
+2026-08-30 17:19:24 [INFO] [6/36] ID: https://www.youtube.com/watch?v=Xl_0YABaXLo
+2026-08-30 17:19:24 [INFO] Título: O EFEITO DOMINÓ COMEÇOU: grandes empresas estão caindo - YouTube
+2026-08-30 17:19:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:24 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:24 [INFO] Aguardando 2.80s...
+2026-08-30 17:19:27 [INFO] [7/36] ID: https://www.cnnbrasil.com.br/economia/money/negocios/justica-antecipa-periodo-de-suspensao-de-cobrancas-contra-casas-bahia/
+2026-08-30 17:19:27 [INFO] Título: Justiça antecipa período de suspensão de cobranças contra Casas Bahia - CNN Brasil
+2026-08-30 17:19:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:28 [INFO] Classificação: enviar
+2026-08-30 17:19:28 [INFO] Aguardando 2.63s...
+2026-08-30 17:19:30 [INFO] [8/36] ID: https://ultimosegundo.ig.com.br/colunas/nuno-vasconcellos/2026-08-30/nao-ha-economia-que-resista-2.html
+2026-08-30 17:19:30 [INFO] Título: Não há economia que resista... 2 - Último Segundo - iG
+2026-08-30 17:19:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:30 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:30 [INFO] Aguardando 2.81s...
+2026-08-30 17:19:33 [INFO] [9/36] ID: https://ocp.news/cotidiano/leilao-da-casas-bahia-tem-geladeira-de-tres-portas-por-r-2-mil-e-atrai-compradores
+2026-08-30 17:19:33 [INFO] Título: Leilão da Casas Bahia tem geladeira de três portas por R$ 2 mil e atrai compradores
+2026-08-30 17:19:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:34 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:34 [INFO] Aguardando 2.71s...
+2026-08-30 17:19:36 [INFO] [10/36] ID: https://www.infomoney.com.br/business/justica-antecipa-periodo-de-suspensao-de-cobrancas-contra-casas-bahia/
+2026-08-30 17:19:36 [INFO] Título: Justiça antecipa período de suspensão de cobranças contra Casas Bahia - InfoMoney
+2026-08-30 17:19:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:37 [INFO] Classificação: enviar
+2026-08-30 17:19:37 [INFO] Aguardando 2.60s...
+2026-08-30 17:19:39 [INFO] [11/36] ID: https://www.infomoney.com.br/minhas-financas/imposto-da-heranca-vai-aumentar-vale-a-pena-antecipar-transferencia-de-patrimonio/
+2026-08-30 17:19:39 [INFO] Título: Imposto da herança vai aumentar: vale a pena antecipar transferência de patrimônio?
+2026-08-30 17:19:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:39 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:39 [INFO] Aguardando 2.82s...
+2026-08-30 17:19:42 [INFO] [12/36] ID: https://www.fatosdematogrosso.com.br/juridico/juiz-manda-bloquear-contas-de-construtora-em-recuperacao-judicial-em-cuiaba/15360
+2026-08-30 17:19:42 [INFO] Título: Juiz manda bloquear contas de construtora em <b>recuperação judicial</b> em Cuiabá
+2026-08-30 17:19:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:42 [INFO] Classificação: enviar
+2026-08-30 17:19:42 [INFO] Aguardando 2.79s...
+2026-08-30 17:19:45 [INFO] [13/36] ID: https://odia.ig.com.br/economia/2026/08/7295795-caso-da-casas-bahia-expoe-crise-no-varejo-e-acende-alerta-na-economia-do-rio.html
+2026-08-30 17:19:45 [INFO] Título: Caso da Casas Bahia expõe crise no varejo e acende alerta na economia do Rio - O Dia
+2026-08-30 17:19:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:45 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:45 [INFO] Aguardando 2.80s...
+2026-08-30 17:19:48 [INFO] [14/36] ID: https://dol.com.br/noticias/brasil/961304/casas-bahia-leiloa-tvs-celulares-e-eletros-a-partir-de-r-70
+2026-08-30 17:19:48 [INFO] Título: Casas Bahia leiloa TVs, celulares e eletros a partir de R$ 70 - DOL
+2026-08-30 17:19:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:49 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:49 [INFO] Aguardando 2.59s...
+2026-08-30 17:19:51 [INFO] [15/36] ID: https://www.uol.com.br/esporte/colunas/pvc/2026/08/30/o-futebol-brasileiro-esta-falido.htm
+2026-08-30 17:19:51 [INFO] Título: Dívidas dos clubes ameaçam futebol brasileiro num nível inédito na história - UOL
+2026-08-30 17:19:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:52 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:52 [INFO] Aguardando 2.64s...
+2026-08-30 17:19:54 [INFO] [16/36] ID: https://www.contabeis.com.br/noticias/79087/inadimplencia-recorde-eleva-alerta-sobre-recuperacao-judicial/
+2026-08-30 17:19:54 [INFO] Título: Inadimplência recorde eleva alerta sobre <b>recuperação judicial</b> - Portal Contábeis
+2026-08-30 17:19:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:55 [INFO] Classificação: enviar
+2026-08-30 17:19:55 [INFO] Aguardando 2.66s...
+2026-08-30 17:19:57 [INFO] [17/36] ID: https://www.jb.com.br/colunistas/o-outro-lado-da-moeda/2026/08/amp/1060743-os-juros-nao-sao-os-unicos-culpados.html
+2026-08-30 17:19:57 [INFO] Título: Os juros não são os únicos culpados - Jornal do Brasil
+2026-08-30 17:19:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:19:58 [INFO] Classificação: nao_enviar
+2026-08-30 17:19:58 [INFO] Aguardando 2.62s...
+2026-08-30 17:20:00 [INFO] [18/36] ID: https://blogdoedisonsilva.com.br/2026/08/30/stf-valida-proibicao-de-devedor-contumaz-pedir-recuperacao-judicial/
+2026-08-30 17:20:00 [INFO] Título: STF valida proibição de devedor contumaz pedir <b>recuperação judicial</b> - Blog Edison Silva
+2026-08-30 17:20:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:00 [INFO] Classificação: enviar
+2026-08-30 17:20:01 [INFO] Aguardando 2.77s...
+2026-08-30 17:20:03 [INFO] [19/36] ID: https://www.broadcast.com.br/ultimas-noticias/varejo-descobre-o-custo-de-ser-grande-e-fecha-mais-de-11-mil-lojas-desde-2022/
+2026-08-30 17:20:03 [INFO] Título: Varejo descobre o custo de ser grande e fecha mais de 1,1 mil lojas desde 2022 - Broadcast
+2026-08-30 17:20:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:04 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:04 [INFO] Aguardando 2.75s...
+2026-08-30 17:20:06 [INFO] [20/36] ID: https://rede98.com.br/uncategorized/prejuizo-liquido-dos-correios-sobe-no-1o-semestre/
+2026-08-30 17:20:06 [INFO] Título: Prejuízo líquido dos Correios sobe no 1º semestre - Rede 98
+2026-08-30 17:20:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:06 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:07 [INFO] Aguardando 2.77s...
+2026-08-30 17:20:09 [INFO] [21/36] ID: https://www.tnh1.com.br/noticia/nid/o-que-esta-por-tras-da-onda-de-recuperacoes-judiciais/
+2026-08-30 17:20:09 [INFO] Título: O que está por trás da onda de recuperações judiciais? - TNH1
+2026-08-30 17:20:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:10 [INFO] Classificação: enviar
+2026-08-30 17:20:10 [INFO] Aguardando 2.65s...
+2026-08-30 17:20:12 [INFO] [22/36] ID: https://fatoamazonico.com.br/justica-antecipa-periodo-de-suspensao-de-cobrancas-contra-casas-bahia/
+2026-08-30 17:20:12 [INFO] Título: Justiça antecipa período de suspensão de cobranças contra Casas Bahia - Fato Amazônico
+2026-08-30 17:20:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:13 [INFO] Classificação: enviar
+2026-08-30 17:20:13 [INFO] Aguardando 2.65s...
+2026-08-30 17:20:15 [INFO] [23/36] ID: https://ojornalextra.com.br/noticias/alagoas/2026/08/130547-petrobras-amplia-credito-da-braskem-e-da-folego-de-ate-r-235-bilhoes
+2026-08-30 17:20:15 [INFO] Título: Petrobras amplia crédito da Braskem e dá fôlego de até R$ 2,35 bilhões
+2026-08-30 17:20:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:16 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:16 [INFO] Aguardando 2.65s...
+2026-08-30 17:20:18 [INFO] [24/36] ID: https://timesbrasil.com.br/empresas-e-negocios/entenda-como-comecou-a-crise-da-braskem/
+2026-08-30 17:20:18 [INFO] Título: Como começou a crise da Braskem? Entenda a dívida de R$ 54 bilhões - Times Brasil
+2026-08-30 17:20:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:19 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:19 [INFO] Aguardando 2.65s...
+2026-08-30 17:20:21 [INFO] [25/36] ID: https://www.migalhas.com.br/quentes/463490/advogados-defendem-recuperacao-para-entidades-sem-fins-lucrativos
+2026-08-30 17:20:21 [INFO] Título: Advogados defendem <b>recuperação</b> para entidades sem fins lucrativos - Migalhas
+2026-08-30 17:20:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:21 [INFO] Classificação: enviar
+2026-08-30 17:20:21 [INFO] Aguardando 2.84s...
+2026-08-30 17:20:24 [INFO] [26/36] ID: https://movimentoeconomico.com.br/estados/alagoas/2026/08/30/bilhoes-em-jogo-reacendem-temor-sobre-reparacoes-da-braskem-em-maceio/
+2026-08-30 17:20:24 [INFO] Título: Bilhões em jogo reacendem temor sobre reparações da Braskem em Maceió
+2026-08-30 17:20:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:25 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:25 [INFO] Aguardando 2.76s...
+2026-08-30 17:20:27 [INFO] [27/36] ID: https://redeobservatorio.com.br/noticia/7563/as-empresas-brasileiras-e-o-desafio-de-sobreviver
+2026-08-30 17:20:27 [INFO] Título: AS EMPRESAS BRASILEIRAS E O DESAFIO DE SOBREVIVER
+2026-08-30 17:20:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:28 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:28 [INFO] Aguardando 2.76s...
+2026-08-30 17:20:30 [INFO] [28/36] ID: https://portalcantu.com.br/news/basilmundo/justica-protege-casas-bahia-de-cobrancas-por-180-dias
+2026-08-30 17:20:30 [INFO] Título: Justiça protege Casas Bahia de cobranças por 180 dias - Portal Cantu
+2026-08-30 17:20:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:31 [INFO] Classificação: enviar
+2026-08-30 17:20:31 [INFO] Aguardando 2.60s...
+2026-08-30 17:20:33 [INFO] [29/36] ID: https://agenciagbc.com/2026/08/29/operadora-de-telefone-encerra-atividades-no-brasil-e-clientes-serao-migrados/
+2026-08-30 17:20:33 [INFO] Título: Operadora de telefone encerra atividades no Brasil e clientes serão migrados
+2026-08-30 17:20:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:34 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:34 [INFO] Aguardando 2.27s...
+2026-08-30 17:20:36 [INFO] [30/36] ID: https://jornalmassa.com.br/cidades/casas-bahia-ganha-protecao-da-justica-contra-cobrancas-entenda-1336842
+2026-08-30 17:20:36 [INFO] Título: Casas Bahia ganha proteção da Justiça contra cobranças; entenda - Jornal Massa!
+2026-08-30 17:20:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:37 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:37 [INFO] Aguardando 2.68s...
+2026-08-30 17:20:39 [INFO] [31/36] ID: https://www.terra.com.br/esportes/futebol/estaduais/campeonato-paulista/paulista-fc-saf-apresenta-projeto-com-aporte-inicial-previsto-de-r-30-milhoes,edd64507b4dbc0bde198b0433baff584tu6swoev.html
+2026-08-30 17:20:39 [INFO] Título: Paulista FC SAF apresenta projeto com aporte inicial previsto de R$ 30 milhões - Terra
+2026-08-30 17:20:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:39 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:40 [INFO] Aguardando 2.77s...
+2026-08-30 17:20:42 [INFO] [32/36] ID: https://mercadoeconsumo.com.br/30/08/2026/mc-capital/varejo-descobre-o-custo-de-ser-grande-e-fecha-mais-de-11-mil-lojas-desde-2022/
+2026-08-30 17:20:42 [INFO] Título: Varejo descobre o custo de ser grande e fecha mais de 1,1 mil lojas desde 2022
+2026-08-30 17:20:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:43 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:43 [INFO] Aguardando 2.71s...
+2026-08-30 17:20:45 [INFO] [33/36] ID: https://en.com.br/especialistas-se-encontram-em-cuiaba-para-discutir-caminhos-e-desafios-da-recuperacao-judicial/
+2026-08-30 17:20:45 [INFO] Título: Especialistas se encontram em Cuiabá para discutir caminhos e desafios da recuperação <b>judicial</b>
+2026-08-30 17:20:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:45 [INFO] Classificação: enviar
+2026-08-30 17:20:45 [INFO] Aguardando 2.81s...
+2026-08-30 17:20:48 [INFO] [34/36] ID: https://ver-o-fato.com.br/mansur-promete-a-pgr-revelar-paradeiro-de-r-20-bilhoes-ocultos-por-vorcaro/
+2026-08-30 17:20:48 [INFO] Título: Mansur promete à PGR revelar paradeiro de R$ 20 bilhões ocultos por Vorcaro - Ver-o-Fato
+2026-08-30 17:20:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:48 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:48 [INFO] Aguardando 2.81s...
+2026-08-30 17:20:51 [INFO] [35/36] ID: https://www.jd1noticias.com/politica/2026/08/30/pf-fecha-o-cerco-contra-prefeitura-por-investimento-milionario-no-banco-master.html
+2026-08-30 17:20:51 [INFO] Título: PF fecha o cerco contra prefeitura por investimento milionário no Banco Master
+2026-08-30 17:20:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:52 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:52 [INFO] Aguardando 2.74s...
+2026-08-30 17:20:54 [INFO] [36/36] ID: https://ncnews.com.br/2026/08/30/delacao-reag-investimentos-expoe-r-20-bi-ligados-vorcaro/
+2026-08-30 17:20:54 [INFO] Título: Ex-dono da Reag leva à PGR delação que pode revelar caminho de R$ 20 bilhões ligados ...
+2026-08-30 17:20:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 17:20:55 [INFO] Classificação: nao_enviar
+2026-08-30 17:20:55 [INFO] ======================================================================
+2026-08-30 17:20:55 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-30 17:20:55 [INFO] ======================================================================
+2026-08-30 17:20:55 [INFO] Processadas: 36
+2026-08-30 17:20:55 [INFO] Enviar: 11
+2026-08-30 17:20:55 [INFO] Não enviar: 25
+2026-08-30 17:20:55 [INFO] ======================================================================
