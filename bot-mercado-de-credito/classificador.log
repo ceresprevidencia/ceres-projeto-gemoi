@@ -12725,3 +12725,116 @@
 2026-08-30 00:05:26 [INFO] Enviar: 5
 2026-08-30 00:05:26 [INFO] Não enviar: 11
 2026-08-30 00:05:26 [INFO] ======================================================================
+2026-08-30 06:28:12 [INFO] ======================================================================
+2026-08-30 06:28:12 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-30 06:28:12 [INFO] ======================================================================
+2026-08-30 06:28:12 [INFO] Notícias com status 'extraida': 20
+2026-08-30 06:28:12 [INFO] Limite: 20 requisições/minuto
+2026-08-30 06:28:12 [INFO] Intervalo mínimo: 3.0s
+2026-08-30 06:28:12 [INFO] ======================================================================
+2026-08-30 06:28:12 [INFO] [1/20] ID: https://barcelosnanet.com.br/justica-protege-casas-bahia-de-cobrancas-por-180-dias-durante-recuperacao-judicial/
+2026-08-30 06:28:12 [INFO] Título: Justiça protege Casas Bahia de cobranças por 180 dias durante <b>recuperação judicial</b>
+2026-08-30 06:28:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:13 [INFO] Classificação: enviar
+2026-08-30 06:28:13 [INFO] Aguardando 2.74s...
+2026-08-30 06:28:15 [INFO] [2/20] ID: https://www.nsctotal.com.br/economia/casas-bahia-perde-acesso-as-contas-busca-a-justica-e-btg-pode-pagar-multa-diaria-de-r-100-mil
+2026-08-30 06:28:15 [INFO] Título: Casas Bahia perde acesso às contas, busca a Justiça e BTG pode pagar multa diária de R$ 100 mil
+2026-08-30 06:28:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:16 [INFO] Classificação: nao_enviar
+2026-08-30 06:28:16 [INFO] Aguardando 2.75s...
+2026-08-30 06:28:18 [INFO] [3/20] ID: https://veronoticias.com/economia/justica-suspende-cobrancas-contra-casas-bahia-por-180-dias/
+2026-08-30 06:28:18 [INFO] Título: Justiça suspende cobranças contra Casas Bahia por 180 dias - Vero Notícias
+2026-08-30 06:28:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:19 [INFO] Classificação: enviar
+2026-08-30 06:28:19 [INFO] Aguardando 2.63s...
+2026-08-30 06:28:21 [INFO] [4/20] ID: https://www.metropoles.com/sao-paulo/casas-bahia-justica-suspende-cobrancas
+2026-08-30 06:28:21 [INFO] Título: Casas Bahia: Justiça "blinda" varejista e suspende cobranças por 180 dias - Metrópoles
+2026-08-30 06:28:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:22 [INFO] Classificação: enviar
+2026-08-30 06:28:22 [INFO] Aguardando 2.63s...
+2026-08-30 06:28:24 [INFO] [5/20] ID: https://timesbrasil.com.br/empresas-e-negocios/casas-bahia-recuperacao-judicial-veja-quem-pode-receber-primeiro/
+2026-08-30 06:28:24 [INFO] Título: Casas Bahia em <b>recuperação judicial</b>: veja quem pode receber primeiro - Times Brasil
+2026-08-30 06:28:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:24 [INFO] Classificação: enviar
+2026-08-30 06:28:24 [INFO] Aguardando 2.80s...
+2026-08-30 06:28:27 [INFO] [6/20] ID: https://sba1.com/noticias/noticia/75166/justica-antecipa-periodo-de-suspensao-de-cobrancas-contra-casas-bahia
+2026-08-30 06:28:27 [INFO] Título: Justiça antecipa período de suspensão de cobranças contra Casas Bahia - SBA1
+2026-08-30 06:28:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:27 [INFO] Classificação: nao_enviar
+2026-08-30 06:28:27 [INFO] Aguardando 2.81s...
+2026-08-30 06:28:30 [INFO] [7/20] ID: https://www.band.com.br/noticias/justica-antecipa-periodo-de-suspensao-de-cobrancas-contra-casas-bahia-202608291742
+2026-08-30 06:28:30 [INFO] Título: Casas Bahia obtém suspensão de ações e execuções por 180 dias - Band
+2026-08-30 06:28:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:31 [INFO] Classificação: enviar
+2026-08-30 06:28:31 [INFO] Aguardando 2.68s...
+2026-08-30 06:28:33 [INFO] [8/20] ID: https://www.fatosdematogrosso.com.br/juridico/engeglobal-sai-da-recuperacao-judicial-e-tera-709-apartamentos-levados-a-leilao/15350
+2026-08-30 06:28:33 [INFO] Título: Engeglobal sai da <b>recuperação judicial</b> e terá 709 apartamentos levados a leilão
+2026-08-30 06:28:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:33 [INFO] Classificação: enviar
+2026-08-30 06:28:33 [INFO] Aguardando 2.82s...
+2026-08-30 06:28:36 [INFO] [9/20] ID: https://www.youtube.com/watch?v=_uZzA37vAvw
+2026-08-30 06:28:36 [INFO] Título: Economist warns of risks of ending the 6x1 work schedule for businesses - YouTube
+2026-08-30 06:28:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:36 [INFO] Classificação: nao_enviar
+2026-08-30 06:28:36 [INFO] Aguardando 2.82s...
+2026-08-30 06:28:39 [INFO] [10/20] ID: https://midiamax.com.br/brasil/2026/justica-antecipa-periodo-suspensao-cobrancas-contra-casas-bahia/
+2026-08-30 06:28:39 [INFO] Título: Justiça antecipa período de suspensão de cobranças contra Casas Bahia - Midiamax
+2026-08-30 06:28:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:39 [INFO] Classificação: enviar
+2026-08-30 06:28:39 [INFO] Aguardando 2.82s...
+2026-08-30 06:28:42 [INFO] [11/20] ID: https://www.folhape.com.br/colunistas/blogdafolha/do-outro-tem-mais-bandeiras-sempre-foi-assim-diz-raquel-lyra-em-caminhada-no-pina/59396/
+2026-08-30 06:28:42 [INFO] Título: “Do outro tem mais bandeiras, sempre foi assim”, diz Raquel Lyra em caminhada no Pina
+2026-08-30 06:28:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:43 [INFO] Classificação: nao_enviar
+2026-08-30 06:28:43 [INFO] Aguardando 2.40s...
+2026-08-30 06:28:45 [INFO] [12/20] ID: https://odia.ig.com.br/rio-de-janeiro/um-olhar-sobre-o-rio/2026/08/7296602-nao-ha-economia-que-resista-2.html
+2026-08-30 06:28:45 [INFO] Título: Não há economia que resista...2 - O Dia
+2026-08-30 06:28:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:46 [INFO] Classificação: nao_enviar
+2026-08-30 06:28:46 [INFO] Aguardando 2.78s...
+2026-08-30 06:28:48 [INFO] [13/20] ID: https://tmc.com.br/economia/brasileiros-precisam-trabalhar-mais-para-pagar-as-mesmas-contas-reduflacao-e-alta-de-precos-reduzem-poder-de-compra/
+2026-08-30 06:28:48 [INFO] Título: Reduflação encolhe produtos e aumenta sensação de perda no bolso dos brasileiros - TMC
+2026-08-30 06:28:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:48 [INFO] Classificação: nao_enviar
+2026-08-30 06:28:49 [INFO] Aguardando 2.80s...
+2026-08-30 06:28:51 [INFO] [14/20] ID: https://aciara.com.br/venda-de-carro-usado-pelo-celular-nova-regra-digital/
+2026-08-30 06:28:51 [INFO] Título: Venda de carro usado pelo celular: nova regra digital - Acia Araçatuba
+2026-08-30 06:28:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:52 [INFO] Classificação: nao_enviar
+2026-08-30 06:28:52 [INFO] Aguardando 2.59s...
+2026-08-30 06:28:54 [INFO] [15/20] ID: https://visnoinvest.com.br/news/15025/movimentos-acionarios-em-saude-e-esclarecimentos-no-varejo
+2026-08-30 06:28:54 [INFO] Título: Movimentos acionários em saúde e esclarecimentos no varejo - Visno Invest
+2026-08-30 06:28:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:55 [INFO] Classificação: nao_enviar
+2026-08-30 06:28:55 [INFO] Aguardando 2.60s...
+2026-08-30 06:28:57 [INFO] [16/20] ID: https://www.diariodepernambuco.com.br/economia/2026/08/11722553-novo-desenrola-brasil-termina-nesta-segunda-feira-31.html
+2026-08-30 06:28:57 [INFO] Título: Novo Desenrola Brasil termina nesta segunda-feira (31) | Diario de Pernambuco
+2026-08-30 06:28:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:28:57 [INFO] Classificação: nao_enviar
+2026-08-30 06:28:58 [INFO] Aguardando 2.80s...
+2026-08-30 06:29:00 [INFO] [17/20] ID: https://www.reporterdiario.com.br/noticia/3886243/flavio-bolsonaro-medico-claudio-lottenberg-sera-meu-ministro-da-saude-se-eu-for-eleito/
+2026-08-30 06:29:00 [INFO] Título: Flávio Bolsonaro: Médico Claudio Lottenberg será meu ministro da Saúde, se eu for eleito
+2026-08-30 06:29:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:29:01 [INFO] Classificação: nao_enviar
+2026-08-30 06:29:01 [INFO] Aguardando 2.69s...
+2026-08-30 06:29:03 [INFO] [18/20] ID: https://www.fatosdematogrosso.com.br/juridico/acordo-corta-r-155-milhoes-de-credito-e-encerra-disputa-por-fazendas-em-mt/15356
+2026-08-30 06:29:03 [INFO] Título: Acordo corta R$ 155 milhões de crédito e encerra disputa por fazendas em MT
+2026-08-30 06:29:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:29:04 [INFO] Classificação: nao_enviar
+2026-08-30 06:29:04 [INFO] Aguardando 2.73s...
+2026-08-30 06:29:06 [INFO] [19/20] ID: https://tapejaraagora.com.br/recuperacao-judicial-entenda-como-funciona-o-mecanismo-usado-por-empresas-em-crise/
+2026-08-30 06:29:06 [INFO] Título: Recuperação <b>judicial</b>: entenda como funciona o mecanismo usado por empresas em crise
+2026-08-30 06:29:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:29:06 [INFO] Classificação: enviar
+2026-08-30 06:29:06 [INFO] Aguardando 2.82s...
+2026-08-30 06:29:09 [INFO] [20/20] ID: https://www.estadao.com.br/amp/economia/justica-antecipa-periodo-de-suspensao-de-cobrancas-contra-casas-bahia/
+2026-08-30 06:29:09 [INFO] Título: Justiça antecipa período de suspensão de cobranças contra Casas Bahia - Estadão
+2026-08-30 06:29:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 06:29:10 [INFO] Classificação: enviar
+2026-08-30 06:29:10 [INFO] ======================================================================
+2026-08-30 06:29:10 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-30 06:29:10 [INFO] ======================================================================
+2026-08-30 06:29:10 [INFO] Processadas: 20
+2026-08-30 06:29:10 [INFO] Enviar: 9
+2026-08-30 06:29:10 [INFO] Não enviar: 11
+2026-08-30 06:29:10 [INFO] ======================================================================
