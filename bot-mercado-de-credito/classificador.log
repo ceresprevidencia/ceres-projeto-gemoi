@@ -12632,3 +12632,96 @@
 2026-08-29 21:39:12 [INFO] Enviar: 6
 2026-08-29 21:39:12 [INFO] Não enviar: 7
 2026-08-29 21:39:12 [INFO] ======================================================================
+2026-08-30 00:04:41 [INFO] ======================================================================
+2026-08-30 00:04:41 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-30 00:04:41 [INFO] ======================================================================
+2026-08-30 00:04:41 [INFO] Notícias com status 'extraida': 16
+2026-08-30 00:04:41 [INFO] Limite: 20 requisições/minuto
+2026-08-30 00:04:41 [INFO] Intervalo mínimo: 3.0s
+2026-08-30 00:04:41 [INFO] ======================================================================
+2026-08-30 00:04:41 [INFO] [1/16] ID: https://www.youtube.com/watch?v=U692tl4klg4
+2026-08-30 00:04:41 [INFO] Título: especialista detalha o aumento de pedidos de <b>recuperação judicial</b> no país - YouTube
+2026-08-30 00:04:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:04:42 [INFO] Classificação: enviar
+2026-08-30 00:04:42 [INFO] Aguardando 2.46s...
+2026-08-30 00:04:44 [INFO] [2/16] ID: https://aciara.com.br/recuperacao-judicial-como-empresas-em-crise-reorganizam-dividas/
+2026-08-30 00:04:44 [INFO] Título: <b>Recuperação judicial</b>: como empresas em crise reorganizam dívidas - Acia Araçatuba
+2026-08-30 00:04:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:04:44 [INFO] Classificação: enviar
+2026-08-30 00:04:44 [INFO] Aguardando 2.77s...
+2026-08-30 00:04:47 [INFO] [3/16] ID: https://www.youtube.com/watch?v=RPYREf-zZJo
+2026-08-30 00:04:47 [INFO] Título: Advogado analisa <b>recuperação judicial</b> no agro: "Crédito é essencial para que o agro funcione"
+2026-08-30 00:04:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:04:47 [INFO] Classificação: enviar
+2026-08-30 00:04:47 [INFO] Aguardando 2.61s...
+2026-08-30 00:04:50 [INFO] [4/16] ID: https://www.correio24horas.com.br/brasil/devendo-r-173-bilhoes-casas-bahia-consegue-protecao-judicial-contra-cobrancas-de-dividas-0826
+2026-08-30 00:04:50 [INFO] Título: Devendo R$ 17,3 bilhões, Casas Bahia consegue proteção <b>judicial</b> contra cobranças de dívidas
+2026-08-30 00:04:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:04:50 [INFO] Classificação: enviar
+2026-08-30 00:04:50 [INFO] Aguardando 2.72s...
+2026-08-30 00:04:53 [INFO] [5/16] ID: https://www.agazeta.com.br/es/economia/grupo-de-150-investidores-da-apex-avalia-formar-associacao-para-negociar-com-empresa-0826
+2026-08-30 00:04:53 [INFO] Título: Grupo de 150 investidores da Apex avalia formar associação para negociar com empresa
+2026-08-30 00:04:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:04:53 [INFO] Classificação: nao_enviar
+2026-08-30 00:04:53 [INFO] Aguardando 2.56s...
+2026-08-30 00:04:56 [INFO] [6/16] ID: https://spdiario.com.br/noticias/economia/governo-preve-aporte-de-r-6-bilhoes-para-os-correios-no-orcamento-de-2027.html
+2026-08-30 00:04:56 [INFO] Título: Governo prevê aporte de R$ 6 bilhões para os Correios no Orçamento de 2027
+2026-08-30 00:04:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:04:56 [INFO] Classificação: nao_enviar
+2026-08-30 00:04:56 [INFO] Aguardando 2.64s...
+2026-08-30 00:04:59 [INFO] [7/16] ID: https://www.campograndenews.com.br/economia/stj-atende-recurso-de-frigorifico-e-suspende-bloqueios-bancarios
+2026-08-30 00:04:59 [INFO] Título: STJ atende recurso de frigorífico e suspende bloqueios bancários - Campo Grande News
+2026-08-30 00:04:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:04:59 [INFO] Classificação: nao_enviar
+2026-08-30 00:04:59 [INFO] Aguardando 2.59s...
+2026-08-30 00:05:02 [INFO] [8/16] ID: https://www.justicaemfoco.com.br/noticias/crise-pontalthopen-expoe-risco-expansao-financiada-por-divida--avalia-marcello-perino
+2026-08-30 00:05:02 [INFO] Título: Crise da Pontal-Thopen expõe risco de expansão financiada por dívida, avalia Marcello Perino
+2026-08-30 00:05:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:05:02 [INFO] Classificação: nao_enviar
+2026-08-30 00:05:02 [INFO] Aguardando 2.67s...
+2026-08-30 00:05:05 [INFO] [9/16] ID: https://midiamax.com.br/cotidiano/economia/2026/contas-basicas-internet-saiba-quanto-custa-morar-campo-grande/
+2026-08-30 00:05:05 [INFO] Título: Com contas básicas e internet, saiba quanto custa morar em Campo Grande - Midiamax
+2026-08-30 00:05:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:05:05 [INFO] Classificação: nao_enviar
+2026-08-30 00:05:05 [INFO] Aguardando 2.67s...
+2026-08-30 00:05:08 [INFO] [10/16] ID: https://comerciariocg.com.br/cntc-consegue-na-justica-nova-vitoria-para-os-trabalhadores-da-casas-bahia-em-campina-sindicato-reune-funcionarios-e-explica-situacao/
+2026-08-30 00:05:08 [INFO] Título: CNTC consegue na Justiça nova vitória para os trabalhadores da Casas Bahia. Em ...
+2026-08-30 00:05:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:05:08 [INFO] Classificação: nao_enviar
+2026-08-30 00:05:08 [INFO] Aguardando 2.61s...
+2026-08-30 00:05:11 [INFO] [11/16] ID: https://economia.ig.com.br/2026-08-29/casas-bahia-faz-leilao-com-itens-a-partir-de-r--70.html
+2026-08-30 00:05:11 [INFO] Título: Casas Bahia faz leilão com itens a partir de R$ 70 - iG Economia
+2026-08-30 00:05:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:05:11 [INFO] Classificação: enviar
+2026-08-30 00:05:11 [INFO] Aguardando 2.74s...
+2026-08-30 00:05:14 [INFO] [12/16] ID: https://www.canalrural.com.br/opiniao-noticias/a-autofagia-eleitoral-e-o-brasil-que-nao-cabe-na-propaganda/
+2026-08-30 00:05:14 [INFO] Título: A autofagia eleitoral e o Brasil que não cabe na propaganda - Canal Rural
+2026-08-30 00:05:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:05:14 [INFO] Classificação: nao_enviar
+2026-08-30 00:05:14 [INFO] Aguardando 2.65s...
+2026-08-30 00:05:17 [INFO] [13/16] ID: https://revistaoeste.com/economia/empresas-perdem-ate-99-do-valor-na-b3-em-3-anos/
+2026-08-30 00:05:17 [INFO] Título: Empresas perdem até 99% do valor na B3 em 3 anos - Revista Oeste
+2026-08-30 00:05:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:05:17 [INFO] Classificação: nao_enviar
+2026-08-30 00:05:17 [INFO] Aguardando 2.64s...
+2026-08-30 00:05:20 [INFO] [14/16] ID: https://atlaspublico.com.br/cvm/noticias/estado-de-minas-gerais-indica-nomes-para-a-presidencia-e-o-83446
+2026-08-30 00:05:20 [INFO] Título: Estado de Minas Gerais indica nomes para a Presidência e o Conselho de Administração da Cemig
+2026-08-30 00:05:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:05:20 [INFO] Classificação: nao_enviar
+2026-08-30 00:05:20 [INFO] Aguardando 2.73s...
+2026-08-30 00:05:23 [INFO] [15/16] ID: https://atarde.com.br/brasil/justica-protege-casas-bahia-de-cobrancas-por-180-dias-entenda-1400161
+2026-08-30 00:05:23 [INFO] Título: Justiça protege Casas Bahia de cobranças por 180 dias; entenda
+2026-08-30 00:05:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:05:23 [INFO] Classificação: nao_enviar
+2026-08-30 00:05:23 [INFO] Aguardando 2.84s...
+2026-08-30 00:05:26 [INFO] [16/16] ID: https://ncnews.com.br/2026/08/29/vorcaro-volta-a-falar-em-delacao-a-pf-e-tenta-abrir-novo-caminho-em-investigacao-que-cerca-ex-banqueiro/
+2026-08-30 00:05:26 [INFO] Título: Vorcaro volta a falar em delação à PF e tenta abrir novo caminho em investigação que ... - NC News
+2026-08-30 00:05:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 00:05:26 [INFO] Classificação: nao_enviar
+2026-08-30 00:05:26 [INFO] ======================================================================
+2026-08-30 00:05:26 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-30 00:05:26 [INFO] ======================================================================
+2026-08-30 00:05:26 [INFO] Processadas: 16
+2026-08-30 00:05:26 [INFO] Enviar: 5
+2026-08-30 00:05:26 [INFO] Não enviar: 11
+2026-08-30 00:05:26 [INFO] ======================================================================
