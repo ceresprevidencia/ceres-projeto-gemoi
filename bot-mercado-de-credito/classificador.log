@@ -13172,3 +13172,41 @@
 2026-08-30 20:56:26 [INFO] Enviar: 6
 2026-08-30 20:56:26 [INFO] Não enviar: 8
 2026-08-30 20:56:26 [INFO] ======================================================================
+2026-08-30 23:22:53 [INFO] ======================================================================
+2026-08-30 23:22:53 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-30 23:22:53 [INFO] ======================================================================
+2026-08-30 23:22:53 [INFO] Notícias com status 'extraida': 5
+2026-08-30 23:22:53 [INFO] Limite: 20 requisições/minuto
+2026-08-30 23:22:53 [INFO] Intervalo mínimo: 3.0s
+2026-08-30 23:22:53 [INFO] ======================================================================
+2026-08-30 23:22:53 [INFO] [1/5] ID: https://aciara.com.br/recuperacoes-judiciais-acendem-alerta-no-planalto/
+2026-08-30 23:22:53 [INFO] Título: Recuperações <b>judiciais</b> acendem alerta no Planalto - Acia Araçatuba
+2026-08-30 23:22:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 23:22:54 [INFO] Classificação: enviar
+2026-08-30 23:22:54 [INFO] Aguardando 2.67s...
+2026-08-30 23:22:56 [INFO] [2/5] ID: https://www.youtube.com/watch?v=L7HI4v4yW-k
+2026-08-30 23:22:56 [INFO] Título: Habib's Group files for bankruptcy protection with R$265 million in debt - YouTube
+2026-08-30 23:22:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 23:22:57 [INFO] Classificação: enviar
+2026-08-30 23:22:57 [INFO] Aguardando 2.63s...
+2026-08-30 23:22:59 [INFO] [3/5] ID: https://istoedinheiro.com.br/tag/envelhecimento-populacional
+2026-08-30 23:22:59 [INFO] Título: Ritmo de crescimento da população cai a 0,37%, segundo IBGE - ISTOÉ DINHEIRO
+2026-08-30 23:23:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 23:23:00 [INFO] Classificação: nao_enviar
+2026-08-30 23:23:00 [INFO] Aguardando 2.67s...
+2026-08-30 23:23:02 [INFO] [4/5] ID: https://timesbrasil.com.br/empresas-e-negocios/braskem-em-recuperacao-extrajudicial-que-significa/
+2026-08-30 23:23:02 [INFO] Título: Braskem em <b>recuperação extrajudicial</b>: o que isso significa? - Times Brasil | CNBC
+2026-08-30 23:23:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 23:23:03 [INFO] Classificação: enviar
+2026-08-30 23:23:03 [INFO] Aguardando 2.65s...
+2026-08-30 23:23:05 [INFO] [5/5] ID: https://www.reporterdiario.com.br/noticia/3886477/justica-antecipa-periodo-de-suspensao-de-cobrancas-contra-casas-bahia/
+2026-08-30 23:23:05 [INFO] Título: Justiça antecipa período de suspensão de cobranças contra Casas Bahia - Repórter Diário
+2026-08-30 23:23:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-30 23:23:06 [INFO] Classificação: enviar
+2026-08-30 23:23:06 [INFO] ======================================================================
+2026-08-30 23:23:06 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-30 23:23:06 [INFO] ======================================================================
+2026-08-30 23:23:06 [INFO] Processadas: 5
+2026-08-30 23:23:06 [INFO] Enviar: 4
+2026-08-30 23:23:06 [INFO] Não enviar: 1
+2026-08-30 23:23:06 [INFO] ======================================================================
