@@ -13693,3 +13693,126 @@
 2026-08-31 19:58:40 [INFO] Enviar: 27
 2026-08-31 19:58:40 [INFO] Não enviar: 20
 2026-08-31 19:58:40 [INFO] ======================================================================
+2026-08-31 23:44:06 [INFO] ======================================================================
+2026-08-31 23:44:06 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-31 23:44:06 [INFO] ======================================================================
+2026-08-31 23:44:06 [INFO] Notícias com status 'extraida': 22
+2026-08-31 23:44:06 [INFO] Limite: 20 requisições/minuto
+2026-08-31 23:44:06 [INFO] Intervalo mínimo: 3.0s
+2026-08-31 23:44:06 [INFO] ======================================================================
+2026-08-31 23:44:06 [INFO] [1/22] ID: https://timesbrasil.com.br/empresas-e-negocios/com-dividas-chilli-beans-nega-recuperacao-judicial-e-anuncia-novo-vice-presidente/
+2026-08-31 23:44:06 [INFO] Título: Com dívidas, Chilli Beans nega <b>recuperação judicial</b> e anuncia novo vice-presidente
+2026-08-31 23:44:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:07 [INFO] Classificação: enviar
+2026-08-31 23:44:07 [INFO] Aguardando 2.62s...
+2026-08-31 23:44:09 [INFO] [2/22] ID: https://exame.com/invest/mercados/acoes-da-ambipar-entram-em-leilao-permanente-na-b3-o-que-isso-significa/
+2026-08-31 23:44:09 [INFO] Título: Ações da Ambipar entram em leilão permanente na B3: o que isso significa - Exame
+2026-08-31 23:44:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:10 [INFO] Classificação: nao_enviar
+2026-08-31 23:44:10 [INFO] Aguardando 2.54s...
+2026-08-31 23:44:12 [INFO] [3/22] ID: https://veja.abril.com.br/economia/chilli-beans-o-que-esta-por-tras-da-chegada-de-andre-dela-togna-novo-co-ceo-da-empresa/
+2026-08-31 23:44:12 [INFO] Título: Chilli Beans: o que está por trás da chegada de André Dela Togna, novo co-CEO da empresa | VEJA
+2026-08-31 23:44:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:13 [INFO] Classificação: nao_enviar
+2026-08-31 23:44:13 [INFO] Aguardando 2.72s...
+2026-08-31 23:44:15 [INFO] [4/22] ID: https://www.poder360.com.br/poder-justica/grupo-refit-tem-falencia-decretada-por-decisao-judicial/
+2026-08-31 23:44:15 [INFO] Título: Grupo Refit tem falência decretada por decisão <b>judicial</b> - Poder360
+2026-08-31 23:44:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:16 [INFO] Classificação: enviar
+2026-08-31 23:44:16 [INFO] Aguardando 2.67s...
+2026-08-31 23:44:18 [INFO] [5/22] ID: https://www.contabeis.com.br/artigos/79098/recuperacao-judicial-casas-bahia-impactos-fiscais-e-tributarios/
+2026-08-31 23:44:18 [INFO] Título: <b>Recuperação Judicial</b> Casas Bahia: Impactos Fiscais e Tributários
+2026-08-31 23:44:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:19 [INFO] Classificação: enviar
+2026-08-31 23:44:19 [INFO] Aguardando 2.74s...
+2026-08-31 23:44:21 [INFO] [6/22] ID: https://economia.uol.com.br/noticias/redacao/2026/08/31/acoes-da-casas-bahia-disparam-65-e-voltam-a-preco-pre-recuperacao.ghtm
+2026-08-31 23:44:21 [INFO] Título: Ações da Casas Bahia disparam 65% e voltam a preço pré-<b>recuperação</b> - UOL Economia
+2026-08-31 23:44:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:22 [INFO] Classificação: enviar
+2026-08-31 23:44:22 [INFO] Aguardando 2.74s...
+2026-08-31 23:44:24 [INFO] [7/22] ID: https://telesintese.com.br/gestao-judicial-admite-discutir-oferta-da-sercomtel-pela-oi-solucoes/
+2026-08-31 23:44:24 [INFO] Título: Gestão <b>judicial</b> admite discutir oferta da Sercomtel pela Oi Soluções - TeleSíntese
+2026-08-31 23:44:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:25 [INFO] Classificação: enviar
+2026-08-31 23:44:25 [INFO] Aguardando 2.55s...
+2026-08-31 23:44:27 [INFO] [8/22] ID: https://www.migalhas.com.br/depeso/463499/o-quorum-da-consolidacao-substancial-na-recuperacao-extrajudicial
+2026-08-31 23:44:27 [INFO] Título: O quórum da consolidação substancial na <b>recuperação</b> extrajudicial - Migalhas
+2026-08-31 23:44:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:28 [INFO] Classificação: enviar
+2026-08-31 23:44:28 [INFO] Aguardando 2.74s...
+2026-08-31 23:44:30 [INFO] [9/22] ID: https://www.infomoney.com.br/business/justica-do-rio-decreta-falencia-das-empresas-do-grupo-refit/
+2026-08-31 23:44:30 [INFO] Título: Justiça do Rio decreta falência das empresas do Grupo Refit - InfoMoney
+2026-08-31 23:44:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:31 [INFO] Classificação: enviar
+2026-08-31 23:44:31 [INFO] Aguardando 2.65s...
+2026-08-31 23:44:33 [INFO] [10/22] ID: https://www.olhardireto.com.br/juridico/noticias/justica-aceita-recuperacao-judicial-de-produtores-rurais-com-divida-de-r-375-milhoes
+2026-08-31 23:44:33 [INFO] Título: Justiça aceita <b>recuperação judicial</b> de produtores rurais com dívida de R$ 37,5 milhões
+2026-08-31 23:44:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:34 [INFO] Classificação: enviar
+2026-08-31 23:44:34 [INFO] Aguardando 2.79s...
+2026-08-31 23:44:36 [INFO] [11/22] ID: https://economia.uol.com.br/noticias/redacao/2026/08/31/lupatech-registra-ebitda-ajustado-negativo-de-r-16-milhao-no-segundo-trimestre.htm
+2026-08-31 23:44:36 [INFO] Título: Lupatech registra Ebitda ajustado negativo de R$ 1,6 milhão no segundo trimestre
+2026-08-31 23:44:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:37 [INFO] Classificação: nao_enviar
+2026-08-31 23:44:37 [INFO] Aguardando 2.74s...
+2026-08-31 23:44:39 [INFO] [12/22] ID: https://investidor10.com.br/amp/noticias/justica-do-rj-decreta-falencia-da-refit-antiga-refinaria-manguinhos-122363/
+2026-08-31 23:44:39 [INFO] Título: Justiça do RJ decreta falência da Refit, antiga Refinaria Manguinhos - Investidor10
+2026-08-31 23:44:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:40 [INFO] Classificação: enviar
+2026-08-31 23:44:40 [INFO] Aguardando 2.78s...
+2026-08-31 23:44:42 [INFO] [13/22] ID: https://www.demarest.com.br/gri-lanca-programa-para-capacitar-ate-150-pmes-brasileiras-em-sustentabilidade/
+2026-08-31 23:44:42 [INFO] Título: GRI lança programa para capacitar até 150 PMEs brasileiras em sustentabilidade
+2026-08-31 23:44:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:43 [INFO] Classificação: nao_enviar
+2026-08-31 23:44:43 [INFO] Aguardando 2.71s...
+2026-08-31 23:44:45 [INFO] [14/22] ID: https://www.supervarejo.com.br/varejo/justica-decreta-falencia-do-grupo-ricoy
+2026-08-31 23:44:45 [INFO] Título: Justiça decreta falência do Grupo Ricoy - SuperVarejo
+2026-08-31 23:44:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:46 [INFO] Classificação: enviar
+2026-08-31 23:44:46 [INFO] Aguardando 2.62s...
+2026-08-31 23:44:48 [INFO] [15/22] ID: https://www.demarest.com.br/com-credito-escasso-fidc-de-incorporadora-ganha-tracao/
+2026-08-31 23:44:48 [INFO] Título: Com crédito escasso, FIDC de incorporadora ganha tração - Demarest
+2026-08-31 23:44:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:49 [INFO] Classificação: nao_enviar
+2026-08-31 23:44:49 [INFO] Aguardando 2.66s...
+2026-08-31 23:44:51 [INFO] [16/22] ID: https://investnews.com.br/negocios/caito-maia-coceo-crise-chilli-beans/
+2026-08-31 23:44:51 [INFO] Título: Caito Maia recruta co-CEO para lidar com a crise da Chilli Beans - InvestNews
+2026-08-31 23:44:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:52 [INFO] Classificação: nao_enviar
+2026-08-31 23:44:52 [INFO] Aguardando 2.60s...
+2026-08-31 23:44:54 [INFO] [17/22] ID: https://www.brasil247.com/geral/fgc-inicia-pagamento-de-r-635-milhoes-a-credores-da-simpa-financeira-liquidada-pelo-bc/
+2026-08-31 23:44:54 [INFO] Título: FGC inicia pagamento de R$ 635 milhões a credores da Simpa, financeira liquidada pelo BC
+2026-08-31 23:44:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:55 [INFO] Classificação: enviar
+2026-08-31 23:44:55 [INFO] Aguardando 2.62s...
+2026-08-31 23:44:57 [INFO] [18/22] ID: https://iclnoticias.com.br/economia/governo-usara-ia-para-repetir-operacao/
+2026-08-31 23:44:58 [INFO] Título: Governo usará IA para repetir Operação Carbono Oculto a cada 2 meses contra lavagem
+2026-08-31 23:44:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:44:58 [INFO] Classificação: nao_enviar
+2026-08-31 23:44:58 [INFO] Aguardando 2.60s...
+2026-08-31 23:45:01 [INFO] [19/22] ID: https://bpmoney.com.br/mercado/fgc-comeca-a-pagar-r-6353-milhoes-a-clientes-da-simpala/
+2026-08-31 23:45:01 [INFO] Título: FGC começa a pagar R$ 635,3 milhões a clientes da Simpala - BPMoney
+2026-08-31 23:45:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:45:01 [INFO] Classificação: enviar
+2026-08-31 23:45:01 [INFO] Aguardando 2.63s...
+2026-08-31 23:45:04 [INFO] [20/22] ID: https://www.correiobraziliense.com.br/economia/2026/08/7491099-fgc-libera-rs-635-milhoes-para-clientes-da-simpala-saiba-como-receber.html
+2026-08-31 23:45:04 [INFO] Título: FGC libera R$ 635 milhões para clientes da Simpala; saiba como receber
+2026-08-31 23:45:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:45:04 [INFO] Classificação: enviar
+2026-08-31 23:45:04 [INFO] Aguardando 2.71s...
+2026-08-31 23:45:07 [INFO] [21/22] ID: https://www.infomoney.com.br/business/fgc-inicia-pagamentos-de-r-635-milhoes-a-investidores-de-financeira-liquidada/
+2026-08-31 23:45:07 [INFO] Título: FGC inicia pagamentos de R$ 635 milhões a investidores de financeira liquidada
+2026-08-31 23:45:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:45:07 [INFO] Classificação: enviar
+2026-08-31 23:45:07 [INFO] Aguardando 2.57s...
+2026-08-31 23:45:10 [INFO] [22/22] ID: https://gcmais.com.br/noticias/2026/08/31/dark-horse-flavio-bolsonaro-diz-que-nao-ha-irregularidades-em-r-61-milhoes-pedidos-a-vorcaro
+2026-08-31 23:45:10 [INFO] Título: Dark Horse: Flávio Bolsonaro diz que não há irregularidades em R$ 61 milhões pedidos a Vorcaro
+2026-08-31 23:45:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 23:45:10 [INFO] Classificação: nao_enviar
+2026-08-31 23:45:10 [INFO] ======================================================================
+2026-08-31 23:45:10 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-31 23:45:10 [INFO] ======================================================================
+2026-08-31 23:45:10 [INFO] Processadas: 22
+2026-08-31 23:45:10 [INFO] Enviar: 14
+2026-08-31 23:45:10 [INFO] Não enviar: 8
+2026-08-31 23:45:10 [INFO] ======================================================================
