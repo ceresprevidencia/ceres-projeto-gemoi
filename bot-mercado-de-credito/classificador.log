@@ -13210,3 +13210,46 @@
 2026-08-30 23:23:06 [INFO] Enviar: 4
 2026-08-30 23:23:06 [INFO] Não enviar: 1
 2026-08-30 23:23:06 [INFO] ======================================================================
+2026-08-31 05:16:08 [INFO] ======================================================================
+2026-08-31 05:16:08 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-31 05:16:08 [INFO] ======================================================================
+2026-08-31 05:16:08 [INFO] Notícias com status 'extraida': 6
+2026-08-31 05:16:08 [INFO] Limite: 20 requisições/minuto
+2026-08-31 05:16:08 [INFO] Intervalo mínimo: 3.0s
+2026-08-31 05:16:08 [INFO] ======================================================================
+2026-08-31 05:16:08 [INFO] [1/6] ID: https://www.folhamax.com/economia/casal-de-pecuaristas-de-mt-entra-em-recuperacao-devendo-r-37-milhoes/569224
+2026-08-31 05:16:08 [INFO] Título: Casal de pecuaristas de MT entra em <b>recuperação</b> devendo R$ 37 milhões | FOLHAMAX
+2026-08-31 05:16:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 05:16:08 [INFO] Classificação: enviar
+2026-08-31 05:16:08 [INFO] Aguardando 2.71s...
+2026-08-31 05:16:11 [INFO] [2/6] ID: https://www.folhape.com.br/colunistas/blogdafolha/eduardo-da-fonte-participa-do-culto-de-mulheres-da-igreja-evangelica-assembleia-de-deus-em-ribeirao/59408/
+2026-08-31 05:16:11 [INFO] Título: Eduardo da Fonte participa do Culto de Mulheres da Igreja Evangélica Assembleia de Deus ...
+2026-08-31 05:16:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 05:16:11 [INFO] Classificação: nao_enviar
+2026-08-31 05:16:11 [INFO] Aguardando 2.82s...
+2026-08-31 05:16:14 [INFO] [3/6] ID: https://kinvo.com.br/noticia/brasil-bate-recorde-de-inadimplencia-em-2026-entre-familias-empresas-e-governo
+2026-08-31 05:16:14 [INFO] Título: Brasil bate recorde de inadimplência em 2026 entre famílias, empresas e governo - Kinvo
+2026-08-31 05:16:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 05:16:14 [INFO] Classificação: nao_enviar
+2026-08-31 05:16:14 [INFO] Aguardando 2.79s...
+2026-08-31 05:16:17 [INFO] [4/6] ID: https://www1.folha.uol.com.br/opiniao/2026/08/brasilia-debate-6x1-enquanto-juros-ameacam-empregos.shtml
+2026-08-31 05:16:17 [INFO] Título: Brasília debate 6x1 enquanto juros ameaçam empregos - 30/08/2026 - Opinião - Folha
+2026-08-31 05:16:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 05:16:17 [INFO] Classificação: nao_enviar
+2026-08-31 05:16:17 [INFO] Aguardando 2.80s...
+2026-08-31 05:16:20 [INFO] [5/6] ID: https://jornalpp.com.br/noticias/economia/brasil-precisa-ampliar-comercio-exterior/
+2026-08-31 05:16:20 [INFO] Título: Brasil precisa ampliar comércio exterior - Jornal Primeira Página
+2026-08-31 05:16:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 05:16:20 [INFO] Classificação: nao_enviar
+2026-08-31 05:16:20 [INFO] Aguardando 2.81s...
+2026-08-31 05:16:23 [INFO] [6/6] ID: https://novomomento.com.br/casas-bahia-recupera-judic-ensina-prot-investid/
+2026-08-31 05:16:23 [INFO] Título: Casas Bahia: recuperação <b>judicial</b> e o que ela ensina sobre proteção do investidor
+2026-08-31 05:16:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 05:16:23 [INFO] Classificação: enviar
+2026-08-31 05:16:23 [INFO] ======================================================================
+2026-08-31 05:16:23 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-31 05:16:23 [INFO] ======================================================================
+2026-08-31 05:16:23 [INFO] Processadas: 6
+2026-08-31 05:16:23 [INFO] Enviar: 2
+2026-08-31 05:16:23 [INFO] Não enviar: 4
+2026-08-31 05:16:23 [INFO] ======================================================================
