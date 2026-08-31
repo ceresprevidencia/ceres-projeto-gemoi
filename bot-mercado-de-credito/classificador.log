@@ -13253,3 +13253,196 @@
 2026-08-31 05:16:23 [INFO] Enviar: 2
 2026-08-31 05:16:23 [INFO] Não enviar: 4
 2026-08-31 05:16:23 [INFO] ======================================================================
+2026-08-31 13:28:16 [INFO] ======================================================================
+2026-08-31 13:28:16 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-31 13:28:16 [INFO] ======================================================================
+2026-08-31 13:28:16 [INFO] Notícias com status 'extraida': 36
+2026-08-31 13:28:16 [INFO] Limite: 20 requisições/minuto
+2026-08-31 13:28:16 [INFO] Intervalo mínimo: 3.0s
+2026-08-31 13:28:16 [INFO] ======================================================================
+2026-08-31 13:28:16 [INFO] [1/36] ID: https://www.oab-sc.org.br/noticias/oabsc-promove-v-congresso-catarinense-de-direito-bancario-com-foco-em-fraudes-digitais-superendividamento-e-reestruturacao-empresarial
+2026-08-31 13:28:16 [INFO] Título: OAB/SC promove V Congresso Catarinense de Direito Bancário com foco em fraudes ...
+2026-08-31 13:28:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:17 [INFO] Classificação: nao_enviar
+2026-08-31 13:28:17 [INFO] Aguardando 2.70s...
+2026-08-31 13:28:19 [INFO] [2/36] ID: https://www.plural.jor.br/justica-suspende-demissoes-nas-casas-bahia-e-sindicato-orienta-trabalhadores-de-curitiba-a-nao-assinarem-documentos/
+2026-08-31 13:28:19 [INFO] Título: Justiça suspende demissões nas Casas Bahia, e sindicato orienta trabalhadores de ...
+2026-08-31 13:28:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:21 [INFO] Classificação: nao_enviar
+2026-08-31 13:28:21 [INFO] Aguardando 0.91s...
+2026-08-31 13:28:22 [INFO] [3/36] ID: https://jornalgrandebahia.com.br/2026/08/dona-de-habibs-ragazzo-e-tendall-grill-entra-em-recuperacao-judicial-com-divida-de-r-2652-milhoes/
+2026-08-31 13:28:22 [INFO] Título: Dona de Habib's, Ragazzo e Tendall Grill entra em <b>recuperação judicial</b> com dívida de R ...
+2026-08-31 13:28:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:22 [INFO] Classificação: enviar
+2026-08-31 13:28:23 [INFO] Aguardando 2.75s...
+2026-08-31 13:28:25 [INFO] [4/36] ID: https://neofeed.com.br/negocios/trx-confirma-fim-de-acordo-de-r-21-bilhoes-com-cyrela/
+2026-08-31 13:28:25 [INFO] Título: TRX confirma fim de acordo de R$ 2,1 bilhões com Cyrela - NeoFeed
+2026-08-31 13:28:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:26 [INFO] Classificação: nao_enviar
+2026-08-31 13:28:26 [INFO] Aguardando 2.67s...
+2026-08-31 13:28:28 [INFO] [5/36] ID: https://www.terra.com.br/noticias/mundo/justica-suspende-execucoes-e-bloqueios-contra-casas-bahia-ate-fevereiro-de-2027,b8fd310d336fc6738bf58828bfd6f31bagtofrvk.html
+2026-08-31 13:28:28 [INFO] Título: Justiça suspende execuções e bloqueios contra Casas Bahia até fevereiro de 2027 - Terra
+2026-08-31 13:28:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:29 [INFO] Classificação: enviar
+2026-08-31 13:28:29 [INFO] Aguardando 2.72s...
+2026-08-31 13:28:31 [INFO] [6/36] ID: https://www.cnnbrasil.com.br/economia/money/negocios/lucro-liquido-do-banco-da-amazonia-cai-para-r-3531-milhoes-no-1o-semestre/
+2026-08-31 13:28:31 [INFO] Título: Lucro líquido do Banco da Amazônia cai para R$ 353,1 milhões no 1º semestre
+2026-08-31 13:28:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:32 [INFO] Classificação: nao_enviar
+2026-08-31 13:28:32 [INFO] Aguardando 2.74s...
+2026-08-31 13:28:34 [INFO] [7/36] ID: https://investnews.com.br/negocios/justica-defere-tutela-de-urgencia-na-recuperacao-judicial-do-grupo-casas-bahia/
+2026-08-31 13:28:34 [INFO] Título: Casas Bahia consegue suspender cobranças <b>judiciais</b> por 180 dias - InvestNews
+2026-08-31 13:28:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:35 [INFO] Classificação: enviar
+2026-08-31 13:28:35 [INFO] Aguardando 2.72s...
+2026-08-31 13:28:37 [INFO] [8/36] ID: https://www.broadcast.com.br/ultimas-noticias/casas-bahia-aprova-fianca-superior-a-r-50-milhoes-apos-pedido-de-recuperacao-judicial/
+2026-08-31 13:28:37 [INFO] Título: Casas Bahia aprova fiança superior a R$ 50 milhões, após pedido de <b>recuperação judicial</b>
+2026-08-31 13:28:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:37 [INFO] Classificação: enviar
+2026-08-31 13:28:37 [INFO] Aguardando 2.84s...
+2026-08-31 13:28:40 [INFO] [9/36] ID: https://valor.globo.com/empresas/noticia/2026/08/31/construcao-tem-nova-era-com-estrangeiros-e-sobreviventes-da-lava-jato.ghtml
+2026-08-31 13:28:40 [INFO] Título: Construção tem nova era com estrangeiros e sobreviventes da Lava-Jato - Valor Econômico
+2026-08-31 13:28:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:40 [INFO] Classificação: nao_enviar
+2026-08-31 13:28:40 [INFO] Aguardando 2.82s...
+2026-08-31 13:28:43 [INFO] [10/36] ID: https://www.infomoney.com.br/mercados/casas-bahia-confirma-antecipacao-de-efeitos-do-seu-pedido-de-recuperacao-judicial/
+2026-08-31 13:28:43 [INFO] Título: Casas Bahia confirma antecipação de efeitos do seu pedido de <b>recuperação judicial</b>
+2026-08-31 13:28:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:44 [INFO] Classificação: enviar
+2026-08-31 13:28:44 [INFO] Aguardando 2.56s...
+2026-08-31 13:28:46 [INFO] [11/36] ID: https://br.advfn.com/jornal/2026/08/casas-bahia-consegue-protecao-de-180-dias-em-recuperacao-judicial-e-acoes-despencam
+2026-08-31 13:28:46 [INFO] Título: Casas Bahia consegue proteção de 180 dias em <b>recuperação judicial</b>, e ações despencam
+2026-08-31 13:28:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:47 [INFO] Classificação: enviar
+2026-08-31 13:28:47 [INFO] Aguardando 2.69s...
+2026-08-31 13:28:49 [INFO] [12/36] ID: https://megawhat.uol.com.br/mercado-livre/tjsp-derruba-decisao-que-obrigava-ccee-a-reintegrar-gold-energia/
+2026-08-31 13:28:49 [INFO] Título: TJSP derruba decisão que obrigava CCEE a reintegrar Gold Energia - MegaWhat - UOL
+2026-08-31 13:28:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:50 [INFO] Classificação: nao_enviar
+2026-08-31 13:28:50 [INFO] Aguardando 2.72s...
+2026-08-31 13:28:52 [INFO] [13/36] ID: https://valor.globo.com/empresas/noticia/2026/08/31/grupo-casas-bahia-confirma-antecipao-de-efeitos-do-seu-pedido-de-recuperao-judicial.ghtml
+2026-08-31 13:28:52 [INFO] Título: Grupo Casas Bahia confirma antecipação de efeitos do seu pedido de <b>recuperação judicial</b>
+2026-08-31 13:28:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:52 [INFO] Classificação: enviar
+2026-08-31 13:28:53 [INFO] Aguardando 2.75s...
+2026-08-31 13:28:55 [INFO] [14/36] ID: https://www.migalhas.com.br/coluna/migalhas-de-direito-das-organizacoes/463420/nem-toda-atividade-economica-e-empresa
+2026-08-31 13:28:55 [INFO] Título: Nem toda atividade econômica é empresa - Migalhas
+2026-08-31 13:28:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:56 [INFO] Classificação: nao_enviar
+2026-08-31 13:28:56 [INFO] Aguardando 2.69s...
+2026-08-31 13:28:58 [INFO] [15/36] ID: https://emobile.com.br/site/noticias/casas-bahia-obtem-protecao-contra-credores-por-180-dias/
+2026-08-31 13:28:58 [INFO] Título: Casas Bahia obtém proteção contra credores por 180 dias - eMóbile
+2026-08-31 13:28:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:28:59 [INFO] Classificação: enviar
+2026-08-31 13:28:59 [INFO] Aguardando 2.70s...
+2026-08-31 13:29:01 [INFO] [16/36] ID: https://www.moneytimes.com.br/agrogalaxy-agxy3-adia-mais-uma-vez-divulgacao-do-balanco-referentes-ao-quarto-trimestre-de-2025-fets/
+2026-08-31 13:29:01 [INFO] Título: Agrogalaxy (AGXY3) adia mais uma vez divulgação do balanço referentes ao quarto ...
+2026-08-31 13:29:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:02 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:02 [INFO] Aguardando 2.31s...
+2026-08-31 13:29:04 [INFO] [17/36] ID: https://www.migalhas.com.br/amp/quentes/463431/iasp-debate-impacto-de-decisoes-judiciais-nas-empresas-e-negocios
+2026-08-31 13:29:04 [INFO] Título: IASP debate impacto de decisões <b>judiciais</b> nas empresas e negócios - Migalhas
+2026-08-31 13:29:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:04 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:04 [INFO] Aguardando 2.79s...
+2026-08-31 13:29:07 [INFO] [18/36] ID: https://midiamax.com.br/cotidiano/economia/2026/varejo-descobre-custo-ser-grande-fecha-mais-11-mil-lojas-desde-2022/
+2026-08-31 13:29:07 [INFO] Título: Varejo descobre o custo de ser grande e fecha mais de 1,1 mil lojas desde 2022 - Midiamax
+2026-08-31 13:29:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:08 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:08 [INFO] Aguardando 2.58s...
+2026-08-31 13:29:10 [INFO] [19/36] ID: https://www.justicaemfoco.com.br/noticias/151880
+2026-08-31 13:29:10 [INFO] Título: STJ impede empresário de usar créditos de CSLL da empresa para quitar dívida própria no Pert
+2026-08-31 13:29:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:11 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:11 [INFO] Aguardando 2.67s...
+2026-08-31 13:29:13 [INFO] [20/36] ID: https://tmc.com.br/economia/brasil-pode-levar-ate-30-anos-para-viabilizar-fim-da-escala-6x1-sem-perda-de-produtividade-alerta-cni/
+2026-08-31 13:29:13 [INFO] Título: Brasil pode levar até 30 anos para viabilizar fim da escala 6x1 sem perda de produtividade ... - TMC
+2026-08-31 13:29:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:13 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:14 [INFO] Aguardando 2.76s...
+2026-08-31 13:29:16 [INFO] [21/36] ID: https://atlaspublico.com.br/cvm/noticias/juizo-de-sao-paulo-suspende-execucoes-contra-grupo-casas-83649
+2026-08-31 13:29:16 [INFO] Título: Juízo de São Paulo suspende execuções contra Grupo Casas Bahia por 180 dias
+2026-08-31 13:29:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:16 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:16 [INFO] Aguardando 2.84s...
+2026-08-31 13:29:19 [INFO] [22/36] ID: https://guiadoinvestidor.com.br/mercado/braskem-brkm5-ganha-protecao-de-120-dias-e-justica-de-sp-aceita-recuperacao-extrajudicial/
+2026-08-31 13:29:19 [INFO] Título: Braskem (BRKM5) ganha proteção de 120 dias e Justiça de SP aceita <b>recuperação extrajudicial</b>
+2026-08-31 13:29:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:19 [INFO] Classificação: enviar
+2026-08-31 13:29:20 [INFO] Aguardando 2.76s...
+2026-08-31 13:29:22 [INFO] [23/36] ID: https://valorinveste.globo.com/mercados/renda-variavel/noticia/2026/08/31/acao-da-oncoclinicas-salta-133percent-no-mes-apos-corrida-com-opa-o-que-esta-em-jogo.ghtml
+2026-08-31 13:29:22 [INFO] Título: Ação da Oncoclínicas salta 133% no mês, após corrida com OPA. O que está em jogo?
+2026-08-31 13:29:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:23 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:23 [INFO] Aguardando 2.72s...
+2026-08-31 13:29:25 [INFO] [24/36] ID: https://www.cadaminuto.com.br/noticia/2026/08/31/recuperacao-extrajudicial-da-braskem-preocupa-vitimas-direitos-nao-podem-entrar-nessa-negociacao
+2026-08-31 13:29:25 [INFO] Título: <b>Recuperação extrajudicial</b> da Braskem preocupa vítimas: 'Direitos não podem entrar nessa ...
+2026-08-31 13:29:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:27 [INFO] Classificação: enviar
+2026-08-31 13:29:27 [INFO] Aguardando 1.45s...
+2026-08-31 13:29:28 [INFO] [25/36] ID: https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/08/justica-condena-agencia-por-cobrar-divida-do-botafogo-apos-firmar-acordo.ghtml
+2026-08-31 13:29:28 [INFO] Título: Justiça condena agência por cobrar dívida do Botafogo após firmar acordo - O GLOBO
+2026-08-31 13:29:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:29 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:29 [INFO] Aguardando 2.50s...
+2026-08-31 13:29:31 [INFO] [26/36] ID: https://www.diariodepernambuco.com.br/colunas/diario-economico/2026/08/11722646-modo-eleicoes-no-brasil-e-nos-estados-unidos-vira-pano-de-fundo-para-tarifaco.html
+2026-08-31 13:29:31 [INFO] Título: Modo eleições no Brasil e nos Estados Unidos vira pano de fundo para tarifaço
+2026-08-31 13:29:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:32 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:32 [INFO] Aguardando 2.67s...
+2026-08-31 13:29:34 [INFO] [27/36] ID: https://www.tvpampa.com.br/do-habibs-as-casas-bahia-por-que-tantas-empresas-estao-quebrando-no-brasil-entenda/
+2026-08-31 13:29:34 [INFO] Título: Do Habib's às Casas Bahia, por que tantas empresas estão quebrando no Brasil? Entenda
+2026-08-31 13:29:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:35 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:35 [INFO] Aguardando 2.69s...
+2026-08-31 13:29:37 [INFO] [28/36] ID: https://investnews.com.br/negocios/justica-defere-tutela-de-urgencia-na-recuperacao-judicial-do-grupo-casas-bahia/amp/
+2026-08-31 13:29:37 [INFO] Título: Casas Bahia consegue suspender cobranças judiciais por 180 dias - InvestNews
+2026-08-31 13:29:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:38 [INFO] Classificação: enviar
+2026-08-31 13:29:38 [INFO] Aguardando 2.62s...
+2026-08-31 13:29:40 [INFO] [29/36] ID: https://www.infomoney.com.br/mercados/casas-bahia-brava-tecnisa-cemig-agrogalaxy-e-mais-acoes-para-acompanhar-hoje/
+2026-08-31 13:29:40 [INFO] Título: Casas Bahia, Brava, Tecnisa, Cemig, Agrogalaxy e mais ações para acompanhar hoje
+2026-08-31 13:29:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:41 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:41 [INFO] Aguardando 2.48s...
+2026-08-31 13:29:43 [INFO] [30/36] ID: https://sitecontabil.com.br/noticias_empresariais/ler/empresas-inadimplentes--quando-o-endividamento-pode-levar-a-recuperacao-judicial
+2026-08-31 13:29:43 [INFO] Título: Empresas inadimplentes: quando o endividamento pode levar à recuperação <b>judicial</b>
+2026-08-31 13:29:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:44 [INFO] Classificação: enviar
+2026-08-31 13:29:44 [INFO] Aguardando 2.75s...
+2026-08-31 13:29:46 [INFO] [31/36] ID: https://valor.globo.com/empresas/noticia/2026/08/31/agenda-de-empresas-justica-antecipa-efeitos-de-rj-da-casas-bahia-mg-indica-novo-presidente-da-cemig.ghtml
+2026-08-31 13:29:46 [INFO] Título: Agenda de empresas: Justiça antecipa efeitos de RJ da Casas Bahia; MG indica novo ...
+2026-08-31 13:29:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:47 [INFO] Classificação: enviar
+2026-08-31 13:29:47 [INFO] Aguardando 1.78s...
+2026-08-31 13:29:49 [INFO] [32/36] ID: https://www.rotajuridica.com.br/operacao-tarja-preta-quatro-sao-condenados-por-improbidade-em-fraude-na-compra-de-medicamentos/
+2026-08-31 13:29:49 [INFO] Título: Operação Tarja Preta: quatro são condenados por improbidade em fraude na compra de ...
+2026-08-31 13:29:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:49 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:49 [INFO] Aguardando 2.86s...
+2026-08-31 13:29:52 [INFO] [33/36] ID: https://www.radiocaicara.com.br/do-habibs-as-casas-bahia-por-que-tantas-empresas-estao-quebrando-no-brasil-entenda/
+2026-08-31 13:29:52 [INFO] Título: Do Habib's às Casas Bahia, por que tantas empresas estão quebrando no Brasil? Entenda
+2026-08-31 13:29:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:53 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:53 [INFO] Aguardando 2.37s...
+2026-08-31 13:29:55 [INFO] [34/36] ID: https://www.poder360.com.br/poder-eleicoes-2026/nada-ha-nada-de-errado-diz-flavio-sobre-financiamento-de-dark-horse/
+2026-08-31 13:29:55 [INFO] Título: "Nada há nada de errado”, diz Flávio sobre financiamento de “Dark Horse” - Poder360
+2026-08-31 13:29:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:56 [INFO] Classificação: nao_enviar
+2026-08-31 13:29:56 [INFO] Aguardando 2.62s...
+2026-08-31 13:29:58 [INFO] [35/36] ID: https://www.pressreader.com/brazil/o-estado-de-s-paulo/20260831/281956024647256
+2026-08-31 13:29:58 [INFO] Título: Banco foi liquidado pelo BC no ano passado | O Estado de S. Paulo - PressReader
+2026-08-31 13:29:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:29:59 [INFO] Classificação: enviar
+2026-08-31 13:29:59 [INFO] Aguardando 2.56s...
+2026-08-31 13:30:01 [INFO] [36/36] ID: https://www.tuaradio.com.br/colunistas/se-queres-roubar-crie-um-banco
+2026-08-31 13:30:01 [INFO] Título: Se queres roubar, crie um banco! | Miguel Debiasi - Tua Rádio
+2026-08-31 13:30:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 13:30:02 [INFO] Classificação: nao_enviar
+2026-08-31 13:30:02 [INFO] ======================================================================
+2026-08-31 13:30:02 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-31 13:30:02 [INFO] ======================================================================
+2026-08-31 13:30:02 [INFO] Processadas: 36
+2026-08-31 13:30:02 [INFO] Enviar: 14
+2026-08-31 13:30:02 [INFO] Não enviar: 22
+2026-08-31 13:30:02 [INFO] ======================================================================
