@@ -13446,3 +13446,250 @@
 2026-08-31 13:30:02 [INFO] Enviar: 14
 2026-08-31 13:30:02 [INFO] Não enviar: 22
 2026-08-31 13:30:02 [INFO] ======================================================================
+2026-08-31 19:56:21 [INFO] ======================================================================
+2026-08-31 19:56:21 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-08-31 19:56:21 [INFO] ======================================================================
+2026-08-31 19:56:21 [INFO] Notícias com status 'extraida': 47
+2026-08-31 19:56:21 [INFO] Limite: 20 requisições/minuto
+2026-08-31 19:56:21 [INFO] Intervalo mínimo: 3.0s
+2026-08-31 19:56:21 [INFO] ======================================================================
+2026-08-31 19:56:21 [INFO] [1/47] ID: https://veja.abril.com.br/economia/em-recuperacao-judicial-casas-bahia-ganha-protecao-contra-cobranca-de-dividas-por-180-dias/
+2026-08-31 19:56:21 [INFO] Título: Justiça dá a Casas Bahia proteção contra cobrança de dívidas por 180 dias - Revista Veja
+2026-08-31 19:56:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:21 [INFO] Classificação: enviar
+2026-08-31 19:56:21 [INFO] Aguardando 2.66s...
+2026-08-31 19:56:24 [INFO] [2/47] ID: https://timesbrasil.com.br/brasil/juros-altos-empurram-empresas-menores-para-recuperacao-judicial/
+2026-08-31 19:56:24 [INFO] Título: Juros altos empurram empresas menores para <b>recuperação judicial</b> - Times Brasil | CNBC
+2026-08-31 19:56:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:24 [INFO] Classificação: enviar
+2026-08-31 19:56:24 [INFO] Aguardando 2.73s...
+2026-08-31 19:56:27 [INFO] [3/47] ID: https://www.brasil247.com/sudeste/justica-do-rio-decreta-falencia-do-grupo-refit-e-converte-recuperacao-judicial-em-falencia/
+2026-08-31 19:56:27 [INFO] Título: Justiça do Rio decreta falência do Grupo Refit e converte <b>recuperação judicial</b> em falência
+2026-08-31 19:56:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:27 [INFO] Classificação: enviar
+2026-08-31 19:56:27 [INFO] Aguardando 2.58s...
+2026-08-31 19:56:30 [INFO] [4/47] ID: https://br.advfn.com/jornal/2026/08/grupo-refit-tem-falencia-decretada-pela-justica-do-rio-de-janeiro-recuperacao-judicial-iniciada-em-2015-chega-ao-fim
+2026-08-31 19:56:30 [INFO] Título: Grupo Refit tem falência decretada pela Justiça do Rio de Janeiro. <b>Recuperação judicial</b> ... - ADVFN
+2026-08-31 19:56:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:30 [INFO] Classificação: enviar
+2026-08-31 19:56:30 [INFO] Aguardando 2.64s...
+2026-08-31 19:56:33 [INFO] [5/47] ID: https://www.jota.info/justica/juiz-determina-falencia-da-refit-investigada-por-sonegacao-fiscal
+2026-08-31 19:56:33 [INFO] Título: Juiz determina falência da Refit, investigada por sonegação fiscal - JOTA
+2026-08-31 19:56:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:33 [INFO] Classificação: nao_enviar
+2026-08-31 19:56:33 [INFO] Aguardando 2.53s...
+2026-08-31 19:56:36 [INFO] [6/47] ID: https://neofeed.com.br/negocios/exclusivo-chilli-beans-analisa-recuperacao-judicial-e-anuncia-novo-ceo/
+2026-08-31 19:56:36 [INFO] Título: EXCLUSIVO: Chilli Beans analisa <b>recuperação judicial</b> e anuncia novo CEO - NeoFeed
+2026-08-31 19:56:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:36 [INFO] Classificação: enviar
+2026-08-31 19:56:36 [INFO] Aguardando 2.61s...
+2026-08-31 19:56:39 [INFO] [7/47] ID: http://www.alerj.rj.gov.br/Visualizar/Noticia/87732
+2026-08-31 19:56:39 [INFO] Título: publicações - Assembléia Legislativa do Estado do Rio de Janeiro
+2026-08-31 19:56:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:39 [INFO] Classificação: nao_enviar
+2026-08-31 19:56:39 [INFO] Aguardando 2.60s...
+2026-08-31 19:56:42 [INFO] [8/47] ID: https://iree.org.br/o-brasil-esta-quebrando/
+2026-08-31 19:56:42 [INFO] Título: O Brasil está quebrando? - IREE
+2026-08-31 19:56:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:42 [INFO] Classificação: nao_enviar
+2026-08-31 19:56:42 [INFO] Aguardando 2.53s...
+2026-08-31 19:56:45 [INFO] [9/47] ID: https://www.estadao.com.br/economia/negocios/justica-do-rio-decreta-falencia-das-empresas-do-grupo-refit/
+2026-08-31 19:56:45 [INFO] Título: Justiça do Rio decreta falência das empresas do Grupo Refit - Estadão
+2026-08-31 19:56:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:45 [INFO] Classificação: enviar
+2026-08-31 19:56:45 [INFO] Aguardando 2.54s...
+2026-08-31 19:56:48 [INFO] [10/47] ID: https://sbtnews.sbt.com.br/noticia/economia/justica-decreta-falencia-da-refit-apos-mais-de-10-anos
+2026-08-31 19:56:48 [INFO] Título: Justiça decreta falência da Refit após mais de 10 anos - SBT News
+2026-08-31 19:56:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:48 [INFO] Classificação: nao_enviar
+2026-08-31 19:56:48 [INFO] Aguardando 2.36s...
+2026-08-31 19:56:51 [INFO] [11/47] ID: https://debatejuridico.com.br/onda-de-recuperacoes-judiciais-acende-alerta/
+2026-08-31 19:56:51 [INFO] Título: Onda de recuperações <b>judiciais</b> acende alerta - Debate Jurídico
+2026-08-31 19:56:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:52 [INFO] Classificação: enviar
+2026-08-31 19:56:52 [INFO] Aguardando 1.71s...
+2026-08-31 19:56:54 [INFO] [12/47] ID: https://agenciainfra.com/blog/refit-e-outras-tres-empresas-do-grupo-tem-falencia-decretada/
+2026-08-31 19:56:54 [INFO] Título: Refit e outras três empresas do grupo têm falência decretada - Agência iNFRA
+2026-08-31 19:56:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:54 [INFO] Classificação: enviar
+2026-08-31 19:56:54 [INFO] Aguardando 2.65s...
+2026-08-31 19:56:57 [INFO] [13/47] ID: https://www1.folha.uol.com.br/mercado/2026/08/acoes-da-casas-bahia-disparam-mais-de-40-apos-suspensao-de-cobrancas-contra-varejista.shtml
+2026-08-31 19:56:57 [INFO] Título: Ações da Casas Bahia disparam mais de 40% após suspensão de cobranças contra varejista
+2026-08-31 19:56:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:56:57 [INFO] Classificação: nao_enviar
+2026-08-31 19:56:57 [INFO] Aguardando 2.68s...
+2026-08-31 19:57:00 [INFO] [14/47] ID: https://economia.ig.com.br/2026-08-31/justica-de-sao-paulo-suspende-cobrancas-de-dividas-das-casas-bahia-por-180-dias.html
+2026-08-31 19:57:00 [INFO] Título: Justiça suspende cobranças de dívidas da Casas Bahia por 180 dias - iG Economia
+2026-08-31 19:57:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:00 [INFO] Classificação: enviar
+2026-08-31 19:57:00 [INFO] Aguardando 2.57s...
+2026-08-31 19:57:03 [INFO] [15/47] ID: https://www.youtube.com/watch?v=SGogz44yFN0
+2026-08-31 19:57:03 [INFO] Título: Justiça de SP aceita pedido de <b>recuperação</b> extrajudicial da Braskem | BandNews TV
+2026-08-31 19:57:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:03 [INFO] Classificação: enviar
+2026-08-31 19:57:03 [INFO] Aguardando 2.41s...
+2026-08-31 19:57:06 [INFO] [16/47] ID: https://obastidor.com.br/economia/a-falencia-da-refit/
+2026-08-31 19:57:06 [INFO] Título: A falência da Refit - O Bastidor
+2026-08-31 19:57:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:07 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:07 [INFO] Aguardando 2.01s...
+2026-08-31 19:57:09 [INFO] [17/47] ID: https://www.migalhas.com.br/depeso/463100/criticas-ao-provimento-255-26-da-corregedoria-nacional-de-justica
+2026-08-31 19:57:09 [INFO] Título: Críticas ao provimento 255/26 da Corregedoria Nacional de Justiça - Migalhas
+2026-08-31 19:57:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:09 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:09 [INFO] Aguardando 2.71s...
+2026-08-31 19:57:12 [INFO] [18/47] ID: https://conjur.com.br/2026-ago-31/stj-deve-contextualizar-proveito-estimavel-para-honorarios-em-rj-e-falencia/
+2026-08-31 19:57:12 [INFO] Título: Tese do STJ exigirá distinção para equilibrar sucumbência em RJ e falência - Conjur
+2026-08-31 19:57:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:12 [INFO] Classificação: enviar
+2026-08-31 19:57:12 [INFO] Aguardando 2.71s...
+2026-08-31 19:57:15 [INFO] [19/47] ID: https://www.gazetadopovo.com.br/economia/justica-decreta-falencia-da-refit-a-pedido-do-governo-do-rj/
+2026-08-31 19:57:15 [INFO] Título: Justiça decreta falência da Refit a pedido do governo do RJ - Gazeta do Povo
+2026-08-31 19:57:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:15 [INFO] Classificação: enviar
+2026-08-31 19:57:15 [INFO] Aguardando 2.68s...
+2026-08-31 19:57:18 [INFO] [20/47] ID: https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/31/refit-justica-decreta-falencia-das-empresas-do-grupo-no-rj.ghtml
+2026-08-31 19:57:18 [INFO] Título: Refit: Justiça decreta falência das empresas do grupo no RJ - G1
+2026-08-31 19:57:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:18 [INFO] Classificação: enviar
+2026-08-31 19:57:18 [INFO] Aguardando 2.59s...
+2026-08-31 19:57:21 [INFO] [21/47] ID: https://www.youtube.com/watch?v=i59eXxl3grE
+2026-08-31 19:57:21 [INFO] Título: TSE cria parceria com Google para identificar vídeos de IA | BandNews TV - YouTube
+2026-08-31 19:57:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:21 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:21 [INFO] Aguardando 2.63s...
+2026-08-31 19:57:24 [INFO] [22/47] ID: https://jornaldebrasilia.com.br/noticias/economia/dono-do-pao-de-acucar-diz-que-justica-estipulou-prazo-para-mp-sp-apresentar-provas-sobre-retirada-de-credores/
+2026-08-31 19:57:24 [INFO] Título: Dono do Pão de Açúcar diz que Justiça estipulou prazo para MP-SP apresentar provas ...
+2026-08-31 19:57:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:25 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:25 [INFO] Aguardando 1.65s...
+2026-08-31 19:57:27 [INFO] [23/47] ID: https://economicnewsbrasil.com.br/2026/08/31/recuperacao-extrajudicial-gpa-prazo-justica/
+2026-08-31 19:57:27 [INFO] Título: <b>Recuperação extrajudicial</b> do GPA tem novo prazo na Justiça - Economic News Brasil
+2026-08-31 19:57:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:29 [INFO] Classificação: enviar
+2026-08-31 19:57:29 [INFO] Aguardando 0.24s...
+2026-08-31 19:57:30 [INFO] [24/47] ID: https://conjur.com.br/2026-ago-31/notificacao-de-retirada-autoriza-socios-a-optar-por-dissolucao-total-da-empresa/
+2026-08-31 19:57:30 [INFO] Título: Notificação de retirada autoriza sócios a optar por dissolução total da empresa - Conjur
+2026-08-31 19:57:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:30 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:30 [INFO] Aguardando 2.57s...
+2026-08-31 19:57:33 [INFO] [25/47] ID: https://valor.globo.com/brasil/noticia/2026/08/31/equipe-economica-nao-ve-impacto-de-recuperacoes-judiciais-na-atividade.ghtml
+2026-08-31 19:57:33 [INFO] Título: Equipe econômica não vê impacto de recuperações judiciais na atividade | Brasil
+2026-08-31 19:57:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:34 [INFO] Classificação: enviar
+2026-08-31 19:57:34 [INFO] Aguardando 1.86s...
+2026-08-31 19:57:36 [INFO] [26/47] ID: https://samais.com.br/publicacoes/as-diferencas-entre-recuperacao-judicial-e-extrajudicial-e-como-evitar-chegar-nesse-ponto
+2026-08-31 19:57:36 [INFO] Título: As diferenças entre <b>Recuperação</b> Judicial e <b>Extrajudicial</b> e como evitar chegar nesse ponto
+2026-08-31 19:57:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:36 [INFO] Classificação: enviar
+2026-08-31 19:57:36 [INFO] Aguardando 2.33s...
+2026-08-31 19:57:39 [INFO] [27/47] ID: https://www1.folha.uol.com.br/mercado/2026/08/dono-do-pao-de-acucar-diz-que-justica-estipulou-prazo-para-mp-sp-apresentar-provas-sobre-retirada-de-credores.shtml
+2026-08-31 19:57:39 [INFO] Título: Dono do Pão de Açúcar diz que Justiça estipulou prazo para MP-SP apresentar provas ...
+2026-08-31 19:57:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:41 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:41 [INFO] Aguardando 0.34s...
+2026-08-31 19:57:42 [INFO] [28/47] ID: https://exame.com/invest/mercados/como-a-onda-de-empresas-em-recuperacao-impacta-os-retornos-do-credito-privado/
+2026-08-31 19:57:42 [INFO] Título: Como a onda de empresas em <b>recuperação</b> impacta os retornos do crédito privado - Exame
+2026-08-31 19:57:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:42 [INFO] Classificação: enviar
+2026-08-31 19:57:42 [INFO] Aguardando 2.71s...
+2026-08-31 19:57:45 [INFO] [29/47] ID: https://acionista.com.br/oncoclinicas-onco3-esclarece-sobre-recuperacao-extrajudicial/
+2026-08-31 19:57:45 [INFO] Título: Oncoclínicas (ONCO3): Esclarece sobre <b>recuperação extrajudicial</b> - Acionista.com.br
+2026-08-31 19:57:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:45 [INFO] Classificação: enviar
+2026-08-31 19:57:45 [INFO] Aguardando 2.41s...
+2026-08-31 19:57:48 [INFO] [30/47] ID: https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-31082026/
+2026-08-31 19:57:48 [INFO] Título: Ibovespa Hoje Ao Vivo: Bolsa sobe 1% e retoma os 178 mil pontos; PETR4 sobe 4% - InfoMoney
+2026-08-31 19:57:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:48 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:48 [INFO] Aguardando 2.61s...
+2026-08-31 19:57:51 [INFO] [31/47] ID: https://www.moneytimes.com.br/pao-de-acucar-pcar3-justica-concede-prazo-para-mp-apresentar-elementos-apos-ser-contra-homologacao-de-plano-de-recuperacao-lmrs/
+2026-08-31 19:57:51 [INFO] Título: Pão de Açúcar (PCAR3): Justiça concede prazo para MP apresentar elementos contra ...
+2026-08-31 19:57:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:51 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:51 [INFO] Aguardando 2.67s...
+2026-08-31 19:57:54 [INFO] [32/47] ID: https://exame.com/invest/mercados/quanto-eu-teria-hoje-se-tivesse-investido-r-10-mil-em-acoes-da-braskem-ha-5-anos/
+2026-08-31 19:57:54 [INFO] Título: Quanto eu teria hoje se tivesse investido R$ 10 mil em ações da Braskem há 5 anos?
+2026-08-31 19:57:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:54 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:54 [INFO] Aguardando 2.65s...
+2026-08-31 19:57:57 [INFO] [33/47] ID: https://www.cnnbrasil.com.br/economia/money/negocios/petz-fara-resgate-antecipado-de-r-133-milhoes-em-debentures-diz-grupo/
+2026-08-31 19:57:57 [INFO] Título: Petz fará resgate antecipado de R$ 133 milhões em debêntures, diz grupo - CNN Brasil
+2026-08-31 19:57:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:57:57 [INFO] Classificação: nao_enviar
+2026-08-31 19:57:57 [INFO] Aguardando 2.81s...
+2026-08-31 19:58:00 [INFO] [34/47] ID: https://www.infomoney.com.br/mercados/gpa-justica-deu-prazo-para-mp-mostrar-elementos-apos-ser-contra-plano-de-recuperacao/
+2026-08-31 19:58:00 [INFO] Título: GPA: Justiça deu prazo para MP mostrar elementos após ser contra plano de <b>recuperação</b>
+2026-08-31 19:58:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:00 [INFO] Classificação: enviar
+2026-08-31 19:58:00 [INFO] Aguardando 2.61s...
+2026-08-31 19:58:03 [INFO] [35/47] ID: https://valor.globo.com/empresas/noticia/2026/08/31/acoes-da-casas-bahia-sobem-mais-de-40percent-apos-antecipacao-de-efeitos-da-recuperacao-judicial.ghtml
+2026-08-31 19:58:03 [INFO] Título: Ações da Casas Bahia sobem mais de 40% após antecipação de efeitos da <b>recuperação</b> judicial
+2026-08-31 19:58:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:03 [INFO] Classificação: enviar
+2026-08-31 19:58:03 [INFO] Aguardando 2.73s...
+2026-08-31 19:58:06 [INFO] [36/47] ID: https://www.youtube.com/watch?v=bTyMsLyv4EU
+2026-08-31 19:58:06 [INFO] Título: PEC do fim da escala 6x1 incomoda setores do comércio | BandNews TV - YouTube
+2026-08-31 19:58:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:06 [INFO] Classificação: nao_enviar
+2026-08-31 19:58:06 [INFO] Aguardando 2.67s...
+2026-08-31 19:58:09 [INFO] [37/47] ID: https://www.youtube.com/watch?v=3-pLBs-bdEY
+2026-08-31 19:58:09 [INFO] Título: Brasil supera EUA e lidera exportação global de alimentos com 12,5% | BandNews TV
+2026-08-31 19:58:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:09 [INFO] Classificação: nao_enviar
+2026-08-31 19:58:09 [INFO] Aguardando 2.78s...
+2026-08-31 19:58:12 [INFO] [38/47] ID: https://www.youtube.com/watch?v=MCWKsPh9mTk
+2026-08-31 19:58:12 [INFO] Título: Governo tem até dia 31 para enviar previsão de gastos de 2027 | BandNews TV - YouTube
+2026-08-31 19:58:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:12 [INFO] Classificação: nao_enviar
+2026-08-31 19:58:12 [INFO] Aguardando 2.62s...
+2026-08-31 19:58:15 [INFO] [39/47] ID: https://economia.uol.com.br/noticias/reuters/2026/08/31/gpa-diz-que-justica-deu-prazo-para-mp-mostrar-elementos-apos-ser-contra-homologacao-de-plano-de-recuperacao.htm
+2026-08-31 19:58:15 [INFO] Título: GPA diz que Justiça deu prazo para MP mostrar elementos após ser contra homologação ...
+2026-08-31 19:58:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:15 [INFO] Classificação: nao_enviar
+2026-08-31 19:58:15 [INFO] Aguardando 2.54s...
+2026-08-31 19:58:18 [INFO] [40/47] ID: https://conjur.com.br/2026-ago-31/bloqueio-antes-de-recuperacao-judicial-nao-impede-controle-de-valores-por-juizo-universal/
+2026-08-31 19:58:18 [INFO] Título: Bloqueio antes da recuperação <b>judicial</b> não dá controle do valor ao banco credor - Conjur
+2026-08-31 19:58:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:18 [INFO] Classificação: enviar
+2026-08-31 19:58:18 [INFO] Aguardando 2.71s...
+2026-08-31 19:58:21 [INFO] [41/47] ID: https://veja.abril.com.br/economia/justica-decreta-falencia-da-refit-e-de-outras-tres-empresas-do-grupo/
+2026-08-31 19:58:21 [INFO] Título: Justiça decreta falência da Refit e de outras três empresas do grupo - Revista Veja
+2026-08-31 19:58:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:21 [INFO] Classificação: enviar
+2026-08-31 19:58:21 [INFO] Aguardando 2.67s...
+2026-08-31 19:58:24 [INFO] [42/47] ID: https://valor.globo.com/empresas/noticia/2026/08/31/justica-do-rio-converte-em-falencia-a-recuperacao-judicial-da-refit-diz-jornal.ghtml
+2026-08-31 19:58:24 [INFO] Título: Justiça do Rio converte em falência a recuperação <b>judicial</b> da Refit, diz jornal | Empresas
+2026-08-31 19:58:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:24 [INFO] Classificação: enviar
+2026-08-31 19:58:24 [INFO] Aguardando 2.71s...
+2026-08-31 19:58:27 [INFO] [43/47] ID: https://www.bnews.com.br/noticias/economia-e-mercado/refit-tem-falencia-decretada-pela-justica-apos-recuperacao-judicial.html
+2026-08-31 19:58:27 [INFO] Título: Refit tem falência decretada pela Justiça após recuperação <b>judicial</b> - Bnews
+2026-08-31 19:58:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:27 [INFO] Classificação: enviar
+2026-08-31 19:58:27 [INFO] Aguardando 2.73s...
+2026-08-31 19:58:30 [INFO] [44/47] ID: https://www.terra.com.br/economia/justica-suspende-execucoes-e-bloqueios-contra-casas-bahia-ate-fevereiro-de-2027,b8fd310d336fc6738bf58828bfd6f31bagtofrvk.html
+2026-08-31 19:58:30 [INFO] Título: Justiça suspende execuções e bloqueios contra Casas Bahia até fevereiro de 2027 - Terra
+2026-08-31 19:58:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:30 [INFO] Classificação: enviar
+2026-08-31 19:58:30 [INFO] Aguardando 2.65s...
+2026-08-31 19:58:33 [INFO] [45/47] ID: https://economia.ig.com.br/2026-08-31/justica-decreta-falencia-do-grupo-ricoy-com-divida-de-r--461-milhoes.html
+2026-08-31 19:58:33 [INFO] Título: Justiça decreta falência do Grupo Ricoy com dívida de R$ 461 mi - iG Economia
+2026-08-31 19:58:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:37 [INFO] Classificação: enviar
+2026-08-31 19:58:37 [INFO] [46/47] ID: https://exame.com/invest/mercados/casas-bahia-consegue-protecao-judicial-por-seis-meses-no-pedido-de-rj/
+2026-08-31 19:58:37 [INFO] Título: Casas Bahia consegue proteção <b>judicial</b> por seis meses no pedido de RJ - Exame
+2026-08-31 19:58:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:38 [INFO] Classificação: enviar
+2026-08-31 19:58:38 [INFO] Aguardando 1.67s...
+2026-08-31 19:58:40 [INFO] [47/47] ID: https://avozdocampo.com/economia/governo-quer-repetir-modelo-da-operacao-carbono-oculto-a-cada-dois-meses-contra-lavagem-de-dinheiro/
+2026-08-31 19:58:40 [INFO] Título: Governo quer repetir modelo da Operação Carbono Oculto a cada dois meses contra ...
+2026-08-31 19:58:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-31 19:58:40 [INFO] Classificação: nao_enviar
+2026-08-31 19:58:40 [INFO] ======================================================================
+2026-08-31 19:58:40 [INFO] PROCESSAMENTO FINALIZADO
+2026-08-31 19:58:40 [INFO] ======================================================================
+2026-08-31 19:58:40 [INFO] Processadas: 47
+2026-08-31 19:58:40 [INFO] Enviar: 27
+2026-08-31 19:58:40 [INFO] Não enviar: 20
+2026-08-31 19:58:40 [INFO] ======================================================================
