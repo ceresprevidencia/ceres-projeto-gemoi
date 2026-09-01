@@ -13816,3 +13816,71 @@
 2026-08-31 23:45:10 [INFO] Enviar: 14
 2026-08-31 23:45:10 [INFO] Não enviar: 8
 2026-08-31 23:45:10 [INFO] ======================================================================
+2026-09-01 04:51:27 [INFO] ======================================================================
+2026-09-01 04:51:27 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-01 04:51:27 [INFO] ======================================================================
+2026-09-01 04:51:27 [INFO] Notícias com status 'extraida': 11
+2026-09-01 04:51:27 [INFO] Limite: 20 requisições/minuto
+2026-09-01 04:51:27 [INFO] Intervalo mínimo: 3.0s
+2026-09-01 04:51:27 [INFO] ======================================================================
+2026-09-01 04:51:27 [INFO] [1/11] ID: https://ndmais.com.br/economia/chilli-beans-divida-reestruturacao-novo-ceo-recuperacao-judicial/
+2026-09-01 04:51:27 [INFO] Título: Gigante dos óculos, Chilli Beans enfrenta dívida de R$ 600 milhões e avalia <b>recuperação</b> ...
+2026-09-01 04:51:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:28 [INFO] Classificação: enviar
+2026-09-01 04:51:28 [INFO] Aguardando 2.36s...
+2026-09-01 04:51:30 [INFO] [2/11] ID: https://investalk.bb.com.br/radar/justica-do-rio-decreta-falencia-das-empresas-do-grupo-refit
+2026-09-01 04:51:30 [INFO] Título: Justiça do Rio decreta falência das empresas do Grupo Refit - BB InvesTalk
+2026-09-01 04:51:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:30 [INFO] Classificação: enviar
+2026-09-01 04:51:30 [INFO] Aguardando 2.72s...
+2026-09-01 04:51:33 [INFO] [3/11] ID: https://neofeed.com.br/negocios/ri-happy-troca-de-dono-e-ex-ceo-retorna-para-a-operacao-da-companhia/
+2026-09-01 04:51:33 [INFO] Título: Ri Happy troca de dono e ex-CEO retorna para a operação da companhia - NeoFeed
+2026-09-01 04:51:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:33 [INFO] Classificação: nao_enviar
+2026-09-01 04:51:33 [INFO] Aguardando 2.64s...
+2026-09-01 04:51:36 [INFO] [4/11] ID: https://www.estadao.com.br/amp/einvestidor/marco-saravalle/a-fatura-silenciosa-e-a-escolha-de-2026/
+2026-09-01 04:51:36 [INFO] Título: <b>Recuperação judicial</b> de empresas bate recorde em meio a juros e pressão fiscal - Estadão
+2026-09-01 04:51:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:36 [INFO] Classificação: enviar
+2026-09-01 04:51:36 [INFO] Aguardando 2.75s...
+2026-09-01 04:51:39 [INFO] [5/11] ID: https://www.uol.com.br/esporte/colunas/yara-fantoni/2026/08/31/paulista-saf-preve-aporte-inicial-de-r-30-milhoes.htm
+2026-09-01 04:51:39 [INFO] Título: Paulista SAF prevê aporte inicial de R$ 30 milhões e mira elite até 2030 - UOL
+2026-09-01 04:51:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:39 [INFO] Classificação: nao_enviar
+2026-09-01 04:51:39 [INFO] Aguardando 2.68s...
+2026-09-01 04:51:42 [INFO] [6/11] ID: https://timesbrasil.com.br/investimentos/recuperacoes-judiciais-exigem-atencao-redobrada-de-investidores/
+2026-09-01 04:51:42 [INFO] Título: Fernanda Rocha: Recuperações judiciais exigem atenção redobrada de investidores
+2026-09-01 04:51:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:42 [INFO] Classificação: enviar
+2026-09-01 04:51:42 [INFO] Aguardando 2.73s...
+2026-09-01 04:51:45 [INFO] [7/11] ID: https://obastidor.com.br/economia/as-duvidas-sobre-o-pao-de-acucar/
+2026-09-01 04:51:45 [INFO] Título: As dúvidas sobre o Pão de Açúcar - O Bastidor
+2026-09-01 04:51:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:45 [INFO] Classificação: nao_enviar
+2026-09-01 04:51:45 [INFO] Aguardando 2.84s...
+2026-09-01 04:51:48 [INFO] [8/11] ID: https://neofeed.com.br/negocios/as-varias-versoes-da-chilli-beans-sobre-o-novo-executivo-e-a-crise-financeira/
+2026-09-01 04:51:48 [INFO] Título: As várias versões da Chilli Beans sobre o novo executivo e a crise financeira - NeoFeed
+2026-09-01 04:51:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:48 [INFO] Classificação: nao_enviar
+2026-09-01 04:51:48 [INFO] Aguardando 2.73s...
+2026-09-01 04:51:51 [INFO] [9/11] ID: https://www.cnnbrasil.com.br/agro/justica-manda-avaliar-heringer-antes-de-protecao-contra-credores/
+2026-09-01 04:51:51 [INFO] Título: Justiça manda avaliar Heringer antes de proteção contra credores | CNN Brasil
+2026-09-01 04:51:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:51 [INFO] Classificação: enviar
+2026-09-01 04:51:51 [INFO] Aguardando 2.62s...
+2026-09-01 04:51:54 [INFO] [10/11] ID: https://investidor10.com.br/noticias/fgc-ressarce-investidores-de-renda-fixa-em-rodada-de-r-635-milhoes-veja-condicoes-122368/
+2026-09-01 04:51:54 [INFO] Título: FGC ressarce investidores de renda fixa em rodada de R$ 635 milhões; veja condições
+2026-09-01 04:51:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:54 [INFO] Classificação: nao_enviar
+2026-09-01 04:51:54 [INFO] Aguardando 2.73s...
+2026-09-01 04:51:57 [INFO] [11/11] ID: https://tnonline.uol.com.br/tags/simpalaliquidacao-extrajudicialfgcpagamentos
+2026-09-01 04:51:57 [INFO] Título: SIMPALA/<b>LIQUIDAÇÃO EXTRAJUDICIAL</b>/FGC/PAGAMENTOS - TNOnline
+2026-09-01 04:51:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 04:51:58 [INFO] Classificação: enviar
+2026-09-01 04:51:58 [INFO] ======================================================================
+2026-09-01 04:51:58 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-01 04:51:58 [INFO] ======================================================================
+2026-09-01 04:51:58 [INFO] Processadas: 11
+2026-09-01 04:51:58 [INFO] Enviar: 6
+2026-09-01 04:51:58 [INFO] Não enviar: 5
+2026-09-01 04:51:58 [INFO] ======================================================================
