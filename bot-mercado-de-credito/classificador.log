@@ -13884,3 +13884,51 @@
 2026-09-01 04:51:58 [INFO] Enviar: 6
 2026-09-01 04:51:58 [INFO] Não enviar: 5
 2026-09-01 04:51:58 [INFO] ======================================================================
+2026-09-01 09:55:00 [INFO] ======================================================================
+2026-09-01 09:55:00 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-01 09:55:00 [INFO] ======================================================================
+2026-09-01 09:55:00 [INFO] Notícias com status 'extraida': 7
+2026-09-01 09:55:00 [INFO] Limite: 20 requisições/minuto
+2026-09-01 09:55:00 [INFO] Intervalo mínimo: 3.0s
+2026-09-01 09:55:00 [INFO] ======================================================================
+2026-09-01 09:55:00 [INFO] [1/7] ID: https://mercadoeconsumo.com.br/31/08/2026/franquias/chilli-beans-analisa-pedido-de-recuperacao-judicial-e-anuncia-novo-ceo-diz-site/
+2026-09-01 09:55:00 [INFO] Título: Chilli Beans analisa pedido de <b>recuperação judicial</b> e anuncia novo CEO, diz site
+2026-09-01 09:55:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 09:55:01 [INFO] Classificação: enviar
+2026-09-01 09:55:01 [INFO] Aguardando 2.61s...
+2026-09-01 09:55:03 [INFO] [2/7] ID: https://bomdia.adv.br/justica-decreta-a-falencia-das-empresas-do-grupo-refit/
+2026-09-01 09:55:03 [INFO] Título: Justiça decreta a falência das empresas do Grupo Refit - Bom Dia Advogado
+2026-09-01 09:55:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 09:55:04 [INFO] Classificação: enviar
+2026-09-01 09:55:04 [INFO] Aguardando 2.56s...
+2026-09-01 09:55:06 [INFO] [3/7] ID: https://forbes.com.br/forbes-money/2026/09/recuperacoes-judiciais-brasil-juros-dividas-empresas-crise/
+2026-09-01 09:55:06 [INFO] Título: A Conta Chegou: Por Que Tantas Empresas Estão em <b>Recuperação</b> Judicial - Forbes
+2026-09-01 09:55:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 09:55:07 [INFO] Classificação: enviar
+2026-09-01 09:55:07 [INFO] Aguardando 2.79s...
+2026-09-01 09:55:09 [INFO] [4/7] ID: https://www.youtube.com/watch?v=0OLWQBCJcvo
+2026-09-01 09:55:09 [INFO] Título: How did the petrochemical giant end up with R$ 56 billion in debt? Understand it now
+2026-09-01 09:55:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 09:55:10 [INFO] Classificação: nao_enviar
+2026-09-01 09:55:10 [INFO] Aguardando 2.81s...
+2026-09-01 09:55:12 [INFO] [5/7] ID: https://investidor10.com.br/amp/noticias/casas-bahia-e-alerta-para-fiis-de-shoppings-analista-escolhe-3-nomes-fortes-122366/
+2026-09-01 09:55:12 [INFO] Título: Casas Bahia é alerta para FIIs de shoppings? Analista escolhe 3 nomes fortes
+2026-09-01 09:55:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 09:55:13 [INFO] Classificação: nao_enviar
+2026-09-01 09:55:13 [INFO] Aguardando 2.76s...
+2026-09-01 09:55:15 [INFO] [6/7] ID: https://www.cnnbrasil.com.br/economia/money/negocios/fux-ajuda-brb-mas-crise-se-agrava-e-poe-em-risco-futuro-do-banco/
+2026-09-01 09:55:15 [INFO] Título: Fux ajuda BRB, mas crise se agrava e põe em risco futuro do banco - CNN Brasil
+2026-09-01 09:55:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 09:55:16 [INFO] Classificação: nao_enviar
+2026-09-01 09:55:16 [INFO] Aguardando 2.66s...
+2026-09-01 09:55:18 [INFO] [7/7] ID: https://melhorinvestimento.net/noticias/fgc-inicia-pagamento-635-milhoes-clientes-simpala
+2026-09-01 09:55:18 [INFO] Título: FGC começa a pagar R$ 635,3 milhões a clientes da Simpala - Melhor Investimento
+2026-09-01 09:55:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 09:55:19 [INFO] Classificação: enviar
+2026-09-01 09:55:19 [INFO] ======================================================================
+2026-09-01 09:55:19 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-01 09:55:19 [INFO] ======================================================================
+2026-09-01 09:55:19 [INFO] Processadas: 7
+2026-09-01 09:55:19 [INFO] Enviar: 4
+2026-09-01 09:55:19 [INFO] Não enviar: 3
+2026-09-01 09:55:19 [INFO] ======================================================================
