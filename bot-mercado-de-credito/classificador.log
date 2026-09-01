@@ -14273,3 +14273,206 @@
 2026-09-01 18:22:53 [INFO] Enviar: 13
 2026-09-01 18:22:53 [INFO] Não enviar: 28
 2026-09-01 18:22:53 [INFO] ======================================================================
+2026-09-01 21:42:13 [INFO] ======================================================================
+2026-09-01 21:42:13 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-01 21:42:13 [INFO] ======================================================================
+2026-09-01 21:42:13 [INFO] Notícias com status 'extraida': 38
+2026-09-01 21:42:13 [INFO] Limite: 20 requisições/minuto
+2026-09-01 21:42:13 [INFO] Intervalo mínimo: 3.0s
+2026-09-01 21:42:13 [INFO] ======================================================================
+2026-09-01 21:42:13 [INFO] [1/38] ID: https://www.brasilagro.com.br/conteudo/justica-do-rio-decreta-falencia-das-empresas-do-grupo-refit-.html
+2026-09-01 21:42:13 [INFO] Título: Justiça do Rio decreta falência das empresas do Grupo Refit - Brasilagro
+2026-09-01 21:42:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:14 [INFO] Classificação: enviar
+2026-09-01 21:42:14 [INFO] Aguardando 2.65s...
+2026-09-01 21:42:16 [INFO] [2/38] ID: https://exame.com/invest/minhas-financas/novo-leilao-da-casas-bahia-tem-eletrodomesticos-com-descontos-de-76/
+2026-09-01 21:42:16 [INFO] Título: Novo leilão da Casas Bahia tem eletrodomésticos com descontos de 76% - Exame
+2026-09-01 21:42:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:17 [INFO] Classificação: nao_enviar
+2026-09-01 21:42:17 [INFO] Aguardando 2.64s...
+2026-09-01 21:42:19 [INFO] [3/38] ID: https://istoedinheiro.com.br/falencia-grupo-ricoy-decretada-justica-sp
+2026-09-01 21:42:19 [INFO] Título: Justiça decreta falência do Grupo Ricoy com dívida de R$ 461 milhões - ISTOÉ DINHEIRO
+2026-09-01 21:42:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:20 [INFO] Classificação: nao_enviar
+2026-09-01 21:42:20 [INFO] Aguardando 2.68s...
+2026-09-01 21:42:22 [INFO] [4/38] ID: https://dicaappdodia.com/336484-crise-leva-gigantes-do-varejo-a-recuperacao-judicial/?amp=1
+2026-09-01 21:42:22 [INFO] Título: Crise leva gigantes do varejo à <b>recuperação judicial</b> - Dica App do Dia
+2026-09-01 21:42:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:23 [INFO] Classificação: enviar
+2026-09-01 21:42:23 [INFO] Aguardando 2.62s...
+2026-09-01 21:42:25 [INFO] [5/38] ID: https://www.metropoles.com/brasil/economia-br/stj-suspende-ambipar
+2026-09-01 21:42:25 [INFO] Título: STJ suspende assembleia geral de credores da Ambipar - Metrópoles
+2026-09-01 21:42:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:26 [INFO] Classificação: enviar
+2026-09-01 21:42:26 [INFO] Aguardando 2.63s...
+2026-09-01 21:42:28 [INFO] [6/38] ID: https://www.agazeta.com.br/colunas/vilmara-fernandes/justica-afasta-antigo-administrador-da-apex-de-todas-as-empresas-do-grupo-0926
+2026-09-01 21:42:28 [INFO] Título: Justiça afasta antigo administrador da Apex de todas as empresas do grupo - A Gazeta
+2026-09-01 21:42:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:29 [INFO] Classificação: nao_enviar
+2026-09-01 21:42:29 [INFO] Aguardando 2.53s...
+2026-09-01 21:42:31 [INFO] [7/38] ID: https://economia.ig.com.br/2026-09-01/casas-bahia-tem-r--750-milhoes-presos-em-acoes-trabalhistas.html
+2026-09-01 21:42:31 [INFO] Título: Casas Bahia tenta acessar 'caixa invisível' de R$ 750 milhões - iG Economia
+2026-09-01 21:42:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:32 [INFO] Classificação: nao_enviar
+2026-09-01 21:42:32 [INFO] Aguardando 2.73s...
+2026-09-01 21:42:34 [INFO] [8/38] ID: https://portalbenews.com.br/justica-decreta-falencia-das-empresas-do-grupo-refit/
+2026-09-01 21:42:34 [INFO] Título: Justiça decreta falência das empresas do Grupo Refit - BE News
+2026-09-01 21:42:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:35 [INFO] Classificação: enviar
+2026-09-01 21:42:35 [INFO] Aguardando 2.66s...
+2026-09-01 21:42:37 [INFO] [9/38] ID: https://veja.abril.com.br/economia/electra-negocia-usinas-e-propoe-corte-de-70-aos-credores/
+2026-09-01 21:42:37 [INFO] Título: Electra negocia usinas e propõe corte de 70% aos credores - Revista Veja
+2026-09-01 21:42:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:38 [INFO] Classificação: enviar
+2026-09-01 21:42:38 [INFO] Aguardando 2.63s...
+2026-09-01 21:42:40 [INFO] [10/38] ID: http://www.alerj.rj.gov.br/Visualizar/Noticia/87753
+2026-09-01 21:42:40 [INFO] Título: projetos do executivo sobre devedores contumazes e cobrança da dívida ativa recebem emendas
+2026-09-01 21:42:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:41 [INFO] Classificação: nao_enviar
+2026-09-01 21:42:41 [INFO] Aguardando 2.71s...
+2026-09-01 21:42:43 [INFO] [11/38] ID: https://www.netvasco.com.br/n/391615/vasco-aguarda-a-justica-para-fechar-reforcos-em-semana-decisiva-da-janela
+2026-09-01 21:42:43 [INFO] Título: Vasco aguarda a Justiça para fechar reforços em semana decisiva da janela - NETVASCO
+2026-09-01 21:42:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:44 [INFO] Classificação: nao_enviar
+2026-09-01 21:42:44 [INFO] Aguardando 2.76s...
+2026-09-01 21:42:46 [INFO] [12/38] ID: https://www.fecombustiveis.org.br/noticia/justica-do-rj-decreta-falencia-da-refit-alvo-de-operacoes-sobre-fraude-em-combustiveis/265649
+2026-09-01 21:42:46 [INFO] Título: Justiça do RJ decreta falência da Refit, alvo de operações sobre fraude em combustíveis
+2026-09-01 21:42:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:47 [INFO] Classificação: enviar
+2026-09-01 21:42:47 [INFO] Aguardando 2.72s...
+2026-09-01 21:42:49 [INFO] [13/38] ID: https://www.infomoney.com.br/business/chilli-beans-busca-acordo-com-credores-e-novo-executivo-e-nega-recuperacao-judicial/
+2026-09-01 21:42:49 [INFO] Título: Chilli Beans busca acordo com credores e novo executivo e nega <b>recuperação judicial</b>
+2026-09-01 21:42:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:50 [INFO] Classificação: enviar
+2026-09-01 21:42:50 [INFO] Aguardando 2.69s...
+2026-09-01 21:42:52 [INFO] [14/38] ID: https://mundologistica.com.br/noticias/recuperacao-judicial-no-setor-de-transporte-e-logistica-brasil
+2026-09-01 21:42:52 [INFO] Título: <b>Recuperação judicial</b> no setor de Transporte e Logística - MundoLogística
+2026-09-01 21:42:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:53 [INFO] Classificação: enviar
+2026-09-01 21:42:53 [INFO] Aguardando 2.67s...
+2026-09-01 21:42:55 [INFO] [15/38] ID: https://opovo.com.br/trends/grupo-que-opera-grandes-redes-de-comida-arabe-pede-recuperacao-judicial-com-divida-de-r-265-milhoes/?utm_source=terra_capa_parceiros&utm_medium=referral
+2026-09-01 21:42:55 [INFO] Título: Grupo que opera grandes redes de comida árabe pede <b>recuperação judicial</b> com dívida ... - O POVO
+2026-09-01 21:42:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:56 [INFO] Classificação: enviar
+2026-09-01 21:42:56 [INFO] Aguardando 2.74s...
+2026-09-01 21:42:58 [INFO] [16/38] ID: https://megawhat.uol.com.br/economia-e-politica/empresas/tjpr-derruba-mudanca-na-curva-de-contratos-da-tradener-e-manda-apurar-prejuizos/
+2026-09-01 21:42:58 [INFO] Título: TJPR derruba mudança na curva de contratos da Tradener e manda apurar prejuízos
+2026-09-01 21:42:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:42:59 [INFO] Classificação: nao_enviar
+2026-09-01 21:42:59 [INFO] Aguardando 2.68s...
+2026-09-01 21:43:01 [INFO] [17/38] ID: https://www.youtube.com/watch?v=0jUeE4oFbPE
+2026-09-01 21:43:01 [INFO] Título: JR 15 Min #1498 | Chapter 11 bankruptcy: what are the employees' rights? - YouTube
+2026-09-01 21:43:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:02 [INFO] Classificação: enviar
+2026-09-01 21:43:02 [INFO] Aguardando 2.67s...
+2026-09-01 21:43:04 [INFO] [18/38] ID: https://conteudos.xpi.com.br/renda-fixa/relatorios/fique-de-olho-na-renda-fixa-setembro-2026/
+2026-09-01 21:43:04 [INFO] Título: Curtailment aumenta 21% nos oito primeiros meses de 2026 | Setembro 2026 - Expert XP
+2026-09-01 21:43:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:05 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:05 [INFO] Aguardando 2.63s...
+2026-09-01 21:43:07 [INFO] [19/38] ID: https://www.otempo.com.br/economia/2026/9/1/em-recuperacao-extrajudicial-raizen-conclui-venda-de-operacoes-na-argentina-por-cerca-de-r-7-3-bi.amp
+2026-09-01 21:43:07 [INFO] Título: Em <b>recuperação extrajudicial</b>, Raízen conclui venda de operações na Argentina por cerca ...
+2026-09-01 21:43:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:08 [INFO] Classificação: enviar
+2026-09-01 21:43:08 [INFO] Aguardando 2.75s...
+2026-09-01 21:43:10 [INFO] [20/38] ID: https://investidor10.com.br/amp/noticias/raizen-raiz4-vende-operacao-da-shell-na-argentina-por-r-7-2-bilhoes-122383/
+2026-09-01 21:43:10 [INFO] Título: Raízen (RAIZ4) vende operação da Shell na Argentina por R$ 7,2 bilhões - Investidor10
+2026-09-01 21:43:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:11 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:11 [INFO] Aguardando 2.76s...
+2026-09-01 21:43:13 [INFO] [21/38] ID: https://jovempan.com.br/economia/macroeconomia/governo-estima-aumento-do-salario-minimo-para-r-1-741-em-2027/
+2026-09-01 21:43:13 [INFO] Título: Governo estima aumento do salário mínimo para R$ 1.741 em 2027 - Jovem Pan
+2026-09-01 21:43:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:14 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:14 [INFO] Aguardando 2.65s...
+2026-09-01 21:43:16 [INFO] [22/38] ID: https://businessmoment.com.br/chilli-beans-divida-600-milhoes-reestruturacao/
+2026-09-01 21:43:16 [INFO] Título: Com dívida de R$ 600 milhões, Chilli Beans reforça comando e negocia reestruturação
+2026-09-01 21:43:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:17 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:17 [INFO] Aguardando 2.60s...
+2026-09-01 21:43:19 [INFO] [23/38] ID: https://inmagazine.ig.com.br/money/chilli-beans-novo-ceo
+2026-09-01 21:43:19 [INFO] Título: Chilli Beans Anuncia André Dela Togna Como Novo Co-CEO; Saiba O Que Muda
+2026-09-01 21:43:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:20 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:20 [INFO] Aguardando 2.63s...
+2026-09-01 21:43:22 [INFO] [24/38] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/08/31/casas-bahia-realiza-novo-leilao-de-eletrodomesticos-e-eletronicos-com-ate-85percent-de-desconto-veja-como-participar.ghtml
+2026-09-01 21:43:22 [INFO] Título: Casas Bahia realiza novo leilão de eletrodomésticos e eletrônicos com até 85% de ...
+2026-09-01 21:43:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:23 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:23 [INFO] Aguardando 2.63s...
+2026-09-01 21:43:25 [INFO] [25/38] ID: https://oespecialista.safra.com.br/casas-bahia-risco-provisoes-bradesco-crediario-bnpl/
+2026-09-01 21:43:25 [INFO] Título: Casas Bahia: risco adicional para o Bradesco no BNPL - O Especialista
+2026-09-01 21:43:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:26 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:26 [INFO] Aguardando 2.65s...
+2026-09-01 21:43:28 [INFO] [26/38] ID: https://www.netvasco.com.br/n/391631/pedrinho-os-emprestimos-fazem-parte-do-plano-da-recuperacao-judicial
+2026-09-01 21:43:28 [INFO] Título: Pedrinho: 'Os empréstimos fazem parte do plano da recuperação <b>judicial</b>' | NETVASCO
+2026-09-01 21:43:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:29 [INFO] Classificação: enviar
+2026-09-01 21:43:29 [INFO] Aguardando 2.07s...
+2026-09-01 21:43:31 [INFO] [27/38] ID: https://observador.pt/2026/09/01/da-bolha-imobiliaria-a-prisao-perpetua-tribunal-chines-aprova-a-liquidacao-do-guangzhou-evergrande/
+2026-09-01 21:43:31 [INFO] Título: Da bolha imobiliária à prisão perpétua: tribunal chinês aprova a <b>liquidação</b> do Guangzhou ...
+2026-09-01 21:43:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:32 [INFO] Classificação: enviar
+2026-09-01 21:43:32 [INFO] Aguardando 2.63s...
+2026-09-01 21:43:34 [INFO] [28/38] ID: https://nilljunior.com.br/caso-master-entenda-o-esquema-bilionario-investigado-e-como-o-banco-chegou-a-liquidacao/
+2026-09-01 21:43:34 [INFO] Título: Caso Master: entenda o esquema bilionário investigado e como o banco chegou à <b>liquidação</b>
+2026-09-01 21:43:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:35 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:35 [INFO] Aguardando 2.72s...
+2026-09-01 21:43:37 [INFO] [29/38] ID: https://www.correiodopovo.com.br/notícias/política/em-mensagens-obtidas-pela-pf-vorcaro-diz-ter-amigos-no-banco-central-1.1744137
+2026-09-01 21:43:37 [INFO] Título: Em mensagens obtidas pela PF, Vorcaro diz ter amigos no Banco Central - Correio do Povo
+2026-09-01 21:43:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:38 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:38 [INFO] Aguardando 2.54s...
+2026-09-01 21:43:40 [INFO] [30/38] ID: https://www.cnnbrasil.com.br/politica/vorcaro-a-moraes-todo-sacrificio-pessoal-valera-a-pena/
+2026-09-01 21:43:40 [INFO] Título: Vorcaro a Moraes: "Todo sacrifício pessoal valerá a pena" - CNN Brasil
+2026-09-01 21:43:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:41 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:41 [INFO] Aguardando 2.74s...
+2026-09-01 21:43:43 [INFO] [31/38] ID: https://www.cnnbrasil.com.br/politica/vorcaro-diz-receber-informacoes-de-pessoas-do-banco-central/
+2026-09-01 21:43:43 [INFO] Título: Vorcaro diz "receber informações" de pessoas do Banco Central - CNN Brasil
+2026-09-01 21:43:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:44 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:44 [INFO] Aguardando 2.59s...
+2026-09-01 21:43:46 [INFO] [32/38] ID: https://wscom.com.br/destaque/destaque-principal/2026/09/01/pf-identifica-mensagem-de-vorcaro-perguntando-a-moraes-se-deveria-sair-do-brasil-alem-de-edicao-em-contrato-de-r-131-mi/
+2026-09-01 21:43:46 [INFO] Título: PF aponta edição de Moraes em contrato e trocas de mensagens com Vorcaro - WSCOM
+2026-09-01 21:43:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:47 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:47 [INFO] Aguardando 2.56s...
+2026-09-01 21:43:49 [INFO] [33/38] ID: https://www.cnnbrasil.com.br/politica/temos-que-dar-um-jeito-de-desarmar-isso-disse-vorcaro-a-moraes/
+2026-09-01 21:43:49 [INFO] Título: "Temos que dar um jeito de desarmar isso", disse Vorcaro a Moraes - CNN Brasil
+2026-09-01 21:43:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:50 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:50 [INFO] Aguardando 2.70s...
+2026-09-01 21:43:52 [INFO] [34/38] ID: https://claudiodantas.com.br/vorcaro-dizia-ter-amigos-no-bc-nao-posso-queima-los/
+2026-09-01 21:43:52 [INFO] Título: Vorcaro dizia ter “amigos” no BC: “Não posso queimá-los” - Claudio Dantas
+2026-09-01 21:43:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:53 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:53 [INFO] Aguardando 2.64s...
+2026-09-01 21:43:55 [INFO] [35/38] ID: https://mundoba.com.br/justica/ex-dono-do-banco-master-citou-amigos-no-banco-central-para-obter-informacoes-sigilosas/
+2026-09-01 21:43:55 [INFO] Título: Ex-dono do Banco Master citou 'amigos' no Banco Central para obter informações sigilosas
+2026-09-01 21:43:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:56 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:56 [INFO] Aguardando 2.78s...
+2026-09-01 21:43:58 [INFO] [36/38] ID: https://www.oimagem.com.br/noticia/18230
+2026-09-01 21:43:58 [INFO] Título: Metadados da PF revelam edição de contrato de R$ 131,2 milhões do Banco Master
+2026-09-01 21:43:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:43:59 [INFO] Classificação: nao_enviar
+2026-09-01 21:43:59 [INFO] Aguardando 2.68s...
+2026-09-01 21:44:01 [INFO] [37/38] ID: https://www.portaltri.com.br/noticias/49312/metadados-da-pf-indicam-edicao-de-moraes-em-contrato-de-r-131-2-milhoes-do-banco-master
+2026-09-01 21:44:01 [INFO] Título: Metadados da PF indicam edição de Moraes em contrato de R$ 131,2 milhõ... - Portal Tri
+2026-09-01 21:44:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:44:02 [INFO] Classificação: nao_enviar
+2026-09-01 21:44:02 [INFO] Aguardando 2.66s...
+2026-09-01 21:44:04 [INFO] [38/38] ID: https://www.cnnbrasil.com.br/politica/vorcaro-dizia-ter-amigos-dentro-do-bc-nao-posso-queima-los/
+2026-09-01 21:44:04 [INFO] Título: Vorcaro dizia ter "amigos" dentro do BC: "Não posso queimá-los" | CNN Brasil
+2026-09-01 21:44:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 21:44:05 [INFO] Classificação: nao_enviar
+2026-09-01 21:44:05 [INFO] ======================================================================
+2026-09-01 21:44:05 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-01 21:44:05 [INFO] ======================================================================
+2026-09-01 21:44:05 [INFO] Processadas: 38
+2026-09-01 21:44:05 [INFO] Enviar: 13
+2026-09-01 21:44:05 [INFO] Não enviar: 25
+2026-09-01 21:44:05 [INFO] ======================================================================
