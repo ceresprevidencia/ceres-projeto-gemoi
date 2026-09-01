@@ -14476,3 +14476,181 @@
 2026-09-01 21:44:05 [INFO] Enviar: 13
 2026-09-01 21:44:05 [INFO] Não enviar: 25
 2026-09-01 21:44:05 [INFO] ======================================================================
+2026-09-01 23:58:02 [INFO] ======================================================================
+2026-09-01 23:58:02 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-01 23:58:02 [INFO] ======================================================================
+2026-09-01 23:58:02 [INFO] Notícias com status 'extraida': 33
+2026-09-01 23:58:02 [INFO] Limite: 20 requisições/minuto
+2026-09-01 23:58:02 [INFO] Intervalo mínimo: 3.0s
+2026-09-01 23:58:02 [INFO] ======================================================================
+2026-09-01 23:58:02 [INFO] [1/33] ID: https://www.terra.com.br/economia/stj-suspende-assembleia-da-ambipar-e-vai-analisar-mudanca-da-recuperacao-judicial-do-rj-para-sp,4d8818567bbee3b007c92a0a82523332zo2d7w1n.html
+2026-09-01 23:58:02 [INFO] Título: STJ suspende assembleia da Ambipar e vai analisar mudança da <b>recuperação judicial</b> do ...
+2026-09-01 23:58:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:03 [INFO] Classificação: enviar
+2026-09-01 23:58:03 [INFO] Aguardando 2.48s...
+2026-09-01 23:58:05 [INFO] [2/33] ID: https://www.estadao.com.br/em-alta/economia/negocios/stj-suspende-assembleia-da-ambipar-e-vai-analisar-mudanca-da-recuperacao-judicial-do-rj-para-sp/
+2026-09-01 23:58:05 [INFO] Título: STJ suspende assembleia da Ambipar e vai analisar mudança da <b>recuperação judicial</b> do ...
+2026-09-01 23:58:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:06 [INFO] Classificação: enviar
+2026-09-01 23:58:06 [INFO] Aguardando 2.62s...
+2026-09-01 23:58:08 [INFO] [3/33] ID: https://www.lance.com.br/vasco/pedrinho-faz-novo-apelo-a-justica-pela-aprovacao-de-emprestimo-ao-vasco.html
+2026-09-01 23:58:08 [INFO] Título: Pedrinho faz novo apelo à Justiça pela aprovação de empréstimo ao Vasco - Lance!
+2026-09-01 23:58:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:09 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:09 [INFO] Aguardando 2.66s...
+2026-09-01 23:58:11 [INFO] [4/33] ID: https://noticias.r7.com/jr-24h/conteudo-exclusivo/podcast-jr-15-min/video/podcast-jr-15-min-1498-recuperacao-judicial-quais-sao-os-direitos-dos-trabalhadores-01092026/
+2026-09-01 23:58:11 [INFO] Título: Podcast JR 15 Min #1498 | <b>Recuperação judicial</b>: quais são os direitos dos trabalhadores?
+2026-09-01 23:58:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:12 [INFO] Classificação: enviar
+2026-09-01 23:58:12 [INFO] Aguardando 2.70s...
+2026-09-01 23:58:14 [INFO] [5/33] ID: https://www.estadao.com.br/em-alta/economia/estoque-de-empresas-em-recuperacao-judicial-no-pais-e-recorde-agro-e-comercio-lideram-pedidos/
+2026-09-01 23:58:14 [INFO] Título: Estoque de empresas em <b>recuperação judicial</b> no País é recorde; agro e comércio lideram pedidos
+2026-09-01 23:58:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:15 [INFO] Classificação: enviar
+2026-09-01 23:58:15 [INFO] Aguardando 2.66s...
+2026-09-01 23:58:17 [INFO] [6/33] ID: https://www.estadao.com.br/amp/economia/estoque-de-empresas-em-recuperacao-judicial-no-pais-e-recorde-agro-e-comercio-lideram-pedidos/
+2026-09-01 23:58:17 [INFO] Título: Estoque de empresas em <b>recuperação judicial</b> no País é recorde; agro e comércio lideram pedidos
+2026-09-01 23:58:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:18 [INFO] Classificação: enviar
+2026-09-01 23:58:18 [INFO] Aguardando 2.71s...
+2026-09-01 23:58:20 [INFO] [7/33] ID: https://www.folhape.com.br/colunistas/blogdafolha/joao-campos-questiona-existencia-de-cartazes-apocrifos-contra-raquel-lyra/59461/
+2026-09-01 23:58:20 [INFO] Título: João Campos questiona existência de cartazes apócrifos contra Raquel Lyra - Folha PE
+2026-09-01 23:58:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:20 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:21 [INFO] Aguardando 2.85s...
+2026-09-01 23:58:23 [INFO] [8/33] ID: https://www1.folha.uol.com.br/mercado/2026/08/divida-a-825-do-pib-acende-sinal-de-alerta-para-correcao-de-rota-apos-as-eleicoes-dizem-economistas.shtml
+2026-09-01 23:58:23 [INFO] Título: Dívida/PIB chega a 82,5% e acende alerta fiscal - 31/08/2026 - Economia - Folha
+2026-09-01 23:58:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:24 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:24 [INFO] Aguardando 2.65s...
+2026-09-01 23:58:26 [INFO] [9/33] ID: https://aciara.com.br/entrevista-de-emprego-robo-candidatos-pedem-contato-humano/
+2026-09-01 23:58:26 [INFO] Título: Entrevista de emprego robô: candidatos pedem contato humano - Acia Araçatuba
+2026-09-01 23:58:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:27 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:27 [INFO] Aguardando 2.62s...
+2026-09-01 23:58:29 [INFO] [10/33] ID: https://www.otempo.com.br/economia/2026/9/1/nova-regra-do-pix-entra-em-vigor-nesta-terca-feira-entenda
+2026-09-01 23:58:29 [INFO] Título: Nova regra do Pix entra em vigor nesta terça-feira; entenda - O TEMPO
+2026-09-01 23:58:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:30 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:30 [INFO] Aguardando 2.80s...
+2026-09-01 23:58:32 [INFO] [11/33] ID: https://timesbrasil.com.br/colunas/rodrigo-loureiro/os-retalhos-de-um-ipo-da-shein/
+2026-09-01 23:58:32 [INFO] Título: Os retalhos de um IPO da Shein - Times Brasil | CNBC
+2026-09-01 23:58:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:33 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:33 [INFO] Aguardando 2.76s...
+2026-09-01 23:58:35 [INFO] [12/33] ID: https://www.seudinheiro.com/2026/empresas/a-braskem-brkm5-quebrou-entenda-a-crise-na-petroquimica-e-saiba-se-petrobras-petr4-pode-pagar-a-conta/
+2026-09-01 23:58:35 [INFO] Título: A Braskem (BRKM5) quebrou? Entenda a crise na petroquímica e saiba se Petrobras ...
+2026-09-01 23:58:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:36 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:36 [INFO] Aguardando 2.61s...
+2026-09-01 23:58:38 [INFO] [13/33] ID: https://blogcenario.com.br/2026/09/01/alepe-aprova-projeto-para-renegociacao-de-dividas-do-icms
+2026-09-01 23:58:38 [INFO] Título: Alepe aprova projeto para renegociação de dívidas do ICMS - Blog Cenário
+2026-09-01 23:58:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:39 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:39 [INFO] Aguardando 2.65s...
+2026-09-01 23:58:41 [INFO] [14/33] ID: https://radardigitalbrasilia.com.br/noticias-corporativas-dino/336484-crise-leva-gigantes-do-varejo-a-recuperacao-judicial/
+2026-09-01 23:58:41 [INFO] Título: Crise leva gigantes do varejo à recuperação <b>judicial</b> - RADAR DIGITAL BRASÍLIA
+2026-09-01 23:58:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:42 [INFO] Classificação: enviar
+2026-09-01 23:58:42 [INFO] Aguardando 2.45s...
+2026-09-01 23:58:44 [INFO] [15/33] ID: https://www.fatosdematogrosso.com.br/mato-grosso/justica-aceita-recuperacao-de-industria-da-soja-com-divida-de-r-1337-milhoes/15455
+2026-09-01 23:58:44 [INFO] Título: Justiça aceita recuperação de indústria da soja com dívida de R$ 133,7 milhões
+2026-09-01 23:58:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:45 [INFO] Classificação: enviar
+2026-09-01 23:58:45 [INFO] Aguardando 2.75s...
+2026-09-01 23:58:47 [INFO] [16/33] ID: https://mauriliojunior.com/2026/09/01/pgr-pede-anulacao-de-ordem-de-mendonca-para-investigar-moraes-no-caso-do-banco-master/
+2026-09-01 23:58:47 [INFO] Título: PGR pede nulidade de ato de André Mendonça que determinou investigação contra Moraes
+2026-09-01 23:58:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:48 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:48 [INFO] Aguardando 2.64s...
+2026-09-01 23:58:50 [INFO] [17/33] ID: https://estadodoparaonline.com/vorcaro-consultou-moraes-sobre-deixar-o-pais-dois-dias-antes-de-prisao/
+2026-09-01 23:58:50 [INFO] Título: Vorcaro consultou Moraes sobre deixar o país dois dias antes de prisão
+2026-09-01 23:58:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:51 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:51 [INFO] Aguardando 2.84s...
+2026-09-01 23:58:53 [INFO] [18/33] ID: https://br.paipee.com/2026/09/01/daniel-vorcaro-mencionou-carta-da-realeza-de-abu-dhabi-antes-da-liquidacao-do-banco-master/
+2026-09-01 23:58:53 [INFO] Título: Daniel Vorcaro mencionou carta da realeza de Abu Dhabi antes da <b>liquidação</b> do Banco Master
+2026-09-01 23:58:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:54 [INFO] Classificação: enviar
+2026-09-01 23:58:54 [INFO] Aguardando 2.67s...
+2026-09-01 23:58:56 [INFO] [19/33] ID: https://litoralnarede.com.br/fundacao-procura-herdeiros-de-funcionarios-da-antiga-caixa-economica-estadual/
+2026-09-01 23:58:56 [INFO] Título: Fundação procura herdeiros de funcionários da antiga Caixa Econômica Estadual
+2026-09-01 23:58:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:58:57 [INFO] Classificação: nao_enviar
+2026-09-01 23:58:57 [INFO] Aguardando 2.57s...
+2026-09-01 23:58:59 [INFO] [20/33] ID: https://odia.ig.com.br/brasil/2026/09/7297564-vorcaro-pediu-a-moraes-encontro-com-galipolo-antes-de-ser-preso.html
+2026-09-01 23:58:59 [INFO] Título: Vorcaro pediu a Moraes encontro com Galípolo antes de ser preso | Brasil - O Dia
+2026-09-01 23:59:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:00 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:00 [INFO] Aguardando 2.73s...
+2026-09-01 23:59:02 [INFO] [21/33] ID: https://g1.globo.com/economia/noticia/2026/09/01/entenda-o-caso-master.ghtml
+2026-09-01 23:59:02 [INFO] Título: Entenda o caso Master, as acusações e as conversas de Vorcaro com Moraes - G1 - Globo
+2026-09-01 23:59:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:04 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:04 [INFO] Aguardando 1.72s...
+2026-09-01 23:59:05 [INFO] [22/33] ID: https://terrabrasilnoticias.com/2026/09/na-vespera-da-prisao-vorcaro-fez-pedido-urgente-a-moraes-envolvendo-galipolo/
+2026-09-01 23:59:05 [INFO] Título: Na véspera da prisão, Vorcaro fez pedido urgente a Moraes envolvendo Galípolo
+2026-09-01 23:59:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:06 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:06 [INFO] Aguardando 2.71s...
+2026-09-01 23:59:08 [INFO] [23/33] ID: https://www.oreporter.com/brasil/vorcari-teria-mandado-ao-menos-28-mensagens-a-contato-atribuido-a-alexandre-de-moraes-diz-pf
+2026-09-01 23:59:08 [INFO] Título: Vorcaro teria mandado ao menos 28 mensagens a contato atribuído a Alexandre de Moraes, diz PF
+2026-09-01 23:59:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:09 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:09 [INFO] Aguardando 2.75s...
+2026-09-01 23:59:11 [INFO] [24/33] ID: https://diariodonordeste.verdesmares.com.br/pontopoder/tres-dias-antes-de-ser-preso-pela-1-vez-vorcaro-agradeceu-moraes-em-mensagens-gratidao-1.3788663
+2026-09-01 23:59:11 [INFO] Título: Três dias antes de ser preso pela 1ª vez, Vorcaro agradeceu Moraes em mensagens: 'Gratidão'
+2026-09-01 23:59:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:12 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:12 [INFO] Aguardando 2.64s...
+2026-09-01 23:59:14 [INFO] [25/33] ID: https://jornalgrandebahia.com.br/2026/09/daniel-vorcaro-perguntou-ao-ministro-do-stf-alexandre-de-moraes-se-deveria-deixar-o-brasil-antes-da-prisao-e-mensagens-ampliam-apuracao-sobre-vazamento-da-operacao-compliance-zero/
+2026-09-01 23:59:14 [INFO] Título: Daniel Vorcaro perguntou ao ministro do STF Alexandre de Moraes se deveria deixar o ...
+2026-09-01 23:59:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:15 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:15 [INFO] Aguardando 2.81s...
+2026-09-01 23:59:17 [INFO] [26/33] ID: https://diariodopoder.com.br/brasil-e-regioes/e12-brasil/daniel-vorcaro-dizia-ter-informantes-no-bc-e-levava-alertas-a-moraes
+2026-09-01 23:59:17 [INFO] Título: Daniel Vorcaro dizia ter informantes no BC e levava alertas a Moraes - Diário do Poder
+2026-09-01 23:59:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:18 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:18 [INFO] Aguardando 2.70s...
+2026-09-01 23:59:20 [INFO] [27/33] ID: https://claudiodantas.com.br/vorcaro-a-moraes-encontro-galipolo-resolver/
+2026-09-01 23:59:20 [INFO] Título: Vorcaro pediu a Moraes encontro com Galípolo para “resolver" - Claudio Dantas
+2026-09-01 23:59:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:21 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:21 [INFO] Aguardando 2.75s...
+2026-09-01 23:59:23 [INFO] [28/33] ID: https://www.alagoasalerta.com.br/noticia/mensagens-de-vorcaro-a-moraes-antes-de-prisao-levantam-suspeitas-sobre-acesso-a-informacoes-da
+2026-09-01 23:59:23 [INFO] Título: Mensagens de Vorcaro a Moraes antes de prisão levantam suspeitas sobre acesso a ...
+2026-09-01 23:59:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:24 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:24 [INFO] Aguardando 2.53s...
+2026-09-01 23:59:26 [INFO] [29/33] ID: https://ac24horas.com/2026/09/01/estou-online-vorcaro-enviou-mensagem-a-moraes-minutos-antes-de-ser-preso/amp/
+2026-09-01 23:59:26 [INFO] Título: "Estou online": Vorcaro enviou mensagem a Moraes minutos antes de ser preso
+2026-09-01 23:59:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:27 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:27 [INFO] Aguardando 2.73s...
+2026-09-01 23:59:29 [INFO] [30/33] ID: https://sobralonline.com.br/mendonca-e-moraes-tiveram-conversa-dura-e-rispida-dizem-fontes/
+2026-09-01 23:59:29 [INFO] Título: Mendonça e Moraes tiveram conversa "dura e ríspida", dizem fontes - Sobral Online
+2026-09-01 23:59:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:30 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:30 [INFO] Aguardando 2.56s...
+2026-09-01 23:59:32 [INFO] [31/33] ID: https://jovempan.com.br/brasil/oab-diz-se-preocupar-com-os-impactos-das-conversas-entre-moraes-e-vorcaro/
+2026-09-01 23:59:32 [INFO] Título: OAB diz se 'preocupar com os impactos' das conversas entre Moraes e Vorcaro | Jovem Pan
+2026-09-01 23:59:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:33 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:33 [INFO] Aguardando 2.70s...
+2026-09-01 23:59:35 [INFO] [32/33] ID: https://www.bnewssaopaulo.com.br/noticias/politica/apos-divulgacao-de-relatorio-da-pf-moraes-e-mendonca-batem-boca-e-quase-acaba-em-agressao.html
+2026-09-01 23:59:35 [INFO] Título: Após divulgação de relatório da PF, Moraes e Mendonça batem boca e quase acaba em agressão
+2026-09-01 23:59:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:36 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:36 [INFO] Aguardando 2.60s...
+2026-09-01 23:59:38 [INFO] [33/33] ID: https://paraibadiaadia.com.br/pt-noticias/mensagens-de-vorcaro-a-moraes-antes-da-prisao-sao-divulgadas-apos-quebra-de-sigilo-no-caso-banco-master/
+2026-09-01 23:59:38 [INFO] Título: Mensagens de Vorcaro a Moraes antes da prisão são divulgadas após Mendonça quebrar ...
+2026-09-01 23:59:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 23:59:39 [INFO] Classificação: nao_enviar
+2026-09-01 23:59:39 [INFO] ======================================================================
+2026-09-01 23:59:39 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-01 23:59:39 [INFO] ======================================================================
+2026-09-01 23:59:39 [INFO] Processadas: 33
+2026-09-01 23:59:39 [INFO] Enviar: 8
+2026-09-01 23:59:39 [INFO] Não enviar: 25
+2026-09-01 23:59:39 [INFO] ======================================================================
