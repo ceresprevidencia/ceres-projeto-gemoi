@@ -13932,3 +13932,126 @@
 2026-09-01 09:55:19 [INFO] Enviar: 4
 2026-09-01 09:55:19 [INFO] Não enviar: 3
 2026-09-01 09:55:19 [INFO] ======================================================================
+2026-09-01 14:42:41 [INFO] ======================================================================
+2026-09-01 14:42:41 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-01 14:42:41 [INFO] ======================================================================
+2026-09-01 14:42:41 [INFO] Notícias com status 'extraida': 22
+2026-09-01 14:42:41 [INFO] Limite: 20 requisições/minuto
+2026-09-01 14:42:41 [INFO] Intervalo mínimo: 3.0s
+2026-09-01 14:42:41 [INFO] ======================================================================
+2026-09-01 14:42:41 [INFO] [1/22] ID: https://sitecontabil.com.br/noticias_empresariais/ler/recuperacao-judicial-e-falencia--quem-paga-a-conta-quando-a-empresa-quebra-
+2026-09-01 14:42:41 [INFO] Título: <b>Recuperação judicial</b> e falência: quem paga a conta quando a empresa quebra?
+2026-09-01 14:42:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:42:41 [INFO] Classificação: enviar
+2026-09-01 14:42:41 [INFO] Aguardando 2.80s...
+2026-09-01 14:42:44 [INFO] [2/22] ID: https://www.infomoney.com.br/mercados/acoes-da-casas-bahia-bhia3-disparam-60-nesta-2a-entenda-o-motivo/
+2026-09-01 14:42:44 [INFO] Título: Ações da Casas Bahia (BHIA3) disparam 65% nesta 2ª; entenda o motivo - InfoMoney
+2026-09-01 14:42:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:42:44 [INFO] Classificação: nao_enviar
+2026-09-01 14:42:44 [INFO] Aguardando 2.78s...
+2026-09-01 14:42:47 [INFO] [3/22] ID: https://www.terra.com.br/economia/habibs-em-recuperacao-judicial-entenda-o-que-acontece-agora-com-as-franquias,514c92ee46f65cdf596ef8a11457c141egprofim.html
+2026-09-01 14:42:47 [INFO] Título: Habib's em <b>recuperação judicial</b>: entenda o que acontece agora com as franquias - Terra
+2026-09-01 14:42:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:42:47 [INFO] Classificação: enviar
+2026-09-01 14:42:47 [INFO] Aguardando 2.19s...
+2026-09-01 14:42:50 [INFO] [4/22] ID: https://www.noticiasagricolas.com.br/noticias/juridico/427255-recorde-de-recuperacoes-judiciais-no-agro-o-que-o-produtor-precisa-saber-agora.amp.html
+2026-09-01 14:42:50 [INFO] Título: Recorde de recuperações <b>judiciais</b> no agro: o que o produtor precisa saber agora
+2026-09-01 14:42:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:42:50 [INFO] Classificação: enviar
+2026-09-01 14:42:50 [INFO] Aguardando 2.78s...
+2026-09-01 14:42:53 [INFO] [5/22] ID: https://www.youtube.com/watch?v=3RtHNIuXafA
+2026-09-01 14:42:53 [INFO] Título: Court declares bankruptcy of Refit of Manguinhos and terminates <b>judicial</b> reorganization process
+2026-09-01 14:42:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:42:53 [INFO] Classificação: enviar
+2026-09-01 14:42:53 [INFO] Aguardando 2.84s...
+2026-09-01 14:42:56 [INFO] [6/22] ID: https://conjur.com.br/2026-set-01/recuperacoes-judiciais-e-acoes-de-prorrogacao-de-credito-contradicao-do-produtor-rural/
+2026-09-01 14:42:56 [INFO] Título: Recuperações <b>judiciais</b> e ações de prorrogação de crédito: contradição do produtor rural
+2026-09-01 14:42:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:42:56 [INFO] Classificação: enviar
+2026-09-01 14:42:56 [INFO] Aguardando 2.24s...
+2026-09-01 14:42:59 [INFO] [7/22] ID: https://www.gazetadopovo.com.br/economia/shein-ipo-bolsa-pressiona-varejo-brasileiro/
+2026-09-01 14:42:59 [INFO] Título: Entrada na Bolsa dá mais força a gigante chinesa e põe varejo brasileiro contra a parede
+2026-09-01 14:42:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:42:59 [INFO] Classificação: nao_enviar
+2026-09-01 14:42:59 [INFO] Aguardando 2.72s...
+2026-09-01 14:43:02 [INFO] [8/22] ID: https://exame.com/invest/mercados/acao-da-casas-bahia-dispara-45-apos-justica-suspender-cobrancas-por-180-dias/
+2026-09-01 14:43:02 [INFO] Título: Ação da Casas Bahia dispara 45% após Justiça suspender cobranças por 180 dias | Exame
+2026-09-01 14:43:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:02 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:02 [INFO] Aguardando 2.71s...
+2026-09-01 14:43:05 [INFO] [9/22] ID: https://www.estadao.com.br/economia/negocios/o-fim-da-refit-entre-escandalos-refinaria-ate-mudou-de-nome-para-tentar-melhorar-reputacao/
+2026-09-01 14:43:05 [INFO] Título: O fim da Refit: entre escândalos, refinaria até mudou de nome para tentar melhorar reputação
+2026-09-01 14:43:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:05 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:05 [INFO] Aguardando 2.73s...
+2026-09-01 14:43:08 [INFO] [10/22] ID: https://www.bloomberglinea.com.br/negocios/chilli-beans-busca-acordo-com-bancos-para-reestruturar-divida-e-alongar-prazos/
+2026-09-01 14:43:08 [INFO] Título: Chilli Beans busca acordo com bancos para reestruturar dívida e alongar prazos
+2026-09-01 14:43:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:08 [INFO] Classificação: enviar
+2026-09-01 14:43:08 [INFO] Aguardando 2.35s...
+2026-09-01 14:43:11 [INFO] [11/22] ID: https://www1.folha.uol.com.br/mercado/2026/09/raizen-conclui-venda-de-operacoes-na-argentina-por-us-142-bilhao.shtml
+2026-09-01 14:43:11 [INFO] Título: Raízen conclui venda de operações na Argentina por US$ 1,42 bilhão - Folha - UOL
+2026-09-01 14:43:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:11 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:11 [INFO] Aguardando 2.68s...
+2026-09-01 14:43:14 [INFO] [12/22] ID: https://www.migalhas.com.br/depeso/463221/consolidacao-substancial-e-seguranca-juridica-na-r-extra
+2026-09-01 14:43:14 [INFO] Título: Consolidação substancial e segurança jurídica na R-Extra - Migalhas
+2026-09-01 14:43:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:15 [INFO] Classificação: enviar
+2026-09-01 14:43:15 [INFO] Aguardando 1.80s...
+2026-09-01 14:43:17 [INFO] [13/22] ID: https://investnews.com.br/negocios/raizen-conclui-venda-de-operacoes-na-argentina-por-us-142-bilhao/
+2026-09-01 14:43:17 [INFO] Título: Raízen conclui venda de operações na Argentina por US$ 1,42 bilhão - InvestNews
+2026-09-01 14:43:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:17 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:17 [INFO] Aguardando 2.86s...
+2026-09-01 14:43:20 [INFO] [14/22] ID: https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/maiores-altas-e-baixas-do-ibovespa-em-agosto-veja-quais-acoes-lideraram-o-mes/
+2026-09-01 14:43:20 [INFO] Título: Maiores altas e baixas do Ibovespa em agosto: veja ranking - Estadão
+2026-09-01 14:43:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:20 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:20 [INFO] Aguardando 2.77s...
+2026-09-01 14:43:23 [INFO] [15/22] ID: https://www.estadao.com.br/coluna-da-broad/braskem-vai-levar-sede-para-endereco-mais-barato-em-sao-paulo/
+2026-09-01 14:43:23 [INFO] Título: Braskem vai levar sede para endereço mais barato em São Paulo - Estadão
+2026-09-01 14:43:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:23 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:23 [INFO] Aguardando 2.63s...
+2026-09-01 14:43:26 [INFO] [16/22] ID: https://euqueroinvestir.com/acoes/oncoclinicas-opa-nao-deve-impactar-risco-de-credito
+2026-09-01 14:43:26 [INFO] Título: Oncoclínicas: OPA não deve impactar risco de crédito - EuQueroInvestir
+2026-09-01 14:43:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:26 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:26 [INFO] Aguardando 2.50s...
+2026-09-01 14:43:29 [INFO] [17/22] ID: https://ajn1.com.br/bruno-dantas-renuncia-ao-cargo-de-ministro-do-tcu-senado-indicara-novo-nome/
+2026-09-01 14:43:29 [INFO] Título: Bruno Dantas renuncia ao cargo de ministro do TCU; Senado indicará novo nome - AJN1
+2026-09-01 14:43:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:29 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:29 [INFO] Aguardando 2.86s...
+2026-09-01 14:43:32 [INFO] [18/22] ID: https://maringapost.com.br/2026/09/01/quando-grandes-empresas-brasileiras-perdem-bilhoes-o-que-isso-diz-sobre-a-economia/
+2026-09-01 14:43:32 [INFO] Título: Quando grandes empresas brasileiras perdem bilhões, o que isso diz sobre a economia?
+2026-09-01 14:43:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:32 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:32 [INFO] Aguardando 2.77s...
+2026-09-01 14:43:35 [INFO] [19/22] ID: https://portalterradaluz.com.br/principal/credito-recuperacoes-judiciais-acendem-alerta-no-brasil/
+2026-09-01 14:43:35 [INFO] Título: Crédito: Recuperações judiciais acendem alerta no Brasil - Portal Terra da Luz
+2026-09-01 14:43:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:35 [INFO] Classificação: enviar
+2026-09-01 14:43:35 [INFO] Aguardando 2.70s...
+2026-09-01 14:43:38 [INFO] [20/22] ID: https://lorena.ig.com.br/categoria/noticias/chilli-beans-andre-dela-togna
+2026-09-01 14:43:38 [INFO] Título: Chilli Beans: André Dela Togna assume como novo co-CEO da empresa; entenda - Lorena
+2026-09-01 14:43:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:38 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:38 [INFO] Aguardando 2.65s...
+2026-09-01 14:43:41 [INFO] [21/22] ID: https://www.brasil247.com/brasil/moraes-editou-contrato-de-r-131-milhoes-da-esposa-com-o-banco-master/
+2026-09-01 14:43:41 [INFO] Título: Moraes editou contrato de R$ 131 milhões da esposa com o Banco Master - Brasil 247
+2026-09-01 14:43:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:41 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:41 [INFO] Aguardando 2.63s...
+2026-09-01 14:43:44 [INFO] [22/22] ID: https://www.poder360.com.br/poder-justica/mendonca-pede-informacoes-sobre-mensagem-de-vorcaro-a-moraes-diz-site/
+2026-09-01 14:43:44 [INFO] Título: Mendonça pede informações sobre mensagem de Vorcaro a Moraes, diz site - Poder360
+2026-09-01 14:43:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-01 14:43:44 [INFO] Classificação: nao_enviar
+2026-09-01 14:43:44 [INFO] ======================================================================
+2026-09-01 14:43:44 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-01 14:43:44 [INFO] ======================================================================
+2026-09-01 14:43:44 [INFO] Processadas: 22
+2026-09-01 14:43:44 [INFO] Enviar: 8
+2026-09-01 14:43:44 [INFO] Não enviar: 14
+2026-09-01 14:43:44 [INFO] ======================================================================
