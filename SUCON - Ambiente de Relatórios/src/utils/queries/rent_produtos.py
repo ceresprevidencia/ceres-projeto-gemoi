@@ -1,10 +1,8 @@
 import pandas as pd
 from utils.db_oracle import get_connection
-from utils.diagnostico import registrar_consulta
 import streamlit as st
 
 @st.cache_data(ttl="24h")
-@registrar_consulta("rent_produtos")
 def buscar_dados_rent_produtos() -> pd.DataFrame:
     query = """
         WITH ranked_posicao AS (

@@ -21,12 +21,12 @@ except FileNotFoundError:
 
 # ── FLUXO ─────────────────────────────────────────────────────────────────────
 pg_inicial = st.Page("pages/pg_inicial.py", title="Home", url_path="home", visibility="hidden")
-enquadramento_planos = st.Page("pages/s1_enquadramento_planos.py", title="Planos",  url_path="enquadramento-planos", visibility="hidden")
+enquadramento_planos = st.Page("pages/s1_enquadramento_planos.py", title="Enquadramento Planos",  url_path="enquadramento-planos", visibility="hidden")
 enquadramento_fundos = st.Page("pages/s1_enquadramento_fundos.py", title="Fundos",  url_path="enquadramento-fundos", visibility="hidden")
 lim_op = st.Page("pages/s1_lim_op.py", title="Limites Operacionais",  url_path="limites-operacionais")
 risco_mercado_planos = st.Page("pages/risco_mercado_planos.py", title="Planos",  url_path="risco-mercado-planos")
 risco_mercado_ativos = st.Page("pages/risco_mercado_ativos.py", title="Risco Mercado Ativos",  url_path="risco-mercado-ativos", visibility="hidden")
-rent = st.Page("pages/s4_rentabilidade.py", title="Planos",  url_path="rentabilidade-planos")
+rent = st.Page("pages/s4_rentabilidade.py", title="Rentabilidade Planos",  url_path="rentabilidade-planos")
 due_diligence_st = st.Page("pages/s3_due_diligence_settings.py", title="Configurações",  url_path="due-diligence-settings", visibility="hidden")
 due_diligence_hp = st.Page("pages/s3_due_diligence_hp.py", title="Due Diligence",  url_path="due-diligence", visibility="hidden")
 due_diligence_questionario = st.Page("pages/s3_due_diligence_questionario.py", title="Questionário",  url_path="due-diligence-questionario", visibility="hidden")

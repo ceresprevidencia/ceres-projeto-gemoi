@@ -1,11 +1,4 @@
-import pandas as pd
-from utils.db_oracle import get_connection
-import streamlit as st
-
-@st.cache_data(ttl="24h")
-def buscar_dados_grupos() -> pd.DataFrame:
-    query = """
-          WITH ranked_rentabilidade_n3 AS (
+WITH ranked_rentabilidade_n3 AS (
     -- CONSULTA 1: Rentabilidades (Nível 3)
     SELECT 
         TO_CHAR(ra.DATA_INICIAL, 'DD/MM/YYYY') AS DATA_INICIAL,
@@ -162,11 +155,4 @@ WHERE R3.rn = 1
 AND (R4.rn = 1 OR R4.rn IS NULL)
 
 -- ORDENAÇÃO DE TUDO NO FINAL
-ORDER BY DATA_COTACAO DESC, TESOURARIA
-
-    """
-    with get_connection().connect() as conn:
-        df=  pd.read_sql(query, conn)
-
-    df.columns = df.columns.str.upper()
-    return df
+ORDER BY DATA_COTACAO DESC, TESOURARIA;

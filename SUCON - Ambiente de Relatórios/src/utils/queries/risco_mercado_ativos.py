@@ -1,8 +1,7 @@
 import pandas as pd
 from utils.db_oracle import get_connection
-from utils.diagnostico import registrar_consulta
 
-@registrar_consulta("risco_mercado_ativos")
+
 def buscar_dados_risco_mercado_ativos() -> pd.DataFrame:
     query="""
                 /* CONSULTA RISCO MERCADO (ATIVOS)*/

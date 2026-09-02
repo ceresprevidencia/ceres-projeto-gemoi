@@ -15,7 +15,6 @@ from utils.helpers import (primeiro_dia_util,
                            card_rentabilidade_meta, 
                            _NOMES_PLANOS,
                            card_segmento_rentabilidade,
-                           card_segmento_rentabilidade_sem_projetada,
                            renderizar_tabela_estilizada,
                            de_para_produto,
                            CORES_SEGMENTOS)
@@ -296,6 +295,34 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
 
             if not df_plot.empty:
 
+                df_benchmark_plot = pd.DataFrame()
+                if selecao_periodo == "YTD":
+                    df_benchmark_plot = df_benchmark_acumulado[
+                        (df_benchmark_acumulado["TESOURARIA"] == plano_selecionado) &
+                        (pd.to_numeric(df_benchmark_acumulado["ANO"], errors="coerce") == selected_data.year) &
+                        (pd.to_numeric(df_benchmark_acumulado["NR_MES"], errors="coerce") <= selected_data.month)
+                    ].copy()
+
+                    if not df_benchmark_plot.empty:
+                        df_benchmark_plot["MES"] = pd.to_datetime(
+                            dict(
+                                year=pd.to_numeric(df_benchmark_plot["ANO"], errors="coerce"),
+                                month=pd.to_numeric(df_benchmark_plot["NR_MES"], errors="coerce"),
+                                day=1,
+                            )
+                        ).dt.to_period("M")
+                        df_benchmark_plot["DATA_COTACAO"] = (
+                            df_benchmark_plot["MES"]
+                            .dt.to_timestamp()
+                            .add(pd.offsets.BMonthEnd(0))
+                            .dt.normalize()
+                        )
+                        df_benchmark_plot = (
+                            df_benchmark_plot
+                            .dropna(subset=["DATA_COTACAO", "YTD"])
+                            .sort_values("DATA_COTACAO")
+                        )
+
                 # Meses em português
                 meses_pt = {
                     1: 'Jan',
@@ -325,15 +352,11 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
 
                 else:
                     # No YTD, mostra:
-                    # primeiro ponto, início de cada mês e último ponto
+                    # último ponto disponível de cada mês
                     indices_rotulo = set()
 
-                    indices_rotulo.add(df_plot.index[0])
-
-                    indices_inicio_mes = df_plot.groupby('MES').head(1).index
-                    indices_rotulo.update(indices_inicio_mes)
-
-                    indices_rotulo.add(df_plot.index[-1])
+                    indices_fim_mes = df_plot.groupby('MES').tail(1).index
+                    indices_rotulo.update(indices_fim_mes)
 
                     df_plot['ROTULO'] = [
                         f"{v:.2f}%".replace(".", ",") if idx in indices_rotulo else ""
@@ -362,8 +385,12 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                 # ----------------------------
                 # RANGE DO EIXO Y
                 # ----------------------------
-                y_min = df_plot[col_y].min()
-                y_max = df_plot[col_y].max()
+                valores_y = [df_plot[col_y]]
+                if not df_benchmark_plot.empty:
+                    valores_y.append(df_benchmark_plot["YTD"])
+
+                y_min = pd.concat(valores_y).min()
+                y_max = pd.concat(valores_y).max()
 
                 padding_y = (y_max - y_min) * 0.2
 
@@ -373,8 +400,12 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                 # ----------------------------
                 # RANGE DO EIXO X
                 # ----------------------------
-                x_min = df_plot['DATA_COTACAO'].min()
-                x_max = df_plot['DATA_COTACAO'].max()
+                datas_x = [df_plot["DATA_COTACAO"]]
+                if not df_benchmark_plot.empty:
+                    datas_x.append(df_benchmark_plot["DATA_COTACAO"])
+
+                x_min = pd.concat(datas_x).min()
+                x_max = pd.concat(datas_x).max()
 
                 if x_min == x_max:
                     padding_x = pd.Timedelta(days=1)
@@ -438,8 +469,8 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                     x=df_plot['DATA_COTACAO'],
                     y=df_plot[col_y],
                     mode='lines',
-                    name=selecao_periodo,
-                    showlegend=False,
+                    name='Rentabilidade',
+                    showlegend=True,
                     fill=None,
                     line=dict(
                         color='#A8EC7D',
@@ -449,6 +480,32 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                     ),
                     cliponaxis=False,
                 ))
+
+                if not df_benchmark_plot.empty:
+                    fig.add_trace(go.Scatter(
+                        x=df_benchmark_plot["DATA_COTACAO"],
+                        y=df_benchmark_plot["YTD"],
+                        mode="lines+markers",
+                        name="Benchmark",
+                        showlegend=True,
+                        line=dict(
+                            color="rgba(107, 122, 110, 0.45)",
+                            width=1,
+                            dash="dash",
+                            shape="spline",
+                            smoothing=1.3,
+                        ),
+                        marker=dict(
+                            size=4,
+                            color="rgba(107, 122, 110, 0.30)",
+                            line=dict(
+                                color="rgba(251, 252, 236, 0.60)",
+                                width=0.7,
+                            ),
+                        ),
+                        cliponaxis=False,
+                        hovertemplate="<b>%{x|%m/%Y}</b><br>Benchmark: %{y:.2f}%<extra></extra>",
+                    ))
 
                 # ----------------------------------------------------
                 # Rótulos como annotations
@@ -468,6 +525,22 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                         ),
                         bgcolor='rgba(255,255,255,0)',
                         bordercolor='rgba(255,255,255,0)',
+                    )
+
+                for _, row in df_benchmark_plot.iterrows():
+                    fig.add_annotation(
+                        x=row["DATA_COTACAO"],
+                        y=row["YTD"],
+                        text=f"{row['YTD']:.2f}%".replace(".", ","),
+                        showarrow=False,
+                        yshift=-14,
+                        font=dict(
+                            family="Figtree",
+                            size=12,
+                            color="#6B7A6E",
+                        ),
+                        bgcolor="rgba(255,255,255,0)",
+                        bordercolor="rgba(255,255,255,0)",
                     )
 
                 # ----------------------------------------------------
@@ -518,9 +591,21 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                             color='#0B2F13'
                         ),
                     ),
+                    legend=dict(
+                        orientation='h',
+                        yanchor='bottom',
+                        y=1.02,
+                        xanchor='left',
+                        x=0,
+                        font=dict(
+                            family='Figtree',
+                            size=13,
+                            color='#333333'
+                        ),
+                    ),
                     margin=dict(
                         r=0,
-                        t=0,
+                        t=24,
                         b=0,
                         l=0
                     ),
@@ -532,7 +617,7 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                 # Hover da linha principal
                 # ----------------------------------------------------
                 fig.update_traces(
-                    selector=dict(name=selecao_periodo),
+                    selector=dict(name='Rentabilidade'),
                     hovertemplate='<b>%{x|%d/%m/%Y}</b><br>Rentabilidade: %{y:.2f}%<extra></extra>'
                 )
 
@@ -1083,7 +1168,7 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                             color=cor_linha,
                             width=2,
                             shape="spline",
-                            smoothing=1.3,
+                            smoothing=0.5,
                         ),
                         cliponaxis=False,
                         hovertemplate=(
