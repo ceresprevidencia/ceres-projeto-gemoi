@@ -14850,3 +14850,101 @@
 2026-09-02 09:27:35 [INFO] Enviar: 6
 2026-09-02 09:27:35 [INFO] Não enviar: 13
 2026-09-02 09:27:35 [INFO] ======================================================================
+2026-09-02 14:18:14 [INFO] ======================================================================
+2026-09-02 14:18:14 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-02 14:18:14 [INFO] ======================================================================
+2026-09-02 14:18:14 [INFO] Notícias com status 'extraida': 17
+2026-09-02 14:18:14 [INFO] Limite: 20 requisições/minuto
+2026-09-02 14:18:14 [INFO] Intervalo mínimo: 3.0s
+2026-09-02 14:18:14 [INFO] ======================================================================
+2026-09-02 14:18:14 [INFO] [1/17] ID: https://www.tst.jus.br/-/operador-de-escavadeira-que-sobreviveu-ao-rompimento-da-barragem-de-fundao-sera-indenizado
+2026-09-02 14:18:14 [INFO] Título: Operador de escavadeira que sobreviveu ao rompimento da barragem de Fundão será indenizado
+2026-09-02 14:18:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:15 [INFO] Classificação: nao_enviar
+2026-09-02 14:18:15 [INFO] Aguardando 2.77s...
+2026-09-02 14:18:17 [INFO] [2/17] ID: https://www1.folha.uol.com.br/mercado/2026/09/noivas-relatam-caos-e-atrasos-em-loja-de-vestidos-de-sao-paulo-as-vesperas-de-casamentos.shtml
+2026-09-02 14:18:17 [INFO] Título: Noivas relatam caos e atrasos em loja de vestidos de São Paulo às vésperas de casamentos - Folha
+2026-09-02 14:18:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:19 [INFO] Classificação: nao_enviar
+2026-09-02 14:18:19 [INFO] Aguardando 1.14s...
+2026-09-02 14:18:20 [INFO] [3/17] ID: https://www.infomoney.com.br/carreira/empresa-entrou-em-recuperacao-judicial-o-que-acontece-com-salario-e-emprego/amp/
+2026-09-02 14:18:20 [INFO] Título: Empresa entrou em <b>recuperação judicial</b>: o que acontece com salário e emprego?
+2026-09-02 14:18:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:23 [INFO] Classificação: enviar
+2026-09-02 14:18:23 [INFO] Aguardando 0.73s...
+2026-09-02 14:18:23 [INFO] [4/17] ID: https://www.dmanapolis.com.br/noticia/69889/em-recuperacao-judicial-casas-bahia-faz-leilao-de-eletrodomesticos-pela-internet
+2026-09-02 14:18:23 [INFO] Título: Em <b>recuperação judicial</b>, Casas Bahia faz leilão de eletrodomésticos pela internet
+2026-09-02 14:18:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:24 [INFO] Classificação: enviar
+2026-09-02 14:18:24 [INFO] Aguardando 2.56s...
+2026-09-02 14:18:26 [INFO] [5/17] ID: https://diariodonordeste.verdesmares.com.br/negocios/novo-leilao-das-casas-bahia-vai-ate-sexta-feira-4-veja-como-participar-1.3788564
+2026-09-02 14:18:26 [INFO] Título: Novo leilão das Casas Bahia vai até sexta-feira (4); veja como participar
+2026-09-02 14:18:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:27 [INFO] Classificação: nao_enviar
+2026-09-02 14:18:27 [INFO] Aguardando 2.58s...
+2026-09-02 14:18:29 [INFO] [6/17] ID: https://tribunaonline.com.br/economia/operadora-vai-assumir-78-mil-linhas-de-telefone-fixo-no-es-329746
+2026-09-02 14:18:29 [INFO] Título: Operadora vai assumir 78 mil linhas de telefone fixo no ES - Tribuna Online
+2026-09-02 14:18:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:30 [INFO] Classificação: nao_enviar
+2026-09-02 14:18:30 [INFO] Aguardando 2.66s...
+2026-09-02 14:18:32 [INFO] [7/17] ID: https://www.moneytimes.com.br/raizen-raiz4-conclui-venda-da-usina-caarapo-no-mato-grosso-do-sul-lmrs/
+2026-09-02 14:18:32 [INFO] Título: Raízen (RAIZ4) conclui venda da Usina Caarapó, no Mato Grosso do Sul - Money Times
+2026-09-02 14:18:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:33 [INFO] Classificação: nao_enviar
+2026-09-02 14:18:33 [INFO] Aguardando 2.73s...
+2026-09-02 14:18:35 [INFO] [8/17] ID: https://revistaempreende.com.br/fertilizantes-heringer-pede-prazo-a-justica-para-negociar-dividas/
+2026-09-02 14:18:35 [INFO] Título: Fertilizantes Heringer pede prazo à Justiça para negociar dívidas - Revista Empreende
+2026-09-02 14:18:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:36 [INFO] Classificação: enviar
+2026-09-02 14:18:36 [INFO] Aguardando 2.49s...
+2026-09-02 14:18:38 [INFO] [9/17] ID: https://www.jornaldacidadeonline.com.br/noticias/87470/especialistas-analisam-como-o-descontrole-fiscal-impulsionou-o-colapso-de-grandes-empresas-no-brasil
+2026-09-02 14:18:38 [INFO] Título: Especialistas analisam como o descontrole fiscal impulsionou o colapso de grandes ...
+2026-09-02 14:18:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:39 [INFO] Classificação: nao_enviar
+2026-09-02 14:18:39 [INFO] Aguardando 2.76s...
+2026-09-02 14:18:41 [INFO] [10/17] ID: https://atlaspublico.com.br/cvm/noticias/bradsaude-anuncia-investimento-de-rs-130-milhoes-no-84972
+2026-09-02 14:18:41 [INFO] Título: Bradsaúde anuncia investimento de R$ 130 milhões no Hospital Biocor em parceria com a ...
+2026-09-02 14:18:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:42 [INFO] Classificação: nao_enviar
+2026-09-02 14:18:42 [INFO] Aguardando 2.75s...
+2026-09-02 14:18:44 [INFO] [11/17] ID: https://www.sounoticia.com.br/noticia/140184/geral/habibs-entra-com-pedido-de-recuperacao-judicial-grupo-gennius-declara-divida-de-r-265-milhoes-01092026
+2026-09-02 14:18:44 [INFO] Título: Habib's entra com pedido de <b>recuperação</b> judicial; Grupo Gennius declara dívida de R$ 265 milhões
+2026-09-02 14:18:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:46 [INFO] Classificação: enviar
+2026-09-02 14:18:46 [INFO] Aguardando 0.93s...
+2026-09-02 14:18:47 [INFO] [12/17] ID: https://investnews.com.br/investimentos/renda-fixa-privada-sofre-crise/
+2026-09-02 14:18:47 [INFO] Título: Recuperações judiciais alastram temor com renda fixa privada - InvestNews
+2026-09-02 14:18:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:48 [INFO] Classificação: enviar
+2026-09-02 14:18:48 [INFO] Aguardando 2.58s...
+2026-09-02 14:18:50 [INFO] [13/17] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/09/02/aab6f56b-movimento-falimentar.ghtml
+2026-09-02 14:18:50 [INFO] Título: Movimento falimentar | Empresas - Valor Econômico
+2026-09-02 14:18:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:53 [INFO] Classificação: enviar
+2026-09-02 14:18:53 [INFO] Aguardando 0.57s...
+2026-09-02 14:18:53 [INFO] [14/17] ID: https://www.coad.com.br/home/noticias-detalhe/139523/pernambuco-sanciona-o-novo-perc-2026-com-descontos-de-ate-95-e-uso-de-saldo-credor-do-icms
+2026-09-02 14:18:53 [INFO] Título: Pernambuco sanciona o Novo PERC 2026 com descontos de até 95% e uso de saldo ...
+2026-09-02 14:18:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:54 [INFO] Classificação: nao_enviar
+2026-09-02 14:18:54 [INFO] Aguardando 2.59s...
+2026-09-02 14:18:56 [INFO] [15/17] ID: https://g1.globo.com/pa/para/videos-bom-dia-para/video/questao-de-direito-brasil-tem-recorde-de-empresas-em-recuperacao-judicial-14923364.ghtml
+2026-09-02 14:18:56 [INFO] Título: Vídeo: Questão de Direito: Brasil tem recorde de empresas em recuperação <b>judicial</b> - G1
+2026-09-02 14:18:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:18:57 [INFO] Classificação: enviar
+2026-09-02 14:18:57 [INFO] Aguardando 2.70s...
+2026-09-02 14:18:59 [INFO] [16/17] ID: https://www.cnnbrasil.com.br/infra/justica-da-60-dias-de-protecao-a-safira-para-negociar-divida-de-r-3575-mi/
+2026-09-02 14:18:59 [INFO] Título: Justiça dá 60 dias de proteção à Safira para negociar dívida de R$ 357,5 mi | CNN Brasil
+2026-09-02 14:19:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:19:00 [INFO] Classificação: enviar
+2026-09-02 14:19:00 [INFO] Aguardando 2.54s...
+2026-09-02 14:19:02 [INFO] [17/17] ID: https://www.infomoney.com.br/carreira/empresa-entrou-em-recuperacao-judicial-o-que-acontece-com-salario-e-emprego/
+2026-09-02 14:19:02 [INFO] Título: Empresa entrou em recuperação <b>judicial</b>: o que acontece com salário e emprego?
+2026-09-02 14:19:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 14:19:03 [INFO] Classificação: enviar
+2026-09-02 14:19:03 [INFO] ======================================================================
+2026-09-02 14:19:03 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-02 14:19:03 [INFO] ======================================================================
+2026-09-02 14:19:03 [INFO] Processadas: 17
+2026-09-02 14:19:03 [INFO] Enviar: 9
+2026-09-02 14:19:03 [INFO] Não enviar: 8
+2026-09-02 14:19:03 [INFO] ======================================================================
