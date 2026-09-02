@@ -15131,3 +15131,216 @@
 2026-09-02 18:34:18 [INFO] Enviar: 10
 2026-09-02 18:34:18 [INFO] Não enviar: 24
 2026-09-02 18:34:18 [INFO] ======================================================================
+2026-09-02 21:43:22 [INFO] ======================================================================
+2026-09-02 21:43:22 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-02 21:43:22 [INFO] ======================================================================
+2026-09-02 21:43:22 [INFO] Notícias com status 'extraida': 40
+2026-09-02 21:43:22 [INFO] Limite: 20 requisições/minuto
+2026-09-02 21:43:22 [INFO] Intervalo mínimo: 3.0s
+2026-09-02 21:43:22 [INFO] ======================================================================
+2026-09-02 21:43:22 [INFO] [1/40] ID: https://oabdf.org.br/oab-df-realiza-evento-sobre-superendividamento-e-o-impacto-nas-familias/
+2026-09-02 21:43:22 [INFO] Título: OAB/DF realiza evento sobre superendividamento e o impacto nas famílias
+2026-09-02 21:43:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:22 [INFO] Classificação: nao_enviar
+2026-09-02 21:43:22 [INFO] Aguardando 2.64s...
+2026-09-02 21:43:25 [INFO] [2/40] ID: https://jornaluniao.com.br/noticias/artigos/onda-de-recuperacoes-judiciais-acende-alerta/
+2026-09-02 21:43:25 [INFO] Título: Onda de recuperações <b>judiciais</b> acende alerta — Jornal União - Notícias de Londrina
+2026-09-02 21:43:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:25 [INFO] Classificação: enviar
+2026-09-02 21:43:25 [INFO] Aguardando 2.69s...
+2026-09-02 21:43:28 [INFO] [3/40] ID: https://www.acidadeon.com/campinas/economia/casas-bahia-fecha-loja-em-shopping-de-campinas/
+2026-09-02 21:43:28 [INFO] Título: Casas Bahia fecha loja em shopping de Campinas - ACidade ON
+2026-09-02 21:43:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:28 [INFO] Classificação: nao_enviar
+2026-09-02 21:43:28 [INFO] Aguardando 2.45s...
+2026-09-02 21:43:31 [INFO] [4/40] ID: https://www.bandab.com.br/economia/justica-decreta-falencia-rede-supermercados/
+2026-09-02 21:43:31 [INFO] Título: Justiça decreta falência de rede de supermercados com 96 lojas - Banda B
+2026-09-02 21:43:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:31 [INFO] Classificação: enviar
+2026-09-02 21:43:31 [INFO] Aguardando 2.77s...
+2026-09-02 21:43:34 [INFO] [5/40] ID: https://www.moneytimes.com.br/mercadante-sobre-reestruturacoes-financeiras-muitas-empresas-se-apropriaram-de-dividendos-e-nao-se-capitalizaram-pads/
+2026-09-02 21:43:34 [INFO] Título: Mercadante, sobre reestruturações financeiras: 'Muitas empresas se apropriaram de ...
+2026-09-02 21:43:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:34 [INFO] Classificação: nao_enviar
+2026-09-02 21:43:34 [INFO] Aguardando 2.64s...
+2026-09-02 21:43:37 [INFO] [6/40] ID: https://veja.abril.com.br/coluna/faria-lima-news/renan-acusa-cury-de-ser-socio-da-fictor-empresa-que-tentou-comprar-o-master/
+2026-09-02 21:43:37 [INFO] Título: Renan acusa Cury de ser 'sócio da Fictor', empresa que tentou comprar o Master | VEJA
+2026-09-02 21:43:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:37 [INFO] Classificação: nao_enviar
+2026-09-02 21:43:37 [INFO] Aguardando 2.78s...
+2026-09-02 21:43:40 [INFO] [7/40] ID: https://acritica.com/trends/varejista-com-13-mil-pontos-de-venda-nega-recuperacao-judicial-para-contornar-divida-de-r-600-milhoes/?utm_source=al_leiamais
+2026-09-02 21:43:40 [INFO] Título: Varejista com 1,3 mil pontos de venda nega <b>recuperação judicial</b> para contornar dívida de R ...
+2026-09-02 21:43:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:40 [INFO] Classificação: enviar
+2026-09-02 21:43:40 [INFO] Aguardando 2.80s...
+2026-09-02 21:43:43 [INFO] [8/40] ID: https://bpmoney.com.br/economia/por-que-grandes-varejistas-estao-entrando-em-recuperacao-judicial/
+2026-09-02 21:43:43 [INFO] Título: Por que grandes varejistas estão entrando em <b>recuperação judicial</b>? - BPMoney
+2026-09-02 21:43:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:43 [INFO] Classificação: enviar
+2026-09-02 21:43:43 [INFO] Aguardando 2.66s...
+2026-09-02 21:43:46 [INFO] [9/40] ID: https://valor.globo.com/empresas/noticia/2026/09/02/safira-energia-obtem-protecao-de-60-dias-contra-credores-para-negociar-r-3575-milhoes.ghtml
+2026-09-02 21:43:46 [INFO] Título: Safira Energia obtém proteção de 60 dias contra credores para negociar R$ 357,5 milhões
+2026-09-02 21:43:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:47 [INFO] Classificação: enviar
+2026-09-02 21:43:47 [INFO] Aguardando 2.07s...
+2026-09-02 21:43:49 [INFO] [10/40] ID: https://www.comprerural.com/apos-recuperacao-judicial-de-r-2-bilhoes-heringer-volta-a-justica-e-pede-protecao-contra-credores/
+2026-09-02 21:43:49 [INFO] Título: Após <b>recuperação judicial</b> de R$ 2 bilhões, Heringer volta à Justiça e pede proteção contra credores
+2026-09-02 21:43:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:49 [INFO] Classificação: enviar
+2026-09-02 21:43:49 [INFO] Aguardando 2.71s...
+2026-09-02 21:43:52 [INFO] [11/40] ID: https://www.bandab.com.br/economia/justica-decreta-falencia-rede-supermercados/amp/
+2026-09-02 21:43:52 [INFO] Título: Justiça decreta falência de rede de supermercados com 96 lojas - Banda B
+2026-09-02 21:43:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:52 [INFO] Classificação: enviar
+2026-09-02 21:43:52 [INFO] Aguardando 2.77s...
+2026-09-02 21:43:55 [INFO] [12/40] ID: https://www.terra.com.br/noticias/brasil/politica/nao-se-deixe-enganar-boatos-sobre-falencias-usam-noticias-do-exterior-para-desinformar-no-brasil,9e86a0b80067e6f6125e88459b1050e0wthcelea.html
+2026-09-02 21:43:55 [INFO] Título: Não se deixe enganar: boatos sobre falências usam notícias do exterior para desinformar no Brasil
+2026-09-02 21:43:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:55 [INFO] Classificação: nao_enviar
+2026-09-02 21:43:55 [INFO] Aguardando 2.46s...
+2026-09-02 21:43:58 [INFO] [13/40] ID: https://painelpolitico.com/justica-do-es-afasta-administrador-do-grupo-apex-partners
+2026-09-02 21:43:58 [INFO] Título: Justiça do ES afasta administrador do Grupo Apex Partners - Painel Político
+2026-09-02 21:43:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:43:58 [INFO] Classificação: nao_enviar
+2026-09-02 21:43:58 [INFO] Aguardando 2.75s...
+2026-09-02 21:44:01 [INFO] [14/40] ID: https://sgc.com.br/noticia/1/448206/justica-concede-60-dias-para-safira-negociar-divida-de-r-3575-milhoes
+2026-09-02 21:44:01 [INFO] Título: Justiça concede 60 dias para Safira negociar dívida de R$ 357,5 milhões - Portal SGC
+2026-09-02 21:44:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:01 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:01 [INFO] Aguardando 2.68s...
+2026-09-02 21:44:04 [INFO] [15/40] ID: https://www.reporterdiario.com.br/noticia/3888256/por-unanimidade-cade-aprova-compra-de-60-da-crdc-pela-b3-condicionada-a-celebracao-de-acordo/
+2026-09-02 21:44:04 [INFO] Título: Por unanimidade, Cade aprova compra de 60% da CRDC pela B3, condicionada à ...
+2026-09-02 21:44:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:04 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:04 [INFO] Aguardando 2.78s...
+2026-09-02 21:44:07 [INFO] [16/40] ID: https://www.maisgoias.com.br/brasil/negocios/fertilizantes-heringer-pede-prazo-na-justica-para-negociar-dividas-com-credores/
+2026-09-02 21:44:07 [INFO] Título: Fertilizantes Heringer pede prazo na Justiça para negociar dívidas com credores - Mais Goiás
+2026-09-02 21:44:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:07 [INFO] Classificação: enviar
+2026-09-02 21:44:07 [INFO] Aguardando 2.66s...
+2026-09-02 21:44:10 [INFO] [17/40] ID: https://www.tribunadosertao.com.br/cidades/2026/09/02/972037-recuperacao-extrajudicial-da-braskem-pressiona-jhc-por-transparencia-sobre-destino-de-r-17-bilhao
+2026-09-02 21:44:10 [INFO] Título: <b>Recuperação extrajudicial</b> da Braskem pressiona JHC por transparência sobre destino de R ...
+2026-09-02 21:44:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:10 [INFO] Classificação: enviar
+2026-09-02 21:44:10 [INFO] Aguardando 2.80s...
+2026-09-02 21:44:13 [INFO] [18/40] ID: https://timesbrasil.com.br/empresas-e-negocios/braskem-inicia-mudanca-de-sua-sede/
+2026-09-02 21:44:13 [INFO] Título: Braskem prepara mudança de sede em São Paulo em busca de redução de custos
+2026-09-02 21:44:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:13 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:13 [INFO] Aguardando 2.55s...
+2026-09-02 21:44:16 [INFO] [19/40] ID: https://www.cnnbrasil.com.br/economia/money/negocios/cnn-money-exibe-especial-sobre-recuperacao-judicial-de-grandes-marcas/
+2026-09-02 21:44:16 [INFO] Título: CNN Money exibe especial sobre recuperação <b>judicial</b> de grandes marcas
+2026-09-02 21:44:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:16 [INFO] Classificação: enviar
+2026-09-02 21:44:16 [INFO] Aguardando 2.76s...
+2026-09-02 21:44:19 [INFO] [20/40] ID: https://www.bandab.com.br/internacional/gigante-varejo-baixo-custo-fecha-15-lojas-coloca-estoque-liquidacao/
+2026-09-02 21:44:19 [INFO] Título: Gigante do varejo de baixo custo fecha as últimas 15 lojas e coloca todo o estoque em <b>liquidação</b>
+2026-09-02 21:44:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:19 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:19 [INFO] Aguardando 2.78s...
+2026-09-02 21:44:22 [INFO] [21/40] ID: https://www.folhape.com.br/politica/lula-avalia-defender-apuracao-ao-abordar-suspeitas-envolvendo-relacao/510306/
+2026-09-02 21:44:22 [INFO] Título: Lula avalia defender apuração ao abordar suspeitas envolvendo relação de Moraes com Vorcaro
+2026-09-02 21:44:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:22 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:22 [INFO] Aguardando 2.80s...
+2026-09-02 21:44:25 [INFO] [22/40] ID: https://economia.ig.com.br/2026-09-02/casas-bahia-tem-r--18-milhoes-retidos-por-empresas-de-cartao.html
+2026-09-02 21:44:25 [INFO] Título: Casas Bahia tem R$ 18 milhões retidos por empresas de cartão - iG Economia
+2026-09-02 21:44:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:25 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:25 [INFO] Aguardando 2.61s...
+2026-09-02 21:44:28 [INFO] [23/40] ID: https://www.meutimao.com.br/forum-do-corinthians/2089190/curriculo-do-perito-que-fez-a-pericia-nos-pagamentos-da-arena
+2026-09-02 21:44:28 [INFO] Título: Currículo do perito que fez a perícia nos pagamentos da arena - Corinthians é no Meu Timão
+2026-09-02 21:44:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:28 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:28 [INFO] Aguardando 2.78s...
+2026-09-02 21:44:31 [INFO] [24/40] ID: https://megawhat.uol.com.br/regulacao/regras-de-comercializacao-entram-em-debate-com-mudancas-no-mre-e-constrained-off/
+2026-09-02 21:44:31 [INFO] Título: Regras de comercialização entram em debate com mudanças no MRE e constrained-off
+2026-09-02 21:44:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:31 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:31 [INFO] Aguardando 2.78s...
+2026-09-02 21:44:34 [INFO] [25/40] ID: https://www.jornaldotocantins.com.br/cidades/judiciario/sem-recuperac-o-1.3450811
+2026-09-02 21:44:34 [INFO] Título: Sem recuperação - Jornal do Tocantins
+2026-09-02 21:44:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:34 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:34 [INFO] Aguardando 2.64s...
+2026-09-02 21:44:37 [INFO] [26/40] ID: https://odia.ig.com.br/esporte/vasco/2026/09/7297473-pedrinho-diz-que-vasco-podera-avaliar-outras-ofertas-alem-de-lamacchia.html
+2026-09-02 21:44:37 [INFO] Título: Pedrinho diz que Vasco poderá avaliar outras ofertas além de Lamacchia - O Dia
+2026-09-02 21:44:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:37 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:37 [INFO] Aguardando 2.80s...
+2026-09-02 21:44:40 [INFO] [27/40] ID: https://claudiodantas.com.br/pgr-fecha-primeira-delacao-com-ex-dono-reag/
+2026-09-02 21:44:40 [INFO] Título: Caso Master: PGR fecha primeira delação com ex-dono da Reag - Claudio Dantas
+2026-09-02 21:44:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:40 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:40 [INFO] Aguardando 2.51s...
+2026-09-02 21:44:43 [INFO] [28/40] ID: https://timesbrasil.com.br/brasil/vorcaro-aporte-indireto-brazil-journal/
+2026-09-02 21:44:43 [INFO] Título: Forbes Brasil e Brazil Journal, os negócios secretos de mídia de Daniel Vorcaro
+2026-09-02 21:44:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:43 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:43 [INFO] Aguardando 2.75s...
+2026-09-02 21:44:46 [INFO] [29/40] ID: https://blogdoanthonymedeiros.com.br/moraes-e-relator-no-stf-de-processo-com-banco-master-como-interessado/
+2026-09-02 21:44:46 [INFO] Título: Moraes é relator no STF de processo com Banco Master como interessado
+2026-09-02 21:44:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:46 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:46 [INFO] Aguardando 2.79s...
+2026-09-02 21:44:49 [INFO] [30/40] ID: https://www.bahianoticias.com.br/justica/noticia/75283-apos-discussao-dura-e-rispida-alexandre-de-moraes-e-mendonca-sentam-juntos-e-participam-de-sessao-do-stf
+2026-09-02 21:44:49 [INFO] Título: Após discussão ríspida, Moraes e Mendonça participam lado a lado de sessão do STF
+2026-09-02 21:44:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:49 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:49 [INFO] Aguardando 2.63s...
+2026-09-02 21:44:52 [INFO] [31/40] ID: https://t7news.com.br/noticia/entre-a-serra-e-a-corte-como-o-vale-do-paraiba-se-tornou-o-epicentro-do-escandalo-entre-daniel-vorcaro-e-alexandre-de-moraes
+2026-09-02 21:44:52 [INFO] Título: ENTRE A SERRA E A CORTE: Como o Vale do Paraíba se tornou o epicentro do escândalo ...
+2026-09-02 21:44:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:52 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:52 [INFO] Aguardando 2.66s...
+2026-09-02 21:44:55 [INFO] [32/40] ID: https://midiamax.com.br/politica/transparencia/2026/moraes-relator-acao-stf-aposentado-ms-contra-master/
+2026-09-02 21:44:55 [INFO] Título: Moraes é relator de ação no STF de aposentado de MS contra Master - Midiamax
+2026-09-02 21:44:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:55 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:55 [INFO] Aguardando 2.72s...
+2026-09-02 21:44:58 [INFO] [33/40] ID: https://piaui.uol.com.br/revista/240/reus-da-estabilidade/
+2026-09-02 21:44:58 [INFO] Título: Réus da estabilidade - revista piauí
+2026-09-02 21:44:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:44:58 [INFO] Classificação: nao_enviar
+2026-09-02 21:44:58 [INFO] Aguardando 2.79s...
+2026-09-02 21:45:01 [INFO] [34/40] ID: https://matogrossomais.com.br/descontos-de-cartao-consignado-cresceram-quase-20-vezes-na-gestao-emanuel/
+2026-09-02 21:45:01 [INFO] Título: “Descontos de cartão consignado cresceram quase 20 vezes” na gestão Emanuel
+2026-09-02 21:45:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:45:01 [INFO] Classificação: nao_enviar
+2026-09-02 21:45:01 [INFO] Aguardando 2.73s...
+2026-09-02 21:45:04 [INFO] [35/40] ID: https://www.brasil247.com/brasil/lindbergh-cobra-investigacao-sobre-encontro-sigiloso-entre-daniel-vorcaro-e-andre-mendonca-e-pede-afastamento-de-flavio-bolsonaro/
+2026-09-02 21:45:04 [INFO] Título: Lindbergh cobra investigação sobre encontro sigiloso entre Daniel Vorcaro e André ... - Brasil 247
+2026-09-02 21:45:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:45:04 [INFO] Classificação: nao_enviar
+2026-09-02 21:45:04 [INFO] Aguardando 2.73s...
+2026-09-02 21:45:07 [INFO] [36/40] ID: https://veja.abril.com.br/brasil/moraes-e-relator-no-stf-de-processo-que-tem-master-como-interessado/
+2026-09-02 21:45:07 [INFO] Título: Moraes é relator no STF de processo que tem Master como interessado - Revista Veja
+2026-09-02 21:45:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:45:08 [INFO] Classificação: nao_enviar
+2026-09-02 21:45:08 [INFO] Aguardando 1.76s...
+2026-09-02 21:45:10 [INFO] [37/40] ID: https://oecojornal.com.br/quando-o-poder-entra-em-zona-de-risco/
+2026-09-02 21:45:10 [INFO] Título: QUANDO O PODER ENTRA EM ZONA DE RISCO - O Eco Jornal Online
+2026-09-02 21:45:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:45:10 [INFO] Classificação: nao_enviar
+2026-09-02 21:45:10 [INFO] Aguardando 2.63s...
+2026-09-02 21:45:13 [INFO] [38/40] ID: https://www.folhadoestado.com.br/politica-mt/gestao-emanuel-manteve-banco-master-na-folha-de-servidores-de-cuiaba-por-cinco-anos/642315
+2026-09-02 21:45:13 [INFO] Título: Gestão Emanuel manteve Banco Master na folha de servidores de Cuiabá por cinco anos
+2026-09-02 21:45:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:45:13 [INFO] Classificação: nao_enviar
+2026-09-02 21:45:13 [INFO] Aguardando 2.62s...
+2026-09-02 21:45:16 [INFO] [39/40] ID: https://www.diariodeaparecida.com.br/2026/09/02/mendonca-confirma-reuniao-reservada-com-vorcaro-antes-de-assumir-caso-master-no-stf/
+2026-09-02 21:45:16 [INFO] Título: Mendonça confirma reunião reservada com Vorcaro antes de assumir caso Master no STF
+2026-09-02 21:45:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:45:16 [INFO] Classificação: nao_enviar
+2026-09-02 21:45:16 [INFO] Aguardando 2.62s...
+2026-09-02 21:45:19 [INFO] [40/40] ID: https://www.ainvestigacao.com/p/vorcaro-pediu-a-moraes-blindagem-no-mesmo-dia-de-condenacao-de-eduardo-bolsonaro-por-coacao
+2026-09-02 21:45:19 [INFO] Título: Relatório da PF: Vorcaro pediu para Moraes conter PF e PGR no mesmo dia em que STF ...
+2026-09-02 21:45:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 21:45:19 [INFO] Classificação: nao_enviar
+2026-09-02 21:45:19 [INFO] ======================================================================
+2026-09-02 21:45:19 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-02 21:45:19 [INFO] ======================================================================
+2026-09-02 21:45:19 [INFO] Processadas: 40
+2026-09-02 21:45:19 [INFO] Enviar: 10
+2026-09-02 21:45:19 [INFO] Não enviar: 30
+2026-09-02 21:45:19 [INFO] ======================================================================
