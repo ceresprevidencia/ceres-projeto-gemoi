@@ -14742,3 +14742,111 @@
 2026-09-02 04:19:47 [INFO] Enviar: 9
 2026-09-02 04:19:47 [INFO] Não enviar: 6
 2026-09-02 04:19:47 [INFO] ======================================================================
+2026-09-02 09:26:41 [INFO] ======================================================================
+2026-09-02 09:26:41 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-02 09:26:41 [INFO] ======================================================================
+2026-09-02 09:26:41 [INFO] Notícias com status 'extraida': 19
+2026-09-02 09:26:41 [INFO] Limite: 20 requisições/minuto
+2026-09-02 09:26:41 [INFO] Intervalo mínimo: 3.0s
+2026-09-02 09:26:41 [INFO] ======================================================================
+2026-09-02 09:26:41 [INFO] [1/19] ID: https://economia.ig.com.br/2026-09-01/leiloes-das-casas-bahia--de-onde-vem-os-produtos-vendidos-.html
+2026-09-02 09:26:41 [INFO] Título: Leilões das Casas Bahia: de onde vêm os produtos vendidos? - iG Economia
+2026-09-02 09:26:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:26:41 [INFO] Classificação: nao_enviar
+2026-09-02 09:26:41 [INFO] Aguardando 2.66s...
+2026-09-02 09:26:44 [INFO] [2/19] ID: https://minaspetro.com.br/refit-justica-decreta-falencia-das-empresas-do-grupo-no-rj/
+2026-09-02 09:26:44 [INFO] Título: Refit: Justiça decreta falência das empresas do grupo no RJ - Minaspetro
+2026-09-02 09:26:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:26:44 [INFO] Classificação: enviar
+2026-09-02 09:26:44 [INFO] Aguardando 2.68s...
+2026-09-02 09:26:47 [INFO] [3/19] ID: https://www.estadao.com.br/economia/negocios/stj-suspende-assembleia-da-ambipar-e-vai-analisar-mudanca-da-recuperacao-judicial-do-rj-para-sp/
+2026-09-02 09:26:47 [INFO] Título: STJ suspende assembleia da Ambipar e vai analisar mudança da <b>recuperação judicial</b> do ...
+2026-09-02 09:26:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:26:47 [INFO] Classificação: enviar
+2026-09-02 09:26:47 [INFO] Aguardando 2.60s...
+2026-09-02 09:26:50 [INFO] [4/19] ID: https://samais.com.br/publicacoes/grupo-italo-inaugura-superdia-atacado-em-ampere-pr
+2026-09-02 09:26:50 [INFO] Título: Grupo Ítalo inaugura SuperDia Atacado em Ampére (PR) - SA+ Ecossistema de Varejo
+2026-09-02 09:26:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:26:50 [INFO] Classificação: nao_enviar
+2026-09-02 09:26:50 [INFO] Aguardando 2.65s...
+2026-09-02 09:26:53 [INFO] [5/19] ID: https://aciara.com.br/juro-alto-endividamento-derrubam-consumo-pib-desacelera/
+2026-09-02 09:26:53 [INFO] Título: Juro alto e endividamento derrubam consumo e PIB desacelera - Acia Araçatuba
+2026-09-02 09:26:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:26:53 [INFO] Classificação: nao_enviar
+2026-09-02 09:26:53 [INFO] Aguardando 2.68s...
+2026-09-02 09:26:56 [INFO] [6/19] ID: https://www.otempo.com.br/economia/2026/9/1/entenda-como-a-taxa-das-blusinhas-afeta-o-varejo-tarifa-pode-ser-derrubada-nesta-terca-feira
+2026-09-02 09:26:56 [INFO] Título: Como a taxa das blusinhas afeta varejo; tarifa pode ser derrubada - O TEMPO
+2026-09-02 09:26:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:26:56 [INFO] Classificação: nao_enviar
+2026-09-02 09:26:56 [INFO] Aguardando 2.63s...
+2026-09-02 09:26:59 [INFO] [7/19] ID: https://aciara.com.br/chilli-beans-nega-recuperacao-judicial-credores/
+2026-09-02 09:26:59 [INFO] Título: Chilli Beans nega recuperação <b>judicial</b> a credores - Associação Comercial e Industrial de Araçatuba
+2026-09-02 09:26:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:26:59 [INFO] Classificação: enviar
+2026-09-02 09:26:59 [INFO] Aguardando 2.73s...
+2026-09-02 09:27:02 [INFO] [8/19] ID: https://acritica.net/economia/brasil-chega-a-recorde-de-empresas-em-recuperacao-judicial-com-quase-8-mil-casos/
+2026-09-02 09:27:02 [INFO] Título: Brasil chega a recorde de empresas em recuperação <b>judicial</b>, com quase 8 mil casos
+2026-09-02 09:27:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:02 [INFO] Classificação: enviar
+2026-09-02 09:27:02 [INFO] Aguardando 2.63s...
+2026-09-02 09:27:05 [INFO] [9/19] ID: https://www.cidademarketing.com.br/marketing/2026/09/02/chilli-beans-nega-recuperacao-judicial-e-afirma-negociar-prazos-e-juros-com-bancos/
+2026-09-02 09:27:05 [INFO] Título: Chilli Beans nega recuperação <b>judicial</b> e afirma negociar prazos e juros com bancos
+2026-09-02 09:27:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:06 [INFO] Classificação: enviar
+2026-09-02 09:27:06 [INFO] Aguardando 1.66s...
+2026-09-02 09:27:08 [INFO] [10/19] ID: https://www.giromarilia.com.br/cidades/nacional/vorcaro-mensagens-moraes-operacao-pf-antes-prisao/
+2026-09-02 09:27:08 [INFO] Título: Vorcaro trocou mensagens com Moraes antes de prisão - Giro Marília Notícias
+2026-09-02 09:27:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:08 [INFO] Classificação: nao_enviar
+2026-09-02 09:27:08 [INFO] Aguardando 2.68s...
+2026-09-02 09:27:11 [INFO] [11/19] ID: https://jornalgrandebahia.com.br/2026/09/ministro-andre-mendonca-manda-pf-mapear-mencoes-a-moraes-gonet-e-andrei-aciona-pgr-e-avalia-ampliar-inquerito-do-banco-master/
+2026-09-02 09:27:11 [INFO] Título: Ministro André Mendonça manda PF mapear menções a Moraes, Gonet e Andrei, aciona ...
+2026-09-02 09:27:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:11 [INFO] Classificação: nao_enviar
+2026-09-02 09:27:11 [INFO] Aguardando 2.73s...
+2026-09-02 09:27:14 [INFO] [12/19] ID: https://pagina12.com.br/politica/2026/09/01/33828-mendonca-e-moraes-tiveram-conversa-dura-e-rispida-dizem-fontes
+2026-09-02 09:27:14 [INFO] Título: Mendonça e Moraes tiveram conversa "dura e ríspida", dizem fontes | Página 12
+2026-09-02 09:27:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:14 [INFO] Classificação: nao_enviar
+2026-09-02 09:27:14 [INFO] Aguardando 2.75s...
+2026-09-02 09:27:17 [INFO] [13/19] ID: https://www.metropoles.com/brasil/vorcaro-citou-carta-da-realeza-de-abu-dhabi-antes-de-liquidacao-do-master
+2026-09-02 09:27:17 [INFO] Título: Vorcaro citou carta da realeza de Abu Dhabi antes de <b>liquidação</b> do Master - Metrópoles
+2026-09-02 09:27:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:17 [INFO] Classificação: enviar
+2026-09-02 09:27:17 [INFO] Aguardando 2.76s...
+2026-09-02 09:27:20 [INFO] [14/19] ID: https://www.studio.tv.br/2026/09/fundacao-busca-herdeiros-de-ex-funcionarios-da-caixa-estadual-para-liberar-quase-r-1-milhao/
+2026-09-02 09:27:20 [INFO] Título: Fundação busca herdeiros de ex-funcionários da Caixa Estadual para liberar quase R$ 1 milhão
+2026-09-02 09:27:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:20 [INFO] Classificação: nao_enviar
+2026-09-02 09:27:20 [INFO] Aguardando 2.65s...
+2026-09-02 09:27:23 [INFO] [15/19] ID: https://40graus.com.br/vorcaro-pediu-a-moraes-encontro-com-galipolo-para-resolver/
+2026-09-02 09:27:23 [INFO] Título: Vorcaro pediu a Moraes encontro com Galípolo para “resolver - 40graus Teresina
+2026-09-02 09:27:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:23 [INFO] Classificação: nao_enviar
+2026-09-02 09:27:23 [INFO] Aguardando 2.28s...
+2026-09-02 09:27:26 [INFO] [16/19] ID: https://www.oliberal.com/brasil/caso-master-entenda-as-acusacoes-e-as-mensagens-envolvendo-vorcaro-e-moraes-1.1163893
+2026-09-02 09:27:26 [INFO] Título: Caso Master: entenda as acusações e as mensagens envolvendo Vorcaro e Moraes | Brasil
+2026-09-02 09:27:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:26 [INFO] Classificação: nao_enviar
+2026-09-02 09:27:26 [INFO] Aguardando 2.73s...
+2026-09-02 09:27:29 [INFO] [17/19] ID: https://oriobranco.net/dias-toffoli-libera-campanha-de-renan-santos-pela-internet/
+2026-09-02 09:27:29 [INFO] Título: Dias Toffoli libera campanha de Renan Santos pela internet - o rio branco
+2026-09-02 09:27:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:29 [INFO] Classificação: nao_enviar
+2026-09-02 09:27:29 [INFO] Aguardando 2.63s...
+2026-09-02 09:27:32 [INFO] [18/19] ID: https://gustavonegreiros.com.br/2026/9/1/vorcaro-pediu-a-moraes-encontro-com-galipolo-para-resolver-tudo/167276
+2026-09-02 09:27:32 [INFO] Título: Vorcaro pediu a Moraes encontro com Galípolo para “resolver tudo” | Blog do Gustavo Negreiros
+2026-09-02 09:27:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:32 [INFO] Classificação: nao_enviar
+2026-09-02 09:27:32 [INFO] Aguardando 2.59s...
+2026-09-02 09:27:35 [INFO] [19/19] ID: https://www.folhape.com.br/politica/mensagens-de-vorcaro-mostram-como-banqueiro-pedia-orientacao-de-moraes/510085/
+2026-09-02 09:27:35 [INFO] Título: Mensagens de Vorcaro mostram como banqueiro pedia orientação de Moraes no auge da ...
+2026-09-02 09:27:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 09:27:35 [INFO] Classificação: nao_enviar
+2026-09-02 09:27:35 [INFO] ======================================================================
+2026-09-02 09:27:35 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-02 09:27:35 [INFO] ======================================================================
+2026-09-02 09:27:35 [INFO] Processadas: 19
+2026-09-02 09:27:35 [INFO] Enviar: 6
+2026-09-02 09:27:35 [INFO] Não enviar: 13
+2026-09-02 09:27:35 [INFO] ======================================================================
