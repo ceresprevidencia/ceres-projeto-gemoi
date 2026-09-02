@@ -14654,3 +14654,91 @@
 2026-09-01 23:59:39 [INFO] Enviar: 8
 2026-09-01 23:59:39 [INFO] Não enviar: 25
 2026-09-01 23:59:39 [INFO] ======================================================================
+2026-09-02 04:19:04 [INFO] ======================================================================
+2026-09-02 04:19:04 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-02 04:19:04 [INFO] ======================================================================
+2026-09-02 04:19:04 [INFO] Notícias com status 'extraida': 15
+2026-09-02 04:19:04 [INFO] Limite: 20 requisições/minuto
+2026-09-02 04:19:04 [INFO] Intervalo mínimo: 3.0s
+2026-09-02 04:19:04 [INFO] ======================================================================
+2026-09-02 04:19:04 [INFO] [1/15] ID: https://www.agrolink.com.br/colunistas/coluna/recuperacoes-judiciais-no-agro--o-que-o-produtor-deve-saber_518403.html
+2026-09-02 04:19:04 [INFO] Título: Recuperações <b>judiciais</b> no agro: o que o produtor deve saber
+2026-09-02 04:19:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:05 [INFO] Classificação: enviar
+2026-09-02 04:19:05 [INFO] Aguardando 2.60s...
+2026-09-02 04:19:08 [INFO] [2/15] ID: https://blogdellas.com.br/alepe-aprova-projeto-para-renegociacao-de-dividas-do-icms/
+2026-09-02 04:19:08 [INFO] Título: Alepe aprova projeto para renegociação de dívidas do ICMS - - Blog Dellas
+2026-09-02 04:19:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:08 [INFO] Classificação: nao_enviar
+2026-09-02 04:19:08 [INFO] Aguardando 2.71s...
+2026-09-02 04:19:11 [INFO] [3/15] ID: https://www.estadao.com.br/amp/economia/negocios/stj-suspende-assembleia-da-ambipar-e-vai-analisar-mudanca-da-recuperacao-judicial-do-rj-para-sp/
+2026-09-02 04:19:11 [INFO] Título: STJ suspende assembleia da Ambipar e vai analisar mudança da <b>recuperação judicial</b> do ...
+2026-09-02 04:19:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:11 [INFO] Classificação: enviar
+2026-09-02 04:19:11 [INFO] Aguardando 2.79s...
+2026-09-02 04:19:14 [INFO] [4/15] ID: https://www.band.com.br/noticias/executivo-valdoir-slapak-analisa-a-recuperacao-judicial-no-brasil
+2026-09-02 04:19:14 [INFO] Título: Executivo Valdoir Slapak analisa a <b>recuperação judicial</b> no Brasil - Band
+2026-09-02 04:19:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:14 [INFO] Classificação: enviar
+2026-09-02 04:19:14 [INFO] Aguardando 2.75s...
+2026-09-02 04:19:17 [INFO] [5/15] ID: https://site.mppr.mp.br/civel/Noticia/STJ-veda-efeito-retroativo-aditamento-de-plano-de-recuperacao-judicial-para-reajustar
+2026-09-02 04:19:17 [INFO] Título: STJ veda efeito retroativo a aditamento de plano de <b>recuperação judicial</b> para reajustar ...
+2026-09-02 04:19:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:17 [INFO] Classificação: enviar
+2026-09-02 04:19:17 [INFO] Aguardando 2.70s...
+2026-09-02 04:19:20 [INFO] [6/15] ID: https://www.estadao.com.br/economia/estoque-de-empresas-em-recuperacao-judicial-no-pais-e-recorde-agro-e-comercio-lideram-pedidos/
+2026-09-02 04:19:20 [INFO] Título: Estoque de empresas em <b>recuperação judicial</b> no País é recorde; agro e comércio lideram pedidos
+2026-09-02 04:19:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:20 [INFO] Classificação: enviar
+2026-09-02 04:19:20 [INFO] Aguardando 2.74s...
+2026-09-02 04:19:23 [INFO] [7/15] ID: https://aciara.com.br/ibge-divulga-pib-do-2o-trimestre-de-2026-nesta-terca/
+2026-09-02 04:19:23 [INFO] Título: IBGE divulga PIB do 2º trimestre de 2026 nesta terça - Acia Araçatuba
+2026-09-02 04:19:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:23 [INFO] Classificação: nao_enviar
+2026-09-02 04:19:23 [INFO] Aguardando 2.75s...
+2026-09-02 04:19:26 [INFO] [8/15] ID: https://fococidade.com.br/materia/71955/onda-de-recuperacoes-judiciais-acende-alerta
+2026-09-02 04:19:26 [INFO] Título: Onda de recuperações judiciais acende alerta - Foco Cidade
+2026-09-02 04:19:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:26 [INFO] Classificação: enviar
+2026-09-02 04:19:26 [INFO] Aguardando 2.77s...
+2026-09-02 04:19:29 [INFO] [9/15] ID: https://www.opovo.com.br/agencia/bbc/2026/09/01/amp/braskem-em-maceio-como-ficam-os-bairros-afetados-por-afundamento-do-solo-apos-quebra-da-empresa.html
+2026-09-02 04:19:29 [INFO] Título: Braskem em Maceió: como ficam os bairros afetados por afundamento do solo após quebra ...
+2026-09-02 04:19:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:29 [INFO] Classificação: nao_enviar
+2026-09-02 04:19:29 [INFO] Aguardando 2.75s...
+2026-09-02 04:19:32 [INFO] [10/15] ID: https://aciara.com.br/recuperacao-extrajudicial-atinge-recorde-de-175-bi-em-2026/
+2026-09-02 04:19:32 [INFO] Título: <b>Recuperação extrajudicial</b> atinge recorde de R$ 175 bi em 2026 - Acia Araçatuba
+2026-09-02 04:19:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:32 [INFO] Classificação: enviar
+2026-09-02 04:19:32 [INFO] Aguardando 2.78s...
+2026-09-02 04:19:35 [INFO] [11/15] ID: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/01/pedrinho-pede-que-justica-inicie-o-leilao-da-saf-do-vasco.ghtml
+2026-09-02 04:19:35 [INFO] Título: Pedrinho pede que Justiça inicie o leilão da SAF do Vasco e libere o empréstimo de R$ 150 milhões
+2026-09-02 04:19:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:35 [INFO] Classificação: nao_enviar
+2026-09-02 04:19:35 [INFO] Aguardando 2.35s...
+2026-09-02 04:19:38 [INFO] [12/15] ID: https://sinfrerj.com.br/conteudo/11913/justica-decreta-falencia-da-refit-de-manguinhos
+2026-09-02 04:19:38 [INFO] Título: Justiça decreta falência da Refit de Manguinhos - SINFRERJ
+2026-09-02 04:19:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:38 [INFO] Classificação: enviar
+2026-09-02 04:19:38 [INFO] Aguardando 2.66s...
+2026-09-02 04:19:41 [INFO] [13/15] ID: https://tvprefeito.com/justica-decreta-falencia-das-empresas-do-grupo-refit/
+2026-09-02 04:19:41 [INFO] Título: Justiça decreta falência das empresas do Grupo Refit - TV Prefeito
+2026-09-02 04:19:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:41 [INFO] Classificação: enviar
+2026-09-02 04:19:41 [INFO] Aguardando 2.69s...
+2026-09-02 04:19:44 [INFO] [14/15] ID: https://claudiodantas.com.br/vorcaro-pediu-ajuda-a-moraes-antes-de-prisao/
+2026-09-02 04:19:44 [INFO] Título: Vorcaro ajuda a Moraes antes prisão: Temos que desarmar isso - Claudio Dantas
+2026-09-02 04:19:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:44 [INFO] Classificação: nao_enviar
+2026-09-02 04:19:44 [INFO] Aguardando 2.76s...
+2026-09-02 04:19:47 [INFO] [15/15] ID: https://jornalgrandebahia.com.br/2026/09/oab-ba-cobra-tjba-e-governo-da-bahia-sobre-seguranca-de-depositos-judiciais-e-precatorios-mantidos-pelo-brb-apos-decisao-do-ministro-fux/
+2026-09-02 04:19:47 [INFO] Título: OAB-BA cobra TJBA e Governo da Bahia sobre segurança de depósitos judiciais e ...
+2026-09-02 04:19:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-02 04:19:47 [INFO] Classificação: nao_enviar
+2026-09-02 04:19:47 [INFO] ======================================================================
+2026-09-02 04:19:47 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-02 04:19:47 [INFO] ======================================================================
+2026-09-02 04:19:47 [INFO] Processadas: 15
+2026-09-02 04:19:47 [INFO] Enviar: 9
+2026-09-02 04:19:47 [INFO] Não enviar: 6
+2026-09-02 04:19:47 [INFO] ======================================================================
