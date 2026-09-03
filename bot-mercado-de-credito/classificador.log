@@ -15437,3 +15437,111 @@
 2026-09-03 00:01:02 [INFO] Enviar: 2
 2026-09-03 00:01:02 [INFO] Não enviar: 14
 2026-09-03 00:01:02 [INFO] ======================================================================
+2026-09-03 05:37:35 [INFO] ======================================================================
+2026-09-03 05:37:35 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-03 05:37:35 [INFO] ======================================================================
+2026-09-03 05:37:35 [INFO] Notícias com status 'extraida': 19
+2026-09-03 05:37:35 [INFO] Limite: 20 requisições/minuto
+2026-09-03 05:37:35 [INFO] Intervalo mínimo: 3.0s
+2026-09-03 05:37:35 [INFO] ======================================================================
+2026-09-03 05:37:35 [INFO] [1/19] ID: https://visnoinvest.com.br/news/15083/ambipar-ambp3-registra-suspensao-de-assembleia-de-credores
+2026-09-03 05:37:35 [INFO] Título: Ambipar (AMBP3) registra suspensão de assembleia de credores | Visno Invest
+2026-09-03 05:37:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:37:35 [INFO] Classificação: enviar
+2026-09-03 05:37:35 [INFO] Aguardando 2.43s...
+2026-09-03 05:37:38 [INFO] [2/19] ID: https://revistaempreende.com.br/cnn-money-exibe-especial-ao-vivo-sobre-recuperacao-judicial-de-grandes-marcas/
+2026-09-03 05:37:38 [INFO] Título: CNN Money analisa <b>recuperação judicial</b> de marcas - Revista Empreende
+2026-09-03 05:37:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:37:38 [INFO] Classificação: enviar
+2026-09-03 05:37:38 [INFO] Aguardando 2.66s...
+2026-09-03 05:37:41 [INFO] [3/19] ID: https://telesintese.com.br/anatel-decide-nesta-quinta-transferencia-do-controle-da-oi-servicos-telefonicos/
+2026-09-03 05:37:41 [INFO] Título: Anatel vota nesta quinta transferência do controle da Oi Serviços Telefônicos - TeleSíntese
+2026-09-03 05:37:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:37:41 [INFO] Classificação: nao_enviar
+2026-09-03 05:37:41 [INFO] Aguardando 2.71s...
+2026-09-03 05:37:44 [INFO] [4/19] ID: https://obastidor.com.br/economia/o-foro-da-ambipar/
+2026-09-03 05:37:44 [INFO] Título: O foro da Ambipar - O Bastidor
+2026-09-03 05:37:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:37:44 [INFO] Classificação: nao_enviar
+2026-09-03 05:37:44 [INFO] Aguardando 2.71s...
+2026-09-03 05:37:47 [INFO] [5/19] ID: https://www.oab.org.br/noticia/64557/comissao-de-falencias-debate-propostas-para-aperfeicoar-atuacao-institucional-em-processos-de-insolvencia
+2026-09-03 05:37:47 [INFO] Título: Comissão de Falências debate propostas para aperfeiçoar atuação institucional ... - OAB Nacional
+2026-09-03 05:37:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:37:47 [INFO] Classificação: nao_enviar
+2026-09-03 05:37:47 [INFO] Aguardando 2.68s...
+2026-09-03 05:37:50 [INFO] [6/19] ID: https://www.lance.com.br/vasco/vasco-avanca-por-alan-lescano-mas-ainda-depende-de-emprestimo.html
+2026-09-03 05:37:50 [INFO] Título: Vasco avança por Alan Lescano, mas ainda depende de empréstimo - LANCE!
+2026-09-03 05:37:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:37:50 [INFO] Classificação: nao_enviar
+2026-09-03 05:37:50 [INFO] Aguardando 2.70s...
+2026-09-03 05:37:53 [INFO] [7/19] ID: https://www.youtube.com/watch?v=o7PKLx2dhrM
+2026-09-03 05:37:53 [INFO] Título: Why Are So Many Companies Going Bankrupt in Brazil? | Tatiana Flores (LDCM Advogados)
+2026-09-03 05:37:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:37:53 [INFO] Classificação: nao_enviar
+2026-09-03 05:37:53 [INFO] Aguardando 2.63s...
+2026-09-03 05:37:56 [INFO] [8/19] ID: https://visnoinvest.com.br/news/15086/mglu3-salta-232-e-ibovespa-sobe-33-na-b3-hoje
+2026-09-03 05:37:56 [INFO] Título: MGLU3 salta 23,2% e Ibovespa sobe 3,3% na B3 hoje - Visno Invest
+2026-09-03 05:37:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:37:56 [INFO] Classificação: nao_enviar
+2026-09-03 05:37:56 [INFO] Aguardando 2.61s...
+2026-09-03 05:37:59 [INFO] [9/19] ID: https://visnoinvest.com.br/news/15092/sanepar-sapr4-aprova-aditivo-a-termo-de-compromisso-ambiental
+2026-09-03 05:37:59 [INFO] Título: Sanepar (SAPR4) aprova aditivo a termo de compromisso ambiental | Visno Invest
+2026-09-03 05:37:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:37:59 [INFO] Classificação: nao_enviar
+2026-09-03 05:37:59 [INFO] Aguardando 2.66s...
+2026-09-03 05:38:02 [INFO] [10/19] ID: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/02/dolar-bolsa-fechamento-hoje-2-de-setembro-de-2026.ghtm
+2026-09-03 05:38:02 [INFO] Título: Dólar cai e Bolsa tem forte alta após pesquisa eleitoral e petróleo - UOL Economia
+2026-09-03 05:38:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:02 [INFO] Classificação: nao_enviar
+2026-09-03 05:38:02 [INFO] Aguardando 2.38s...
+2026-09-03 05:38:05 [INFO] [11/19] ID: https://www.nsctotal.com.br/economia/casas-bahia-deve-r-243-milhoes-para-490-empresas-do-setor-imobiliario-no-brasil
+2026-09-03 05:38:05 [INFO] Título: Casas Bahia deve R$ 243 milhões para 490 empresas do setor imobiliário no Brasil
+2026-09-03 05:38:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:05 [INFO] Classificação: nao_enviar
+2026-09-03 05:38:05 [INFO] Aguardando 2.74s...
+2026-09-03 05:38:08 [INFO] [12/19] ID: https://timesbrasil.com.br/empresas-e-negocios/apos-ameaca-de-fornecedores-casas-bahia-recorre-a-justica/
+2026-09-03 05:38:08 [INFO] Título: Após ameaça de fornecedores, Casas Bahia recorre à Justiça - Times Brasil | CNBC
+2026-09-03 05:38:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:08 [INFO] Classificação: nao_enviar
+2026-09-03 05:38:08 [INFO] Aguardando 2.57s...
+2026-09-03 05:38:11 [INFO] [13/19] ID: https://www.moneytimes.com.br/ambipar-ambp3-suspende-assembleia-geral-de-credores-por-decisao-do-stj/
+2026-09-03 05:38:11 [INFO] Título: Ambipar (AMBP3) suspende Assembleia Geral de Credores por decisão do STJ
+2026-09-03 05:38:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:11 [INFO] Classificação: enviar
+2026-09-03 05:38:11 [INFO] Aguardando 2.80s...
+2026-09-03 05:38:14 [INFO] [14/19] ID: https://www.jb.com.br/colunistas/o-outro-lado-da-moeda/2026/09/1060787-vorcaro-achou-que-estava-tudo-dominado-sqn.html
+2026-09-03 05:38:14 [INFO] Título: Vorcaro achou que estava tudo dominado; SQN
+2026-09-03 05:38:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:14 [INFO] Classificação: nao_enviar
+2026-09-03 05:38:14 [INFO] Aguardando 2.71s...
+2026-09-03 05:38:17 [INFO] [15/19] ID: https://abcreporter.com.br/2026/09/02/justica-decreta-falencia-de-33-empresas-do-grupo-ricoy-rede-tinha-lojas-em-diadema-e-sbc/
+2026-09-03 05:38:17 [INFO] Título: Justiça decreta falência de 33 empresas do Grupo Ricoy; rede tinha lojas em Diadema e SBC
+2026-09-03 05:38:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:17 [INFO] Classificação: nao_enviar
+2026-09-03 05:38:17 [INFO] Aguardando 2.56s...
+2026-09-03 05:38:20 [INFO] [16/19] ID: https://018news.com.br/coluna/com-a-palavra-a-defesa/a-garantia-que-so-aparece-quando-o-poder-esta-em-risco
+2026-09-03 05:38:20 [INFO] Título: A garantia que só aparece quando o poder está em risco
+2026-09-03 05:38:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:20 [INFO] Classificação: nao_enviar
+2026-09-03 05:38:20 [INFO] Aguardando 2.65s...
+2026-09-03 05:38:23 [INFO] [17/19] ID: https://www.antena1.com.br/noticias/dolar-a-vista-fecha-em-baixa-de-091-a-r51065-na-venda
+2026-09-03 05:38:23 [INFO] Título: Dólar cai por terceira sessão seguida após Flávio se aproximar de Lula em pesquisa
+2026-09-03 05:38:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:23 [INFO] Classificação: nao_enviar
+2026-09-03 05:38:23 [INFO] Aguardando 2.22s...
+2026-09-03 05:38:26 [INFO] [18/19] ID: https://www.brasil247.com/brasil/apos-fundador-da-reag-fechar-delacao-faria-lima-ja-aguarda-nova-rodada-de-operacoes-da-pf/
+2026-09-03 05:38:26 [INFO] Título: Após fundador da Reag fechar delação, Faria Lima já aguarda nova rodada de operações da PF
+2026-09-03 05:38:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:26 [INFO] Classificação: nao_enviar
+2026-09-03 05:38:26 [INFO] Aguardando 2.65s...
+2026-09-03 05:38:29 [INFO] [19/19] ID: https://www.realpioneiro.com.br/noticia/relator-da-ccj-rejeita-emendas-da-oposicao-que-buscavam-manter-6x1
+2026-09-03 05:38:29 [INFO] Título: Relator da CCJ rejeita emendas da oposição que buscavam manter 6x1 - Real Pioneiro
+2026-09-03 05:38:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 05:38:29 [INFO] Classificação: nao_enviar
+2026-09-03 05:38:29 [INFO] ======================================================================
+2026-09-03 05:38:29 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-03 05:38:29 [INFO] ======================================================================
+2026-09-03 05:38:29 [INFO] Processadas: 19
+2026-09-03 05:38:29 [INFO] Enviar: 3
+2026-09-03 05:38:29 [INFO] Não enviar: 16
+2026-09-03 05:38:29 [INFO] ======================================================================
