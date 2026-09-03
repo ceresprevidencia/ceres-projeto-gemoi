@@ -16163,3 +16163,116 @@
 2026-09-03 19:44:48 [INFO] Enviar: 20
 2026-09-03 19:44:48 [INFO] Não enviar: 21
 2026-09-03 19:44:48 [INFO] ======================================================================
+2026-09-03 22:29:14 [INFO] ======================================================================
+2026-09-03 22:29:14 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-03 22:29:14 [INFO] ======================================================================
+2026-09-03 22:29:14 [INFO] Notícias com status 'extraida': 20
+2026-09-03 22:29:14 [INFO] Limite: 20 requisições/minuto
+2026-09-03 22:29:14 [INFO] Intervalo mínimo: 3.0s
+2026-09-03 22:29:14 [INFO] ======================================================================
+2026-09-03 22:29:14 [INFO] [1/20] ID: https://timesbrasil.com.br/empresas-e-negocios/quais-servicos-a-casas-bahia-teme-perder-durante-recuperacao-judicial/
+2026-09-03 22:29:14 [INFO] Título: Energia, gás e telecom: quais serviços a Casas Bahia teme perder durante <b>recuperação judicial</b>?
+2026-09-03 22:29:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:15 [INFO] Classificação: enviar
+2026-09-03 22:29:15 [INFO] Aguardando 2.59s...
+2026-09-03 22:29:17 [INFO] [2/20] ID: https://www.migalhas.com.br/quentes/463870/stj-fixa-honorarios-por-impugnacao-ao-credito-em-recuperacao-judicial
+2026-09-03 22:29:17 [INFO] Título: STJ fixa honorários por impugnação ao crédito em <b>recuperação judicial</b> - Migalhas
+2026-09-03 22:29:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:18 [INFO] Classificação: enviar
+2026-09-03 22:29:18 [INFO] Aguardando 2.68s...
+2026-09-03 22:29:20 [INFO] [3/20] ID: https://www.fogaonet.com/noticias-do-botafogo/plano-recuperacao-judicial-saf-botafogo-chega-25-adesao-credores/
+2026-09-03 22:29:20 [INFO] Título: Plano da <b>recuperação judicial</b> da SAF do Botafogo chega a 25% de adesão dos credores
+2026-09-03 22:29:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:21 [INFO] Classificação: enviar
+2026-09-03 22:29:21 [INFO] Aguardando 2.53s...
+2026-09-03 22:29:23 [INFO] [4/20] ID: https://obastidor.com.br/economia/o-cerco-as-recompras-da-ambipar/
+2026-09-03 22:29:23 [INFO] Título: O cerco às recompras da Ambipar - O Bastidor
+2026-09-03 22:29:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:24 [INFO] Classificação: nao_enviar
+2026-09-03 22:29:24 [INFO] Aguardando 2.63s...
+2026-09-03 22:29:26 [INFO] [5/20] ID: https://dcomercio.com.br/publicacao/s/insolvencias-nao-e-so-o-varejo
+2026-09-03 22:29:26 [INFO] Título: Insolvências - não é só o varejo | Diário do Comércio
+2026-09-03 22:29:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:27 [INFO] Classificação: nao_enviar
+2026-09-03 22:29:27 [INFO] Aguardando 2.68s...
+2026-09-03 22:29:29 [INFO] [6/20] ID: https://www.jornaldopovo.net/noticia/Recuperacao-judicial-da-chance-de-sobrevivencia-as-empresas-r9e1
+2026-09-03 22:29:29 [INFO] Título: <b>Recuperação judicial</b> dá chance de sobrevivência às empresas - Jornal do Povo
+2026-09-03 22:29:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:30 [INFO] Classificação: enviar
+2026-09-03 22:29:30 [INFO] Aguardando 2.70s...
+2026-09-03 22:29:32 [INFO] [7/20] ID: https://www.campograndenews.com.br/cidades/capital/funcionarios-descobriram-demissao-durante-atendimento-a-clientes-desumano
+2026-09-03 22:29:32 [INFO] Título: Funcionários descobriram demissão durante atendimento a clientes: "desumano"
+2026-09-03 22:29:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:33 [INFO] Classificação: nao_enviar
+2026-09-03 22:29:33 [INFO] Aguardando 2.66s...
+2026-09-03 22:29:35 [INFO] [8/20] ID: https://oantagonista.com.br/ladooa/entretenimento/construtora-entra-em-recuperacao-judicial-com-predio-pela-metade-e-compradores-descobrem-o-que-o-patrimonio-de-afetacao-protege-e-o-que-nao-protege/
+2026-09-03 22:29:35 [INFO] Título: Construtora entra em <b>recuperação judicial</b> com prédio pela metade e compradores ... - O Antagonista
+2026-09-03 22:29:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:36 [INFO] Classificação: enviar
+2026-09-03 22:29:36 [INFO] Aguardando 2.58s...
+2026-09-03 22:29:38 [INFO] [9/20] ID: https://www.netvasco.com.br/n/391802/justica-prorroga-prazo-e-autoriza-o-vasco-a-fazer-contratacoes
+2026-09-03 22:29:38 [INFO] Título: Justiça prorroga prazo e autoriza o Vasco a fazer contratações - NETVASCO
+2026-09-03 22:29:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:39 [INFO] Classificação: nao_enviar
+2026-09-03 22:29:39 [INFO] Aguardando 2.58s...
+2026-09-03 22:29:41 [INFO] [10/20] ID: https://www.congressoemfoco.com.br/amp/artigo/121942/casas-bahia-recuperacao-judicial-nao-resolve-a-crise
+2026-09-03 22:29:41 [INFO] Título: Casas Bahia: <b>Recuperação judicial</b> não resolve a crise, apenas abre espaço para enfrentá-la
+2026-09-03 22:29:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:42 [INFO] Classificação: enviar
+2026-09-03 22:29:42 [INFO] Aguardando 2.64s...
+2026-09-03 22:29:44 [INFO] [11/20] ID: https://finsidersbrasil.com.br/regulamentacao/bc-decreta-liquidacao-extrajudicial-de-banvox-e-trustee-dtvm/
+2026-09-03 22:29:44 [INFO] Título: BC liquida Trustee e Banvox, ligadas a ex-sócio do Banco Master - Finsiders
+2026-09-03 22:29:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:45 [INFO] Classificação: enviar
+2026-09-03 22:29:45 [INFO] Aguardando 2.64s...
+2026-09-03 22:29:47 [INFO] [12/20] ID: https://www.jota.info/executivo/bc-decreta-liquidacao-extrajudicial-de-duas-distribuidoras-de-titulos-de-ex-socio-do-master
+2026-09-03 22:29:47 [INFO] Título: BC decreta liquidação <b>extrajudicial</b> de duas distribuidoras de títulos de ex-sócio do Master
+2026-09-03 22:29:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:48 [INFO] Classificação: enviar
+2026-09-03 22:29:48 [INFO] Aguardando 2.53s...
+2026-09-03 22:29:50 [INFO] [13/20] ID: https://www.migalhas.com.br/quentes/463858/especialista-explica-protecao-a-lojistas-na-liquidacao-da-entrepay
+2026-09-03 22:29:50 [INFO] Título: Especialista explica proteção a lojistas na liquidação da Entrepay - Migalhas
+2026-09-03 22:29:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:51 [INFO] Classificação: enviar
+2026-09-03 22:29:51 [INFO] Aguardando 2.62s...
+2026-09-03 22:29:53 [INFO] [14/20] ID: https://centraldovarejo.com.br/empresas-em-recuperacao-judicial-acumulam-r-20-bi-no-varejo/
+2026-09-03 22:29:53 [INFO] Título: Empresas em <b>recuperação</b> judicial acumulam R$ 20 bi no varejo
+2026-09-03 22:29:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:54 [INFO] Classificação: enviar
+2026-09-03 22:29:54 [INFO] Aguardando 2.64s...
+2026-09-03 22:29:56 [INFO] [15/20] ID: https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/03/quem-e-antonio-freixo-jr.ghtm
+2026-09-03 22:29:56 [INFO] Título: Quem é Mineiro, empresário que fez repasses a 'Dark Horse' e fechou delação
+2026-09-03 22:29:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:57 [INFO] Classificação: nao_enviar
+2026-09-03 22:29:57 [INFO] Aguardando 2.68s...
+2026-09-03 22:29:59 [INFO] [16/20] ID: https://veronoticias.com/economia/trustee-e-banvox-negam-irregularidades-apos-liquidacao-pelo-bc/
+2026-09-03 22:29:59 [INFO] Título: Trustee e Banvox negam irregularidades após <b>liquidação</b> pelo BC - Vero Notícias
+2026-09-03 22:30:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:00 [INFO] Classificação: enviar
+2026-09-03 22:30:00 [INFO] Aguardando 2.66s...
+2026-09-03 22:30:02 [INFO] [17/20] ID: https://pipelinevalor.globo.com/negocios/noticia/banvox-e-trustee-tem-r-31-bi-sob-administracao-sem-cobertura-do-fgc.ghtml
+2026-09-03 22:30:02 [INFO] Título: Banvox e Trustee têm R$ 31 bi sob administração, sem cobertura do FGC - Pipeline - Globo
+2026-09-03 22:30:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:03 [INFO] Classificação: nao_enviar
+2026-09-03 22:30:03 [INFO] Aguardando 2.57s...
+2026-09-03 22:30:05 [INFO] [18/20] ID: https://www.folhape.com.br/noticia/amp/510530/com-gestoras-de-ex-socio-do-master-bc-liquida-17-instituicoes-em/
+2026-09-03 22:30:05 [INFO] Título: Com gestoras de ex-sócio do Master, BC liquida 17 instituições em 2026, maior número desde 2002
+2026-09-03 22:30:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:06 [INFO] Classificação: enviar
+2026-09-03 22:30:06 [INFO] Aguardando 2.64s...
+2026-09-03 22:30:08 [INFO] [19/20] ID: https://www.migalhas.com.br/amp/quentes/463858/especialista-explica-protecao-a-lojistas-na-liquidacao-da-entrepay
+2026-09-03 22:30:08 [INFO] Título: Especialista explica proteção a lojistas na <b>liquidação</b> da Entrepay - Migalhas
+2026-09-03 22:30:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:09 [INFO] Classificação: enviar
+2026-09-03 22:30:09 [INFO] Aguardando 2.67s...
+2026-09-03 22:30:11 [INFO] [20/20] ID: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/bc-determina-liquidacao-de-distribuidoras-ligadas-ao-master-veja-como-isso-afeta-seus-investimentos/
+2026-09-03 22:30:11 [INFO] Título: BC determina <b>liquidação</b> de Trustee e Banvox; veja como isso afeta seus investimentos
+2026-09-03 22:30:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:12 [INFO] Classificação: enviar
+2026-09-03 22:30:12 [INFO] ======================================================================
+2026-09-03 22:30:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-03 22:30:12 [INFO] ======================================================================
+2026-09-03 22:30:12 [INFO] Processadas: 20
+2026-09-03 22:30:12 [INFO] Enviar: 14
+2026-09-03 22:30:12 [INFO] Não enviar: 6
+2026-09-03 22:30:12 [INFO] ======================================================================
