@@ -15344,3 +15344,96 @@
 2026-09-02 21:45:19 [INFO] Enviar: 10
 2026-09-02 21:45:19 [INFO] Não enviar: 30
 2026-09-02 21:45:19 [INFO] ======================================================================
+2026-09-03 00:00:17 [INFO] ======================================================================
+2026-09-03 00:00:17 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-03 00:00:17 [INFO] ======================================================================
+2026-09-03 00:00:17 [INFO] Notícias com status 'extraida': 16
+2026-09-03 00:00:17 [INFO] Limite: 20 requisições/minuto
+2026-09-03 00:00:17 [INFO] Intervalo mínimo: 3.0s
+2026-09-03 00:00:17 [INFO] ======================================================================
+2026-09-03 00:00:17 [INFO] [1/16] ID: https://www.campograndenews.com.br/politica/escritorios-de-advocacia-se-dividem-entre-auxilio-a-juizes-e-defesa-de-empresas
+2026-09-03 00:00:17 [INFO] Título: Escritórios de advocacia se dividem entre auxílio a juízes e defesa de empresas
+2026-09-03 00:00:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:17 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:17 [INFO] Aguardando 2.59s...
+2026-09-03 00:00:20 [INFO] [2/16] ID: https://www1.folha.uol.com.br/mercado/2026/09/casas-bahia-pede-protecao-contra-corte-de-mais-contratos-essenciais-e-cita-ameaca-de-fornecedores.shtml
+2026-09-03 00:00:20 [INFO] Título: Casas Bahia pede manutenção de mais contratos essenciais - 02/09/2026 - Folha - UOL
+2026-09-03 00:00:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:20 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:20 [INFO] Aguardando 2.74s...
+2026-09-03 00:00:23 [INFO] [3/16] ID: https://obastidor.com.br/justica/o-depoimento-secreto-de-vorcaro/
+2026-09-03 00:00:23 [INFO] Título: O depoimento secreto de Vorcaro - O Bastidor
+2026-09-03 00:00:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:23 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:23 [INFO] Aguardando 2.73s...
+2026-09-03 00:00:26 [INFO] [4/16] ID: https://dgrj.com.br/brasil/grupo-refit-dono-da-antiga-refinaria-de-manguinhos-tem-falencia-decretada
+2026-09-03 00:00:26 [INFO] Título: Grupo Refit, dono da antiga Refinaria de Manguinhos, tem falência decretada
+2026-09-03 00:00:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:26 [INFO] Classificação: enviar
+2026-09-03 00:00:26 [INFO] Aguardando 2.63s...
+2026-09-03 00:00:29 [INFO] [5/16] ID: https://valor.globo.com/empresas/noticia/2026/09/02/stj-mantm-suspensa-assembleia-da-ambipar-mas-estende-prazo-que-impede-execuo-de-dvidas.ghtml
+2026-09-03 00:00:29 [INFO] Título: STJ mantém suspensa assembleia da Ambipar, mas estende prazo que impede execução ...
+2026-09-03 00:00:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:29 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:29 [INFO] Aguardando 2.71s...
+2026-09-03 00:00:32 [INFO] [6/16] ID: https://www.jornaldocomercio.com/opiniao/2026/09/1261843-recuperacao-judicial-e-reestruturacao.html
+2026-09-03 00:00:32 [INFO] Título: <b>Recuperação judicial</b> e reestruturação - Jornal do Comércio
+2026-09-03 00:00:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:32 [INFO] Classificação: enviar
+2026-09-03 00:00:32 [INFO] Aguardando 2.59s...
+2026-09-03 00:00:35 [INFO] [7/16] ID: https://iree.org.br/webinar-novos-horizontes-para-a-insercao-internacional-do-brasil/
+2026-09-03 00:00:35 [INFO] Título: Webinar: Novos horizontes para a inserção internacional do Brasil - IREE
+2026-09-03 00:00:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:35 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:35 [INFO] Aguardando 2.61s...
+2026-09-03 00:00:38 [INFO] [8/16] ID: https://www.folhape.com.br/colunistas/blogdafolha/flavio-bolsonaro-cumpre-agenda-em-pernambuco-no-dia-16-de-setembro/59491/
+2026-09-03 00:00:38 [INFO] Título: Flávio Bolsonaro cumpre agenda em Pernambuco no dia 16 de setembro - Blog da Folha
+2026-09-03 00:00:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:38 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:38 [INFO] Aguardando 2.50s...
+2026-09-03 00:00:41 [INFO] [9/16] ID: https://www.tce.mg.gov.br/TCEMG-suspende-licitacao-de-R-60-milhoes-para-compra-de-medicamentos-e-insumos.html/Noticia/1111629135
+2026-09-03 00:00:41 [INFO] Título: TCEMG suspende licitação de R$ 60 milhões para compra de medicamentos e insumos
+2026-09-03 00:00:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:41 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:41 [INFO] Aguardando 2.49s...
+2026-09-03 00:00:44 [INFO] [10/16] ID: https://aciara.com.br/joesley-batista-influencia-das-tarifas-de-trump-sobre-carne/
+2026-09-03 00:00:44 [INFO] Título: Joesley Batista e a influência das tarifas de Trump sobre a carne - Acia Araçatuba
+2026-09-03 00:00:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:44 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:44 [INFO] Aguardando 2.65s...
+2026-09-03 00:00:47 [INFO] [11/16] ID: https://finsidersbrasil.com.br/regulamentacao/comef-do-bc-arranjos-de-pagamento-e-ciberataques-preocupam/
+2026-09-03 00:00:47 [INFO] Título: BC alerta para sofisticação de ataques hackers e fraudes - Finsiders
+2026-09-03 00:00:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:47 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:47 [INFO] Aguardando 2.71s...
+2026-09-03 00:00:50 [INFO] [12/16] ID: https://www.agazeta.com.br/colunas/abdo-filho/socios-de-empresa-interessada-na-apex-tem-relacao-com-a-antiga-e-encrencada-reag-0926
+2026-09-03 00:00:50 [INFO] Título: Sócios de empresa interessada na Apex têm relação com a antiga (e encrencada) Reag
+2026-09-03 00:00:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:50 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:50 [INFO] Aguardando 2.64s...
+2026-09-03 00:00:53 [INFO] [13/16] ID: https://www.spacemoney.com.br/economia/legislacao/delacao-premiada-fundador-reag-stf/
+2026-09-03 00:00:53 [INFO] Título: STF analisa delação de fundador da Reag que cita R$ 20 bi - SpaceMoney
+2026-09-03 00:00:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:54 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:54 [INFO] Aguardando 1.92s...
+2026-09-03 00:00:56 [INFO] [14/16] ID: https://realidadeguaraeregiao.com.br/pgr-encaminha-ao-stf-proposta-de-delacao-premiada-de-fundador-da-reag/
+2026-09-03 00:00:56 [INFO] Título: PGR encaminha ao STF proposta de delação premiada de fundador da Reag - Realidade
+2026-09-03 00:00:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:56 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:56 [INFO] Aguardando 2.76s...
+2026-09-03 00:00:59 [INFO] [15/16] ID: https://www1.folha.uol.com.br/mercado/2026/09/faria-lima-aguarda-nova-rodada-de-investigacoes-apos-delacao-de-fundador-da-reag.shtml
+2026-09-03 00:00:59 [INFO] Título: Faria Lima aguarda nova rodada de investigações após delação de fundador da Reag - Folha - UOL
+2026-09-03 00:00:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:00:59 [INFO] Classificação: nao_enviar
+2026-09-03 00:00:59 [INFO] Aguardando 2.65s...
+2026-09-03 00:01:02 [INFO] [16/16] ID: https://g1.globo.com/politica/noticia/2026/09/02/pgr-encaminha-ao-stf-proposta-de-delacao-premiada-de-fundador-da-reag.ghtml
+2026-09-03 00:01:02 [INFO] Título: PGR encaminha ao STF proposta de delação premiada de fundador da Reag - G1
+2026-09-03 00:01:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 00:01:02 [INFO] Classificação: nao_enviar
+2026-09-03 00:01:02 [INFO] ======================================================================
+2026-09-03 00:01:02 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-03 00:01:02 [INFO] ======================================================================
+2026-09-03 00:01:02 [INFO] Processadas: 16
+2026-09-03 00:01:02 [INFO] Enviar: 2
+2026-09-03 00:01:02 [INFO] Não enviar: 14
+2026-09-03 00:01:02 [INFO] ======================================================================
