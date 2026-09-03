@@ -15545,3 +15545,155 @@
 2026-09-03 05:38:29 [INFO] Enviar: 3
 2026-09-03 05:38:29 [INFO] Não enviar: 16
 2026-09-03 05:38:29 [INFO] ======================================================================
+2026-09-03 11:03:56 [INFO] ======================================================================
+2026-09-03 11:03:56 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-03 11:03:56 [INFO] ======================================================================
+2026-09-03 11:03:56 [INFO] Notícias com status 'extraida': 28
+2026-09-03 11:03:56 [INFO] Limite: 20 requisições/minuto
+2026-09-03 11:03:56 [INFO] Intervalo mínimo: 3.0s
+2026-09-03 11:03:56 [INFO] ======================================================================
+2026-09-03 11:03:56 [INFO] [1/28] ID: https://www.migalhas.com.br/depeso/463762/a-crise-no-varejo-e-a-utilizacao-dos-instrumentos-da-lei-11-101-05
+2026-09-03 11:03:56 [INFO] Título: A crise no varejo e a crescente utilização dos instrumentos da lei 11.101/05 - Migalhas
+2026-09-03 11:03:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:03:57 [INFO] Classificação: nao_enviar
+2026-09-03 11:03:57 [INFO] Aguardando 2.57s...
+2026-09-03 11:03:59 [INFO] [2/28] ID: https://www1.folha.uol.com.br/mercado/2026/09/casas-bahia-faz-leilao-de-eletrodomesticos-nesta-quinta-feira-3-lances-vao-ate-as-14h.shtml
+2026-09-03 11:03:59 [INFO] Título: Casas Bahia faz leilão de eletrodomésticos nesta quinta-feira (3); lances vão até as 14h - Folha
+2026-09-03 11:04:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:00 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:00 [INFO] Aguardando 2.65s...
+2026-09-03 11:04:02 [INFO] [3/28] ID: https://f5.folha.uol.com.br/colunistas/outro-canal/2026/09/casas-bahia-reduz-publicidade-na-tv-em-90-e-deixa-de-patrocinar-brasileirao-na-cazetv.shtml
+2026-09-03 11:04:02 [INFO] Título: Casas Bahia reduz publicidade na TV em 90% e deixa de patrocinar Brasileirão na CazéTV
+2026-09-03 11:04:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:03 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:03 [INFO] Aguardando 2.61s...
+2026-09-03 11:04:05 [INFO] [4/28] ID: https://www.coad.com.br/home/noticias-detalhe/139546/operador-de-escavadeira-que-sobreviveu-ao-rompimento-da-barragem-de-fundao-sera-indenizado
+2026-09-03 11:04:05 [INFO] Título: Operador de escavadeira que sobreviveu ao rompimento da barragem de Fundão será indenizado
+2026-09-03 11:04:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:06 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:06 [INFO] Aguardando 2.71s...
+2026-09-03 11:04:08 [INFO] [5/28] ID: https://exame.com/invest/mercados/a-estrategia-da-westwing-para-nao-repetir-a-crise-da-tokstok/
+2026-09-03 11:04:08 [INFO] Título: A estratégia da Westwing para não repetir a crise da Tok&Stok - Exame
+2026-09-03 11:04:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:09 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:09 [INFO] Aguardando 2.78s...
+2026-09-03 11:04:11 [INFO] [6/28] ID: https://mercadoeconsumo.com.br/03/09/2026/mc-capital/varejo-tem-12-grandes-empresas-em-sinal-de-alerta-financeiro/
+2026-09-03 11:04:11 [INFO] Título: Varejo tem 12 grandes empresas em sinal de alerta financeiro - Mercado&Consumo
+2026-09-03 11:04:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:12 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:12 [INFO] Aguardando 2.76s...
+2026-09-03 11:04:14 [INFO] [7/28] ID: https://correiodoestado.com.br/cidades/grupo-rural-de-ms-entra-em-recuperacao-com-divida-de-r-795-milhoes/472100/
+2026-09-03 11:04:14 [INFO] Título: Justiça abre <b>recuperação</b> de grupo rural de MS com dívida de R$ 79,5 milhões
+2026-09-03 11:04:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:15 [INFO] Classificação: enviar
+2026-09-03 11:04:15 [INFO] Aguardando 2.67s...
+2026-09-03 11:04:17 [INFO] [8/28] ID: https://futurodasaude.com.br/mercado-resultados-segundo-trimestre-2026-recuperacao/
+2026-09-03 11:04:17 [INFO] Título: Setor de saúde mantém <b>recuperação</b>, enquanto Oncoclínicas e Hapvida seguem pressionadas
+2026-09-03 11:04:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:18 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:18 [INFO] Aguardando 2.58s...
+2026-09-03 11:04:20 [INFO] [9/28] ID: https://www.correiobraziliense.com.br/direito-e-justica/2026/09/7492890-devedor-contumaz-e-o-dilema-entre-punicao-e-preservacao.html
+2026-09-03 11:04:20 [INFO] Título: Devedor contumaz e o dilema entre punição e preservação - Correio Braziliense
+2026-09-03 11:04:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:21 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:21 [INFO] Aguardando 2.67s...
+2026-09-03 11:04:23 [INFO] [10/28] ID: https://www.correiobraziliense.com.br/direito-e-justica/2026/09/7492881-o-caso-oi-e-os-limites-da-recuperacao-judicial-no-brasil.html
+2026-09-03 11:04:23 [INFO] Título: O caso Oi e os limites da <b>recuperação judicial</b> no Brasil - Correio Braziliense
+2026-09-03 11:04:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:24 [INFO] Classificação: enviar
+2026-09-03 11:04:24 [INFO] Aguardando 2.82s...
+2026-09-03 11:04:26 [INFO] [11/28] ID: https://monitormercantil.com.br/saf-o-modelo-que-prometeu-revolucao-e-entregou-reforma-na-base/
+2026-09-03 11:04:26 [INFO] Título: SAF: o modelo que prometeu revolução e entregou reforma na base - Monitor Mercantil
+2026-09-03 11:04:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:27 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:27 [INFO] Aguardando 2.71s...
+2026-09-03 11:04:29 [INFO] [12/28] ID: https://obastidor.com.br/justica/a-delacao-de-mansur/
+2026-09-03 11:04:29 [INFO] Título: A delação de Mansur - O Bastidor
+2026-09-03 11:04:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:30 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:30 [INFO] Aguardando 2.17s...
+2026-09-03 11:04:32 [INFO] [13/28] ID: https://www.pontonacurva.com.br/justica-estadual/certidao-com-efeito-de-negativa-nao-impede-recuperacao-diz-tj/34813
+2026-09-03 11:04:32 [INFO] Título: Certidão com efeito de negativa não impede <b>recuperação</b>, diz TJ - Ponto na Curva
+2026-09-03 11:04:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:33 [INFO] Classificação: enviar
+2026-09-03 11:04:33 [INFO] Aguardando 2.74s...
+2026-09-03 11:04:35 [INFO] [14/28] ID: https://www.lance.com.br/vasco/777-da-aval-para-venda-de-90-da-nova-saf-do-vasco.html
+2026-09-03 11:04:35 [INFO] Título: 777 dá aval para venda de 90% da nova SAF do Vasco - LANCE!
+2026-09-03 11:04:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:36 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:36 [INFO] Aguardando 2.81s...
+2026-09-03 11:04:38 [INFO] [15/28] ID: https://www.assiscity.com/suspeita-de-ocultacao-de-imovel-coloca-uso-gratuito-do-predio-do-antigo-ieda-pela-prefeitura-de-assis-na-mira-da-justica/
+2026-09-03 11:04:38 [INFO] Título: Suspeita de ocultação de imóvel coloca uso gratuito do prédio do antigo IEDA pela ... - Assiscity
+2026-09-03 11:04:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:39 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:39 [INFO] Aguardando 2.65s...
+2026-09-03 11:04:41 [INFO] [16/28] ID: https://www.netvasco.com.br/n/391718/777-chega-a-acordo-com-vasco-e-declara-que-nao-se-opoe-a-venda-de-90-da-nova-saf
+2026-09-03 11:04:41 [INFO] Título: 777 CHEGA A ACORDO COM VASCO E DECLARA QUE NÃO SE OPÕE À VENDA DE 90 ...
+2026-09-03 11:04:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:42 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:42 [INFO] Aguardando 2.71s...
+2026-09-03 11:04:44 [INFO] [17/28] ID: https://aciara.com.br/casas-bahia-recuperacao-judicial-18-mi-retidos/
+2026-09-03 11:04:44 [INFO] Título: Casas Bahia <b>recuperação judicial</b>: R$ 18 mi retidos - Acia Araçatuba
+2026-09-03 11:04:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:45 [INFO] Classificação: enviar
+2026-09-03 11:04:45 [INFO] Aguardando 2.67s...
+2026-09-03 11:04:47 [INFO] [18/28] ID: https://www.espn.com.br/futebol/vasco/artigo/_/id/17203631/777-chega-acordo-vasco-declara-justica-nao-opoe-venda-nova-saf
+2026-09-03 11:04:47 [INFO] Título: 777 chega a acordo com Vasco e declara à Justiça que não se opõe à venda da nova SAF
+2026-09-03 11:04:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:48 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:48 [INFO] Aguardando 2.71s...
+2026-09-03 11:04:50 [INFO] [19/28] ID: https://www.supervasco.com/noticias/justica-prorroga-prazo-para-manifestacoes-na-recuperacao-judicial-do-vasco-454846.html
+2026-09-03 11:04:50 [INFO] Título: Justiça prorroga prazo para manifestações na <b>recuperação judicial</b> do Vasco - SuperVasco
+2026-09-03 11:04:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:51 [INFO] Classificação: enviar
+2026-09-03 11:04:51 [INFO] Aguardando 2.78s...
+2026-09-03 11:04:53 [INFO] [20/28] ID: https://jornaldobras.com.br/noticia/137448/recuperacao-judicial-das-casas-bahia-o-que-levou-as-casas-bahia-a-recuperacao-judicial
+2026-09-03 11:04:53 [INFO] Título: <b>Recuperação judicial</b> das Casas Bahia: O que levou as Casas Bahia à <b>recuperação Judicial</b>?
+2026-09-03 11:04:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:54 [INFO] Classificação: enviar
+2026-09-03 11:04:54 [INFO] Aguardando 2.79s...
+2026-09-03 11:04:56 [INFO] [21/28] ID: https://www.jornalopcao.com.br/ultimas-noticias/novo-hugo-em-goiania-deve-comecar-atendimentos-em-janeiro-864388/
+2026-09-03 11:04:56 [INFO] Título: Novo Hugo, em Goiânia, deve começar atendimentos em janeiro - Jornal Opção
+2026-09-03 11:04:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:04:57 [INFO] Classificação: nao_enviar
+2026-09-03 11:04:57 [INFO] Aguardando 2.69s...
+2026-09-03 11:04:59 [INFO] [22/28] ID: https://bmcnews.com.br/economia/pagamentos-viram-arma-contra-bets-ilegais-e-governo-mira-bancos-e-fintechs/
+2026-09-03 11:04:59 [INFO] Título: Pagamentos viram arma contra bets ilegais, e governo mira bancos e fintechs - BM&C News
+2026-09-03 11:05:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:05:00 [INFO] Classificação: nao_enviar
+2026-09-03 11:05:00 [INFO] Aguardando 2.76s...
+2026-09-03 11:05:02 [INFO] [23/28] ID: https://netvasco.com.br/n/391730/justica-prorroga-ate-6-feira-prazo-para-manifestacoes-na-recuperacao-judicial-do-vasco
+2026-09-03 11:05:02 [INFO] Título: Justiça prorroga até 6ª-feira prazo para manifestações na recuperação <b>judicial</b> do Vasco
+2026-09-03 11:05:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:05:03 [INFO] Classificação: enviar
+2026-09-03 11:05:03 [INFO] Aguardando 2.64s...
+2026-09-03 11:05:05 [INFO] [24/28] ID: https://acritica.com/trends/varejista-com-13-mil-pontos-de-venda-nega-recuperacao-judicial-para-contornar-divida-de-r-600-milhoes/
+2026-09-03 11:05:05 [INFO] Título: Varejista com 1,3 mil pontos de venda nega recuperação <b>judicial</b> para contornar dívida de R ...
+2026-09-03 11:05:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:05:06 [INFO] Classificação: enviar
+2026-09-03 11:05:06 [INFO] Aguardando 2.19s...
+2026-09-03 11:05:08 [INFO] [25/28] ID: https://oglobo.globo.com/blogs/malu-gaspar/post/2026/09/dark-horse-pgr-fecha-delacao-com-empresario-que-fez-pagamentos-a-fundo-de-advogado-de-eduardo-bolsonaro.ghtml
+2026-09-03 11:05:08 [INFO] Título: Dark Horse: PGR fecha delação com empresário que fez pagamentos a fundo de advogado ...
+2026-09-03 11:05:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:05:09 [INFO] Classificação: nao_enviar
+2026-09-03 11:05:09 [INFO] Aguardando 2.72s...
+2026-09-03 11:05:11 [INFO] [26/28] ID: https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-2-setembro-2026/
+2026-09-03 11:05:11 [INFO] Título: Ibovespa fecha em alta de 3% com trade eleitoral; dólar cai a R$ 5,10 - CNN Brasil
+2026-09-03 11:05:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:05:16 [INFO] Classificação: nao_enviar
+2026-09-03 11:05:16 [INFO] [27/28] ID: https://www.infomoney.com.br/mercados/ibovespa-abertura-fechamento-02092026/
+2026-09-03 11:05:16 [INFO] Título: Ibovespa sobe 3% com fluxo estrangeiro e empate técnico entre Lula e Flávio - InfoMoney
+2026-09-03 11:05:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:05:17 [INFO] Classificação: nao_enviar
+2026-09-03 11:05:17 [INFO] Aguardando 2.67s...
+2026-09-03 11:05:19 [INFO] [28/28] ID: https://g1.globo.com/google/amp/politica/noticia/2026/09/02/pgr-encaminha-ao-stf-proposta-de-delacao-premiada-de-fundador-da-reag.ghtml
+2026-09-03 11:05:19 [INFO] Título: PGR encaminha ao STF proposta de delação premiada de fundador da Reag - G1
+2026-09-03 11:05:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 11:05:20 [INFO] Classificação: nao_enviar
+2026-09-03 11:05:20 [INFO] ======================================================================
+2026-09-03 11:05:20 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-03 11:05:20 [INFO] ======================================================================
+2026-09-03 11:05:20 [INFO] Processadas: 28
+2026-09-03 11:05:20 [INFO] Enviar: 8
+2026-09-03 11:05:20 [INFO] Não enviar: 20
+2026-09-03 11:05:20 [INFO] ======================================================================
