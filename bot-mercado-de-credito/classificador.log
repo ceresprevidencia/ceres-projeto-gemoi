@@ -15697,3 +15697,251 @@
 2026-09-03 11:05:20 [INFO] Enviar: 8
 2026-09-03 11:05:20 [INFO] Não enviar: 20
 2026-09-03 11:05:20 [INFO] ======================================================================
+2026-09-03 16:17:58 [INFO] ======================================================================
+2026-09-03 16:17:58 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-03 16:17:58 [INFO] ======================================================================
+2026-09-03 16:17:58 [INFO] Notícias com status 'extraida': 47
+2026-09-03 16:17:58 [INFO] Limite: 20 requisições/minuto
+2026-09-03 16:17:58 [INFO] Intervalo mínimo: 3.0s
+2026-09-03 16:17:58 [INFO] ======================================================================
+2026-09-03 16:17:58 [INFO] [1/47] ID: https://www.poder360.com.br/poder-sportsmkt/empresa-aceita-venda-de-90-da-nova-saf-do-vasco/
+2026-09-03 16:17:58 [INFO] Título: Empresa aceita venda de 90% da nova SAF do Vasco - Poder360
+2026-09-03 16:17:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:17:59 [INFO] Classificação: nao_enviar
+2026-09-03 16:17:59 [INFO] Aguardando 2.57s...
+2026-09-03 16:18:01 [INFO] [2/47] ID: https://www.infomoney.com.br/colunistas/daniel-carraretto/recuperacao-judicial-em-alta-o-que-o-investidor-precisa-enxergar-antes-do-fato-relevante/
+2026-09-03 16:18:01 [INFO] Título: <b>Recuperação judicial</b> em alta: o que o investidor precisa enxergar antes do fato relevante
+2026-09-03 16:18:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:02 [INFO] Classificação: enviar
+2026-09-03 16:18:02 [INFO] Aguardando 2.75s...
+2026-09-03 16:18:04 [INFO] [3/47] ID: https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-carioca/vasco/vasco-entra-em-acordo-com-a-777-carioca-e-da-mais-um-passo-para-venda-da-saf/
+2026-09-03 16:18:04 [INFO] Título: Vasco entra em acordo com a 777 carioca e dá mais um passo para venda da SAF
+2026-09-03 16:18:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:05 [INFO] Classificação: nao_enviar
+2026-09-03 16:18:05 [INFO] Aguardando 2.69s...
+2026-09-03 16:18:07 [INFO] [4/47] ID: https://telesintese.com.br/zveiter-recusa-indicacao-para-administrador-judicial-da-oi/
+2026-09-03 16:18:07 [INFO] Título: Zveiter recusa indicação para administrador <b>judicial</b> da Oi
+2026-09-03 16:18:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:08 [INFO] Classificação: enviar
+2026-09-03 16:18:08 [INFO] Aguardando 2.62s...
+2026-09-03 16:18:10 [INFO] [5/47] ID: https://www.broadcast.com.br/ultimas-noticias/oi-sergio-zveiter-declina-de-administracao-judicial-da-massa-falida/
+2026-09-03 16:18:10 [INFO] Título: Oi: Sergio Zveiter declina de administração <b>judicial</b> da massa falida - Broadcast
+2026-09-03 16:18:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:11 [INFO] Classificação: enviar
+2026-09-03 16:18:11 [INFO] Aguardando 2.68s...
+2026-09-03 16:18:13 [INFO] [6/47] ID: https://tribunaonline.com.br/economia/casas-bahia-faz-leilao-de-eletrodomesticos-nesta-quinta-lances-vao-ate-ate-as-14h-329913
+2026-09-03 16:18:13 [INFO] Título: Casas Bahia faz leilão de eletrodomésticos nesta quinta; lances vão até até às 14h
+2026-09-03 16:18:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:14 [INFO] Classificação: nao_enviar
+2026-09-03 16:18:14 [INFO] Aguardando 2.69s...
+2026-09-03 16:18:16 [INFO] [7/47] ID: https://www.cnnbrasil.com.br/economia/investimentos/onda-de-recuperacoes-judiciais-exige-cautela-com-credito-privado/
+2026-09-03 16:18:16 [INFO] Título: Onda de recuperações <b>judiciais</b> exige cautela com crédito privado | CNN Brasil
+2026-09-03 16:18:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:17 [INFO] Classificação: enviar
+2026-09-03 16:18:17 [INFO] Aguardando 2.71s...
+2026-09-03 16:18:19 [INFO] [8/47] ID: https://oespecialista.safra.com.br/analise/magazine-luiza-mercado-livre-parceria-commerce-eletronico/
+2026-09-03 16:18:19 [INFO] Título: Magazine Luiza e Mercado Livre ampliam parceria - O Especialista - Banco Safra
+2026-09-03 16:18:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:20 [INFO] Classificação: nao_enviar
+2026-09-03 16:18:20 [INFO] Aguardando 2.70s...
+2026-09-03 16:18:22 [INFO] [9/47] ID: https://paponacolina.com.br/vasco-e-777-partners-fecham-acordo-historico/
+2026-09-03 16:18:22 [INFO] Título: Vasco e 777 Partners fecham acordo histórico e venda de 90% da nova SAF é liberada
+2026-09-03 16:18:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:23 [INFO] Classificação: nao_enviar
+2026-09-03 16:18:23 [INFO] Aguardando 2.61s...
+2026-09-03 16:18:25 [INFO] [10/47] ID: https://jurinews.com.br/destaques-ultimas/cnmp-instala-forum-nacional-para-unificar-atuacao-do-ministerio-publico-em-casos-de-insolvencia
+2026-09-03 16:18:25 [INFO] Título: CNMP instala fórum nacional para unificar atuação do Ministério Público em casos de insolvência
+2026-09-03 16:18:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:26 [INFO] Classificação: nao_enviar
+2026-09-03 16:18:26 [INFO] Aguardando 2.70s...
+2026-09-03 16:18:28 [INFO] [11/47] ID: https://timesbrasil.com.br/brasil/master-capixaba-em-meio-a-processos-judiciais-e-divida-de-quase-r-1-bilhao-apex-partners-convoca-acionistas-para-assembleia-extraordinaria/
+2026-09-03 16:18:28 [INFO] Título: Master Capixaba: em meio a processos <b>judiciais</b> e dívida de quase R$ 1 bilhão, Apex ...
+2026-09-03 16:18:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:29 [INFO] Classificação: nao_enviar
+2026-09-03 16:18:29 [INFO] Aguardando 2.65s...
+2026-09-03 16:18:31 [INFO] [12/47] ID: https://economia.ig.com.br/2026-09-03/casas-bahia-faz-leilao-de-eletrodomesticos-hoje-3-ate-as-14h.html
+2026-09-03 16:18:31 [INFO] Título: Casas Bahia faz leilão de eletrodomésticos hoje (3) até as 14h - iG Economia
+2026-09-03 16:18:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:32 [INFO] Classificação: nao_enviar
+2026-09-03 16:18:32 [INFO] Aguardando 2.82s...
+2026-09-03 16:18:34 [INFO] [13/47] ID: https://www.agazeta.com.br/colunas/vilmara-fernandes/caso-apex-perito-judicial-so-analisou-23-empresas-por-falta-de-documentos-0926
+2026-09-03 16:18:34 [INFO] Título: Caso Apex: perito <b>judicial</b> só analisou 23 empresas por falta de documentos - A Gazeta
+2026-09-03 16:18:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:35 [INFO] Classificação: nao_enviar
+2026-09-03 16:18:35 [INFO] Aguardando 2.82s...
+2026-09-03 16:18:37 [INFO] [14/47] ID: https://tribunahoje.com/blogs/2026/09/03/11401-recuperacao-judicial-pressiona-jhc-a-explicar-destino-do-dinheiro-da-braskem
+2026-09-03 16:18:37 [INFO] Título: <b>recuperação judicial</b> pressiona jhc a explicar destino do dinheiro da braskem
+2026-09-03 16:18:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:38 [INFO] Classificação: enviar
+2026-09-03 16:18:38 [INFO] Aguardando 2.66s...
+2026-09-03 16:18:40 [INFO] [15/47] ID: https://brasildotrecho.com.br/2026/09/grupo-murici-recuperacao-judicial/
+2026-09-03 16:18:40 [INFO] Título: Grupo Murici entra em <b>recuperação judicial</b> - Brasil do Trecho
+2026-09-03 16:18:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:41 [INFO] Classificação: enviar
+2026-09-03 16:18:41 [INFO] Aguardando 2.64s...
+2026-09-03 16:18:43 [INFO] [16/47] ID: https://www.estadao.com.br/einvestidor/direto-da-faria-lima/justica-determina-afastamento-de-socios-da-apex-e-nomeia-novo-administrador-interino/
+2026-09-03 16:18:43 [INFO] Título: Justiça determina afastamento de sócios da Apex e nomeia novo administrador interino
+2026-09-03 16:18:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:44 [INFO] Classificação: enviar
+2026-09-03 16:18:44 [INFO] Aguardando 2.68s...
+2026-09-03 16:18:46 [INFO] [17/47] ID: https://g1.globo.com/economia/noticia/2026/09/03/banco-central-liquidacao-extrajudicial.ghtml
+2026-09-03 16:18:46 [INFO] Título: BC decreta liquidação de corretoras ligadas a ex-sócio do Banco Master - G1 - Globo
+2026-09-03 16:18:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:47 [INFO] Classificação: enviar
+2026-09-03 16:18:47 [INFO] Aguardando 2.81s...
+2026-09-03 16:18:49 [INFO] [18/47] ID: https://timesbrasil.com.br/colunas/rodrigo-loureiro/a-csn-troca-de-ceo-mas-nao-de-objetivo/
+2026-09-03 16:18:49 [INFO] Título: A CSN troca de CEO, mas não de objetivo - Times Brasil | CNBC
+2026-09-03 16:18:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:50 [INFO] Classificação: nao_enviar
+2026-09-03 16:18:50 [INFO] Aguardando 2.63s...
+2026-09-03 16:18:52 [INFO] [19/47] ID: https://www.estadao.com.br/economia/bc-liquidacao-extrajudicial-trustee-banvox/
+2026-09-03 16:18:52 [INFO] Título: BC decreta liquidação das corretoras Trustee e Banvox, ligadas ao caso do Banco Master
+2026-09-03 16:18:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:53 [INFO] Classificação: enviar
+2026-09-03 16:18:53 [INFO] Aguardando 2.69s...
+2026-09-03 16:18:55 [INFO] [20/47] ID: https://www.metropoles.com/brasil/bc-decreta-liquidacao-das-distribuidoras-de-titulos-trustee-e-banvox
+2026-09-03 16:18:55 [INFO] Título: BC decreta liquidação das distribuidoras de títulos Trustee e Banvox
+2026-09-03 16:18:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:56 [INFO] Classificação: enviar
+2026-09-03 16:18:56 [INFO] Aguardando 2.59s...
+2026-09-03 16:18:58 [INFO] [21/47] ID: https://economia.uol.com.br/noticias/redacao/2026/09/03/banco-central-decreta-liquidacao-extrajudicial-da-trustee-e-da-banvox.ghtm
+2026-09-03 16:18:58 [INFO] Título: BC liquida Trustee e Banvox, ligadas a Master e Vorcaro - UOL Economia
+2026-09-03 16:18:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:18:59 [INFO] Classificação: enviar
+2026-09-03 16:18:59 [INFO] Aguardando 2.78s...
+2026-09-03 16:19:01 [INFO] [22/47] ID: https://valor.globo.com/financas/noticia/2026/09/03/bc-decreta-liquidacao-extrajudicial-de-duas-distribuidoras-de-titulos-e-valores-mobiliarios.ghtml
+2026-09-03 16:19:01 [INFO] Título: BC decreta liquidação <b>extrajudicial</b> de empresas de ex-sócio de Vorcaro no Banco Master
+2026-09-03 16:19:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:02 [INFO] Classificação: enviar
+2026-09-03 16:19:02 [INFO] Aguardando 2.34s...
+2026-09-03 16:19:04 [INFO] [23/47] ID: https://www.infomoney.com.br/economia/banco-central-decreta-liquidacao-extrajudicial-das-distribuidoras-trustee-e-banvox/
+2026-09-03 16:19:04 [INFO] Título: Banco Central decreta liquidação <b>extrajudicial</b> das distribuidoras Trustee e Banvox
+2026-09-03 16:19:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:05 [INFO] Classificação: enviar
+2026-09-03 16:19:05 [INFO] Aguardando 2.61s...
+2026-09-03 16:19:07 [INFO] [24/47] ID: https://www.bnews.com.br/noticias/economia-e-mercado/bc-decreta-liquidacao-extrajudicial-de-corretoras-ligadas-ao-banco-master.html
+2026-09-03 16:19:07 [INFO] Título: BC decreta liquidação <b>extrajudicial</b> de corretoras ligadas ao banco Master - Bnews
+2026-09-03 16:19:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:08 [INFO] Classificação: enviar
+2026-09-03 16:19:08 [INFO] Aguardando 2.81s...
+2026-09-03 16:19:10 [INFO] [25/47] ID: https://midiamax.com.br/politica/transparencia/2026/bc-decreta-liquidacao-financeiras-ligadas-teia-master-agronegocio-ms/
+2026-09-03 16:19:10 [INFO] Título: BC decreta liquidação de financeiras ligadas à teia do Master e ao agronegócio em MS
+2026-09-03 16:19:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:11 [INFO] Classificação: enviar
+2026-09-03 16:19:11 [INFO] Aguardando 2.77s...
+2026-09-03 16:19:13 [INFO] [26/47] ID: https://www.campograndenews.com.br/colunistas/entre-risco-e-decisao/o-que-esta-acontecendo-com-as-empresas-brasileiras
+2026-09-03 16:19:13 [INFO] Título: O que está acontecendo com as empresas brasileiras?
+2026-09-03 16:19:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:14 [INFO] Classificação: nao_enviar
+2026-09-03 16:19:14 [INFO] Aguardando 2.57s...
+2026-09-03 16:19:16 [INFO] [27/47] ID: https://investnews.com.br/financas/banco-central-decreta-liquidacao-extrajudicial-de-duas-distribuidoras-ligadas-ao-caso-master/
+2026-09-03 16:19:16 [INFO] Título: Banco Central decreta liquidação <b>extrajudicial</b> de duas distribuidoras ligadas ao caso Master
+2026-09-03 16:19:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:17 [INFO] Classificação: enviar
+2026-09-03 16:19:17 [INFO] Aguardando 2.82s...
+2026-09-03 16:19:19 [INFO] [28/47] ID: https://gauchazh.clicrbs.com.br/economia/noticia/2026/09/banco-central-decreta-liquidacao-de-corretoras-ligadas-a-ex-socio-do-banco-master-cmtlhc2je01ci011je83i2txl.html
+2026-09-03 16:19:19 [INFO] Título: Banco Central decreta liquidação de corretoras ligadas a ex-sócio do Banco Master | GZH
+2026-09-03 16:19:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:20 [INFO] Classificação: enviar
+2026-09-03 16:19:20 [INFO] Aguardando 2.75s...
+2026-09-03 16:19:22 [INFO] [29/47] ID: https://timesbrasil.com.br/brasil/economia-brasileira/banco-central-decreta-liquidacao-extrajudicial-de-trustee-e-banvox-em-sao-paulo/
+2026-09-03 16:19:22 [INFO] Título: Banco Central decreta liquidação <b>extrajudicial</b> de Trustee e Banvox em São Paulo
+2026-09-03 16:19:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:23 [INFO] Classificação: enviar
+2026-09-03 16:19:23 [INFO] Aguardando 2.76s...
+2026-09-03 16:19:25 [INFO] [30/47] ID: https://conjur.com.br/2026-set-03/execucao-fiscal-das-anuidades-dos-conselhos-profissionais-tendencia-a-cobranca-extrajudicial/
+2026-09-03 16:19:25 [INFO] Título: Execução fiscal das anuidades dos conselhos profissionais: cobrança <b>extrajudicial</b> - Conjur
+2026-09-03 16:19:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:28 [INFO] Classificação: nao_enviar
+2026-09-03 16:19:28 [INFO] Aguardando 0.14s...
+2026-09-03 16:19:28 [INFO] [31/47] ID: https://www.bloomberglinea.com.br/brasil/banco-central-determina-liquidacao-de-duas-gestoras-ligadas-ao-banco-master/
+2026-09-03 16:19:28 [INFO] Título: Banco Central determina <b>liquidação</b> de duas gestoras ligadas ao Banco Master
+2026-09-03 16:19:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:29 [INFO] Classificação: enviar
+2026-09-03 16:19:29 [INFO] Aguardando 2.65s...
+2026-09-03 16:19:31 [INFO] [32/47] ID: https://www.folhape.com.br/economia/bc-determina-liquidacao-de-duas-gestoras-ligadas-ao-caso-master/510444/
+2026-09-03 16:19:31 [INFO] Título: BC determina <b>liquidação</b> de duas gestoras ligadas ao caso Master - Folha PE
+2026-09-03 16:19:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:32 [INFO] Classificação: enviar
+2026-09-03 16:19:32 [INFO] Aguardando 2.62s...
+2026-09-03 16:19:34 [INFO] [33/47] ID: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tem-investimento-da-banvox-na-carteira-veja-o-que-fazer-agora-apos-liquidacao-decretada-pelo-bc/
+2026-09-03 16:19:34 [INFO] Título: Tem investimento da Banvox na carteira? Veja o que fazer agora após <b>liquidação</b> decretada pelo BC
+2026-09-03 16:19:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:35 [INFO] Classificação: nao_enviar
+2026-09-03 16:19:35 [INFO] Aguardando 2.58s...
+2026-09-03 16:19:37 [INFO] [34/47] ID: https://www.noticiamax.com.br/economia/bc-decreta-liquidacao-de-corretoras-ligadas-a-ex-socio-do-banco-master/197336
+2026-09-03 16:19:37 [INFO] Título: BC decreta <b>liquidação</b> de corretoras ligadas a ex-sócio do Banco Master | Notícia Max
+2026-09-03 16:19:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:40 [INFO] Classificação: enviar
+2026-09-03 16:19:40 [INFO] Aguardando 0.80s...
+2026-09-03 16:19:40 [INFO] [35/47] ID: https://investidor10.com.br/noticias/bc-liquida-mais-duas-instituicoes-ligadas-ao-banco-master-conheca-122430/
+2026-09-03 16:19:40 [INFO] Título: BC liquida mais duas instituições ligadas ao Banco Master; conheça - Investidor10
+2026-09-03 16:19:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:41 [INFO] Classificação: enviar
+2026-09-03 16:19:41 [INFO] Aguardando 2.85s...
+2026-09-03 16:19:43 [INFO] [36/47] ID: https://iclnoticias.com.br/economia/bc-liquida-distribuidoras-de-titulos/
+2026-09-03 16:19:43 [INFO] Título: BC liquida distribuidoras de títulos Trustee e Banvox, ligadas a ex-sócio do Master
+2026-09-03 16:19:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:44 [INFO] Classificação: enviar
+2026-09-03 16:19:44 [INFO] Aguardando 2.77s...
+2026-09-03 16:19:46 [INFO] [37/47] ID: https://www.cnnbrasil.com.br/economia/money/macroeconomia/bc-decreta-liquidacao-da-trustee-e-da-banvox/
+2026-09-03 16:19:46 [INFO] Título: BC decreta <b>liquidação</b> da Trustee e da Banvox, de ex-sócio do Master | CNN Brasil
+2026-09-03 16:19:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:47 [INFO] Classificação: enviar
+2026-09-03 16:19:47 [INFO] Aguardando 2.72s...
+2026-09-03 16:19:49 [INFO] [38/47] ID: https://www.brasil247.com/brasil/vorcaro-se-encontrou-com-ceo-do-metropoles-no-dia-da-prisao-apontam-mensagens/
+2026-09-03 16:19:49 [INFO] Título: Vorcaro se encontrou com CEO do Metrópoles no dia da prisão, apontam mensagens
+2026-09-03 16:19:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:50 [INFO] Classificação: nao_enviar
+2026-09-03 16:19:50 [INFO] Aguardando 2.03s...
+2026-09-03 16:19:52 [INFO] [39/47] ID: https://www.itatiaia.com.br/politica/caso-master-banco-central-liquida-trustee-e-banvox/
+2026-09-03 16:19:52 [INFO] Título: Caso Master: Banco Central liquida Trustee e Banvox - Rádio Itatiaia
+2026-09-03 16:19:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:53 [INFO] Classificação: enviar
+2026-09-03 16:19:53 [INFO] Aguardando 2.44s...
+2026-09-03 16:19:55 [INFO] [40/47] ID: https://capitalaberto.com.br/empresas/2026/09/bc-decreta-liquidacao-da-trustee-e-banvox-ligadas-ao-master
+2026-09-03 16:19:55 [INFO] Título: BC decreta <b>liquidação</b> da Trustee e Banvox, ligadas ao Master - Capital Aberto
+2026-09-03 16:19:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:56 [INFO] Classificação: enviar
+2026-09-03 16:19:56 [INFO] Aguardando 2.73s...
+2026-09-03 16:19:58 [INFO] [41/47] ID: https://spdiario.com.br/noticias/economia/banco-central-liquida-trustee-e-banvox-corretoras-ligadas-ao-grupo-master.html
+2026-09-03 16:19:58 [INFO] Título: Banco Central liquida Trustee e Banvox, corretoras ligadas ao grupo Master
+2026-09-03 16:19:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:19:59 [INFO] Classificação: enviar
+2026-09-03 16:19:59 [INFO] Aguardando 2.74s...
+2026-09-03 16:20:01 [INFO] [42/47] ID: https://valorinveste.globo.com/produtos/renda-fixa/tesouro-direto/noticia/2026/09/03/para-onde-foram-os-bilhoes-de-reais-do-vencimento-de-titulos-do-tesouro.ghtml
+2026-09-03 16:20:01 [INFO] Título: Para onde foram os bilhões de reais do vencimento de títulos do Tesouro? - Valor Investe
+2026-09-03 16:20:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:20:02 [INFO] Classificação: nao_enviar
+2026-09-03 16:20:02 [INFO] Aguardando 2.65s...
+2026-09-03 16:20:04 [INFO] [43/47] ID: https://www.terra.com.br/economia/bc-decreta-liquidacao-das-corretoras-trustee-e-banvox-ligadas-ao-caso-do-banco-master,51c1f6de237b10b80245c3bd332cbcbc2jlinto6.html
+2026-09-03 16:20:04 [INFO] Título: BC decreta <b>liquidação</b> das corretoras Trustee e Banvox, ligadas ao caso do Banco Master
+2026-09-03 16:20:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:20:05 [INFO] Classificação: enviar
+2026-09-03 16:20:05 [INFO] Aguardando 2.68s...
+2026-09-03 16:20:07 [INFO] [44/47] ID: https://obastidor.com.br/economia/enquadrado-pelo-bc/
+2026-09-03 16:20:07 [INFO] Título: EnQuadrado pelo BC - O Bastidor
+2026-09-03 16:20:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:20:08 [INFO] Classificação: nao_enviar
+2026-09-03 16:20:08 [INFO] Aguardando 2.71s...
+2026-09-03 16:20:10 [INFO] [45/47] ID: https://sbtnews.sbt.com.br/noticia/politica/pgr-fecha-delacao-com-empresario-do-caso-dark-horse
+2026-09-03 16:20:10 [INFO] Título: PGR fecha delação com empresário do caso Dark Horse - SBT News
+2026-09-03 16:20:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:20:11 [INFO] Classificação: nao_enviar
+2026-09-03 16:20:11 [INFO] Aguardando 2.80s...
+2026-09-03 16:20:13 [INFO] [46/47] ID: https://www.brasil247.com/brasil/andre-mendonca-recebe-delacao-bomba-que-implode-todo-o-cla-bolsonaro/
+2026-09-03 16:20:13 [INFO] Título: André Mendonça recebe delação-bomba que implode todo o clã Bolsonaro - Brasil 247
+2026-09-03 16:20:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:20:14 [INFO] Classificação: nao_enviar
+2026-09-03 16:20:14 [INFO] Aguardando 2.65s...
+2026-09-03 16:20:16 [INFO] [47/47] ID: https://veja.abril.com.br/economia/banco-central-liquida-distribuidoras-de-titulos-trustee-e-banvox-ligadas-ao-master/
+2026-09-03 16:20:16 [INFO] Título: BC liquida distribuidoras de títulos ligadas a Maurício Quadrado, ex-sócio do Master | VEJA
+2026-09-03 16:20:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 16:20:17 [INFO] Classificação: enviar
+2026-09-03 16:20:17 [INFO] ======================================================================
+2026-09-03 16:20:17 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-03 16:20:17 [INFO] ======================================================================
+2026-09-03 16:20:17 [INFO] Processadas: 47
+2026-09-03 16:20:17 [INFO] Enviar: 29
+2026-09-03 16:20:17 [INFO] Não enviar: 18
+2026-09-03 16:20:17 [INFO] ======================================================================
