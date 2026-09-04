@@ -16276,3 +16276,56 @@
 2026-09-03 22:30:12 [INFO] Enviar: 14
 2026-09-03 22:30:12 [INFO] Não enviar: 6
 2026-09-03 22:30:12 [INFO] ======================================================================
+2026-09-04 00:54:26 [INFO] ======================================================================
+2026-09-04 00:54:26 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-04 00:54:26 [INFO] ======================================================================
+2026-09-04 00:54:26 [INFO] Notícias com status 'extraida': 8
+2026-09-04 00:54:26 [INFO] Limite: 20 requisições/minuto
+2026-09-04 00:54:26 [INFO] Intervalo mínimo: 3.0s
+2026-09-04 00:54:26 [INFO] ======================================================================
+2026-09-04 00:54:26 [INFO] [1/8] ID: https://jurinews.com.br/destaque-nacional/stj-estabelece-criterios-para-honorarios-em-recuperacao-judicial-e-falencia
+2026-09-04 00:54:26 [INFO] Título: STJ estabelece critérios para honorários em <b>recuperação judicial</b> e falência - Jurinews
+2026-09-04 00:54:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 00:54:27 [INFO] Classificação: enviar
+2026-09-04 00:54:27 [INFO] Aguardando 2.71s...
+2026-09-04 00:54:29 [INFO] [2/8] ID: https://valor.globo.com/financas/noticia/2026/09/03/tudo-no-brasil-para-dar-certo-tem-que-ter-banco-diz-presidente-da-cvm.ghtml
+2026-09-04 00:54:29 [INFO] Título: 'Tudo no Brasil, para dar certo, tem que ter banco', diz presidente da CVM | Finanças
+2026-09-04 00:54:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 00:54:30 [INFO] Classificação: nao_enviar
+2026-09-04 00:54:30 [INFO] Aguardando 2.59s...
+2026-09-04 00:54:32 [INFO] [3/8] ID: https://oglobo.globo.com/google/amp/blogs/diogo-dantas/coluna/2026/09/justica-libera-vasco-para-contratar-e-permite-negociacoes-acima-de-r-59-milhoes-com-pagamento-futuro.ghtml
+2026-09-04 00:54:32 [INFO] Título: Justiça libera Vasco para contratar e permite negociações acima de R$ 5,9 milhões com ...
+2026-09-04 00:54:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 00:54:33 [INFO] Classificação: nao_enviar
+2026-09-04 00:54:33 [INFO] Aguardando 2.75s...
+2026-09-04 00:54:35 [INFO] [4/8] ID: https://investalk.bb.com.br/noticias/mercado/renda-fixa-credito-privado-set26
+2026-09-04 00:54:35 [INFO] Título: Renda fixa e crédito privado: relatório mensal (09/2026) - BB InvesTalk - Banco do Brasil
+2026-09-04 00:54:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 00:54:36 [INFO] Classificação: nao_enviar
+2026-09-04 00:54:36 [INFO] Aguardando 2.78s...
+2026-09-04 00:54:38 [INFO] [5/8] ID: https://aciara.com.br/bc-decreta-liquidacao-da-trustee-da-banvox/
+2026-09-04 00:54:38 [INFO] Título: BC decreta liquidação da Trustee e da Banvox - Associação Comercial e Industrial de Araçatuba
+2026-09-04 00:54:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 00:54:39 [INFO] Classificação: enviar
+2026-09-04 00:54:39 [INFO] Aguardando 2.67s...
+2026-09-04 00:54:41 [INFO] [6/8] ID: https://aciara.com.br/bc-decreta-liquidacao-extrajudicial-da-trustee-banvox/
+2026-09-04 00:54:41 [INFO] Título: BC decreta liquidação <b>extrajudicial</b> da Trustee Banvox - Acia Araçatuba
+2026-09-04 00:54:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 00:54:42 [INFO] Classificação: enviar
+2026-09-04 00:54:42 [INFO] Aguardando 2.70s...
+2026-09-04 00:54:44 [INFO] [7/8] ID: https://veronoticias.com/economia/exclusivo-em-meio-a-crise-financeira-brb-prepara-pdv-para-cortar-ate-20-dos-funcionarios/
+2026-09-04 00:54:44 [INFO] Título: Exclusivo: Em meio à crise financeira, BRB prepara PDV para cortar até 20% dos funcionários
+2026-09-04 00:54:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 00:54:45 [INFO] Classificação: nao_enviar
+2026-09-04 00:54:45 [INFO] Aguardando 2.65s...
+2026-09-04 00:54:47 [INFO] [8/8] ID: https://gmconline.com.br/economia/banco-central-decreta-liquidacao-extrajudicial-das-distribuidoras-trustee-e-banvox/
+2026-09-04 00:54:47 [INFO] Título: Banco Central decreta <b>liquidação extrajudicial</b> das distribuidoras Trustee e Banvox
+2026-09-04 00:54:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 00:54:48 [INFO] Classificação: enviar
+2026-09-04 00:54:48 [INFO] ======================================================================
+2026-09-04 00:54:48 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-04 00:54:48 [INFO] ======================================================================
+2026-09-04 00:54:48 [INFO] Processadas: 8
+2026-09-04 00:54:48 [INFO] Enviar: 4
+2026-09-04 00:54:48 [INFO] Não enviar: 4
+2026-09-04 00:54:48 [INFO] ======================================================================
