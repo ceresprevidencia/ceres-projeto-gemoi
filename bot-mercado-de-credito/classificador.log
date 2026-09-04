@@ -16618,3 +16618,156 @@
 2026-09-04 16:15:28 [INFO] Enviar: 15
 2026-09-04 16:15:28 [INFO] Não enviar: 26
 2026-09-04 16:15:28 [INFO] ======================================================================
+2026-09-04 19:23:08 [INFO] ======================================================================
+2026-09-04 19:23:08 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-04 19:23:08 [INFO] ======================================================================
+2026-09-04 19:23:08 [INFO] Notícias com status 'extraida': 28
+2026-09-04 19:23:08 [INFO] Limite: 20 requisições/minuto
+2026-09-04 19:23:08 [INFO] Intervalo mínimo: 3.0s
+2026-09-04 19:23:08 [INFO] ======================================================================
+2026-09-04 19:23:08 [INFO] [1/28] ID: https://www.seudinheiro.com/2026/empresas/casas-bahia-habibs-e-mais-por-que-tantas-empresas-no-brasil-estao-quebrando-mlim/
+2026-09-04 19:23:08 [INFO] Título: Casas Bahia, Habib's e mais: por que tantas empresas no Brasil estão quebrando?
+2026-09-04 19:23:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:08 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:08 [INFO] Aguardando 2.48s...
+2026-09-04 19:23:11 [INFO] [2/28] ID: https://investnews.com.br/negocios/recuperacao-judicial-bate-recorde/
+2026-09-04 19:23:11 [INFO] Título: <b>Recuperação judicial</b> bate recorde no Brasil — veja as 5 maiores RJs da história
+2026-09-04 19:23:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:11 [INFO] Classificação: enviar
+2026-09-04 19:23:11 [INFO] Aguardando 2.72s...
+2026-09-04 19:23:14 [INFO] [3/28] ID: https://www.fecomercio.com.br/noticia/irresponsabilidade-fiscal-limita-o-crescimento
+2026-09-04 19:23:14 [INFO] Título: Irresponsabilidade fiscal limita o crescimento - Fecomercio
+2026-09-04 19:23:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:14 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:14 [INFO] Aguardando 2.69s...
+2026-09-04 19:23:17 [INFO] [4/28] ID: https://www.administradores.com.br/artigos/brasil-registra-mais-de-6-mil-empresas-em-recuperacao-judicial-no-1o-semestre
+2026-09-04 19:23:17 [INFO] Título: Brasil registra mais de 6 mil empresas em <b>recuperação judicial</b> no 1º semestre
+2026-09-04 19:23:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:17 [INFO] Classificação: enviar
+2026-09-04 19:23:17 [INFO] Aguardando 2.71s...
+2026-09-04 19:23:20 [INFO] [5/28] ID: https://conjur.com.br/2026-set-04/stj-define-criterios-para-honorarios-em-casos-de-credito-em-rj-e-falencias/
+2026-09-04 19:23:20 [INFO] Título: STJ define critérios para sucumbência em casos de crédito em RJ e falências - Conjur
+2026-09-04 19:23:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:20 [INFO] Classificação: enviar
+2026-09-04 19:23:20 [INFO] Aguardando 2.75s...
+2026-09-04 19:23:23 [INFO] [6/28] ID: https://www.cnnbrasil.com.br/economia/money/negocios/habibs-e-casas-bahia-qual-impacto-das-recuperacoes-judiciais-na-economia/
+2026-09-04 19:23:23 [INFO] Título: Habib's e Casas Bahia: Qual impacto das recuperações <b>judiciais</b> na economia?
+2026-09-04 19:23:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:23 [INFO] Classificação: enviar
+2026-09-04 19:23:23 [INFO] Aguardando 2.72s...
+2026-09-04 19:23:26 [INFO] [7/28] ID: https://revistapegn.globo.com/franquias/noticia/2026/09/sozinho-voce-nao-consegue-fazer-nada-diz-caito-maia-apos-anuncio-de-novo-vp-da-chilli-beans.ghtml
+2026-09-04 19:23:26 [INFO] Título: 'Sozinho você não consegue fazer nada', diz Caito Maia após anúncio de novo VP da Chilli Beans
+2026-09-04 19:23:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:26 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:26 [INFO] Aguardando 2.82s...
+2026-09-04 19:23:29 [INFO] [8/28] ID: https://businessmoment.com.br/chilli-beans-novo-vice-presidente-recuperacao-judicial/?amp=1
+2026-09-04 19:23:29 [INFO] Título: Chilli Beans reforça gestão financeira com novo vice-presidente e nega <b>recuperação judicial</b>
+2026-09-04 19:23:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:29 [INFO] Classificação: enviar
+2026-09-04 19:23:29 [INFO] Aguardando 2.69s...
+2026-09-04 19:23:32 [INFO] [9/28] ID: https://conexaoto.com.br/2026/09/04/stf-fecha-a-porta-da-recuperacao-judicial-para-devedores-contumazes
+2026-09-04 19:23:32 [INFO] Título: STF fecha a porta da <b>recuperação judicial</b> para devedores contumazes - Conexão Tocantins
+2026-09-04 19:23:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:32 [INFO] Classificação: enviar
+2026-09-04 19:23:32 [INFO] Aguardando 2.42s...
+2026-09-04 19:23:35 [INFO] [10/28] ID: https://aciara.com.br/anatel-aprova-venda-da-oi-metodo-com-condicoes/
+2026-09-04 19:23:35 [INFO] Título: Anatel aprova venda da Oi à Método com condições - Acia Araçatuba
+2026-09-04 19:23:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:36 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:36 [INFO] Aguardando 1.25s...
+2026-09-04 19:23:38 [INFO] [11/28] ID: https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/04/empresario-e-perito-de-dark-horse-quem-e-responsavel-por-pericia-da-arena.ghtm
+2026-09-04 19:23:38 [INFO] Título: Empresário e perito de Dark Horse: quem está por trás da perícia da Arena - UOL
+2026-09-04 19:23:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:38 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:38 [INFO] Aguardando 2.62s...
+2026-09-04 19:23:41 [INFO] [12/28] ID: https://centraldovarejo.com.br/por-que-o-japao/
+2026-09-04 19:23:41 [INFO] Título: Por que o Japão? - Central do Varejo
+2026-09-04 19:23:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:41 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:41 [INFO] Aguardando 2.69s...
+2026-09-04 19:23:44 [INFO] [13/28] ID: https://exame.com/esferabrasil/credito-caro-dificuldade-de-refinanciamento-e-queda-no-caixa-aumentam-a-pressao-sobre-empresas/
+2026-09-04 19:23:44 [INFO] Título: Crédito caro, dificuldade de refinanciamento e queda no caixa aumentam a pressão sobre empresas
+2026-09-04 19:23:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:44 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:44 [INFO] Aguardando 2.63s...
+2026-09-04 19:23:47 [INFO] [14/28] ID: https://conteudos.xpi.com.br/renda-fixa/relatorios/de-olho-nos-ratings-setembro-2026/
+2026-09-04 19:23:47 [INFO] Título: De Olho nos Ratings | Setembro 2026 - XP Investimentos
+2026-09-04 19:23:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:47 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:47 [INFO] Aguardando 2.68s...
+2026-09-04 19:23:50 [INFO] [15/28] ID: https://www.supervarejo.com.br/gestao/grupo-pao-de-acucar-anuncia-dois-novos-diretores-executivos
+2026-09-04 19:23:50 [INFO] Título: Grupo Pão de Açúcar anuncia dois novos diretores executivos - SuperVarejo
+2026-09-04 19:23:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:50 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:50 [INFO] Aguardando 2.68s...
+2026-09-04 19:23:53 [INFO] [16/28] ID: https://www.broadcast.com.br/ultimas-noticias/liquidante-do-master-amplia-rastreamento-de-ativos-de-vorcaro-nos-eua/
+2026-09-04 19:23:53 [INFO] Título: Liquidante do Master amplia rastreamento de ativos de Vorcaro nos EUA - Broadcast
+2026-09-04 19:23:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:53 [INFO] Classificação: enviar
+2026-09-04 19:23:53 [INFO] Aguardando 2.70s...
+2026-09-04 19:23:56 [INFO] [17/28] ID: https://g1.globo.com/sp/sao-paulo/noticia/2026/09/04/credcesta-ligado-ao-master-ficou-habilitado-por-3-anos-no-governo-tarcisio-e-movimentava-r-25-milhoes-por-mes-diz-governador.ghtml
+2026-09-04 19:23:56 [INFO] Título: Credcesta, ligado ao Master, ficou habilitado por 3 anos no governo Tarcísio e movimentava ... - G1
+2026-09-04 19:23:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:56 [INFO] Classificação: nao_enviar
+2026-09-04 19:23:56 [INFO] Aguardando 2.51s...
+2026-09-04 19:23:59 [INFO] [18/28] ID: https://valor.globo.com/financas/noticia/2026/09/04/liquidadas-pelo-bc-trustee-e-banvox-administravam-r-141-bilhes-em-fdics.ghtml
+2026-09-04 19:23:59 [INFO] Título: Liquidadas pelo BC, Trustee e Banvox administravam R$ 14,1 bilhões em FDICs | Finanças
+2026-09-04 19:23:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:23:59 [INFO] Classificação: enviar
+2026-09-04 19:23:59 [INFO] Aguardando 2.20s...
+2026-09-04 19:24:02 [INFO] [19/28] ID: https://www.bnews.com.br/noticias/politica/mendonca-apresenta-notas-de-r-26-mil-apos-suspeitas-de-ter-recebido-terno-como-presente-de-vorcaro.html
+2026-09-04 19:24:02 [INFO] Título: Mendonça apresenta notas de R$ 26 mil após suspeitas de ter recebido terno como ... - Bnews
+2026-09-04 19:24:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:02 [INFO] Classificação: nao_enviar
+2026-09-04 19:24:02 [INFO] Aguardando 2.75s...
+2026-09-04 19:24:05 [INFO] [20/28] ID: https://www.moneytimes.com.br/payroll-eua-abrem-162-mil-vagas-de-emprego-em-agosto-taxa-de-desemprego-permanece-em-41-jcav/
+2026-09-04 19:24:05 [INFO] Título: Payroll: EUA abrem 162 mil vagas de emprego em agosto - Money Times
+2026-09-04 19:24:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:05 [INFO] Classificação: nao_enviar
+2026-09-04 19:24:05 [INFO] Aguardando 2.69s...
+2026-09-04 19:24:08 [INFO] [21/28] ID: https://aciara.com.br/xp-alerta-para-pressao-em-teses-de-csn-csna3-cmin3/
+2026-09-04 19:24:08 [INFO] Título: XP alerta para pressão em teses de CSN CSNA3 e CMIN3 - Acia Araçatuba
+2026-09-04 19:24:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:08 [INFO] Classificação: nao_enviar
+2026-09-04 19:24:08 [INFO] Aguardando 2.67s...
+2026-09-04 19:24:11 [INFO] [22/28] ID: https://www.em.com.br/colunistas/bertha-maakaroun/2026/09/7493664-quem-serao-os-proximos.html
+2026-09-04 19:24:11 [INFO] Título: Quem serão os próximos? - Estado de Minas
+2026-09-04 19:24:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:11 [INFO] Classificação: nao_enviar
+2026-09-04 19:24:11 [INFO] Aguardando 2.58s...
+2026-09-04 19:24:14 [INFO] [23/28] ID: https://valor.globo.com/google/amp/impresso/noticia/2026/09/04/bc-liquida-mais-duas-instituicoes-ligadas-ao-master.ghtml
+2026-09-04 19:24:14 [INFO] Título: BC liquida mais duas instituições ligadas ao Master | Impresso - Valor Econômico
+2026-09-04 19:24:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:14 [INFO] Classificação: enviar
+2026-09-04 19:24:14 [INFO] Aguardando 2.63s...
+2026-09-04 19:24:17 [INFO] [24/28] ID: https://ndmais.com.br/justica/tenho-passado-um-terror-algo-desumano-diz-vorcaro-em-depoimento-a-pf/
+2026-09-04 19:24:17 [INFO] Título: 'Tenho passado um terror, algo desumano', diz Vorcaro em depoimento à PF - ND Mais
+2026-09-04 19:24:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:17 [INFO] Classificação: nao_enviar
+2026-09-04 19:24:17 [INFO] Aguardando 2.71s...
+2026-09-04 19:24:20 [INFO] [25/28] ID: https://www.itatiaia.com.br/politica/tarcisio-e-kassab-se-pronunciam-sobre-acusacoes-feitas-por-vorcaro-em-delacao/
+2026-09-04 19:24:20 [INFO] Título: Tarcísio e Kassab se pronunciam sobre acusações feitas por Vorcaro em delação
+2026-09-04 19:24:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:20 [INFO] Classificação: nao_enviar
+2026-09-04 19:24:20 [INFO] Aguardando 2.72s...
+2026-09-04 19:24:23 [INFO] [26/28] ID: https://www.cnnbrasil.com.br/blogs/matheus-teixeira/politica/doacao-a-bolsonaro-e-tarcisio-eram-propina-acertada-por-kassab-diz-vorcaro/
+2026-09-04 19:24:23 [INFO] Título: Doação a Bolsonaro e Tarcísio eram propina acertada por Kassab, diz Vorcaro - CNN Brasil
+2026-09-04 19:24:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:23 [INFO] Classificação: nao_enviar
+2026-09-04 19:24:23 [INFO] Aguardando 2.85s...
+2026-09-04 19:24:26 [INFO] [27/28] ID: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/tem-investimento-da-trustee-na-carteira-veja-o-que-fazer-agora-apos-liquidacao-do-bc/
+2026-09-04 19:24:26 [INFO] Título: Tem investimento da Trustee na carteira? Veja o que fazer agora após <b>liquidação</b> do BC
+2026-09-04 19:24:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:26 [INFO] Classificação: enviar
+2026-09-04 19:24:26 [INFO] Aguardando 2.57s...
+2026-09-04 19:24:29 [INFO] [28/28] ID: https://www.moneytimes.com.br/safra-faz-mudancas-na-carteira-de-acoes-para-setembro-confira-quem-entrou-e-quem-saiu-lils/
+2026-09-04 19:24:29 [INFO] Título: Safra faz mudanças na carteira de ações para setembro; confira quem entrou e quem saiu
+2026-09-04 19:24:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 19:24:29 [INFO] Classificação: nao_enviar
+2026-09-04 19:24:29 [INFO] ======================================================================
+2026-09-04 19:24:29 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-04 19:24:29 [INFO] ======================================================================
+2026-09-04 19:24:29 [INFO] Processadas: 28
+2026-09-04 19:24:29 [INFO] Enviar: 10
+2026-09-04 19:24:29 [INFO] Não enviar: 18
+2026-09-04 19:24:29 [INFO] ======================================================================
