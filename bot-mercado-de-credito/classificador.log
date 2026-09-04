@@ -16400,3 +16400,221 @@
 2026-09-04 11:05:22 [INFO] Enviar: 1
 2026-09-04 11:05:22 [INFO] Não enviar: 1
 2026-09-04 11:05:22 [INFO] ======================================================================
+2026-09-04 16:13:26 [INFO] ======================================================================
+2026-09-04 16:13:26 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-04 16:13:26 [INFO] ======================================================================
+2026-09-04 16:13:26 [INFO] Notícias com status 'extraida': 41
+2026-09-04 16:13:26 [INFO] Limite: 20 requisições/minuto
+2026-09-04 16:13:26 [INFO] Intervalo mínimo: 3.0s
+2026-09-04 16:13:26 [INFO] ======================================================================
+2026-09-04 16:13:26 [INFO] [1/41] ID: https://www.extraclasse.org.br/educacao/2026/09/sindicato-questiona-no-trt-4-reducao-salarial-pejotizacao-e-passivo-de-r-200-milhoes-na-rj-da-ulbra/
+2026-09-04 16:13:26 [INFO] Título: Sindicato questiona no TRT-4 redução salarial, pejotização e passivo de R$ 200 milhões na ...
+2026-09-04 16:13:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:27 [INFO] Classificação: nao_enviar
+2026-09-04 16:13:27 [INFO] Aguardando 2.67s...
+2026-09-04 16:13:29 [INFO] [2/41] ID: https://www.fatosdematogrosso.com.br/geral/justica-manda-pf-cvm-e-banco-central-apurarem-indicios-de-crime-financeiro-em-recuperacao-de-r-178-bilhao/15587
+2026-09-04 16:13:29 [INFO] Título: Justiça manda PF, CVM e Banco Central apurarem indícios de crime financeiro em ...
+2026-09-04 16:13:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:30 [INFO] Classificação: nao_enviar
+2026-09-04 16:13:30 [INFO] Aguardando 2.77s...
+2026-09-04 16:13:32 [INFO] [3/41] ID: https://www.theagribiz.com/credito-rural/nova-fronteira-de-mato-grosso-aprova-plano-de-recuperacao-com-desagio-medio-de-70/
+2026-09-04 16:13:32 [INFO] Título: Nova Fronteira aprova plano de <b>recuperação</b> com deságio de 70% - The AgriBiz
+2026-09-04 16:13:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:33 [INFO] Classificação: enviar
+2026-09-04 16:13:33 [INFO] Aguardando 2.63s...
+2026-09-04 16:13:35 [INFO] [4/41] ID: https://www.cnj.jus.br/webinario-apresenta-ferramentas-de-ia-para-o-judiciario/
+2026-09-04 16:13:35 [INFO] Título: Webinário apresenta ferramentas de IA para o Judiciário - Portal CNJ
+2026-09-04 16:13:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:36 [INFO] Classificação: nao_enviar
+2026-09-04 16:13:36 [INFO] Aguardando 2.68s...
+2026-09-04 16:13:38 [INFO] [5/41] ID: https://agfeed.com.br/negocios/conselho-da-fertilizantes-heringer-ja-ve-recuperacao-extrajudicial-como-opcao
+2026-09-04 16:13:38 [INFO] Título: Conselho da Fertilizantes Heringer já vê <b>recuperação</b> extrajudicial como opção - AgFeed
+2026-09-04 16:13:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:39 [INFO] Classificação: enviar
+2026-09-04 16:13:39 [INFO] Aguardando 2.80s...
+2026-09-04 16:13:41 [INFO] [6/41] ID: https://www.cnnbrasil.com.br/agro/onda-de-recuperacao-judicial-leva-fazenda-de-r-161-milhoes-a-leilaoil/
+2026-09-04 16:13:41 [INFO] Título: Onda de <b>recuperação judicial</b> leva fazenda de R$ 161 milhões a leilãoil - CNN Brasil
+2026-09-04 16:13:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:42 [INFO] Classificação: enviar
+2026-09-04 16:13:42 [INFO] Aguardando 2.63s...
+2026-09-04 16:13:44 [INFO] [7/41] ID: https://neofeed.com.br/negocios/com-mais-de-r-10-bi-em-dividas-em-aberto-tempo-fecha-para-usinas-solares-de-geracao-distribuida/
+2026-09-04 16:13:44 [INFO] Título: Com mais de R$ 10 bi em dívidas em aberto, tempo fecha para usinas solares de geração ...
+2026-09-04 16:13:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:45 [INFO] Classificação: nao_enviar
+2026-09-04 16:13:45 [INFO] Aguardando 2.60s...
+2026-09-04 16:13:47 [INFO] [8/41] ID: https://www.brasil247.com/tendencias/2026/09/04/familia-compra-cota-de-resort-de-luxo-por-r-60-mil-para-garantir-as-ferias-e-4-anos-depois-ve-o-complexo-entrar-em-recuperacao-judicial-impedindo-reservas-enquanto-as-taxas-de-manutencao-continuam/
+2026-09-04 16:13:47 [INFO] Título: Família compra cota de resort de luxo por R$ 60 mil para garantir as férias e, 4 anos depois ...
+2026-09-04 16:13:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:48 [INFO] Classificação: nao_enviar
+2026-09-04 16:13:48 [INFO] Aguardando 2.64s...
+2026-09-04 16:13:50 [INFO] [9/41] ID: https://www1.folha.uol.com.br/mercado/2026/09/casas-bahia-faz-novo-leilao-com-produtos-armazenados-no-rio-de-janeiro-lances-vao-ate-quarta-feira-9.shtml
+2026-09-04 16:13:50 [INFO] Título: Casas Bahia leiloa eletrônicos no Rio; lances até quarta - 04/09/2026 - Economia - Folha
+2026-09-04 16:13:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:51 [INFO] Classificação: enviar
+2026-09-04 16:13:51 [INFO] Aguardando 2.80s...
+2026-09-04 16:13:53 [INFO] [10/41] ID: https://www.infomoney.com.br/economia/ministro-da-fazenda-culpa-juros-altos-e-mudancas-de-habito-pela-crise-do-varejo/
+2026-09-04 16:13:53 [INFO] Título: Ministro da Fazenda culpa juros altos e mudanças de hábito pela crise do varejo
+2026-09-04 16:13:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:54 [INFO] Classificação: nao_enviar
+2026-09-04 16:13:54 [INFO] Aguardando 2.56s...
+2026-09-04 16:13:56 [INFO] [11/41] ID: https://mercadoeconsumo.com.br/03/09/2026/noticias-varejo/ceo-da-chilli-beans-diz-estar-em-negociacoes-com-parceiros-apos-noticia-sobre-recuperacao-judicial/
+2026-09-04 16:13:56 [INFO] Título: Chilli Beans avança nas negociações com parceiros, afirma CEO - Mercado&Consumo
+2026-09-04 16:13:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:13:57 [INFO] Classificação: nao_enviar
+2026-09-04 16:13:57 [INFO] Aguardando 2.77s...
+2026-09-04 16:13:59 [INFO] [12/41] ID: https://blogs.correiobraziliense.com.br/jusbraziliense/2026/09/03/passivo-trabalhista/
+2026-09-04 16:13:59 [INFO] Título: O passivo trabalhista da média empresa: as decisões de RH que viram execução contra a ...
+2026-09-04 16:14:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:00 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:00 [INFO] Aguardando 2.75s...
+2026-09-04 16:14:02 [INFO] [13/41] ID: https://samais.com.br/publicacoes/retificacao-arc-logistica-e-alimentos-nao-possui-relacao-societaria-com-o-grupo-ricoy
+2026-09-04 16:14:02 [INFO] Título: Retificação: ARC Logística e Alimentos não possui relação societária com o Grupo Ricoy
+2026-09-04 16:14:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:03 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:03 [INFO] Aguardando 2.64s...
+2026-09-04 16:14:05 [INFO] [14/41] ID: https://www.terra.com.br/economia/banco-central-decreta-liquidacao-extrajudicial-da-trustee-dtvm,3ef3218c9caa93d65545721a80762ae2cs0p5q3u.html
+2026-09-04 16:14:05 [INFO] Título: Banco Central decreta liquidação <b>extrajudicial</b> da Trustee DTVM - Terra
+2026-09-04 16:14:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:06 [INFO] Classificação: enviar
+2026-09-04 16:14:06 [INFO] Aguardando 2.71s...
+2026-09-04 16:14:08 [INFO] [15/41] ID: https://www.terra.com.br/economia/banco-central-decreta-liquidacao-extrajudicial-da-banvox-distribuidora-de-titulos,a7a6a5ae646ed751c4b86f92754a38293jn5d0n6.html
+2026-09-04 16:14:08 [INFO] Título: Banco Central decreta liquidação <b>extrajudicial</b> da Banvox Distribuidora de Títulos - Terra
+2026-09-04 16:14:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:09 [INFO] Classificação: enviar
+2026-09-04 16:14:09 [INFO] Aguardando 2.80s...
+2026-09-04 16:14:11 [INFO] [16/41] ID: https://www.agazeta.com.br/es/economia/casas-bahia-trabalhadores-no-es-ainda-nao-receberam-dinheiro-da-rescisao-diz-sindicato-0926
+2026-09-04 16:14:11 [INFO] Título: Casas Bahia: trabalhadores no ES ainda não receberam dinheiro da rescisão, diz sindicato
+2026-09-04 16:14:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:12 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:12 [INFO] Aguardando 2.40s...
+2026-09-04 16:14:14 [INFO] [17/41] ID: https://mossorohoje.com.br/noticias/57141-coluna-opiniao-braskem-uma-decada-de-paralisia-que-o-brasil-nao-pode-repetir
+2026-09-04 16:14:14 [INFO] Título: [COLUNA OPINIÃO] Braskem: uma década de paralisia que o Brasil não pode repetir - Mossoró Hoje
+2026-09-04 16:14:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:15 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:15 [INFO] Aguardando 2.74s...
+2026-09-04 16:14:17 [INFO] [18/41] ID: https://www.sincovaganoticias.com.br/varejo-tem-12-grandes-empresas-em-sinal-de-alerta-financeiro/
+2026-09-04 16:14:17 [INFO] Título: Varejo tem 12 grandes empresas em sinal de alerta financeiro - Sincovaga Notícias
+2026-09-04 16:14:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:18 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:18 [INFO] Aguardando 2.68s...
+2026-09-04 16:14:20 [INFO] [19/41] ID: https://www.reporterdiario.com.br/noticia/3889173/area-tecnica-da-cvm-divulga-oficio-circular-anual-sobre-atuacao-do-auditor-independente/
+2026-09-04 16:14:20 [INFO] Título: Área técnica da CVM divulga Ofício Circular Anual sobre atuação do auditor independente
+2026-09-04 16:14:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:21 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:21 [INFO] Aguardando 2.70s...
+2026-09-04 16:14:23 [INFO] [20/41] ID: https://economia.ig.com.br/2026-09-04/chilli-beans-enfrenta-crise-e-avalia-recuperacao-judicial--veja.html
+2026-09-04 16:14:23 [INFO] Título: Chilli Beans enfrenta crise e avalia recuperação <b>judicial</b>; veja - iG Economia
+2026-09-04 16:14:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:24 [INFO] Classificação: enviar
+2026-09-04 16:14:24 [INFO] Aguardando 2.64s...
+2026-09-04 16:14:26 [INFO] [21/41] ID: https://agfeed.com.br/negocios/conselho-da-fertilizantes-heringer-ja-ve-recuperacao-extrajudicial-como-opcao/
+2026-09-04 16:14:26 [INFO] Título: Conselho da Fertilizantes Heringer já vê recuperação extrajudicial como opção - AgFeed
+2026-09-04 16:14:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:27 [INFO] Classificação: enviar
+2026-09-04 16:14:27 [INFO] Aguardando 2.81s...
+2026-09-04 16:14:29 [INFO] [22/41] ID: https://businessmoment.com.br/chilli-beans-novo-vice-presidente-recuperacao-judicial/
+2026-09-04 16:14:29 [INFO] Título: Chilli Beans reforça gestão financeira com novo vice-presidente e nega recuperação <b>judicial</b>
+2026-09-04 16:14:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:30 [INFO] Classificação: enviar
+2026-09-04 16:14:30 [INFO] Aguardando 2.73s...
+2026-09-04 16:14:32 [INFO] [23/41] ID: https://www.poder360.com.br/poder-eleicoes-2026/renan-santos-diz-que-cury-e-socio-de-empresa-que-tentou-comprar-master/
+2026-09-04 16:14:32 [INFO] Título: Renan Santos diz que Cury é sócio de empresa que tentou comprar Master - Poder360
+2026-09-04 16:14:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:33 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:33 [INFO] Aguardando 2.52s...
+2026-09-04 16:14:35 [INFO] [24/41] ID: https://www.blogdobg.com.br/renan-santos-expoe-ligacao-de-augusto-cury-com-a-fictor-e-investigacoes-do-caso-master/
+2026-09-04 16:14:35 [INFO] Título: Renan Santos expõe ligação de Augusto Cury com a Fictor e investigações do Caso Master
+2026-09-04 16:14:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:38 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:38 [INFO] Aguardando 0.23s...
+2026-09-04 16:14:38 [INFO] [25/41] ID: https://oglobo.globo.com/blogs/diogo-dantas/coluna/2026/09/justica-libera-vasco-para-contratar-e-permite-negociacoes-acima-de-r-59-milhoes-com-pagamento-futuro.ghtml
+2026-09-04 16:14:38 [INFO] Título: Justiça libera Vasco para contratar e permite negociações acima de R$ 5,9 milhões com ...
+2026-09-04 16:14:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:39 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:39 [INFO] Aguardando 2.70s...
+2026-09-04 16:14:41 [INFO] [26/41] ID: https://istoedinheiro.com.br/lotofacil-concurso-3779-dezenas-sorteadas
+2026-09-04 16:14:41 [INFO] Título: Lotofácil: confira o resultado sorteado nesta quinta-feira (3) - ISTOÉ DINHEIRO
+2026-09-04 16:14:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:42 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:42 [INFO] Aguardando 2.61s...
+2026-09-04 16:14:44 [INFO] [27/41] ID: https://conjur.com.br/2026-set-04/stj-autoriza-cooperativa-a-penhorar-as-proprias-cotas-por-divida-de-cooperado/
+2026-09-04 16:14:44 [INFO] Título: STJ autoriza cooperativa de crédito a penhorar as próprias cotas - Conjur
+2026-09-04 16:14:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:45 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:45 [INFO] Aguardando 2.70s...
+2026-09-04 16:14:47 [INFO] [28/41] ID: https://jurinews.com.br/destaque-nacional/pgr-firma-acordo-de-delacao-com-operador-do-caso-master-sobre-o-filme-de-bolsonaro
+2026-09-04 16:14:47 [INFO] Título: PGR firma acordo de colaboração com empresário que fez repasses financeiros para o ''dark horse''
+2026-09-04 16:14:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:48 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:48 [INFO] Aguardando 2.52s...
+2026-09-04 16:14:50 [INFO] [29/41] ID: https://tribunadoplanalto.com.br/em-delacao-rejeitada-vorcaro-associa-doacoes-a-tarcisio-e-bolsonaro-a-propina/
+2026-09-04 16:14:50 [INFO] Título: Em delação rejeitada, Vorcaro associa doações a Tarcísio e Bolsonaro a propina
+2026-09-04 16:14:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:51 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:51 [INFO] Aguardando 2.74s...
+2026-09-04 16:14:53 [INFO] [30/41] ID: https://ibandce.com.br/bc-proibe-publicidade-em-comprovantes-do-pix-a-partir-de-marco-de-2027/
+2026-09-04 16:14:53 [INFO] Título: BC proíbe publicidade em comprovantes do Pix a partir de março de 2027 - iBand CE
+2026-09-04 16:14:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:54 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:54 [INFO] Aguardando 2.62s...
+2026-09-04 16:14:56 [INFO] [31/41] ID: https://www.cnnbrasil.com.br/blogs/elijonasmaia/politica/tenho-passado-um-terror-algo-desumano-diz-vorcaro-a-pf/
+2026-09-04 16:14:56 [INFO] Título: “Tenho passado um terror, algo desumano”, diz Vorcaro à PF | Blogs - CNN Brasil
+2026-09-04 16:14:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:14:57 [INFO] Classificação: nao_enviar
+2026-09-04 16:14:57 [INFO] Aguardando 2.41s...
+2026-09-04 16:14:59 [INFO] [32/41] ID: https://www.plataformamedia.com/2026/09/04/caso-master-quem-e-daniel-vorcaro-e-como-o-banqueiro-chegou-ao-centro-da-crise-no-supremo/
+2026-09-04 16:14:59 [INFO] Título: Caso Master: Quem é Daniel Vorcaro e como o banqueiro chegou ao centro da crise no Supremo?
+2026-09-04 16:15:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:00 [INFO] Classificação: nao_enviar
+2026-09-04 16:15:00 [INFO] Aguardando 2.76s...
+2026-09-04 16:15:02 [INFO] [33/41] ID: https://www.band.com.br/politica/vorcaro-bolsonaro-e-tarcisio-teriam-recebido-propina-negociada-de-kassab
+2026-09-04 16:15:02 [INFO] Título: Tarcísio e Kassab negam relação com Vorcaro após suposto caso de propina - Band
+2026-09-04 16:15:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:03 [INFO] Classificação: nao_enviar
+2026-09-04 16:15:03 [INFO] Aguardando 2.49s...
+2026-09-04 16:15:05 [INFO] [34/41] ID: https://www.metropoles.com/colunas/dinheiro-e-negocios/o-que-vorcaro-tem-a-ver-com-as-liquidacoes-da-trustee-e-da-banvox
+2026-09-04 16:15:05 [INFO] Título: O que Vorcaro tem a ver com as liquidações da Trustee e da Banvox
+2026-09-04 16:15:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:06 [INFO] Classificação: enviar
+2026-09-04 16:15:06 [INFO] Aguardando 2.76s...
+2026-09-04 16:15:08 [INFO] [35/41] ID: https://www.jornalopcao.com.br/ultimas-noticias/banco-central-liquida-17-instituicoes-em-2026-maior-numero-em-24-anos-864811/
+2026-09-04 16:15:08 [INFO] Título: Banco Central liquida 17 instituições em 2026, maior número em 24 anos - Jornal Opção
+2026-09-04 16:15:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:09 [INFO] Classificação: enviar
+2026-09-04 16:15:09 [INFO] Aguardando 2.48s...
+2026-09-04 16:15:11 [INFO] [36/41] ID: https://bahiaeconomica.com.br/wp/2026/09/03/banco-central-liquida-17-instituicoes-em-2026-maior-numero-em-24-anos/
+2026-09-04 16:15:11 [INFO] Título: BANCO CENTRAL LIQUIDA 17 INSTITUIÇÕES EM 2026, MAIOR NÚMERO EM 24 ANOS
+2026-09-04 16:15:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:12 [INFO] Classificação: enviar
+2026-09-04 16:15:12 [INFO] Aguardando 2.74s...
+2026-09-04 16:15:14 [INFO] [37/41] ID: https://timesbrasil.com.br/brasil/caso-master-provoca-recorde-de-liquidacoes-pelo-bc-em-24-anos-maioria-das-instituicoes-tem-ligacao-com-o-banco-de-vorcaro/
+2026-09-04 16:15:14 [INFO] Título: Caso Master provoca recorde de liquidações pelo Banco Central em 24 anos - Times Brasil
+2026-09-04 16:15:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:15 [INFO] Classificação: nao_enviar
+2026-09-04 16:15:15 [INFO] Aguardando 2.65s...
+2026-09-04 16:15:17 [INFO] [38/41] ID: https://www.brasil247.com/negocios/trustee-e-banvox-negam-irregularidades-apos-banco-central-decretar-liquidacao-das-empresas/
+2026-09-04 16:15:17 [INFO] Título: Trustee e Banvox negam irregularidades após Banco Central decretar <b>liquidação</b> das empresas
+2026-09-04 16:15:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:18 [INFO] Classificação: enviar
+2026-09-04 16:15:18 [INFO] Aguardando 2.51s...
+2026-09-04 16:15:20 [INFO] [39/41] ID: https://jornalggn.com.br/politica/coaf-aponta-repasses-suspeitos-de-r-272-milhoes-do-master-ao-metropoles/
+2026-09-04 16:15:20 [INFO] Título: Coaf aponta repasses suspeitos de R$ 27,2 milhões do Master ao Metrópoles - Jornal GGN
+2026-09-04 16:15:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:21 [INFO] Classificação: nao_enviar
+2026-09-04 16:15:21 [INFO] Aguardando 2.79s...
+2026-09-04 16:15:23 [INFO] [40/41] ID: https://bahiaeconomica.com.br/wp/2026/09/03/banco-central-liquida-duas-corretoras-ligadas-a-ex-socio-do-banco-master/
+2026-09-04 16:15:23 [INFO] Título: BANCO CENTRAL LIQUIDA DUAS CORRETORAS LIGADAS A EX-SÓCIO DO BANCO MASTER
+2026-09-04 16:15:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:24 [INFO] Classificação: enviar
+2026-09-04 16:15:24 [INFO] Aguardando 2.31s...
+2026-09-04 16:15:26 [INFO] [41/41] ID: https://www.correiobraziliense.com.br/economia/2026/09/7493414-banco-central-decreta-liquidacao-das-corretoras-banvox-e-trustee.html
+2026-09-04 16:15:26 [INFO] Título: Banco Central decreta <b>liquidação</b> das corretoras Banvox e Trustee - Correio Braziliense
+2026-09-04 16:15:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 16:15:28 [INFO] Classificação: enviar
+2026-09-04 16:15:28 [INFO] ======================================================================
+2026-09-04 16:15:28 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-04 16:15:28 [INFO] ======================================================================
+2026-09-04 16:15:28 [INFO] Processadas: 41
+2026-09-04 16:15:28 [INFO] Enviar: 15
+2026-09-04 16:15:28 [INFO] Não enviar: 26
+2026-09-04 16:15:28 [INFO] ======================================================================
