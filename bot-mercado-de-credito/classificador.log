@@ -16771,3 +16771,126 @@
 2026-09-04 19:24:29 [INFO] Enviar: 10
 2026-09-04 19:24:29 [INFO] Não enviar: 18
 2026-09-04 19:24:29 [INFO] ======================================================================
+2026-09-04 22:18:00 [INFO] ======================================================================
+2026-09-04 22:18:00 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-04 22:18:00 [INFO] ======================================================================
+2026-09-04 22:18:00 [INFO] Notícias com status 'extraida': 22
+2026-09-04 22:18:00 [INFO] Limite: 20 requisições/minuto
+2026-09-04 22:18:00 [INFO] Intervalo mínimo: 3.0s
+2026-09-04 22:18:00 [INFO] ======================================================================
+2026-09-04 22:18:00 [INFO] [1/22] ID: https://www.tecmundo.com.br/mercado/415813-crescer-tambem-pode-apertar-o-caixa.htm
+2026-09-04 22:18:00 [INFO] Título: Crescer também pode apertar o caixa | Mercado - TecMundo
+2026-09-04 22:18:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:00 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:01 [INFO] Aguardando 2.55s...
+2026-09-04 22:18:03 [INFO] [2/22] ID: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/04/oito-credores-acionam-justica-e-pedem-suspensao-do-processo-de-venda-da-saf-do-vasco.ghtml
+2026-09-04 22:18:03 [INFO] Título: Oito credores acionam Justiça e pedem suspensão do processo de venda da SAF do Vasco
+2026-09-04 22:18:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:04 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:04 [INFO] Aguardando 2.30s...
+2026-09-04 22:18:06 [INFO] [3/22] ID: https://www.maracajuspeed.com.br/noticia/onda-de-recuperacao-judicial-leva-fazenda-de-r-161-milhoes-a-leilao
+2026-09-04 22:18:06 [INFO] Título: Onda de <b>recuperação judicial</b> leva fazenda de R$ 161 milhões a leilão - Maracaju Speed
+2026-09-04 22:18:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:06 [INFO] Classificação: enviar
+2026-09-04 22:18:06 [INFO] Aguardando 2.61s...
+2026-09-04 22:18:09 [INFO] [4/22] ID: https://www.jornaltribuna.com.br/2026/09/comprei-e-a-empresa-sumiu-golpe-recuperacao-judicial-ou-descumprimento-o-que-diz-a-lei
+2026-09-04 22:18:09 [INFO] Título: Comprei e a empresa sumiu: golpe, <b>recuperação judicial</b> ou descumprimento? O que diz a lei
+2026-09-04 22:18:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:09 [INFO] Classificação: enviar
+2026-09-04 22:18:09 [INFO] Aguardando 2.61s...
+2026-09-04 22:18:12 [INFO] [5/22] ID: https://www.congressoemfoco.com.br/amp/artigo/121998/regularidade-ambiental-sistema-prisma-e-recuperacao-judicial
+2026-09-04 22:18:12 [INFO] Título: Regularidade ambiental da propriedade rural, sistema PRISMA e <b>recuperação judicial</b>
+2026-09-04 22:18:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:12 [INFO] Classificação: enviar
+2026-09-04 22:18:12 [INFO] Aguardando 2.78s...
+2026-09-04 22:18:15 [INFO] [6/22] ID: https://pt.org.br/ministro-contesta-quebradeira-e-diz-que-extrema-direita-omite-empregos-em-alta/
+2026-09-04 22:18:15 [INFO] Título: Ministro contesta 'quebradeira' e diz que extrema direita omite empregos em alta
+2026-09-04 22:18:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:15 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:15 [INFO] Aguardando 2.75s...
+2026-09-04 22:18:18 [INFO] [7/22] ID: https://esbrasil.com.br/apex-bloqueio-23mi-ex-ceo/
+2026-09-04 22:18:18 [INFO] Título: Apex pede na Justiça bloqueio de R$ 23,2 mi de ex-CEO - Revista ES Brasil
+2026-09-04 22:18:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:19 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:19 [INFO] Aguardando 2.44s...
+2026-09-04 22:18:21 [INFO] [8/22] ID: https://www.gazetadevarginha.com.br/post/dívida-de-aluguel-da-coteminas-e-ammo-chega-a-r-346-5-mil-durante-recuperação-judicial
+2026-09-04 22:18:21 [INFO] Título: Dívida de aluguel da Coteminas e Ammo chega a R$ 346,5 mil durante <b>recuperação judicial</b>
+2026-09-04 22:18:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:21 [INFO] Classificação: enviar
+2026-09-04 22:18:21 [INFO] Aguardando 2.76s...
+2026-09-04 22:18:24 [INFO] [9/22] ID: https://valor.globo.com/google/amp/financas/noticia/2026/09/04/justia-suspende-deciso-que-anulou-contratos-de-scp-da-fictor.ghtml
+2026-09-04 22:18:24 [INFO] Título: Justiça suspende decisão que anulou contratos de SCP da Fictor - Valor Econômico - Globo
+2026-09-04 22:18:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:24 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:24 [INFO] Aguardando 2.65s...
+2026-09-04 22:18:27 [INFO] [10/22] ID: https://jcam.com.br/noticias/empresas-em-recuperacao-judicial-somam-r-20-bilhoes-em-dividas-no-varejo/
+2026-09-04 22:18:27 [INFO] Título: Empresas em <b>recuperação</b> judicial somam R$ 20 bilhões em dívidas no varejo
+2026-09-04 22:18:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:27 [INFO] Classificação: enviar
+2026-09-04 22:18:27 [INFO] Aguardando 2.83s...
+2026-09-04 22:18:30 [INFO] [11/22] ID: https://paraibabusiness.com.br/casas-bahia-culpa-juros-pela-crise-mas-gestao-vinha-falhando-havia-anos-dizem-analistas/
+2026-09-04 22:18:30 [INFO] Título: Casas Bahia culpa juros pela crise, mas gestão vinha falhando havia anos, dizem analistas
+2026-09-04 22:18:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:31 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:31 [INFO] Aguardando 2.34s...
+2026-09-04 22:18:33 [INFO] [12/22] ID: https://contilnetnoticias.com.br/noticias/conflitos-societarios-e-juros-ajudam-a-explicar-crise-de-grandes-empresas/
+2026-09-04 22:18:33 [INFO] Título: Conflitos societários e juros ajudam a explicar crise de grandes empresas - ContilNet
+2026-09-04 22:18:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:33 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:33 [INFO] Aguardando 2.60s...
+2026-09-04 22:18:36 [INFO] [13/22] ID: https://contilnetnoticias.com.br/noticias/ganhamos-no-voto-pf-ve-articulacao-por-licenca-da-refit/
+2026-09-04 22:18:36 [INFO] Título: “Ganhamos no voto”: PF vê articulação por licença da Refit - ContilNet
+2026-09-04 22:18:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:36 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:36 [INFO] Aguardando 2.72s...
+2026-09-04 22:18:39 [INFO] [14/22] ID: https://www.migalhas.com.br/quentes/463950/empresa-sera-indenizada-por-suspensao-indevida-de-inscricao-estadual
+2026-09-04 22:18:39 [INFO] Título: Empresa será indenizada por suspensão indevida de inscrição estadual - Migalhas
+2026-09-04 22:18:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:39 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:39 [INFO] Aguardando 2.77s...
+2026-09-04 22:18:42 [INFO] [15/22] ID: https://valor.globo.com/financas/noticia/2026/09/04/justia-suspende-deciso-que-anulou-contratos-de-scp-da-fictor.ghtml
+2026-09-04 22:18:42 [INFO] Título: Justiça suspende decisão que anulou contratos de SCP da Fictor - Valor Econômico - Globo
+2026-09-04 22:18:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:42 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:42 [INFO] Aguardando 2.63s...
+2026-09-04 22:18:45 [INFO] [16/22] ID: https://www.moneytimes.com.br/day-trade-acao-dispara-20-e-vira-aposta-do-itau-bba-para-venda-no-curto-prazo-ceci/
+2026-09-04 22:18:45 [INFO] Título: Day trade: ação dispara 20% e vira aposta do Itaú BBA para venda no curto prazo
+2026-09-04 22:18:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:45 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:45 [INFO] Aguardando 2.60s...
+2026-09-04 22:18:48 [INFO] [17/22] ID: https://www.moneytimes.com.br/vale-vale3-suspendeu-ipo-do-da-unidade-de-metais-basicos-diz-jornal-veja-avaliacao-de-especialista-da-avin-mlem/
+2026-09-04 22:18:48 [INFO] Título: Vale (VALE3) suspendeu IPO da unidade de metais básicos, diz jornal - Money Times
+2026-09-04 22:18:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:48 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:48 [INFO] Aguardando 2.69s...
+2026-09-04 22:18:51 [INFO] [18/22] ID: https://www.bnews.com.br/noticias/crime-e-justica-bahia/tem-sido-algo-desumano-diz-vorcaro-sobre-prisao.html
+2026-09-04 22:18:51 [INFO] Título: 'Tem sido algo desumano', diz Vorcaro sobre prisão - Bnews
+2026-09-04 22:18:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:51 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:51 [INFO] Aguardando 2.65s...
+2026-09-04 22:18:54 [INFO] [19/22] ID: https://www.moneytimes.com.br/10-acoes-para-investir-em-setembro-segundo-banco-daycoval-mlem/
+2026-09-04 22:18:54 [INFO] Título: 10 ações para investir em setembro, segundo banco Daycoval - Money Times
+2026-09-04 22:18:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:54 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:54 [INFO] Aguardando 2.84s...
+2026-09-04 22:18:57 [INFO] [20/22] ID: https://www.diariodenoticias.com.br/materia/caso-master-entenda-tudo-novas-revelacoes-brasilia
+2026-09-04 22:18:57 [INFO] Título: Caso Master: entenda tudo o que está acontecendo e as novas revelações que movimentam Brasília
+2026-09-04 22:18:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:18:57 [INFO] Classificação: nao_enviar
+2026-09-04 22:18:57 [INFO] Aguardando 2.74s...
+2026-09-04 22:19:00 [INFO] [21/22] ID: https://timesbrasil.com.br/brasil/economia-brasileira/estudo-mostra-que-cada-1-c-a-mais-na-temperatura-eleva-vendas-de-cerveja-em-5/
+2026-09-04 22:19:00 [INFO] Título: Estudo mostra que cada 1 °C a mais na temperatura eleva vendas de cerveja em 5%
+2026-09-04 22:19:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:19:00 [INFO] Classificação: nao_enviar
+2026-09-04 22:19:00 [INFO] Aguardando 2.64s...
+2026-09-04 22:19:03 [INFO] [22/22] ID: https://marelimartins.com.br/2026/09/04/escandalo-master-envolve-pl-republicanos-e-psd-doacao-a-bolsonaro-e-tarcisio-foi-propina-negociada-com-kassab-diz-vorcaro/
+2026-09-04 22:19:03 [INFO] Título: Escândalo Master envolve PL, Republicanos e PSD: Doação a Bolsonaro e Tarcísio foi ...
+2026-09-04 22:19:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 22:19:03 [INFO] Classificação: nao_enviar
+2026-09-04 22:19:03 [INFO] ======================================================================
+2026-09-04 22:19:03 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-04 22:19:03 [INFO] ======================================================================
+2026-09-04 22:19:03 [INFO] Processadas: 22
+2026-09-04 22:19:03 [INFO] Enviar: 5
+2026-09-04 22:19:03 [INFO] Não enviar: 17
+2026-09-04 22:19:03 [INFO] ======================================================================
