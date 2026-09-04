@@ -16377,3 +16377,26 @@
 2026-09-04 05:43:57 [INFO] Enviar: 3
 2026-09-04 05:43:57 [INFO] Não enviar: 4
 2026-09-04 05:43:57 [INFO] ======================================================================
+2026-09-04 11:05:19 [INFO] ======================================================================
+2026-09-04 11:05:19 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-04 11:05:19 [INFO] ======================================================================
+2026-09-04 11:05:19 [INFO] Notícias com status 'extraida': 2
+2026-09-04 11:05:19 [INFO] Limite: 20 requisições/minuto
+2026-09-04 11:05:19 [INFO] Intervalo mínimo: 3.0s
+2026-09-04 11:05:19 [INFO] ======================================================================
+2026-09-04 11:05:19 [INFO] [1/2] ID: https://santaportal.com.br/geral/bc-liquida-distribuidoras-de-titulos-trustee-e-banvox/
+2026-09-04 11:05:19 [INFO] Título: BC liquida distribuidoras de títulos Trustee e Banvox - Santa Portal
+2026-09-04 11:05:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 11:05:19 [INFO] Classificação: enviar
+2026-09-04 11:05:19 [INFO] Aguardando 2.66s...
+2026-09-04 11:05:22 [INFO] [2/2] ID: https://jovempan.com.br/colunistas/beatriz-manfredini/vorcaro-tentou-implicar-tarcisio-e-kassab-em-delacoes-rejeitadas-politicos-negam/
+2026-09-04 11:05:22 [INFO] Título: Vorcaro tentou implicar Tarcísio e Kassab em delações rejeitadas; políticos negam
+2026-09-04 11:05:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-04 11:05:22 [INFO] Classificação: nao_enviar
+2026-09-04 11:05:22 [INFO] ======================================================================
+2026-09-04 11:05:22 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-04 11:05:22 [INFO] ======================================================================
+2026-09-04 11:05:22 [INFO] Processadas: 2
+2026-09-04 11:05:22 [INFO] Enviar: 1
+2026-09-04 11:05:22 [INFO] Não enviar: 1
+2026-09-04 11:05:22 [INFO] ======================================================================
