@@ -17214,3 +17214,71 @@
 2026-09-05 16:44:08 [INFO] Enviar: 4
 2026-09-05 16:44:08 [INFO] Não enviar: 15
 2026-09-05 16:44:08 [INFO] ======================================================================
+2026-09-05 18:56:51 [INFO] ======================================================================
+2026-09-05 18:56:51 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-05 18:56:51 [INFO] ======================================================================
+2026-09-05 18:56:51 [INFO] Notícias com status 'extraida': 11
+2026-09-05 18:56:51 [INFO] Limite: 20 requisições/minuto
+2026-09-05 18:56:51 [INFO] Intervalo mínimo: 3.0s
+2026-09-05 18:56:51 [INFO] ======================================================================
+2026-09-05 18:56:51 [INFO] [1/11] ID: https://veja.abril.com.br/economia/mansao-de-nasser-fares-tem-sete-ordens-de-indisponibilidade-antes-de-ir-a-leilao/
+2026-09-05 18:56:51 [INFO] Título: Mansão de Nasser Fares tem sete ordens de indisponibilidade antes de ir a leilão | VEJA
+2026-09-05 18:56:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:56:51 [INFO] Classificação: nao_enviar
+2026-09-05 18:56:51 [INFO] Aguardando 2.54s...
+2026-09-05 18:56:54 [INFO] [2/11] ID: https://iclnoticias.com.br/augusto-cury-omitiu-negocios-nos-eua/
+2026-09-05 18:56:54 [INFO] Título: Augusto Cury omitiu negócios nos EUA da Justiça Eleitoral - ICL Notícias
+2026-09-05 18:56:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:56:54 [INFO] Classificação: nao_enviar
+2026-09-05 18:56:54 [INFO] Aguardando 2.82s...
+2026-09-05 18:56:57 [INFO] [3/11] ID: https://economia.ig.com.br/2026-09-05/casas-bahia--trabalhadores-protestam-apos-demissao-em-massa.html
+2026-09-05 18:56:57 [INFO] Título: Casas Bahia: trabalhadores protestam após demissão em massa - iG Economia
+2026-09-05 18:56:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:56:57 [INFO] Classificação: nao_enviar
+2026-09-05 18:56:57 [INFO] Aguardando 2.74s...
+2026-09-05 18:57:00 [INFO] [4/11] ID: https://opovo.com.br/trends/pandemia-delivery-e-juros-pesaram-no-caixa-de-grupo-de-fast-food-que-agora-tenta-reorganizar-divida-de-r265-milhoes/
+2026-09-05 18:57:00 [INFO] Título: Pandemia, delivery e juros pesaram no caixa de grupo de fast-food que agora tenta ...
+2026-09-05 18:57:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:57:00 [INFO] Classificação: nao_enviar
+2026-09-05 18:57:00 [INFO] Aguardando 2.79s...
+2026-09-05 18:57:03 [INFO] [5/11] ID: https://www.meutimao.com.br/noticias-do-corinthians/539389/mp-notifica-corinthians-antes-de-analise-tecnica-que-pode-impactar-inquerito-para-intervencao
+2026-09-05 18:57:03 [INFO] Título: MP notifica Corinthians antes de análise técnica que pode impactar inquérito para intervenção
+2026-09-05 18:57:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:57:03 [INFO] Classificação: nao_enviar
+2026-09-05 18:57:03 [INFO] Aguardando 2.77s...
+2026-09-05 18:57:06 [INFO] [6/11] ID: https://jurinews.com.br/stj/stj-multa-procurador-por-litigancia-de-ma-fe-apos-identificar-comando-oculto-para-manipular-ia
+2026-09-05 18:57:06 [INFO] Título: STJ multa procurador por litigância de má-fé após identificar comando oculto para manipular IA
+2026-09-05 18:57:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:57:06 [INFO] Classificação: nao_enviar
+2026-09-05 18:57:06 [INFO] Aguardando 2.55s...
+2026-09-05 18:57:09 [INFO] [7/11] ID: https://valor.globo.com/legislacao/noticia/2026/09/05/stj-fixa-criterios-para-o-pagamento-de-honorarios-advocaticios-na-recuperacao-judicial-ou-falencia.ghtml
+2026-09-05 18:57:09 [INFO] Título: STJ fixa critérios para o pagamento de honorários advocatícios na <b>recuperação judicial</b> ou falência
+2026-09-05 18:57:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:57:09 [INFO] Classificação: enviar
+2026-09-05 18:57:09 [INFO] Aguardando 2.59s...
+2026-09-05 18:57:12 [INFO] [8/11] ID: https://brasilturis.com.br/2026/09/04/flybondi-tem-contas-bloqueadas-pela-anac-da-argentina/
+2026-09-05 18:57:12 [INFO] Título: Flybondi tem contas bloqueadas pela Anac da Argentina - Brasilturis
+2026-09-05 18:57:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:57:12 [INFO] Classificação: nao_enviar
+2026-09-05 18:57:12 [INFO] Aguardando 2.64s...
+2026-09-05 18:57:15 [INFO] [9/11] ID: https://valor.globo.com/empresas/noticia/2026/09/05/manda-no-mercado-de-oleo-e-gas-cai-quase-50percent-na-1a-metade-de-2026-diz-kpmg.ghtml
+2026-09-05 18:57:15 [INFO] Título: M&A no mercado de óleo e gás cai quase 50% na 1ª metade de 2026, diz KPMG
+2026-09-05 18:57:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:57:15 [INFO] Classificação: nao_enviar
+2026-09-05 18:57:15 [INFO] Aguardando 2.66s...
+2026-09-05 18:57:18 [INFO] [10/11] ID: https://economia.ig.com.br/2026-09-05/casas-bahia-faz-novo-leilao-com-descontos-de-ate-85-.html
+2026-09-05 18:57:18 [INFO] Título: Casas Bahia faz novo leilão com descontos de até 85% - iG Economia
+2026-09-05 18:57:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:57:18 [INFO] Classificação: enviar
+2026-09-05 18:57:18 [INFO] Aguardando 2.73s...
+2026-09-05 18:57:21 [INFO] [11/11] ID: https://www.terra.com.br/noticias/brasil/politica/haddad-vamos-pegar-o-estado-de-sp-sem-caixa-e-com-deficit-orcamentario,80bff36712445beef862aaf68ecd8adfs7lx182i.html
+2026-09-05 18:57:21 [INFO] Título: Haddad: vamos pegar o Estado de SP sem caixa e com déficit orçamentário - Terra
+2026-09-05 18:57:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 18:57:21 [INFO] Classificação: nao_enviar
+2026-09-05 18:57:21 [INFO] ======================================================================
+2026-09-05 18:57:21 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-05 18:57:21 [INFO] ======================================================================
+2026-09-05 18:57:21 [INFO] Processadas: 11
+2026-09-05 18:57:21 [INFO] Enviar: 2
+2026-09-05 18:57:21 [INFO] Não enviar: 9
+2026-09-05 18:57:21 [INFO] ======================================================================
