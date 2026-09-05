@@ -16962,3 +16962,71 @@
 2026-09-05 00:49:12 [INFO] Enviar: 0
 2026-09-05 00:49:12 [INFO] Não enviar: 11
 2026-09-05 00:49:12 [INFO] ======================================================================
+2026-09-05 05:32:57 [INFO] ======================================================================
+2026-09-05 05:32:57 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-05 05:32:57 [INFO] ======================================================================
+2026-09-05 05:32:57 [INFO] Notícias com status 'extraida': 11
+2026-09-05 05:32:57 [INFO] Limite: 20 requisições/minuto
+2026-09-05 05:32:57 [INFO] Intervalo mínimo: 3.0s
+2026-09-05 05:32:57 [INFO] ======================================================================
+2026-09-05 05:32:57 [INFO] [1/11] ID: https://www.espn.com.br/futebol/vasco/artigo/_/id/17210876/vasco-sete-ex-jogadores-preparador-vao-justica-tentam-suspender-venda-saf
+2026-09-05 05:32:57 [INFO] Título: Vasco: sete ex-jogadores e preparador vão à Justiça e tentam suspender venda da SAF
+2026-09-05 05:32:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:32:58 [INFO] Classificação: nao_enviar
+2026-09-05 05:32:58 [INFO] Aguardando 2.57s...
+2026-09-05 05:33:00 [INFO] [2/11] ID: https://www.cartacapital.com.br/esporte/vasco-justica-e-acionada-por-ex-jogadores-para-suspensao-de-venda-da-saf/
+2026-09-05 05:33:00 [INFO] Título: Vasco: Justiça é acionada por ex-jogadores para suspensão de venda da SAF
+2026-09-05 05:33:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:01 [INFO] Classificação: nao_enviar
+2026-09-05 05:33:01 [INFO] Aguardando 2.66s...
+2026-09-05 05:33:03 [INFO] [3/11] ID: https://www.netvasco.com.br/n/391902/administracao-judicial-watchdog-e-gatekeeper-aprovam-emprestimo-dip-e-modelo-de-venda-da-saf
+2026-09-05 05:33:03 [INFO] Título: Administração <b>Judicial</b>, watchdog e gatekeeper aprovam empréstimo DIP e modelo de ...
+2026-09-05 05:33:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:04 [INFO] Classificação: enviar
+2026-09-05 05:33:04 [INFO] Aguardando 2.68s...
+2026-09-05 05:33:06 [INFO] [4/11] ID: https://www.metropoles.com/colunas/dinheiro-e-negocios/justica-afasta-socios-da-apex-partners-e-nomeia-gestor-independente
+2026-09-05 05:33:06 [INFO] Título: Justiça afasta sócios da Apex Partners e nomeia gestor independente - Metrópoles
+2026-09-05 05:33:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:07 [INFO] Classificação: enviar
+2026-09-05 05:33:07 [INFO] Aguardando 2.65s...
+2026-09-05 05:33:09 [INFO] [5/11] ID: https://www1.folha.uol.com.br/mercado/2026/09/rio-pede-a-uniao-desapropriacao-da-refinaria-de-manguinhos-da-refit.shtml
+2026-09-05 05:33:09 [INFO] Título: Rio pede à União desapropriação da refinaria de Manguinhos, da Refit - Folha - UOL
+2026-09-05 05:33:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:10 [INFO] Classificação: nao_enviar
+2026-09-05 05:33:10 [INFO] Aguardando 2.66s...
+2026-09-05 05:33:12 [INFO] [6/11] ID: https://www.insieme.com.br/cidadania-ja-fecha-estrutura-fisica-apos-negar-encerramento-e-dizer-que-operava-normalmente/
+2026-09-05 05:33:12 [INFO] Título: Cidadania Já fecha estrutura física após negar encerramento e dizer que operava normalmente
+2026-09-05 05:33:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:13 [INFO] Classificação: nao_enviar
+2026-09-05 05:33:13 [INFO] Aguardando 2.66s...
+2026-09-05 05:33:15 [INFO] [7/11] ID: https://novaiguassuonline.com.br/pix-bc-altera-regras-para-ampliar-protecao-contra-fraudes-usuario-podera-anexar-documentos-para-facilitar-identificacao-de-crimes/
+2026-09-05 05:33:15 [INFO] Título: PIX: BC altera regras para ampliar proteção contra fraudes - Nova Iguassu Online
+2026-09-05 05:33:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:16 [INFO] Classificação: nao_enviar
+2026-09-05 05:33:16 [INFO] Aguardando 2.67s...
+2026-09-05 05:33:18 [INFO] [8/11] ID: https://acionista.com.br/oi-fim-da-lina-apos-anos-de-dificuldades-financeiras/
+2026-09-05 05:33:18 [INFO] Título: OI: fim de linha após anos de dificuldades financeiras - Acionista.com.br
+2026-09-05 05:33:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:19 [INFO] Classificação: nao_enviar
+2026-09-05 05:33:19 [INFO] Aguardando 2.78s...
+2026-09-05 05:33:21 [INFO] [9/11] ID: https://economicnewsbrasil.com.br/2026/09/04/impeachment-de-moraes-alcolumbre-mendonca/
+2026-09-05 05:33:21 [INFO] Título: Impeachment de Moraes ganha nova trava com Mendonça no cálculo de Alcolumbre
+2026-09-05 05:33:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:22 [INFO] Classificação: nao_enviar
+2026-09-05 05:33:22 [INFO] Aguardando 2.76s...
+2026-09-05 05:33:24 [INFO] [10/11] ID: https://aciara.com.br/marcas-chinesas-lideram-vendas-de-carros-no-brasil/
+2026-09-05 05:33:24 [INFO] Título: Marcas chinesas lideram vendas de carros no Brasil - Acia Araçatuba
+2026-09-05 05:33:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:25 [INFO] Classificação: nao_enviar
+2026-09-05 05:33:25 [INFO] Aguardando 2.69s...
+2026-09-05 05:33:27 [INFO] [11/11] ID: https://g1.globo.com/google/amp/sp/sao-paulo/noticia/2026/09/04/credcesta-ligado-ao-master-ficou-habilitado-por-3-anos-no-governo-tarcisio-e-movimentava-r-25-milhoes-por-mes-diz-governador.ghtml
+2026-09-05 05:33:27 [INFO] Título: Credcesta, ligado ao Master, ficou habilitado por 3 anos no governo Tarcísio e movimentava ... - G1
+2026-09-05 05:33:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 05:33:28 [INFO] Classificação: nao_enviar
+2026-09-05 05:33:28 [INFO] ======================================================================
+2026-09-05 05:33:28 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-05 05:33:28 [INFO] ======================================================================
+2026-09-05 05:33:28 [INFO] Processadas: 11
+2026-09-05 05:33:28 [INFO] Enviar: 2
+2026-09-05 05:33:28 [INFO] Não enviar: 9
+2026-09-05 05:33:28 [INFO] ======================================================================
