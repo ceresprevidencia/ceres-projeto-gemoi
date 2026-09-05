@@ -16894,3 +16894,71 @@
 2026-09-04 22:19:03 [INFO] Enviar: 5
 2026-09-04 22:19:03 [INFO] Não enviar: 17
 2026-09-04 22:19:03 [INFO] ======================================================================
+2026-09-05 00:48:42 [INFO] ======================================================================
+2026-09-05 00:48:42 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-05 00:48:42 [INFO] ======================================================================
+2026-09-05 00:48:42 [INFO] Notícias com status 'extraida': 11
+2026-09-05 00:48:42 [INFO] Limite: 20 requisições/minuto
+2026-09-05 00:48:42 [INFO] Intervalo mínimo: 3.0s
+2026-09-05 00:48:42 [INFO] ======================================================================
+2026-09-05 00:48:42 [INFO] [1/11] ID: https://conjur.com.br/2026-set-04/suiteadotar-a-tabela-da-oab-fere-equidade-para-honorarios-diz-ministro-do-stj/
+2026-09-05 00:48:42 [INFO] Título: Adoção da tabela da OAB para honorários fere equidade, diz ministro do STJ - Conjur
+2026-09-05 00:48:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:48:42 [INFO] Classificação: nao_enviar
+2026-09-05 00:48:42 [INFO] Aguardando 2.71s...
+2026-09-05 00:48:45 [INFO] [2/11] ID: https://www.terra.com.br/esportes/vasco/credores-acionam-justica-e-tentam-travar-venda-da-saf-do-vasco,cfea3702a9e3a6af4b0678c0c85f2ed671orv9z5.html
+2026-09-05 00:48:45 [INFO] Título: Credores acionam Justiça e tentam travar venda da SAF do Vasco - Terra
+2026-09-05 00:48:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:48:45 [INFO] Classificação: nao_enviar
+2026-09-05 00:48:45 [INFO] Aguardando 2.74s...
+2026-09-05 00:48:48 [INFO] [3/11] ID: https://obastidor.com.br/economia/fictor-mais-perto-da-falencia/
+2026-09-05 00:48:48 [INFO] Título: Fictor mais perto da falência - O Bastidor
+2026-09-05 00:48:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:48:48 [INFO] Classificação: nao_enviar
+2026-09-05 00:48:48 [INFO] Aguardando 2.69s...
+2026-09-05 00:48:51 [INFO] [4/11] ID: https://www.cnnbrasil.com.br/agro/cmn-ajusta-regra-e-permite-reenquadramento-de-operacoes-de-credito-rural/
+2026-09-05 00:48:51 [INFO] Título: CMN ajusta regra e permite reenquadramento de operações de crédito rural - CNN Brasil
+2026-09-05 00:48:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:48:51 [INFO] Classificação: nao_enviar
+2026-09-05 00:48:51 [INFO] Aguardando 2.67s...
+2026-09-05 00:48:54 [INFO] [5/11] ID: https://www.agazeta.com.br/es/economia/apex-pede-ampliacao-de-bloqueio-de-bens-de-cinelli-ex-presidente-contesta-0926
+2026-09-05 00:48:54 [INFO] Título: Apex pede ampliação de bloqueio de bens de Cinelli; ex-presidente contesta - A Gazeta
+2026-09-05 00:48:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:48:54 [INFO] Classificação: nao_enviar
+2026-09-05 00:48:54 [INFO] Aguardando 2.79s...
+2026-09-05 00:48:57 [INFO] [6/11] ID: https://eshoje.com.br/economia/2026/09/caso-apex-cinelli-divida/
+2026-09-05 00:48:57 [INFO] Título: Cinelli: Apex sabia de passivo de R$ 618,7 mi - ES HOJE
+2026-09-05 00:48:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:48:57 [INFO] Classificação: nao_enviar
+2026-09-05 00:48:57 [INFO] Aguardando 2.68s...
+2026-09-05 00:49:00 [INFO] [7/11] ID: https://www.poder360.com.br/poder-justica/a-pf-vorcaro-diz-ter-muito-a-contribuir-e-a-falar-sobre-o-master/
+2026-09-05 00:49:00 [INFO] Título: À PF, Vorcaro diz ter "muito a contribuir e a falar" sobre o Master - Poder360
+2026-09-05 00:49:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:49:00 [INFO] Classificação: nao_enviar
+2026-09-05 00:49:00 [INFO] Aguardando 2.68s...
+2026-09-05 00:49:03 [INFO] [8/11] ID: https://www.metropoles.com/colunas/vinicius-passarelli/entorno-de-tarcisio-cobra-explicacoes-de-kassab-sobre-declaracao-de-vorcaro
+2026-09-05 00:49:03 [INFO] Título: Entorno de Tarcísio cobra explicações de Kassab sobre declaração de Vorcaro
+2026-09-05 00:49:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:49:03 [INFO] Classificação: nao_enviar
+2026-09-05 00:49:03 [INFO] Aguardando 2.68s...
+2026-09-05 00:49:06 [INFO] [9/11] ID: https://www.poder360.com.br/poder-justica/vorcaro-diz-que-doacoes-a-tarcisio-e-bolsonaro-foram-propina/
+2026-09-05 00:49:06 [INFO] Título: Vorcaro fala em propina a Kassab, que nega ter recebido dinheiro - Poder360
+2026-09-05 00:49:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:49:06 [INFO] Classificação: nao_enviar
+2026-09-05 00:49:06 [INFO] Aguardando 2.70s...
+2026-09-05 00:49:09 [INFO] [10/11] ID: https://www.moneytimes.com.br/cpfl-energia-cpfe3-pagara-r-700-milhoes-em-dividendos-veja-data-pads/
+2026-09-05 00:49:09 [INFO] Título: CPFL Energia (CPFE3) pagará R$ 700 milhões em dividendos; veja data - Money Times
+2026-09-05 00:49:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:49:09 [INFO] Classificação: nao_enviar
+2026-09-05 00:49:09 [INFO] Aguardando 2.57s...
+2026-09-05 00:49:12 [INFO] [11/11] ID: https://timesbrasil.com.br/brasil/economia-brasileira/balanca-comercial-supera-projecoes-em-agosto/
+2026-09-05 00:49:12 [INFO] Título: Balança comercial supera projeções em agosto - Times Brasil | CNBC
+2026-09-05 00:49:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 00:49:12 [INFO] Classificação: nao_enviar
+2026-09-05 00:49:12 [INFO] ======================================================================
+2026-09-05 00:49:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-05 00:49:12 [INFO] ======================================================================
+2026-09-05 00:49:12 [INFO] Processadas: 11
+2026-09-05 00:49:12 [INFO] Enviar: 0
+2026-09-05 00:49:12 [INFO] Não enviar: 11
+2026-09-05 00:49:12 [INFO] ======================================================================
