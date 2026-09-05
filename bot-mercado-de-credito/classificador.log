@@ -17078,3 +17078,31 @@
 2026-09-05 10:27:05 [INFO] Enviar: 0
 2026-09-05 10:27:05 [INFO] Não enviar: 7
 2026-09-05 10:27:05 [INFO] ======================================================================
+2026-09-05 13:49:05 [INFO] ======================================================================
+2026-09-05 13:49:05 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-05 13:49:05 [INFO] ======================================================================
+2026-09-05 13:49:05 [INFO] Notícias com status 'extraida': 3
+2026-09-05 13:49:05 [INFO] Limite: 20 requisições/minuto
+2026-09-05 13:49:05 [INFO] Intervalo mínimo: 3.0s
+2026-09-05 13:49:05 [INFO] ======================================================================
+2026-09-05 13:49:05 [INFO] [1/3] ID: https://diariodonordeste.verdesmares.com.br/negocios/apos-troca-com-diamante-energia-eneva-reforca-atuacao-no-setor-de-gas-natural-no-ceara-1.3789550
+2026-09-05 13:49:05 [INFO] Título: Após troca com Diamante Energia, Eneva reforça atuação no setor de gás natural no Ceará
+2026-09-05 13:49:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 13:49:06 [INFO] Classificação: nao_enviar
+2026-09-05 13:49:06 [INFO] Aguardando 2.58s...
+2026-09-05 13:49:08 [INFO] [2/3] ID: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/liquidacoes-juros-e-acoes-o-que-mais-chamou-a-atencao-dos-investidores-na-semana/
+2026-09-05 13:49:08 [INFO] Título: Liquidações, juros e ações: o que mais chamou a atenção dos investidores na semana
+2026-09-05 13:49:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 13:49:08 [INFO] Classificação: nao_enviar
+2026-09-05 13:49:09 [INFO] Aguardando 2.77s...
+2026-09-05 13:49:11 [INFO] [3/3] ID: https://diariodorn.com.br/tenho-passado-um-terror-algo-desumano-diz-vorcaro-a-pf/
+2026-09-05 13:49:11 [INFO] Título: “Tenho passado um terror, algo desumano”, diz Vorcaro à PF - Portal Diário do RN
+2026-09-05 13:49:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 13:49:12 [INFO] Classificação: nao_enviar
+2026-09-05 13:49:12 [INFO] ======================================================================
+2026-09-05 13:49:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-05 13:49:12 [INFO] ======================================================================
+2026-09-05 13:49:12 [INFO] Processadas: 3
+2026-09-05 13:49:12 [INFO] Enviar: 0
+2026-09-05 13:49:12 [INFO] Não enviar: 3
+2026-09-05 13:49:12 [INFO] ======================================================================
