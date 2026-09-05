@@ -17106,3 +17106,111 @@
 2026-09-05 13:49:12 [INFO] Enviar: 0
 2026-09-05 13:49:12 [INFO] Não enviar: 3
 2026-09-05 13:49:12 [INFO] ======================================================================
+2026-09-05 16:43:13 [INFO] ======================================================================
+2026-09-05 16:43:13 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-05 16:43:13 [INFO] ======================================================================
+2026-09-05 16:43:13 [INFO] Notícias com status 'extraida': 19
+2026-09-05 16:43:13 [INFO] Limite: 20 requisições/minuto
+2026-09-05 16:43:13 [INFO] Intervalo mínimo: 3.0s
+2026-09-05 16:43:13 [INFO] ======================================================================
+2026-09-05 16:43:13 [INFO] [1/19] ID: https://www.netvasco.com.br/n/391909/auxiliares-do-juizo-sugerem-maior-protecao-aos-credores-na-nova-saf
+2026-09-05 16:43:13 [INFO] Título: Auxiliares do Juízo sugerem maior proteção aos credores na nova SAF - NETVASCO
+2026-09-05 16:43:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:14 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:14 [INFO] Aguardando 2.57s...
+2026-09-05 16:43:16 [INFO] [2/19] ID: https://exame.com/negocios/o-varejo-brasileiro-ja-esta-na-uti-e-o-destino-e-a-morte-diz-fundador-da-havan/
+2026-09-05 16:43:16 [INFO] Título: 'O varejo brasileiro já está na UTI e o destino é a morte', diz fundador da Havan | Exame
+2026-09-05 16:43:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:17 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:17 [INFO] Aguardando 2.76s...
+2026-09-05 16:43:19 [INFO] [3/19] ID: https://economicnewsbrasil.com.br/2026/09/05/recuperacao-judicial-brasil-recorde-empresas-2/
+2026-09-05 16:43:19 [INFO] Título: <b>Recuperação judicial</b> no Brasil atinge recorde de 5.680 empresas - Economic News Brasil
+2026-09-05 16:43:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:20 [INFO] Classificação: enviar
+2026-09-05 16:43:20 [INFO] Aguardando 2.59s...
+2026-09-05 16:43:22 [INFO] [4/19] ID: https://www.migalhas.com.br/quentes/463844/split-payment-e-transicao-tributaria-preocupam-especialistas
+2026-09-05 16:43:22 [INFO] Título: Split payment e transição tributária preocupam especialistas - Migalhas
+2026-09-05 16:43:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:23 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:23 [INFO] Aguardando 2.60s...
+2026-09-05 16:43:25 [INFO] [5/19] ID: https://timesbrasil.com.br/empresas-e-negocios/bancos-fintechs/naskar-clientes-prejuizo-bilionario-douglas-azara-foragido/
+2026-09-05 16:43:25 [INFO] Título: Dono da Naskar completa 2 meses foragido enquanto clientes amargam R$ 1 bi de prejuízo
+2026-09-05 16:43:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:26 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:26 [INFO] Aguardando 2.68s...
+2026-09-05 16:43:28 [INFO] [6/19] ID: https://globorural.globo.com/negocios/noticia/2026/09/credores-do-grupo-safras-farao-nova-assembleia-na-proxima-semana.ghtml
+2026-09-05 16:43:28 [INFO] Título: Credores do Grupo Safras farão nova assembleia na próxima semana - Globo Rural
+2026-09-05 16:43:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:29 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:29 [INFO] Aguardando 2.73s...
+2026-09-05 16:43:31 [INFO] [7/19] ID: https://valor.globo.com/google/amp/legislacao/noticia/2026/09/05/stj-fixa-criterios-para-o-pagamento-de-honorarios-advocaticios-na-recuperacao-judicial-ou-falencia.ghtml
+2026-09-05 16:43:31 [INFO] Título: STJ fixa critérios para o pagamento de honorários advocatícios na <b>recuperação judicial</b> ou falência
+2026-09-05 16:43:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:32 [INFO] Classificação: enviar
+2026-09-05 16:43:32 [INFO] Aguardando 2.73s...
+2026-09-05 16:43:34 [INFO] [8/19] ID: https://www.instagram.com/reel/Dc4hvlBjR-z/
+2026-09-05 16:43:34 [INFO] Título: ELEIÇÕES 2026 | O ministro da Secretaria-Geral da Presidência, Guilherme Boulos, disse ...
+2026-09-05 16:43:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:35 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:35 [INFO] Aguardando 2.68s...
+2026-09-05 16:43:37 [INFO] [9/19] ID: https://www.bnews.com.br/amp/noticias/economia-e-mercado/o-que-e-recuperacao-judicial-entenda-o-recurso-usado-por-casas-bahia-habibs-e-braskem.html
+2026-09-05 16:43:37 [INFO] Título: O que é <b>recuperação judicial</b>? Entenda o recurso usado por Casas Bahia, Habib's e Braskem
+2026-09-05 16:43:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:38 [INFO] Classificação: enviar
+2026-09-05 16:43:38 [INFO] Aguardando 2.72s...
+2026-09-05 16:43:40 [INFO] [10/19] ID: https://agenciadcnews.com.br/publicacao/s/comercio-e-servicos-criticam-fim-da-taxa-das-blusinhas-sem-isonomia-aos-produtos-nacionais
+2026-09-05 16:43:40 [INFO] Título: Comércio e serviços criticam fim da taxa das blusinhas sem isonomia aos produtos nacionais
+2026-09-05 16:43:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:41 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:41 [INFO] Aguardando 2.64s...
+2026-09-05 16:43:43 [INFO] [11/19] ID: https://www.mpmt.mp.br/portalcao/news/731/179751/aquecimento-alem-de-15c-ameaca-saude-agricultura-e-economia
+2026-09-05 16:43:43 [INFO] Título: Aquecimento além de 1,5°C ameaça saúde, agricultura e economia - MPMT
+2026-09-05 16:43:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:44 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:44 [INFO] Aguardando 2.70s...
+2026-09-05 16:43:46 [INFO] [12/19] ID: https://www.cnnbrasil.com.br/economia/money/mercado/fundos-de-special-situations-buscam-oportunidades-em-dividas/
+2026-09-05 16:43:46 [INFO] Título: Fundos de special situations buscam oportunidades em dívidas - CNN Brasil
+2026-09-05 16:43:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:47 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:47 [INFO] Aguardando 2.75s...
+2026-09-05 16:43:49 [INFO] [13/19] ID: https://www.bnews.com.br/noticias/economia-e-mercado/o-que-e-recuperacao-judicial-entenda-o-recurso-usado-por-casas-bahia-habibs-e-braskem.html
+2026-09-05 16:43:49 [INFO] Título: O que é <b>recuperação</b> judicial? Entenda o recurso usado por Casas Bahia, Habib's e Braskem
+2026-09-05 16:43:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:50 [INFO] Classificação: enviar
+2026-09-05 16:43:50 [INFO] Aguardando 2.85s...
+2026-09-05 16:43:52 [INFO] [14/19] ID: https://www.broadcast.com.br/news/braskem-aposta-em-sinergia-com-petrobras-para-competitividade/
+2026-09-05 16:43:52 [INFO] Título: Braskem aposta em sinergia com Petrobras para competitividade - Broadcast
+2026-09-05 16:43:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:53 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:53 [INFO] Aguardando 2.70s...
+2026-09-05 16:43:55 [INFO] [15/19] ID: https://visnoinvest.com.br/news/15126/pmam3-salta-348-e-ibovespa-recua-002-no-fechamento
+2026-09-05 16:43:55 [INFO] Título: PMAM3 salta 34,8% e Ibovespa recua 0,02% no fechamento - Visno Invest
+2026-09-05 16:43:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:56 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:56 [INFO] Aguardando 2.77s...
+2026-09-05 16:43:58 [INFO] [16/19] ID: https://www.cnnbrasil.com.br/economia/investimentos/small-caps-despontam-como-oportunidade-na-bolsa/
+2026-09-05 16:43:58 [INFO] Título: Small Caps despontam como oportunidade na bolsa - CNN Brasil
+2026-09-05 16:43:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:43:59 [INFO] Classificação: nao_enviar
+2026-09-05 16:43:59 [INFO] Aguardando 2.62s...
+2026-09-05 16:44:01 [INFO] [17/19] ID: https://www1.folha.uol.com.br/poder/2026/09/augusto-cury-omitiu-negocios-nos-eua-da-justica-eleitoral.shtml
+2026-09-05 16:44:01 [INFO] Título: Augusto Cury omitiu negócios nos EUA da Justiça Eleitoral - Folha - UOL
+2026-09-05 16:44:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:44:02 [INFO] Classificação: nao_enviar
+2026-09-05 16:44:02 [INFO] Aguardando 2.75s...
+2026-09-05 16:44:04 [INFO] [18/19] ID: https://investigams.com.br/2026/09/05/banco-master-estado-suspede-descontos-do-credcesta-aos-servidores-convenio-com-empresa-de-vorcaro-foi-renovado-em-2025-e-segue-em-vigor/
+2026-09-05 16:44:04 [INFO] Título: BANCO MASTER: Estado suspede descontos do Credcesta aos servidores - Investiga MS
+2026-09-05 16:44:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:44:05 [INFO] Classificação: nao_enviar
+2026-09-05 16:44:05 [INFO] Aguardando 2.74s...
+2026-09-05 16:44:07 [INFO] [19/19] ID: https://www.broadcast.com.br/ultimas-noticias/haddad-master-e-produto-de-atuacao-de-uma-mafia-no-brasil-se-desenvolveu-na-gestao-bolsonaro/
+2026-09-05 16:44:07 [INFO] Título: Haddad: Master é produto de atuação de uma máfia no Brasil; se desenvolveu na gestão Bolsonaro
+2026-09-05 16:44:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 16:44:08 [INFO] Classificação: nao_enviar
+2026-09-05 16:44:08 [INFO] ======================================================================
+2026-09-05 16:44:08 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-05 16:44:08 [INFO] ======================================================================
+2026-09-05 16:44:08 [INFO] Processadas: 19
+2026-09-05 16:44:08 [INFO] Enviar: 4
+2026-09-05 16:44:08 [INFO] Não enviar: 15
+2026-09-05 16:44:08 [INFO] ======================================================================
