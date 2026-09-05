@@ -17345,3 +17345,81 @@
 2026-09-05 21:07:07 [INFO] Enviar: 1
 2026-09-05 21:07:07 [INFO] Não enviar: 9
 2026-09-05 21:07:07 [INFO] ======================================================================
+2026-09-05 23:44:35 [INFO] ======================================================================
+2026-09-05 23:44:35 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-05 23:44:35 [INFO] ======================================================================
+2026-09-05 23:44:35 [INFO] Notícias com status 'extraida': 13
+2026-09-05 23:44:35 [INFO] Limite: 20 requisições/minuto
+2026-09-05 23:44:35 [INFO] Intervalo mínimo: 3.0s
+2026-09-05 23:44:35 [INFO] ======================================================================
+2026-09-05 23:44:35 [INFO] [1/13] ID: https://veja.abril.com.br/politica/lula-foge-de-temas-polemicos-em-discurso-de-campanha-no-interior-de-sp/
+2026-09-05 23:44:35 [INFO] Título: Lula foge de temas polêmicos em discurso de campanha no interior de SP - Revista Veja
+2026-09-05 23:44:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:44:36 [INFO] Classificação: nao_enviar
+2026-09-05 23:44:36 [INFO] Aguardando 2.66s...
+2026-09-05 23:44:38 [INFO] [2/13] ID: https://agora-to.com.br/o-que-sobra-quando-o-balanco-de-uma-grande-marca-quebra/
+2026-09-05 23:44:38 [INFO] Título: O que sobra quando o balanço de uma grande marca quebra - Portal Agora Tocantins
+2026-09-05 23:44:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:44:39 [INFO] Classificação: nao_enviar
+2026-09-05 23:44:39 [INFO] Aguardando 2.60s...
+2026-09-05 23:44:41 [INFO] [3/13] ID: https://oantagonista.com.br/brasil/cury-omitiu-cinco-empresas-na-declaracao-de-bens-a-justica-eleitoral/
+2026-09-05 23:44:41 [INFO] Título: Cury omitiu cinco empresas na declaração de bens à Justiça Eleitoral - O Antagonista
+2026-09-05 23:44:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:44:41 [INFO] Classificação: nao_enviar
+2026-09-05 23:44:42 [INFO] Aguardando 2.82s...
+2026-09-05 23:44:44 [INFO] [4/13] ID: https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-carioca/vasco/vasco-recebe-aval-da-justica-por-novo-emprestimo-de-r-150-milhoes-entenda/
+2026-09-05 23:44:44 [INFO] Título: Vasco recebe aval da Justiça por novo empréstimo de R$ 150 milhões; entenda
+2026-09-05 23:44:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:44:45 [INFO] Classificação: nao_enviar
+2026-09-05 23:44:45 [INFO] Aguardando 2.76s...
+2026-09-05 23:44:47 [INFO] [5/13] ID: https://radardigitalbrasilia.com.br/agronegocio/congresso-de-direito-agrario-debate-credito-terra-e-ambiente/
+2026-09-05 23:44:47 [INFO] Título: Congresso de Direito Agrário debate crédito, terra e ambiente
+2026-09-05 23:44:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:44:48 [INFO] Classificação: nao_enviar
+2026-09-05 23:44:48 [INFO] Aguardando 2.65s...
+2026-09-05 23:44:50 [INFO] [6/13] ID: https://www.supervasco.com/noticias/entenda-o-proximo-passo-sobre-o-novo-emprestimo-e-a-venda-da-saf-455067.html
+2026-09-05 23:44:50 [INFO] Título: Entenda o próximo passo sobre o novo empréstimo e a venda da SAF - SuperVasco
+2026-09-05 23:44:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:44:51 [INFO] Classificação: nao_enviar
+2026-09-05 23:44:51 [INFO] Aguardando 2.76s...
+2026-09-05 23:44:53 [INFO] [7/13] ID: https://eshoje.com.br/economia/2026/09/buaiz-saida-por-r-1-apex/
+2026-09-05 23:44:53 [INFO] Título: Caso Apex: Américo Buaiz vende conjunto de ações por R$ 1 - ESHoje
+2026-09-05 23:44:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:44:54 [INFO] Classificação: nao_enviar
+2026-09-05 23:44:54 [INFO] Aguardando 2.66s...
+2026-09-05 23:44:56 [INFO] [8/13] ID: https://oantagonista.com.br/ladooa/entretenimento/rede-de-restaurantes-fechou-93-unidades-antes-de-pedir-protecao-judicial-e-depois-admitiu-que-a-promocao-de-camarao-a-vontade-ajudou-a-provocar-prejuizo-de-us-11-milhoes/
+2026-09-05 23:44:56 [INFO] Título: Rede de restaurantes fechou 93 unidades antes de pedir proteção <b>judicial</b> e depois admitiu ...
+2026-09-05 23:44:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:44:57 [INFO] Classificação: enviar
+2026-09-05 23:44:57 [INFO] Aguardando 2.63s...
+2026-09-05 23:44:59 [INFO] [9/13] ID: https://conjur.com.br/assinaturas/camila-zangiacomo-cotrim/
+2026-09-05 23:44:59 [INFO] Título: Camila Zangiacomo Cotrim - Consultor Jurídico
+2026-09-05 23:45:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:45:00 [INFO] Classificação: nao_enviar
+2026-09-05 23:45:00 [INFO] Aguardando 2.72s...
+2026-09-05 23:45:02 [INFO] [10/13] ID: https://www.maracajuspeed.com.br/imprimir.php?noticia=onda-de-recuperacao-judicial-leva-fazenda-de-r-161-milhoes-a-leilao
+2026-09-05 23:45:02 [INFO] Título: Onda de recuperação <b>judicial</b> leva fazenda de R$ 161 milhões a leilão - Maracaju Speed
+2026-09-05 23:45:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:45:03 [INFO] Classificação: enviar
+2026-09-05 23:45:03 [INFO] Aguardando 2.80s...
+2026-09-05 23:45:05 [INFO] [11/13] ID: https://www.bnews.com.br/noticias/economia-e-mercado/sistema-de-pix-do-nubank-apresenta-falhas-e-fica-fora-do-ar-nesta-sexta-feira.html
+2026-09-05 23:45:05 [INFO] Título: Sistema de Pix do Nubank apresenta falhas e fica fora do ar nesta sexta-feira - Bnews
+2026-09-05 23:45:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:45:06 [INFO] Classificação: nao_enviar
+2026-09-05 23:45:06 [INFO] Aguardando 2.80s...
+2026-09-05 23:45:08 [INFO] [12/13] ID: https://moneyinvest.com.br/nubank-fora-do-ar-usuarios-relatam-problemas-com-pix-nesta-sexta-feira-4/
+2026-09-05 23:45:08 [INFO] Título: Nubank fora do ar? Usuários relatam problemas com Pix nesta sexta-feira (4)
+2026-09-05 23:45:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:45:09 [INFO] Classificação: nao_enviar
+2026-09-05 23:45:09 [INFO] Aguardando 2.60s...
+2026-09-05 23:45:11 [INFO] [13/13] ID: https://br.jetss.com/2026/09/04/dolar-recua-com-alta-do-petroleo-treasuries-em-baixa-e-foco-eleitoral/?amp=1
+2026-09-05 23:45:11 [INFO] Título: Dólar recua com alta do petróleo, Treasuries em baixa e com foco eleitoral - Jetss BR
+2026-09-05 23:45:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 23:45:12 [INFO] Classificação: nao_enviar
+2026-09-05 23:45:12 [INFO] ======================================================================
+2026-09-05 23:45:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-05 23:45:12 [INFO] ======================================================================
+2026-09-05 23:45:12 [INFO] Processadas: 13
+2026-09-05 23:45:12 [INFO] Enviar: 2
+2026-09-05 23:45:12 [INFO] Não enviar: 11
+2026-09-05 23:45:12 [INFO] ======================================================================
