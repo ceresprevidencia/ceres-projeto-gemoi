@@ -17030,3 +17030,51 @@
 2026-09-05 05:33:28 [INFO] Enviar: 2
 2026-09-05 05:33:28 [INFO] Não enviar: 9
 2026-09-05 05:33:28 [INFO] ======================================================================
+2026-09-05 10:26:46 [INFO] ======================================================================
+2026-09-05 10:26:46 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-05 10:26:46 [INFO] ======================================================================
+2026-09-05 10:26:46 [INFO] Notícias com status 'extraida': 7
+2026-09-05 10:26:46 [INFO] Limite: 20 requisições/minuto
+2026-09-05 10:26:46 [INFO] Intervalo mínimo: 3.0s
+2026-09-05 10:26:46 [INFO] ======================================================================
+2026-09-05 10:26:46 [INFO] [1/7] ID: https://revistaoeste.com/economia/pernambucanas-entra-na-mira-da-crise/
+2026-09-05 10:26:46 [INFO] Título: Pernambucanas entra na mira da crise do varejo - Revista Oeste
+2026-09-05 10:26:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 10:26:47 [INFO] Classificação: nao_enviar
+2026-09-05 10:26:47 [INFO] Aguardando 2.56s...
+2026-09-05 10:26:49 [INFO] [2/7] ID: https://tribunadejundiai.com.br/politica/delacao-daniel-vorcaro-banco-master-propina-kassab/
+2026-09-05 10:26:49 [INFO] Título: Doações de campanha a Bolsonaro e Tarcísio em 2022 eram propina de Kassab, acusa Vorcaro
+2026-09-05 10:26:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 10:26:50 [INFO] Classificação: nao_enviar
+2026-09-05 10:26:50 [INFO] Aguardando 2.79s...
+2026-09-05 10:26:52 [INFO] [3/7] ID: https://www.diariodolitoral.com.br/nacional/brasil/vorcaro-e-nikolas-ferreira-o-que-e-verdade-e-o-que-e-boato-sobre-a-proximidade-do-deputado-com-o-ex-banqueiro-o-terror-dos-aposentados-e-pensionistas/
+2026-09-05 10:26:52 [INFO] Título: Vorcaro e Nikolas Ferreira: O que é verdade e o que é boato sobre a proximidade do ...
+2026-09-05 10:26:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 10:26:53 [INFO] Classificação: nao_enviar
+2026-09-05 10:26:53 [INFO] Aguardando 2.78s...
+2026-09-05 10:26:55 [INFO] [4/7] ID: https://www.alojuca.com.br/noticia/resetar-o-brasil-vorcaro-busca-nova-delacao-e-reacende-debate-sobre-limites-institucionais-no-caso-master
+2026-09-05 10:26:55 [INFO] Título: RESETAR O BRASIL: Vorcaro busca nova delação e reacende debate sobre limites ...
+2026-09-05 10:26:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 10:26:56 [INFO] Classificação: nao_enviar
+2026-09-05 10:26:56 [INFO] Aguardando 2.82s...
+2026-09-05 10:26:58 [INFO] [5/7] ID: https://www.moneytimes.com.br/nas-redes-sociais-dino-diz-que-stf-e-maior-do-que-qualquer-um-que-o-integra-gaep/
+2026-09-05 10:26:58 [INFO] Título: Nas redes sociais, Flávio Dino diz que STF é maior do que qualquer um que o integra
+2026-09-05 10:26:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 10:26:59 [INFO] Classificação: nao_enviar
+2026-09-05 10:26:59 [INFO] Aguardando 2.76s...
+2026-09-05 10:27:01 [INFO] [6/7] ID: https://www.moneytimes.com.br/resposta-institucional-a-crise-no-stf-sera-firme-proporcional-e-rigorosa-garante-fachin-gaep/
+2026-09-05 10:27:01 [INFO] Título: Resposta institucional à crise no STF será firme, proporcional e rigorosa, afirma Edson Fachin
+2026-09-05 10:27:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 10:27:02 [INFO] Classificação: nao_enviar
+2026-09-05 10:27:02 [INFO] Aguardando 2.75s...
+2026-09-05 10:27:04 [INFO] [7/7] ID: https://jornalgrandebahia.com.br/2026/09/presidente-lula-classifica-caso-banco-master-como-maior-roubo-da-historia-do-brasil-e-cobra-investigacao-sem-protecao-a-envolvidos/
+2026-09-05 10:27:04 [INFO] Título: Presidente Lula classifica caso Banco Master como “maior roubo da história do Brasil” e ...
+2026-09-05 10:27:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 10:27:05 [INFO] Classificação: nao_enviar
+2026-09-05 10:27:05 [INFO] ======================================================================
+2026-09-05 10:27:05 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-05 10:27:05 [INFO] ======================================================================
+2026-09-05 10:27:05 [INFO] Processadas: 7
+2026-09-05 10:27:05 [INFO] Enviar: 0
+2026-09-05 10:27:05 [INFO] Não enviar: 7
+2026-09-05 10:27:05 [INFO] ======================================================================
