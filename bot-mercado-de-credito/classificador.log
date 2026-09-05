@@ -17282,3 +17282,66 @@
 2026-09-05 18:57:21 [INFO] Enviar: 2
 2026-09-05 18:57:21 [INFO] Não enviar: 9
 2026-09-05 18:57:21 [INFO] ======================================================================
+2026-09-05 21:06:40 [INFO] ======================================================================
+2026-09-05 21:06:40 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-05 21:06:40 [INFO] ======================================================================
+2026-09-05 21:06:40 [INFO] Notícias com status 'extraida': 10
+2026-09-05 21:06:40 [INFO] Limite: 20 requisições/minuto
+2026-09-05 21:06:40 [INFO] Intervalo mínimo: 3.0s
+2026-09-05 21:06:40 [INFO] ======================================================================
+2026-09-05 21:06:40 [INFO] [1/10] ID: https://exame.com/mercado-imobiliario/mansao-do-dono-da-marabraz-vai-a-leilao-por-r-72-milhoes-no-alphaville/
+2026-09-05 21:06:40 [INFO] Título: Mansão do dono da Marabraz vai a leilão por R$ 72 milhões no Alphaville | Exame
+2026-09-05 21:06:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:06:40 [INFO] Classificação: nao_enviar
+2026-09-05 21:06:40 [INFO] Aguardando 2.56s...
+2026-09-05 21:06:43 [INFO] [2/10] ID: https://diariodopara.com.br/para/dona-de-marcas-como-tijuca-e-nevada-cerpa-entra-em-recuperacao-judicial/
+2026-09-05 21:06:43 [INFO] Título: Dona de marcas como Tijuca e Nevada, Cerpa entra em <b>Recuperação Judicial</b>
+2026-09-05 21:06:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:06:43 [INFO] Classificação: enviar
+2026-09-05 21:06:43 [INFO] Aguardando 2.59s...
+2026-09-05 21:06:46 [INFO] [3/10] ID: https://www.netvasco.com.br/n/391878/grupo-de-8-credores-do-vasco-entrou-na-justica-contra-a-venda-da-saf-nos-moldes-atuais
+2026-09-05 21:06:46 [INFO] Título: Grupo de 8 credores do Vasco entrou na Justiça contra a venda da SAF nos moldes atuais
+2026-09-05 21:06:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:06:46 [INFO] Classificação: nao_enviar
+2026-09-05 21:06:46 [INFO] Aguardando 2.58s...
+2026-09-05 21:06:49 [INFO] [4/10] ID: https://www.cnnbrasil.com.br/economia/money/macroeconomia/para-conselheiro-selic-em-dois-digitos-inviabiliza-negocios-e-pune-varejo/
+2026-09-05 21:06:49 [INFO] Título: Para conselheiro, Selic em dois dígitos inviabiliza negócios e pune varejo - CNN Brasil
+2026-09-05 21:06:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:06:49 [INFO] Classificação: nao_enviar
+2026-09-05 21:06:49 [INFO] Aguardando 2.66s...
+2026-09-05 21:06:52 [INFO] [5/10] ID: https://www.justicaemfoco.com.br/noticias/antonio-boabaid-70-anos-advocacia-vida-dedicada-justica-sc
+2026-09-05 21:06:52 [INFO] Título: Antônio Boabaid: 70 anos de advocacia e uma vida dedicada à Justiça em SC
+2026-09-05 21:06:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:06:52 [INFO] Classificação: nao_enviar
+2026-09-05 21:06:52 [INFO] Aguardando 2.75s...
+2026-09-05 21:06:55 [INFO] [6/10] ID: https://www.agazeta.com.br/colunas/vilmara-fernandes/policia-federal-no-es-vai-investigar-caso-apex-0926
+2026-09-05 21:06:55 [INFO] Título: Polícia Federal no ES vai investigar caso Apex - A Gazeta
+2026-09-05 21:06:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:06:55 [INFO] Classificação: nao_enviar
+2026-09-05 21:06:55 [INFO] Aguardando 2.70s...
+2026-09-05 21:06:58 [INFO] [7/10] ID: https://investnews.com.br/negocios/cvc-renegocia-divida-corta-juros-2029/
+2026-09-05 21:06:58 [INFO] Título: CVC renegocia dívida, corta juros e empurra vencimentos para 2029 - InvestNews
+2026-09-05 21:06:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:06:58 [INFO] Classificação: nao_enviar
+2026-09-05 21:06:58 [INFO] Aguardando 2.61s...
+2026-09-05 21:07:01 [INFO] [8/10] ID: https://correiodosmunicipios-al.com.br/politica/2026/09/05/198482-treal-determina-retirada-de-publicacao-considerada-desinformativa-sobre-indenizacao-da-braskem
+2026-09-05 21:07:01 [INFO] Título: TRE/AL determina retirada de publicação considerada desinformativa sobre indenização da ...
+2026-09-05 21:07:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:07:01 [INFO] Classificação: nao_enviar
+2026-09-05 21:07:01 [INFO] Aguardando 2.60s...
+2026-09-05 21:07:04 [INFO] [9/10] ID: https://francesnews.com.br/post/2026/09/26/38153-tre-manda-uniao-polemico-remover-postagem-por-fato-sabidamente-inveridico-sobre-braskem-e-jhc
+2026-09-05 21:07:04 [INFO] Título: TRE manda União Polêmico remover postagem por fato sabidamente inverídico sobre ...
+2026-09-05 21:07:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:07:04 [INFO] Classificação: nao_enviar
+2026-09-05 21:07:04 [INFO] Aguardando 2.68s...
+2026-09-05 21:07:07 [INFO] [10/10] ID: https://www.brasil247.com/brasil/augusto-cury-omitiu-empresas-nos-eua-em-declaracao-ao-tse/
+2026-09-05 21:07:07 [INFO] Título: Augusto Cury omitiu empresas nos EUA em declaração ao TSE - Brasil 247
+2026-09-05 21:07:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 21:07:07 [INFO] Classificação: nao_enviar
+2026-09-05 21:07:07 [INFO] ======================================================================
+2026-09-05 21:07:07 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-05 21:07:07 [INFO] ======================================================================
+2026-09-05 21:07:07 [INFO] Processadas: 10
+2026-09-05 21:07:07 [INFO] Enviar: 1
+2026-09-05 21:07:07 [INFO] Não enviar: 9
+2026-09-05 21:07:07 [INFO] ======================================================================
