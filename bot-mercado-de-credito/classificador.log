@@ -17685,3 +17685,51 @@
 2026-09-06 16:51:51 [INFO] Enviar: 1
 2026-09-06 16:51:51 [INFO] Não enviar: 8
 2026-09-06 16:51:51 [INFO] ======================================================================
+2026-09-06 19:01:05 [INFO] ======================================================================
+2026-09-06 19:01:05 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-06 19:01:05 [INFO] ======================================================================
+2026-09-06 19:01:05 [INFO] Notícias com status 'extraida': 7
+2026-09-06 19:01:05 [INFO] Limite: 20 requisições/minuto
+2026-09-06 19:01:05 [INFO] Intervalo mínimo: 3.0s
+2026-09-06 19:01:05 [INFO] ======================================================================
+2026-09-06 19:01:05 [INFO] [1/7] ID: https://timesbrasil.com.br/empresas-e-negocios/casas-bahia-teria-pago-quase-r-3-milhoes-em-propina-a-agentes-da-secretaria-da-fazenda-de-sp-afirma-mp/
+2026-09-06 19:01:05 [INFO] Título: Casas Bahia teria pago quase R$ 3 milhões em propina a agentes da Secretaria da ...
+2026-09-06 19:01:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 19:01:06 [INFO] Classificação: nao_enviar
+2026-09-06 19:01:06 [INFO] Aguardando 2.73s...
+2026-09-06 19:01:08 [INFO] [2/7] ID: https://www.poder360.com.br/poder-economia/pressao-da-inadimplencia-sobre-bb-sobe-banco-e-o-mais-afetado/
+2026-09-06 19:01:08 [INFO] Título: Pressão da inadimplência sobre BB sobe; banco é o mais afetado - Poder360
+2026-09-06 19:01:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 19:01:09 [INFO] Classificação: nao_enviar
+2026-09-06 19:01:09 [INFO] Aguardando 2.73s...
+2026-09-06 19:01:11 [INFO] [3/7] ID: https://www.infomoney.com.br/mercados/divida-varejo-selic-empresas-2026/
+2026-09-06 19:01:11 [INFO] Título: O varejo espera a Selic cair — mas o ponto de partida mudou - InfoMoney
+2026-09-06 19:01:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 19:01:12 [INFO] Classificação: nao_enviar
+2026-09-06 19:01:12 [INFO] Aguardando 2.41s...
+2026-09-06 19:01:14 [INFO] [4/7] ID: https://panoramadabahia.com.br/augusto-cury-deixou-empresas-nos-eua-e-no-brasil-fora-da-declaracao-de-bens-ao-tse/
+2026-09-06 19:01:14 [INFO] Título: Augusto Cury deixou empresas nos EUA e no Brasil fora da declaração de bens ao TSE
+2026-09-06 19:01:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 19:01:15 [INFO] Classificação: nao_enviar
+2026-09-06 19:01:15 [INFO] Aguardando 2.76s...
+2026-09-06 19:01:17 [INFO] [5/7] ID: https://www.ativovirtual.com.br/avnews/artigos/varejo-com-divida-a-123-da-receita-por-que-selic-menor-alivia-pouco
+2026-09-06 19:01:17 [INFO] Título: Varejo com dívida a 12,3% da receita: por que Selic menor alivia pouco - Ativo Virtual
+2026-09-06 19:01:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 19:01:18 [INFO] Classificação: nao_enviar
+2026-09-06 19:01:18 [INFO] Aguardando 2.77s...
+2026-09-06 19:01:20 [INFO] [6/7] ID: https://www.bnewsrn.com.br/noticias/negocios/casas-bahia-pagou-quase-r-3-milhoes-em-propina-para-fraudar-creditos-de-icms-em-sp-aponta-ministerio-publico.html
+2026-09-06 19:01:20 [INFO] Título: Casas Bahia pagou quase R$ 3 milhões em propina para fraudar créditos de ICMS em SP ...
+2026-09-06 19:01:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 19:01:21 [INFO] Classificação: nao_enviar
+2026-09-06 19:01:21 [INFO] Aguardando 2.75s...
+2026-09-06 19:01:23 [INFO] [7/7] ID: https://oantagonista.com.br/ladooa/entretenimento/rede-com-800-lojas-e-19-mil-funcionarios-quebra-pela-segunda-vez-em-menos-de-um-ano-e-decide-fechar-todas-as-unidades/
+2026-09-06 19:01:23 [INFO] Título: Rede com 800 lojas e 19 mil funcionários quebra pela segunda vez em menos de um ano e ...
+2026-09-06 19:01:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 19:01:24 [INFO] Classificação: nao_enviar
+2026-09-06 19:01:24 [INFO] ======================================================================
+2026-09-06 19:01:24 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-06 19:01:24 [INFO] ======================================================================
+2026-09-06 19:01:24 [INFO] Processadas: 7
+2026-09-06 19:01:24 [INFO] Enviar: 0
+2026-09-06 19:01:24 [INFO] Não enviar: 7
+2026-09-06 19:01:24 [INFO] ======================================================================
