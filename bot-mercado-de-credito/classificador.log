@@ -17733,3 +17733,71 @@
 2026-09-06 19:01:24 [INFO] Enviar: 0
 2026-09-06 19:01:24 [INFO] Não enviar: 7
 2026-09-06 19:01:24 [INFO] ======================================================================
+2026-09-06 22:04:33 [INFO] ======================================================================
+2026-09-06 22:04:33 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-06 22:04:33 [INFO] ======================================================================
+2026-09-06 22:04:33 [INFO] Notícias com status 'extraida': 11
+2026-09-06 22:04:33 [INFO] Limite: 20 requisições/minuto
+2026-09-06 22:04:33 [INFO] Intervalo mínimo: 3.0s
+2026-09-06 22:04:33 [INFO] ======================================================================
+2026-09-06 22:04:33 [INFO] [1/11] ID: https://veronoticias.com/economia/caso-de-propina-pode-ampliar-pressao-sobre-casas-bahia/
+2026-09-06 22:04:33 [INFO] Título: Caso de propina pode ampliar pressão sobre Casas Bahia - Vero Notícias
+2026-09-06 22:04:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:04:33 [INFO] Classificação: nao_enviar
+2026-09-06 22:04:33 [INFO] Aguardando 2.69s...
+2026-09-06 22:04:36 [INFO] [2/11] ID: https://www.infomoney.com.br/brasil/mansao-de-dono-da-marabraz-vai-a-leilao-por-mais-de-r-72-milhoes/
+2026-09-06 22:04:36 [INFO] Título: Mansão de dono da Marabraz vai a leilão por mais de R$ 72 milhões - InfoMoney
+2026-09-06 22:04:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:04:36 [INFO] Classificação: nao_enviar
+2026-09-06 22:04:36 [INFO] Aguardando 2.74s...
+2026-09-06 22:04:39 [INFO] [3/11] ID: https://www.poder360.com.br/poder-economia/internautas-ironizam-comicio-de-lula-em-frente-a-casas-bahia/
+2026-09-06 22:04:39 [INFO] Título: Internautas ironizam comício de Lula em frente à Casas Bahia - Poder360
+2026-09-06 22:04:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:04:39 [INFO] Classificação: nao_enviar
+2026-09-06 22:04:39 [INFO] Aguardando 2.76s...
+2026-09-06 22:04:42 [INFO] [4/11] ID: https://www.cnnbrasil.com.br/economia/money/macroeconomia/a-crise-de-grandes-marcas-onda-de-recuperacoes-judiciais-atinge-economia/
+2026-09-06 22:04:42 [INFO] Título: "A Crise de Grandes Marcas": Onda de recuperações <b>judiciais</b> atinge economia
+2026-09-06 22:04:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:04:42 [INFO] Classificação: enviar
+2026-09-06 22:04:42 [INFO] Aguardando 2.78s...
+2026-09-06 22:04:45 [INFO] [5/11] ID: https://aciara.com.br/recuperacao-judicial-recorde-preocupa-empresarios/
+2026-09-06 22:04:45 [INFO] Título: <b>Recuperação judicial</b> recorde preocupa empresários - Acia Araçatuba
+2026-09-06 22:04:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:04:45 [INFO] Classificação: enviar
+2026-09-06 22:04:45 [INFO] Aguardando 2.49s...
+2026-09-06 22:04:48 [INFO] [6/11] ID: https://www.congressoemfoco.com.br/amp/noticia/122015/apos-fala-de-fachin-dino-questiona-promessa-para-receber-aplausos
+2026-09-06 22:04:48 [INFO] Título: Após fala de Fachin, Dino questiona "promessa" para receber aplausos
+2026-09-06 22:04:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:04:48 [INFO] Classificação: nao_enviar
+2026-09-06 22:04:48 [INFO] Aguardando 2.79s...
+2026-09-06 22:04:51 [INFO] [7/11] ID: https://paraibabusiness.com.br/youinc-divida-sobe-patrimonio-some-e-o-investidor-observa/
+2026-09-06 22:04:51 [INFO] Título: You,Inc: dívida sobe, patrimônio some e o investidor observa - Paraíba Business
+2026-09-06 22:04:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:04:52 [INFO] Classificação: nao_enviar
+2026-09-06 22:04:52 [INFO] Aguardando 2.37s...
+2026-09-06 22:04:54 [INFO] [8/11] ID: https://www.congressoemfoco.com.br/amp/noticia/121979/projeto-tira-da-justica-militar-acoes-de-violencia-contra-mulher
+2026-09-06 22:04:54 [INFO] Título: Projeto tira da Justiça Militar ações de violência contra mulher - Congresso em Foco
+2026-09-06 22:04:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:04:54 [INFO] Classificação: nao_enviar
+2026-09-06 22:04:54 [INFO] Aguardando 2.85s...
+2026-09-06 22:04:57 [INFO] [9/11] ID: https://tribunadoplanalto.com.br/mesmo-com-adequacao-imediata-carne-goiana-pode-levar-ate-30-meses-para-voltar-a-uniao-europeia/
+2026-09-06 22:04:57 [INFO] Título: Mesmo com adequação imediata, carne goiana pode levar até 30 meses para voltar à ...
+2026-09-06 22:04:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:04:57 [INFO] Classificação: nao_enviar
+2026-09-06 22:04:57 [INFO] Aguardando 2.77s...
+2026-09-06 22:05:00 [INFO] [10/11] ID: https://www.alagoasalerta.com.br/noticia/maceio/2026/09/06/braskem-recorre-a-recuperacao-extrajudicial-para-renegociar-divida-de-r-54-bilhoes-5aa3ba31d0
+2026-09-06 22:05:00 [INFO] Título: Braskem recorre à <b>recuperação extrajudicial</b> para renegociar dívida de R$ 54 bilhões
+2026-09-06 22:05:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:05:00 [INFO] Classificação: enviar
+2026-09-06 22:05:00 [INFO] Aguardando 2.64s...
+2026-09-06 22:05:03 [INFO] [11/11] ID: https://timesbrasil.com.br/brasil/operador-de-vorcaro-mineiro-administrava-cerca-de-us-1-bilhao-de-recursos-do-ex-banqueiro-em-offshores/
+2026-09-06 22:05:03 [INFO] Título: Operador de Vorcaro, Mineiro administrava cerca de US$ 1 bilhão de recursos do ex ...
+2026-09-06 22:05:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 22:05:03 [INFO] Classificação: nao_enviar
+2026-09-06 22:05:03 [INFO] ======================================================================
+2026-09-06 22:05:03 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-06 22:05:03 [INFO] ======================================================================
+2026-09-06 22:05:03 [INFO] Processadas: 11
+2026-09-06 22:05:03 [INFO] Enviar: 3
+2026-09-06 22:05:03 [INFO] Não enviar: 8
+2026-09-06 22:05:03 [INFO] ======================================================================
