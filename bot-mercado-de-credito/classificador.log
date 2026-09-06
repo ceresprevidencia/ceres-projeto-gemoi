@@ -17423,3 +17423,66 @@
 2026-09-05 23:45:12 [INFO] Enviar: 2
 2026-09-05 23:45:12 [INFO] Não enviar: 11
 2026-09-05 23:45:12 [INFO] ======================================================================
+2026-09-06 04:19:25 [INFO] ======================================================================
+2026-09-06 04:19:25 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-06 04:19:25 [INFO] ======================================================================
+2026-09-06 04:19:25 [INFO] Notícias com status 'extraida': 10
+2026-09-06 04:19:25 [INFO] Limite: 20 requisições/minuto
+2026-09-06 04:19:25 [INFO] Intervalo mínimo: 3.0s
+2026-09-06 04:19:25 [INFO] ======================================================================
+2026-09-06 04:19:25 [INFO] [1/10] ID: https://jornalpequeno.com.br/2026/09/05/socias-de-empresas-farmaceuticas-sao-alvo-de-medidas-judiciais-no-maranhao/
+2026-09-06 04:19:25 [INFO] Título: Sócias de empresas farmacêuticas são alvo de medidas <b>judiciais</b> no Maranhão
+2026-09-06 04:19:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:25 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:25 [INFO] Aguardando 2.55s...
+2026-09-06 04:19:28 [INFO] [2/10] ID: https://timesbrasil.com.br/empresas-e-negocios/chilli-beans-preve-crescer-10-mesmo-com-divida-de-r-290-milhoes/
+2026-09-06 04:19:28 [INFO] Título: Chilli Beans prevê crescer 10% mesmo com dívida de R$ 290 milhões - Times Brasil
+2026-09-06 04:19:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:28 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:28 [INFO] Aguardando 2.70s...
+2026-09-06 04:19:31 [INFO] [3/10] ID: https://www.supervasco.com/noticias/advogado-explica-pedidos-para-barrar-a-saf-do-vasco-455141.html
+2026-09-06 04:19:31 [INFO] Título: Advogado explica pedidos para barrar a SAF do Vasco - SuperVasco
+2026-09-06 04:19:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:31 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:31 [INFO] Aguardando 2.62s...
+2026-09-06 04:19:34 [INFO] [4/10] ID: https://dol.com.br/colunistas/mauro-bonna/962015/casa-de-decoracao-tera-enorme-painel-de-led-na-doca
+2026-09-06 04:19:34 [INFO] Título: Casa de decoração terá enorme painel de LED na Doca - DOL
+2026-09-06 04:19:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:34 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:34 [INFO] Aguardando 2.61s...
+2026-09-06 04:19:37 [INFO] [5/10] ID: https://www.diariodocentrodomundo.com.br/augusto-cury-deixa-tres-empresas-nos-eua-e-duas-no-brasil-fora-da-declaracao-ao-tse/
+2026-09-06 04:19:37 [INFO] Título: Augusto Cury deixa três empresas nos EUA e duas no Brasil fora da declaração ao TSE
+2026-09-06 04:19:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:37 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:37 [INFO] Aguardando 2.75s...
+2026-09-06 04:19:40 [INFO] [6/10] ID: https://www.torcedores.com/noticias/2026/09/ex-jogadores-do-vasco-vao-a-justica-e-pedem-suspensao-da-venda-da-saf
+2026-09-06 04:19:40 [INFO] Título: Ex-jogadores tentam barrar venda da SAF do Vasco - Torcedores
+2026-09-06 04:19:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:40 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:40 [INFO] Aguardando 2.69s...
+2026-09-06 04:19:43 [INFO] [7/10] ID: https://cbn.globo.com/coberturas/eleicoes-2026/noticia/2026/09/05/com-patrimonio-declarado-de-r-242-milhoes-augusto-cury-nega-ter-omitido-empresas-nos-eua-da-justica.ghtml
+2026-09-06 04:19:43 [INFO] Título: Com patrimônio declarado de R$ 242 milhões, Cury nega ter omitido empresas nos EUA da Justiça
+2026-09-06 04:19:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:43 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:43 [INFO] Aguardando 2.72s...
+2026-09-06 04:19:46 [INFO] [8/10] ID: https://timesbrasil.com.br/cripto-brasil/ows-eua-dados-empresa-cripto-banco-master/
+2026-09-06 04:19:46 [INFO] Título: EUA pedem dados de empresa cripto ligada a operações do Banco Master - Times Brasil
+2026-09-06 04:19:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:46 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:46 [INFO] Aguardando 2.70s...
+2026-09-06 04:19:49 [INFO] [9/10] ID: https://timesbrasil.com.br/empresas-e-negocios/braskem-idesa-preve-operar-fabricas-a-95-da-capacidade-ate-2030/
+2026-09-06 04:19:49 [INFO] Título: Braskem Idesa prevê operar fábricas a 95% da capacidade até 2030 - Times Brasil | CNBC
+2026-09-06 04:19:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:49 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:49 [INFO] Aguardando 2.71s...
+2026-09-06 04:19:52 [INFO] [10/10] ID: https://agorars.com/brasil-e-mundo/caso-master-linha-do-tempo-crise-stf-brb-vorcaro/
+2026-09-06 04:19:52 [INFO] Título: De crise bancária a confronto no STF: veja a linha do tempo do caso Master | Agora RS
+2026-09-06 04:19:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 04:19:52 [INFO] Classificação: nao_enviar
+2026-09-06 04:19:52 [INFO] ======================================================================
+2026-09-06 04:19:52 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-06 04:19:52 [INFO] ======================================================================
+2026-09-06 04:19:52 [INFO] Processadas: 10
+2026-09-06 04:19:52 [INFO] Enviar: 0
+2026-09-06 04:19:52 [INFO] Não enviar: 10
+2026-09-06 04:19:52 [INFO] ======================================================================
