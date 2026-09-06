@@ -17486,3 +17486,21 @@
 2026-09-06 04:19:52 [INFO] Enviar: 0
 2026-09-06 04:19:52 [INFO] Não enviar: 10
 2026-09-06 04:19:52 [INFO] ======================================================================
+2026-09-06 09:17:32 [INFO] ======================================================================
+2026-09-06 09:17:32 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-06 09:17:32 [INFO] ======================================================================
+2026-09-06 09:17:32 [INFO] Notícias com status 'extraida': 1
+2026-09-06 09:17:32 [INFO] Limite: 20 requisições/minuto
+2026-09-06 09:17:32 [INFO] Intervalo mínimo: 3.0s
+2026-09-06 09:17:32 [INFO] ======================================================================
+2026-09-06 09:17:32 [INFO] [1/1] ID: https://al1.com.br/noticias/noticias/205235-treal-determina-retirada-de-publicacao-considerada-desinformativa-sobre-indenizacao-da-braskem
+2026-09-06 09:17:32 [INFO] Título: TRE/AL determina retirada de publicação considerada desinformativa sobre indenização da ... - AL1
+2026-09-06 09:17:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 09:17:32 [INFO] Classificação: nao_enviar
+2026-09-06 09:17:32 [INFO] ======================================================================
+2026-09-06 09:17:32 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-06 09:17:32 [INFO] ======================================================================
+2026-09-06 09:17:32 [INFO] Processadas: 1
+2026-09-06 09:17:32 [INFO] Enviar: 0
+2026-09-06 09:17:32 [INFO] Não enviar: 1
+2026-09-06 09:17:32 [INFO] ======================================================================
