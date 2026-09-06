@@ -17504,3 +17504,126 @@
 2026-09-06 09:17:32 [INFO] Enviar: 0
 2026-09-06 09:17:32 [INFO] Não enviar: 1
 2026-09-06 09:17:32 [INFO] ======================================================================
+2026-09-06 13:33:14 [INFO] ======================================================================
+2026-09-06 13:33:14 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-06 13:33:14 [INFO] ======================================================================
+2026-09-06 13:33:14 [INFO] Notícias com status 'extraida': 22
+2026-09-06 13:33:14 [INFO] Limite: 20 requisições/minuto
+2026-09-06 13:33:14 [INFO] Intervalo mínimo: 3.0s
+2026-09-06 13:33:14 [INFO] ======================================================================
+2026-09-06 13:33:14 [INFO] [1/22] ID: https://timesbrasil.com.br/empresas-e-negocios/braskem-tem-duas-operacoes-em-recuperacao-entenda-a-diferenca-entre-os-processos-no-brasil-e-nos-eua/
+2026-09-06 13:33:14 [INFO] Título: Braskem tem duas operações em <b>recuperação</b>; entenda a diferença entre os processos no ...
+2026-09-06 13:33:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:14 [INFO] Classificação: enviar
+2026-09-06 13:33:14 [INFO] Aguardando 2.71s...
+2026-09-06 13:33:17 [INFO] [2/22] ID: https://www.brasil247.com/esporte/oito-credores-acionam-a-justica-do-rio-de-janeiro-e-pedem-a-suspensao-da-venda-da-saf-do-vasco/
+2026-09-06 13:33:17 [INFO] Título: Oito credores acionam a Justiça do Rio de Janeiro e pedem a suspensão da venda da SAF ...
+2026-09-06 13:33:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:17 [INFO] Classificação: enviar
+2026-09-06 13:33:17 [INFO] Aguardando 2.61s...
+2026-09-06 13:33:20 [INFO] [3/22] ID: https://noticias.r7.com/economia/recuperacoes-judiciais-batem-recorde-em-ano-eleitoral-mas-especialistas-veem-crise-acumulada-ha-anos-06092026/
+2026-09-06 13:33:20 [INFO] Título: Recuperações <b>judiciais</b> batem recorde, impulsionadas por fatores anteriores ao ano eleitoral
+2026-09-06 13:33:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:20 [INFO] Classificação: enviar
+2026-09-06 13:33:20 [INFO] Aguardando 2.75s...
+2026-09-06 13:33:23 [INFO] [4/22] ID: https://ultimosegundo.ig.com.br/2026-09-06/tst-barra-corte-de-funcionarios-da-casas-bahia-e-dita-regras.html
+2026-09-06 13:33:23 [INFO] Título: TST barra corte de funcionários da Casas Bahia e dita regras - Último Segundo
+2026-09-06 13:33:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:23 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:23 [INFO] Aguardando 2.76s...
+2026-09-06 13:33:26 [INFO] [5/22] ID: https://www.brasil247.com/sudeste/esquema-de-propina-milionaria-atinge-casas-bahia-em-meio-a-crise-e-divida-de-r-17-bilhoes/
+2026-09-06 13:33:26 [INFO] Título: Esquema de propina milionária atinge Casas Bahia em meio a crise e dívida de R$ 17 bilhões
+2026-09-06 13:33:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:26 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:26 [INFO] Aguardando 2.78s...
+2026-09-06 13:33:29 [INFO] [6/22] ID: https://veja.abril.com.br/economia/modelo-de-gasto-publico-e-consumo-turbinados-do-governo-lula-ja-provoca-ressaca-economica/
+2026-09-06 13:33:29 [INFO] Título: Modelo de gasto público e consumo turbinados do governo Lula já provoca ressaca econômica
+2026-09-06 13:33:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:29 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:29 [INFO] Aguardando 2.63s...
+2026-09-06 13:33:32 [INFO] [7/22] ID: https://simnoticias.com.br/economia/apex-um-mes-de-crise-rombo-bilionario-e-batalhas-na-justica/
+2026-09-06 13:33:32 [INFO] Título: Apex: um mês de crise, batalhas na Justiça e o que foi descoberto - Sim Notícias
+2026-09-06 13:33:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:33 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:33 [INFO] Aguardando 2.42s...
+2026-09-06 13:33:35 [INFO] [8/22] ID: https://exame.com/insight/de-raizen-a-casas-bahia-o-brasil-das-recuperacoes-extrajudiciais/p
+2026-09-06 13:33:35 [INFO] Título: De Raízen a Casas Bahia: o Brasil das recuperações (extra)<b>judiciais</b> | Exame INSIGHT
+2026-09-06 13:33:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:35 [INFO] Classificação: enviar
+2026-09-06 13:33:35 [INFO] Aguardando 2.63s...
+2026-09-06 13:33:38 [INFO] [9/22] ID: https://conjur.com.br/2026-set-06/transacao-tributaria-em-sp-e-suas-distorcoes-quando-o-justo-paga-pelo-pecador/
+2026-09-06 13:33:38 [INFO] Título: Transação tributária em SP e suas distorções: 'quando o justo paga pelo pecador' - Conjur
+2026-09-06 13:33:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:38 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:38 [INFO] Aguardando 2.76s...
+2026-09-06 13:33:41 [INFO] [10/22] ID: https://capitalpolitica.com.br/casas-bahia-propina-recuperacao-judicial/
+2026-09-06 13:33:41 [INFO] Título: Escândalo Bilionário: Casas Bahia Na Mira da Máfia do ICMS! - Capital Política
+2026-09-06 13:33:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:41 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:41 [INFO] Aguardando 2.77s...
+2026-09-06 13:33:44 [INFO] [11/22] ID: https://www.metropoles.com/colunas/ramiro-brites/casas-bahia-propina-sp
+2026-09-06 13:33:44 [INFO] Título: Com dívida de R$ 17 bilhões, Casas Bahia pagou propina milionária em SP
+2026-09-06 13:33:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:44 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:44 [INFO] Aguardando 2.80s...
+2026-09-06 13:33:47 [INFO] [12/22] ID: https://revistaoeste.com/oestegeral/2026/09/06/uma-rede-de-cinemas-entrou-em-recuperacao-depois-de-meses-com-salas-vazias-e-terminou-o-processo-com-bilhoes-a-menos-em-divida/
+2026-09-06 13:33:47 [INFO] Título: Uma rede de cinemas entrou em <b>recuperação</b> depois de meses com salas vazias e ...
+2026-09-06 13:33:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:47 [INFO] Classificação: enviar
+2026-09-06 13:33:47 [INFO] Aguardando 2.79s...
+2026-09-06 13:33:50 [INFO] [13/22] ID: https://jornalgrandebahia.com.br/2026/09/por-que-tantas-empresas-estao-em-crise-no-brasil-91-milhoes-de-cnpjs-devem-r-2329-bilhoes-enquanto-juros-de-14-e-credito-a-254-pressionam-negocios-em-2026/
+2026-09-06 13:33:50 [INFO] Título: Por que tantas empresas estão em crise no Brasil? 9,1 milhões de CNPJs devem R$ 232,9 ...
+2026-09-06 13:33:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:50 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:50 [INFO] Aguardando 2.77s...
+2026-09-06 13:33:53 [INFO] [14/22] ID: https://seliguebahia.com.br/brasil/o-varejo-nacional-esta-na-uti-e-o-destino-e-a-morte-dispara-luciano-hang/
+2026-09-06 13:33:53 [INFO] Título: "O varejo nacional está na UTI e o destino é a morte", dispara Luciano Hang
+2026-09-06 13:33:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:53 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:53 [INFO] Aguardando 2.60s...
+2026-09-06 13:33:56 [INFO] [15/22] ID: https://istoe.com.br/violencia-copacabana-estupro-morte-ciclista-justica
+2026-09-06 13:33:56 [INFO] Título: Estupro coletivo e morte de ciclista: veja como estão casos que chocaram Copacabana
+2026-09-06 13:33:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:56 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:56 [INFO] Aguardando 2.73s...
+2026-09-06 13:33:59 [INFO] [16/22] ID: https://costanorte.com.br/loterias/quina-sorteio-sabado-0509.html
+2026-09-06 13:33:59 [INFO] Título: Hoje tem Quina? Veja quando acontece o próximo sorteio - Costa Norte
+2026-09-06 13:33:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:33:59 [INFO] Classificação: nao_enviar
+2026-09-06 13:33:59 [INFO] Aguardando 2.80s...
+2026-09-06 13:34:02 [INFO] [17/22] ID: https://www.infomoney.com.br/carreira/uma-ia-para-cada-um-plataformas-especializadas-para-profissionais-ganham-espaco/
+2026-09-06 13:34:02 [INFO] Título: Uma IA para cada um: plataformas especializadas para profissionais ganham espaço
+2026-09-06 13:34:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:34:02 [INFO] Classificação: nao_enviar
+2026-09-06 13:34:02 [INFO] Aguardando 2.63s...
+2026-09-06 13:34:05 [INFO] [18/22] ID: https://www.correiobraziliense.com.br/brasil/2026/09/7494747-tst-mantem-suspensao-de-demissoes-coletivas-nas-casas-bahia.html
+2026-09-06 13:34:05 [INFO] Título: TST mantém suspensão de demissões coletivas nas Casas Bahia - Correio Braziliense
+2026-09-06 13:34:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:34:05 [INFO] Classificação: nao_enviar
+2026-09-06 13:34:05 [INFO] Aguardando 2.76s...
+2026-09-06 13:34:08 [INFO] [19/22] ID: https://ncnews.com.br/2026/09/05/credores-do-grupo-safras-terao-nova-assembleia-apos-reuniao-sem-quorum/
+2026-09-06 13:34:08 [INFO] Título: Credores do Grupo Safras terão nova assembleia após reunião sem quórum - NC News
+2026-09-06 13:34:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:34:09 [INFO] Classificação: enviar
+2026-09-06 13:34:09 [INFO] Aguardando 2.43s...
+2026-09-06 13:34:11 [INFO] [20/22] ID: https://www.cadaminuto.com.br/noticia/2026/09/06/setembro-amarelo-especialista-explica-como-as-eleicoes-afetam-a-saude-mental
+2026-09-06 13:34:11 [INFO] Título: Setembro Amarelo: especialista explica como as eleições afetam a saúde mental e diz já ter ...
+2026-09-06 13:34:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:34:11 [INFO] Classificação: nao_enviar
+2026-09-06 13:34:11 [INFO] Aguardando 2.71s...
+2026-09-06 13:34:14 [INFO] [21/22] ID: https://portalsbn.com.br/beneficio-do-inss-exige-biometria-facial-veja-como-regularizar
+2026-09-06 13:34:14 [INFO] Título: Benefício do INSS exige biometria facial: Veja como regularizar - Portal SBN
+2026-09-06 13:34:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:34:14 [INFO] Classificação: nao_enviar
+2026-09-06 13:34:14 [INFO] Aguardando 2.69s...
+2026-09-06 13:34:17 [INFO] [22/22] ID: https://www.poder360.com.br/poder-justica/veja-videos-do-depoimento-de-vorcaro-a-policia-federal/
+2026-09-06 13:34:17 [INFO] Título: Veja vídeos do depoimento de Vorcaro à Polícia Federal - Poder360
+2026-09-06 13:34:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 13:34:17 [INFO] Classificação: nao_enviar
+2026-09-06 13:34:17 [INFO] ======================================================================
+2026-09-06 13:34:17 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-06 13:34:17 [INFO] ======================================================================
+2026-09-06 13:34:17 [INFO] Processadas: 22
+2026-09-06 13:34:17 [INFO] Enviar: 6
+2026-09-06 13:34:17 [INFO] Não enviar: 16
+2026-09-06 13:34:17 [INFO] ======================================================================
