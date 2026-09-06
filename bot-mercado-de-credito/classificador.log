@@ -17627,3 +17627,61 @@
 2026-09-06 13:34:17 [INFO] Enviar: 6
 2026-09-06 13:34:17 [INFO] Não enviar: 16
 2026-09-06 13:34:17 [INFO] ======================================================================
+2026-09-06 16:51:26 [INFO] ======================================================================
+2026-09-06 16:51:26 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-06 16:51:26 [INFO] ======================================================================
+2026-09-06 16:51:26 [INFO] Notícias com status 'extraida': 9
+2026-09-06 16:51:26 [INFO] Limite: 20 requisições/minuto
+2026-09-06 16:51:26 [INFO] Intervalo mínimo: 3.0s
+2026-09-06 16:51:26 [INFO] ======================================================================
+2026-09-06 16:51:26 [INFO] [1/9] ID: https://www.midiajur.com.br/economia/com-divida-de-r-17-bilhoes-casas-bahia-teria-pago-propina-milionaria/86569
+2026-09-06 16:51:26 [INFO] Título: Com dívida de R$ 17 bilhões, Casas Bahia teria pago propina milionária - Midia Jur
+2026-09-06 16:51:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 16:51:27 [INFO] Classificação: nao_enviar
+2026-09-06 16:51:27 [INFO] Aguardando 2.59s...
+2026-09-06 16:51:29 [INFO] [2/9] ID: https://www.seudinheiro.com/2026/empresas/por-que-tantas-empresas-estao-quebrando-no-brasil/
+2026-09-06 16:51:29 [INFO] Título: Por que tantas empresas estão quebrando no Brasil? - Seu Dinheiro
+2026-09-06 16:51:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 16:51:30 [INFO] Classificação: nao_enviar
+2026-09-06 16:51:30 [INFO] Aguardando 2.69s...
+2026-09-06 16:51:32 [INFO] [3/9] ID: https://diariodonordeste.verdesmares.com.br/negocios/agro/ia-criada-no-ceara-detecta-82-de-parasitas-e-evita-prejuizo-no-rebanho-1.3788544
+2026-09-06 16:51:32 [INFO] Título: IA criada no Ceará detecta 82% de parasitas e evita prejuízo no rebanho - Agro
+2026-09-06 16:51:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 16:51:32 [INFO] Classificação: nao_enviar
+2026-09-06 16:51:32 [INFO] Aguardando 2.80s...
+2026-09-06 16:51:35 [INFO] [4/9] ID: https://www.diariodocentrodomundo.com.br/com-r-17-bi-em-dividas-casas-bahia-e-suspeita-de-esquema-milionario-de-propinas-em-sp/
+2026-09-06 16:51:35 [INFO] Título: Com R$ 17 bi em dívidas, Casas Bahia é suspeita de esquema milionário de propinas em SP - DCM
+2026-09-06 16:51:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 16:51:35 [INFO] Classificação: nao_enviar
+2026-09-06 16:51:35 [INFO] Aguardando 2.77s...
+2026-09-06 16:51:38 [INFO] [5/9] ID: https://noataque.com.br/futebol/time/cruzeiro/noticia/2026/09/05/mauro-cezar-explica-por-que-cruzeiro-contrata-com-capital-do-dono-enquanto-vasco-sofre-na-justica/
+2026-09-06 16:51:38 [INFO] Título: Mauro Cezar explica por que Cruzeiro 'contrata com capital do dono' enquanto Vasco sofre ...
+2026-09-06 16:51:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 16:51:39 [INFO] Classificação: nao_enviar
+2026-09-06 16:51:39 [INFO] Aguardando 2.67s...
+2026-09-06 16:51:41 [INFO] [6/9] ID: https://www.tnh1.com.br/noticia/nid/uma-explicacao-sobre-a-evolucao-da-crise-da-braskem/
+2026-09-06 16:51:41 [INFO] Título: Uma explicação sobre a evolução da crise da Braskem - TNH1
+2026-09-06 16:51:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 16:51:42 [INFO] Classificação: nao_enviar
+2026-09-06 16:51:42 [INFO] Aguardando 2.61s...
+2026-09-06 16:51:44 [INFO] [7/9] ID: https://www.alagoasalerta.com.br/noticia/maceio/2026/09/05/tre-al-ordena-remocao-de-postagens-no-instagram-por-propaganda-eleitoral-negativa-3c6f798be0
+2026-09-06 16:51:44 [INFO] Título: TRE-AL ordena remoção de postagens no Instagram por propaganda eleitoral negativa
+2026-09-06 16:51:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 16:51:44 [INFO] Classificação: nao_enviar
+2026-09-06 16:51:44 [INFO] Aguardando 2.73s...
+2026-09-06 16:51:47 [INFO] [8/9] ID: https://exame.com/exame-in/de-raizen-a-casas-bahia-o-brasil-das-recuperacoes-extrajudiciais/
+2026-09-06 16:51:47 [INFO] Título: De Raízen a Casas Bahia: o Brasil das recuperações (extra)judiciais | Exame INSIGHT
+2026-09-06 16:51:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 16:51:47 [INFO] Classificação: enviar
+2026-09-06 16:51:47 [INFO] Aguardando 2.79s...
+2026-09-06 16:51:50 [INFO] [9/9] ID: https://economicnewsbrasil.com.br/2026/09/05/bancos-no-vale-refeicao/
+2026-09-06 16:51:50 [INFO] Título: BTG e C6 levam disputa dos bancos para o mercado de vale-refeição
+2026-09-06 16:51:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-06 16:51:51 [INFO] Classificação: nao_enviar
+2026-09-06 16:51:51 [INFO] ======================================================================
+2026-09-06 16:51:51 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-06 16:51:51 [INFO] ======================================================================
+2026-09-06 16:51:51 [INFO] Processadas: 9
+2026-09-06 16:51:51 [INFO] Enviar: 1
+2026-09-06 16:51:51 [INFO] Não enviar: 8
+2026-09-06 16:51:51 [INFO] ======================================================================
