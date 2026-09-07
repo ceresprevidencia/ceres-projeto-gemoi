@@ -18058,3 +18058,116 @@
 2026-09-07 18:13:39 [INFO] Enviar: 2
 2026-09-07 18:13:39 [INFO] Não enviar: 15
 2026-09-07 18:13:39 [INFO] ======================================================================
+2026-09-07 21:57:29 [INFO] ======================================================================
+2026-09-07 21:57:29 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-07 21:57:29 [INFO] ======================================================================
+2026-09-07 21:57:29 [INFO] Notícias com status 'extraida': 20
+2026-09-07 21:57:29 [INFO] Limite: 20 requisições/minuto
+2026-09-07 21:57:29 [INFO] Intervalo mínimo: 3.0s
+2026-09-07 21:57:29 [INFO] ======================================================================
+2026-09-07 21:57:29 [INFO] [1/20] ID: https://economicnewsbrasil.com.br/2026/09/07/venda-da-oi-metodo-telefonia/
+2026-09-07 21:57:29 [INFO] Título: Venda da Oi por R$ 60 milhões leva telefonia à Método, mas separa obrigações bilionárias
+2026-09-07 21:57:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:29 [INFO] Classificação: nao_enviar
+2026-09-07 21:57:29 [INFO] Aguardando 2.52s...
+2026-09-07 21:57:32 [INFO] [2/20] ID: https://midiamax.com.br/politica/transparencia/2026/promotoria-rebate-donos-consorcio-guaicurus-exige-recuperacao-danos-ambientais/
+2026-09-07 21:57:32 [INFO] Título: Promotoria rebate donos do Consórcio Guaicurus e exige <b>recuperação</b> de danos ambientais
+2026-09-07 21:57:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:32 [INFO] Classificação: nao_enviar
+2026-09-07 21:57:32 [INFO] Aguardando 2.65s...
+2026-09-07 21:57:35 [INFO] [3/20] ID: https://bpmoney.com.br/economia/mansao-do-dono-da-marabraz-vai-a-leilao-por-r-728-milhoes/
+2026-09-07 21:57:35 [INFO] Título: Mansão do dono da Marabraz vai a leilão por R$ 72,8 milhões - BPMoney
+2026-09-07 21:57:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:35 [INFO] Classificação: nao_enviar
+2026-09-07 21:57:35 [INFO] Aguardando 2.83s...
+2026-09-07 21:57:38 [INFO] [4/20] ID: https://www.congressoemfoco.com.br/amp/noticia/122025/atos-de-7-de-setembro-miram-moraes-e-lula-em-diferentes-cidades
+2026-09-07 21:57:38 [INFO] Título: Atos de 7 de Setembro miram Moraes e Lula em diferentes cidades - Congresso em Foco
+2026-09-07 21:57:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:38 [INFO] Classificação: nao_enviar
+2026-09-07 21:57:38 [INFO] Aguardando 2.67s...
+2026-09-07 21:57:41 [INFO] [5/20] ID: https://www.fogaonet.com/noticias-do-botafogo/jornalista-revela-conversa-franca-presidente-botafogo-palmeiras-joao-paulo/
+2026-09-07 21:57:41 [INFO] Título: Jornalista revela conversa franca com presidente do Botafogo após jogo com Palmeiras
+2026-09-07 21:57:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:41 [INFO] Classificação: nao_enviar
+2026-09-07 21:57:41 [INFO] Aguardando 2.74s...
+2026-09-07 21:57:44 [INFO] [6/20] ID: https://www.comprerural.com/produtor-rural-endividado-alongar-a-divida-ou-pedir-recuperacao-judicial/
+2026-09-07 21:57:44 [INFO] Título: Produtor rural endividado: alongar a dívida ou pedir <b>recuperação judicial</b>? - CompreRural
+2026-09-07 21:57:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:44 [INFO] Classificação: enviar
+2026-09-07 21:57:44 [INFO] Aguardando 2.71s...
+2026-09-07 21:57:47 [INFO] [7/20] ID: https://www.portaldoholanda.com.br/brasil/anatel-aprova-venda-da-telefonia-fixa-da-oi-por-r-601-milhoes
+2026-09-07 21:57:47 [INFO] Título: Anatel aprova venda da telefonia fixa da Oi por R$ 60,1 milhões - Brasil - Portal do Holanda
+2026-09-07 21:57:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:47 [INFO] Classificação: nao_enviar
+2026-09-07 21:57:47 [INFO] Aguardando 2.59s...
+2026-09-07 21:57:50 [INFO] [8/20] ID: https://economicnewsbrasil.com.br/2026/09/07/fortuna-farao-dos-bitcoins-credores/
+2026-09-07 21:57:50 [INFO] Título: Fortuna do Faraó dos Bitcoins teria bilhões para credores da GAS - Economic News Brasil
+2026-09-07 21:57:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:50 [INFO] Classificação: nao_enviar
+2026-09-07 21:57:50 [INFO] Aguardando 2.69s...
+2026-09-07 21:57:53 [INFO] [9/20] ID: https://timesbrasil.com.br/empresas-e-negocios/quem-e-caito-maia-fundador-da-chilli-beans-que-enfrenta-nova-fase-em-meio-a-dividas/
+2026-09-07 21:57:53 [INFO] Título: Quem é Caito Maia, fundador da Chilli Beans que enfrenta nova fase em meio a dívidas
+2026-09-07 21:57:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:53 [INFO] Classificação: nao_enviar
+2026-09-07 21:57:53 [INFO] Aguardando 2.81s...
+2026-09-07 21:57:56 [INFO] [10/20] ID: https://investidor10.com.br/noticias/chili-beans-esta-a-beira-da-recuperacao-judicial-empresa-contrata-novo-co-ceo-122490/
+2026-09-07 21:57:56 [INFO] Título: Chili Beans está à beira da <b>recuperação judicial</b>? Empresa contrata novo co-CEO
+2026-09-07 21:57:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:56 [INFO] Classificação: enviar
+2026-09-07 21:57:56 [INFO] Aguardando 2.74s...
+2026-09-07 21:57:59 [INFO] [11/20] ID: https://timesbrasil.com.br/investimentos/bolsa/ibovespa-sequencia-altas-recuperacao-agosto/
+2026-09-07 21:57:59 [INFO] Título: Ibovespa engata sequência de altas, se recupera de agosto fraco e mira novas máximas históricas
+2026-09-07 21:57:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:57:59 [INFO] Classificação: nao_enviar
+2026-09-07 21:57:59 [INFO] Aguardando 2.86s...
+2026-09-07 21:58:02 [INFO] [12/20] ID: https://ver-o-fato.com.br/varejistas-esquema-de-propina-no-icms-pode-ter-movimentado-r-1-bi/
+2026-09-07 21:58:02 [INFO] Título: Varejistas: Esquema de propina no ICMS pode ter movimentado R$ 1 bi - Ver-o-Fato
+2026-09-07 21:58:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:58:02 [INFO] Classificação: nao_enviar
+2026-09-07 21:58:02 [INFO] Aguardando 2.83s...
+2026-09-07 21:58:05 [INFO] [13/20] ID: https://jknoticias.com/2026/09/07/assembleia-de-credores-da-safras-termina-sem-quorum-e-nova-reuniao-e-marcada-para-11-de-setembro/
+2026-09-07 21:58:05 [INFO] Título: Assembleia de credores da SAFRAS termina sem quórum e nova reunião é marcada para ...
+2026-09-07 21:58:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:58:05 [INFO] Classificação: enviar
+2026-09-07 21:58:05 [INFO] Aguardando 2.73s...
+2026-09-07 21:58:08 [INFO] [14/20] ID: https://oantagonista.com.br/mundo/uma-franqueada-de-churrasco-entrou-em-recuperacao-pela-segunda-vez-em-tres-anos-depois-que-carne-mais-cara-e-credito-emergencial-apertaram-o-caixa/
+2026-09-07 21:58:08 [INFO] Título: Uma franqueada de churrasco entrou em <b>recuperação</b> pela segunda vez em três anos ...
+2026-09-07 21:58:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:58:08 [INFO] Classificação: enviar
+2026-09-07 21:58:08 [INFO] Aguardando 2.75s...
+2026-09-07 21:58:11 [INFO] [15/20] ID: https://www.bnews.com.br/noticias/esporte/ex-jogadores-de-bahia-e-vitoria-aparecem-em-lista-de-atletas-que-tentaram-barrar-saf-de-r-31-bilhoes.html
+2026-09-07 21:58:11 [INFO] Título: Ex-jogadores de Bahia e Vitória aparecem em lista de atletas que tentaram barrar SAF de ... - Bnews
+2026-09-07 21:58:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:58:11 [INFO] Classificação: nao_enviar
+2026-09-07 21:58:11 [INFO] Aguardando 2.77s...
+2026-09-07 21:58:14 [INFO] [16/20] ID: https://www.jornaldacidadeonline.com.br/noticias/87660/companhia-aerea-barra-gustavo-petro-e-o-impede-de-viajar
+2026-09-07 21:58:14 [INFO] Título: Companhia aérea barra Gustavo Petro e o impede de viajar - Jornal da Cidade Online
+2026-09-07 21:58:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:58:14 [INFO] Classificação: nao_enviar
+2026-09-07 21:58:14 [INFO] Aguardando 2.60s...
+2026-09-07 21:58:17 [INFO] [17/20] ID: https://www.minhaoperadora.com.br/2026/09/anatel-da-ok-final-a-transferencia-da-telefonia-fixa-da-oi-para-a-metodo.html
+2026-09-07 21:58:17 [INFO] Título: Anatel dá 'ok' final à transferência da telefonia fixa da Oi para a Método - Minha Operadora
+2026-09-07 21:58:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:58:17 [INFO] Classificação: nao_enviar
+2026-09-07 21:58:17 [INFO] Aguardando 2.65s...
+2026-09-07 21:58:20 [INFO] [18/20] ID: https://www.bnews.com.br/noticias/esporte/ex-jogadores-tentam-impedir-na-justica-venda-da-saf-de-gigante-da-serie-por-r-31-bilhoes.html
+2026-09-07 21:58:20 [INFO] Título: Ex-jogadores tentam impedir na Justiça venda da SAF de gigante da Série A por R$ 3,1 bilhões
+2026-09-07 21:58:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:58:20 [INFO] Classificação: nao_enviar
+2026-09-07 21:58:20 [INFO] Aguardando 2.65s...
+2026-09-07 21:58:23 [INFO] [19/20] ID: https://mundoba.com.br/brasil/operador-de-vorcaro-teria-movimentado-us-1-bilhao-em-offshores-ligadas-ao-ex-dono-do-banco-master/
+2026-09-07 21:58:23 [INFO] Título: Operador de Vorcaro teria movimentado US$ 1 bilhão em offshores ligadas ao ex-dono do ...
+2026-09-07 21:58:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:58:23 [INFO] Classificação: nao_enviar
+2026-09-07 21:58:23 [INFO] Aguardando 2.83s...
+2026-09-07 21:58:26 [INFO] [20/20] ID: https://e-global.pt/noticias/lusofonia/brasil/brasil-celebra-204-anos-da-independencia-num-7-de-setembro-marcado-pela-corrida-eleitoral-e-pelo-escandalo-do-caso-banco-master/
+2026-09-07 21:58:26 [INFO] Título: Brasil celebra “204 anos da Independência” num “7 de Setembro” marcado pela corrida ...
+2026-09-07 21:58:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 21:58:26 [INFO] Classificação: nao_enviar
+2026-09-07 21:58:26 [INFO] ======================================================================
+2026-09-07 21:58:26 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-07 21:58:26 [INFO] ======================================================================
+2026-09-07 21:58:26 [INFO] Processadas: 20
+2026-09-07 21:58:26 [INFO] Enviar: 4
+2026-09-07 21:58:26 [INFO] Não enviar: 16
+2026-09-07 21:58:26 [INFO] ======================================================================
