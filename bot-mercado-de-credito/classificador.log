@@ -17882,3 +17882,81 @@
 2026-09-07 05:56:07 [INFO] Enviar: 1
 2026-09-07 05:56:07 [INFO] Não enviar: 4
 2026-09-07 05:56:07 [INFO] ======================================================================
+2026-09-07 12:18:08 [INFO] ======================================================================
+2026-09-07 12:18:08 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-07 12:18:08 [INFO] ======================================================================
+2026-09-07 12:18:08 [INFO] Notícias com status 'extraida': 13
+2026-09-07 12:18:08 [INFO] Limite: 20 requisições/minuto
+2026-09-07 12:18:08 [INFO] Intervalo mínimo: 3.0s
+2026-09-07 12:18:08 [INFO] ======================================================================
+2026-09-07 12:18:08 [INFO] [1/13] ID: https://forbes.com.br/forbes-money/2026/09/jorge-paulo-lemann-fortuna-lista-forbes-bilionarios-2026/
+2026-09-07 12:18:08 [INFO] Título: Jorge Paulo Lemann Aos 87 Anos e Patrimônio de R$ 103,5 Bilhões É o Terceiro Homem ...
+2026-09-07 12:18:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:08 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:09 [INFO] Aguardando 2.65s...
+2026-09-07 12:18:11 [INFO] [2/13] ID: https://timesbrasil.com.br/empresas-e-negocios/chapter-11-entenda-como-funciona-a-protecao-judicial-usada-pela-braskem-idesa-nos-eua/
+2026-09-07 12:18:11 [INFO] Título: Chapter 11: entenda como funciona a proteção <b>judicial</b> usada pela Braskem Idesa nos EUA
+2026-09-07 12:18:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:11 [INFO] Classificação: enviar
+2026-09-07 12:18:11 [INFO] Aguardando 2.69s...
+2026-09-07 12:18:14 [INFO] [3/13] ID: https://economia.uol.com.br/noticias/redacao/2026/09/07/anatel-aprova-venda-oi-telefonica.ghtm
+2026-09-07 12:18:14 [INFO] Título: Anatel aprova venda do controle da rede de telefonia fixa da Oi - UOL Economia
+2026-09-07 12:18:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:14 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:14 [INFO] Aguardando 2.70s...
+2026-09-07 12:18:17 [INFO] [4/13] ID: https://www.seudinheiro.com/2026/colunistas/o-brasil-pode-dar-calote-na-divida-a-agenda-de-inflacao-e-o-que-mais-mexe-com-seu-bolso-hoje-kaes/
+2026-09-07 12:18:17 [INFO] Título: O Brasil pode dar calote na dívida, a agenda de inflação e o que mais mexe com seu bolso hoje
+2026-09-07 12:18:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:17 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:17 [INFO] Aguardando 2.83s...
+2026-09-07 12:18:20 [INFO] [5/13] ID: https://www.correiodopovo.com.br/notícias/economia/tempestade-perfeita-desafia-o-comercio-1.1745720
+2026-09-07 12:18:20 [INFO] Título: 'Tempestade perfeita' desafia o comércio - Correio do Povo
+2026-09-07 12:18:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:20 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:20 [INFO] Aguardando 2.73s...
+2026-09-07 12:18:23 [INFO] [6/13] ID: https://economicnewsbrasil.com.br/2026/09/07/mansao-de-nasser-fares-leilao/
+2026-09-07 12:18:23 [INFO] Título: Mansão de Nasser Fares, dono da Marabraz, vai a leilão valendo 52% da dívida da rede varejista
+2026-09-07 12:18:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:23 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:23 [INFO] Aguardando 2.72s...
+2026-09-07 12:18:26 [INFO] [7/13] ID: https://bahiaeconomica.com.br/wp/2026/09/07/lula-fara-pronunciamento-na-vespera-do-7-de-setembro/
+2026-09-07 12:18:26 [INFO] Título: LULA FARÁ PRONUNCIAMENTO NA VÉSPERA DO 7 DE SETEMBRO - - Bahia Economica
+2026-09-07 12:18:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:26 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:26 [INFO] Aguardando 2.82s...
+2026-09-07 12:18:29 [INFO] [8/13] ID: https://www.antena1.com.br/noticias/jockey-nova-gestao-auditoria-e-cpi-marcam-nova-fase-do
+2026-09-07 12:18:29 [INFO] Título: JOCKEY: NOVA GESTÃO, AUDITORIA E CPI MARCAM NOVA … - Antena 1
+2026-09-07 12:18:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:30 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:30 [INFO] Aguardando 2.06s...
+2026-09-07 12:18:32 [INFO] [9/13] ID: https://oglobo.globo.com/economia/noticia/2026/09/07/juros-elevados-fazem-despesas-financeiras-das-empresas-saltar-12percent-no-2o-trimestre-a-r-99-bilhoes.ghtml
+2026-09-07 12:18:32 [INFO] Título: Juros elevados fazem despesas financeiras das empresas saltar 12% no 2º trimestre, a R ...
+2026-09-07 12:18:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:32 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:32 [INFO] Aguardando 2.69s...
+2026-09-07 12:18:35 [INFO] [10/13] ID: https://obrasilianista.com.br/2026/09/07/politica/1-ano-o-brasilianista-veja-destaque/
+2026-09-07 12:18:35 [INFO] Título: 1 ano de O Brasilianista: veja o que foi destaque
+2026-09-07 12:18:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:35 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:35 [INFO] Aguardando 2.75s...
+2026-09-07 12:18:38 [INFO] [11/13] ID: https://aciara.com.br/recorde-de-recuperacoes-judiciais-atinge-economia/
+2026-09-07 12:18:38 [INFO] Título: Recorde de recuperações <b>judiciais</b> atinge economia - Acia Araçatuba
+2026-09-07 12:18:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:38 [INFO] Classificação: enviar
+2026-09-07 12:18:38 [INFO] Aguardando 2.77s...
+2026-09-07 12:18:41 [INFO] [12/13] ID: https://www.ojacare.com.br/2026/09/07/grupo-agricola-de-maracaju-acumula-dividas-de-r-270-milhoes-e-pede-recuperacao-judicial/
+2026-09-07 12:18:41 [INFO] Título: Grupo agrícola de Maracaju acumula dívidas de R$ 270 milhões e pede <b>recuperação judicial</b>
+2026-09-07 12:18:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:41 [INFO] Classificação: enviar
+2026-09-07 12:18:41 [INFO] Aguardando 2.74s...
+2026-09-07 12:18:44 [INFO] [13/13] ID: https://www.diariodepernambuco.com.br/colunas/diario-economico/2026/09/11723264-el-nino-chega-ao-nordeste-em-plena-estiagem-mas-ha-reserva-nos-grandes-reservatorios.html
+2026-09-07 12:18:44 [INFO] Título: El Niño chega ao Nordeste em plena estiagem, mas há reserva nos grandes reservatórios
+2026-09-07 12:18:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 12:18:45 [INFO] Classificação: nao_enviar
+2026-09-07 12:18:45 [INFO] ======================================================================
+2026-09-07 12:18:45 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-07 12:18:45 [INFO] ======================================================================
+2026-09-07 12:18:45 [INFO] Processadas: 13
+2026-09-07 12:18:45 [INFO] Enviar: 3
+2026-09-07 12:18:45 [INFO] Não enviar: 10
+2026-09-07 12:18:45 [INFO] ======================================================================
