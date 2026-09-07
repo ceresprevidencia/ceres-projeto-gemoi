@@ -17960,3 +17960,101 @@
 2026-09-07 12:18:45 [INFO] Enviar: 3
 2026-09-07 12:18:45 [INFO] Não enviar: 10
 2026-09-07 12:18:45 [INFO] ======================================================================
+2026-09-07 18:12:50 [INFO] ======================================================================
+2026-09-07 18:12:50 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-07 18:12:50 [INFO] ======================================================================
+2026-09-07 18:12:50 [INFO] Notícias com status 'extraida': 17
+2026-09-07 18:12:50 [INFO] Limite: 20 requisições/minuto
+2026-09-07 18:12:50 [INFO] Intervalo mínimo: 3.0s
+2026-09-07 18:12:50 [INFO] ======================================================================
+2026-09-07 18:12:50 [INFO] [1/17] ID: https://ge.globo.com/futebol/times/sao-caetano/noticia/2026/09/07/com-divida-de-r-72-milhoes-sao-caetano-aposta-na-concessao-de-estadio-para-sobreviver.ghtml
+2026-09-07 18:12:50 [INFO] Título: São Caetano aposta em concessão do Anacleto Campanella para sobreviver | Ge
+2026-09-07 18:12:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:12:51 [INFO] Classificação: nao_enviar
+2026-09-07 18:12:51 [INFO] Aguardando 2.61s...
+2026-09-07 18:12:53 [INFO] [2/17] ID: https://horadopovo.com.br/tst-mantem-decisao-que-suspende-demissao-em-massa-nas-casas-bahia/
+2026-09-07 18:12:53 [INFO] Título: TST mantém decisão que suspende demissão em massa nas Casas Bahia - Hora do Povo
+2026-09-07 18:12:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:12:54 [INFO] Classificação: nao_enviar
+2026-09-07 18:12:54 [INFO] Aguardando 2.50s...
+2026-09-07 18:12:56 [INFO] [3/17] ID: https://exame.com/negocios/como-esta-rede-que-ja-faturou-r-16-bilhao-e-teve-96-supermercados-por-sao-paulo-faliu/
+2026-09-07 18:12:56 [INFO] Título: Como esta rede que já faturou R$ 1,6 bilhão e teve 96 supermercados por São Paulo faliu
+2026-09-07 18:12:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:12:57 [INFO] Classificação: nao_enviar
+2026-09-07 18:12:57 [INFO] Aguardando 2.63s...
+2026-09-07 18:12:59 [INFO] [4/17] ID: https://www.justicaemfoco.com.br/noticias/marcello-perino-cautelar-safira-energia-mostra-pressao-sobre-comercializadoras-independentes
+2026-09-07 18:12:59 [INFO] Título: Marcello Perino: cautelar da Safira Energia mostra pressão sobre comercializadoras independentes
+2026-09-07 18:13:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:00 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:00 [INFO] Aguardando 2.83s...
+2026-09-07 18:13:02 [INFO] [5/17] ID: https://atarde.com.br/esportes/ex-jogadores-da-dupla-ba-vi-aparecem-em-lista-que-tentou-barrar-saf-de-r-3-bilhoes-1401185
+2026-09-07 18:13:02 [INFO] Título: Ex-jogadores da dupla Ba-Vi aparecem em lista que tentou barrar SAF de R$ 3 bilhões
+2026-09-07 18:13:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:03 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:03 [INFO] Aguardando 2.72s...
+2026-09-07 18:13:05 [INFO] [6/17] ID: https://www.folhamax.com/economia/empresa-culpa-crise-no-agro-para-recuperacao-de-r-134-mi-em-mt/570459
+2026-09-07 18:13:05 [INFO] Título: Empresa culpa crise no agro para <b>recuperação</b> de R$ 134 mi em MT - FOLHAMAX
+2026-09-07 18:13:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:06 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:06 [INFO] Aguardando 2.49s...
+2026-09-07 18:13:08 [INFO] [7/17] ID: https://investnews.com.br/negocios/aquisicao-boeing-passivos-spirit/
+2026-09-07 18:13:08 [INFO] Título: Aquisição da Boeing por US$ 8,4 bilhões revela novos passivos na Spirit - InvestNews
+2026-09-07 18:13:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:09 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:09 [INFO] Aguardando 2.68s...
+2026-09-07 18:13:11 [INFO] [8/17] ID: https://www.jornaldocomercio.com/cadernos/jc-contabilidade/2026/09/1261227-contabilidade-rural-se-transforma-com-reforma-tributaria-e-tecnologia.html
+2026-09-07 18:13:11 [INFO] Título: Contabilidade rural se transforma com reforma tributária e tecnologia - Jornal do Comércio
+2026-09-07 18:13:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:12 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:12 [INFO] Aguardando 2.72s...
+2026-09-07 18:13:15 [INFO] [9/17] ID: https://www.estadao.com.br/politica/marcelo-godoy/como-a-avibras-vai-entrar-no-contrato-milionario-do-exercito-com-israelenses-apos-venda-para-joesley/
+2026-09-07 18:13:15 [INFO] Título: Como a Avibrás vai entrar no contrato milionário do Exército com israelenses após venda ...
+2026-09-07 18:13:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:15 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:15 [INFO] Aguardando 2.70s...
+2026-09-07 18:13:18 [INFO] [10/17] ID: https://atarde.com.br/esportes/ex-jogadores-da-dupla-ba-vi-aparecem-em-lista-que-tentou-barrar-saf-de-r-3-bilhoes-1401185?_=amp
+2026-09-07 18:13:18 [INFO] Título: Ex-jogadores da dupla Ba-Vi aparecem em lista que tentou barrar SAF de R$ 3 bilhões
+2026-09-07 18:13:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:18 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:18 [INFO] Aguardando 2.73s...
+2026-09-07 18:13:21 [INFO] [11/17] ID: https://oglobo.globo.com/blogs/lauro-jardim/post/2026/09/franqueada-culpa-skechers-por-prejuizos-e-cobra-indenizacao-de-r-54-milhoes-na-justica.ghtml
+2026-09-07 18:13:21 [INFO] Título: Franqueada culpa Skechers por prejuízos e cobra indenização de R$ 54 milhões na Justiça
+2026-09-07 18:13:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:21 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:21 [INFO] Aguardando 2.54s...
+2026-09-07 18:13:24 [INFO] [12/17] ID: https://www.brasil247.com/economia/com-selic-a-14-despesas-financeiras-das-empresas-salta-12-no-2o-trimestre-e-soma-r-99-bilhoes/
+2026-09-07 18:13:24 [INFO] Título: Com Selic a 14%, despesas financeiras das empresas saltam 12% no 2º trimestre e somam ...
+2026-09-07 18:13:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:24 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:24 [INFO] Aguardando 2.78s...
+2026-09-07 18:13:27 [INFO] [13/17] ID: https://economia.ig.com.br/2026-09-06/casas-bahia-faz-3-leiloes-com-mais-de-450-lotes--veja-precos.html
+2026-09-07 18:13:27 [INFO] Título: Casas Bahia faz 3 leilões com mais de 450 lotes; veja preços - iG Economia
+2026-09-07 18:13:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:27 [INFO] Classificação: enviar
+2026-09-07 18:13:27 [INFO] Aguardando 2.64s...
+2026-09-07 18:13:30 [INFO] [14/17] ID: https://vanguardadonorte.com.br/mundo/russia-critica-envio-de-misseis-dos-eua-a-noruega-e-diz-que-medida-dificulta-negociacoes/
+2026-09-07 18:13:30 [INFO] Título: Rússia critica envio de mísseis dos EUA à Noruega e diz que medida dificulta negociações
+2026-09-07 18:13:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:30 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:30 [INFO] Aguardando 2.76s...
+2026-09-07 18:13:33 [INFO] [15/17] ID: https://www.jornalatitude.com.br/noticia/ambulantes-desfilam-no-7-de-setembro-em-busca-de-sustento
+2026-09-07 18:13:33 [INFO] Título: Ambulantes "desfilam" no 7 de Setembro em busca de sustento - Jornal Atitude
+2026-09-07 18:13:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:33 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:33 [INFO] Aguardando 2.62s...
+2026-09-07 18:13:36 [INFO] [16/17] ID: https://agenciagbc.com/2026/09/07/empresa-entra-em-recuperacao-extrajudicial-e-divida-bilionaria-coloca-uma-das-maiores-empresas-do-pais-no-centro-das-atencoes/
+2026-09-07 18:13:36 [INFO] Título: <b>Recuperação extrajudicial</b> da Braskem: dívida chega a R$ 56 bilhões - Agência GBC
+2026-09-07 18:13:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:36 [INFO] Classificação: enviar
+2026-09-07 18:13:36 [INFO] Aguardando 2.68s...
+2026-09-07 18:13:39 [INFO] [17/17] ID: https://atarde.com.br/politica/operador-de-vorcaro-controlava-r-5-bilhoes-do-banqueiro-fora-do-pais-1401214
+2026-09-07 18:13:39 [INFO] Título: Operador de Vorcaro controlava R$ 5 bilhões do banqueiro fora do país - A TARDE
+2026-09-07 18:13:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 18:13:39 [INFO] Classificação: nao_enviar
+2026-09-07 18:13:39 [INFO] ======================================================================
+2026-09-07 18:13:39 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-07 18:13:39 [INFO] ======================================================================
+2026-09-07 18:13:39 [INFO] Processadas: 17
+2026-09-07 18:13:39 [INFO] Enviar: 2
+2026-09-07 18:13:39 [INFO] Não enviar: 15
+2026-09-07 18:13:39 [INFO] ======================================================================
