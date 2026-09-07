@@ -17801,3 +17801,46 @@
 2026-09-06 22:05:03 [INFO] Enviar: 3
 2026-09-06 22:05:03 [INFO] Não enviar: 8
 2026-09-06 22:05:03 [INFO] ======================================================================
+2026-09-07 00:50:19 [INFO] ======================================================================
+2026-09-07 00:50:19 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-07 00:50:19 [INFO] ======================================================================
+2026-09-07 00:50:19 [INFO] Notícias com status 'extraida': 6
+2026-09-07 00:50:19 [INFO] Limite: 20 requisições/minuto
+2026-09-07 00:50:19 [INFO] Intervalo mínimo: 3.0s
+2026-09-07 00:50:19 [INFO] ======================================================================
+2026-09-07 00:50:19 [INFO] [1/6] ID: https://obastidor.com.br/justica/movimento-patriota/
+2026-09-07 00:50:19 [INFO] Título: Movimento patriota - O Bastidor
+2026-09-07 00:50:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 00:50:19 [INFO] Classificação: nao_enviar
+2026-09-07 00:50:19 [INFO] Aguardando 2.59s...
+2026-09-07 00:50:22 [INFO] [2/6] ID: https://aciara.com.br/jaguar-land-rover-demite-4-mil-apos-prejuizo/
+2026-09-07 00:50:22 [INFO] Título: Jaguar Land Rover demite 4 mil após prejuízo - Associação Comercial e Industrial de Araçatuba
+2026-09-07 00:50:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 00:50:22 [INFO] Classificação: nao_enviar
+2026-09-07 00:50:22 [INFO] Aguardando 2.76s...
+2026-09-07 00:50:25 [INFO] [3/6] ID: https://investnews.com.br/investimentos/acoes-b3-mais-expostas-juros-altos/
+2026-09-07 00:50:25 [INFO] Título: Ações do Ibovespa mais expostas ao impacto dos juros altos - InvestNews
+2026-09-07 00:50:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 00:50:25 [INFO] Classificação: nao_enviar
+2026-09-07 00:50:25 [INFO] Aguardando 2.66s...
+2026-09-07 00:50:28 [INFO] [4/6] ID: https://www.congressoemfoco.com.br/amp/noticia/122017/tre-manda-icl-retirar-conteudos-sobre-lindao-de-nikolas-a-vorcaro
+2026-09-07 00:50:28 [INFO] Título: TRE manda ICL retirar conteúdos sobre "lindão" de Nikolas a Vorcaro - Congresso em Foco
+2026-09-07 00:50:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 00:50:28 [INFO] Classificação: nao_enviar
+2026-09-07 00:50:28 [INFO] Aguardando 2.73s...
+2026-09-07 00:50:31 [INFO] [5/6] ID: https://timesbrasil.com.br/empresas-e-negocios/novo-vice-da-chilli-beans-ja-comandou-empresa-que-entrou-em-recuperacao-judicial-com-divida-de-r-428-milhoes/
+2026-09-07 00:50:31 [INFO] Título: Novo vice da Chilli Beans já comandou empresa que entrou em recuperação <b>judicial</b> com ...
+2026-09-07 00:50:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 00:50:31 [INFO] Classificação: enviar
+2026-09-07 00:50:31 [INFO] Aguardando 2.70s...
+2026-09-07 00:50:34 [INFO] [6/6] ID: https://gcmais.com.br/noticias/2026/09/06/fernando-haddad-ex-ministro-da-fazenda-de-lula-recusou-todos-os-pedidos-de-reuniao-com-vorcaro
+2026-09-07 00:50:34 [INFO] Título: Fernando Haddad, ex-ministro da Fazenda de Lula, recusou todos os pedidos de reunião ...
+2026-09-07 00:50:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 00:50:34 [INFO] Classificação: nao_enviar
+2026-09-07 00:50:34 [INFO] ======================================================================
+2026-09-07 00:50:34 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-07 00:50:34 [INFO] ======================================================================
+2026-09-07 00:50:34 [INFO] Processadas: 6
+2026-09-07 00:50:34 [INFO] Enviar: 1
+2026-09-07 00:50:34 [INFO] Não enviar: 5
+2026-09-07 00:50:34 [INFO] ======================================================================
