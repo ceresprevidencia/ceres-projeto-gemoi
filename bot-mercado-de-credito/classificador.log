@@ -17844,3 +17844,41 @@
 2026-09-07 00:50:34 [INFO] Enviar: 1
 2026-09-07 00:50:34 [INFO] Não enviar: 5
 2026-09-07 00:50:34 [INFO] ======================================================================
+2026-09-07 05:55:54 [INFO] ======================================================================
+2026-09-07 05:55:54 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-07 05:55:54 [INFO] ======================================================================
+2026-09-07 05:55:54 [INFO] Notícias com status 'extraida': 5
+2026-09-07 05:55:54 [INFO] Limite: 20 requisições/minuto
+2026-09-07 05:55:54 [INFO] Intervalo mínimo: 3.0s
+2026-09-07 05:55:54 [INFO] ======================================================================
+2026-09-07 05:55:54 [INFO] [1/5] ID: https://www.dgabc.com.br/Noticia/4345443/apos-fiasco-na-copa-paulista-torcidas-do-sao-caetano-cobram-acoes-da-diretoria
+2026-09-07 05:55:54 [INFO] Título: Após fiasco na Copa Paulista, torcidas do São Caetano cobram ações da diretoria - dgabc
+2026-09-07 05:55:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 05:55:55 [INFO] Classificação: nao_enviar
+2026-09-07 05:55:55 [INFO] Aguardando 2.49s...
+2026-09-07 05:55:57 [INFO] [2/5] ID: https://www1.folha.uol.com.br/colunas/marcos-de-vasconcellos/2026/09/oi-tirou-o-gesso-de-uma-perna-necrosada.shtml
+2026-09-07 05:55:57 [INFO] Título: Oi tirou o gesso de uma perna necrosada - 06/09/2026 - Marcos de Vasconcellos - Folha
+2026-09-07 05:55:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 05:55:58 [INFO] Classificação: nao_enviar
+2026-09-07 05:55:58 [INFO] Aguardando 2.78s...
+2026-09-07 05:56:00 [INFO] [3/5] ID: https://diretonoticias.com.br/2026/09/06/onda-de-recuperacoes-judiciais-evidencia-crise-economica/
+2026-09-07 05:56:00 [INFO] Título: Onda de recuperações judiciais evidencia crise econômica - Direto Notícias
+2026-09-07 05:56:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 05:56:01 [INFO] Classificação: enviar
+2026-09-07 05:56:01 [INFO] Aguardando 2.69s...
+2026-09-07 05:56:03 [INFO] [4/5] ID: https://www.jcatibaia.com.br/noticia/confira-dicas-para-acompanhar-o-desfile-de-7-de-setembro-em-brasilia
+2026-09-07 05:56:03 [INFO] Título: Confira dicas para acompanhar o Desfile de 7 de Setembro em Brasília - JC Atibaia
+2026-09-07 05:56:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 05:56:04 [INFO] Classificação: nao_enviar
+2026-09-07 05:56:04 [INFO] Aguardando 2.69s...
+2026-09-07 05:56:06 [INFO] [5/5] ID: https://portalmie.com/atualidade/2026/09/falta-de-criancas-e-funcionarios-leva-creches-no-japao-a-fechar-em-ritmo-recorde-no-japao/
+2026-09-07 05:56:06 [INFO] Título: Falta de crianças e funcionários leva creches no Japão a fechar em ritmo recorde
+2026-09-07 05:56:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-07 05:56:07 [INFO] Classificação: nao_enviar
+2026-09-07 05:56:07 [INFO] ======================================================================
+2026-09-07 05:56:07 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-07 05:56:07 [INFO] ======================================================================
+2026-09-07 05:56:07 [INFO] Processadas: 5
+2026-09-07 05:56:07 [INFO] Enviar: 1
+2026-09-07 05:56:07 [INFO] Não enviar: 4
+2026-09-07 05:56:07 [INFO] ======================================================================
