@@ -18325,3 +18325,206 @@
 2026-09-08 11:06:00 [INFO] Enviar: 0
 2026-09-08 11:06:00 [INFO] Não enviar: 7
 2026-09-08 11:06:00 [INFO] ======================================================================
+2026-09-08 16:31:26 [INFO] ======================================================================
+2026-09-08 16:31:26 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-08 16:31:26 [INFO] ======================================================================
+2026-09-08 16:31:26 [INFO] Notícias com status 'extraida': 38
+2026-09-08 16:31:26 [INFO] Limite: 20 requisições/minuto
+2026-09-08 16:31:26 [INFO] Intervalo mínimo: 3.0s
+2026-09-08 16:31:26 [INFO] ======================================================================
+2026-09-08 16:31:26 [INFO] [1/38] ID: https://www.diariodepernambuco.com.br/esportes-dp/santa-cruz/2026/09/11723342-saf-do-santa-cruz-ja-esta-assinada-revela-presidente-do-clube-veja-detalhes.html
+2026-09-08 16:31:26 [INFO] Título: SAF do Santa Cruz já está assinada, revela presidente do clube; veja detalhes
+2026-09-08 16:31:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:27 [INFO] Classificação: nao_enviar
+2026-09-08 16:31:27 [INFO] Aguardando 2.42s...
+2026-09-08 16:31:29 [INFO] [2/38] ID: https://www.hondatar.com.br/stf-valida-proibicao-de-recuperacao-judicial-para-devedor-contumaz/
+2026-09-08 16:31:29 [INFO] Título: STF valida proibição de <b>recuperação judicial</b> para devedor contumaz
+2026-09-08 16:31:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:29 [INFO] Classificação: enviar
+2026-09-08 16:31:29 [INFO] Aguardando 2.69s...
+2026-09-08 16:31:32 [INFO] [3/38] ID: https://www.midianews.com.br/judiciario/juiz-recebe-queixa-crime-contra-casal-pupin-por-suposta-difamacao/528736
+2026-09-08 16:31:32 [INFO] Título: Juiz recebe queixa-crime contra casal Pupin por suposta difamação - MidiaNews
+2026-09-08 16:31:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:32 [INFO] Classificação: nao_enviar
+2026-09-08 16:31:32 [INFO] Aguardando 2.69s...
+2026-09-08 16:31:35 [INFO] [4/38] ID: https://www.jota.info/opiniao-e-analise/colunas/propriedade-intelectual-inovacao/ativos-intangiveis-nao-podem-ser-invisiveis
+2026-09-08 16:31:35 [INFO] Título: Ativos intangíveis não podem ser invisíveis - JOTA
+2026-09-08 16:31:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:35 [INFO] Classificação: nao_enviar
+2026-09-08 16:31:35 [INFO] Aguardando 2.63s...
+2026-09-08 16:31:38 [INFO] [5/38] ID: https://www.nsctotal.com.br/economia/tombo-no-faturamento-e-nas-vendas-como-chilli-beans-de-caito-maia-acumulou-divida-milionaria-e-forcou-chegada-de-novo-co-ceo
+2026-09-08 16:31:38 [INFO] Título: "Tombo" no faturamento e nas vendas: como Chilli Beans, de Caito Maia, acumulou dívida ...
+2026-09-08 16:31:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:38 [INFO] Classificação: nao_enviar
+2026-09-08 16:31:38 [INFO] Aguardando 2.76s...
+2026-09-08 16:31:41 [INFO] [6/38] ID: https://olhardireto.com.br/juridico/noticias/justica-manda-acionar-pf-cvm-e-banco-central-em-recuperacao-judicial-de-grupo-do-agro-em-mt
+2026-09-08 16:31:41 [INFO] Título: Justiça manda acionar PF, CVM e Banco Central em <b>recuperação judicial</b> de grupo do agro em MT
+2026-09-08 16:31:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:41 [INFO] Classificação: enviar
+2026-09-08 16:31:41 [INFO] Aguardando 2.78s...
+2026-09-08 16:31:44 [INFO] [7/38] ID: https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/08/stf-mais-aguda-crise-da-historia-dizem-13-ex-ministros-em-carta-a-fachin.ghtm
+2026-09-08 16:31:44 [INFO] Título: STF: leia na íntegra carta assinada por 13 ex-ministros e enviada a Fachin - UOL Notícias
+2026-09-08 16:31:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:44 [INFO] Classificação: nao_enviar
+2026-09-08 16:31:44 [INFO] Aguardando 2.68s...
+2026-09-08 16:31:47 [INFO] [8/38] ID: https://mundologistica.com.br/noticias/nstech-cast-ceo-addiante-capital-inteligente-transporte-cargas
+2026-09-08 16:31:47 [INFO] Título: nstech cast: CEO da Addiante fala sobre capital inteligente no transporte de cargas
+2026-09-08 16:31:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:47 [INFO] Classificação: nao_enviar
+2026-09-08 16:31:47 [INFO] Aguardando 2.72s...
+2026-09-08 16:31:50 [INFO] [9/38] ID: https://noticias.uol.com.br/colunas/rogerio-gentile/2026/09/08/em-recuperacao-judicial-habibs-nao-paga-luz-mas-justica-proibe-corte.htm
+2026-09-08 16:31:50 [INFO] Título: Em <b>recuperação judicial</b>, Habib´s não paga luz, mas Justiça proíbe corte - UOL Notícias
+2026-09-08 16:31:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:50 [INFO] Classificação: enviar
+2026-09-08 16:31:50 [INFO] Aguardando 2.75s...
+2026-09-08 16:31:53 [INFO] [10/38] ID: https://www.fatosdematogrosso.com.br/juridico/tjmt-impede-falencia-de-grupo-agricola-e-retoma-recuperacao-judicial-de-r-76-milhoes/15709
+2026-09-08 16:31:53 [INFO] Título: TJMT impede falência de grupo agrícola e retoma <b>recuperação judicial</b> de R$ 76 milhões
+2026-09-08 16:31:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:53 [INFO] Classificação: enviar
+2026-09-08 16:31:53 [INFO] Aguardando 2.68s...
+2026-09-08 16:31:56 [INFO] [11/38] ID: https://www.opovo.com.br/noticias/economia/2026/09/08/grupo-turatti-entra-em-recuperacao-judicial-e-mantem-operacao.html
+2026-09-08 16:31:56 [INFO] Título: Grupo Turatti entra em <b>recuperação judicial</b> e mantém operação - O POVO
+2026-09-08 16:31:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:56 [INFO] Classificação: enviar
+2026-09-08 16:31:56 [INFO] Aguardando 2.60s...
+2026-09-08 16:31:59 [INFO] [12/38] ID: https://conjur.com.br/2026-set-08/provimento-231-do-cnj-regulamentar-nao-e-legislar-muito-menos-condicionar-a-jurisdicao/
+2026-09-08 16:31:59 [INFO] Título: Provimento 231 do CNJ: regulamentar não é legislar, muito menos condicionar a jurisdição
+2026-09-08 16:31:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:31:59 [INFO] Classificação: nao_enviar
+2026-09-08 16:31:59 [INFO] Aguardando 2.63s...
+2026-09-08 16:32:02 [INFO] [13/38] ID: https://www.moneytimes.com.br/recuperacoes-judiciais-geram-incerteza-brutal-no-agro-diz-ceo-da-bayer-que-defende-politica-publica-para-produtor-afetado-por-clima-extremo/
+2026-09-08 16:32:02 [INFO] Título: Recuperações <b>judiciais</b> geram 'incerteza brutal' no agro, diz CEO da Bayer, que defende ...
+2026-09-08 16:32:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:02 [INFO] Classificação: enviar
+2026-09-08 16:32:02 [INFO] Aguardando 2.74s...
+2026-09-08 16:32:05 [INFO] [14/38] ID: https://www.infomoney.com.br/onde-investir/nao-tem-dinheiro-para-todo-mundo-crise-de-credito-e-oportunidade-dos-special-sits/
+2026-09-08 16:32:05 [INFO] Título: “Não tem dinheiro para todo mundo”: onde estão as oportunidades na crise de crédito
+2026-09-08 16:32:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:05 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:05 [INFO] Aguardando 2.63s...
+2026-09-08 16:32:08 [INFO] [15/38] ID: https://www.correiodopovo.com.br/esportes/inter/conselho-fiscal-cobra-explicacoes-sobre-uso-de-cartoes-e-recomenda-estudo-sobre-recuperacao-judicial-1.1745944
+2026-09-08 16:32:08 [INFO] Título: Conselho Fiscal cobra explicações sobre uso de cartões e recomenda estudo sobre ...
+2026-09-08 16:32:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:08 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:08 [INFO] Aguardando 2.63s...
+2026-09-08 16:32:11 [INFO] [16/38] ID: https://www.pontonacurva.com.br/justica-estadual/tj-blindagem-nao-pode-ser-suspensa-por-divida-de-honorarios/34878
+2026-09-08 16:32:11 [INFO] Título: TJ: Blindagem não pode ser suspensa por dívida de honorários - Ponto na Curva
+2026-09-08 16:32:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:12 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:12 [INFO] Aguardando 2.45s...
+2026-09-08 16:32:14 [INFO] [17/38] ID: https://diariodonordeste.verdesmares.com.br/negocios/caso-posco-empresa-coreana-que-deu-calote-no-ceara-tentou-subornar-funcionaria-com-r-15-milhao-1.3789519
+2026-09-08 16:32:14 [INFO] Título: Caso Posco: empresa coreana que deu calote no Ceará tentou subornar funcionária com R ...
+2026-09-08 16:32:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:14 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:14 [INFO] Aguardando 2.62s...
+2026-09-08 16:32:17 [INFO] [18/38] ID: https://www.fatosdematogrosso.com.br/geral/divida-de-frigorifico-de-vg-atinge-pecuaristas-e-postos-da-regiao/15699
+2026-09-08 16:32:17 [INFO] Título: Dívida de frigorífico de VG atinge pecuaristas e postos da região | Fatos de Mato Grosso
+2026-09-08 16:32:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:17 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:18 [INFO] Aguardando 2.60s...
+2026-09-08 16:32:20 [INFO] [19/38] ID: https://es1.com.br/expointer-movimenta-r-62-bilhoes-e-maquinas-puxam-avanco-de-40/
+2026-09-08 16:32:20 [INFO] Título: Expointer movimenta R$ 6,2 bilhões e máquinas puxam avanço de 40% - ES1
+2026-09-08 16:32:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:20 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:20 [INFO] Aguardando 2.70s...
+2026-09-08 16:32:23 [INFO] [20/38] ID: https://braziljournal.com/opiniao-mais-uma-inovacao-da-fazenda-tributar-um-dinheiro-que-nao-existe/
+2026-09-08 16:32:23 [INFO] Título: OPINIÃO. Mais uma inovação da Fazenda: tributar um dinheiro que não existe
+2026-09-08 16:32:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:23 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:23 [INFO] Aguardando 2.71s...
+2026-09-08 16:32:26 [INFO] [21/38] ID: https://acionista.com.br/weclix-telecom-anuncia-reestruturacao-financeira-e-homologacao-de-plano/
+2026-09-08 16:32:26 [INFO] Título: Weclix Telecom: Anuncia Reestruturação Financeira e Homologação de Plano - Acionista.com.br
+2026-09-08 16:32:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:27 [INFO] Classificação: enviar
+2026-09-08 16:32:27 [INFO] Aguardando 2.57s...
+2026-09-08 16:32:29 [INFO] [22/38] ID: https://guiadafarmacia.com.br/recuperacao-judicial-como-identificar-em-farmacias/
+2026-09-08 16:32:29 [INFO] Título: 6 mil empresas em <b>recuperação</b> judicial no País: como identificar sinais em farmácias
+2026-09-08 16:32:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:29 [INFO] Classificação: enviar
+2026-09-08 16:32:29 [INFO] Aguardando 2.71s...
+2026-09-08 16:32:32 [INFO] [23/38] ID: https://tribunadejundiai.com.br/economia/as-belas-decadas-ficaram-para-tras-familia-desiste-de-concessionaria-ford-apos-25-anos-mas-o-predio-nao-ficara-vazio-e-ja-tem-uma-nova-marca-na-franca/
+2026-09-08 16:32:32 [INFO] Título: “As belas décadas ficaram para trás”: família desiste de concessionária Ford após 25 anos ...
+2026-09-08 16:32:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:33 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:33 [INFO] Aguardando 1.73s...
+2026-09-08 16:32:35 [INFO] [24/38] ID: https://www.comprerural.com/com-pelo-menos-9-frigorificos-em-recuperacao-judicial-e-dividas-acima-de-r-45-bilhoes-quem-vende-boi-corre-risco/
+2026-09-08 16:32:35 [INFO] Título: Com pelo menos 9 frigoríficos em recuperação <b>judicial</b> e dívidas acima de R$ 4,5 bilhões ...
+2026-09-08 16:32:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:35 [INFO] Classificação: enviar
+2026-09-08 16:32:35 [INFO] Aguardando 2.69s...
+2026-09-08 16:32:38 [INFO] [25/38] ID: https://www.coad.com.br/home/noticias-detalhe/139601/prefeitura-de-belem-regulamenta-novo-parcelamento-de-debitos-tributarios-em-ate-60-vezes
+2026-09-08 16:32:38 [INFO] Título: Prefeitura de Belém regulamenta novo parcelamento de débitos tributários em até 60 vezes
+2026-09-08 16:32:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:38 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:38 [INFO] Aguardando 2.64s...
+2026-09-08 16:32:41 [INFO] [26/38] ID: https://bncamazonas.com.br/municipios/hospital-de-manaus-de-153-anos-pede-recuperacao-judicial/
+2026-09-08 16:32:41 [INFO] Título: Hospital de Manaus de 153 anos pede recuperação <b>judicial</b> - BNC Amazonas
+2026-09-08 16:32:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:41 [INFO] Classificação: enviar
+2026-09-08 16:32:41 [INFO] Aguardando 2.61s...
+2026-09-08 16:32:44 [INFO] [27/38] ID: https://www.abcdoabc.com.br/casas-bahia-226-dividas-protestadas-grande-abc/
+2026-09-08 16:32:44 [INFO] Título: Casas Bahia tem 226 dívidas protestadas em cartórios do Grande ABC
+2026-09-08 16:32:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:45 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:45 [INFO] Aguardando 2.56s...
+2026-09-08 16:32:47 [INFO] [28/38] ID: https://www.correiodopovo.com.br/esportes/inter/conselho-fiscal-cobra-explicacoes-sobre-uso-de-cartoes-e-recomenda-recuperacao-judicial-1.1745944
+2026-09-08 16:32:47 [INFO] Título: Conselho Fiscal cobra explicações sobre uso de cartões e recomenda recuperação <b>judicial</b>
+2026-09-08 16:32:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:47 [INFO] Classificação: enviar
+2026-09-08 16:32:47 [INFO] Aguardando 2.70s...
+2026-09-08 16:32:50 [INFO] [29/38] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/09/08/cefdf952-movimento-falimentar.ghtml
+2026-09-08 16:32:50 [INFO] Título: Movimento falimentar | Empresas - Valor Econômico
+2026-09-08 16:32:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:50 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:50 [INFO] Aguardando 2.64s...
+2026-09-08 16:32:53 [INFO] [30/38] ID: https://www.diario24horas.com.br/noticia/69875-delator-do-banco-master-e-ouvido-no-stf-nesta-terca-e-confirma-us-123-milhoes-enviados-ao-fundo-do-dark-horse
+2026-09-08 16:32:53 [INFO] Título: Delator do Banco Master é ouvido no STF nesta terça e confirma US$ 12,3 milhões ...
+2026-09-08 16:32:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:55 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:55 [INFO] Aguardando 1.50s...
+2026-09-08 16:32:56 [INFO] [31/38] ID: https://082noticias.com/geral/perito-contratado-para-investigar-filme-sobre-bolsonaro-tambem-atua-em-caso-de-r-87-milhoes-aplicados-no-banco-master/
+2026-09-08 16:32:56 [INFO] Título: Perito contratado para investigar filme sobre Bolsonaro também atua em caso de R$ 87 ...
+2026-09-08 16:32:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:56 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:56 [INFO] Aguardando 2.64s...
+2026-09-08 16:32:59 [INFO] [32/38] ID: https://plox.com.br/noticia/08/09/2026/haddad-critica-flavio-bolsonaro-banco-master
+2026-09-08 16:32:59 [INFO] Título: Haddad critica Flávio Bolsonaro e faz acusações sobre Banco Master em entrevista em São Paulo
+2026-09-08 16:32:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:59 [INFO] Classificação: nao_enviar
+2026-09-08 16:32:59 [INFO] Aguardando 2.65s...
+2026-09-08 16:33:02 [INFO] [33/38] ID: https://www.otempo.com.br/politica/2026/9/8/uniao-e-banco-de-alagoas-assinam-oitava-novacao-de-divida-de-r-294-milhoes
+2026-09-08 16:33:02 [INFO] Título: União e Banco de Alagoas assinam oitava novação de dívida de R$ 29,4 milhões
+2026-09-08 16:33:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:02 [INFO] Classificação: nao_enviar
+2026-09-08 16:33:02 [INFO] Aguardando 2.69s...
+2026-09-08 16:33:05 [INFO] [34/38] ID: https://www.otempo.com.br/politica/2026/9/8/uniao-e-banco-de-alagoas-formalizam-oitava-novacao-de-divida-de-r-294-milhoes
+2026-09-08 16:33:05 [INFO] Título: União e Banco de Alagoas formalizam oitava novação de dívida de R$ 29,4 milhões
+2026-09-08 16:33:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:05 [INFO] Classificação: nao_enviar
+2026-09-08 16:33:05 [INFO] Aguardando 2.78s...
+2026-09-08 16:33:08 [INFO] [35/38] ID: https://www.gov.br/cvm/pt-br/assuntos/noticias/2026/sessao-de-julgamento-em-8-9
+2026-09-08 16:33:08 [INFO] Título: Sessão de Julgamento em 8/9 — Comissão de Valores Mobiliários - Portal Gov.br
+2026-09-08 16:33:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:09 [INFO] Classificação: nao_enviar
+2026-09-08 16:33:09 [INFO] Aguardando 2.51s...
+2026-09-08 16:33:11 [INFO] [36/38] ID: https://bpmoney.com.br/economia/boletim-focus-projecao-de-inflacao-para-2026-cai-a-5-mercado-eleva-estimativa-para-o-pib/
+2026-09-08 16:33:11 [INFO] Título: Boletim Focus: projeção de inflação para 2026 cai a 5%; mercado eleva estimativa para o PIB
+2026-09-08 16:33:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:11 [INFO] Classificação: nao_enviar
+2026-09-08 16:33:11 [INFO] Aguardando 2.72s...
+2026-09-08 16:33:14 [INFO] [37/38] ID: https://timesbrasil.com.br/brasil/bancos-teriam-omitido-divida-das-americanas-em-captacoes-de-r-102-bilhoes-diz-mpf/
+2026-09-08 16:33:14 [INFO] Título: Bancos teriam omitido dívida das Americanas em captações de R$ 10,2 bilhões, diz MPF
+2026-09-08 16:33:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:14 [INFO] Classificação: nao_enviar
+2026-09-08 16:33:14 [INFO] Aguardando 2.66s...
+2026-09-08 16:33:17 [INFO] [38/38] ID: https://e-global.pt/noticias/lusofonia/brasil/brasil-celebra-204-anos-da-independencia-num-7-de-setembro-marcado-pela-corrida-eleitoral-e-pelo-escandalo-do-caso-banco-master/amp/
+2026-09-08 16:33:17 [INFO] Título: Brasil celebra “204 anos da Independência” num “7 de Setembro” marcado pela corrida ... - e-Global
+2026-09-08 16:33:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:18 [INFO] Classificação: nao_enviar
+2026-09-08 16:33:18 [INFO] ======================================================================
+2026-09-08 16:33:18 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-08 16:33:18 [INFO] ======================================================================
+2026-09-08 16:33:18 [INFO] Processadas: 38
+2026-09-08 16:33:18 [INFO] Enviar: 11
+2026-09-08 16:33:18 [INFO] Não enviar: 27
+2026-09-08 16:33:18 [INFO] ======================================================================
