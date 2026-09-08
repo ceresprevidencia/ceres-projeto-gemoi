@@ -18631,3 +18631,86 @@
 2026-09-08 19:50:26 [INFO] Enviar: 3
 2026-09-08 19:50:26 [INFO] Não enviar: 15
 2026-09-08 19:50:26 [INFO] ======================================================================
+2026-09-08 22:32:06 [INFO] ======================================================================
+2026-09-08 22:32:06 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-08 22:32:06 [INFO] ======================================================================
+2026-09-08 22:32:06 [INFO] Notícias com status 'extraida': 14
+2026-09-08 22:32:06 [INFO] Limite: 20 requisições/minuto
+2026-09-08 22:32:06 [INFO] Intervalo mínimo: 3.0s
+2026-09-08 22:32:06 [INFO] ======================================================================
+2026-09-08 22:32:06 [INFO] [1/14] ID: https://consumidormoderno.com.br/recuperacao-judicial-crise-mudar-cnpj/
+2026-09-08 22:32:06 [INFO] Título: Na <b>Recuperação Judicial</b>, a crise pode apenas mudar de CNPJ - Consumidor Moderno
+2026-09-08 22:32:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:06 [INFO] Classificação: enviar
+2026-09-08 22:32:06 [INFO] Aguardando 2.55s...
+2026-09-08 22:32:09 [INFO] [2/14] ID: https://www1.folha.uol.com.br/mercado/2026/09/marabraz-pede-manutencao-de-servicos-essenciais-e-protecao-de-180-dias-contra-cobranca-de-credores.shtml
+2026-09-08 22:32:09 [INFO] Título: Marabraz pede proteção de 180 dias contra credores - 08/09/2026 - Economia - Folha
+2026-09-08 22:32:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:09 [INFO] Classificação: enviar
+2026-09-08 22:32:09 [INFO] Aguardando 2.74s...
+2026-09-08 22:32:12 [INFO] [3/14] ID: https://oglobo.globo.com/politica/noticia/2026/09/08/fachin-recebe-ministro-da-justica-e-messias-no-stf-apos-mendonca-afastar-chefe-da-pf.ghtml
+2026-09-08 22:32:12 [INFO] Título: Fachin recebe ministro da Justiça e Messias no STF após Mendonça afastar chefe da PF
+2026-09-08 22:32:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:12 [INFO] Classificação: nao_enviar
+2026-09-08 22:32:12 [INFO] Aguardando 2.69s...
+2026-09-08 22:32:15 [INFO] [4/14] ID: https://megawhat.uol.com.br/economia-e-politica/empresas/electra-recebe-multa-de-r-238-milhoes-por-romper-contrato-de-energia/
+2026-09-08 22:32:15 [INFO] Título: Electra recebe multa de R$ 23,8 milhões por romper contrato de energia - MegaWhat
+2026-09-08 22:32:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:16 [INFO] Classificação: nao_enviar
+2026-09-08 22:32:16 [INFO] Aguardando 1.43s...
+2026-09-08 22:32:18 [INFO] [5/14] ID: https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/09/justica-mantem-textor-bem-longe-da-recuperacao-judicial-da-saf-do-botafogo.ghtml
+2026-09-08 22:32:18 [INFO] Título: Justiça mantém Textor bem longe da <b>recuperação judicial</b> da SAF do Botafogo - O GLOBO
+2026-09-08 22:32:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:18 [INFO] Classificação: enviar
+2026-09-08 22:32:18 [INFO] Aguardando 2.63s...
+2026-09-08 22:32:21 [INFO] [6/14] ID: https://www.extraclasse.org.br/educacao/2026/09/audiencia-no-trt4-tratou-de-pendencias-trabalhistas-da-ulbra/
+2026-09-08 22:32:21 [INFO] Título: Audiência no TRT4 tratou de pendências trabalhistas da Ulbra - Jornal Extra Classe
+2026-09-08 22:32:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:21 [INFO] Classificação: nao_enviar
+2026-09-08 22:32:21 [INFO] Aguardando 2.68s...
+2026-09-08 22:32:24 [INFO] [7/14] ID: https://www.migalhas.com.br/amp/depeso/463977/estrategia-na-escolha-entre-recuperacao-judicial-e-extrajudicial
+2026-09-08 22:32:24 [INFO] Título: A estratégia por trás da escolha entre <b>recuperação judicial</b> e extrajudicial - Migalhas
+2026-09-08 22:32:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:24 [INFO] Classificação: enviar
+2026-09-08 22:32:24 [INFO] Aguardando 2.61s...
+2026-09-08 22:32:27 [INFO] [8/14] ID: https://www.uol.com.br/esporte/colunas/pedro-lopes/2026/09/08/lamacchia-responde-a-rj-e-altera-proposta-por-saf-do-vasco-veja-mudancas.htm
+2026-09-08 22:32:27 [INFO] Título: Lamacchia responde a RJ e altera proposta por SAF do Vasco; veja mudanças - UOL
+2026-09-08 22:32:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:27 [INFO] Classificação: enviar
+2026-09-08 22:32:27 [INFO] Aguardando 2.64s...
+2026-09-08 22:32:30 [INFO] [9/14] ID: https://atlaspublico.com.br/cvm/noticias/cosan-anuncia-deslistagem-voluntaria-de-adss-da-nyse-86524
+2026-09-08 22:32:30 [INFO] Título: Cosan anuncia deslistagem voluntária de ADSs da NYSE; negociações encerram em 18 de ...
+2026-09-08 22:32:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:30 [INFO] Classificação: nao_enviar
+2026-09-08 22:32:30 [INFO] Aguardando 2.65s...
+2026-09-08 22:32:33 [INFO] [10/14] ID: https://agenciadcnews.com.br/publicacao/s/pais-totaliza-834-fusoes-e-aquisicoes-no-ano-que-movimentaram-r-210-7-bi
+2026-09-08 22:32:33 [INFO] Título: País totaliza 834 fusões e aquisições no ano, que movimentaram R$ 210,7 bi
+2026-09-08 22:32:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:33 [INFO] Classificação: nao_enviar
+2026-09-08 22:32:33 [INFO] Aguardando 2.68s...
+2026-09-08 22:32:36 [INFO] [11/14] ID: https://atarde.com.br/economia/apos-fechamento-em-massa-casas-bahia-vende-geladeira-por-menos-de-r-600-1401379
+2026-09-08 22:32:36 [INFO] Título: Após fechamento em massa, Casas Bahia vende geladeira por menos de R$ 600
+2026-09-08 22:32:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:36 [INFO] Classificação: nao_enviar
+2026-09-08 22:32:36 [INFO] Aguardando 2.66s...
+2026-09-08 22:32:39 [INFO] [12/14] ID: https://atlaspublico.com.br/cvm/noticias/lupatech-propoe-plano-de-recuperacao-extrajudicial-para-86512
+2026-09-08 22:32:39 [INFO] Título: Lupatech propõe plano de <b>recuperação extrajudicial</b> para reestruturar passivos trabalhistas ...
+2026-09-08 22:32:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:39 [INFO] Classificação: enviar
+2026-09-08 22:32:39 [INFO] Aguardando 2.65s...
+2026-09-08 22:32:42 [INFO] [13/14] ID: https://movimentoeconomico.com.br/geral/redacao/2026/09/08/pernambuco-cria-novo-perc-com-descontos-de-ate-95-para-debitos-de-icms/
+2026-09-08 22:32:42 [INFO] Título: Pernambuco cria novo PERC com descontos de até 95% para débitos de ICMS
+2026-09-08 22:32:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:42 [INFO] Classificação: nao_enviar
+2026-09-08 22:32:42 [INFO] Aguardando 2.58s...
+2026-09-08 22:32:45 [INFO] [14/14] ID: https://www.brasil247.com/blog/a-promocao-do-caos-como-tatica-eleitoral-da-extrema-direita/
+2026-09-08 22:32:45 [INFO] Título: A promoção do caos como tática eleitoral da extrema direita - Brasil 247
+2026-09-08 22:32:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 22:32:45 [INFO] Classificação: nao_enviar
+2026-09-08 22:32:45 [INFO] ======================================================================
+2026-09-08 22:32:45 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-08 22:32:45 [INFO] ======================================================================
+2026-09-08 22:32:45 [INFO] Processadas: 14
+2026-09-08 22:32:45 [INFO] Enviar: 6
+2026-09-08 22:32:45 [INFO] Não enviar: 8
+2026-09-08 22:32:45 [INFO] ======================================================================
