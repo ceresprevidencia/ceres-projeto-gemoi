@@ -18277,3 +18277,51 @@
 2026-09-08 05:48:57 [INFO] Enviar: 1
 2026-09-08 05:48:57 [INFO] Não enviar: 8
 2026-09-08 05:48:57 [INFO] ======================================================================
+2026-09-08 11:05:42 [INFO] ======================================================================
+2026-09-08 11:05:42 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-08 11:05:42 [INFO] ======================================================================
+2026-09-08 11:05:42 [INFO] Notícias com status 'extraida': 7
+2026-09-08 11:05:42 [INFO] Limite: 20 requisições/minuto
+2026-09-08 11:05:42 [INFO] Intervalo mínimo: 3.0s
+2026-09-08 11:05:42 [INFO] ======================================================================
+2026-09-08 11:05:42 [INFO] [1/7] ID: https://obrasilianista.com.br/2026/09/08/justica/condominios-irregulares-poderao-cobrar-taxas-de-proprietarios/
+2026-09-08 11:05:42 [INFO] Título: Condomínios irregulares poderão cobrar taxas de proprietário - O Brasilianista
+2026-09-08 11:05:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 11:05:43 [INFO] Classificação: nao_enviar
+2026-09-08 11:05:43 [INFO] Aguardando 2.54s...
+2026-09-08 11:05:45 [INFO] [2/7] ID: https://investnews.com.br/negocios/camargo-correa-como-esta-mover/
+2026-09-08 11:05:45 [INFO] Título: O que sobrou do antigo império empresarial da Camargo Corrêa - InvestNews
+2026-09-08 11:05:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 11:05:46 [INFO] Classificação: nao_enviar
+2026-09-08 11:05:46 [INFO] Aguardando 2.58s...
+2026-09-08 11:05:48 [INFO] [3/7] ID: https://www.fecombustiveis.org.br/noticia/rio-pede-a-uniao-desapropriacao-da-refinaria-de-manguinhos-da-refit/265709
+2026-09-08 11:05:48 [INFO] Título: Rio pede à União desapropriação da refinaria de Manguinhos, da Refit - Fecombustíveis
+2026-09-08 11:05:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 11:05:49 [INFO] Classificação: nao_enviar
+2026-09-08 11:05:49 [INFO] Aguardando 2.64s...
+2026-09-08 11:05:51 [INFO] [4/7] ID: https://noticias.uol.com.br/confere/ultimas-noticias/2026/09/08/publicacoes-desinformam-sobre-fechamento-de-fabricas-e-empresas.ghtm
+2026-09-08 11:05:51 [INFO] Título: Posts usam fechamento de fábricas no exterior para enganar sobre o Brasil - UOL Notícias
+2026-09-08 11:05:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 11:05:51 [INFO] Classificação: nao_enviar
+2026-09-08 11:05:51 [INFO] Aguardando 2.79s...
+2026-09-08 11:05:54 [INFO] [5/7] ID: https://www.correiobraziliense.com.br/opiniao/2026/09/7495499-chegou-a-hora-de-proibir-as-bets.html
+2026-09-08 11:05:54 [INFO] Título: Chegou a hora de proibir as bets - Correio Braziliense
+2026-09-08 11:05:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 11:05:55 [INFO] Classificação: nao_enviar
+2026-09-08 11:05:55 [INFO] Aguardando 2.58s...
+2026-09-08 11:05:57 [INFO] [6/7] ID: https://iclnoticias.com.br/perito-dark-horse-atua-previdencia-master/
+2026-09-08 11:05:57 [INFO] Título: Perito de Dark Horse atua para previdência que investiu R$ 87 milhões no Master
+2026-09-08 11:05:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 11:05:57 [INFO] Classificação: nao_enviar
+2026-09-08 11:05:58 [INFO] Aguardando 2.68s...
+2026-09-08 11:06:00 [INFO] [7/7] ID: https://timesbrasil.com.br/brasil/autoridades-envolvidas-no-escandalo-master-ficam-lado-a-lado-no-7-de-setembro/
+2026-09-08 11:06:00 [INFO] Título: Crise do STF: Autoridades envolvidas no escândalo Master ficam lado a lado no 7 de Setembro
+2026-09-08 11:06:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 11:06:00 [INFO] Classificação: nao_enviar
+2026-09-08 11:06:00 [INFO] ======================================================================
+2026-09-08 11:06:00 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-08 11:06:00 [INFO] ======================================================================
+2026-09-08 11:06:00 [INFO] Processadas: 7
+2026-09-08 11:06:00 [INFO] Enviar: 0
+2026-09-08 11:06:00 [INFO] Não enviar: 7
+2026-09-08 11:06:00 [INFO] ======================================================================
