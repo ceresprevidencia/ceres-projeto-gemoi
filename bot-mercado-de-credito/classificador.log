@@ -18528,3 +18528,106 @@
 2026-09-08 16:33:18 [INFO] Enviar: 11
 2026-09-08 16:33:18 [INFO] Não enviar: 27
 2026-09-08 16:33:18 [INFO] ======================================================================
+2026-09-08 19:49:34 [INFO] ======================================================================
+2026-09-08 19:49:34 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-08 19:49:34 [INFO] ======================================================================
+2026-09-08 19:49:34 [INFO] Notícias com status 'extraida': 18
+2026-09-08 19:49:34 [INFO] Limite: 20 requisições/minuto
+2026-09-08 19:49:34 [INFO] Intervalo mínimo: 3.0s
+2026-09-08 19:49:34 [INFO] ======================================================================
+2026-09-08 19:49:34 [INFO] [1/18] ID: https://economia.ig.com.br/2026-09-08/novo-leilao-da-casas-bahia-tem-produtos-a-partir-de-291-reais.html
+2026-09-08 19:49:34 [INFO] Título: Novo leilão da Casas Bahia tem produtos a partir de R$ 291 - iG Economia
+2026-09-08 19:49:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:49:35 [INFO] Classificação: nao_enviar
+2026-09-08 19:49:35 [INFO] Aguardando 2.46s...
+2026-09-08 19:49:37 [INFO] [2/18] ID: https://www.diariodorio.com/economia/2026/09/08/pedido-de-fim-da-recuperacao-judicial-da-americanas-nao-andou-na-justica.html
+2026-09-08 19:49:37 [INFO] Título: Pedido de fim da <b>Recuperação Judicial</b> da Americanas não andou na Justiça - Diário do Rio
+2026-09-08 19:49:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:49:38 [INFO] Classificação: enviar
+2026-09-08 19:49:38 [INFO] Aguardando 2.65s...
+2026-09-08 19:49:40 [INFO] [3/18] ID: https://monitormercantil.com.br/bolsa-de-16-acoes-de-comercio-ou-varejo-15-cairam-neste-ano/
+2026-09-08 19:49:40 [INFO] Título: Bolsa: de 16 ações de comércio ou varejo, 15 caíram neste ano | Monitor Mercantil
+2026-09-08 19:49:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:49:41 [INFO] Classificação: nao_enviar
+2026-09-08 19:49:41 [INFO] Aguardando 2.60s...
+2026-09-08 19:49:43 [INFO] [4/18] ID: https://oglobo.globo.com/blogs/lauro-jardim/post/2026/09/pedido-de-fim-da-rj-da-americanas-nao-andou-na-justica.ghtml
+2026-09-08 19:49:43 [INFO] Título: Pedido de fim da RJ da Americanas não andou na Justiça - O GLOBO
+2026-09-08 19:49:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:49:44 [INFO] Classificação: enviar
+2026-09-08 19:49:44 [INFO] Aguardando 2.62s...
+2026-09-08 19:49:46 [INFO] [5/18] ID: https://www.migalhas.com.br/quentes/463983/tj-sp-impede-retirada-de-bovinos-e-veta-venda-de-parte-de-imovel-rural
+2026-09-08 19:49:46 [INFO] Título: TJ/SP impede retirada de 456 bovinos e suspende venda de parte de imóvel rural
+2026-09-08 19:49:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:49:46 [INFO] Classificação: nao_enviar
+2026-09-08 19:49:46 [INFO] Aguardando 2.70s...
+2026-09-08 19:49:49 [INFO] [6/18] ID: https://somoscolorados.com/conselho-fiscal-questiona-gastos-do-inter-e-pede-estudo-sobre-recuperacao-judicial
+2026-09-08 19:49:49 [INFO] Título: Conselho Fiscal questiona gastos do Inter e pede estudo sobre <b>recuperação judicial</b>
+2026-09-08 19:49:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:49:49 [INFO] Classificação: enviar
+2026-09-08 19:49:49 [INFO] Aguardando 2.76s...
+2026-09-08 19:49:52 [INFO] [7/18] ID: https://exame.com/negocios/a-distribuidora-de-r-700-milhoes-que-aposta-em-perfumes-e-skincare-coreano-para-chegar-ao-bilhao/
+2026-09-08 19:49:52 [INFO] Título: A distribuidora de R$ 700 milhões que aposta em perfumes e skincare coreano para chegar ...
+2026-09-08 19:49:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:49:53 [INFO] Classificação: nao_enviar
+2026-09-08 19:49:53 [INFO] Aguardando 2.56s...
+2026-09-08 19:49:55 [INFO] [8/18] ID: https://www.folhamax.com/economia/credores-afastam-interventor-de-grupo-do-agro-em-crise-em-mt/571261
+2026-09-08 19:49:55 [INFO] Título: Credores afastam interventor de grupo do agro em crise em MT | FOLHAMAX
+2026-09-08 19:49:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:49:56 [INFO] Classificação: nao_enviar
+2026-09-08 19:49:56 [INFO] Aguardando 2.43s...
+2026-09-08 19:49:58 [INFO] [9/18] ID: https://obastidor.com.br/justica/mendonca-afasta-andrei/
+2026-09-08 19:49:58 [INFO] Título: Mendonça afasta Andrei - O Bastidor
+2026-09-08 19:49:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:49:58 [INFO] Classificação: nao_enviar
+2026-09-08 19:49:58 [INFO] Aguardando 2.73s...
+2026-09-08 19:50:01 [INFO] [10/18] ID: https://timesbrasil.com.br/brasil/recorde-de-liquidacoes-do-bc-nao-indica-crise-sistemica-diz-economista/
+2026-09-08 19:50:01 [INFO] Título: Recorde de liquidações do BC não indica crise sistêmica, diz economista - Times Brasil
+2026-09-08 19:50:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:50:02 [INFO] Classificação: nao_enviar
+2026-09-08 19:50:02 [INFO] Aguardando 2.51s...
+2026-09-08 19:50:04 [INFO] [11/18] ID: https://www.hondatar.com.br/rfb-e-pgfn-lancam-novo-edital-de-transacao-por-adesao-no-contencioso-tributario/
+2026-09-08 19:50:04 [INFO] Título: RFB e PGFN lançam novo edital de transação por adesão no contencioso tributário
+2026-09-08 19:50:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:50:04 [INFO] Classificação: nao_enviar
+2026-09-08 19:50:04 [INFO] Aguardando 2.74s...
+2026-09-08 19:50:07 [INFO] [12/18] ID: https://timesbrasil.com.br/brasil/instabilidade-institucional-encarece-investimentos/
+2026-09-08 19:50:07 [INFO] Título: Instabilidade institucional encarece investimentos e amplia risco jurídico no Brasil
+2026-09-08 19:50:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:50:07 [INFO] Classificação: nao_enviar
+2026-09-08 19:50:07 [INFO] Aguardando 2.79s...
+2026-09-08 19:50:10 [INFO] [13/18] ID: https://cgn.inf.br/noticia/2188482/do-banco-master-a-crise-no-stf-tudo-que-voce-precisa-saber-o-caso-que-envolve-vorcaro-moraes-mendonca-e-policia-federal
+2026-09-08 19:50:10 [INFO] Título: Do Banco Master à crise no STF: Tudo que você precisa saber o caso que envolve Vorcaro ... - CGN
+2026-09-08 19:50:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:50:10 [INFO] Classificação: nao_enviar
+2026-09-08 19:50:10 [INFO] Aguardando 2.75s...
+2026-09-08 19:50:13 [INFO] [14/18] ID: https://terrabrasilnoticias.com/2026/09/a-pergunta-de-vorcaro-a-moraes-antes-da-viagem-que-terminou-em-prisao/
+2026-09-08 19:50:13 [INFO] Título: A pergunta de Vorcaro a Moraes antes da viagem que terminou em prisão
+2026-09-08 19:50:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:50:14 [INFO] Classificação: nao_enviar
+2026-09-08 19:50:14 [INFO] Aguardando 2.63s...
+2026-09-08 19:50:16 [INFO] [15/18] ID: https://obrasilianista.com.br/2026/09/08/justica/leia-todos-os-desdobramentos-do-caso-master/
+2026-09-08 19:50:16 [INFO] Título: Leia todos os desdobramentos do Caso Master - O Brasilianista
+2026-09-08 19:50:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:50:17 [INFO] Classificação: nao_enviar
+2026-09-08 19:50:17 [INFO] Aguardando 1.76s...
+2026-09-08 19:50:19 [INFO] [16/18] ID: https://economia.ig.com.br/2026-09-08/mercado-financeiro-reduz-previsao-da-inflacao-para-5--este-ano.html
+2026-09-08 19:50:19 [INFO] Título: Mercado financeiro reduz previsão da inflação para 5% este ano - iG Economia
+2026-09-08 19:50:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:50:20 [INFO] Classificação: nao_enviar
+2026-09-08 19:50:20 [INFO] Aguardando 2.67s...
+2026-09-08 19:50:22 [INFO] [17/18] ID: https://bncamazonas.com.br/quando-campos-neto-e-flavio-bolsonaro-vao-sentar-no-banco-dos-reus/
+2026-09-08 19:50:22 [INFO] Título: Quando Campos Neto e Flávio Bolsonaro vão sentar no banco dos réus? - BNC Amazonas
+2026-09-08 19:50:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:50:22 [INFO] Classificação: nao_enviar
+2026-09-08 19:50:23 [INFO] Aguardando 2.69s...
+2026-09-08 19:50:25 [INFO] [18/18] ID: https://midiamax.com.br/trends/2026/09/08/aposentado-aplica-r-100-mil-em-titulos-de-renda-fixa-de-banco-digital-e-descobre-intervencao-do-banco-central-no-dia-do-resgate/
+2026-09-08 19:50:25 [INFO] Título: Aposentado aplica R$ 100 mil em títulos de renda fixa de banco digital e descobre ...
+2026-09-08 19:50:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:50:26 [INFO] Classificação: nao_enviar
+2026-09-08 19:50:26 [INFO] ======================================================================
+2026-09-08 19:50:26 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-08 19:50:26 [INFO] ======================================================================
+2026-09-08 19:50:26 [INFO] Processadas: 18
+2026-09-08 19:50:26 [INFO] Enviar: 3
+2026-09-08 19:50:26 [INFO] Não enviar: 15
+2026-09-08 19:50:26 [INFO] ======================================================================
