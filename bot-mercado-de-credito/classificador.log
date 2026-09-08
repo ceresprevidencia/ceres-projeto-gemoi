@@ -18219,3 +18219,61 @@
 2026-09-08 00:12:34 [INFO] Enviar: 2
 2026-09-08 00:12:34 [INFO] Não enviar: 5
 2026-09-08 00:12:34 [INFO] ======================================================================
+2026-09-08 05:48:32 [INFO] ======================================================================
+2026-09-08 05:48:32 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-08 05:48:32 [INFO] ======================================================================
+2026-09-08 05:48:32 [INFO] Notícias com status 'extraida': 9
+2026-09-08 05:48:32 [INFO] Limite: 20 requisições/minuto
+2026-09-08 05:48:32 [INFO] Intervalo mínimo: 3.0s
+2026-09-08 05:48:32 [INFO] ======================================================================
+2026-09-08 05:48:32 [INFO] [1/9] ID: https://www.cnnbrasil.com.br/eleicoes/cury-a-cnn-juro-alto-esta-atrelado-a-irresponsabilidade-fiscal-do-governo/
+2026-09-08 05:48:32 [INFO] Título: Cury à CNN: Juro alto está atrelado à irresponsabilidade fiscal do governo | CNN Brasil
+2026-09-08 05:48:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 05:48:33 [INFO] Classificação: nao_enviar
+2026-09-08 05:48:33 [INFO] Aguardando 2.71s...
+2026-09-08 05:48:35 [INFO] [2/9] ID: https://www.folhamax.com/economia/justica-homologa-rj-de-grupo-que-levou-golpe-em-venda-de-fazenda-em-mt/569596
+2026-09-08 05:48:35 [INFO] Título: Justiça homologa RJ de grupo que levou golpe em venda de fazenda em MT | FOLHAMAX
+2026-09-08 05:48:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 05:48:36 [INFO] Classificação: enviar
+2026-09-08 05:48:36 [INFO] Aguardando 2.67s...
+2026-09-08 05:48:38 [INFO] [3/9] ID: https://istoe.com.br/grito-dos-excluidos-cobra-fim-da-escala-6x1-e-mais-moradia
+2026-09-08 05:48:38 [INFO] Título: Grito dos Excluídos leva atos às ruas por moradia e fim da escala 6×1 - IstoÉ
+2026-09-08 05:48:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 05:48:39 [INFO] Classificação: nao_enviar
+2026-09-08 05:48:39 [INFO] Aguardando 2.80s...
+2026-09-08 05:48:41 [INFO] [4/9] ID: https://www.realpioneiro.com.br/noticia/ambulantes-desfilam-no-7-de-setembro-em-busca-de-sustento
+2026-09-08 05:48:41 [INFO] Título: Ambulantes "desfilam" no 7 de Setembro em busca de sustento - Real Pioneiro
+2026-09-08 05:48:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 05:48:42 [INFO] Classificação: nao_enviar
+2026-09-08 05:48:42 [INFO] Aguardando 2.79s...
+2026-09-08 05:48:44 [INFO] [5/9] ID: https://folhaestado.com.br/bebida-de-soja-do-agrosolidario-fortalece-alimentacao-de-criancas-na-comunidade-santa-teresinha/
+2026-09-08 05:48:44 [INFO] Título: Bebida de soja do Agrosolidário fortalece alimentação de crianças na Comunidade Santa Teresinha
+2026-09-08 05:48:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 05:48:45 [INFO] Classificação: nao_enviar
+2026-09-08 05:48:45 [INFO] Aguardando 2.79s...
+2026-09-08 05:48:47 [INFO] [6/9] ID: https://timesbrasil.com.br/brasil/italia-preve-ate-r-834-bilhoes-em-exportacoes-ao-mercosul-com-novo-acordo/
+2026-09-08 05:48:47 [INFO] Título: Itália prevê até R$ 83,4 bilhões em exportações ao Mercosul com novo acordo
+2026-09-08 05:48:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 05:48:48 [INFO] Classificação: nao_enviar
+2026-09-08 05:48:48 [INFO] Aguardando 2.71s...
+2026-09-08 05:48:50 [INFO] [7/9] ID: https://timesbrasil.com.br/brasil/fachin-consulta-ministros-e-avalia-medida-sobre-moraes-em-meio-a-crise-no-stf/
+2026-09-08 05:48:50 [INFO] Título: Fachin consulta ministros e avalia medida sobre Moraes em meio à crise no STF
+2026-09-08 05:48:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 05:48:51 [INFO] Classificação: nao_enviar
+2026-09-08 05:48:51 [INFO] Aguardando 2.83s...
+2026-09-08 05:48:53 [INFO] [8/9] ID: https://timesbrasil.com.br/brasil/disputa-por-capital-entre-tesouro-dos-eua-e-empresas-de-ia-pressiona-juros-longos-avalia-gestor/
+2026-09-08 05:48:53 [INFO] Título: Disputa por capital entre Tesouro dos EUA e empresas de IA pressiona juros longos, avalia gestor
+2026-09-08 05:48:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 05:48:54 [INFO] Classificação: nao_enviar
+2026-09-08 05:48:54 [INFO] Aguardando 2.61s...
+2026-09-08 05:48:56 [INFO] [9/9] ID: https://timesbrasil.com.br/brasil/moraes-deve-ser-investigado-e-gonet-deveria-se-afastar-do-caso-master-diz-claudio-fonteles-que-comandou-a-pgr/
+2026-09-08 05:48:56 [INFO] Título: Moraes deve ser investigado e Gonet deveria se afastar do caso Master, diz Cláudio ...
+2026-09-08 05:48:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 05:48:57 [INFO] Classificação: nao_enviar
+2026-09-08 05:48:57 [INFO] ======================================================================
+2026-09-08 05:48:57 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-08 05:48:57 [INFO] ======================================================================
+2026-09-08 05:48:57 [INFO] Processadas: 9
+2026-09-08 05:48:57 [INFO] Enviar: 1
+2026-09-08 05:48:57 [INFO] Não enviar: 8
+2026-09-08 05:48:57 [INFO] ======================================================================
