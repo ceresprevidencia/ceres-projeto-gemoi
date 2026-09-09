@@ -19051,3 +19051,111 @@
 2026-09-09 17:08:18 [INFO] Enviar: 10
 2026-09-09 17:08:18 [INFO] Não enviar: 17
 2026-09-09 17:08:18 [INFO] ======================================================================
+2026-09-09 20:50:48 [INFO] ======================================================================
+2026-09-09 20:50:48 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-09 20:50:48 [INFO] ======================================================================
+2026-09-09 20:50:48 [INFO] Notícias com status 'extraida': 19
+2026-09-09 20:50:48 [INFO] Limite: 20 requisições/minuto
+2026-09-09 20:50:48 [INFO] Intervalo mínimo: 3.0s
+2026-09-09 20:50:48 [INFO] ======================================================================
+2026-09-09 20:50:48 [INFO] [1/19] ID: https://movimentoeconomico.com.br/geral/redacao/2026/09/09/cervejaria-no-ce-cita-geracao-z-canetas-e-delivery-em-sua-recuperacao-judicial/
+2026-09-09 20:50:48 [INFO] Título: Cervejaria no CE cita Geração Z, canetas e delivery em sua <b>recuperação judicial</b>
+2026-09-09 20:50:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:50:48 [INFO] Classificação: enviar
+2026-09-09 20:50:48 [INFO] Aguardando 2.59s...
+2026-09-09 20:50:51 [INFO] [2/19] ID: https://economia.ig.com.br/2026-09-09/marabraz-pede-suspensao-de-cobrancas-de-dividas-por-180-dias.html
+2026-09-09 20:50:51 [INFO] Título: Marabraz pede suspensão de cobranças de dívidas por 180 dias - iG Economia
+2026-09-09 20:50:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:50:51 [INFO] Classificação: nao_enviar
+2026-09-09 20:50:51 [INFO] Aguardando 2.63s...
+2026-09-09 20:50:54 [INFO] [3/19] ID: https://www.midianews.com.br/judiciario/justica-proibe-empresario-de-se-aproximar-da-filha-em-cuiaba/528772
+2026-09-09 20:50:54 [INFO] Título: Justiça proíbe empresário de se aproximar da filha em Cuiabá - MidiaNews
+2026-09-09 20:50:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:50:54 [INFO] Classificação: nao_enviar
+2026-09-09 20:50:54 [INFO] Aguardando 2.82s...
+2026-09-09 20:50:57 [INFO] [4/19] ID: https://www.infomoney.com.br/esportes/a-aposta-de-us-5-bilhoes-da-arabia-saudita-no-golfe-acaba-em-falencia/
+2026-09-09 20:50:57 [INFO] Título: A aposta de US$ 5 bilhões da Arábia Saudita no golfe acaba em falência - InfoMoney
+2026-09-09 20:50:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:50:57 [INFO] Classificação: nao_enviar
+2026-09-09 20:50:57 [INFO] Aguardando 2.61s...
+2026-09-09 20:51:00 [INFO] [5/19] ID: https://maquinadoesporte.com.br/golfe/liv-golf-inicia-recuperacao-judicial-e-planeja-transferir-controle-majoritario-aos-jogadores/
+2026-09-09 20:51:00 [INFO] Título: LIV Golf inicia <b>recuperação judicial</b> e planeja transferir controle majoritário aos jogadores
+2026-09-09 20:51:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:00 [INFO] Classificação: enviar
+2026-09-09 20:51:00 [INFO] Aguardando 2.65s...
+2026-09-09 20:51:03 [INFO] [6/19] ID: https://istoe.com.br/nova-lei-reduz-prazo-para-acelerar-analise-de-beneficios-do-inss
+2026-09-09 20:51:03 [INFO] Título: Nova lei reduz prazo para acelerar análise de benefícios do INSS - ISTOÉ Independente
+2026-09-09 20:51:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:03 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:03 [INFO] Aguardando 2.69s...
+2026-09-09 20:51:06 [INFO] [7/19] ID: https://timesbrasil.com.br/brasil/marabraz-pede-a-justica-bloqueio-de-acoes-de-credores-por-180-dias/
+2026-09-09 20:51:06 [INFO] Título: Marabraz pede à Justiça bloqueio de ações de credores por 180 dias - Times Brasil | CNBC
+2026-09-09 20:51:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:06 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:06 [INFO] Aguardando 2.56s...
+2026-09-09 20:51:09 [INFO] [8/19] ID: https://www.folhamax.com/economia/justica-manda-pf-bc-e-cvm-investigarem-rj-de-r-2-bi-em-mt/571299
+2026-09-09 20:51:09 [INFO] Título: Justiça manda PF, BC e CVM investigarem RJ de R$ 2 bi em MT | FOLHAMAX
+2026-09-09 20:51:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:09 [INFO] Classificação: enviar
+2026-09-09 20:51:09 [INFO] Aguardando 2.56s...
+2026-09-09 20:51:12 [INFO] [9/19] ID: https://portalzumm.com.br/3a-conferencia-de-direito-e-agronegocio-da-oab-sp-acontece-em-ribeirao-preto/
+2026-09-09 20:51:12 [INFO] Título: 3ª Conferência de Direito e Agronegócio da OAB/SP acontece em Ribeirão Preto
+2026-09-09 20:51:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:14 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:14 [INFO] Aguardando 1.09s...
+2026-09-09 20:51:15 [INFO] [10/19] ID: https://www1.folha.uol.com.br/mercado/2026/09/sem-dinheiro-holding-do-master-em-cayman-faz-assembleia-com-credores-que-pedem-us-1-bi.shtml
+2026-09-09 20:51:15 [INFO] Título: Sem dinheiro, holding do Master em Cayman faz assembleia com credores que pedem US$ 1 bi
+2026-09-09 20:51:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:15 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:15 [INFO] Aguardando 2.65s...
+2026-09-09 20:51:18 [INFO] [11/19] ID: https://www.opovo.com.br/trends/grupo-de-rede-de-fast-food-entra-em-recuperacao-com-divida-de-r-265-milhoes-mas-lojas-seguem-abertas/
+2026-09-09 20:51:18 [INFO] Título: Grupo de rede de fast-food entra em recuperação com dívida de R$ 265 milhões, mas lojas ...
+2026-09-09 20:51:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:18 [INFO] Classificação: enviar
+2026-09-09 20:51:18 [INFO] Aguardando 2.78s...
+2026-09-09 20:51:21 [INFO] [12/19] ID: https://aeroin.net/easyjet-enfrenta-processo-de-us-72-milhoes-por-abandono-de-seis-airbus-alugados-segundo-empresa-russa/
+2026-09-09 20:51:21 [INFO] Título: easyJet enfrenta processo de US$ 72 milhões por abandono de seis Airbus alugados ...
+2026-09-09 20:51:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:21 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:21 [INFO] Aguardando 2.63s...
+2026-09-09 20:51:24 [INFO] [13/19] ID: https://bznoticias.com.br/noticia/pf-intima-galipolo-campos-neto-e-andre-esteves-como-testemunhas-no-caso-master
+2026-09-09 20:51:24 [INFO] Título: PF intima Galípolo, Campos Neto e André Esteves como testemunhas no Caso Master
+2026-09-09 20:51:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:24 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:24 [INFO] Aguardando 2.72s...
+2026-09-09 20:51:27 [INFO] [14/19] ID: https://tvtnews.com.br/mendonca-homologa-delacao-operador-dark-horse/
+2026-09-09 20:51:27 [INFO] Título: Mendonça homologa delação de operador que enviou R$ 69 milhões a fundo de Dark Horse
+2026-09-09 20:51:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:27 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:27 [INFO] Aguardando 2.65s...
+2026-09-09 20:51:30 [INFO] [15/19] ID: https://spdiario.com.br/noticias/dia-a-dia/a-falida-golden-tulip-de-roberto-justus-com-investimentos-de-daniel-vorcaro-do-banco-master.html
+2026-09-09 20:51:30 [INFO] Título: A falida Golden Tulip de Roberto Justus com investimentos de Daniel Vorcaro do Banco Master
+2026-09-09 20:51:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:30 [INFO] Classificação: enviar
+2026-09-09 20:51:30 [INFO] Aguardando 2.69s...
+2026-09-09 20:51:33 [INFO] [16/19] ID: https://investnews.com.br/financas/dinheiro-esquecido-como-consultar/
+2026-09-09 20:51:33 [INFO] Título: Dinheiro esquecido: R$ 5,65 bilhões ainda podem ser resgatados. Veja como consultar
+2026-09-09 20:51:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:33 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:33 [INFO] Aguardando 2.65s...
+2026-09-09 20:51:36 [INFO] [17/19] ID: https://cqcs.com.br/noticia/fairplay-capital-e-parceira-do-premio-cqcs-de-inovacao-em-seguros-2026/
+2026-09-09 20:51:36 [INFO] Título: Fairplay Capital é parceira do Prêmio CQCS de Inovação em Seguros 2026
+2026-09-09 20:51:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:36 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:36 [INFO] Aguardando 2.68s...
+2026-09-09 20:51:39 [INFO] [18/19] ID: https://cqcs.com.br/tv/canais-corporativos/sompo-seguros/sompo-coloca-seguro-garantia-no-centro-das-discussoes-sobre-infraestrutura/
+2026-09-09 20:51:39 [INFO] Título: Sompo coloca seguro garantia no centro das discussões sobre infraestrutura - CQCS
+2026-09-09 20:51:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:39 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:39 [INFO] Aguardando 2.73s...
+2026-09-09 20:51:42 [INFO] [19/19] ID: https://timesbrasil.com.br/investimentos/caso-master-pode-elevar-premio-de-risco-e-afastar-investimentos-do-brasil-diz-consultor-da-api-capital-leandro-beninca/
+2026-09-09 20:51:42 [INFO] Título: Caso Master pode elevar prêmio de risco e afastar investimentos do Brasil, diz consultor da ...
+2026-09-09 20:51:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 20:51:42 [INFO] Classificação: nao_enviar
+2026-09-09 20:51:42 [INFO] ======================================================================
+2026-09-09 20:51:42 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-09 20:51:42 [INFO] ======================================================================
+2026-09-09 20:51:42 [INFO] Processadas: 19
+2026-09-09 20:51:42 [INFO] Enviar: 5
+2026-09-09 20:51:42 [INFO] Não enviar: 14
+2026-09-09 20:51:42 [INFO] ======================================================================
