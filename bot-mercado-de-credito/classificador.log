@@ -19159,3 +19159,81 @@
 2026-09-09 20:51:42 [INFO] Enviar: 5
 2026-09-09 20:51:42 [INFO] Não enviar: 14
 2026-09-09 20:51:42 [INFO] ======================================================================
+2026-09-09 23:08:59 [INFO] ======================================================================
+2026-09-09 23:08:59 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-09 23:08:59 [INFO] ======================================================================
+2026-09-09 23:08:59 [INFO] Notícias com status 'extraida': 13
+2026-09-09 23:08:59 [INFO] Limite: 20 requisições/minuto
+2026-09-09 23:08:59 [INFO] Intervalo mínimo: 3.0s
+2026-09-09 23:08:59 [INFO] ======================================================================
+2026-09-09 23:08:59 [INFO] [1/13] ID: https://vbso.com.br/recuperacao-judicial-precipitada-pode-levar-produtores-rurais-a-falencia/
+2026-09-09 23:08:59 [INFO] Título: <b>Recuperação judicial</b> precipitada pode levar produtores rurais à falência
+2026-09-09 23:08:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:08:59 [INFO] Classificação: enviar
+2026-09-09 23:09:00 [INFO] Aguardando 2.65s...
+2026-09-09 23:09:02 [INFO] [2/13] ID: https://www.agazeta.com.br/colunas/abdo-filho/apex-consegue-reverter-decisao-do-btg-na-justica-0926
+2026-09-09 23:09:02 [INFO] Título: Apex consegue reverter decisão do BTG na Justiça - A Gazeta
+2026-09-09 23:09:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:02 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:02 [INFO] Aguardando 2.75s...
+2026-09-09 23:09:05 [INFO] [3/13] ID: https://www1.folha.uol.com.br/mercado/2026/09/demitidos-das-casas-bahia-nao-conseguem-receber-rescisao-fgts-e-seguro-desemprego-diz-entidade.shtml
+2026-09-09 23:09:05 [INFO] Título: Casas Bahia: demitidos ficam sem FGTS e verbas rescisórias - 09/09/2026 - Folha - UOL
+2026-09-09 23:09:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:05 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:05 [INFO] Aguardando 2.79s...
+2026-09-09 23:09:08 [INFO] [4/13] ID: https://valor.globo.com/empresas/noticia/2026/09/09/galpoes-da-casas-bahia-atraem-interesse-do-mercado.ghtml
+2026-09-09 23:09:08 [INFO] Título: Galpões da Casas Bahia atraem interesse do mercado | Empresas - Valor Econômico
+2026-09-09 23:09:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:08 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:09 [INFO] Aguardando 2.66s...
+2026-09-09 23:09:11 [INFO] [5/13] ID: https://blog.grancursosonline.com.br/atualidades-para-concurso-agosto-2026/amp/
+2026-09-09 23:09:11 [INFO] Título: Atualidades para concurso em agosto de 2026! Confira! - Blog Gran Cursos Online
+2026-09-09 23:09:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:11 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:11 [INFO] Aguardando 2.73s...
+2026-09-09 23:09:14 [INFO] [6/13] ID: https://www.baguete.com.br/noticias/brasil-esta-cheio-de-empresas-zumbi
+2026-09-09 23:09:14 [INFO] Título: Brasil está cheio de empresas zumbi - Baguete
+2026-09-09 23:09:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:15 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:15 [INFO] Aguardando 2.63s...
+2026-09-09 23:09:17 [INFO] [7/13] ID: https://atlaspublico.com.br/cvm/noticias/cemig-comunica-liquidacao-de-rs-1-bilhao-em-debentures-da-86713
+2026-09-09 23:09:17 [INFO] Título: Cemig comunica liquidação de R$ 1 bilhão em debêntures da Cemig GT - Atlas Público
+2026-09-09 23:09:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:18 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:18 [INFO] Aguardando 2.62s...
+2026-09-09 23:09:20 [INFO] [8/13] ID: https://www.estadao.com.br/economia/holding-de-vorcaro-que-deve-us-1-bi-esta-vazia-em-paraiso-fiscal-e-ex-diretores-driblam-liquidante/
+2026-09-09 23:09:20 [INFO] Título: Holding de Vorcaro que deve US$ 1 bi está vazia em paraíso fiscal e ex-diretores driblam liquidante
+2026-09-09 23:09:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:20 [INFO] Classificação: enviar
+2026-09-09 23:09:21 [INFO] Aguardando 2.64s...
+2026-09-09 23:09:23 [INFO] [9/13] ID: https://www.poder360.com.br/poder-justica/saiba-quem-e-mineiro-delator-do-caso-dark-horse/
+2026-09-09 23:09:23 [INFO] Título: Saiba quem é "Mineiro", delator do caso “Dark Horse” - Poder360
+2026-09-09 23:09:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:23 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:23 [INFO] Aguardando 2.76s...
+2026-09-09 23:09:26 [INFO] [10/13] ID: https://br.beincrypto.com/pf-intima-galipolo-campos-neto-banco-master/
+2026-09-09 23:09:26 [INFO] Título: PF manda intimar Galípolo e Campos Neto para depor sobre o Banco Master - BeInCrypto
+2026-09-09 23:09:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:27 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:27 [INFO] Aguardando 2.64s...
+2026-09-09 23:09:29 [INFO] [11/13] ID: https://cqcs.com.br/noticia/apos-aquisicao-pelo-picpay-kev-seguros-mantem-independencia-e-estrutura/
+2026-09-09 23:09:29 [INFO] Título: Após aquisição pelo PicPay, KEV Seguros mantém independência e estrutura - CQCS
+2026-09-09 23:09:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:30 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:30 [INFO] Aguardando 2.63s...
+2026-09-09 23:09:32 [INFO] [12/13] ID: https://www.poder360.com.br/poder-justica/dark-horse-mendonca-homologa-delacao-sobre-repasses-de-vorcaro/
+2026-09-09 23:09:32 [INFO] Título: "Dark Horse": Mendonça homologa delação sobre repasses de Vorcaro - Poder360
+2026-09-09 23:09:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:33 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:33 [INFO] Aguardando 2.63s...
+2026-09-09 23:09:35 [INFO] [13/13] ID: https://revistaoeste.com/no-ponto/dark-horse-mendonca-homologa-delacao-de-empresario-ligado-ao-financiamento-do-filme/
+2026-09-09 23:09:35 [INFO] Título: Dark Horse: Mendonça homologa delação de empresário - Revista Oeste
+2026-09-09 23:09:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 23:09:35 [INFO] Classificação: nao_enviar
+2026-09-09 23:09:35 [INFO] ======================================================================
+2026-09-09 23:09:35 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-09 23:09:35 [INFO] ======================================================================
+2026-09-09 23:09:35 [INFO] Processadas: 13
+2026-09-09 23:09:35 [INFO] Enviar: 2
+2026-09-09 23:09:35 [INFO] Não enviar: 11
+2026-09-09 23:09:35 [INFO] ======================================================================
