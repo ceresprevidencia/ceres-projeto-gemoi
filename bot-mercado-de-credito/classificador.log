@@ -18714,3 +18714,51 @@
 2026-09-08 22:32:45 [INFO] Enviar: 6
 2026-09-08 22:32:45 [INFO] Não enviar: 8
 2026-09-08 22:32:45 [INFO] ======================================================================
+2026-09-09 01:10:05 [INFO] ======================================================================
+2026-09-09 01:10:05 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-09 01:10:05 [INFO] ======================================================================
+2026-09-09 01:10:05 [INFO] Notícias com status 'extraida': 7
+2026-09-09 01:10:05 [INFO] Limite: 20 requisições/minuto
+2026-09-09 01:10:05 [INFO] Intervalo mínimo: 3.0s
+2026-09-09 01:10:05 [INFO] ======================================================================
+2026-09-09 01:10:05 [INFO] [1/7] ID: https://diariodonordeste.verdesmares.com.br/negocios/grupo-cearense-turatti-entra-em-recuperacao-judicial-e-cita-impacto-de-canetas-emagrecedoras-1.3790172
+2026-09-09 01:10:05 [INFO] Título: Grupo cearense Turatti entra em <b>recuperação judicial</b> e cita impacto de canetas emagrecedoras
+2026-09-09 01:10:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 01:10:06 [INFO] Classificação: enviar
+2026-09-09 01:10:06 [INFO] Aguardando 2.56s...
+2026-09-09 01:10:08 [INFO] [2/7] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/09/08/marabraz-pede-manutencao-de-servicos-essenciais-e-protecao-de-180-dias-contra-credores.ghtml
+2026-09-09 01:10:08 [INFO] Título: Marabraz pede manutenção de serviços essenciais e proteção de 180 dias contra credores
+2026-09-09 01:10:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 01:10:08 [INFO] Classificação: enviar
+2026-09-09 01:10:08 [INFO] Aguardando 2.59s...
+2026-09-09 01:10:11 [INFO] [3/7] ID: https://www.espn.com.br/futebol/vasco/artigo/_/id/17228517/empresario-altera-proposta-por-saf-do-vasco-com-seguro-de-r-324-milhoes
+2026-09-09 01:10:11 [INFO] Título: Empresário altera proposta por SAF do Vasco com seguro de R$ 324 milhões - ESPN Brasil
+2026-09-09 01:10:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 01:10:11 [INFO] Classificação: nao_enviar
+2026-09-09 01:10:11 [INFO] Aguardando 2.68s...
+2026-09-09 01:10:14 [INFO] [4/7] ID: https://www.instagram.com/p/DdCR7E2iSEy/
+2026-09-09 01:10:14 [INFO] Título: O Banco Central brasileiro pode ter mais liberdade do que parece para cortar a Selic ...
+2026-09-09 01:10:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 01:10:14 [INFO] Classificação: nao_enviar
+2026-09-09 01:10:14 [INFO] Aguardando 2.68s...
+2026-09-09 01:10:17 [INFO] [5/7] ID: https://exame.com/colunistas/panorama-economico/o-premio-de-credito-esta-mais-no-nome-do-que-na-classe-e-a-regua-subiu/
+2026-09-09 01:10:17 [INFO] Título: O prêmio de crédito está mais no nome do que na classe. E a régua subiu - Exame
+2026-09-09 01:10:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 01:10:17 [INFO] Classificação: nao_enviar
+2026-09-09 01:10:17 [INFO] Aguardando 2.66s...
+2026-09-09 01:10:20 [INFO] [6/7] ID: https://obastidor.com.br/economia/a-fraude-antes-da-fraude/
+2026-09-09 01:10:20 [INFO] Título: A fraude antes da fraude - O Bastidor
+2026-09-09 01:10:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 01:10:20 [INFO] Classificação: nao_enviar
+2026-09-09 01:10:20 [INFO] Aguardando 2.65s...
+2026-09-09 01:10:23 [INFO] [7/7] ID: https://economicnewsbrasil.com.br/2026/09/08/multa-de-vorcaro-tentativa-acordo-cvm/
+2026-09-09 01:10:23 [INFO] Título: Multa de Vorcaro chega a R$ 20 milhões após CVM barrar tentativa de acordo
+2026-09-09 01:10:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 01:10:23 [INFO] Classificação: nao_enviar
+2026-09-09 01:10:23 [INFO] ======================================================================
+2026-09-09 01:10:23 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-09 01:10:23 [INFO] ======================================================================
+2026-09-09 01:10:23 [INFO] Processadas: 7
+2026-09-09 01:10:23 [INFO] Enviar: 2
+2026-09-09 01:10:23 [INFO] Não enviar: 5
+2026-09-09 01:10:23 [INFO] ======================================================================
