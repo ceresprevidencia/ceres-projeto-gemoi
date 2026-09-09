@@ -18903,3 +18903,151 @@
 2026-09-09 12:54:46 [INFO] Enviar: 4
 2026-09-09 12:54:46 [INFO] Não enviar: 8
 2026-09-09 12:54:46 [INFO] ======================================================================
+2026-09-09 17:07:00 [INFO] ======================================================================
+2026-09-09 17:07:00 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-09 17:07:00 [INFO] ======================================================================
+2026-09-09 17:07:00 [INFO] Notícias com status 'extraida': 27
+2026-09-09 17:07:00 [INFO] Limite: 20 requisições/minuto
+2026-09-09 17:07:00 [INFO] Intervalo mínimo: 3.0s
+2026-09-09 17:07:00 [INFO] ======================================================================
+2026-09-09 17:07:00 [INFO] [1/27] ID: https://economicnewsbrasil.com.br/2026/09/09/recuperacao-judicial-marabraz-nova-empresa/
+2026-09-09 17:07:00 [INFO] Título: <b>Recuperação judicial</b> Marabraz pode incluir nova empresa - Economic News Brasil
+2026-09-09 17:07:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:00 [INFO] Classificação: enviar
+2026-09-09 17:07:00 [INFO] Aguardando 2.58s...
+2026-09-09 17:07:03 [INFO] [2/27] ID: https://valor.globo.com/empresas/noticia/2026/09/09/debenturistas-da-casas-bahia-notificam-rede-mercado-fala-em-desagio-de-ate-90percent.ghtml
+2026-09-09 17:07:03 [INFO] Título: Exclusivo: Debenturistas da Casas Bahia notificam rede; mercado fala em deságio de até 90%
+2026-09-09 17:07:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:03 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:03 [INFO] Aguardando 2.64s...
+2026-09-09 17:07:06 [INFO] [3/27] ID: https://agenciainfra.com/blog/anac-mantem-redistribuicao-de-slots-da-voepass-em-congonhas-sp/
+2026-09-09 17:07:06 [INFO] Título: ANAC mantém redistribuição de slots da Voepass em Congonhas (SP) - Agência iNFRA
+2026-09-09 17:07:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:06 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:06 [INFO] Aguardando 2.69s...
+2026-09-09 17:07:09 [INFO] [4/27] ID: https://economia.uol.com.br/noticias/redacao/2026/09/09/casas-bahia-demitidos-rescisao.ghtm
+2026-09-09 17:07:09 [INFO] Título: Demitidos da Casas Bahia dizem não ter recebido rescisão, segundo sindicato
+2026-09-09 17:07:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:10 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:10 [INFO] Aguardando 2.41s...
+2026-09-09 17:07:12 [INFO] [5/27] ID: https://cbnribeirao.com.br/recuperacao-judicial-busca-preservar-empresas-em-crise-e-reorganizar-dividas/
+2026-09-09 17:07:12 [INFO] Título: <b>Recuperação judicial</b> busca preservar empresas em crise e reorganizar dívidas - CBN Ribeirão
+2026-09-09 17:07:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:12 [INFO] Classificação: enviar
+2026-09-09 17:07:12 [INFO] Aguardando 2.69s...
+2026-09-09 17:07:15 [INFO] [6/27] ID: https://noticias.uol.com.br/colunas/rogerio-gentile/2026/09/09/justica-manda-desembargador-que-humilhou-guarda-na-pandemia-pagar-r-54-mil.htm
+2026-09-09 17:07:15 [INFO] Título: Justiça manda desembargador que humilhou guarda na pandemia pagar R$ 54 mil
+2026-09-09 17:07:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:15 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:15 [INFO] Aguardando 2.76s...
+2026-09-09 17:07:18 [INFO] [7/27] ID: https://focuspoder.com.br/turatti-entra-em-recuperacao-judicial-com-divida-de-r-12-milhoes/
+2026-09-09 17:07:18 [INFO] Título: Turatti entra em <b>recuperação judicial</b> com dívida de R$ 12 milhões - Focus Poder
+2026-09-09 17:07:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:18 [INFO] Classificação: enviar
+2026-09-09 17:07:18 [INFO] Aguardando 2.61s...
+2026-09-09 17:07:21 [INFO] [8/27] ID: https://ibandce.com.br/grupo-turatti-recuperacao-judicial-ceara/
+2026-09-09 17:07:21 [INFO] Título: Grupo Turatti entra em <b>recuperação judicial</b> no Ceará - iBand CE
+2026-09-09 17:07:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:21 [INFO] Classificação: enviar
+2026-09-09 17:07:21 [INFO] Aguardando 2.58s...
+2026-09-09 17:07:24 [INFO] [9/27] ID: https://abradilan.com.br/governo/6-mil-empresas-em-recuperacao-judicial-no-pais-como-identificar-sinais-em-farmacias/
+2026-09-09 17:07:24 [INFO] Título: 6 mil empresas em <b>recuperação judicial</b> no País: como identificar sinais em farmácias
+2026-09-09 17:07:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:24 [INFO] Classificação: enviar
+2026-09-09 17:07:24 [INFO] Aguardando 2.76s...
+2026-09-09 17:07:27 [INFO] [10/27] ID: https://economicnewsbrasil.com.br/2026/09/09/recuperacao-judicial-turatti-expansao/
+2026-09-09 17:07:27 [INFO] Título: <b>Recuperação judicial</b> da Turatti envolve dívida acima de R$ 12 milhões
+2026-09-09 17:07:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:27 [INFO] Classificação: enviar
+2026-09-09 17:07:27 [INFO] Aguardando 2.69s...
+2026-09-09 17:07:30 [INFO] [11/27] ID: https://investnews.com.br/negocios/marabraz-pede-na-justica-protecao-contra-credores-e-liberacao-de-recursos/
+2026-09-09 17:07:30 [INFO] Título: Marabraz pede na Justiça proteção contra credores e liberação de recursos - InvestNews
+2026-09-09 17:07:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:31 [INFO] Classificação: enviar
+2026-09-09 17:07:31 [INFO] Aguardando 2.31s...
+2026-09-09 17:07:33 [INFO] [12/27] ID: https://www.jota.info/justica/stj-valida-honorarios-sucumbenciais-em-caso-de-recuperacao-judicial-extinta-por-ilegitimidade-ativa
+2026-09-09 17:07:33 [INFO] Título: STJ valida honorários sucumbenciais em caso de <b>recuperação judicial</b> extinta por ilegitimidade ativa
+2026-09-09 17:07:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:33 [INFO] Classificação: enviar
+2026-09-09 17:07:33 [INFO] Aguardando 2.82s...
+2026-09-09 17:07:36 [INFO] [13/27] ID: https://www.migalhas.com.br/amp/quentes/463934/sorteio-da-obra-alienacao-fiduciaria-de-bens-imoveis-atualizacoes
+2026-09-09 17:07:36 [INFO] Título: Sorteio da obra "Alienação Fiduciária de Bens Imóveis - LEI 9.514/1997, com as ...
+2026-09-09 17:07:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:36 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:36 [INFO] Aguardando 2.75s...
+2026-09-09 17:07:39 [INFO] [14/27] ID: https://www.youtube.com/watch?v=Jh1IxLoszxg
+2026-09-09 17:07:39 [INFO] Título: Santos closing in on Everton Cebolinha signing and sets sights on Coutinho - YouTube
+2026-09-09 17:07:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:39 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:39 [INFO] Aguardando 2.66s...
+2026-09-09 17:07:42 [INFO] [15/27] ID: https://www.youtube.com/watch?v=Y58_a0Mj76E
+2026-09-09 17:07:42 [INFO] Título: Vorcaro é condenado por fraudes no mercado financeiro - YouTube
+2026-09-09 17:07:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:42 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:42 [INFO] Aguardando 2.74s...
+2026-09-09 17:07:45 [INFO] [16/27] ID: https://monitordomercado.com.br/noticias/424039-galpoes-da-casas-bahia-bhia3-viram-alvo-de-investidores-apos-recuperacao-judicial/
+2026-09-09 17:07:45 [INFO] Título: Galpões da Casas Bahia (BHIA3) viram alvo de investidores após <b>recuperação</b> judicial
+2026-09-09 17:07:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:45 [INFO] Classificação: enviar
+2026-09-09 17:07:46 [INFO] Aguardando 2.48s...
+2026-09-09 17:07:48 [INFO] [17/27] ID: https://timesbrasil.com.br/empresas-e-negocios/petroquimicos/pneus-alta-precos-frete-tarifas-importacao/
+2026-09-09 17:07:48 [INFO] Título: Pneus sofrem pressão inflacionária diante de frete marítimo encarecido e do aumento de ...
+2026-09-09 17:07:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:48 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:48 [INFO] Aguardando 2.76s...
+2026-09-09 17:07:51 [INFO] [18/27] ID: https://cqcs.com.br/noticia/ans-cancela-duas-operadoras-de-planos-privados-uma-por-alternativa-a-liquidacao-extrajudicial/
+2026-09-09 17:07:51 [INFO] Título: ANS cancela duas operadoras de planos privados; uma por alternativa à liquidação <b>extrajudicial</b>
+2026-09-09 17:07:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:51 [INFO] Classificação: enviar
+2026-09-09 17:07:51 [INFO] Aguardando 2.74s...
+2026-09-09 17:07:54 [INFO] [19/27] ID: https://www.issoenoticia.com.br/politica-e-poder/advogado-processa-governo-e-pivetta-e-pede-para-justica-retomar-promocao-de-coroneis-na-pm-mt/929812
+2026-09-09 17:07:54 [INFO] Título: Advogado processa Governo e Pivetta e pede para Justiça retomar promoção de coroneis na PM-MT
+2026-09-09 17:07:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:54 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:54 [INFO] Aguardando 2.55s...
+2026-09-09 17:07:57 [INFO] [20/27] ID: https://www.estrategiaconcursos.com.br/blog/informativo-stf-1227-comentado
+2026-09-09 17:07:57 [INFO] Título: Informativo STF 1227 Comentado - Estratégia Concursos
+2026-09-09 17:07:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:07:58 [INFO] Classificação: nao_enviar
+2026-09-09 17:07:58 [INFO] Aguardando 2.18s...
+2026-09-09 17:08:00 [INFO] [21/27] ID: https://www.wsws.org/pt/articles/2026/09/09/iuji-s09.html
+2026-09-09 17:08:00 [INFO] Título: Escândalo no Judiciário brasileiro expõe a crise do regime a um mês das eleições
+2026-09-09 17:08:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:08:00 [INFO] Classificação: nao_enviar
+2026-09-09 17:08:00 [INFO] Aguardando 2.58s...
+2026-09-09 17:08:03 [INFO] [22/27] ID: https://cqcs.com.br/noticia/c6-seg-promove-encontro-em-sao-paulo-sobre-inteligencia-artificial-e-transformacao-digital-no-mercado-de-seguros/
+2026-09-09 17:08:03 [INFO] Título: C6 Seg promove encontro em São Paulo sobre inteligência artificial e transformação digital ...
+2026-09-09 17:08:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:08:03 [INFO] Classificação: nao_enviar
+2026-09-09 17:08:03 [INFO] Aguardando 2.74s...
+2026-09-09 17:08:06 [INFO] [23/27] ID: https://amp.diariodigital.com.br/geral/azambuja-abre-rodada-de-entrevistas-e-defende-que-a-escala-6x1-seja-negociada-entre-trabalhadores-e-empregadores
+2026-09-09 17:08:06 [INFO] Título: Azambuja abre rodada de entrevistas e defende que a escala 6x1 seja negociada entre ...
+2026-09-09 17:08:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:08:06 [INFO] Classificação: nao_enviar
+2026-09-09 17:08:06 [INFO] Aguardando 2.77s...
+2026-09-09 17:08:09 [INFO] [24/27] ID: https://gazetabrasil.com.br/brasil/2026/09/09/oab-df-abre-processo-contra-escritorio-de-viviane-barci-de-moraes-por-contratos-com-o-banco-master/
+2026-09-09 17:08:09 [INFO] Título: OAB-DF abre processo contra escritório de Viviane Barci de Moraes por contratos com o ...
+2026-09-09 17:08:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:08:09 [INFO] Classificação: nao_enviar
+2026-09-09 17:08:09 [INFO] Aguardando 2.68s...
+2026-09-09 17:08:12 [INFO] [25/27] ID: https://gazetabrasil.com.br/brasil/2026/09/09/delator-confirma-r-69-milhoes-em-transferencias-para-fundo-do-filme-dark-horse/?amp=1
+2026-09-09 17:08:12 [INFO] Título: Delator confirma R$ 69 milhões em transferências para fundo do filme "Dark Horse"
+2026-09-09 17:08:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:08:12 [INFO] Classificação: nao_enviar
+2026-09-09 17:08:12 [INFO] Aguardando 2.55s...
+2026-09-09 17:08:15 [INFO] [26/27] ID: https://cqcs.com.br/noticia/diretoria-da-susep-analisa-medidas-cautelares-e-novas-regras-para-o-mercado/
+2026-09-09 17:08:15 [INFO] Título: Diretoria da Susep analisa medidas cautelares e novas regras para o mercado - CQCS
+2026-09-09 17:08:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:08:15 [INFO] Classificação: nao_enviar
+2026-09-09 17:08:15 [INFO] Aguardando 2.55s...
+2026-09-09 17:08:18 [INFO] [27/27] ID: https://www.poder360.com.br/poder-justica/delator-confirma-7-transferencias-a-fundo-norte-americano-de-dark-horse/
+2026-09-09 17:08:18 [INFO] Título: Delator confirma 7 transferências a fundo norte-americano de “Dark Horse” - Poder360
+2026-09-09 17:08:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 17:08:18 [INFO] Classificação: nao_enviar
+2026-09-09 17:08:18 [INFO] ======================================================================
+2026-09-09 17:08:18 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-09 17:08:18 [INFO] ======================================================================
+2026-09-09 17:08:18 [INFO] Processadas: 27
+2026-09-09 17:08:18 [INFO] Enviar: 10
+2026-09-09 17:08:18 [INFO] Não enviar: 17
+2026-09-09 17:08:18 [INFO] ======================================================================
