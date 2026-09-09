@@ -18830,3 +18830,76 @@
 2026-09-09 07:18:59 [INFO] Enviar: 5
 2026-09-09 07:18:59 [INFO] Não enviar: 6
 2026-09-09 07:18:59 [INFO] ======================================================================
+2026-09-09 12:54:13 [INFO] ======================================================================
+2026-09-09 12:54:13 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-09 12:54:13 [INFO] ======================================================================
+2026-09-09 12:54:13 [INFO] Notícias com status 'extraida': 12
+2026-09-09 12:54:13 [INFO] Limite: 20 requisições/minuto
+2026-09-09 12:54:13 [INFO] Intervalo mínimo: 3.0s
+2026-09-09 12:54:13 [INFO] ======================================================================
+2026-09-09 12:54:13 [INFO] [1/12] ID: https://economia.uol.com.br/noticias/redacao/2026/09/09/marabraz-pede-protecao-de-180-dias-contra-credores-na-justica.ghtm
+2026-09-09 12:54:13 [INFO] Título: Marabraz pede proteção de 180 dias contra credores na Justiça - UOL Economia
+2026-09-09 12:54:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:13 [INFO] Classificação: enviar
+2026-09-09 12:54:13 [INFO] Aguardando 2.29s...
+2026-09-09 12:54:16 [INFO] [2/12] ID: https://primeirapagina.com.br/agro/endividamento-exige-atencao-e-recuperacao-judicial-deve-ser-o-ultimo-recurso-a-ser-usado/
+2026-09-09 12:54:16 [INFO] Título: Endividamento exige atenção e planejamento para evitar <b>recuperação judicial</b>, alerta especialista
+2026-09-09 12:54:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:16 [INFO] Classificação: enviar
+2026-09-09 12:54:16 [INFO] Aguardando 2.67s...
+2026-09-09 12:54:19 [INFO] [3/12] ID: https://www.fogaonet.com/noticias-do-botafogo/juiz-nega-pedido-john-textor-entrar-parte-interessada-processo-recuperacao-judicial-botafogo/
+2026-09-09 12:54:19 [INFO] Título: Juiz nega pedido de John Textor para entrar como 'parte interessada' no processo de ... - FogãoNET
+2026-09-09 12:54:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:19 [INFO] Classificação: nao_enviar
+2026-09-09 12:54:19 [INFO] Aguardando 2.59s...
+2026-09-09 12:54:22 [INFO] [4/12] ID: https://www.infomoney.com.br/onde-investir/fiagros-se-reinventam-na-crise-com-20-de-desconto-e-dividendo-de-15/
+2026-09-09 12:54:22 [INFO] Título: Fiagros se reinventam na crise, com 20% de desconto e dividendo de 15% - InfoMoney
+2026-09-09 12:54:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:22 [INFO] Classificação: nao_enviar
+2026-09-09 12:54:22 [INFO] Aguardando 2.76s...
+2026-09-09 12:54:25 [INFO] [5/12] ID: https://investnews.com.br/negocios/economia-zumbi-brasil-empresas-dividas/amp/
+2026-09-09 12:54:25 [INFO] Título: Empresas zumbi se multiplicam no Brasil sob peso de dívidas - InvestNews
+2026-09-09 12:54:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:26 [INFO] Classificação: nao_enviar
+2026-09-09 12:54:26 [INFO] Aguardando 1.42s...
+2026-09-09 12:54:28 [INFO] [6/12] ID: https://investnews.com.br/negocios/economia-zumbi-brasil-empresas-dividas/
+2026-09-09 12:54:28 [INFO] Título: Empresas zumbi se multiplicam no Brasil sob peso de dívidas - InvestNews
+2026-09-09 12:54:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:28 [INFO] Classificação: nao_enviar
+2026-09-09 12:54:28 [INFO] Aguardando 2.61s...
+2026-09-09 12:54:31 [INFO] [7/12] ID: https://maringapost.com.br/2026/09/09/stj-reforca-protecao-a-honorarios-advocaticios-em-recuperacoes-judiciais/
+2026-09-09 12:54:31 [INFO] Título: STJ reforça proteção a honorários advocatícios em recuperações <b>judiciais</b> - Maringá Post
+2026-09-09 12:54:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:31 [INFO] Classificação: enviar
+2026-09-09 12:54:31 [INFO] Aguardando 2.21s...
+2026-09-09 12:54:34 [INFO] [8/12] ID: https://conjur.com.br/2026-set-08/o-rad-compensa-em-quais-situacoes-sua-adocao-faz-sentido/
+2026-09-09 12:54:34 [INFO] Título: O RAD compensa? Em quais situações sua adoção faz sentido - Conjur
+2026-09-09 12:54:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:34 [INFO] Classificação: nao_enviar
+2026-09-09 12:54:34 [INFO] Aguardando 2.64s...
+2026-09-09 12:54:37 [INFO] [9/12] ID: https://conjur.com.br/2026-set-09/cresce-numero-de-empresas-que-passam-por-reestruturacao-e-vao-a-falencia/
+2026-09-09 12:54:37 [INFO] Título: Cresce número de empresas que passam por reestruturação e vão à falência - Conjur
+2026-09-09 12:54:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:37 [INFO] Classificação: enviar
+2026-09-09 12:54:37 [INFO] Aguardando 2.63s...
+2026-09-09 12:54:40 [INFO] [10/12] ID: https://www.campograndenews.com.br/cidades/capital/impasse-entre-prefeitura-e-banco-master-ameaca-servidores-com-nova-cobranca
+2026-09-09 12:54:40 [INFO] Título: Impasse entre prefeitura e Banco Master ameaça servidores com nova cobrança
+2026-09-09 12:54:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:40 [INFO] Classificação: nao_enviar
+2026-09-09 12:54:40 [INFO] Aguardando 2.71s...
+2026-09-09 12:54:43 [INFO] [11/12] ID: https://valor.globo.com/google/amp/valor-1000/noticia/2026/09/09/valor-1000-sudeste-mantem-lideranca-mas-enfrenta-novos-desafios.ghtml
+2026-09-09 12:54:43 [INFO] Título: Valor 1000: Sudeste mantém liderança, mas enfrenta novos desafios
+2026-09-09 12:54:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:43 [INFO] Classificação: nao_enviar
+2026-09-09 12:54:43 [INFO] Aguardando 2.79s...
+2026-09-09 12:54:46 [INFO] [12/12] ID: https://valor.globo.com/google/amp/valor-1000/noticia/2026/09/09/valor-1000-os-destaques-das-mil-maiores.ghtml
+2026-09-09 12:54:46 [INFO] Título: Valor 1000: Os destaques das mil maiores
+2026-09-09 12:54:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 12:54:46 [INFO] Classificação: nao_enviar
+2026-09-09 12:54:46 [INFO] ======================================================================
+2026-09-09 12:54:46 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-09 12:54:46 [INFO] ======================================================================
+2026-09-09 12:54:46 [INFO] Processadas: 12
+2026-09-09 12:54:46 [INFO] Enviar: 4
+2026-09-09 12:54:46 [INFO] Não enviar: 8
+2026-09-09 12:54:46 [INFO] ======================================================================
