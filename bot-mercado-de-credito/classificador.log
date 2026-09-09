@@ -18762,3 +18762,71 @@
 2026-09-09 01:10:23 [INFO] Enviar: 2
 2026-09-09 01:10:23 [INFO] Não enviar: 5
 2026-09-09 01:10:23 [INFO] ======================================================================
+2026-09-09 07:18:29 [INFO] ======================================================================
+2026-09-09 07:18:29 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-09 07:18:29 [INFO] ======================================================================
+2026-09-09 07:18:29 [INFO] Notícias com status 'extraida': 11
+2026-09-09 07:18:29 [INFO] Limite: 20 requisições/minuto
+2026-09-09 07:18:29 [INFO] Intervalo mínimo: 3.0s
+2026-09-09 07:18:29 [INFO] ======================================================================
+2026-09-09 07:18:29 [INFO] [1/11] ID: https://www.poder360.com.br/poder-economia/marabraz-pede-protecao-de-180-dias-contra-credores/
+2026-09-09 07:18:29 [INFO] Título: Marabraz pede proteção de 180 dias contra credores - Poder360
+2026-09-09 07:18:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:29 [INFO] Classificação: enviar
+2026-09-09 07:18:29 [INFO] Aguardando 2.64s...
+2026-09-09 07:18:32 [INFO] [2/11] ID: https://mais.opovo.com.br/jornal/economia/2026/09/08/grupo-turatti-entra-em-recuperacao-judicial-mas-mantem-funcionamento-das-operacoes.html
+2026-09-09 07:18:32 [INFO] Título: Grupo Turatti entra em <b>recuperação judicial</b>, mas mantém funcionamento das operações
+2026-09-09 07:18:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:32 [INFO] Classificação: enviar
+2026-09-09 07:18:32 [INFO] Aguardando 2.74s...
+2026-09-09 07:18:35 [INFO] [3/11] ID: https://www.estadao.com.br/einvestidor/wealth-management/apex-partners-administrador-judicial-identifica-25-inconsistencias-contabeis/
+2026-09-09 07:18:35 [INFO] Título: Apex Partners: administrador <b>judicial</b> identifica 25 inconsistências contábeis - Estadão
+2026-09-09 07:18:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:35 [INFO] Classificação: enviar
+2026-09-09 07:18:35 [INFO] Aguardando 2.79s...
+2026-09-09 07:18:38 [INFO] [4/11] ID: https://www.congressoemfoco.com.br/amp/noticia/122060/o-poder-judiciario-esta-a-altura-dos-desafios--diz-edson-fachin
+2026-09-09 07:18:38 [INFO] Título: "O Poder Judiciário está à altura dos desafios", diz Edson Fachin - Congresso em Foco
+2026-09-09 07:18:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:38 [INFO] Classificação: nao_enviar
+2026-09-09 07:18:38 [INFO] Aguardando 2.59s...
+2026-09-09 07:18:41 [INFO] [5/11] ID: https://www.reportermt.com/cidades/frigorifico-de-vg-entra-em-recuperacao-judicial-com-dividas-de-r-33-milhoes/243190
+2026-09-09 07:18:41 [INFO] Título: Frigorífico de VG entra em <b>recuperação judicial</b> com dívidas de R$ 33 milhões - ReporterMT
+2026-09-09 07:18:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:41 [INFO] Classificação: enviar
+2026-09-09 07:18:41 [INFO] Aguardando 2.81s...
+2026-09-09 07:18:44 [INFO] [6/11] ID: https://www.reporterdiario.com.br/noticia/3891577/cvm-aplica-multas-que-somam-r-203-mi-a-vorcaro-e-a-outros-15-reus-em-caso-de-fraude-com-fii/
+2026-09-09 07:18:44 [INFO] Título: CVM aplica multas que somam R$ 203 mi a Vorcaro e a outros 15 réus em caso de fraude com FII
+2026-09-09 07:18:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:44 [INFO] Classificação: nao_enviar
+2026-09-09 07:18:44 [INFO] Aguardando 2.77s...
+2026-09-09 07:18:47 [INFO] [7/11] ID: https://zonamista.com.br/inter-busca-acordo-com-tres-grandes-credores/
+2026-09-09 07:18:47 [INFO] Título: Inter busca acordo com três grandes credores em nova frente para reorganizar dívida
+2026-09-09 07:18:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:47 [INFO] Classificação: enviar
+2026-09-09 07:18:47 [INFO] Aguardando 2.70s...
+2026-09-09 07:18:50 [INFO] [8/11] ID: https://www.irecelider.com.br/noticias-do-mundo/i/f6a4045996e6e7253927aa9dce962121/comissao-de-valores-mobiliarios-condena-por-unanimidade-daniel-vorcaro-e-o-banco-master-por-fraude-em-um-fundo-imobiliario
+2026-09-09 07:18:50 [INFO] Título: Comissão de Valores Mobiliários condena, por unanimidade, Daniel Vorcaro e o Banco ...
+2026-09-09 07:18:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:50 [INFO] Classificação: nao_enviar
+2026-09-09 07:18:50 [INFO] Aguardando 2.63s...
+2026-09-09 07:18:53 [INFO] [9/11] ID: https://g1.globo.com/google/amp/jornal-nacional/noticia/2026/09/08/comissao-de-valores-mobiliarios-condena-por-unanimidade-daniel-vorcaro-e-o-banco-master-por-fraude-em-um-fundo-imobiliario.ghtml
+2026-09-09 07:18:53 [INFO] Título: Comissão de Valores Mobiliários condena, por unanimidade, Daniel Vorcaro e o Banco ... - G1
+2026-09-09 07:18:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:53 [INFO] Classificação: nao_enviar
+2026-09-09 07:18:53 [INFO] Aguardando 2.66s...
+2026-09-09 07:18:56 [INFO] [10/11] ID: https://www.jornaldacidadeonline.com.br/noticias/87768/dossie-master-o-papel-de-andre-mendonca-na-maior-crise-politica-economica-e-judiciaria-do-brasil
+2026-09-09 07:18:56 [INFO] Título: Dossiê Master: o papel de André Mendonça na maior crise política, econômica e judiciária do Brasil
+2026-09-09 07:18:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:56 [INFO] Classificação: nao_enviar
+2026-09-09 07:18:56 [INFO] Aguardando 2.80s...
+2026-09-09 07:18:59 [INFO] [11/11] ID: https://redeondadigital.com.br/brasil/vorcaro-banco-master-e-outros-reus-sao-multados-em-r-2015-milhoes
+2026-09-09 07:18:59 [INFO] Título: Vorcaro, Banco Master e outros réus são multados em R$ 201,5 milhões
+2026-09-09 07:18:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-09 07:18:59 [INFO] Classificação: nao_enviar
+2026-09-09 07:18:59 [INFO] ======================================================================
+2026-09-09 07:18:59 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-09 07:18:59 [INFO] ======================================================================
+2026-09-09 07:18:59 [INFO] Processadas: 11
+2026-09-09 07:18:59 [INFO] Enviar: 5
+2026-09-09 07:18:59 [INFO] Não enviar: 6
+2026-09-09 07:18:59 [INFO] ======================================================================
