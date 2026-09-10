@@ -19753,3 +19753,101 @@
 2026-09-10 18:18:25 [INFO] Enviar: 14
 2026-09-10 18:18:25 [INFO] Não enviar: 12
 2026-09-10 18:18:25 [INFO] ======================================================================
+2026-09-10 21:32:35 [INFO] ======================================================================
+2026-09-10 21:32:35 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-10 21:32:35 [INFO] ======================================================================
+2026-09-10 21:32:35 [INFO] Notícias com status 'extraida': 17
+2026-09-10 21:32:35 [INFO] Limite: 20 requisições/minuto
+2026-09-10 21:32:35 [INFO] Intervalo mínimo: 3.0s
+2026-09-10 21:32:35 [INFO] ======================================================================
+2026-09-10 21:32:35 [INFO] [1/17] ID: https://www.lance.com.br/vasco/justica-defina-a-data-para-leilao-da-venda-da-saf-do-vasco.html
+2026-09-10 21:32:35 [INFO] Título: Justiça define data para leilão da venda da SAF do Vasco - LANCE!
+2026-09-10 21:32:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:32:35 [INFO] Classificação: enviar
+2026-09-10 21:32:35 [INFO] Aguardando 2.67s...
+2026-09-10 21:32:38 [INFO] [2/17] ID: https://www1.folha.uol.com.br/mercado/2026/09/casas-bahia-faz-leilao-de-produtos-neste-sabado-12.shtml
+2026-09-10 21:32:38 [INFO] Título: Casas Bahia faz leilão de produtos neste sábado (12) - 10/09/2026 - Economia - Folha
+2026-09-10 21:32:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:32:38 [INFO] Classificação: nao_enviar
+2026-09-10 21:32:38 [INFO] Aguardando 2.71s...
+2026-09-10 21:32:41 [INFO] [3/17] ID: https://investnews.com.br/financas/recuperacao-judicial-empresas-dividas/
+2026-09-10 21:32:41 [INFO] Título: Empresa saiu da <b>recuperação judicial</b>: o que acontece quando o processo termina?
+2026-09-10 21:32:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:32:41 [INFO] Classificação: enviar
+2026-09-10 21:32:41 [INFO] Aguardando 2.42s...
+2026-09-10 21:32:44 [INFO] [4/17] ID: https://canalsolar.com.br/justica-recuperacao-judicial-light-encerrada/
+2026-09-10 21:32:44 [INFO] Título: Justiça encerra <b>recuperação judicial</b> da Light após três anos - Canal Solar
+2026-09-10 21:32:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:32:44 [INFO] Classificação: enviar
+2026-09-10 21:32:44 [INFO] Aguardando 2.65s...
+2026-09-10 21:32:47 [INFO] [5/17] ID: https://www.legisweb.com.br/noticia/?id=34373
+2026-09-10 21:32:47 [INFO] Título: prazo para adesão à transação de débitos inscritos em dívida ativa termina em 30 de setembro
+2026-09-10 21:32:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:32:47 [INFO] Classificação: nao_enviar
+2026-09-10 21:32:47 [INFO] Aguardando 2.70s...
+2026-09-10 21:32:50 [INFO] [6/17] ID: https://www.tjrs.jus.br/novo/noticia/6a-camara-civel-do-tjrs-decide-que-cotriba-nao-pode-pedir-recuperacao-judicial/
+2026-09-10 21:32:50 [INFO] Título: 6ª Câmara Cível do TJRS decide que Cotribá não pode pedir <b>recuperação judicial</b> - TJRS.jus.br
+2026-09-10 21:32:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:32:50 [INFO] Classificação: enviar
+2026-09-10 21:32:50 [INFO] Aguardando 2.79s...
+2026-09-10 21:32:53 [INFO] [7/17] ID: https://mpes.mp.br/noticias/2026/09/10/mpes-pede-novos-esclarecimentos-sobre-situacao-economico-financeira-do-grupo-apex/
+2026-09-10 21:32:53 [INFO] Título: MPES pede novos esclarecimentos sobre situação econômico-financeira do Grupo Apex
+2026-09-10 21:32:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:32:53 [INFO] Classificação: nao_enviar
+2026-09-10 21:32:53 [INFO] Aguardando 2.61s...
+2026-09-10 21:32:56 [INFO] [8/17] ID: https://www.migalhas.com.br/depeso/464225/vencimento-antecipado-dos-creditos-nao-sujeitos-a-recuperacao-judicial
+2026-09-10 21:32:56 [INFO] Título: O vencimento antecipado dos créditos não sujeitos à <b>recuperação judicial</b> - Migalhas
+2026-09-10 21:32:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:32:56 [INFO] Classificação: enviar
+2026-09-10 21:32:56 [INFO] Aguardando 2.85s...
+2026-09-10 21:32:59 [INFO] [9/17] ID: https://www.congressoemfoco.com.br/amp/noticia/122135/lula-sanciona-medida-provisoria-do-fim-da-taxa-das-blusinhas
+2026-09-10 21:32:59 [INFO] Título: Lula sanciona medida provisória do fim da taxa das blusinhas - Congresso em Foco
+2026-09-10 21:32:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:32:59 [INFO] Classificação: nao_enviar
+2026-09-10 21:32:59 [INFO] Aguardando 2.76s...
+2026-09-10 21:33:02 [INFO] [10/17] ID: https://br.advfn.com/noticias/PAPERBR/2026/artigo/99284464
+2026-09-10 21:33:02 [INFO] Título: Light encerra <b>recuperação judicial</b>, após decisão da Justiça - ADVFN
+2026-09-10 21:33:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:33:02 [INFO] Classificação: enviar
+2026-09-10 21:33:02 [INFO] Aguardando 2.58s...
+2026-09-10 21:33:05 [INFO] [11/17] ID: https://agenciainfra.com/blog/petrobras-aumenta-preco-da-gasolina-em-r-019-apos-medidas-do-governo/
+2026-09-10 21:33:05 [INFO] Título: Petrobras aumenta preço da gasolina em R$ 0,19 após medidas do governo
+2026-09-10 21:33:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:33:05 [INFO] Classificação: nao_enviar
+2026-09-10 21:33:05 [INFO] Aguardando 2.81s...
+2026-09-10 21:33:08 [INFO] [12/17] ID: https://bomdiasorocaba.com.br/noticia/101943/projeto-amplia-mecanismos-para-regularizacao-de-dividas-com-a-uniao
+2026-09-10 21:33:08 [INFO] Título: Projeto amplia mecanismos para regularização de dívidas com a União
+2026-09-10 21:33:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:33:08 [INFO] Classificação: nao_enviar
+2026-09-10 21:33:08 [INFO] Aguardando 2.63s...
+2026-09-10 21:33:11 [INFO] [13/17] ID: https://www.bonde.com.br/bondenews/economia/londrina-destaca-sete-empresas-entre-as-maiores-do-ranking-valor/amp
+2026-09-10 21:33:11 [INFO] Título: Londrina destaca sete empresas entre as maiores do Ranking Valor 1000 - Bonde
+2026-09-10 21:33:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:33:11 [INFO] Classificação: nao_enviar
+2026-09-10 21:33:11 [INFO] Aguardando 2.69s...
+2026-09-10 21:33:14 [INFO] [14/17] ID: https://www.gazetadopovo.com.br/republica/senadores-pedem-sessao-ao-mesmo-tempo-que-a-do-stf-na-proxima-terca-feira/
+2026-09-10 21:33:14 [INFO] Título: Senadores pedem sessão ao mesmo tempo que a do STF na terça - Gazeta do Povo
+2026-09-10 21:33:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:33:14 [INFO] Classificação: nao_enviar
+2026-09-10 21:33:14 [INFO] Aguardando 2.63s...
+2026-09-10 21:33:17 [INFO] [15/17] ID: https://veja.abril.com.br/brasil/senador-pede-sessao-extraordinaria-para-acompanhar-analise-de-relatorio-sobre-relacoes-entre-moraes-e-vorcaro/
+2026-09-10 21:33:17 [INFO] Título: Senador pede sessão extraordinária para acompanhar análise de relatório sobre relações ...
+2026-09-10 21:33:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:33:17 [INFO] Classificação: nao_enviar
+2026-09-10 21:33:17 [INFO] Aguardando 2.74s...
+2026-09-10 21:33:20 [INFO] [16/17] ID: https://pagina1news.com.br/dinheiro-dos-aposentados-trava-na-justica-e-campo-grande-tenta-recuperar-r-14-milhao-investidos-no-banco-master/
+2026-09-10 21:33:20 [INFO] Título: Dinheiro dos aposentados trava na Justiça e Campo Grande tenta recuperar R$ 1,4 milhão ...
+2026-09-10 21:33:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:33:20 [INFO] Classificação: nao_enviar
+2026-09-10 21:33:20 [INFO] Aguardando 2.47s...
+2026-09-10 21:33:23 [INFO] [17/17] ID: https://cqcs.com.br/noticia/akad-afirma-ter-chegado-r-15-milhao-em-premios-com-seguro-para-cirurgioes-plasticos/
+2026-09-10 21:33:23 [INFO] Título: Akad afirma ter chegado R$ 1,5 milhão em prêmios com seguro para cirurgiões plásticos
+2026-09-10 21:33:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 21:33:23 [INFO] Classificação: nao_enviar
+2026-09-10 21:33:23 [INFO] ======================================================================
+2026-09-10 21:33:23 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-10 21:33:23 [INFO] ======================================================================
+2026-09-10 21:33:23 [INFO] Processadas: 17
+2026-09-10 21:33:23 [INFO] Enviar: 6
+2026-09-10 21:33:23 [INFO] Não enviar: 11
+2026-09-10 21:33:23 [INFO] ======================================================================
