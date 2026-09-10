@@ -19413,3 +19413,200 @@
 2026-09-10 09:33:43 [INFO] Enviar: 0
 2026-09-10 09:33:43 [INFO] Não enviar: 1
 2026-09-10 09:33:43 [INFO] ======================================================================
+2026-09-10 14:15:06 [INFO] ======================================================================
+2026-09-10 14:15:06 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-10 14:15:06 [INFO] ======================================================================
+2026-09-10 14:15:06 [INFO] Notícias com status 'extraida': 37
+2026-09-10 14:15:06 [INFO] Limite: 20 requisições/minuto
+2026-09-10 14:15:06 [INFO] Intervalo mínimo: 3.0s
+2026-09-10 14:15:06 [INFO] ======================================================================
+2026-09-10 14:15:06 [INFO] [1/37] ID: https://jurinews.com.br/rj/justica-encerra-recuperacao-judicial-da-light-sa-no-rio-de-janeiro
+2026-09-10 14:15:06 [INFO] Título: Justiça encerra <b>recuperação judicial</b> da Light S.A. no Rio de Janeiro - Jurinews
+2026-09-10 14:15:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:08 [INFO] Classificação: enviar
+2026-09-10 14:15:08 [INFO] Aguardando 1.67s...
+2026-09-10 14:15:09 [INFO] [2/37] ID: https://exame.com/invest/mercados/light-sai-da-recuperacao-judicial-apos-tres-anos-o-que-muda-agora/
+2026-09-10 14:15:09 [INFO] Título: Light sai da <b>recuperação judicial</b> após três anos — o que muda agora | Exame
+2026-09-10 14:15:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:10 [INFO] Classificação: enviar
+2026-09-10 14:15:10 [INFO] Aguardando 2.66s...
+2026-09-10 14:15:12 [INFO] [3/37] ID: https://economia.uol.com.br/noticias/redacao/2026/09/10/light-tem-recuperacao-judicial-encerrada-pela-justica-do-rio.ghtm
+2026-09-10 14:15:12 [INFO] Título: Light tem <b>recuperação judicial</b> encerrada pela Justiça do Rio - UOL Economia
+2026-09-10 14:15:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:13 [INFO] Classificação: enviar
+2026-09-10 14:15:13 [INFO] Aguardando 2.68s...
+2026-09-10 14:15:15 [INFO] [4/37] ID: https://agenciainfra.com/blog/light-anuncia-fim-da-recuperacao-judicial-apos-tres-anos/
+2026-09-10 14:15:15 [INFO] Título: Light anuncia fim da <b>recuperação judicial</b> após três anos - Agência iNFRA
+2026-09-10 14:15:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:16 [INFO] Classificação: enviar
+2026-09-10 14:15:16 [INFO] Aguardando 2.12s...
+2026-09-10 14:15:18 [INFO] [5/37] ID: https://www.cnnbrasil.com.br/agro/maggi-alerta-para-credito-caro-no-agro-e-avanco-de-recuperacoes-judiciais/
+2026-09-10 14:15:18 [INFO] Título: Maggi alerta para crédito caro no agro e avanço de recuperações <b>judiciais</b> - CNN Brasil
+2026-09-10 14:15:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:18 [INFO] Classificação: enviar
+2026-09-10 14:15:19 [INFO] Aguardando 2.73s...
+2026-09-10 14:15:21 [INFO] [6/37] ID: https://www.fatosdematogrosso.com.br/geral/grupo-lermen-entra-em-recuperacao-judicial-com-mais-de-r-1-bilhao-em-dividas/15814
+2026-09-10 14:15:21 [INFO] Título: Grupo Lermen entra em <b>recuperação judicial</b> com mais de R$ 1 bilhão em dívidas
+2026-09-10 14:15:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:22 [INFO] Classificação: enviar
+2026-09-10 14:15:22 [INFO] Aguardando 2.67s...
+2026-09-10 14:15:24 [INFO] [7/37] ID: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/justica-encerra-recuperacao-judicial-da-light-e-reconhece-cumprimento-do-plano/
+2026-09-10 14:15:24 [INFO] Título: Justiça encerra <b>recuperação judicial</b> da Light e reconhece cumprimento do plano - Estadão
+2026-09-10 14:15:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:24 [INFO] Classificação: enviar
+2026-09-10 14:15:24 [INFO] Aguardando 2.77s...
+2026-09-10 14:15:27 [INFO] [8/37] ID: https://br.advfn.com/jornal/2026/09/light-encerra-recuperacao-judicial-apos-decisao-da-justica
+2026-09-10 14:15:27 [INFO] Título: Light encerra <b>recuperação judicial</b>, após decisão da Justiça - ADVFN
+2026-09-10 14:15:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:27 [INFO] Classificação: enviar
+2026-09-10 14:15:27 [INFO] Aguardando 2.83s...
+2026-09-10 14:15:30 [INFO] [9/37] ID: https://investidor10.com.br/noticias/light-lght3-sai-da-recuperacao-judicial-apos-3-anos-acoes-vao-subir-122544/
+2026-09-10 14:15:30 [INFO] Título: Light (LGHT3) sai da <b>Recuperação Judicial</b> após 3 anos; ações vao subir? - Investidor10
+2026-09-10 14:15:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:30 [INFO] Classificação: enviar
+2026-09-10 14:15:30 [INFO] Aguardando 2.80s...
+2026-09-10 14:15:33 [INFO] [10/37] ID: https://megawhat.uol.com.br/economia-e-politica/empresas/light-encerra-processo-de-recuperacao-judicial/
+2026-09-10 14:15:33 [INFO] Título: Light encerra processo de <b>recuperação judicial</b> - MegaWhat
+2026-09-10 14:15:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:34 [INFO] Classificação: enviar
+2026-09-10 14:15:34 [INFO] Aguardando 2.55s...
+2026-09-10 14:15:36 [INFO] [11/37] ID: https://conjur.com.br/2026-set-10/uniao-entre-o-publico-e-o-privado-caminho-para-um-brasil-mais-justo-e-igualitario/
+2026-09-10 14:15:36 [INFO] Título: União entre o público e o privado: caminho para um Brasil mais justo e igualitário - Conjur
+2026-09-10 14:15:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:37 [INFO] Classificação: nao_enviar
+2026-09-10 14:15:37 [INFO] Aguardando 2.63s...
+2026-09-10 14:15:39 [INFO] [12/37] ID: https://www.infomoney.com.br/mercados/vale-petrobras-light-motiva-e-mais-acoes-para-acompanhar-nesta-quinta/
+2026-09-10 14:15:39 [INFO] Título: Vale, Petrobras, Light, Motiva e mais ações para acompanhar nesta quinta - InfoMoney
+2026-09-10 14:15:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:49 [INFO] Classificação: nao_enviar
+2026-09-10 14:15:49 [INFO] [13/37] ID: https://conteudos.xpi.com.br/acoes/relatorios/light-anuncia-encerramento-da-recuperacao-judicial-certame-tera-baterias-pela-1a-vez-veja-o-radar-energia-xp-setembro/
+2026-09-10 14:15:49 [INFO] Título: Light anuncia encerramento da <b>recuperação judicial</b>; veja o Radar Energia XP | Setembro
+2026-09-10 14:15:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:49 [INFO] Classificação: enviar
+2026-09-10 14:15:49 [INFO] Aguardando 2.76s...
+2026-09-10 14:15:52 [INFO] [14/37] ID: https://g1.globo.com/sp/itapetininga-regiao/noticia/2026/09/10/justica-decreta-falencia-de-grupo-de-supermercados-por-divida-de-quase-r-700-milhoes.ghtml
+2026-09-10 14:15:52 [INFO] Título: Justiça decreta falência do Grupo Ricoy por dívida de R$ 700 milhões - G1 - Globo
+2026-09-10 14:15:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:52 [INFO] Classificação: enviar
+2026-09-10 14:15:52 [INFO] Aguardando 2.70s...
+2026-09-10 14:15:55 [INFO] [15/37] ID: https://www.infomoney.com.br/mercados/light-ligt3-sai-da-recuperacao-judicial-apos-decisao-da-justica/
+2026-09-10 14:15:55 [INFO] Título: Light (LIGT3) sai da <b>recuperação judicial</b> após decisão da Justiça - InfoMoney
+2026-09-10 14:15:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:56 [INFO] Classificação: enviar
+2026-09-10 14:15:56 [INFO] Aguardando 2.60s...
+2026-09-10 14:15:58 [INFO] [16/37] ID: https://www.folhape.com.br/noticia/amp/511548/efeito-das-canetas-emagrecedoras-chega-aos-processos-de-recuperacao/
+2026-09-10 14:15:58 [INFO] Título: Efeito das canetas emagrecedoras chega aos processos de <b>recuperação judicial</b> - Folha PE
+2026-09-10 14:15:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:15:59 [INFO] Classificação: enviar
+2026-09-10 14:15:59 [INFO] Aguardando 2.48s...
+2026-09-10 14:16:01 [INFO] [17/37] ID: https://www.broadcast.com.br/ultimas-noticias/light-anuncia-encerramento-da-recuperacao-judicial/
+2026-09-10 14:16:01 [INFO] Título: Light anuncia encerramento da <b>recuperação judicial</b> - O mercado financeiro em tempo real
+2026-09-10 14:16:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:01 [INFO] Classificação: enviar
+2026-09-10 14:16:01 [INFO] Aguardando 2.75s...
+2026-09-10 14:16:04 [INFO] [18/37] ID: https://www.estadao.com.br/em-alta/economia/light-anuncia-encerramento-da-recuperacao-judicial-npr/
+2026-09-10 14:16:04 [INFO] Título: Light anuncia encerramento da <b>recuperação judicial</b> - Estadão
+2026-09-10 14:16:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:04 [INFO] Classificação: enviar
+2026-09-10 14:16:04 [INFO] Aguardando 2.75s...
+2026-09-10 14:16:07 [INFO] [19/37] ID: https://www.poder360.com.br/poder-infra/light-anuncia-fim-da-recuperacao-judicial/
+2026-09-10 14:16:07 [INFO] Título: Light anuncia fim da <b>recuperação judicial</b> - Poder360
+2026-09-10 14:16:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:07 [INFO] Classificação: enviar
+2026-09-10 14:16:07 [INFO] Aguardando 2.81s...
+2026-09-10 14:16:10 [INFO] [20/37] ID: https://www.infomoney.com.br/onde-investir/credito-privado-isento-de-ir-volta-a-pagar-menos-que-titulo-publico-vale-a-pena/
+2026-09-10 14:16:10 [INFO] Título: Crédito privado isento de IR volta a pagar menos que título público; vale a pena?
+2026-09-10 14:16:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:11 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:11 [INFO] Aguardando 2.63s...
+2026-09-10 14:16:13 [INFO] [21/37] ID: https://br.advfn.com/noticias/PAPERBR/2026/artigo/99276034
+2026-09-10 14:16:13 [INFO] Título: OceanPact encerra prazo de recurso da Petrobras no STJ, sobre o caso UP Coral - ADVFN
+2026-09-10 14:16:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:14 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:14 [INFO] Aguardando 2.00s...
+2026-09-10 14:16:16 [INFO] [22/37] ID: https://megawhat.uol.com.br/distribuicao/electra-rompe-contrato-cooperativa-faz-leilao-mas-aneel-barra-resultado/
+2026-09-10 14:16:16 [INFO] Título: Electra rompe contrato, cooperativa faz leilão, mas Aneel barra resultado - MegaWhat - UOL
+2026-09-10 14:16:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:17 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:17 [INFO] Aguardando 2.33s...
+2026-09-10 14:16:19 [INFO] [23/37] ID: https://conjur.com.br/2026-set-09/defensoria-publica-tera-fundo-para-promover-acesso-a-justica-gratuita/
+2026-09-10 14:16:19 [INFO] Título: Defensoria Pública terá fundo para promoção do acesso à Justiça gratuita - Conjur
+2026-09-10 14:16:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:19 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:19 [INFO] Aguardando 2.80s...
+2026-09-10 14:16:22 [INFO] [24/37] ID: https://www.terra.com.br/economia/light-anuncia-encerramento-da-recuperacao-judicial,644c4f123b9179c58bf7282baea54bb3x5gfg19a.html
+2026-09-10 14:16:22 [INFO] Título: Light anuncia encerramento da recuperação <b>judicial</b> - Terra
+2026-09-10 14:16:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:22 [INFO] Classificação: enviar
+2026-09-10 14:16:22 [INFO] Aguardando 2.68s...
+2026-09-10 14:16:25 [INFO] [25/37] ID: https://monitormercantil.com.br/justica-encerra-recuperacao-judicial-da-light/
+2026-09-10 14:16:25 [INFO] Título: Justiça encerra recuperação <b>judicial</b> da Light - Monitor Mercantil
+2026-09-10 14:16:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:26 [INFO] Classificação: enviar
+2026-09-10 14:16:26 [INFO] Aguardando 1.78s...
+2026-09-10 14:16:28 [INFO] [26/37] ID: https://agendadopoder.com.br/light-encerra-recuperacao-judicial-apos-cumprir-principais-obrigacoes-do-plano-aos-credores/
+2026-09-10 14:16:28 [INFO] Título: Light encerra recuperação <b>judicial</b> após cumprir principais obrigações do plano aos credores
+2026-09-10 14:16:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:29 [INFO] Classificação: enviar
+2026-09-10 14:16:29 [INFO] Aguardando 2.56s...
+2026-09-10 14:16:31 [INFO] [27/37] ID: https://www.estadao.com.br/economia/acao-popular-na-justica-quer-que-fgc-seja-obrigado-a-cobrir-perdas-do-brb-com-depositos-judiciais/
+2026-09-10 14:16:31 [INFO] Título: Ação popular na Justiça quer que FGC seja obrigado a cobrir perdas do BRB com ...
+2026-09-10 14:16:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:31 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:31 [INFO] Aguardando 2.74s...
+2026-09-10 14:16:34 [INFO] [28/37] ID: https://cqcs.com.br/evento/3o-convencao-aconseg-centro-oeste/
+2026-09-10 14:16:34 [INFO] Título: 3º Convenção Aconseg Centro Oeste - CQCS
+2026-09-10 14:16:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:34 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:34 [INFO] Aguardando 2.84s...
+2026-09-10 14:16:37 [INFO] [29/37] ID: https://www.infomoney.com.br/politica/relatorio-da-pf-sobre-moraes-vai-ao-plenario-entenda-o-julgamento/
+2026-09-10 14:16:37 [INFO] Título: Relatório da PF sobre Moraes vai ao plenário; entenda o julgamento - InfoMoney
+2026-09-10 14:16:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:37 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:37 [INFO] Aguardando 2.68s...
+2026-09-10 14:16:40 [INFO] [30/37] ID: https://acritica.net/justica/delator-eleva-a-us-12-3-milhoes-dinheiro-enviado-a-fundo-do-filme-sobre-bolsonaro/
+2026-09-10 14:16:40 [INFO] Título: Delator eleva a US$ 12,3 milhões dinheiro enviado a fundo do filme sobre Bolsonaro
+2026-09-10 14:16:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:41 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:41 [INFO] Aguardando 2.37s...
+2026-09-10 14:16:43 [INFO] [31/37] ID: https://cqcs.com.br/noticia/corregedoria-de-sp-investiga-mudanca-em-morte-ligada-a-seguro-de-r-85-mi/
+2026-09-10 14:16:43 [INFO] Título: Corregedoria de SP investiga mudança em morte ligada a seguro de R$ 85 mi - CQCS
+2026-09-10 14:16:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:44 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:44 [INFO] Aguardando 2.54s...
+2026-09-10 14:16:46 [INFO] [32/37] ID: https://economicnewsbrasil.com.br/2026/09/10/dinheiro-de-vorcaro-delacao-reag/
+2026-09-10 14:16:46 [INFO] Título: Delação de ex-dono da Reag põe R$ 20 bilhões do dinheiro de Vorcaro no radar
+2026-09-10 14:16:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:48 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:48 [INFO] Aguardando 1.44s...
+2026-09-10 14:16:49 [INFO] [33/37] ID: https://revistaforum.com.br/politica/acm-neto-e-rueda-aportes-master/
+2026-09-10 14:16:49 [INFO] Título: Vorcaro diz que ACM Neto e Rueda cobravam 10% de aportes de previdências ao Banco Master
+2026-09-10 14:16:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:49 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:49 [INFO] Aguardando 2.69s...
+2026-09-10 14:16:52 [INFO] [34/37] ID: https://atarde.com.br/politica/o-lobo-da-faria-lima-como-vorcaro-fez-o-lobo-de-wall-street-parecer-um-amador-1401386
+2026-09-10 14:16:52 [INFO] Título: O Lobo da Faria Lima? Como Vorcaro fez o Lobo de Wall Street parecer um amador
+2026-09-10 14:16:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:53 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:53 [INFO] Aguardando 2.51s...
+2026-09-10 14:16:55 [INFO] [35/37] ID: https://obrasilianista.com.br/2026/09/10/politica/dark-horse-mendonca-homologa-delacao-empresario-repasses-banco-master/
+2026-09-10 14:16:55 [INFO] Título: Dark Horse: Mendonça homologa delação de empresário sobre repasses do Banco Master
+2026-09-10 14:16:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:55 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:55 [INFO] Aguardando 2.74s...
+2026-09-10 14:16:58 [INFO] [36/37] ID: https://www.bbc.com/portuguese/articles/cy9zvqle2r0o
+2026-09-10 14:16:58 [INFO] Título: O que Flávio Bolsonaro ainda precisa esclarecer — e por que o filme não sai antes das eleições
+2026-09-10 14:16:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:16:58 [INFO] Classificação: nao_enviar
+2026-09-10 14:16:58 [INFO] Aguardando 2.77s...
+2026-09-10 14:17:01 [INFO] [37/37] ID: https://www.ojacare.com.br/2026/09/10/apos-operacao-da-pf-master-recorre-ao-tj-para-nao-liberar-r-12-mi-dos-aposentados-da-capital/
+2026-09-10 14:17:01 [INFO] Título: Após operação da PF, Master recorre ao TJ para não liberar R$ 1,2 mi dos aposentados da Capital
+2026-09-10 14:17:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 14:17:02 [INFO] Classificação: nao_enviar
+2026-09-10 14:17:02 [INFO] ======================================================================
+2026-09-10 14:17:02 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-10 14:17:02 [INFO] ======================================================================
+2026-09-10 14:17:02 [INFO] Processadas: 37
+2026-09-10 14:17:02 [INFO] Enviar: 20
+2026-09-10 14:17:02 [INFO] Não enviar: 17
+2026-09-10 14:17:02 [INFO] ======================================================================
