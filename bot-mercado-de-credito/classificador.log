@@ -19237,3 +19237,161 @@
 2026-09-09 23:09:35 [INFO] Enviar: 2
 2026-09-09 23:09:35 [INFO] Não enviar: 11
 2026-09-09 23:09:35 [INFO] ======================================================================
+2026-09-10 04:22:24 [INFO] ======================================================================
+2026-09-10 04:22:24 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-10 04:22:24 [INFO] ======================================================================
+2026-09-10 04:22:24 [INFO] Notícias com status 'extraida': 29
+2026-09-10 04:22:24 [INFO] Limite: 20 requisições/minuto
+2026-09-10 04:22:24 [INFO] Intervalo mínimo: 3.0s
+2026-09-10 04:22:24 [INFO] ======================================================================
+2026-09-10 04:22:24 [INFO] [1/29] ID: https://f5.folha.uol.com.br/celebridades/2026/09/record-anuncia-contratacao-da-ex-bbb-jordana-morais-para-canal-de-entretenimento.shtml
+2026-09-10 04:22:24 [INFO] Título: Record anuncia contratação da ex-BBB Jordana Morais para canal de entretenimento - F5
+2026-09-10 04:22:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:25 [INFO] Classificação: nao_enviar
+2026-09-10 04:22:25 [INFO] Aguardando 2.66s...
+2026-09-10 04:22:27 [INFO] [2/29] ID: https://www1.folha.uol.com.br/mercado/2026/09/light-anuncia-encerramento-da-recuperacao-judicial-apos-3-anos.shtml
+2026-09-10 04:22:27 [INFO] Título: Light anuncia encerramento da <b>recuperação judicial</b> após 3 anos - Folha - UOL
+2026-09-10 04:22:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:27 [INFO] Classificação: enviar
+2026-09-10 04:22:28 [INFO] Aguardando 2.69s...
+2026-09-10 04:22:30 [INFO] [3/29] ID: https://valor.globo.com/empresas/noticia/2026/09/09/light-anuncia-encerramento-da-recuperao-judicial-em-deciso-da-justia.ghtml
+2026-09-10 04:22:30 [INFO] Título: Light anuncia encerramento da <b>recuperação judicial</b> em decisão da Justiça | Empresas
+2026-09-10 04:22:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:30 [INFO] Classificação: enviar
+2026-09-10 04:22:30 [INFO] Aguardando 2.79s...
+2026-09-10 04:22:33 [INFO] [4/29] ID: https://veja.abril.com.br/economia/novo-leilao-da-casas-bahia-tem-itens-com-ate-68-de-desconto-veja-regras/
+2026-09-10 04:22:33 [INFO] Título: Novo leilão da Casas Bahia tem itens com até 68% de desconto; veja regras
+2026-09-10 04:22:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:33 [INFO] Classificação: nao_enviar
+2026-09-10 04:22:33 [INFO] Aguardando 2.72s...
+2026-09-10 04:22:36 [INFO] [5/29] ID: https://oglobo.globo.com/economia/financas/noticia/2026/09/09/light-anuncia-fim-da-recuperacao-judicial.ghtml
+2026-09-10 04:22:36 [INFO] Título: Light anuncia fim da <b>recuperação judicial</b> - O GLOBO
+2026-09-10 04:22:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:36 [INFO] Classificação: enviar
+2026-09-10 04:22:36 [INFO] Aguardando 2.73s...
+2026-09-10 04:22:39 [INFO] [6/29] ID: https://sbtnews.sbt.com.br/noticia/economia/casas-bahia-novo-leilao-tem-fogoes-a-partir-de-r-291-veja-itens
+2026-09-10 04:22:39 [INFO] Título: Casas Bahia: novo leilão tem fogão de R$ 291; veja itens - SBT News
+2026-09-10 04:22:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:40 [INFO] Classificação: nao_enviar
+2026-09-10 04:22:40 [INFO] Aguardando 2.51s...
+2026-09-10 04:22:42 [INFO] [7/29] ID: https://atlaspublico.com.br/cvm/noticias/light-encerra-recuperacao-judicial-apos-justica-declarar-86721
+2026-09-10 04:22:42 [INFO] Título: Light encerra <b>recuperação judicial</b> após Justiça declarar cumpridas obrigações fiscalizadas do plano
+2026-09-10 04:22:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:42 [INFO] Classificação: enviar
+2026-09-10 04:22:42 [INFO] Aguardando 2.84s...
+2026-09-10 04:22:45 [INFO] [8/29] ID: https://financenews.com.br/2026/09/light-ligt3-justica-decreta-encerramento-da-recuperacao-judicial/
+2026-09-10 04:22:45 [INFO] Título: Light (LIGT3): Justiça decreta encerramento da <b>recuperação judicial</b> - Finance News
+2026-09-10 04:22:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:45 [INFO] Classificação: enviar
+2026-09-10 04:22:45 [INFO] Aguardando 2.71s...
+2026-09-10 04:22:48 [INFO] [9/29] ID: https://investnews.com.br/negocios/justica-encerra-recuperacao-judicial-da-light/
+2026-09-10 04:22:48 [INFO] Título: Justiça encerra <b>recuperação judicial</b> da Light - InvestNews
+2026-09-10 04:22:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:49 [INFO] Classificação: enviar
+2026-09-10 04:22:49 [INFO] Aguardando 2.11s...
+2026-09-10 04:22:51 [INFO] [10/29] ID: https://visnoinvest.com.br/news/15197/light-ligt3-registra-encerramento-da-recuperacao-judicial
+2026-09-10 04:22:51 [INFO] Título: Light (LIGT3) registra encerramento da <b>recuperação judicial</b> | Visno Invest
+2026-09-10 04:22:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:51 [INFO] Classificação: enviar
+2026-09-10 04:22:51 [INFO] Aguardando 2.72s...
+2026-09-10 04:22:54 [INFO] [11/29] ID: https://www.serasaexperian.com.br/conteudos/boletim-economico-de-setembr-2026/
+2026-09-10 04:22:54 [INFO] Título: Boletim Econômico de Setembro/26 - Serasa Experian
+2026-09-10 04:22:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:54 [INFO] Classificação: nao_enviar
+2026-09-10 04:22:54 [INFO] Aguardando 2.79s...
+2026-09-10 04:22:57 [INFO] [12/29] ID: https://www.em.com.br/economia/2026/09/7497291-demitidos-das-casas-bahia-nao-conseguem-receber-rescisao-fgts-e-seguro-desemprego-diz-entidade.html
+2026-09-10 04:22:57 [INFO] Título: Demitidos das Casas Bahia não conseguem receber rescisão, FGTS e seguro ... - Estado de Minas
+2026-09-10 04:22:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:22:57 [INFO] Classificação: nao_enviar
+2026-09-10 04:22:57 [INFO] Aguardando 2.69s...
+2026-09-10 04:23:00 [INFO] [13/29] ID: https://www.congressoemfoco.com.br/amp/noticia/122100/avanca-projeto-que-preve-defesa-a-policiais-processados-em-servico
+2026-09-10 04:23:00 [INFO] Título: Avança projeto que prevê defesa a policiais processados em serviço - Congresso em Foco
+2026-09-10 04:23:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:00 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:00 [INFO] Aguardando 2.78s...
+2026-09-10 04:23:03 [INFO] [14/29] ID: https://trademap.com.br/agencia/mercados/justica-aceita-pedido-de-recuperacao-da-americanas-e-mantem-a-suspensao-de-cobranca-de-dividas?_ga=2.215122007.1783750720.1710075453-2106739730.1619569607
+2026-09-10 04:23:03 [INFO] Título: Justiça aceita pedido de <b>recuperação</b> da Americanas e mantém a suspensão de cobrança ...
+2026-09-10 04:23:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:03 [INFO] Classificação: enviar
+2026-09-10 04:23:03 [INFO] Aguardando 2.80s...
+2026-09-10 04:23:06 [INFO] [15/29] ID: https://exame.com/economia/petrobras-reajusta-gasolina-em-r-019-mas-alta-e-compensada-por-corte-de-impostos-entenda/
+2026-09-10 04:23:06 [INFO] Título: Petrobras reajusta gasolina em R$ 0,19, mas alta é compensada por corte de impostos; entenda
+2026-09-10 04:23:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:08 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:08 [INFO] Aguardando 1.24s...
+2026-09-10 04:23:09 [INFO] [16/29] ID: https://direitoce.com.br/16609-2/
+2026-09-10 04:23:09 [INFO] Título: 9 de setembro de 2026 - direitoce
+2026-09-10 04:23:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:09 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:09 [INFO] Aguardando 2.75s...
+2026-09-10 04:23:12 [INFO] [17/29] ID: https://somoscolorados.com/inter-se-movimenta-nos-bastidores-e-tenta-acordo-para-reorganizar-parte-das-dividas
+2026-09-10 04:23:12 [INFO] Título: Inter se movimenta nos bastidores e tenta acordo para reorganizar parte das dívidas
+2026-09-10 04:23:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:12 [INFO] Classificação: enviar
+2026-09-10 04:23:12 [INFO] Aguardando 2.70s...
+2026-09-10 04:23:15 [INFO] [18/29] ID: https://www.oam.adv.br/2026/09/belem-pa-prefeitura-de-belem-regulamenta-novo-parcelamento-de-debitos-tributarios-em-ate-60-vezes/
+2026-09-10 04:23:15 [INFO] Título: Prefeitura de Belém regulamenta novo parcelamento de débitos tributários em até 60 vezes
+2026-09-10 04:23:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:15 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:15 [INFO] Aguardando 2.72s...
+2026-09-10 04:23:18 [INFO] [19/29] ID: https://www.estadao.com.br/amp/economia/holding-de-vorcaro-que-deve-us-1-bi-esta-vazia-em-paraiso-fiscal-e-ex-diretores-driblam-liquidante/
+2026-09-10 04:23:18 [INFO] Título: Holding de Vorcaro que deve US$ 1 bi está vazia em paraíso fiscal e ex-diretores driblam liquidante
+2026-09-10 04:23:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:18 [INFO] Classificação: enviar
+2026-09-10 04:23:19 [INFO] Aguardando 2.68s...
+2026-09-10 04:23:21 [INFO] [20/29] ID: https://lorena.ig.com.br/categoria/noticias/andre-mendonca-homologa-delacao
+2026-09-10 04:23:21 [INFO] Título: André Mendonça homologa delação premiada sobre o filme Dark Horse - Lorena
+2026-09-10 04:23:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:21 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:21 [INFO] Aguardando 2.76s...
+2026-09-10 04:23:24 [INFO] [21/29] ID: https://timesbrasil.com.br/brasil/caso-master-delacao-de-fundador-da-reag-pode-expor-estrutura-que-administrou-r-300-bilhoes/
+2026-09-10 04:23:24 [INFO] Título: Caso Master: delação de fundador da Reag pode expor estrutura que administrou R$ 300 bilhões
+2026-09-10 04:23:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:24 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:24 [INFO] Aguardando 2.77s...
+2026-09-10 04:23:27 [INFO] [22/29] ID: https://cqcs.com.br/galeria/653266/
+2026-09-10 04:23:27 [INFO] Título: Hero inaugura novo estúdio e apresenta o Hero Academy - CQCS
+2026-09-10 04:23:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:28 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:28 [INFO] Aguardando 2.66s...
+2026-09-10 04:23:30 [INFO] [23/29] ID: https://patrialatina.com.br/wagner-franca-o-capital-e-a-republica-o-que-o-caso-banco-master-revela-sobre-o-poder-economico-no-brasil/
+2026-09-10 04:23:30 [INFO] Título: Wagner França: O capital e a República: o que o caso Banco Master revela sobre o poder ...
+2026-09-10 04:23:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:31 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:31 [INFO] Aguardando 2.66s...
+2026-09-10 04:23:33 [INFO] [24/29] ID: https://www.otempo.com.br/politica/judiciario/2026/9/9/fachin-suspende-liminares-de-dino-e-mendonca-mas-permanencia-de-andrei-rodrigues-vai-ao-plenario
+2026-09-10 04:23:33 [INFO] Título: Fachin revoga liminares de Dino e Mendonça sobre Andrei Rodrigues - O TEMPO
+2026-09-10 04:23:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:33 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:33 [INFO] Aguardando 2.71s...
+2026-09-10 04:23:36 [INFO] [25/29] ID: https://www.cnnbrasil.com.br/politica/entenda-o-que-o-stf-vai-discutir-no-plenario-em-15-de-setembro/
+2026-09-10 04:23:36 [INFO] Título: Entenda o que o STF vai discutir no plenário em 15 de setembro | CNN Brasil
+2026-09-10 04:23:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:36 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:36 [INFO] Aguardando 2.82s...
+2026-09-10 04:23:39 [INFO] [26/29] ID: https://www.otempo.com.br/politica/judiciario/2026/9/9/mendonca-homologa-delacao-de-empresario-que-intermediou-recursos-do-banco-master-para-dark-horse
+2026-09-10 04:23:39 [INFO] Título: Dark Horse: Mendonça dá aval à delação de aliado de Vorcaro - O TEMPO
+2026-09-10 04:23:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:39 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:39 [INFO] Aguardando 2.76s...
+2026-09-10 04:23:42 [INFO] [27/29] ID: https://folhacapital.com.br/publicidade-legal/edital-de-convocacao-interunion-capitalizacao-s-a-2/
+2026-09-10 04:23:42 [INFO] Título: Edital de Convocação INTERUNION CAPITALIZAÇÃO S.A - Jornal Folha Capital
+2026-09-10 04:23:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:42 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:43 [INFO] Aguardando 2.68s...
+2026-09-10 04:23:45 [INFO] [28/29] ID: https://gazetabrasil.com.br/politica/2026/09/09/mendonca-homologa-delacao-de-mineiro-que-apontou-repasses-de-vorcaro-para-filme-de-bolsonaro/?amp=1
+2026-09-10 04:23:45 [INFO] Título: Mendonça homologa delação de "Mineiro", que apontou repasses de Vorcaro para filme de ...
+2026-09-10 04:23:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:45 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:46 [INFO] Aguardando 2.67s...
+2026-09-10 04:23:48 [INFO] [29/29] ID: https://cqcs.com.br/noticia/stj-deixar-carro-ligado-para-abrir-portao-nao-exclui-seguro-em-caso-de-furto/
+2026-09-10 04:23:48 [INFO] Título: STJ: Deixar carro ligado para abrir portão não exclui seguro em caso de furto - CQCS
+2026-09-10 04:23:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 04:23:48 [INFO] Classificação: nao_enviar
+2026-09-10 04:23:48 [INFO] ======================================================================
+2026-09-10 04:23:48 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-10 04:23:48 [INFO] ======================================================================
+2026-09-10 04:23:48 [INFO] Processadas: 29
+2026-09-10 04:23:48 [INFO] Enviar: 10
+2026-09-10 04:23:48 [INFO] Não enviar: 19
+2026-09-10 04:23:48 [INFO] ======================================================================
