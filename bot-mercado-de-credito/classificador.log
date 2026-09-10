@@ -19851,3 +19851,61 @@
 2026-09-10 21:33:23 [INFO] Enviar: 6
 2026-09-10 21:33:23 [INFO] Não enviar: 11
 2026-09-10 21:33:23 [INFO] ======================================================================
+2026-09-10 23:57:48 [INFO] ======================================================================
+2026-09-10 23:57:48 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-10 23:57:48 [INFO] ======================================================================
+2026-09-10 23:57:48 [INFO] Notícias com status 'extraida': 9
+2026-09-10 23:57:48 [INFO] Limite: 20 requisições/minuto
+2026-09-10 23:57:48 [INFO] Intervalo mínimo: 3.0s
+2026-09-10 23:57:48 [INFO] ======================================================================
+2026-09-10 23:57:48 [INFO] [1/9] ID: https://www.band.com.br/esportes/futebol/times/vasco/justica-abre-leilao-da-saf-do-vasco-veja-os-proximos-passos
+2026-09-10 23:57:48 [INFO] Título: Justiça abre leilão da SAF do Vasco; veja os próximos passos - Band
+2026-09-10 23:57:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 23:57:48 [INFO] Classificação: enviar
+2026-09-10 23:57:48 [INFO] Aguardando 2.47s...
+2026-09-10 23:57:51 [INFO] [2/9] ID: https://canalsolar.com.br/bndes-empresas-credenciadas-leilao-baterias/
+2026-09-10 23:57:51 [INFO] Título: BNDES credencia sete empresas como fornecedoras para o leilão de baterias - Canal Solar
+2026-09-10 23:57:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 23:57:51 [INFO] Classificação: nao_enviar
+2026-09-10 23:57:51 [INFO] Aguardando 2.68s...
+2026-09-10 23:57:54 [INFO] [3/9] ID: https://www.jb.com.br/economia/2026/09/1060873-justica-encerra-recuperacao-judicial-da-light-no-rio-de-janeiro.html
+2026-09-10 23:57:54 [INFO] Título: Justiça encerra <b>recuperação judicial</b> da Light no Rio - Jornal do Brasil
+2026-09-10 23:57:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 23:57:54 [INFO] Classificação: enviar
+2026-09-10 23:57:54 [INFO] Aguardando 2.64s...
+2026-09-10 23:57:57 [INFO] [4/9] ID: https://www.espn.com.br/futebol/vasco/artigo/_/id/17237198/justica-marca-data-leilao-saf-vasco-autoriza-emprestimo-r-150-milhoes-lamacchia
+2026-09-10 23:57:57 [INFO] Título: Justiça marca data para leilão da SAF do Vasco e autoriza empréstimo de R$ 150 milhões ...
+2026-09-10 23:57:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 23:57:57 [INFO] Classificação: nao_enviar
+2026-09-10 23:57:57 [INFO] Aguardando 2.54s...
+2026-09-10 23:58:00 [INFO] [5/9] ID: https://ahoradosul.com.br/conteudos/2026/09/09/abertura-do-novo-pronto-socorro-e-adiada-novamente/
+2026-09-10 23:58:00 [INFO] Título: Abertura do novo Pronto Socorro é adiada novamente - A Hora do Sul
+2026-09-10 23:58:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 23:58:00 [INFO] Classificação: nao_enviar
+2026-09-10 23:58:00 [INFO] Aguardando 2.62s...
+2026-09-10 23:58:03 [INFO] [6/9] ID: https://sitecontabil.com.br/noticias_empresariais/ler/juros-e-multas-de-aluguel-atrasado-entram-na-conta-do-imposto-de-renda-
+2026-09-10 23:58:03 [INFO] Título: Juros e multas de aluguel atrasado entram na conta do Imposto de Renda - Sitecontabil
+2026-09-10 23:58:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 23:58:03 [INFO] Classificação: nao_enviar
+2026-09-10 23:58:03 [INFO] Aguardando 2.68s...
+2026-09-10 23:58:06 [INFO] [7/9] ID: https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/justica-encerra-recuperacao-judicial-da-light-e-reconhece-cumprimento-do-plano/
+2026-09-10 23:58:06 [INFO] Título: Light (LIGT3) encerra recuperação <b>judicial</b> após mais de três anos - Estadão
+2026-09-10 23:58:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 23:58:06 [INFO] Classificação: enviar
+2026-09-10 23:58:06 [INFO] Aguardando 2.61s...
+2026-09-10 23:58:09 [INFO] [8/9] ID: https://www.correiodopovo.com.br/notícias/política/entenda-em-10-pontos-o-caso-dark-horse-1.1746815
+2026-09-10 23:58:09 [INFO] Título: Entenda em 10 pontos o caso “Dark Horse”
+2026-09-10 23:58:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 23:58:09 [INFO] Classificação: nao_enviar
+2026-09-10 23:58:09 [INFO] Aguardando 2.72s...
+2026-09-10 23:58:12 [INFO] [9/9] ID: https://portalvv8.com.br/noticia/72232/senadores-exigem-sessao-simultanea-com-o-stf-e-cobram-transparencia-judicial
+2026-09-10 23:58:12 [INFO] Título: Senadores exigem sessão simultânea com o STF e cobram transparência judicial
+2026-09-10 23:58:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 23:58:12 [INFO] Classificação: nao_enviar
+2026-09-10 23:58:12 [INFO] ======================================================================
+2026-09-10 23:58:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-10 23:58:12 [INFO] ======================================================================
+2026-09-10 23:58:12 [INFO] Processadas: 9
+2026-09-10 23:58:12 [INFO] Enviar: 3
+2026-09-10 23:58:12 [INFO] Não enviar: 6
+2026-09-10 23:58:12 [INFO] ======================================================================
