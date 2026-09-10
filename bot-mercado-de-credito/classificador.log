@@ -19610,3 +19610,146 @@
 2026-09-10 14:17:02 [INFO] Enviar: 20
 2026-09-10 14:17:02 [INFO] Não enviar: 17
 2026-09-10 14:17:02 [INFO] ======================================================================
+2026-09-10 18:17:10 [INFO] ======================================================================
+2026-09-10 18:17:10 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-10 18:17:10 [INFO] ======================================================================
+2026-09-10 18:17:10 [INFO] Notícias com status 'extraida': 26
+2026-09-10 18:17:10 [INFO] Limite: 20 requisições/minuto
+2026-09-10 18:17:10 [INFO] Intervalo mínimo: 3.0s
+2026-09-10 18:17:10 [INFO] ======================================================================
+2026-09-10 18:17:10 [INFO] [1/26] ID: https://www.colatina.es.gov.br/detalhe-da-materia/info/3325/colatina-abre-refis-com-descontos-de-ate-100-e-parcelamento-em-ate-60-vezes/
+2026-09-10 18:17:10 [INFO] Título: Colatina abre Refis com descontos de até 100% e parcelamento em até 60 vezes
+2026-09-10 18:17:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:10 [INFO] Classificação: nao_enviar
+2026-09-10 18:17:10 [INFO] Aguardando 2.54s...
+2026-09-10 18:17:13 [INFO] [2/26] ID: https://obastidor.com.br/economia/light-recuperada/
+2026-09-10 18:17:13 [INFO] Título: Light recuperada - O Bastidor
+2026-09-10 18:17:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:13 [INFO] Classificação: nao_enviar
+2026-09-10 18:17:13 [INFO] Aguardando 2.49s...
+2026-09-10 18:17:16 [INFO] [3/26] ID: https://eixos.com.br/energia-eletrica/light-anuncia-encerramento-da-recuperacao-judicial/
+2026-09-10 18:17:16 [INFO] Título: Light anuncia encerramento da <b>recuperação judicial</b> - Agência eixos
+2026-09-10 18:17:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:16 [INFO] Classificação: enviar
+2026-09-10 18:17:16 [INFO] Aguardando 2.79s...
+2026-09-10 18:17:19 [INFO] [4/26] ID: https://www.obomdanoticia.com.br/artigos/recuperacao-judicial-e-a-medicina/243871
+2026-09-10 18:17:19 [INFO] Título: <b>Recuperação Judicial</b> e a Medicina | O Bom da Notícia
+2026-09-10 18:17:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:19 [INFO] Classificação: enviar
+2026-09-10 18:17:19 [INFO] Aguardando 2.79s...
+2026-09-10 18:17:22 [INFO] [5/26] ID: https://www.suno.com.br/noticias/light-ligt3-encerramento-recuperacao-judicial-setembro-2026-go/
+2026-09-10 18:17:22 [INFO] Título: Light (LIGT3) encerra <b>recuperação judicial</b> após 3 anos - Suno
+2026-09-10 18:17:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:22 [INFO] Classificação: enviar
+2026-09-10 18:17:22 [INFO] Aguardando 2.82s...
+2026-09-10 18:17:25 [INFO] [6/26] ID: https://braziljournal.com/a-tal-da-luz-no-fim-do-tunel-o-plano-da-light-com-o-fim-da-rj/
+2026-09-10 18:17:25 [INFO] Título: A tal da luz no fim do túnel: o plano da Light com o fim da RJ - Brazil Journal
+2026-09-10 18:17:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:25 [INFO] Classificação: enviar
+2026-09-10 18:17:25 [INFO] Aguardando 2.59s...
+2026-09-10 18:17:28 [INFO] [7/26] ID: https://www.fecomercio.com.br/noticia/juros-altos-elevam-inadimplencia-de-bares-restaurantes-e-hoteis-a-recorde-de-r-3-2-bilhoes
+2026-09-10 18:17:28 [INFO] Título: Juros altos elevam inadimplência de bares, restaurantes e hotéis a recorde de R$ 3,2 bilhões
+2026-09-10 18:17:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:28 [INFO] Classificação: nao_enviar
+2026-09-10 18:17:28 [INFO] Aguardando 2.76s...
+2026-09-10 18:17:31 [INFO] [8/26] ID: https://revistaoeste.com/economia/demitidos-da-casas-bahia-relatam-problemas-com-rescisao/
+2026-09-10 18:17:31 [INFO] Título: Demitidos da Casas Bahia relatam problemas com rescisão - Revista Oeste
+2026-09-10 18:17:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:31 [INFO] Classificação: nao_enviar
+2026-09-10 18:17:31 [INFO] Aguardando 2.77s...
+2026-09-10 18:17:34 [INFO] [9/26] ID: https://noticias.lide.com.br/noticias-lide/setores-produtivos/light-anuncia-encerramento-da-recuperacao-judicial
+2026-09-10 18:17:34 [INFO] Título: Light anuncia encerramento da <b>recuperação judicial</b> - Revista LIDE
+2026-09-10 18:17:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:34 [INFO] Classificação: enviar
+2026-09-10 18:17:34 [INFO] Aguardando 2.71s...
+2026-09-10 18:17:37 [INFO] [10/26] ID: https://horams.com.br/banco-master-tenta-reaver-valores-e-impasse-judicial-leva-cobranca-de-consignados-do-impcg-de-volta-aos-holerites/
+2026-09-10 18:17:37 [INFO] Título: Banco Master tenta reaver valores e impasse judicial leva cobrança de consignados do ...
+2026-09-10 18:17:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:37 [INFO] Classificação: nao_enviar
+2026-09-10 18:17:37 [INFO] Aguardando 2.59s...
+2026-09-10 18:17:40 [INFO] [11/26] ID: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/braskem-recuperacao-extrajudicial-acende-alerta-para-acionistas-entenda-os-riscos/
+2026-09-10 18:17:40 [INFO] Título: Braskem: <b>recuperação extrajudicial</b> acende alerta para acionistas; entenda os riscos
+2026-09-10 18:17:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:40 [INFO] Classificação: enviar
+2026-09-10 18:17:40 [INFO] Aguardando 2.78s...
+2026-09-10 18:17:43 [INFO] [12/26] ID: https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/braskem-recuperacao-extrajudicial-acende-alerta-para-acionistas-entenda-os-riscos/
+2026-09-10 18:17:43 [INFO] Título: Braskem: <b>recuperação extrajudicial</b> acende alerta para acionistas; entenda os riscos
+2026-09-10 18:17:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:43 [INFO] Classificação: enviar
+2026-09-10 18:17:43 [INFO] Aguardando 2.60s...
+2026-09-10 18:17:46 [INFO] [13/26] ID: https://www.estadao.com.br/em-alta/einvestidor/cenarios-e-mercado/braskem-recuperacao-extrajudicial-acende-alerta-para-acionistas-entenda-os-riscos/
+2026-09-10 18:17:46 [INFO] Título: Braskem: <b>recuperação extrajudicial</b> acende alerta para acionistas; entenda os riscos
+2026-09-10 18:17:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:46 [INFO] Classificação: enviar
+2026-09-10 18:17:46 [INFO] Aguardando 2.68s...
+2026-09-10 18:17:49 [INFO] [14/26] ID: https://www.estadao.com.br/em-alta/economia/queda-precos-uso-canetas-emagrecedoras-brasil-socio-mckinsey/
+2026-09-10 18:17:49 [INFO] Título: Queda de preços pode triplicar uso de canetas emagrecedoras no Brasil, diz sócio da McKinsey
+2026-09-10 18:17:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:49 [INFO] Classificação: nao_enviar
+2026-09-10 18:17:49 [INFO] Aguardando 2.77s...
+2026-09-10 18:17:52 [INFO] [15/26] ID: https://exame.com/economia/petrobras-volta-atras-e-cancela-aumento-anunciado-para-a-gasolina/
+2026-09-10 18:17:52 [INFO] Título: Petrobras volta atrás e cancela aumento anunciado para a gasolina - Exame
+2026-09-10 18:17:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:52 [INFO] Classificação: nao_enviar
+2026-09-10 18:17:52 [INFO] Aguardando 2.75s...
+2026-09-10 18:17:55 [INFO] [16/26] ID: https://tagdlaw.com.br/cresce-numero-de-empresas-que-passam-por-reestruturacao-e-vao-a-falencia/
+2026-09-10 18:17:55 [INFO] Título: Cresce número de empresas que passam por reestruturação e vão à falência
+2026-09-10 18:17:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:55 [INFO] Classificação: nao_enviar
+2026-09-10 18:17:55 [INFO] Aguardando 2.75s...
+2026-09-10 18:17:58 [INFO] [17/26] ID: https://www.revistafatorbrasil.com.br/2026/09/10/o-que-sobra-quando-o-balanco-de-uma-grande-marca-quebra/
+2026-09-10 18:17:58 [INFO] Título: O que sobra quando o balanço de uma grande marca quebra - Revista Fator Brasil
+2026-09-10 18:17:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:17:58 [INFO] Classificação: nao_enviar
+2026-09-10 18:17:58 [INFO] Aguardando 2.60s...
+2026-09-10 18:18:01 [INFO] [18/26] ID: https://vitorianews.com.br/light-anuncia-encerramento-da-recuperacao-judicial
+2026-09-10 18:18:01 [INFO] Título: Light anuncia encerramento da recuperação <b>judicial</b> - Vitória News
+2026-09-10 18:18:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:18:01 [INFO] Classificação: enviar
+2026-09-10 18:18:01 [INFO] Aguardando 2.79s...
+2026-09-10 18:18:04 [INFO] [19/26] ID: https://omunicipio.com.br/justica/grupo-willrich-dono-de-tinturaria-de-guabiruba-pede-recuperacao-judicial-com-divida-de-r-55-milhoes/
+2026-09-10 18:18:04 [INFO] Título: Grupo Willrich, dono de tinturaria de Guabiruba, pede recuperação <b>judicial</b> com dívida de R ...
+2026-09-10 18:18:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:18:04 [INFO] Classificação: enviar
+2026-09-10 18:18:04 [INFO] Aguardando 2.73s...
+2026-09-10 18:18:07 [INFO] [20/26] ID: https://www.cnnbrasil.com.br/infra/light-anuncia-encerramento-da-recuperacao-judicial/
+2026-09-10 18:18:07 [INFO] Título: Light anuncia encerramento da recuperação <b>judicial</b> - CNN Brasil
+2026-09-10 18:18:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:18:08 [INFO] Classificação: enviar
+2026-09-10 18:18:08 [INFO] Aguardando 2.34s...
+2026-09-10 18:18:10 [INFO] [21/26] ID: https://economicnewsbrasil.com.br/2026/09/10/recuperacao-judicial-light-divida/
+2026-09-10 18:18:10 [INFO] Título: Light sai da recuperação <b>judicial</b>, mas termina o processo com dívida ainda bilionária
+2026-09-10 18:18:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:18:10 [INFO] Classificação: enviar
+2026-09-10 18:18:10 [INFO] Aguardando 2.58s...
+2026-09-10 18:18:13 [INFO] [22/26] ID: https://cenarioenergia.com.br/2026/09/10/justica-encerra-recuperacao-judicial-da-light-apos-tres-anos-de-reestruturacao/
+2026-09-10 18:18:13 [INFO] Título: Justiça Encerra Recuperação <b>Judicial</b> Da Light Após Três Anos De Reestruturação
+2026-09-10 18:18:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:18:13 [INFO] Classificação: enviar
+2026-09-10 18:18:13 [INFO] Aguardando 2.62s...
+2026-09-10 18:18:16 [INFO] [23/26] ID: https://timesbrasil.com.br/brasil/holding-de-vorcaro-acumula-us-1-bilhao-em-dividas-e-liquidante-tenta-rastrear-ativos-no-brasil/
+2026-09-10 18:18:16 [INFO] Título: Holding de Vorcaro acumula US$ 1 bilhão em dívidas e liquidante tenta rastrear ativos no Brasil
+2026-09-10 18:18:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:18:16 [INFO] Classificação: enviar
+2026-09-10 18:18:16 [INFO] Aguardando 2.73s...
+2026-09-10 18:18:19 [INFO] [24/26] ID: https://www.bol.uol.com.br/economia/2026/09/09/acao-popular-contra-uniao-e-bc-pede-que-depositos-judiciais-no-brb-entrem-na-lista-do-fgc.htm
+2026-09-10 18:18:19 [INFO] Título: Ação popular pede que depósitos judiciais no BRB entrem na lista do FGC - BOL
+2026-09-10 18:18:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:18:19 [INFO] Classificação: nao_enviar
+2026-09-10 18:18:19 [INFO] Aguardando 2.62s...
+2026-09-10 18:18:22 [INFO] [25/26] ID: https://economia.uol.com.br/noticias/estadao-conteudo/2026/09/10/bc-prorroga-prazo-para-conclusao-de-inquerito-sobre-advanced-corretora-de-cambio-por-30-dias.htm
+2026-09-10 18:18:22 [INFO] Título: BC prorroga prazo para conclusão de inquérito sobre Advanced Corretora de Câmbio por 30 dias
+2026-09-10 18:18:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:18:22 [INFO] Classificação: nao_enviar
+2026-09-10 18:18:22 [INFO] Aguardando 2.64s...
+2026-09-10 18:18:25 [INFO] [26/26] ID: https://www.diariodepernambuco.com.br/amp/politica/2026/09/11723538-quem-e-quem-no-caso-dark-horse-conheca-os-personagens-e-a-linha-do-tempo.html
+2026-09-10 18:18:25 [INFO] Título: Quem é quem no caso "Dark Horse": conheça os personagens e a linha do tempo
+2026-09-10 18:18:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:18:25 [INFO] Classificação: nao_enviar
+2026-09-10 18:18:25 [INFO] ======================================================================
+2026-09-10 18:18:25 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-10 18:18:25 [INFO] ======================================================================
+2026-09-10 18:18:25 [INFO] Processadas: 26
+2026-09-10 18:18:25 [INFO] Enviar: 14
+2026-09-10 18:18:25 [INFO] Não enviar: 12
+2026-09-10 18:18:25 [INFO] ======================================================================
