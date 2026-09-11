@@ -20411,3 +20411,151 @@
 2026-09-11 18:23:14 [INFO] Enviar: 14
 2026-09-11 18:23:14 [INFO] Não enviar: 23
 2026-09-11 18:23:14 [INFO] ======================================================================
+2026-09-11 21:39:24 [INFO] ======================================================================
+2026-09-11 21:39:24 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-11 21:39:24 [INFO] ======================================================================
+2026-09-11 21:39:24 [INFO] Notícias com status 'extraida': 27
+2026-09-11 21:39:24 [INFO] Limite: 20 requisições/minuto
+2026-09-11 21:39:24 [INFO] Intervalo mínimo: 3.0s
+2026-09-11 21:39:24 [INFO] ======================================================================
+2026-09-11 21:39:24 [INFO] [1/27] ID: https://www.correiodopovo.com.br/esportes/inter/inter-responde-ao-conselho-fiscal-e-rejeita-por-ora-recuperacao-judicial-1.1747108
+2026-09-11 21:39:24 [INFO] Título: Inter responde ao Conselho Fiscal e rejeita, por ora, <b>recuperação judicial</b> - Correio do Povo
+2026-09-11 21:39:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:25 [INFO] Classificação: enviar
+2026-09-11 21:39:25 [INFO] Aguardando 2.72s...
+2026-09-11 21:39:27 [INFO] [2/27] ID: https://www.theagribiz.com/empresas/alimentos/diferente-do-plant-based-o-boom-de-proteinas-veio-para-ficar/
+2026-09-11 21:39:27 [INFO] Título: Diferente do plant based, o boom de proteínas veio para ficar - The AgriBiz
+2026-09-11 21:39:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:27 [INFO] Classificação: nao_enviar
+2026-09-11 21:39:28 [INFO] Aguardando 2.73s...
+2026-09-11 21:39:30 [INFO] [3/27] ID: https://www.contabeis.com.br/noticias/79369/so-17-5-das-empresas-concluiram-recuperacao-judicial/
+2026-09-11 21:39:30 [INFO] Título: Só 17,5% das empresas concluíram <b>recuperação judicial</b> - Portal Contábeis
+2026-09-11 21:39:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:31 [INFO] Classificação: enviar
+2026-09-11 21:39:31 [INFO] Aguardando 2.59s...
+2026-09-11 21:39:33 [INFO] [4/27] ID: https://economia.ig.com.br/2026-09-11/sorvelandia-pedido-de-recuperacao-judicial-aceito-sorvetes-gauchos.html
+2026-09-11 21:39:33 [INFO] Título: Justiça analisa pedido de <b>recuperação judicial</b> da Sorvelândia - iG Economia
+2026-09-11 21:39:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:34 [INFO] Classificação: enviar
+2026-09-11 21:39:34 [INFO] Aguardando 2.61s...
+2026-09-11 21:39:36 [INFO] [5/27] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/09/11/casas-bahia-negociacoes-para-emprestimo-de-ate-r-500-mi-avancam-enquanto-varejista-espera-aprovacao-de-recuperacao-judicial.ghtml
+2026-09-11 21:39:36 [INFO] Título: Casas Bahia: negociações para empréstimo de até R$ 500 milhões avançam enquanto ...
+2026-09-11 21:39:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:37 [INFO] Classificação: nao_enviar
+2026-09-11 21:39:37 [INFO] Aguardando 2.66s...
+2026-09-11 21:39:39 [INFO] [6/27] ID: https://telesintese.com.br/cade-publica-liberacao-da-venda-da-telefonia-fixa-da-oi-para-a-metodo/
+2026-09-11 21:39:39 [INFO] Título: Cade publica liberação da venda da telefonia fixa da Oi para a Método - TeleSíntese
+2026-09-11 21:39:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:40 [INFO] Classificação: nao_enviar
+2026-09-11 21:39:40 [INFO] Aguardando 2.66s...
+2026-09-11 21:39:42 [INFO] [7/27] ID: https://canalsolar.com.br/projeto-de-lei-termicas-nasceu-desconto-conta-de-luz/
+2026-09-11 21:39:42 [INFO] Título: Você sabia? PL das térmicas queria inicialmente dar desconto na conta de luz - Canal Solar
+2026-09-11 21:39:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:43 [INFO] Classificação: nao_enviar
+2026-09-11 21:39:43 [INFO] Aguardando 2.36s...
+2026-09-11 21:39:45 [INFO] [8/27] ID: https://www.radiocaxias.com.br/sorvelandia-tem-recuperacao-judicial-deferida-pela-justica/
+2026-09-11 21:39:45 [INFO] Título: Sorvelândia tem <b>recuperação judicial</b> deferida pela Justiça | Radio Caxias 93.5 FM
+2026-09-11 21:39:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:46 [INFO] Classificação: enviar
+2026-09-11 21:39:46 [INFO] Aguardando 2.67s...
+2026-09-11 21:39:48 [INFO] [9/27] ID: https://www.migalhas.com.br/amp/depeso/464034/contratos-estimatorios-e-as-recuperacoes-judiciais
+2026-09-11 21:39:48 [INFO] Título: Contratos estimatórios e às recuperações <b>judiciais</b>
+2026-09-11 21:39:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:48 [INFO] Classificação: enviar
+2026-09-11 21:39:48 [INFO] Aguardando 2.78s...
+2026-09-11 21:39:51 [INFO] [10/27] ID: https://www.tvbv.com.br/figueirense-bloqueio-juridico-e-ruina-financeira-ameacam-continuidade-do-clube/
+2026-09-11 21:39:51 [INFO] Título: Figueirense: bloqueio jurídico e ruína financeira ameaçam continuidade do clube
+2026-09-11 21:39:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:52 [INFO] Classificação: nao_enviar
+2026-09-11 21:39:52 [INFO] Aguardando 2.59s...
+2026-09-11 21:39:54 [INFO] [11/27] ID: https://www.netvasco.com.br/n/392400/proposta-de-lamacchia-por-saf-do-vasco-preve-r-500-milhoes-so-para-futebol-r-120-milhoes-no-ct-e-r-30-milhoes-na-base-confira-detalhes
+2026-09-11 21:39:54 [INFO] Título: Proposta de Lamacchia por SAF do Vasco prevê R$ 500 milhões só para futebol, R$ 120 ...
+2026-09-11 21:39:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:55 [INFO] Classificação: nao_enviar
+2026-09-11 21:39:55 [INFO] Aguardando 2.59s...
+2026-09-11 21:39:57 [INFO] [12/27] ID: https://www1.folha.uol.com.br/colunas/painelsa/2026/09/minoritarios-pedem-na-justica-a-suspensao-da-conversao-de-debentures-da-casas-bahia.shtml
+2026-09-11 21:39:57 [INFO] Título: Minoritários pedem na Justiça a suspensão da conversão de debêntures da Casas Bahia - Folha
+2026-09-11 21:39:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:39:58 [INFO] Classificação: nao_enviar
+2026-09-11 21:39:58 [INFO] Aguardando 2.61s...
+2026-09-11 21:40:00 [INFO] [13/27] ID: https://www.fogaonet.com/noticias-do-botafogo/live-botafogo-encerra-busca-reforcos-recuperacao-judicial-avanca/
+2026-09-11 21:40:00 [INFO] Título: LIVE | Botafogo encerra busca por reforços; <b>recuperação judicial</b> avança - FogãoNET
+2026-09-11 21:40:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:01 [INFO] Classificação: enviar
+2026-09-11 21:40:01 [INFO] Aguardando 2.68s...
+2026-09-11 21:40:03 [INFO] [14/27] ID: https://canalsolar.com.br/proxima-etapa-regulatoria-geracao-distribuida/
+2026-09-11 21:40:03 [INFO] Título: A próxima etapa regulatória da geração distribuída - Canal Solar
+2026-09-11 21:40:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:04 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:04 [INFO] Aguardando 2.61s...
+2026-09-11 21:40:06 [INFO] [15/27] ID: https://www.terra.com.br/noticias/brasil/moraes-toffoli-e-flavio-as-tres-grandes-frentes-do-escandalo-master,04e5b492d0b200e13b722d62d41694dd8d1mw5jf.html
+2026-09-11 21:40:06 [INFO] Título: Moraes, Toffoli e Flávio: As três grandes frentes do escândalo Master - Terra
+2026-09-11 21:40:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:07 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:07 [INFO] Aguardando 2.64s...
+2026-09-11 21:40:09 [INFO] [16/27] ID: https://valor.globo.com/empresas/noticia/2026/09/11/exclusivo-assim-saude-do-rio-e-vendida-para-rafael-motta-fundador-do-grupo-case-segundo-fontes.ghtml
+2026-09-11 21:40:09 [INFO] Título: Exclusivo: Assim Saúde, do Rio, é vendida para Rafael Motta, fundador do grupo Case ...
+2026-09-11 21:40:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:10 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:10 [INFO] Aguardando 2.53s...
+2026-09-11 21:40:12 [INFO] [17/27] ID: https://www.infomoney.com.br/politica/pf-conclui-que-vorcaro-fabricava-reputacao-digital-positiva-para-neutralizar-criticas/
+2026-09-11 21:40:12 [INFO] Título: PF conclui que Vorcaro fabricava reputação digital positiva para neutralizar críticas
+2026-09-11 21:40:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:13 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:13 [INFO] Aguardando 2.59s...
+2026-09-11 21:40:15 [INFO] [18/27] ID: https://www.correiodopovo.com.br/notícias/política/pf-concluiu-que-vorcaro-fabricava-reputacao-digital-positiva-para-neutralizar-criticas-1.1747048
+2026-09-11 21:40:15 [INFO] Título: PF concluiu que Vorcaro fabricava reputação digital positiva para neutralizar críticas
+2026-09-11 21:40:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:16 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:16 [INFO] Aguardando 2.70s...
+2026-09-11 21:40:18 [INFO] [19/27] ID: https://www.cnnbrasil.com.br/politica/veja-como-pf-montou-inquerito-sobre-campanha-de-influenciadores-contra-o-bc/
+2026-09-11 21:40:18 [INFO] Título: Veja como PF montou inquérito sobre campanha de influenciadores contra o BC
+2026-09-11 21:40:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:19 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:19 [INFO] Aguardando 2.73s...
+2026-09-11 21:40:21 [INFO] [20/27] ID: https://www.congressoemfoco.com.br/noticia/122154/caso-master-como-a-quebra-do-banco-abriu-uma-teia-de-investigacoes
+2026-09-11 21:40:21 [INFO] Título: Caso Master: Como a quebra do banco abriu uma teia de investigações
+2026-09-11 21:40:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:22 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:22 [INFO] Aguardando 2.56s...
+2026-09-11 21:40:24 [INFO] [21/27] ID: https://www.broadcast.com.br/ultimas-noticias/pf-concluiu-que-vorcaro-fabricava-reputacao-digital-positiva-para-neutralizar-criticas/
+2026-09-11 21:40:24 [INFO] Título: PF concluiu que Vorcaro fabricava reputação digital positiva para neutralizar críticas
+2026-09-11 21:40:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:25 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:25 [INFO] Aguardando 2.66s...
+2026-09-11 21:40:27 [INFO] [22/27] ID: https://g1.globo.com/politica/noticia/2026/09/11/caso-master-previdencia-imbituva-investimento-tce.ghtml
+2026-09-11 21:40:27 [INFO] Título: TCE propôs ressarcimento de R$ 4 mi de previdência aplicados no Master | G1 - Globo
+2026-09-11 21:40:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:28 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:28 [INFO] Aguardando 2.65s...
+2026-09-11 21:40:30 [INFO] [23/27] ID: https://www.jota.info/stf/do-supremo/diretores-do-bc-receberam-pagamentos-de-vorcaro-e-tentaram-ajudar-na-venda-do-letsbank-diz-pf
+2026-09-11 21:40:30 [INFO] Título: Diretores do BC receberam pagamentos de Vorcaro e tentaram ajudar na venda do Letsbank, diz PF
+2026-09-11 21:40:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:31 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:31 [INFO] Aguardando 2.61s...
+2026-09-11 21:40:33 [INFO] [24/27] ID: https://www.estadao.com.br/politica/blog-do-fausto-macedo/policia-federal-concluiu-que-vorcaro-fabricava-reputacao-digital-positiva-para-neutralizar-criticas/
+2026-09-11 21:40:33 [INFO] Título: Polícia Federal concluiu que Vorcaro fabricava reputação digital positiva para neutralizar críticas
+2026-09-11 21:40:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:34 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:34 [INFO] Aguardando 2.67s...
+2026-09-11 21:40:36 [INFO] [25/27] ID: https://www.fatosdematogrosso.com.br/cidades/cooperativa-de-mt-deve-r-416-milhoes-e-tem-menos-da-metade-em-bens-e-creditos/15774
+2026-09-11 21:40:36 [INFO] Título: Cooperativa de MT deve R$ 41,6 milhões e tem menos da metade em bens e créditos
+2026-09-11 21:40:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:37 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:37 [INFO] Aguardando 2.64s...
+2026-09-11 21:40:39 [INFO] [26/27] ID: https://www.gazetadopovo.com.br/republica/policia-federal-identifica-pagamentos-milionarios-em-contrato-de-esposa-de-moraes/
+2026-09-11 21:40:39 [INFO] Título: Polícia Federal identifica pagamentos milionários em contrato de esposa de Moraes
+2026-09-11 21:40:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:40 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:40 [INFO] Aguardando 2.50s...
+2026-09-11 21:40:42 [INFO] [27/27] ID: https://ultimosegundo.ig.com.br/2026-09-11/pf-detalha-relacao-de-vorcaro-com-servidores-do-banco-central.html
+2026-09-11 21:40:42 [INFO] Título: PF detalha relação de Vorcaro com servidores do Banco Central - Último Segundo
+2026-09-11 21:40:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 21:40:44 [INFO] Classificação: nao_enviar
+2026-09-11 21:40:44 [INFO] ======================================================================
+2026-09-11 21:40:44 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-11 21:40:44 [INFO] ======================================================================
+2026-09-11 21:40:44 [INFO] Processadas: 27
+2026-09-11 21:40:44 [INFO] Enviar: 6
+2026-09-11 21:40:44 [INFO] Não enviar: 21
+2026-09-11 21:40:44 [INFO] ======================================================================
