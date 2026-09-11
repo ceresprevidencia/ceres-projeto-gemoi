@@ -19909,3 +19909,86 @@
 2026-09-10 23:58:12 [INFO] Enviar: 3
 2026-09-10 23:58:12 [INFO] Não enviar: 6
 2026-09-10 23:58:12 [INFO] ======================================================================
+2026-09-11 04:27:02 [INFO] ======================================================================
+2026-09-11 04:27:02 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-11 04:27:02 [INFO] ======================================================================
+2026-09-11 04:27:02 [INFO] Notícias com status 'extraida': 14
+2026-09-11 04:27:02 [INFO] Limite: 20 requisições/minuto
+2026-09-11 04:27:02 [INFO] Intervalo mínimo: 3.0s
+2026-09-11 04:27:02 [INFO] ======================================================================
+2026-09-11 04:27:02 [INFO] [1/14] ID: https://www.correiodopovo.com.br/opiniao/artigos/da-recuperacao-extrajudicial-a-recuperacao-judicial-das-casas-bahia-1.1746825
+2026-09-11 04:27:02 [INFO] Título: Da recuperação extrajudicial à <b>recuperação judicial</b> das Casas Bahia - Correio do Povo
+2026-09-11 04:27:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:03 [INFO] Classificação: enviar
+2026-09-11 04:27:03 [INFO] Aguardando 2.59s...
+2026-09-11 04:27:05 [INFO] [2/14] ID: https://economia.ig.com.br/2026-09-10/grupo-ricoy-vai-a-falencia-com-divida-de-461-milhoes.html
+2026-09-11 04:27:05 [INFO] Título: Grupo Ricoy vai à falência com dívida de R$ 461,1 milhões - iG Economia
+2026-09-11 04:27:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:06 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:06 [INFO] Aguardando 2.61s...
+2026-09-11 04:27:08 [INFO] [3/14] ID: https://veja.abril.com.br/economia/casas-bahia-faz-quinta-investida-na-justica-para-validar-demissao-de-1-900-funcionarios/
+2026-09-11 04:27:08 [INFO] Título: Casas Bahia faz quinta investida na Justiça para validar demissão de 1.900 funcionários
+2026-09-11 04:27:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:09 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:09 [INFO] Aguardando 2.77s...
+2026-09-11 04:27:11 [INFO] [4/14] ID: https://www.cnnbrasil.com.br/esportes/futebol/vasco-da-gama/vasco-justica-autoriza-venda-da-saf-e-emprestimo-de-r-150-milhoes/
+2026-09-11 04:27:11 [INFO] Título: Vasco: Justiça autoriza venda da SAF e empréstimo de R$ 150 milhões | CNN Brasil
+2026-09-11 04:27:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:12 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:12 [INFO] Aguardando 2.77s...
+2026-09-11 04:27:14 [INFO] [5/14] ID: https://obrasilianista.com.br/2026/09/10/economia/light-conclui-obrigacoes-de-recuperacao-judicial-apos-acumular-r-11-bilhoes-em-dividas/
+2026-09-11 04:27:14 [INFO] Título: Light conclui obrigações de <b>recuperação judicial</b> após acumul - O Brasilianista
+2026-09-11 04:27:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:15 [INFO] Classificação: enviar
+2026-09-11 04:27:15 [INFO] Aguardando 2.68s...
+2026-09-11 04:27:17 [INFO] [6/14] ID: https://timesbrasil.com.br/brasil/bc-amplia-investigacao-sobre-advanced-corretora-por-30-dias/
+2026-09-11 04:27:17 [INFO] Título: BC amplia investigação sobre Advanced Corretora por 30 dias - Times Brasil | CNBC
+2026-09-11 04:27:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:18 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:18 [INFO] Aguardando 2.67s...
+2026-09-11 04:27:20 [INFO] [7/14] ID: https://portal.trt3.jus.br/escola/cursos/avisos-de-curso/formacao-de-magistrados/webinario-promocao-ao-trabalho-decente
+2026-09-11 04:27:20 [INFO] Título: Webinário Promoção ao Trabalho Decente — Escola <b>Judicial</b> - TRT-MG
+2026-09-11 04:27:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:21 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:21 [INFO] Aguardando 2.72s...
+2026-09-11 04:27:23 [INFO] [8/14] ID: https://trademap.com.br/noticias/news-8287033
+2026-09-11 04:27:23 [INFO] Título: Vale (VALE3) rebate matéria da Bloomberg, BlackRock avança na Axia Energia (AXIA3) e ...
+2026-09-11 04:27:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:24 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:24 [INFO] Aguardando 2.72s...
+2026-09-11 04:27:26 [INFO] [9/14] ID: https://www.correiodamanha.com.br/politica/2026/09/318352-vorcaro-diz-que-rueda-e-acm-neto-recebiam-comissao-do-banco-master.html
+2026-09-11 04:27:26 [INFO] Título: Vorcaro diz que Rueda e ACM Neto recebiam comissão do Banco Master
+2026-09-11 04:27:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:26 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:27 [INFO] Aguardando 2.82s...
+2026-09-11 04:27:29 [INFO] [10/14] ID: https://www.cartacapital.com.br/justica/apos-ordem-de-fachin-mendonca-levanta-sigilo-do-caso-master/
+2026-09-11 04:27:29 [INFO] Título: Após ordem de Fachin, Mendonça levanta sigilo do Caso Master - Carta Capital
+2026-09-11 04:27:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:30 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:30 [INFO] Aguardando 2.72s...
+2026-09-11 04:27:32 [INFO] [11/14] ID: https://bitnoticias.com.br/noticias/holding-ligada-ao-banco-master-deve-r-16-bilhao-a-tether-e-esta-totalmente-sem-dinheiro/
+2026-09-11 04:27:32 [INFO] Título: Holding ligada ao Banco Master deve R$ 1,6 bilhão à Tether e está totalmente sem dinheiro
+2026-09-11 04:27:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:33 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:33 [INFO] Aguardando 2.77s...
+2026-09-11 04:27:35 [INFO] [12/14] ID: https://portalvv8.com.br/noticia/72256/o-operador-de-milhoes-do-banco-master-provou-o-que-a-direita-ja-diz/amp
+2026-09-11 04:27:35 [INFO] Título: O operador de milhões do Banco Master provou o que a direita já diz - Portal VV8
+2026-09-11 04:27:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:36 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:36 [INFO] Aguardando 2.66s...
+2026-09-11 04:27:38 [INFO] [13/14] ID: https://www.itatiaia.com.br/politica/stf-discute-caso-moraes-e-vorcaro-sessao-extraordinaria/
+2026-09-11 04:27:38 [INFO] Título: O que o STF vai discutir em 15 de setembro sobre Moraes e Vorcaro | Rádio Itatiaia
+2026-09-11 04:27:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:39 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:39 [INFO] Aguardando 2.66s...
+2026-09-11 04:27:41 [INFO] [14/14] ID: https://www.redegn.com.br/index.php?sessao=noticia&cod_noticia=222973
+2026-09-11 04:27:41 [INFO] Título: Daniel Vorcaro diz em delação que ACM Neto e Antônio Rueda receberiam R$ 200 milhões ...
+2026-09-11 04:27:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 04:27:42 [INFO] Classificação: nao_enviar
+2026-09-11 04:27:42 [INFO] ======================================================================
+2026-09-11 04:27:42 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-11 04:27:42 [INFO] ======================================================================
+2026-09-11 04:27:42 [INFO] Processadas: 14
+2026-09-11 04:27:42 [INFO] Enviar: 2
+2026-09-11 04:27:42 [INFO] Não enviar: 12
+2026-09-11 04:27:42 [INFO] ======================================================================
