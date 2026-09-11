@@ -19992,3 +19992,101 @@
 2026-09-11 04:27:42 [INFO] Enviar: 2
 2026-09-11 04:27:42 [INFO] Não enviar: 12
 2026-09-11 04:27:42 [INFO] ======================================================================
+2026-09-11 09:31:05 [INFO] ======================================================================
+2026-09-11 09:31:05 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-11 09:31:05 [INFO] ======================================================================
+2026-09-11 09:31:05 [INFO] Notícias com status 'extraida': 17
+2026-09-11 09:31:05 [INFO] Limite: 20 requisições/minuto
+2026-09-11 09:31:05 [INFO] Intervalo mínimo: 3.0s
+2026-09-11 09:31:05 [INFO] ======================================================================
+2026-09-11 09:31:05 [INFO] [1/17] ID: https://www.opiniaoce.com.br/colunas/recuperacao-judicial-quando-a-crise-comeca-dentro-da-gestao/
+2026-09-11 09:31:05 [INFO] Título: <b>Recuperação judicial</b>: quando a crise começa dentro da gestão? - OpiniãoCE
+2026-09-11 09:31:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:05 [INFO] Classificação: enviar
+2026-09-11 09:31:05 [INFO] Aguardando 2.63s...
+2026-09-11 09:31:08 [INFO] [2/17] ID: https://valor.globo.com/empresas/noticia/2026/09/11/light-encerra-recuperacao-judicial-e-preve-aporte-de-r-10-bi-ate-2030.ghtml
+2026-09-11 09:31:08 [INFO] Título: Light encerra <b>recuperação judicial</b> e prevê aporte de R$ 10 bi até 2030 - Valor Econômico
+2026-09-11 09:31:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:08 [INFO] Classificação: enviar
+2026-09-11 09:31:08 [INFO] Aguardando 2.23s...
+2026-09-11 09:31:11 [INFO] [3/17] ID: https://valor.globo.com/legislacao/noticia/2026/09/11/so-175-das-empresas-concluiram-recuperacao-judicial-diz-estudo.ghtml
+2026-09-11 09:31:11 [INFO] Título: Só 17,5% das empresas concluíram <b>recuperação judicial</b>, diz estudo - Valor Econômico
+2026-09-11 09:31:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:11 [INFO] Classificação: enviar
+2026-09-11 09:31:11 [INFO] Aguardando 2.62s...
+2026-09-11 09:31:14 [INFO] [4/17] ID: https://valor.globo.com/impresso/noticia/2026/09/11/recuperacao-judicial-tem-exito-em-175-dos-casos-desde-2013.ghtml
+2026-09-11 09:31:14 [INFO] Título: <b>Recuperação judicial</b> tem êxito em 17,5% dos casos desde 2013 - Valor Econômico
+2026-09-11 09:31:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:14 [INFO] Classificação: enviar
+2026-09-11 09:31:14 [INFO] Aguardando 2.75s...
+2026-09-11 09:31:17 [INFO] [5/17] ID: https://www.terra.com.br/esportes/vasco/justica-autoriza-emprestimo-e-marca-data-de-leilao-da-saf-do-vasco,82859e960f248e249ff354982ea77ea35u70b520.html
+2026-09-11 09:31:17 [INFO] Título: Justiça autoriza empréstimo e marca data de leilão da SAF do Vasco - Terra
+2026-09-11 09:31:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:17 [INFO] Classificação: enviar
+2026-09-11 09:31:17 [INFO] Aguardando 2.62s...
+2026-09-11 09:31:20 [INFO] [6/17] ID: https://www.abcmais.com/economia/tradicional-fabrica-de-sorvetes-do-rs-entra-em-recuperacao-judicial/
+2026-09-11 09:31:20 [INFO] Título: Tradicional fábrica de sorvetes do RS entra em <b>recuperação judicial</b> | abc+ - Jornal NH
+2026-09-11 09:31:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:20 [INFO] Classificação: enviar
+2026-09-11 09:31:20 [INFO] Aguardando 2.71s...
+2026-09-11 09:31:23 [INFO] [7/17] ID: https://ge.globo.com/futebol/times/botafogo/noticia/2026/09/11/botafogo-fecha-acordo-com-mls-e-ludogorets-e-avanca-em-processo-de-recuperacao-judicial.ghtml
+2026-09-11 09:31:23 [INFO] Título: Botafogo fecha acordo com MLS e Ludogorets e avança em processo de <b>recuperação judicial</b> | Ge
+2026-09-11 09:31:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:23 [INFO] Classificação: enviar
+2026-09-11 09:31:23 [INFO] Aguardando 2.58s...
+2026-09-11 09:31:26 [INFO] [8/17] ID: https://teletime.com.br/10/09/2026/cade-metodo-oi/
+2026-09-11 09:31:26 [INFO] Título: Método recebe aval do Cade para compra de serviços telefônicos da Oi - TELETIME News
+2026-09-11 09:31:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:26 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:26 [INFO] Aguardando 2.78s...
+2026-09-11 09:31:29 [INFO] [9/17] ID: https://www.poder360.com.br/poder-justica/leia-a-integra-do-contrato-da-mulher-de-moraes-com-o-master/
+2026-09-11 09:31:29 [INFO] Título: Leia a íntegra do contrato da mulher de Moraes com o Master - Poder360
+2026-09-11 09:31:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:29 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:29 [INFO] Aguardando 2.67s...
+2026-09-11 09:31:32 [INFO] [10/17] ID: https://bntonline.com.br/transacao-tributaria-2026-receita-federal-abre-negociacao-de-dividas-com-descontos-e-parcelamento/
+2026-09-11 09:31:32 [INFO] Título: Transação tributária 2026: Receita Federal abre negociação de dívidas com descontos e ...
+2026-09-11 09:31:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:32 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:32 [INFO] Aguardando 2.62s...
+2026-09-11 09:31:35 [INFO] [11/17] ID: https://iclnoticias.com.br/master-reag-7-3-mi-advogado-vice-celina-leao/
+2026-09-11 09:31:35 [INFO] Título: Master e Reag pagaram R$ 7,3 milhões a advogado que geria escritório de vice de Celina Leão
+2026-09-11 09:31:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:35 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:35 [INFO] Aguardando 2.42s...
+2026-09-11 09:31:38 [INFO] [12/17] ID: https://sol.iol.pt/internacional/noticias/moraes-em-apuros-apos-revelacoes-do-caso-master/20260911/6aa3aa640cf299bc2953c0f7
+2026-09-11 09:31:38 [INFO] Título: Moraes em apuros após revelações do Caso Master - Jornal SOL - IOL
+2026-09-11 09:31:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:38 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:38 [INFO] Aguardando 2.74s...
+2026-09-11 09:31:41 [INFO] [13/17] ID: https://www.dgabc.com.br/Noticia/4346147/bc-prorroga-prazo-para-conclusao-de-inquerito-sobre-advanced-corretora-de-cambio-por-30-dias
+2026-09-11 09:31:41 [INFO] Título: BC prorroga prazo para conclusão de inquérito sobre Advanced Corretora de Câmbio por 30 dias
+2026-09-11 09:31:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:41 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:41 [INFO] Aguardando 2.77s...
+2026-09-11 09:31:44 [INFO] [14/17] ID: https://operamundi.uol.com.br/brasil/quem-e-mineiro-delator-que-liga-vorcaro-a-flavio-bolsonaro-e-filme-dark-horse/
+2026-09-11 09:31:44 [INFO] Título: Quem é 'Mineiro', delator que liga Vorcaro a Flávio Bolsonaro e filme 'Dark Horse'
+2026-09-11 09:31:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:44 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:44 [INFO] Aguardando 2.71s...
+2026-09-11 09:31:47 [INFO] [15/17] ID: https://www.diariodecuiaba.com.br/brasil/sem-dinheiro-holding-do-master-em-cayman-faz-assembleia-com-credores-que-pedem-us-1-bi/753833
+2026-09-11 09:31:47 [INFO] Título: Sem dinheiro, holding do Master em Cayman faz assembleia com credores que pedem US$ 1 bi
+2026-09-11 09:31:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:47 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:47 [INFO] Aguardando 2.58s...
+2026-09-11 09:31:50 [INFO] [16/17] ID: https://cqcs.com.br/tv/canal-cqcs-in-loco/bp-seguradora-chega-a-goias-e-apresenta-oportunidades-aos-corretores/
+2026-09-11 09:31:50 [INFO] Título: BP Seguradora chega a Goiás e apresenta oportunidades aos corretores - CQCS
+2026-09-11 09:31:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:50 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:50 [INFO] Aguardando 2.72s...
+2026-09-11 09:31:53 [INFO] [17/17] ID: https://portalvv8.com.br/noticia/72232/senadores-exigem-sessao-simultanea-com-o-stf-e-cobram-transparencia-judicial/amp
+2026-09-11 09:31:53 [INFO] Título: Senadores exigem sessão simultânea com o STF e cobram transparência judicial
+2026-09-11 09:31:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 09:31:53 [INFO] Classificação: nao_enviar
+2026-09-11 09:31:53 [INFO] ======================================================================
+2026-09-11 09:31:53 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-11 09:31:53 [INFO] ======================================================================
+2026-09-11 09:31:53 [INFO] Processadas: 17
+2026-09-11 09:31:53 [INFO] Enviar: 7
+2026-09-11 09:31:53 [INFO] Não enviar: 10
+2026-09-11 09:31:53 [INFO] ======================================================================
