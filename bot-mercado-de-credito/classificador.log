@@ -20090,3 +20090,126 @@
 2026-09-11 09:31:53 [INFO] Enviar: 7
 2026-09-11 09:31:53 [INFO] Não enviar: 10
 2026-09-11 09:31:53 [INFO] ======================================================================
+2026-09-11 14:15:06 [INFO] ======================================================================
+2026-09-11 14:15:06 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-11 14:15:06 [INFO] ======================================================================
+2026-09-11 14:15:06 [INFO] Notícias com status 'extraida': 22
+2026-09-11 14:15:06 [INFO] Limite: 20 requisições/minuto
+2026-09-11 14:15:06 [INFO] Intervalo mínimo: 3.0s
+2026-09-11 14:15:06 [INFO] ======================================================================
+2026-09-11 14:15:06 [INFO] [1/22] ID: https://www.infomoney.com.br/onde-investir/4-entraves-atrapalhar-queda-juros-2027-itau-asset/
+2026-09-11 14:15:06 [INFO] Título: Os 4 entraves que podem atrapalhar a queda dos juros em 2027, segundo a Itaú Asset
+2026-09-11 14:15:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:06 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:06 [INFO] Aguardando 2.66s...
+2026-09-11 14:15:09 [INFO] [2/22] ID: https://www.fogaonet.com/noticias-do-botafogo/recuperacao-judicial-botafogo-se-acerta-com-mls-e-ludogorets-e-tem-acordo-com-quase-50-dos-credores/
+2026-09-11 14:15:09 [INFO] Título: <b>Recuperação judicial</b>: Botafogo se acerta com MLS e Ludogorets e tem acordo com quase 50% ...
+2026-09-11 14:15:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:09 [INFO] Classificação: enviar
+2026-09-11 14:15:09 [INFO] Aguardando 2.74s...
+2026-09-11 14:15:12 [INFO] [3/22] ID: https://felipevieira.com.br/interna-noticia.html?id=14352
+2026-09-11 14:15:12 [INFO] Título: Sorvelândia tem pedido de <b>recuperação judicial</b> deferido pela Justiça, em Caxias do Sul
+2026-09-11 14:15:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:12 [INFO] Classificação: enviar
+2026-09-11 14:15:12 [INFO] Aguardando 2.64s...
+2026-09-11 14:15:15 [INFO] [4/22] ID: https://www.moneytimes.com.br/americanas-amer3-recuperacao-judicial-e-pagina-virada-ceo-conta-o-que-esperar-do-novo-ciclo-lmrs/
+2026-09-11 14:15:15 [INFO] Título: Americanas (AMER3): <b>Recuperação judicial</b> é página virada? CEO abre o jogo sobre o futuro ...
+2026-09-11 14:15:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:15 [INFO] Classificação: enviar
+2026-09-11 14:15:15 [INFO] Aguardando 2.77s...
+2026-09-11 14:15:18 [INFO] [5/22] ID: https://ofluminense.com.br/supermercado-fluminense-recuperacao-judicial-itaperuna/
+2026-09-11 14:15:18 [INFO] Título: Supermercado Fluminense pede <b>recuperação judicial</b> com dívida de R$ 173,8 milhões
+2026-09-11 14:15:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:18 [INFO] Classificação: enviar
+2026-09-11 14:15:18 [INFO] Aguardando 2.67s...
+2026-09-11 14:15:21 [INFO] [6/22] ID: https://trademap.com.br/agencia/analises-e-relatorios/oi-oibr3-anatel-aprova-venda-recuperacao-judicial?fbclid=IwAR2ajD4idhPlo4ELL0BYFSuyhvGJzFmfSWB17yns7Q2LoXsOebJFciaal8I&utm_source=web-stories&utm_medium=cta
+2026-09-11 14:15:21 [INFO] Título: Oi (OIBR3): mais um passo rumo ao fim da <b>recuperação judicial</b>; o que vem pela frente?
+2026-09-11 14:15:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:21 [INFO] Classificação: enviar
+2026-09-11 14:15:21 [INFO] Aguardando 2.67s...
+2026-09-11 14:15:24 [INFO] [7/22] ID: https://www.poder360.com.br/poder-infra/mpf-vai-a-justica-contra-data-center-do-tiktok-no-ceara/
+2026-09-11 14:15:24 [INFO] Título: MPF vai à Justiça contra data center do TikTok no Ceará - Poder360
+2026-09-11 14:15:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:24 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:24 [INFO] Aguardando 2.74s...
+2026-09-11 14:15:27 [INFO] [8/22] ID: https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4520JG:0/
+2026-09-11 14:15:27 [INFO] Título: Light encerra processo de <b>recuperação judicial</b> — TradingView News
+2026-09-11 14:15:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:27 [INFO] Classificação: enviar
+2026-09-11 14:15:27 [INFO] Aguardando 2.77s...
+2026-09-11 14:15:30 [INFO] [9/22] ID: https://megawhat.uol.com.br/megaexpresso/light-anuncia-encerramento-da-recuperacao-judicial-em-decisao-da-justica/
+2026-09-11 14:15:30 [INFO] Título: Light anuncia encerramento da <b>recuperação judicial</b> em decisão da Justiça - MegaWhat
+2026-09-11 14:15:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:30 [INFO] Classificação: enviar
+2026-09-11 14:15:30 [INFO] Aguardando 2.72s...
+2026-09-11 14:15:33 [INFO] [10/22] ID: https://exame.com/negocios/aos-56-anos-tradicional-fabrica-de-sorvetes-do-sul-pede-recuperacao-judicial/
+2026-09-11 14:15:33 [INFO] Título: Aos 56 anos, tradicional fábrica de sorvetes do Sul pede recuperação <b>judicial</b> | Exame
+2026-09-11 14:15:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:33 [INFO] Classificação: enviar
+2026-09-11 14:15:33 [INFO] Aguardando 2.54s...
+2026-09-11 14:15:36 [INFO] [11/22] ID: https://megawhat.uol.com.br/geracao/debitos-da-bolognesi-concentram-76-da-inadimplencia-do-mcp-de-julho/
+2026-09-11 14:15:36 [INFO] Título: Débitos da Bolognesi concentram 76% da inadimplência do MCP de julho - MegaWhat
+2026-09-11 14:15:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:36 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:36 [INFO] Aguardando 2.56s...
+2026-09-11 14:15:39 [INFO] [12/22] ID: https://diario360.com.br/2026/09/11/escritorio-de-viviane-moraes-vem-a-publico-e-confirma-que-ministro-acessou-contrato-de-r-131-milhoes/
+2026-09-11 14:15:39 [INFO] Título: ESCRITÓRIO DE VIVIANE MORAES VEM A PÚBLICO E CONFIRMA QUE MINISTRO ...
+2026-09-11 14:15:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:39 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:39 [INFO] Aguardando 2.70s...
+2026-09-11 14:15:42 [INFO] [13/22] ID: https://sbtnews.sbt.com.br/noticia/politica/pf-vorcaro-soube-de-operacao-policial-antes-de-ser-preso
+2026-09-11 14:15:42 [INFO] Título: PF: Vorcaro soube de operação policial antes de ser preso | SBT News
+2026-09-11 14:15:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:42 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:42 [INFO] Aguardando 2.64s...
+2026-09-11 14:15:45 [INFO] [14/22] ID: https://www.metropoles.com/brasil/stf-divulga-contrato-de-r-131-milhoes-entre-mulher-de-moraes-e-master
+2026-09-11 14:15:45 [INFO] Título: STF divulga contrato de R$ 131 milhões entre mulher de Moraes e Master - Metrópoles
+2026-09-11 14:15:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:45 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:45 [INFO] Aguardando 2.62s...
+2026-09-11 14:15:48 [INFO] [15/22] ID: https://www.radiopampa.com.br/servidores-do-banco-central-cobravam-por-assessoria-ao-dono-do-banco-master-daniel-vorcaro/
+2026-09-11 14:15:48 [INFO] Título: Servidores do Banco Central cobravam por “assessoria” ao dono do Banco Master, Daniel Vorcaro
+2026-09-11 14:15:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:48 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:48 [INFO] Aguardando 2.63s...
+2026-09-11 14:15:51 [INFO] [16/22] ID: https://g1.globo.com/politica/noticia/2026/09/11/assessoria-informal-grupo-de-mensagens-cobranca-de-pagamento-pf-detalha-relacao-de-vorcaro-com-servidores-do-bc.ghtml
+2026-09-11 14:15:51 [INFO] Título: Assessoria informal, grupo de mensagens, cobrança de pagamento: PF detalha relação de ... - G1
+2026-09-11 14:15:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:51 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:51 [INFO] Aguardando 2.57s...
+2026-09-11 14:15:54 [INFO] [17/22] ID: https://tribunadoagreste.com.br/geral/2026/09/10/976459-banco-central-estende-prazo-do-inquerito-sobre-a-advanced-corretora-de-cambio
+2026-09-11 14:15:54 [INFO] Título: Banco Central estende prazo do inquérito sobre a Advanced Corretora de Câmbio
+2026-09-11 14:15:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:54 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:54 [INFO] Aguardando 2.77s...
+2026-09-11 14:15:57 [INFO] [18/22] ID: https://claudiodantas.com.br/integra-contrato-131-mi-esposa-moraes-master/
+2026-09-11 14:15:57 [INFO] Título: A íntegra do contrato de R$ 131 mi da esposa de Moraes com o Master - Claudio Dantas
+2026-09-11 14:15:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:15:57 [INFO] Classificação: nao_enviar
+2026-09-11 14:15:57 [INFO] Aguardando 2.71s...
+2026-09-11 14:16:00 [INFO] [19/22] ID: https://www.oliberal.com/politica/contrato-de-mulher-de-alexandre-de-moraes-com-banco-master-e-revelado-1.1167440
+2026-09-11 14:16:00 [INFO] Título: Contrato de mulher de Alexandre de Moraes com Banco Master é revelado - O Liberal
+2026-09-11 14:16:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:16:00 [INFO] Classificação: nao_enviar
+2026-09-11 14:16:00 [INFO] Aguardando 2.58s...
+2026-09-11 14:16:03 [INFO] [20/22] ID: https://portalvv8.com.br/noticia/72309/stf-revela-contrato-de-r-131-milhoes-entre-a-esposa-de-moraes-e-banco-master
+2026-09-11 14:16:03 [INFO] Título: STF revela contrato de R$ 131 milhões entre a esposa de Moraes e Banco Master
+2026-09-11 14:16:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:16:03 [INFO] Classificação: nao_enviar
+2026-09-11 14:16:03 [INFO] Aguardando 2.60s...
+2026-09-11 14:16:06 [INFO] [21/22] ID: https://timesbrasil.com.br/brasil/stf-divulga-contrato-de-r-131-milhoes-entre-escritorio-de-esposa-de-moraes-e-master/
+2026-09-11 14:16:06 [INFO] Título: STF divulga contrato de R$ 131 milhões entre escritório de esposa de Moraes e Master
+2026-09-11 14:16:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:16:07 [INFO] Classificação: nao_enviar
+2026-09-11 14:16:07 [INFO] Aguardando 2.28s...
+2026-09-11 14:16:09 [INFO] [22/22] ID: https://www.broadcast.com.br/ultimas-noticias/bc-prorroga-prazo-para-conclusao-de-inquerito-sobre-advanced-corretora-de-cambio-por-30-dias/
+2026-09-11 14:16:09 [INFO] Título: BC prorroga prazo para conclusão de inquérito sobre Advanced Corretora de Câmbio por 30 dias
+2026-09-11 14:16:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 14:16:09 [INFO] Classificação: nao_enviar
+2026-09-11 14:16:09 [INFO] ======================================================================
+2026-09-11 14:16:09 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-11 14:16:09 [INFO] ======================================================================
+2026-09-11 14:16:09 [INFO] Processadas: 22
+2026-09-11 14:16:09 [INFO] Enviar: 8
+2026-09-11 14:16:09 [INFO] Não enviar: 14
+2026-09-11 14:16:09 [INFO] ======================================================================
