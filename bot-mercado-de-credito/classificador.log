@@ -20213,3 +20213,201 @@
 2026-09-11 14:16:09 [INFO] Enviar: 8
 2026-09-11 14:16:09 [INFO] Não enviar: 14
 2026-09-11 14:16:09 [INFO] ======================================================================
+2026-09-11 18:21:26 [INFO] ======================================================================
+2026-09-11 18:21:26 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-11 18:21:26 [INFO] ======================================================================
+2026-09-11 18:21:26 [INFO] Notícias com status 'extraida': 37
+2026-09-11 18:21:26 [INFO] Limite: 20 requisições/minuto
+2026-09-11 18:21:26 [INFO] Intervalo mínimo: 3.0s
+2026-09-11 18:21:26 [INFO] ======================================================================
+2026-09-11 18:21:26 [INFO] [1/37] ID: https://blogs.correiobraziliense.com.br/jusbraziliense/2026/09/11/renegociacao-de-divida-empresarial/
+2026-09-11 18:21:26 [INFO] Título: Sua empresa deve mais do que consegue pagar? As saídas jurídicas, da renegociação ...
+2026-09-11 18:21:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:26 [INFO] Classificação: nao_enviar
+2026-09-11 18:21:26 [INFO] Aguardando 2.64s...
+2026-09-11 18:21:29 [INFO] [2/37] ID: https://agfeed.com.br/campo-das-ideias/artigo-cpr-de-fomento-e-alternativa-de-credito-em-meio-ao-avanco-das-rjs
+2026-09-11 18:21:29 [INFO] Título: ARTIGO - CPR de Fomento é alternativa de crédito em meio ao avanço das RJs - AgFeed
+2026-09-11 18:21:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:29 [INFO] Classificação: enviar
+2026-09-11 18:21:29 [INFO] Aguardando 2.74s...
+2026-09-11 18:21:32 [INFO] [3/37] ID: https://www.estadao.com.br/economia/negocios/casas-bahia-acionistas-minoritarios-justica-conversao-debentures/
+2026-09-11 18:21:32 [INFO] Título: Casas Bahia: acionistas minoritários pedem à Justiça conversão de debêntures - Estadão
+2026-09-11 18:21:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:32 [INFO] Classificação: nao_enviar
+2026-09-11 18:21:32 [INFO] Aguardando 2.80s...
+2026-09-11 18:21:35 [INFO] [4/37] ID: https://www.cartacapital.com.br/esporte/botafogo-avanca-em-processo-de-recuperacao-judicial/
+2026-09-11 18:21:35 [INFO] Título: Botafogo avança em processo de <b>recuperação judicial</b> - Carta Capital
+2026-09-11 18:21:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:35 [INFO] Classificação: enviar
+2026-09-11 18:21:35 [INFO] Aguardando 2.61s...
+2026-09-11 18:21:38 [INFO] [5/37] ID: https://www1.folha.uol.com.br/mercado/2026/09/criei-do-nada-um-imperio-da-moda-que-me-deixou-multimilionaria-mas-cresceu-tanto-que-abri-falencia.shtml
+2026-09-11 18:21:38 [INFO] Título: 'Criei do nada um império da moda que me deixou multimilionária, mas cresceu tanto que ...
+2026-09-11 18:21:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:38 [INFO] Classificação: nao_enviar
+2026-09-11 18:21:38 [INFO] Aguardando 2.71s...
+2026-09-11 18:21:41 [INFO] [6/37] ID: https://eixos.com.br/newsletters/comece-seu-dia/depois-de-anos-de-expectativa-primeiro-leilao-do-gas-da-uniao-ganha-contornos-para-sair-do-papel/
+2026-09-11 18:21:41 [INFO] Título: Depois de anos de expectativa, primeiro leilão do gás da União ganha contornos para sair do papel
+2026-09-11 18:21:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:41 [INFO] Classificação: nao_enviar
+2026-09-11 18:21:41 [INFO] Aguardando 2.78s...
+2026-09-11 18:21:44 [INFO] [7/37] ID: https://www.infomoney.com.br/mercados/toky-minoritarios-pedem-age-para-eleger-conselho-e-responsabilizar-administradores/
+2026-09-11 18:21:44 [INFO] Título: Toky: minoritários pedem AGE para eleger Conselho e responsabilizar administradores
+2026-09-11 18:21:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:44 [INFO] Classificação: nao_enviar
+2026-09-11 18:21:44 [INFO] Aguardando 2.50s...
+2026-09-11 18:21:47 [INFO] [8/37] ID: https://expansao.co/justica-defere-recuperacao-judicial-da-sorvelandia-em-caxias-do-sul/
+2026-09-11 18:21:47 [INFO] Título: Justiça defere <b>recuperação judicial</b> da Sorvelândia em Caxias do Sul - Expansão
+2026-09-11 18:21:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:47 [INFO] Classificação: enviar
+2026-09-11 18:21:47 [INFO] Aguardando 2.53s...
+2026-09-11 18:21:50 [INFO] [9/37] ID: https://veja.abril.com.br/economia/a-promessa-da-fertilizantes-heringer-antes-de-entrar-em-recuperacao-judicial/
+2026-09-11 18:21:50 [INFO] Título: A promessa da Fertilizantes Heringer antes de entrar em <b>recuperação judicial</b> - Revista Veja
+2026-09-11 18:21:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:50 [INFO] Classificação: enviar
+2026-09-11 18:21:50 [INFO] Aguardando 2.78s...
+2026-09-11 18:21:53 [INFO] [10/37] ID: https://www.pontonacurva.com.br/opiniao/o-rigor-probatorio-na-recuperacao-judicial-do-produtor-rural/34956
+2026-09-11 18:21:53 [INFO] Título: O rigor probatório na <b>recuperação judicial</b> do produtor rural | Ponto na Curva
+2026-09-11 18:21:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:53 [INFO] Classificação: enviar
+2026-09-11 18:21:53 [INFO] Aguardando 2.79s...
+2026-09-11 18:21:56 [INFO] [11/37] ID: https://www.metropoles.com/brasil/economia-br/casas-bahia-minoritarios-querem-barrar-troca-de-debentures-por-acoes
+2026-09-11 18:21:56 [INFO] Título: Casas Bahia: minoritários querem barrar troca de debêntures por ações - Metrópoles
+2026-09-11 18:21:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:56 [INFO] Classificação: nao_enviar
+2026-09-11 18:21:56 [INFO] Aguardando 2.52s...
+2026-09-11 18:21:59 [INFO] [12/37] ID: https://www.migalhas.com.br/quentes/464278/advogado-aponta-desafios-na-recuperacao-de-hospitais-filantropicos
+2026-09-11 18:21:59 [INFO] Título: Advogado aponta desafios na <b>recuperação</b> de hospitais filantrópicos - Migalhas
+2026-09-11 18:21:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:21:59 [INFO] Classificação: nao_enviar
+2026-09-11 18:21:59 [INFO] Aguardando 2.72s...
+2026-09-11 18:22:02 [INFO] [13/37] ID: https://www.terra.com.br/esportes/botafogo/botafogo-avanca-em-processo-de-recuperacao-judicial,0cdf7305118c6d938ca0b251fe8c18508p24r3pe.html
+2026-09-11 18:22:02 [INFO] Título: Botafogo avança em processo de <b>recuperação judicial</b> - Terra
+2026-09-11 18:22:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:02 [INFO] Classificação: enviar
+2026-09-11 18:22:02 [INFO] Aguardando 2.73s...
+2026-09-11 18:22:05 [INFO] [14/37] ID: https://gauchazh.clicrbs.com.br/pioneiro/colunistas/juliana-bevilaqua/noticia/2026/09/sorvelandia-de-caxias-pede-recuperacao-judicial-cmtx27f7501n2016334uyuh37.html
+2026-09-11 18:22:05 [INFO] Título: Sorvelândia, de Caxias, pede <b>recuperação judicial</b> | Pioneiro - GZH
+2026-09-11 18:22:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:05 [INFO] Classificação: enviar
+2026-09-11 18:22:05 [INFO] Aguardando 2.62s...
+2026-09-11 18:22:08 [INFO] [15/37] ID: https://www.jornaldocomercio.com/economia/2026/09/1263016-sorvelandia-protocola-pedido-de-recuperacao-judicial.html
+2026-09-11 18:22:08 [INFO] Título: Sorvelândia protocola pedido de <b>recuperação judicial</b> - Jornal do Comércio
+2026-09-11 18:22:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:08 [INFO] Classificação: enviar
+2026-09-11 18:22:08 [INFO] Aguardando 2.59s...
+2026-09-11 18:22:11 [INFO] [16/37] ID: https://jornaldaregiao.com/supermercado-fluminense-entra-com-pedido-de-recuperacao-judicial/
+2026-09-11 18:22:11 [INFO] Título: Supermercado Fluminense entra com pedido de <b>recuperação judicial</b> - Jornal da Região
+2026-09-11 18:22:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:11 [INFO] Classificação: enviar
+2026-09-11 18:22:11 [INFO] Aguardando 2.74s...
+2026-09-11 18:22:14 [INFO] [17/37] ID: https://samais.com.br/publicacoes/supermercados-fluminense-entra-com-pedido-de-recuperacao-judicial
+2026-09-11 18:22:14 [INFO] Título: Supermercados Fluminense entra com pedido de <b>recuperação judicial</b>
+2026-09-11 18:22:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:14 [INFO] Classificação: enviar
+2026-09-11 18:22:14 [INFO] Aguardando 2.78s...
+2026-09-11 18:22:17 [INFO] [18/37] ID: https://guaiba.com.br/sorvelandia-tem-pedido-de-recuperacao-judicial-deferido/
+2026-09-11 18:22:17 [INFO] Título: Sorvelândia tem pedido de <b>recuperação judicial</b> deferido - Rádio Guaíba
+2026-09-11 18:22:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:17 [INFO] Classificação: enviar
+2026-09-11 18:22:17 [INFO] Aguardando 2.77s...
+2026-09-11 18:22:20 [INFO] [19/37] ID: https://www.contabeis.com.br/noticias/79353/pl-amplia-descontos-e-permite-parcelar-dividas-com-a-uniao-em-ate-20-anos/
+2026-09-11 18:22:20 [INFO] Título: PL amplia descontos e permite parcelar dívidas com a União em até 20 anos
+2026-09-11 18:22:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:20 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:20 [INFO] Aguardando 2.66s...
+2026-09-11 18:22:23 [INFO] [20/37] ID: https://investidor10.com.br/amp/noticias/oncoclinicas-onco3-registra-abertura-de-arbitragem-sobre-opa-122578/
+2026-09-11 18:22:23 [INFO] Título: Oncoclínicas (ONCO3) registra abertura de arbitragem sobre OPA - Investidor10
+2026-09-11 18:22:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:23 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:23 [INFO] Aguardando 2.76s...
+2026-09-11 18:22:26 [INFO] [21/37] ID: https://gironews.com/supermercado/helene-bitton-renuncia-ao-conselho-do-gpa-e-novo-membro-e-eleito/
+2026-09-11 18:22:26 [INFO] Título: Helene Bitton renuncia ao conselho do GPA e novo membro é eleito - Giro News
+2026-09-11 18:22:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:26 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:26 [INFO] Aguardando 2.78s...
+2026-09-11 18:22:29 [INFO] [22/37] ID: https://br.advfn.com/jornal/2026/09/gpa-troca-integrante-do-conselho-apos-renuncia-de-helene-bitton
+2026-09-11 18:22:29 [INFO] Título: GPA troca integrante do Conselho após renúncia de Helene Bitton - ADVFN
+2026-09-11 18:22:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:29 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:29 [INFO] Aguardando 2.70s...
+2026-09-11 18:22:32 [INFO] [23/37] ID: https://www.moneytimes.com.br/danca-das-cadeiras-gpa-pcar3-informa-renuncia-de-helene-bitton-e-elege-novo-nome-para-o-conselho-lmrs/
+2026-09-11 18:22:32 [INFO] Título: Dança das cadeiras: GPA (PCAR3) informa renúncia de Helene Bitton e elege novo nome ...
+2026-09-11 18:22:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:32 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:32 [INFO] Aguardando 2.74s...
+2026-09-11 18:22:35 [INFO] [24/37] ID: https://valor.globo.com/google/amp/legislacao/coluna/seguranca-juridica-nas-recuperacoes-extrajudiciais.ghtml
+2026-09-11 18:22:35 [INFO] Título: Segurança jurídica nas recuperações extrajudiciais | Legislação | Valor Econômico
+2026-09-11 18:22:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:35 [INFO] Classificação: enviar
+2026-09-11 18:22:35 [INFO] Aguardando 2.64s...
+2026-09-11 18:22:38 [INFO] [25/37] ID: https://www.reporterdiario.com.br/noticia/3892906/cvm-adia-julgamento-de-ex-cfo-da-reag-que-estava-marcado-para-o-proximo-dia-15/
+2026-09-11 18:22:38 [INFO] Título: CVM adia julgamento de ex-CFO da Reag que estava marcado para o próximo dia 15
+2026-09-11 18:22:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:38 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:38 [INFO] Aguardando 2.75s...
+2026-09-11 18:22:41 [INFO] [26/37] ID: https://www.estadao.com.br/amp/einvestidor/onde-investir/brasil-melhora-exterior-divide-sinais-por-que-o-bofa-segue-otimista-com-a-marcopolo/
+2026-09-11 18:22:41 [INFO] Título: Marcopolo (POMO4): BofA mantém compra e vê <b>recuperação</b> no Brasil - Estadão
+2026-09-11 18:22:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:41 [INFO] Classificação: enviar
+2026-09-11 18:22:41 [INFO] Aguardando 2.71s...
+2026-09-11 18:22:44 [INFO] [27/37] ID: https://www.coad.com.br/home/noticias-detalhe/139687/projeto-amplia-mecanismos-para-regularizacao-de-dividas-com-a-uniao
+2026-09-11 18:22:44 [INFO] Título: Projeto amplia mecanismos para regularização de dívidas com a União - COAD
+2026-09-11 18:22:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:44 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:44 [INFO] Aguardando 2.72s...
+2026-09-11 18:22:47 [INFO] [28/37] ID: https://investidor10.com.br/amp/noticias/toky-toky3-minoritarios-pedem-age-para-eleger-conselho-de-administracao-122575/
+2026-09-11 18:22:47 [INFO] Título: Toky (TOKY3): Minoritários pedem AGE para eleger Conselho de Administração
+2026-09-11 18:22:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:47 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:47 [INFO] Aguardando 2.65s...
+2026-09-11 18:22:50 [INFO] [29/37] ID: https://valor.globo.com/financas/noticia/2026/09/11/fgc-questionou-bc-se-operao-com-brb-bastaria-para-tirar-master-da-crise.ghtml
+2026-09-11 18:22:50 [INFO] Título: FGC questionou BC se operação com BRB bastaria para tirar Master da crise | Finanças
+2026-09-11 18:22:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:50 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:50 [INFO] Aguardando 2.68s...
+2026-09-11 18:22:53 [INFO] [30/37] ID: https://www.grandeponto.com.br/noticia/quebra-de-sigilo-revela-contrato-de-r-131-milhoes-entre-banco-master-e-esposa-de-alexandre-de-moraes
+2026-09-11 18:22:53 [INFO] Título: Quebra de sigilo revela contrato de R$ 131 milhões entre Banco Master e esposa ... - Grande Ponto
+2026-09-11 18:22:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:53 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:53 [INFO] Aguardando 2.77s...
+2026-09-11 18:22:56 [INFO] [31/37] ID: https://www.cartacapital.com.br/justica/marqueteiro-que-buscava-influenciadores-pro-master-monitorava-redes-para-flavio-bolsonaro/
+2026-09-11 18:22:56 [INFO] Título: Marqueteiro que buscava influenciadores 'pró-Master' monitorava redes para Flávio Bolsonaro
+2026-09-11 18:22:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:56 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:56 [INFO] Aguardando 2.73s...
+2026-09-11 18:22:59 [INFO] [32/37] ID: https://www.diariodocentrodomundo.com.br/pf-aponta-assessoria-paralela-vorcaro-campos-neto/
+2026-09-11 18:22:59 [INFO] Título: PF aponta “assessoria paralela” a Vorcaro em reunião com o bolsonarista Campos Neto
+2026-09-11 18:22:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:22:59 [INFO] Classificação: nao_enviar
+2026-09-11 18:22:59 [INFO] Aguardando 2.75s...
+2026-09-11 18:23:02 [INFO] [33/37] ID: https://revistaempreende.com.br/banco-master-liquidacao-fgc-governanca-cvm/
+2026-09-11 18:23:02 [INFO] Título: Banco Master: <b>liquidação</b>, FGC e governança em análise - Revista Empreende
+2026-09-11 18:23:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:23:02 [INFO] Classificação: enviar
+2026-09-11 18:23:02 [INFO] Aguardando 2.77s...
+2026-09-11 18:23:05 [INFO] [34/37] ID: https://www.gazetadopovo.com.br/republica/contrato-esposa-moraes-master-previa-consultoria-estrategica/
+2026-09-11 18:23:05 [INFO] Título: Contrato de esposa de Moraes e Master previa “consultoria estratégica”, aponta PF
+2026-09-11 18:23:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:23:05 [INFO] Classificação: nao_enviar
+2026-09-11 18:23:05 [INFO] Aguardando 2.57s...
+2026-09-11 18:23:08 [INFO] [35/37] ID: https://www.jornalopcao.com.br/politica/banco-master-e-reag-pagaram-r-73-milhoes-a-advogado-ligado-a-candidato-a-vice-de-celina-leao-no-df-866975/
+2026-09-11 18:23:08 [INFO] Título: Banco Master e Reag pagaram R$ 7,3 milhões a advogado ligado a candidato a vice de ...
+2026-09-11 18:23:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:23:08 [INFO] Classificação: nao_enviar
+2026-09-11 18:23:08 [INFO] Aguardando 2.62s...
+2026-09-11 18:23:11 [INFO] [36/37] ID: https://www.em.com.br/politica/2026/09/7498361-escandalo-no-banco-central-como-servidores-viraram-assessoria-de-vorcaro-e-do-banco-master.html
+2026-09-11 18:23:11 [INFO] Título: Escândalo no Banco Central: Como servidores viraram 'assessoria' de Vorcaro e do Banco Master
+2026-09-11 18:23:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:23:11 [INFO] Classificação: nao_enviar
+2026-09-11 18:23:11 [INFO] Aguardando 2.51s...
+2026-09-11 18:23:14 [INFO] [37/37] ID: https://cqcs.com.br/tv/canal-cqcs-in-loco/instituto-geracoes-futuras-reforca-compromisso-social-da-tokio-marine-com-a-educacao/
+2026-09-11 18:23:14 [INFO] Título: Instituto Gerações Futuras reforça compromisso social da Tokio Marine com a educação
+2026-09-11 18:23:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-11 18:23:14 [INFO] Classificação: nao_enviar
+2026-09-11 18:23:14 [INFO] ======================================================================
+2026-09-11 18:23:14 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-11 18:23:14 [INFO] ======================================================================
+2026-09-11 18:23:14 [INFO] Processadas: 37
+2026-09-11 18:23:14 [INFO] Enviar: 14
+2026-09-11 18:23:14 [INFO] Não enviar: 23
+2026-09-11 18:23:14 [INFO] ======================================================================
