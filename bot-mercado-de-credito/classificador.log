@@ -20738,3 +20738,46 @@
 2026-09-12 10:34:54 [INFO] Enviar: 1
 2026-09-12 10:34:54 [INFO] Não enviar: 2
 2026-09-12 10:34:54 [INFO] ======================================================================
+2026-09-12 13:59:28 [INFO] ======================================================================
+2026-09-12 13:59:28 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-12 13:59:28 [INFO] ======================================================================
+2026-09-12 13:59:28 [INFO] Notícias com status 'extraida': 6
+2026-09-12 13:59:28 [INFO] Limite: 20 requisições/minuto
+2026-09-12 13:59:28 [INFO] Intervalo mínimo: 3.0s
+2026-09-12 13:59:28 [INFO] ======================================================================
+2026-09-12 13:59:28 [INFO] [1/6] ID: https://www.cartacapital.com.br/esporte/policia-investiga-possivel-fraude-na-recuperacao-judicial-do-vasco/
+2026-09-12 13:59:28 [INFO] Título: Polícia investiga possível fraude na recuperação <b>judicial</b> do Vasco - Carta Capital
+2026-09-12 13:59:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 13:59:28 [INFO] Classificação: enviar
+2026-09-12 13:59:28 [INFO] Aguardando 2.65s...
+2026-09-12 13:59:31 [INFO] [2/6] ID: https://www.cnnbrasil.com.br/agro/crise-no-stf-adiciona-incerteza-a-um-agro-que-ja-enfrenta-aperto-de-credito/
+2026-09-12 13:59:31 [INFO] Título: Crise no STF adiciona incerteza a um agro que já enfrenta aperto de crédito | CNN Brasil
+2026-09-12 13:59:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 13:59:31 [INFO] Classificação: nao_enviar
+2026-09-12 13:59:31 [INFO] Aguardando 2.68s...
+2026-09-12 13:59:34 [INFO] [3/6] ID: https://oglobo.globo.com/blogs/diogo-dantas/coluna/2026/09/inquerito-policial-apura-possivel-fraude-em-divida-de-r-8-milhoes-do-ex-jogador-max-na-recuperacao-judicial-do-vasco.ghtml
+2026-09-12 13:59:34 [INFO] Título: Inquérito policial apura possível fraude em dívida de R$ 8 milhões do ex-jogador Max na ...
+2026-09-12 13:59:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 13:59:34 [INFO] Classificação: nao_enviar
+2026-09-12 13:59:34 [INFO] Aguardando 2.74s...
+2026-09-12 13:59:37 [INFO] [4/6] ID: https://ge.globo.com/futebol/times/vasco/noticia/2026/09/12/policia-investiga-ex-jogador-e-dirigente-do-vasco-por-suposta-tentativa-de-fraude-em-recuperacao-judicial.ghtml
+2026-09-12 13:59:37 [INFO] Título: Polícia investiga ex-jogador e dirigente do Vasco por suposta tentativa de fraude em ...
+2026-09-12 13:59:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 13:59:37 [INFO] Classificação: nao_enviar
+2026-09-12 13:59:37 [INFO] Aguardando 2.64s...
+2026-09-12 13:59:40 [INFO] [5/6] ID: https://ultimosegundo.ig.com.br/2026-09-12/relatorio-separa-papel-da-antiga-reag-de-controle-do-master.html
+2026-09-12 13:59:40 [INFO] Título: Relatório separa papel da antiga REAG de controle do Master
+2026-09-12 13:59:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 13:59:40 [INFO] Classificação: nao_enviar
+2026-09-12 13:59:40 [INFO] Aguardando 2.73s...
+2026-09-12 13:59:43 [INFO] [6/6] ID: https://www.em.com.br/nacional/2026/09/7498673-consultoria-a-pf-ao-cade-e-ao-congresso-o-que-previa-o-contrato-entre-master-e-escritorio-da-mulher-de-moraes.html
+2026-09-12 13:59:43 [INFO] Título: Consultoria à PF, ao CADE e ao Congresso: o que previa o contrato entre Master e ...
+2026-09-12 13:59:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 13:59:43 [INFO] Classificação: nao_enviar
+2026-09-12 13:59:43 [INFO] ======================================================================
+2026-09-12 13:59:43 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-12 13:59:43 [INFO] ======================================================================
+2026-09-12 13:59:43 [INFO] Processadas: 6
+2026-09-12 13:59:43 [INFO] Enviar: 1
+2026-09-12 13:59:43 [INFO] Não enviar: 5
+2026-09-12 13:59:43 [INFO] ======================================================================
