@@ -20904,3 +20904,96 @@
 2026-09-12 17:02:50 [INFO] Enviar: 7
 2026-09-12 17:02:50 [INFO] Não enviar: 15
 2026-09-12 17:02:50 [INFO] ======================================================================
+2026-09-12 20:28:14 [INFO] ======================================================================
+2026-09-12 20:28:14 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-12 20:28:14 [INFO] ======================================================================
+2026-09-12 20:28:14 [INFO] Notícias com status 'extraida': 16
+2026-09-12 20:28:14 [INFO] Limite: 20 requisições/minuto
+2026-09-12 20:28:14 [INFO] Intervalo mínimo: 3.0s
+2026-09-12 20:28:14 [INFO] ======================================================================
+2026-09-12 20:28:14 [INFO] [1/16] ID: https://www.olhardireto.com.br/juridico/noticias/frigorifico-de-vg-entra-em-recuperacao-por-r-29-milhoes-em-dividas
+2026-09-12 20:28:14 [INFO] Título: Frigorífico de VG entra em <b>recuperação</b> por R$ 29 milhões em dívidas - Olhar Direto
+2026-09-12 20:28:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:14 [INFO] Classificação: enviar
+2026-09-12 20:28:14 [INFO] Aguardando 2.66s...
+2026-09-12 20:28:17 [INFO] [2/16] ID: https://ahoradosul.com.br/conteudos/2026/09/12/reuniao-do-conselho-do-brasil-aborda-eleicoes-do-clube-associativo-e-recuperacao-judicial/
+2026-09-12 20:28:17 [INFO] Título: Reunião do Conselho do Brasil aborda eleições do clube associativo e <b>recuperação judicial</b>
+2026-09-12 20:28:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:17 [INFO] Classificação: enviar
+2026-09-12 20:28:17 [INFO] Aguardando 2.72s...
+2026-09-12 20:28:20 [INFO] [3/16] ID: https://www.poder360.com.br/poder-justica/justica-inglesa-ouvira-advogados-que-disputam-vitimas-de-mariana/
+2026-09-12 20:28:20 [INFO] Título: Justiça inglesa ouvirá advogados que disputam vítimas de Mariana - Poder360
+2026-09-12 20:28:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:20 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:20 [INFO] Aguardando 2.65s...
+2026-09-12 20:28:23 [INFO] [4/16] ID: https://odia.ig.com.br/esporte/vasco/2026/09/7301341-policia-apura-suspeita-de-fraude-na-recuperacao-judicial-do-vasco.html
+2026-09-12 20:28:23 [INFO] Título: Polícia apura suspeita de fraude na <b>recuperação judicial</b> do Vasco - O Dia
+2026-09-12 20:28:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:23 [INFO] Classificação: enviar
+2026-09-12 20:28:23 [INFO] Aguardando 2.44s...
+2026-09-12 20:28:26 [INFO] [5/16] ID: https://veronoticias.com/economia/grupo-toky-elege-joao-pedro-maya-para-conselho/
+2026-09-12 20:28:26 [INFO] Título: Grupo Toky elege João Pedro Maya para conselho - Vero Notícias
+2026-09-12 20:28:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:26 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:26 [INFO] Aguardando 2.68s...
+2026-09-12 20:28:29 [INFO] [6/16] ID: https://revistaoeste.com/economia/acionistas-questionam-conversao-de-debentures-da-casas-bahia/
+2026-09-12 20:28:29 [INFO] Título: Acionistas questionam conversão de debêntures da Casas Bahia - Revista Oeste
+2026-09-12 20:28:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:29 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:29 [INFO] Aguardando 2.62s...
+2026-09-12 20:28:32 [INFO] [7/16] ID: https://soesporte.com.br/recuperacao-judicial-do-treze-revelam-uma-relacao-de-21-jogadores-como-reforcos/
+2026-09-12 20:28:32 [INFO] Título: <b>Recuperação judicial</b> do Treze revelam uma relação de 21 jogadores como reforços
+2026-09-12 20:28:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:32 [INFO] Classificação: enviar
+2026-09-12 20:28:32 [INFO] Aguardando 2.75s...
+2026-09-12 20:28:35 [INFO] [8/16] ID: https://www.fatosdematogrosso.com.br/cidades/bancos-concentram-80-de-divida-de-r-267-milhoes-de-grupo-veterinario-de-cuiaba/15773
+2026-09-12 20:28:35 [INFO] Título: Bancos concentram 80% de dívida de R$ 26,7 milhões de grupo veterinário de Cuiabá
+2026-09-12 20:28:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:35 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:35 [INFO] Aguardando 2.62s...
+2026-09-12 20:28:38 [INFO] [9/16] ID: https://investnews.com.br/financas/quando-pode-ocorrer-a-primeira-emissao-de-panda-bonds-pelo-governo-brasileiro-janela-pode-abrir-no-fim-do-mes/
+2026-09-12 20:28:38 [INFO] Título: Quando pode ocorrer a primeira emissão de 'panda bonds' pelo governo brasileiro? Janela ...
+2026-09-12 20:28:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:38 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:38 [INFO] Aguardando 2.77s...
+2026-09-12 20:28:41 [INFO] [10/16] ID: https://economicnewsbrasil.com.br/2026/09/12/dividas-casas-bahia-credito/
+2026-09-12 20:28:41 [INFO] Título: Dívidas da Casas Bahia chegam a R$ 28,3 bi fora e dentro da recuperação
+2026-09-12 20:28:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:41 [INFO] Classificação: enviar
+2026-09-12 20:28:41 [INFO] Aguardando 2.80s...
+2026-09-12 20:28:44 [INFO] [11/16] ID: https://visnoinvest.com.br/news/15231/petr4-registra-r-26-bi-em-subvencao-e-light-encerra-recuperacao
+2026-09-12 20:28:44 [INFO] Título: PETR4 registra R$ 2,6 bi em subvenção e Light encerra recuperação | Visno Invest
+2026-09-12 20:28:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:44 [INFO] Classificação: enviar
+2026-09-12 20:28:44 [INFO] Aguardando 2.73s...
+2026-09-12 20:28:47 [INFO] [12/16] ID: https://vozdabahia.com.br/pge-ba-abre-negociacao-de-dividas-de-icms-com-descontos-de-ate-95/
+2026-09-12 20:28:47 [INFO] Título: PGE-BA abre negociação de dívidas de ICMS com descontos de até 95% - Voz da Bahia
+2026-09-12 20:28:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:47 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:47 [INFO] Aguardando 2.61s...
+2026-09-12 20:28:50 [INFO] [13/16] ID: https://www.acheisudoeste.com.br/noticias/justica/stf-torna-publico-contrato-de-r-129-milhoes-entre-esposa-de-alexandre-de-moraes-e-o-banco-master
+2026-09-12 20:28:50 [INFO] Título: STF torna público contrato de R$ 129 milhões entre esposa de Alexandre de Moraes e o ...
+2026-09-12 20:28:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:50 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:50 [INFO] Aguardando 2.65s...
+2026-09-12 20:28:53 [INFO] [14/16] ID: https://spdiario.com.br/noticias/noticias-de-sp/pf-aponta-uso-da-mesma-estrutura-financeira-por-banco-master-e-grupo-ligado-ao-pcc.html
+2026-09-12 20:28:53 [INFO] Título: PF aponta uso da mesma estrutura financeira por Banco Master e grupo ligado ao PCC
+2026-09-12 20:28:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:53 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:53 [INFO] Aguardando 2.78s...
+2026-09-12 20:28:56 [INFO] [15/16] ID: https://ver-o-fato.com.br/fachin-manda-mendonca-liberar-todo-o-sigilo-do-master-em-24h/
+2026-09-12 20:28:56 [INFO] Título: Fachin manda Mendonça liberar todo o sigilo do Master em 24h - Ver-o-Fato
+2026-09-12 20:28:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:56 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:56 [INFO] Aguardando 2.80s...
+2026-09-12 20:28:59 [INFO] [16/16] ID: https://mancheterio.com.br/policia-federal-aponta-esquema-para-promover-imagem-de-vorcaro-e-conter-criticas-nas-redes/
+2026-09-12 20:28:59 [INFO] Título: Polícia Federal aponta esquema para promover imagem de Vorcaro e conter críticas nas redes
+2026-09-12 20:28:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 20:28:59 [INFO] Classificação: nao_enviar
+2026-09-12 20:28:59 [INFO] ======================================================================
+2026-09-12 20:28:59 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-12 20:28:59 [INFO] ======================================================================
+2026-09-12 20:28:59 [INFO] Processadas: 16
+2026-09-12 20:28:59 [INFO] Enviar: 6
+2026-09-12 20:28:59 [INFO] Não enviar: 10
+2026-09-12 20:28:59 [INFO] ======================================================================
