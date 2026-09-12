@@ -20642,3 +20642,71 @@
 2026-09-12 00:05:33 [INFO] Enviar: 4
 2026-09-12 00:05:33 [INFO] Não enviar: 10
 2026-09-12 00:05:33 [INFO] ======================================================================
+2026-09-12 05:35:25 [INFO] ======================================================================
+2026-09-12 05:35:25 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-12 05:35:25 [INFO] ======================================================================
+2026-09-12 05:35:25 [INFO] Notícias com status 'extraida': 11
+2026-09-12 05:35:25 [INFO] Limite: 20 requisições/minuto
+2026-09-12 05:35:25 [INFO] Intervalo mínimo: 3.0s
+2026-09-12 05:35:25 [INFO] ======================================================================
+2026-09-12 05:35:25 [INFO] [1/11] ID: https://scinter.com.br/noticias-do-internacional/inter-recuperacao-11-set/
+2026-09-12 05:35:25 [INFO] Título: Inter toma decisão sobre <b>recuperação judicial</b> e revela plano para enfrentar dívidas
+2026-09-12 05:35:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:25 [INFO] Classificação: enviar
+2026-09-12 05:35:25 [INFO] Aguardando 2.46s...
+2026-09-12 05:35:28 [INFO] [2/11] ID: https://agenciagbc.com/2026/09/11/tradicional-fabrica-de-sorvetes-do-sul-entra-em-recuperacao-judicial-apos-56-anos/
+2026-09-12 05:35:28 [INFO] Título: Tradicional fábrica de sorvetes do Sul entra em <b>recuperação judicial</b> após 56 anos
+2026-09-12 05:35:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:28 [INFO] Classificação: enviar
+2026-09-12 05:35:28 [INFO] Aguardando 2.57s...
+2026-09-12 05:35:31 [INFO] [3/11] ID: https://www.espn.com.br/futebol/vasco/artigo/_/id/17240336/proposta-lamacchia-saf-vasco-preve-r-500-milhoes-so-futebol-r-120-milhoes-ct-r-30-milhoes-base-detalhes
+2026-09-12 05:35:31 [INFO] Título: Proposta de Lamacchia por SAF do Vasco prevê R$ 500 milhões só para futebol, R$ 120 ...
+2026-09-12 05:35:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:31 [INFO] Classificação: nao_enviar
+2026-09-12 05:35:31 [INFO] Aguardando 2.68s...
+2026-09-12 05:35:34 [INFO] [4/11] ID: https://netvasco.com.br/n/392395/confira-os-proximos-passos-da-venda-da-saf-do-vasco-apos-a-justica-liberar-leilao
+2026-09-12 05:35:34 [INFO] Título: Confira os próximos passos da venda da SAF do Vasco após a Justiça liberar leilão
+2026-09-12 05:35:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:34 [INFO] Classificação: nao_enviar
+2026-09-12 05:35:34 [INFO] Aguardando 2.66s...
+2026-09-12 05:35:37 [INFO] [5/11] ID: https://www.folhape.com.br/noticia/amp/512094/casas-bahia-avanca-por-emprestimo-de-ate-r-500-milhoes-enquanto/
+2026-09-12 05:35:37 [INFO] Título: Casas Bahia avança por empréstimo de até R$ 500 milhões enquanto aguarda <b>recuperação judicial</b>
+2026-09-12 05:35:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:37 [INFO] Classificação: enviar
+2026-09-12 05:35:37 [INFO] Aguardando 2.73s...
+2026-09-12 05:35:40 [INFO] [6/11] ID: https://www.campograndenews.com.br/economia/mesmo-com-oferta-maior-justica-mantem-aluguel-menor-de-frigorifico
+2026-09-12 05:35:40 [INFO] Título: Mesmo com oferta maior, Justiça mantém aluguel menor de frigorífico - Campo Grande News
+2026-09-12 05:35:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:40 [INFO] Classificação: nao_enviar
+2026-09-12 05:35:40 [INFO] Aguardando 2.75s...
+2026-09-12 05:35:43 [INFO] [7/11] ID: https://omunicipio.com.br/clima/rua-com-bocas-de-lobo-entupidas-e-alagada-e-agua-invade-casa-em-brusque/
+2026-09-12 05:35:43 [INFO] Título: Rua com bocas de lobo entupidas é alagada e água invade casa, em Brusque
+2026-09-12 05:35:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:43 [INFO] Classificação: nao_enviar
+2026-09-12 05:35:43 [INFO] Aguardando 2.75s...
+2026-09-12 05:35:46 [INFO] [8/11] ID: https://sbtnews.sbt.com.br/noticia/eleicoes/cury-diz-que-investiu-em-grupo-ligado-ao-master-fui-vitima
+2026-09-12 05:35:46 [INFO] Título: Cury diz que investiu em grupo ligado ao Master: sou vítima - SBT News
+2026-09-12 05:35:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:46 [INFO] Classificação: nao_enviar
+2026-09-12 05:35:46 [INFO] Aguardando 2.70s...
+2026-09-12 05:35:49 [INFO] [9/11] ID: https://canalmynews.com.br/economia/banco-central-arquiva-inquerito-sobre-liquidacao-da-reag/
+2026-09-12 05:35:49 [INFO] Título: Banco Central arquiva inquérito sobre <b>liquidação</b> da REAG - MyNews
+2026-09-12 05:35:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:49 [INFO] Classificação: enviar
+2026-09-12 05:35:49 [INFO] Aguardando 2.74s...
+2026-09-12 05:35:52 [INFO] [10/11] ID: https://economia.uol.com.br/noticias/redacao/2026/09/11/bc-arquiva-inquerito-e-libera-bens-da-antiga-reag-trust.ghtm
+2026-09-12 05:35:52 [INFO] Título: Banco Central arquiva inquérito e libera bens da antiga Reag Truste - UOL Economia
+2026-09-12 05:35:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:52 [INFO] Classificação: nao_enviar
+2026-09-12 05:35:52 [INFO] Aguardando 2.69s...
+2026-09-12 05:35:55 [INFO] [11/11] ID: https://www.nexojornal.com.br/expresso/andre-mendonca-caso-master-documentos-sigilos
+2026-09-12 05:35:55 [INFO] Título: O que André Mendonça tornou público no caso Master - Nexo Jornal
+2026-09-12 05:35:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 05:35:55 [INFO] Classificação: nao_enviar
+2026-09-12 05:35:55 [INFO] ======================================================================
+2026-09-12 05:35:55 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-12 05:35:55 [INFO] ======================================================================
+2026-09-12 05:35:55 [INFO] Processadas: 11
+2026-09-12 05:35:55 [INFO] Enviar: 4
+2026-09-12 05:35:55 [INFO] Não enviar: 7
+2026-09-12 05:35:55 [INFO] ======================================================================
