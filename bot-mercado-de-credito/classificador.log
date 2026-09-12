@@ -20710,3 +20710,31 @@
 2026-09-12 05:35:55 [INFO] Enviar: 4
 2026-09-12 05:35:55 [INFO] Não enviar: 7
 2026-09-12 05:35:55 [INFO] ======================================================================
+2026-09-12 10:34:48 [INFO] ======================================================================
+2026-09-12 10:34:48 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-12 10:34:48 [INFO] ======================================================================
+2026-09-12 10:34:48 [INFO] Notícias com status 'extraida': 3
+2026-09-12 10:34:48 [INFO] Limite: 20 requisições/minuto
+2026-09-12 10:34:48 [INFO] Intervalo mínimo: 3.0s
+2026-09-12 10:34:48 [INFO] ======================================================================
+2026-09-12 10:34:48 [INFO] [1/3] ID: https://radiosolaris.com.br/tradicional-fabricante-de-sorvetes-de-caxias-do-sul-entra-em-recuperacao-judicial/
+2026-09-12 10:34:48 [INFO] Título: Tradicional fabricante de sorvetes de Caxias do Sul entra em <b>recuperação judicial</b>
+2026-09-12 10:34:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 10:34:48 [INFO] Classificação: enviar
+2026-09-12 10:34:48 [INFO] Aguardando 2.65s...
+2026-09-12 10:34:51 [INFO] [2/3] ID: https://ricardoantunes.net/joao-campos-sente-o-golpe-do-fura-fila-e-apela-contra-raquel-lyra-fura-teto/
+2026-09-12 10:34:51 [INFO] Título: João Campos sente o golpe do "fura-fila" e apela contra Raquel Lyra: "fura-teto"
+2026-09-12 10:34:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 10:34:51 [INFO] Classificação: nao_enviar
+2026-09-12 10:34:51 [INFO] Aguardando 2.79s...
+2026-09-12 10:34:54 [INFO] [3/3] ID: https://diariodonordeste.verdesmares.com.br/negocios/casas-bahia-realiza-leilao-de-eletrodomesticos-neste-sabado-12-1.3790774
+2026-09-12 10:34:54 [INFO] Título: Casas Bahia realiza leilão de eletrodomésticos neste sábado (12) - Diário do Nordeste
+2026-09-12 10:34:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 10:34:54 [INFO] Classificação: nao_enviar
+2026-09-12 10:34:54 [INFO] ======================================================================
+2026-09-12 10:34:54 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-12 10:34:54 [INFO] ======================================================================
+2026-09-12 10:34:54 [INFO] Processadas: 3
+2026-09-12 10:34:54 [INFO] Enviar: 1
+2026-09-12 10:34:54 [INFO] Não enviar: 2
+2026-09-12 10:34:54 [INFO] ======================================================================
