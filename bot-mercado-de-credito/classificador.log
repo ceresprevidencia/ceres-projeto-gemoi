@@ -20559,3 +20559,86 @@
 2026-09-11 21:40:44 [INFO] Enviar: 6
 2026-09-11 21:40:44 [INFO] Não enviar: 21
 2026-09-11 21:40:44 [INFO] ======================================================================
+2026-09-12 00:04:54 [INFO] ======================================================================
+2026-09-12 00:04:54 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-12 00:04:54 [INFO] ======================================================================
+2026-09-12 00:04:54 [INFO] Notícias com status 'extraida': 14
+2026-09-12 00:04:54 [INFO] Limite: 20 requisições/minuto
+2026-09-12 00:04:54 [INFO] Intervalo mínimo: 3.0s
+2026-09-12 00:04:54 [INFO] ======================================================================
+2026-09-12 00:04:54 [INFO] [1/14] ID: https://www.contabeis.com.br/noticias/79373/recuperacao-judicial-em-alta-desafios-e-governanca-no-brasil/
+2026-09-12 00:04:54 [INFO] Título: <b>Recuperação Judicial</b> em Alta: Desafios e Governança no Brasil - Portal Contábeis
+2026-09-12 00:04:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:04:55 [INFO] Classificação: enviar
+2026-09-12 00:04:55 [INFO] Aguardando 2.15s...
+2026-09-12 00:04:57 [INFO] [2/14] ID: https://www.moneytimes.com.br/casas-bahia-bhia3-rafael-ferri-e-associacao-de-minoritarios-entram-com-pedido-contra-debenturistas-entenda-lmrs/
+2026-09-12 00:04:57 [INFO] Título: Casas Bahia (BHIA3): Rafael Ferri e Associação de Minoritários entram com pedido contra ...
+2026-09-12 00:04:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:04:57 [INFO] Classificação: nao_enviar
+2026-09-12 00:04:57 [INFO] Aguardando 2.65s...
+2026-09-12 00:05:00 [INFO] [3/14] ID: https://leouve.com.br/opiniao/com-passivo-superior-a-r-80-milhoes-sorvelandia-de-caxias-do-sul-pede-recuperacao-judicial/
+2026-09-12 00:05:00 [INFO] Título: Com passivo superior a R$ 80 milhões, Sorvelândia, de Caxias do Sul, pede <b>recuperação judicial</b>
+2026-09-12 00:05:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:00 [INFO] Classificação: enviar
+2026-09-12 00:05:00 [INFO] Aguardando 2.62s...
+2026-09-12 00:05:03 [INFO] [4/14] ID: https://netlusa.com.br/noticias-da-portuguesa/recuperacao-judicial-da-lusa-segue-sem-homologacao-por-pendencias-fiscais
+2026-09-12 00:05:03 [INFO] Título: <b>Recuperação judicial</b> da Lusa segue sem homologação por pendências fiscais - NETLUSA
+2026-09-12 00:05:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:03 [INFO] Classificação: enviar
+2026-09-12 00:05:03 [INFO] Aguardando 2.51s...
+2026-09-12 00:05:06 [INFO] [5/14] ID: https://www.gazetadopovo.com.br/economia-cooperativa/cooperativas-agro-crise/
+2026-09-12 00:05:06 [INFO] Título: Cooperativas do agro ignoram crise e movimentam R$ 487 bilhões - Gazeta do Povo
+2026-09-12 00:05:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:06 [INFO] Classificação: nao_enviar
+2026-09-12 00:05:06 [INFO] Aguardando 2.50s...
+2026-09-12 00:05:09 [INFO] [6/14] ID: https://www.oabsp.org.br/jornaldaadvocacia/26-09-11-1607-direito-e-agronegocio-conferencia-da-oab-sp-discute-impactos-juridicos-de-mudancas-que-ja-afetam-o-produtor-rural
+2026-09-12 00:05:09 [INFO] Título: Direito e agronegócio: Conferência da OAB SP discute impactos jurídicos de mudanças que ...
+2026-09-12 00:05:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:09 [INFO] Classificação: nao_enviar
+2026-09-12 00:05:09 [INFO] Aguardando 2.74s...
+2026-09-12 00:05:12 [INFO] [7/14] ID: https://valor.globo.com/financas/noticia/2026/09/11/exclusivo-bc-arquiva-inquerito-da-liquidacao-da-reag-trust-e-reverte-indisponibilidade-de-bens-outras-investigacoes-seguem.ghtml
+2026-09-12 00:05:12 [INFO] Título: Exclusivo: BC arquiva inquérito da liquidação da Reag Trust e reverte indisponibilidade de bens
+2026-09-12 00:05:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:12 [INFO] Classificação: enviar
+2026-09-12 00:05:12 [INFO] Aguardando 2.59s...
+2026-09-12 00:05:15 [INFO] [8/14] ID: https://t7news.com.br/noticia/especial-caso-vorcaro-entenda-o-escandalo-do-banco-master-que-chegou-ao-centro-do-poder
+2026-09-12 00:05:15 [INFO] Título: ESPECIAL | Caso Vorcaro: entenda o escândalo do Banco Master que chegou ao centro do poder
+2026-09-12 00:05:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:15 [INFO] Classificação: nao_enviar
+2026-09-12 00:05:15 [INFO] Aguardando 2.74s...
+2026-09-12 00:05:18 [INFO] [9/14] ID: https://www.poder360.com.br/poder-justica/pf-mapeou-22-perfis-em-ofensiva-do-master-contra-o-bc-saiba-quais/
+2026-09-12 00:05:18 [INFO] Título: PF mapeou 22 perfis em ofensiva do Master contra o BC; saiba quais
+2026-09-12 00:05:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:18 [INFO] Classificação: nao_enviar
+2026-09-12 00:05:18 [INFO] Aguardando 2.52s...
+2026-09-12 00:05:21 [INFO] [10/14] ID: https://www.nexojornal.com.br/expresso/2026/09/11/andre-mendonca-caso-master-documentos-sigilos
+2026-09-12 00:05:21 [INFO] Título: O que André Mendonça tornou público no caso Master - Nexo Jornal
+2026-09-12 00:05:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:21 [INFO] Classificação: nao_enviar
+2026-09-12 00:05:21 [INFO] Aguardando 2.74s...
+2026-09-12 00:05:24 [INFO] [11/14] ID: https://www.gazetadopovo.com.br/republica/contrato-de-r-131-milhoes-do-master-garantia-valor-integral-apos-rescisao/
+2026-09-12 00:05:24 [INFO] Título: Contrato de R$ 131 milhões do Master garantia valor integral após rescisão
+2026-09-12 00:05:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:25 [INFO] Classificação: nao_enviar
+2026-09-12 00:05:25 [INFO] Aguardando 2.43s...
+2026-09-12 00:05:27 [INFO] [12/14] ID: https://www.cnnbrasil.com.br/politica/vorcaro-avisou-bc-sobre-solucao-para-venda-do-master-antes-de-ser-preso/
+2026-09-12 00:05:27 [INFO] Título: Vorcaro avisou BC sobre "solução" para venda do Master antes de ser preso | CNN Brasil
+2026-09-12 00:05:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:27 [INFO] Classificação: nao_enviar
+2026-09-12 00:05:27 [INFO] Aguardando 2.71s...
+2026-09-12 00:05:30 [INFO] [13/14] ID: https://www.dw.com/pt-br/moraes-toffoli-e-flávio-as-três-grandes-frentes-do-escândalo-master/a-79241092
+2026-09-12 00:05:30 [INFO] Título: Moraes, Toffoli, Flávio: As 3 grandes frentes do caso Master - DW.com
+2026-09-12 00:05:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:30 [INFO] Classificação: nao_enviar
+2026-09-12 00:05:30 [INFO] Aguardando 2.75s...
+2026-09-12 00:05:33 [INFO] [14/14] ID: https://www.opotiguar.com.br/stf-divulga-contrato-de-r-131-milhoes-entre-mulher-de-moraes-e-master
+2026-09-12 00:05:33 [INFO] Título: STF divulga contrato de R$ 131 milhões entre mulher de Moraes e Master - O Potiguar
+2026-09-12 00:05:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 00:05:33 [INFO] Classificação: nao_enviar
+2026-09-12 00:05:33 [INFO] ======================================================================
+2026-09-12 00:05:33 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-12 00:05:33 [INFO] ======================================================================
+2026-09-12 00:05:33 [INFO] Processadas: 14
+2026-09-12 00:05:33 [INFO] Enviar: 4
+2026-09-12 00:05:33 [INFO] Não enviar: 10
+2026-09-12 00:05:33 [INFO] ======================================================================
