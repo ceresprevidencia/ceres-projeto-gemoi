@@ -20997,3 +20997,91 @@
 2026-09-12 20:28:59 [INFO] Enviar: 6
 2026-09-12 20:28:59 [INFO] Não enviar: 10
 2026-09-12 20:28:59 [INFO] ======================================================================
+2026-09-12 22:56:23 [INFO] ======================================================================
+2026-09-12 22:56:23 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-12 22:56:23 [INFO] ======================================================================
+2026-09-12 22:56:23 [INFO] Notícias com status 'extraida': 15
+2026-09-12 22:56:23 [INFO] Limite: 20 requisições/minuto
+2026-09-12 22:56:23 [INFO] Intervalo mínimo: 3.0s
+2026-09-12 22:56:23 [INFO] ======================================================================
+2026-09-12 22:56:23 [INFO] [1/15] ID: https://vasconoticias.com.br/noticias/ex-jogador-e-dirigente-do-vasco-sao-investigados-por-suposta-fraude-na-recuperacao-judicial/
+2026-09-12 22:56:23 [INFO] Título: Polícia investiga suposta fraude na <b>recuperação judicial</b> do Vasco
+2026-09-12 22:56:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:23 [INFO] Classificação: enviar
+2026-09-12 22:56:24 [INFO] Aguardando 2.55s...
+2026-09-12 22:56:26 [INFO] [2/15] ID: https://www.justicaemfoco.com.br/noticias/151919
+2026-09-12 22:56:26 [INFO] Título: Marcello Perino: decisão do STJ limita efeitos de aditamento em <b>recuperação judicial</b>
+2026-09-12 22:56:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:26 [INFO] Classificação: enviar
+2026-09-12 22:56:26 [INFO] Aguardando 2.78s...
+2026-09-12 22:56:29 [INFO] [3/15] ID: https://timesbrasil.com.br/brasil/judiciario/mendonca-adiou-depoimento-vorcaro-cvm-ambipar-fundos/
+2026-09-12 22:56:29 [INFO] Título: Mendonça adiou depoimento de Vorcaro à CVM sobre Ambipar e fundos - Times Brasil
+2026-09-12 22:56:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:29 [INFO] Classificação: nao_enviar
+2026-09-12 22:56:29 [INFO] Aguardando 2.60s...
+2026-09-12 22:56:32 [INFO] [4/15] ID: https://dol.com.br/colunistas/mauro-bonna/962604/robo-comeca-a-fazer-entregas-na-porta-dos-apartamentos-em-belem
+2026-09-12 22:56:32 [INFO] Título: Robô começa a fazer entregas na porta dos apartamentos em Belém - DOL
+2026-09-12 22:56:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:32 [INFO] Classificação: nao_enviar
+2026-09-12 22:56:32 [INFO] Aguardando 2.77s...
+2026-09-12 22:56:35 [INFO] [5/15] ID: https://netlusa.com.br/noticias-da-portuguesa/ultimas-da-portuguesa-saf-ataca-netlusa-recuperacao-judicial-segue-sem-homologacao-e-mais
+2026-09-12 22:56:35 [INFO] Título: Últimas da Portuguesa: SAF ataca NETLUSA, <b>recuperação judicial</b> segue sem homologação e mais
+2026-09-12 22:56:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:35 [INFO] Classificação: enviar
+2026-09-12 22:56:35 [INFO] Aguardando 2.64s...
+2026-09-12 22:56:38 [INFO] [6/15] ID: https://www.meionews.com/esportes/ole/policia-investiga-possivel-fraude-em-recuperacao-judicial-do-vasco-pedrinho-sera-intimado-575120
+2026-09-12 22:56:38 [INFO] Título: Polícia investiga possível fraude em <b>recuperação judicial</b> do Vasco; Pedrinho será intimado
+2026-09-12 22:56:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:38 [INFO] Classificação: enviar
+2026-09-12 22:56:38 [INFO] Aguardando 2.78s...
+2026-09-12 22:56:41 [INFO] [7/15] ID: https://www.osul.com.br/crise-no-supremo-adiciona-incerteza-a-um-agro-que-ja-enfrenta-aperto-de-credito/amp/
+2026-09-12 22:56:41 [INFO] Título: Crise no Supremo adiciona incerteza a um agro que já enfrenta aperto de crédito - Jornal O Sul
+2026-09-12 22:56:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:41 [INFO] Classificação: nao_enviar
+2026-09-12 22:56:41 [INFO] Aguardando 2.63s...
+2026-09-12 22:56:44 [INFO] [8/15] ID: https://investidor10.com.br/amp/noticias/daniel-vorcaro-do-banco-master-deve-explicacoes-sobre-ambipar-e-renda-fixa-a-cvm-122599/
+2026-09-12 22:56:44 [INFO] Título: Daniel Vorcaro, do Banco Master, deve explicações sobre Ambipar e renda fixa à CVM
+2026-09-12 22:56:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:44 [INFO] Classificação: nao_enviar
+2026-09-12 22:56:44 [INFO] Aguardando 2.73s...
+2026-09-12 22:56:47 [INFO] [9/15] ID: https://www.brasildefato.com.br/2026/09/12/flavio-bolsonaro-manteve-contatos-e-pedidos-com-vorcaro-mesmo-com-investigacoes-avancadas-veja-cronologia/
+2026-09-12 22:56:47 [INFO] Título: Flávio Bolsonaro manteve contatos e pedidos com Vorcaro mesmo com investigações avançadas
+2026-09-12 22:56:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:47 [INFO] Classificação: nao_enviar
+2026-09-12 22:56:47 [INFO] Aguardando 2.60s...
+2026-09-12 22:56:50 [INFO] [10/15] ID: https://tconline.com.br/padres-da-caminhada-endurecem-criticas-e-cobram-investigacao-imparcial-no-caso-banco-master/
+2026-09-12 22:56:50 [INFO] Título: Padres da Caminhada endurecem críticas e cobram investigação imparcial no caso Banco Master
+2026-09-12 22:56:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:50 [INFO] Classificação: nao_enviar
+2026-09-12 22:56:50 [INFO] Aguardando 2.79s...
+2026-09-12 22:56:53 [INFO] [11/15] ID: https://mistobrasil.com/2026/09/12/as-tres-grandes-suspeitas-toffoli-moraes-e-flavio/?amp=1
+2026-09-12 22:56:53 [INFO] Título: As três grandes suspeitas: Toffoli, Moraes e Flávio - - Misto Brasil
+2026-09-12 22:56:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:53 [INFO] Classificação: nao_enviar
+2026-09-12 22:56:53 [INFO] Aguardando 2.63s...
+2026-09-12 22:56:56 [INFO] [12/15] ID: https://www.tribunadosertao.com.br/poder-e-governo/2026/09/12/977729-servidores-do-bc-orientaram-vorcaro-antes-de-reuniao-com-campos-neto-que-autorizou-compra-do-will-bank
+2026-09-12 22:56:56 [INFO] Título: Servidores do BC orientaram Vorcaro antes de reunião com Campos Neto que autorizou ...
+2026-09-12 22:56:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:56 [INFO] Classificação: nao_enviar
+2026-09-12 22:56:56 [INFO] Aguardando 2.66s...
+2026-09-12 22:56:59 [INFO] [13/15] ID: https://redemoinho24.com/ultimas/homem-da-mala-de-vorcaro-nasceu-e-iniciou-carreira-no-sul-de-minas/amp/
+2026-09-12 22:56:59 [INFO] Título: 'Homem da mala' de Vorcaro nasceu e iniciou carreira no Sul de Minas - Rede Moinho 24
+2026-09-12 22:56:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:56:59 [INFO] Classificação: nao_enviar
+2026-09-12 22:56:59 [INFO] Aguardando 2.65s...
+2026-09-12 22:57:02 [INFO] [14/15] ID: https://www.bnewssaopaulo.com.br/amp/noticias/politica/pf-aponta-estrutura-financeira-entre-banco-master-e-grupo-ligado-ao-pcc.html
+2026-09-12 22:57:02 [INFO] Título: PF aponta estrutura financeira entre Banco Master e grupo ligado ao PCC - BNews SP
+2026-09-12 22:57:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:57:02 [INFO] Classificação: nao_enviar
+2026-09-12 22:57:02 [INFO] Aguardando 2.82s...
+2026-09-12 22:57:05 [INFO] [15/15] ID: https://www.jornalalemparahyba.com.br/2026/09/stf-divulga-contrato-de-r-131-milhoes-entre-mulher-de-moraes-e-banco-master/
+2026-09-12 22:57:05 [INFO] Título: STF divulga contrato de R$ 131 milhões entre mulher de Moraes e Banco Master
+2026-09-12 22:57:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-12 22:57:05 [INFO] Classificação: nao_enviar
+2026-09-12 22:57:05 [INFO] ======================================================================
+2026-09-12 22:57:05 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-12 22:57:05 [INFO] ======================================================================
+2026-09-12 22:57:05 [INFO] Processadas: 15
+2026-09-12 22:57:05 [INFO] Enviar: 4
+2026-09-12 22:57:05 [INFO] Não enviar: 11
+2026-09-12 22:57:05 [INFO] ======================================================================
