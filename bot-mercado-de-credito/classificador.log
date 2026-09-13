@@ -21085,3 +21085,51 @@
 2026-09-12 22:57:05 [INFO] Enviar: 4
 2026-09-12 22:57:05 [INFO] Não enviar: 11
 2026-09-12 22:57:05 [INFO] ======================================================================
+2026-09-13 00:49:39 [INFO] ======================================================================
+2026-09-13 00:49:39 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-13 00:49:39 [INFO] ======================================================================
+2026-09-13 00:49:39 [INFO] Notícias com status 'extraida': 7
+2026-09-13 00:49:39 [INFO] Limite: 20 requisições/minuto
+2026-09-13 00:49:39 [INFO] Intervalo mínimo: 3.0s
+2026-09-13 00:49:39 [INFO] ======================================================================
+2026-09-13 00:49:39 [INFO] [1/7] ID: https://srzd.com/blog/brasil/rio-de-janeiro-brasil/policia-investiga-suposta-fraude-milionaria-em-recuperacao-judicial-do-vasco/
+2026-09-13 00:49:39 [INFO] Título: Polícia investiga suposta fraude milionária em <b>recuperação judicial</b> do Vasco - SRzd
+2026-09-13 00:49:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 00:49:40 [INFO] Classificação: enviar
+2026-09-13 00:49:40 [INFO] Aguardando 2.62s...
+2026-09-13 00:49:42 [INFO] [2/7] ID: https://www.brasil247.com/brasil/mendonca-autorizou-bloqueio-de-r-17-bi-em-bens-ligados-a-vorcaro-no-exterior/
+2026-09-13 00:49:42 [INFO] Título: Mendonça autorizou bloqueio de R$ 1,7 bi em bens ligados a Vorcaro no exterior
+2026-09-13 00:49:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 00:49:43 [INFO] Classificação: nao_enviar
+2026-09-13 00:49:43 [INFO] Aguardando 2.59s...
+2026-09-13 00:49:45 [INFO] [3/7] ID: https://oantagonista.com.br/economia/uma-biotecnologica-que-apostava-em-inteligencia-artificial-entrou-em-recuperacao-judicial-poucos-dias-depois-de-admitir-que-nao-conseguia-sustentar-a-propria-operacao/
+2026-09-13 00:49:45 [INFO] Título: Uma biotecnológica que apostava em inteligência artificial entrou em recuperação <b>judicial</b> ...
+2026-09-13 00:49:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 00:49:46 [INFO] Classificação: enviar
+2026-09-13 00:49:46 [INFO] Aguardando 2.66s...
+2026-09-13 00:49:48 [INFO] [4/7] ID: https://g1.globo.com/politica/noticia/2026/09/12/mendonca-autorizou-bloqueio-de-r-17-bi-em-bens-de-bancos-ligados-a-vorcaro-no-exterior-lista-tem-picasso-basquiat-imoveis-e-barcos.ghtml
+2026-09-13 00:49:48 [INFO] Título: Mendonça autorizou bloqueio de R$ 1,7 bi em bens de bancos ligados a Vorcaro no exterior - G1
+2026-09-13 00:49:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 00:49:49 [INFO] Classificação: nao_enviar
+2026-09-13 00:49:49 [INFO] Aguardando 2.75s...
+2026-09-13 00:49:51 [INFO] [5/7] ID: https://082noticias.com/maceio/justica-reconhece-responsabilidade-de-jhc-pelo-iprev-em-investigacao-sobre-r-97-milhoes-no-banco-master/
+2026-09-13 00:49:51 [INFO] Título: Justiça reconhece responsabilidade de JHC pelo IPREV em investigação sobre R$ 97 ...
+2026-09-13 00:49:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 00:49:52 [INFO] Classificação: nao_enviar
+2026-09-13 00:49:52 [INFO] Aguardando 2.70s...
+2026-09-13 00:49:54 [INFO] [6/7] ID: https://www.gazetaweb.com/noticias/eleicoes/policia-federal-chama-ronnie-mota-de-principal-artifice-interno-das-aplicacoes-do-iprev-935528
+2026-09-13 00:49:54 [INFO] Título: Policia Federal chama Ronnie Mota de “principal artífice” interno das aplicações do Iprev
+2026-09-13 00:49:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 00:49:55 [INFO] Classificação: nao_enviar
+2026-09-13 00:49:55 [INFO] Aguardando 2.61s...
+2026-09-13 00:49:57 [INFO] [7/7] ID: https://www.tvpampa.com.br/policia-federal-concluiu-que-daniel-vorcaro-fabricava-reputacao-digital-positiva-para-neutralizar-criticas-nas-redes-sociais/
+2026-09-13 00:49:57 [INFO] Título: Polícia Federal concluiu que Daniel Vorcaro fabricava reputação digital positiva para ... - TV Pampa
+2026-09-13 00:49:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 00:49:58 [INFO] Classificação: nao_enviar
+2026-09-13 00:49:58 [INFO] ======================================================================
+2026-09-13 00:49:58 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-13 00:49:58 [INFO] ======================================================================
+2026-09-13 00:49:58 [INFO] Processadas: 7
+2026-09-13 00:49:58 [INFO] Enviar: 2
+2026-09-13 00:49:58 [INFO] Não enviar: 5
+2026-09-13 00:49:58 [INFO] ======================================================================
