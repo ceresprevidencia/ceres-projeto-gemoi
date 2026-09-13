@@ -21530,3 +21530,96 @@
 2026-09-13 19:18:29 [INFO] Enviar: 6
 2026-09-13 19:18:29 [INFO] Não enviar: 10
 2026-09-13 19:18:29 [INFO] ======================================================================
+2026-09-13 22:19:32 [INFO] ======================================================================
+2026-09-13 22:19:32 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-13 22:19:32 [INFO] ======================================================================
+2026-09-13 22:19:32 [INFO] Notícias com status 'extraida': 16
+2026-09-13 22:19:32 [INFO] Limite: 20 requisições/minuto
+2026-09-13 22:19:32 [INFO] Intervalo mínimo: 3.0s
+2026-09-13 22:19:32 [INFO] ======================================================================
+2026-09-13 22:19:32 [INFO] [1/16] ID: https://www.folhape.com.br/politica/mendonca-autorizou-bloqueio-de-r-2-bilhoes-em-bens-ligados-a-vorcaro/512299/
+2026-09-13 22:19:32 [INFO] Título: Mendonça autorizou bloqueio de R$ 2 bilhões em bens ligados a Vorcaro - Folha PE
+2026-09-13 22:19:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:33 [INFO] Classificação: nao_enviar
+2026-09-13 22:19:33 [INFO] Aguardando 2.35s...
+2026-09-13 22:19:35 [INFO] [2/16] ID: https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/09/com-divida-de-r-50-milhoes-metalurgica-de-caxias-do-sul-pede-recuperacao-judicial-cmtvx77i101bz01639w2okyl8.html
+2026-09-13 22:19:35 [INFO] Título: Com dívida de R$ 50 milhões, metalúrgica de Caxias do Sul pede <b>recuperação judicial</b>
+2026-09-13 22:19:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:35 [INFO] Classificação: enviar
+2026-09-13 22:19:35 [INFO] Aguardando 2.66s...
+2026-09-13 22:19:38 [INFO] [3/16] ID: https://conjur.com.br/2026-set-13/saf-do-vasco-testa-limites-de-atuacao-da-anresf/
+2026-09-13 22:19:38 [INFO] Título: SAF do Vasco testa limites de atuação da Anresf - Conjur
+2026-09-13 22:19:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:38 [INFO] Classificação: nao_enviar
+2026-09-13 22:19:38 [INFO] Aguardando 2.64s...
+2026-09-13 22:19:41 [INFO] [4/16] ID: https://ahoradosul.com.br/conteudos/2026/09/13/parece-claro-que-todo-esse-conflito-existe-por-motivacoes-politicas-e-eleitorais/
+2026-09-13 22:19:41 [INFO] Título: “Parece claro que todo esse conflito existe por motivações políticas e eleitorais” - A Hora do Sul
+2026-09-13 22:19:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:41 [INFO] Classificação: nao_enviar
+2026-09-13 22:19:41 [INFO] Aguardando 2.64s...
+2026-09-13 22:19:44 [INFO] [5/16] ID: https://oglobo.globo.com/economia/noticia/2026/09/13/diante-de-problemas-de-caixa-o-que-um-pequeno-empresario-deve-fazer-pra-evitar-crises.ghtml
+2026-09-13 22:19:44 [INFO] Título: Diante de problemas de caixa, o que um pequeno empresário deve fazer pra evitar crises?
+2026-09-13 22:19:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:44 [INFO] Classificação: nao_enviar
+2026-09-13 22:19:44 [INFO] Aguardando 2.59s...
+2026-09-13 22:19:47 [INFO] [6/16] ID: https://divinews.com/2026/09/13/intercept-flavio-roscoe-recebeu-doacao-de-r-900-mil-para-campanha-feita-por-ex-controlador-de-banco-reu-em-acao-por-crimes/
+2026-09-13 22:19:47 [INFO] Título: Intercept: Flávio Roscoe recebeu doação de R$ 900 mil para campanha, feita por ex ...
+2026-09-13 22:19:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:48 [INFO] Classificação: nao_enviar
+2026-09-13 22:19:48 [INFO] Aguardando 2.55s...
+2026-09-13 22:19:50 [INFO] [7/16] ID: https://www.poder360.com.br/poder-justica/previdencia-de-maceio-aplicou-r-97-mi-no-master-na-gestao-de-jhc-diz-pf/
+2026-09-13 22:19:50 [INFO] Título: Previdência de Maceió aplicou R$ 97 mi no Master na gestão de JHC, diz PF - Poder360
+2026-09-13 22:19:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:50 [INFO] Classificação: nao_enviar
+2026-09-13 22:19:50 [INFO] Aguardando 2.67s...
+2026-09-13 22:19:53 [INFO] [8/16] ID: https://www.brasil247.com/brasil/pf-diz-a-fachin-que-pode-enviar-dados-do-celular-de-vorcaro-a-ministros-do-stf/
+2026-09-13 22:19:53 [INFO] Título: PF diz a Fachin que pode enviar dados do celular de Vorcaro a ministros do STF
+2026-09-13 22:19:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:53 [INFO] Classificação: nao_enviar
+2026-09-13 22:19:53 [INFO] Aguardando 2.64s...
+2026-09-13 22:19:56 [INFO] [9/16] ID: https://www.instagram.com/p/DdPXoZrGd9e/
+2026-09-13 22:19:56 [INFO] Título: Após uma reunião entre os dois, em 14 de novembro de 2025, Daniel Vorcaro redigiu uma ...
+2026-09-13 22:19:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:56 [INFO] Classificação: nao_enviar
+2026-09-13 22:19:57 [INFO] Aguardando 2.58s...
+2026-09-13 22:19:59 [INFO] [10/16] ID: https://www.tribunadosertao.com.br/politica/2026/09/13/978182-valor-economico-veiculo-sediado-no-rio-de-janeiro-repercute-escandalo-do-iprevmaceio-que-envolve-jhc
+2026-09-13 22:19:59 [INFO] Título: Valor Econômico, veículo sediado no Rio de Janeiro, repercute escândalo do Iprev/Maceió ...
+2026-09-13 22:19:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:19:59 [INFO] Classificação: nao_enviar
+2026-09-13 22:19:59 [INFO] Aguardando 2.70s...
+2026-09-13 22:20:02 [INFO] [11/16] ID: https://correiodoestado.com.br/cidades/presidente-do-stf-assume-relatoria-de-processo-sobre-moraes-e-vorcaro/472622/
+2026-09-13 22:20:02 [INFO] Título: Presidente do STF assume relatoria de processo sobre Moraes e Vorcaro
+2026-09-13 22:20:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:20:02 [INFO] Classificação: nao_enviar
+2026-09-13 22:20:02 [INFO] Aguardando 2.72s...
+2026-09-13 22:20:05 [INFO] [12/16] ID: https://conjur.com.br/2026-set-13/para-entender-o-caso-banco-master-vorcaro-no-stf-pet-16-662/
+2026-09-13 22:20:05 [INFO] Título: Para entender o caso Banco Master/Vorcaro no STF — Pet 16.662 - Conjur
+2026-09-13 22:20:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:20:06 [INFO] Classificação: nao_enviar
+2026-09-13 22:20:06 [INFO] Aguardando 2.32s...
+2026-09-13 22:20:08 [INFO] [13/16] ID: https://www.tribunadoagreste.com.br/politica/2026/09/13/978154-quem-deixou-passar-documentos-revelam-caminho-dos-r-97-milhoes-do-iprev-ate-o-master
+2026-09-13 22:20:08 [INFO] Título: Quem deixou passar? Documentos revelam caminho dos R$ 97 milhões do Iprev até o Master
+2026-09-13 22:20:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:20:08 [INFO] Classificação: nao_enviar
+2026-09-13 22:20:08 [INFO] Aguardando 2.71s...
+2026-09-13 22:20:11 [INFO] [14/16] ID: https://www.opovo.com.br/noticias/politica/2026/09/13/amp/moraes-toffoli-e-flavio-tres-grandes-frentes-do-caso-master.html
+2026-09-13 22:20:11 [INFO] Título: Escândalo Master: Suspeitas contra ministros do STF e Flávio Bolsonaro - O POVO
+2026-09-13 22:20:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:20:11 [INFO] Classificação: nao_enviar
+2026-09-13 22:20:11 [INFO] Aguardando 2.68s...
+2026-09-13 22:20:14 [INFO] [15/16] ID: https://noticias.uol.com.br/ultimas-noticias/reuters/2026/09/13/dino-tira-sigilo-de-investigacao-sobre-desvio-de-emendas-parlamentares-para-dark-horse.htm
+2026-09-13 22:20:14 [INFO] Título: Dino tira sigilo de investigação sobre desvio de emendas parlamentares para Dark Horse
+2026-09-13 22:20:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:20:14 [INFO] Classificação: nao_enviar
+2026-09-13 22:20:14 [INFO] Aguardando 2.71s...
+2026-09-13 22:20:17 [INFO] [16/16] ID: https://spdiario.com.br/noticias/politica/antes-de-aval-ao-will-bank-servidor-do-bc-orientou-vorcaro-para-reuniao-com-campos-neto.html
+2026-09-13 22:20:17 [INFO] Título: Antes de aval ao Will Bank, servidor do BC orientou Vorcaro para reunião com Campos Neto
+2026-09-13 22:20:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 22:20:17 [INFO] Classificação: nao_enviar
+2026-09-13 22:20:17 [INFO] ======================================================================
+2026-09-13 22:20:17 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-13 22:20:17 [INFO] ======================================================================
+2026-09-13 22:20:17 [INFO] Processadas: 16
+2026-09-13 22:20:17 [INFO] Enviar: 1
+2026-09-13 22:20:17 [INFO] Não enviar: 15
+2026-09-13 22:20:17 [INFO] ======================================================================
