@@ -21133,3 +21133,111 @@
 2026-09-13 00:49:58 [INFO] Enviar: 2
 2026-09-13 00:49:58 [INFO] Não enviar: 5
 2026-09-13 00:49:58 [INFO] ======================================================================
+2026-09-13 05:55:00 [INFO] ======================================================================
+2026-09-13 05:55:00 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-13 05:55:00 [INFO] ======================================================================
+2026-09-13 05:55:00 [INFO] Notícias com status 'extraida': 19
+2026-09-13 05:55:00 [INFO] Limite: 20 requisições/minuto
+2026-09-13 05:55:00 [INFO] Intervalo mínimo: 3.0s
+2026-09-13 05:55:00 [INFO] ======================================================================
+2026-09-13 05:55:00 [INFO] [1/19] ID: https://www.oobservador.com/2026/09/pesquisa-eleitoral-em-rondonia-confira.html
+2026-09-13 05:55:00 [INFO] Título: Pesquisa eleitoral em Rondônia: Confira os candidatos que aparecem em destaque para ...
+2026-09-13 05:55:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:00 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:00 [INFO] Aguardando 2.63s...
+2026-09-13 05:55:03 [INFO] [2/19] ID: https://www.contabeis.com.br/noticias/79326/rad-entenda-quando-o-adquirente-podera-recolher-ibs-e-cbs/
+2026-09-13 05:55:03 [INFO] Título: RAD: entenda quando o adquirente poderá recolher IBS e CBS - Portal Contábeis
+2026-09-13 05:55:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:03 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:03 [INFO] Aguardando 2.78s...
+2026-09-13 05:55:06 [INFO] [3/19] ID: https://aciara.com.br/crise-stf-agro-incerteza-amplia-aperto-de-credito/
+2026-09-13 05:55:06 [INFO] Título: Crise STF agro: incerteza amplia aperto de crédito - Associação Comercial e Industrial de Araçatuba
+2026-09-13 05:55:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:06 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:06 [INFO] Aguardando 2.69s...
+2026-09-13 05:55:09 [INFO] [4/19] ID: https://tribunadonorte.com.br/esportes/eduardo-machado-projeta-o-abc-de-2027-com-paciencia-e-pe-no-chao/
+2026-09-13 05:55:09 [INFO] Título: Eduardo Machado projeta o ABC de 2027 com paciência e pé no chão - Tribuna do Norte
+2026-09-13 05:55:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:09 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:09 [INFO] Aguardando 2.71s...
+2026-09-13 05:55:12 [INFO] [5/19] ID: https://www1.folha.uol.com.br/cotidiano/2026/09/problema-em-boeing-737-faz-passageiros-desembarcarem-entre-pistas-em-guarulhos.shtml
+2026-09-13 05:55:12 [INFO] Título: Problema em Boeing 737 faz passageiros desembarcarem entre pistas em Guarulhos - Folha
+2026-09-13 05:55:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:12 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:12 [INFO] Aguardando 2.73s...
+2026-09-13 05:55:15 [INFO] [6/19] ID: https://www.fogaonet.com/noticias-do-botafogo/thairo-arruda-exalta-legado-botafogo-apresentado-ceo-investidor-santa-cruz/
+2026-09-13 05:55:15 [INFO] Título: Thairo Arruda exalta legado no Botafogo ao ser apresentado como CEO e investidor da SAF do ...
+2026-09-13 05:55:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:15 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:15 [INFO] Aguardando 2.65s...
+2026-09-13 05:55:18 [INFO] [7/19] ID: https://www.diariodolitoral.com.br/cotidiano/mansao-de-r-72-milhoes-do-tio-do-noivo-de-marina-ruy-barbosa-tem-piscina-de-140-metros-e-quase-25-mil-metros-de-area-construida/
+2026-09-13 05:55:18 [INFO] Título: Mansão de R$ 72 milhões do tio do noivo de Marina Ruy Barbosa e herdeiro da ... - Diário do Litoral
+2026-09-13 05:55:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:18 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:18 [INFO] Aguardando 2.64s...
+2026-09-13 05:55:21 [INFO] [8/19] ID: https://www.portalolavodutra.com.br/materias/o_brasil_que_trabalha_e_o_brasil_que_depende_que_sociedade_estamos_construindo
+2026-09-13 05:55:21 [INFO] Título: O Brasil que trabalha e o Brasil que depende: que sociedade estamos construindo?
+2026-09-13 05:55:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:21 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:21 [INFO] Aguardando 2.41s...
+2026-09-13 05:55:24 [INFO] [9/19] ID: https://www.theagribiz.com/credito-rural/e-uma-lca-o-diagnostico-do-mercado-sobre-as-cprs-da-slc-agricola/
+2026-09-13 05:55:24 [INFO] Título: “É uma LCA”. O diagnóstico do mercado sobre as CPRs da SLC Agrícola - The AgriBiz
+2026-09-13 05:55:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:24 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:24 [INFO] Aguardando 2.53s...
+2026-09-13 05:55:27 [INFO] [10/19] ID: https://bacananews.com.br/policia-investiga-possivel-fraude-na-recuperacao-judicial-do-vasco/
+2026-09-13 05:55:27 [INFO] Título: Polícia investiga possível fraude na <b>recuperação judicial</b> do Vasco - Bacana News
+2026-09-13 05:55:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:27 [INFO] Classificação: enviar
+2026-09-13 05:55:27 [INFO] Aguardando 2.75s...
+2026-09-13 05:55:30 [INFO] [11/19] ID: https://monitordomercado.com.br/noticias/424780-empresas-devem-buscar-sinais-de-deterioracao-para-evitar-recuperacao-judicial-diz-especialista/
+2026-09-13 05:55:30 [INFO] Título: Empresas devem buscar sinais de deterioração para evitar <b>recuperação judicial</b>, diz especialista
+2026-09-13 05:55:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:30 [INFO] Classificação: enviar
+2026-09-13 05:55:30 [INFO] Aguardando 2.65s...
+2026-09-13 05:55:33 [INFO] [12/19] ID: https://www.sportingnews.com/br/tsn/noticias/quem-e-max-ex-vasco-investigado-possivel-fraude-recuperacao-judicial/f1c9a1532a807ab0cf333363
+2026-09-13 05:55:33 [INFO] Título: Quem é Max, ex-Vasco investigado por possível fraude em <b>recuperação judicial</b> do clube
+2026-09-13 05:55:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:33 [INFO] Classificação: enviar
+2026-09-13 05:55:33 [INFO] Aguardando 2.69s...
+2026-09-13 05:55:36 [INFO] [13/19] ID: https://www.poder360.com.br/poder-energia/infra-em-1-minuto-quem-paga-a-conta-do-leilao-de-baterias/
+2026-09-13 05:55:36 [INFO] Título: Infra em 1 Minuto: quem paga a conta do leilão de baterias? - Poder360
+2026-09-13 05:55:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:36 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:36 [INFO] Aguardando 2.71s...
+2026-09-13 05:55:39 [INFO] [14/19] ID: https://economicnewsbrasil.com.br/2026/09/12/caso-master-ja-mobilizou-r-402-bi-do-fgc-enquanto-investigacao-alcanca-stf-e-congresso/
+2026-09-13 05:55:39 [INFO] Título: Caso Master já mobilizou R$ 40,2 bi do FGC enquanto investigação alcança STF e Congresso
+2026-09-13 05:55:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:39 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:39 [INFO] Aguardando 2.20s...
+2026-09-13 05:55:42 [INFO] [15/19] ID: https://ohoje.com/2026/09/12/pf-marca-depoimento-de-daniel-vorcaro-para-15-de-setembro/
+2026-09-13 05:55:42 [INFO] Título: PF marca depoimento de Daniel Vorcaro para 15 de setembro - O Hoje
+2026-09-13 05:55:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:42 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:42 [INFO] Aguardando 2.66s...
+2026-09-13 05:55:45 [INFO] [16/19] ID: https://www.gazetaweb.com/noticias/eleicoes/jhc-aparece-em-decisao-que-levou-investigacao-do-iprev-banco-master-ao-stf-935526
+2026-09-13 05:55:45 [INFO] Título: JHC aparece em decisão que levou investigação do Iprev-Banco Master ao STF
+2026-09-13 05:55:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:45 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:45 [INFO] Aguardando 2.71s...
+2026-09-13 05:55:48 [INFO] [17/19] ID: https://www.gazetaweb.com/noticias/eleicoes/supremo-retira-sigilo-do-caso-iprev-banco-master-entenda-o-embate-entre-jhc-e-renan-filho-935530
+2026-09-13 05:55:48 [INFO] Título: Supremo retira sigilo do caso Iprev-Banco Master: entenda o embate entre JHC e Renan Filho
+2026-09-13 05:55:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:48 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:48 [INFO] Aguardando 2.68s...
+2026-09-13 05:55:51 [INFO] [18/19] ID: https://diaadianoticia.com.br/augusto-cury-diz-ter-investido-r-315-mi-em-grupo-que-tentou-comprar-o-banco-master-mais-uma-vitima/
+2026-09-13 05:55:51 [INFO] Título: Augusto Cury diz ter investido R$ 31,5 mi em grupo que tentou comprar o Banco Master
+2026-09-13 05:55:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:51 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:51 [INFO] Aguardando 2.66s...
+2026-09-13 05:55:54 [INFO] [19/19] ID: https://spdiario.com.br/amp/noticias/politica/antes-de-aval-ao-will-bank-servidor-do-bc-orientou-vorcaro-para-reuniao-com-campos-neto.html
+2026-09-13 05:55:54 [INFO] Título: Antes de aval ao Will Bank, servidor do BC orientou Vorcaro para reunião com Campos Neto
+2026-09-13 05:55:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 05:55:54 [INFO] Classificação: nao_enviar
+2026-09-13 05:55:54 [INFO] ======================================================================
+2026-09-13 05:55:54 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-13 05:55:54 [INFO] ======================================================================
+2026-09-13 05:55:54 [INFO] Processadas: 19
+2026-09-13 05:55:54 [INFO] Enviar: 3
+2026-09-13 05:55:54 [INFO] Não enviar: 16
+2026-09-13 05:55:54 [INFO] ======================================================================
