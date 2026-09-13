@@ -21309,3 +21309,131 @@
 2026-09-13 11:38:12 [INFO] Enviar: 4
 2026-09-13 11:38:12 [INFO] Não enviar: 7
 2026-09-13 11:38:12 [INFO] ======================================================================
+2026-09-13 16:05:56 [INFO] ======================================================================
+2026-09-13 16:05:56 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-13 16:05:56 [INFO] ======================================================================
+2026-09-13 16:05:56 [INFO] Notícias com status 'extraida': 23
+2026-09-13 16:05:56 [INFO] Limite: 20 requisições/minuto
+2026-09-13 16:05:56 [INFO] Intervalo mínimo: 3.0s
+2026-09-13 16:05:56 [INFO] ======================================================================
+2026-09-13 16:05:56 [INFO] [1/23] ID: https://temporealrj.com/inquerito-do-master-suspeitas-agerio/
+2026-09-13 16:05:56 [INFO] Título: inquérito do Master revela suspeitas sobre operação da AgeRio - Tempo Real
+2026-09-13 16:05:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:05:56 [INFO] Classificação: nao_enviar
+2026-09-13 16:05:56 [INFO] Aguardando 2.36s...
+2026-09-13 16:05:59 [INFO] [2/23] ID: https://veronoticias.com/economia/crise-no-stf-amplia-incerteza-juridica-para-o-agronegocio/
+2026-09-13 16:05:59 [INFO] Título: Crise no STF amplia incerteza jurídica para o agronegócio - Vero Notícias
+2026-09-13 16:05:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:05:59 [INFO] Classificação: nao_enviar
+2026-09-13 16:05:59 [INFO] Aguardando 2.63s...
+2026-09-13 16:06:02 [INFO] [3/23] ID: https://gauchazh.clicrbs.com.br/pioneiro/colunistas/juliana-bevilaqua/noticia/2026/09/promocao-oferece-descontos-em-transporte-e-hotel-em-gramado-veja-mais-destaques-cmtylkvbl025p01356q0qw8ak.html
+2026-09-13 16:06:02 [INFO] Título: Promoção oferece descontos em transporte e hotel em Gramado; veja mais destaques
+2026-09-13 16:06:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:02 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:02 [INFO] Aguardando 2.73s...
+2026-09-13 16:06:05 [INFO] [4/23] ID: https://comerciariocg.com.br/sindicato-ctb-pb-e-feconeste-pb-se-reunem-com-ministro-do-trabalho-em-joao-pessoa-para-discutir-movimento-sindical/
+2026-09-13 16:06:05 [INFO] Título: Sindicato, CTB-PB e Feconeste-PB se reúnem com ministro do Trabalho em João Pessoa ...
+2026-09-13 16:06:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:05 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:05 [INFO] Aguardando 2.73s...
+2026-09-13 16:06:08 [INFO] [5/23] ID: https://portogente.com.br/noticias/transporte-logistica/118103-governanca-em-xeque-o-que-o-caso-portlog-ensina-ao-porto-de-santos
+2026-09-13 16:06:08 [INFO] Título: Governança em Xeque: o que o Caso Portlog Ensina ao Porto de Santos - Portogente
+2026-09-13 16:06:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:08 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:08 [INFO] Aguardando 2.72s...
+2026-09-13 16:06:11 [INFO] [6/23] ID: https://www.infomoney.com.br/minhas-financas/recuperacao-judicial-avanca-entre-pequenos-negocios-veja-como-enfrentar-crise/
+2026-09-13 16:06:11 [INFO] Título: <b>Recuperação judicial</b> avança entre pequenos negócios: veja como enfrentar crise
+2026-09-13 16:06:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:11 [INFO] Classificação: enviar
+2026-09-13 16:06:11 [INFO] Aguardando 2.65s...
+2026-09-13 16:06:14 [INFO] [7/23] ID: https://www.diariodepernambuco.com.br/colunas/diario-economico/2026/09/11723774-uso-nao-autorizado-de-ia-expoe-empresas-a-riscos-de-vazamento-de-dados.html
+2026-09-13 16:06:14 [INFO] Título: Uso não autorizado de IA expõe empresas a riscos de vazamento de dados - Diario de Pernambuco
+2026-09-13 16:06:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:14 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:14 [INFO] Aguardando 2.74s...
+2026-09-13 16:06:17 [INFO] [8/23] ID: https://pipelinevalor.globo.com/google/amp/mercado/noticia/chapter-11-x-recuperacao-judicial-o-que-os-casos-azul-gol-e-latam-revelam.ghtml
+2026-09-13 16:06:17 [INFO] Título: Chapter 11 x <b>Recuperação Judicial</b>: o que os casos Azul, Gol e Latam revelam | Mercado
+2026-09-13 16:06:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:17 [INFO] Classificação: enviar
+2026-09-13 16:06:17 [INFO] Aguardando 2.70s...
+2026-09-13 16:06:20 [INFO] [9/23] ID: https://www.olhardireto.com.br/juridico/noticias/ex-prefeito-segue-afastado-da-administracao-da-safras-e-assembleia-retira-interventor-da-rj
+2026-09-13 16:06:20 [INFO] Título: Ex-prefeito segue afastado da administração da Safras e assembleia retira interventor da RJ
+2026-09-13 16:06:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:20 [INFO] Classificação: enviar
+2026-09-13 16:06:20 [INFO] Aguardando 2.67s...
+2026-09-13 16:06:23 [INFO] [10/23] ID: https://www.atribuna.com.br/opiniao/maxwell-rodrigues/inseguranca-juridica-terrestre-isola-o-brasil-no-tabuleiro-maritimo-mundial-1.529321
+2026-09-13 16:06:23 [INFO] Título: Insegurança jurídica terrestre isola o Brasil no tabuleiro marítimo mundial - A Tribuna
+2026-09-13 16:06:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:23 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:23 [INFO] Aguardando 2.69s...
+2026-09-13 16:06:26 [INFO] [11/23] ID: https://www.defato.com/esportes/128855/polcia-investiga-ex-jogador-e-dirigente-do-vasco-por-suposta-tentativa-de-fraude
+2026-09-13 16:06:26 [INFO] Título: Polícia investiga ex-jogador e dirigente do Vasco por suposta tentativa de fraude - DeFato.com
+2026-09-13 16:06:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:26 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:26 [INFO] Aguardando 2.67s...
+2026-09-13 16:06:29 [INFO] [12/23] ID: https://www.terra.com.br/esportes/vasco/policia-investiga-fraude-no-vasco-veja-quem-sao-os-alvos-da-acao,c2c11dcffb60e1e81ef13ab044abc590jv7silgj.html
+2026-09-13 16:06:29 [INFO] Título: Polícia investiga fraude no Vasco: veja quem são os alvos da ação - Terra
+2026-09-13 16:06:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:29 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:29 [INFO] Aguardando 2.66s...
+2026-09-13 16:06:32 [INFO] [13/23] ID: https://www.ativovirtual.com.br/avnews/artigos/recuperacao-judicial-de-mpes-salta-414-o-que-o-numero-esconde
+2026-09-13 16:06:32 [INFO] Título: Recuperação <b>judicial</b> de MPEs salta 41,4%: o que o número esconde - Ativo Virtual
+2026-09-13 16:06:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:32 [INFO] Classificação: enviar
+2026-09-13 16:06:32 [INFO] Aguardando 2.44s...
+2026-09-13 16:06:35 [INFO] [14/23] ID: https://pipelinevalor.globo.com/mercado/noticia/chapter-11-x-recuperacao-judicial-o-que-os-casos-azul-gol-e-latam-revelam.ghtml
+2026-09-13 16:06:35 [INFO] Título: Chapter 11 x Recuperação <b>Judicial</b>: o que os casos Azul, Gol e Latam revelam - Pipeline
+2026-09-13 16:06:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:35 [INFO] Classificação: enviar
+2026-09-13 16:06:35 [INFO] Aguardando 2.71s...
+2026-09-13 16:06:38 [INFO] [15/23] ID: https://oantagonista.com.br/economia/uma-fabricante-chegou-a-falencia-com-mais-de-us-9-bilhoes-em-dividas-vendeu-divisoes-por-apenas-us-194-milhoes-e-acabou-enviada-para-liquidacao/
+2026-09-13 16:06:38 [INFO] Título: Uma fabricante chegou à falência com mais de US$ 9 bilhões em dívidas, vendeu divisões ...
+2026-09-13 16:06:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:38 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:38 [INFO] Aguardando 2.66s...
+2026-09-13 16:06:41 [INFO] [16/23] ID: https://jogada10.com.br/policia-investiga-fraude-no-processo-de-recuperacao-do-vasco/
+2026-09-13 16:06:41 [INFO] Título: Polícia investiga fraude no processo de recuperação do Vasco - Jogada 10
+2026-09-13 16:06:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:41 [INFO] Classificação: enviar
+2026-09-13 16:06:41 [INFO] Aguardando 2.48s...
+2026-09-13 16:06:44 [INFO] [17/23] ID: https://www.terra.com.br/noticias/brasil/pf-diz-a-fachin-que-pode-encaminhar-copia-de-dados-tirado-de-celular-de-vorcaro-a-ministros,a12252bca656db7a1bd21b9746f10dfbk9v8nylo.html
+2026-09-13 16:06:44 [INFO] Título: PF diz a Fachin que pode encaminhar cópia de dados tirado de celular de Vorcaro a ministros
+2026-09-13 16:06:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:44 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:44 [INFO] Aguardando 2.79s...
+2026-09-13 16:06:47 [INFO] [18/23] ID: https://noticias.uol.com.br/ultimas-noticias/reuters/2026/09/13/pf-diz-a-fachin-que-pode-encaminhar-copia-de-dados-tirado-de-celular-de-vorcaro-a-ministros.amp.htm
+2026-09-13 16:06:47 [INFO] Título: PF diz a Fachin que pode encaminhar cópia de dados tirado de celular de Vorcaro a ministros
+2026-09-13 16:06:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:47 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:47 [INFO] Aguardando 2.67s...
+2026-09-13 16:06:50 [INFO] [19/23] ID: https://www.antena1.com.br/noticias/dino-tira-sigilo-de-investigacao-sobre-desvio-de-emendas-parlamentares-para-dark-horse
+2026-09-13 16:06:50 [INFO] Título: Dino tira sigilo de investigação sobre desvio de emendas parlamentares para Dark Horse
+2026-09-13 16:06:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:50 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:50 [INFO] Aguardando 2.73s...
+2026-09-13 16:06:53 [INFO] [20/23] ID: https://www.terra.com.br/noticias/brasil/dino-tira-sigilo-de-investigacao-sobre-desvio-de-emendas-parlamentares-para-dark-horse,bb0f7f1d5ab231b0ae0a49d85a4a90025dnh9vbg.html
+2026-09-13 16:06:53 [INFO] Título: Dino tira sigilo de investigação sobre desvio de emendas parlamentares para Dark Horse
+2026-09-13 16:06:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:53 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:53 [INFO] Aguardando 2.74s...
+2026-09-13 16:06:56 [INFO] [21/23] ID: https://gda.com/detalle-de-la-noticia/?article=6177617
+2026-09-13 16:06:56 [INFO] Título: Servidores do bc informaram a vorcaro nomes de policiais que o investigavam | GDA
+2026-09-13 16:06:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:56 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:56 [INFO] Aguardando 2.68s...
+2026-09-13 16:06:59 [INFO] [22/23] ID: https://correiodoestado.com.br/cidades/pf-aponta-fraude-de-r-17-bilhoes-em-operacoes-entre-master-e-brb/472632/
+2026-09-13 16:06:59 [INFO] Título: PF aponta fraude de R$ 17 bilhões em operações entre Master e BRB - Correio do Estado
+2026-09-13 16:06:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:06:59 [INFO] Classificação: nao_enviar
+2026-09-13 16:06:59 [INFO] Aguardando 2.67s...
+2026-09-13 16:07:02 [INFO] [23/23] ID: https://www.maisgoias.com.br/brasil/economia/pobre-menino-rico-quem-e-e-de-onde-veio-a-fortuna-de-daniel-vorcaro/
+2026-09-13 16:07:02 [INFO] Título: Pobre menino rico: quem é e de onde veio a fortuna de Daniel Vorcaro - Mais Goiás
+2026-09-13 16:07:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 16:07:02 [INFO] Classificação: nao_enviar
+2026-09-13 16:07:02 [INFO] ======================================================================
+2026-09-13 16:07:02 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-13 16:07:02 [INFO] ======================================================================
+2026-09-13 16:07:02 [INFO] Processadas: 23
+2026-09-13 16:07:02 [INFO] Enviar: 6
+2026-09-13 16:07:02 [INFO] Não enviar: 17
+2026-09-13 16:07:02 [INFO] ======================================================================
