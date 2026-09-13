@@ -21241,3 +21241,71 @@
 2026-09-13 05:55:54 [INFO] Enviar: 3
 2026-09-13 05:55:54 [INFO] Não enviar: 16
 2026-09-13 05:55:54 [INFO] ======================================================================
+2026-09-13 11:37:42 [INFO] ======================================================================
+2026-09-13 11:37:42 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-13 11:37:42 [INFO] ======================================================================
+2026-09-13 11:37:42 [INFO] Notícias com status 'extraida': 11
+2026-09-13 11:37:42 [INFO] Limite: 20 requisições/minuto
+2026-09-13 11:37:42 [INFO] Intervalo mínimo: 3.0s
+2026-09-13 11:37:42 [INFO] ======================================================================
+2026-09-13 11:37:42 [INFO] [1/11] ID: https://www.tribunadosertao.com.br/financas/2026/09/13/977946-recuperacao-judicial-avanca-entre-pequenos-negocios-caminhos-para-enfrentar-uma-crise-financeira
+2026-09-13 11:37:42 [INFO] Título: <b>Recuperação judicial</b> avança entre pequenos negócios: caminhos para enfrentar uma crise ...
+2026-09-13 11:37:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:37:42 [INFO] Classificação: enviar
+2026-09-13 11:37:42 [INFO] Aguardando 2.70s...
+2026-09-13 11:37:45 [INFO] [2/11] ID: https://www.folhape.com.br/colunistas/blogdafolha/campanha-de-lula-divulga-agenda-de-mobilizacao-em-pernambuco-neste-domingo-13/59742/
+2026-09-13 11:37:45 [INFO] Título: Campanha de Lula divulga agenda de mobilização em Pernambuco neste domingo (13)
+2026-09-13 11:37:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:37:45 [INFO] Classificação: nao_enviar
+2026-09-13 11:37:45 [INFO] Aguardando 2.70s...
+2026-09-13 11:37:48 [INFO] [3/11] ID: https://extra.globo.com/economia/noticia/2026/09/recuperacao-judicial-avanca-entre-pequenos-negocios-veja-caminhos-para-enfrentar-uma-crise-financeira.ghtml
+2026-09-13 11:37:48 [INFO] Título: <b>Recuperação judicial</b> avança entre pequenos negócios. Veja caminhos para enfrentar uma ...
+2026-09-13 11:37:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:37:48 [INFO] Classificação: enviar
+2026-09-13 11:37:48 [INFO] Aguardando 2.84s...
+2026-09-13 11:37:51 [INFO] [4/11] ID: https://economia.uol.com.br/noticias/redacao/2026/09/13/crise-no-agro-gera-calote-de-r-48-bi-e-transforma-bancos-em-fazendeiros.amp.htm
+2026-09-13 11:37:51 [INFO] Título: Crise no agro gera calote e transforma bancos em ?fazendeiros? - UOL Economia
+2026-09-13 11:37:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:37:52 [INFO] Classificação: nao_enviar
+2026-09-13 11:37:52 [INFO] Aguardando 2.61s...
+2026-09-13 11:37:54 [INFO] [5/11] ID: https://extra.globo.com/google/amp/economia/noticia/2026/09/recuperacao-judicial-avanca-entre-pequenos-negocios-veja-caminhos-para-enfrentar-uma-crise-financeira.ghtml
+2026-09-13 11:37:54 [INFO] Título: <b>Recuperação judicial</b> avança entre pequenos negócios. Veja caminhos para enfrentar uma ...
+2026-09-13 11:37:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:37:54 [INFO] Classificação: enviar
+2026-09-13 11:37:55 [INFO] Aguardando 2.60s...
+2026-09-13 11:37:57 [INFO] [6/11] ID: https://oglobo.globo.com/economia/noticia/2026/09/13/onda-de-recuperacoes-judiciais-chega-a-microempresas.ghtml
+2026-09-13 11:37:57 [INFO] Título: Onda de recuperações <b>judiciais</b> chega a microempresas - O GLOBO
+2026-09-13 11:37:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:37:57 [INFO] Classificação: enviar
+2026-09-13 11:37:57 [INFO] Aguardando 2.67s...
+2026-09-13 11:38:00 [INFO] [7/11] ID: https://www.infomoney.com.br/mercados/toky-elege-novo-membro-para-conselho-em-meio-a-questionamentos-de-minoritarios/
+2026-09-13 11:38:00 [INFO] Título: Toky elege novo membro para conselho em meio a questionamentos de minoritários
+2026-09-13 11:38:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:38:00 [INFO] Classificação: nao_enviar
+2026-09-13 11:38:01 [INFO] Aguardando 2.66s...
+2026-09-13 11:38:03 [INFO] [8/11] ID: https://colunapolitica.com.br/artigos/como-as-mudancas-na-substituicao-tributaria-do-icms-de-sao-paulo-impactam-a-cadeia-do-cobre/
+2026-09-13 11:38:03 [INFO] Título: Como as mudanças na Substituição Tributária do ICMS de São Paulo impactam a cadeia do Cobre
+2026-09-13 11:38:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:38:03 [INFO] Classificação: nao_enviar
+2026-09-13 11:38:03 [INFO] Aguardando 2.77s...
+2026-09-13 11:38:06 [INFO] [9/11] ID: https://colunapolitica.com.br/poder-judiciario/carmen-lucia-barra-tentativa-de-afastar-condenacao-de-ex-deputado/
+2026-09-13 11:38:06 [INFO] Título: Cármen Lúcia barra tentativa de afastar condenação de ex-deputado - Coluna Política
+2026-09-13 11:38:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:38:06 [INFO] Classificação: nao_enviar
+2026-09-13 11:38:07 [INFO] Aguardando 2.63s...
+2026-09-13 11:38:09 [INFO] [10/11] ID: https://www.paulopes.com.br/2026/09/igreja-lagoinha-lava-pelo-menos-r-57.html
+2026-09-13 11:38:09 [INFO] Título: Igreja Lagoinha 'lava' pelo menos R$ 57 milhões para o esquema de corrupção de Vorcaro
+2026-09-13 11:38:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:38:09 [INFO] Classificação: nao_enviar
+2026-09-13 11:38:10 [INFO] Aguardando 2.67s...
+2026-09-13 11:38:12 [INFO] [11/11] ID: https://colunapolitica.com.br/politica/projeto-de-ana-pimentel-derruba-termo-centenario/
+2026-09-13 11:38:12 [INFO] Título: Projeto de Ana Pimentel derruba termo centenário - Coluna Política
+2026-09-13 11:38:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 11:38:12 [INFO] Classificação: nao_enviar
+2026-09-13 11:38:12 [INFO] ======================================================================
+2026-09-13 11:38:12 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-13 11:38:12 [INFO] ======================================================================
+2026-09-13 11:38:12 [INFO] Processadas: 11
+2026-09-13 11:38:12 [INFO] Enviar: 4
+2026-09-13 11:38:12 [INFO] Não enviar: 7
+2026-09-13 11:38:12 [INFO] ======================================================================
