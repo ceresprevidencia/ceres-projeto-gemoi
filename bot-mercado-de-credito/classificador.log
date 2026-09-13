@@ -21437,3 +21437,96 @@
 2026-09-13 16:07:02 [INFO] Enviar: 6
 2026-09-13 16:07:02 [INFO] Não enviar: 17
 2026-09-13 16:07:02 [INFO] ======================================================================
+2026-09-13 19:17:44 [INFO] ======================================================================
+2026-09-13 19:17:44 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-13 19:17:44 [INFO] ======================================================================
+2026-09-13 19:17:44 [INFO] Notícias com status 'extraida': 16
+2026-09-13 19:17:44 [INFO] Limite: 20 requisições/minuto
+2026-09-13 19:17:44 [INFO] Intervalo mínimo: 3.0s
+2026-09-13 19:17:44 [INFO] ======================================================================
+2026-09-13 19:17:44 [INFO] [1/16] ID: https://litoralmania.com.br/empresas-fechando-brasil-2026-sorvelandia-casas-bahia/
+2026-09-13 19:17:44 [INFO] Título: Empresas tradicionais estão fechando lojas e fábricas no Brasil; veja os casos que chamam ...
+2026-09-13 19:17:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:17:44 [INFO] Classificação: nao_enviar
+2026-09-13 19:17:44 [INFO] Aguardando 2.60s...
+2026-09-13 19:17:47 [INFO] [2/16] ID: https://istoe.com.br/crise-institucional-eleicoes-2026-foco-desviado
+2026-09-13 19:17:47 [INFO] Título: Crise institucional ofusca eleições e desvia o debate sobre o Brasil - ISTOÉ Independente
+2026-09-13 19:17:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:17:47 [INFO] Classificação: nao_enviar
+2026-09-13 19:17:47 [INFO] Aguardando 2.63s...
+2026-09-13 19:17:50 [INFO] [3/16] ID: https://www.bnews.com.br/noticias/esporte/proposta-por-saf-de-gigante-da-serie-preve-r-500-milhoes-so-para-futebol-r-120-milhoes-no-ct-e-r-30-milhoes-na-base.html
+2026-09-13 19:17:50 [INFO] Título: Proposta por SAF de gigante da Série A prevê R$ 500 milhões só para futebol, R$ 120 ...
+2026-09-13 19:17:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:17:50 [INFO] Classificação: nao_enviar
+2026-09-13 19:17:50 [INFO] Aguardando 2.67s...
+2026-09-13 19:17:53 [INFO] [4/16] ID: https://paraibabusiness.com.br/mudanca-de-consumo-leva-cervejaria-do-ceara-a-recuperacao-judicial/
+2026-09-13 19:17:53 [INFO] Título: Mudança de consumo leva cervejaria do Ceará à <b>recuperação judicial</b> - Paraíba Business
+2026-09-13 19:17:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:17:53 [INFO] Classificação: enviar
+2026-09-13 19:17:53 [INFO] Aguardando 2.72s...
+2026-09-13 19:17:56 [INFO] [5/16] ID: https://www.fatosdematogrosso.com.br/geral/casal-do-agro-acumula-quase-r-34-milhoes-em-dividas-e-entra-em-recuperacao-judicial/15818
+2026-09-13 19:17:56 [INFO] Título: Casal do agro acumula quase R$ 34 milhões em dívidas e entra em <b>recuperação judicial</b>
+2026-09-13 19:17:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:17:56 [INFO] Classificação: enviar
+2026-09-13 19:17:56 [INFO] Aguardando 2.87s...
+2026-09-13 19:17:59 [INFO] [6/16] ID: https://transmissaopolitica.com.br/politica-goiana/2026/09/13/infraestrutura-energetica-goias-marconi-rio-verde/
+2026-09-13 19:17:59 [INFO] Título: Debate TV Sucesso Band: Marconi propõe R$ 1 bilhão para infraestrutura energética e ...
+2026-09-13 19:17:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:17:59 [INFO] Classificação: nao_enviar
+2026-09-13 19:17:59 [INFO] Aguardando 2.70s...
+2026-09-13 19:18:02 [INFO] [7/16] ID: https://mercadoeconsumo.com.br/12/09/2026/mc-capital/toky-elege-novo-membro-para-conselho-em-meio-a-questionamentos-de-minoritarios/
+2026-09-13 19:18:02 [INFO] Título: Toky elege novo membro para conselho em meio a questionamentos de minoritários
+2026-09-13 19:18:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:02 [INFO] Classificação: nao_enviar
+2026-09-13 19:18:02 [INFO] Aguardando 2.51s...
+2026-09-13 19:18:05 [INFO] [8/16] ID: https://98fmnatal.com.br/ultimas/recuperacao-judicial-pequenas-empresas-alta/387355/
+2026-09-13 19:18:05 [INFO] Título: Recuperações <b>judiciais</b> avançam entre micro e pequenas empresas - Portal 98 FM Natal
+2026-09-13 19:18:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:05 [INFO] Classificação: enviar
+2026-09-13 19:18:05 [INFO] Aguardando 2.72s...
+2026-09-13 19:18:08 [INFO] [9/16] ID: https://comerciariocg.com.br/demitidos-da-casas-bahia-relatam-falta-de-pagamento-de-rescisao-para-empresa-casos-serao-definidos-no-processo-de-recuperacao-judicial/
+2026-09-13 19:18:08 [INFO] Título: Demitidos da Casas Bahia relatam falta de pagamento de rescisão. Para empresa, casos ...
+2026-09-13 19:18:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:08 [INFO] Classificação: nao_enviar
+2026-09-13 19:18:08 [INFO] Aguardando 2.63s...
+2026-09-13 19:18:11 [INFO] [10/16] ID: https://tradersunion.com/pt/news/financial-news/show/3321234-micro-pequenas-empresas-recuperacao-judicial-juros/
+2026-09-13 19:18:11 [INFO] Título: Micro e pequenas empresas ampliam pedidos de <b>recuperação judicial</b> com pressão de ...
+2026-09-13 19:18:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:11 [INFO] Classificação: enviar
+2026-09-13 19:18:11 [INFO] Aguardando 2.51s...
+2026-09-13 19:18:14 [INFO] [11/16] ID: https://netlusa.com.br/noticias-da-portuguesa/ultimas-da-portuguesa-definicoes-no-elenco-sub-20-empata-e-mais
+2026-09-13 19:18:14 [INFO] Título: Últimas da Portuguesa: definições no elenco, sub-20 empata e mais - NETLUSA
+2026-09-13 19:18:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:14 [INFO] Classificação: nao_enviar
+2026-09-13 19:18:14 [INFO] Aguardando 2.78s...
+2026-09-13 19:18:17 [INFO] [12/16] ID: https://veronoticias.com/economia/bc-impos-medida-preventiva-ao-brb-antes-de-liquidar-master/
+2026-09-13 19:18:17 [INFO] Título: BC impôs medida preventiva ao BRB antes de liquidar Master - Vero Notícias
+2026-09-13 19:18:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:17 [INFO] Classificação: enviar
+2026-09-13 19:18:17 [INFO] Aguardando 2.56s...
+2026-09-13 19:18:20 [INFO] [13/16] ID: https://oantagonista.com.br/mundo/era-uma-das-maiores-do-continente-mas-segunda-falencia-termina-com-cerca-de-2-400-lojas-fechadas-e-19-mil-trabalhadores-afetados/
+2026-09-13 19:18:20 [INFO] Título: Era uma das maiores do continente, mas segunda falência termina com cerca de ... - O Antagonista
+2026-09-13 19:18:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:20 [INFO] Classificação: enviar
+2026-09-13 19:18:20 [INFO] Aguardando 2.62s...
+2026-09-13 19:18:23 [INFO] [14/16] ID: https://www.tribunadosertao.com.br/politica/2026/09/13/978075-jhc-entrou-na-mira-de-investigacao-da-pf-e-stf-por-gestao-fraudulenta-peculato-corrupcao-lavagem-e-organizacao-criminosa
+2026-09-13 19:18:23 [INFO] Título: JHC entrou na mira de investigação da PF e STF por gestão fraudulenta, peculato ...
+2026-09-13 19:18:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:23 [INFO] Classificação: nao_enviar
+2026-09-13 19:18:23 [INFO] Aguardando 2.76s...
+2026-09-13 19:18:26 [INFO] [15/16] ID: https://noticias.uol.com.br/ultimas-noticias/reuters/2026/09/13/dino-tira-sigilo-de-investigacao-sobre-desvio-de-emendas-parlamentares-para-dark-horse.amp.htm
+2026-09-13 19:18:26 [INFO] Título: Dino tira sigilo de investigação sobre desvio de emendas parlamentares para Dark Horse
+2026-09-13 19:18:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:26 [INFO] Classificação: nao_enviar
+2026-09-13 19:18:26 [INFO] Aguardando 2.76s...
+2026-09-13 19:18:29 [INFO] [16/16] ID: https://tribunadainternet.com.br/2026/09/12/bc-sob-suspeita-servidores-orientavam-vorcaro-e-revisavam-documentos-do-master/
+2026-09-13 19:18:29 [INFO] Título: BC sob suspeita: servidores orientavam Vorcaro e revisavam documentos do Master
+2026-09-13 19:18:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 19:18:29 [INFO] Classificação: nao_enviar
+2026-09-13 19:18:29 [INFO] ======================================================================
+2026-09-13 19:18:29 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-13 19:18:29 [INFO] ======================================================================
+2026-09-13 19:18:29 [INFO] Processadas: 16
+2026-09-13 19:18:29 [INFO] Enviar: 6
+2026-09-13 19:18:29 [INFO] Não enviar: 10
+2026-09-13 19:18:29 [INFO] ======================================================================
