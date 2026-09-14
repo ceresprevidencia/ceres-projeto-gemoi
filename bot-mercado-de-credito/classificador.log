@@ -22090,3 +22090,126 @@
 2026-09-14 19:15:31 [INFO] Enviar: 16
 2026-09-14 19:15:31 [INFO] Não enviar: 21
 2026-09-14 19:15:31 [INFO] ======================================================================
+2026-09-14 23:03:37 [INFO] ======================================================================
+2026-09-14 23:03:37 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-14 23:03:37 [INFO] ======================================================================
+2026-09-14 23:03:37 [INFO] Notícias com status 'extraida': 22
+2026-09-14 23:03:37 [INFO] Limite: 20 requisições/minuto
+2026-09-14 23:03:37 [INFO] Intervalo mínimo: 3.0s
+2026-09-14 23:03:37 [INFO] ======================================================================
+2026-09-14 23:03:37 [INFO] [1/22] ID: https://www.portaladesso.com.br/noticias/20080/tradicional-marca-de-sorvetes-da-serra-entra-em-recuperacao-judicial.html
+2026-09-14 23:03:37 [INFO] Título: Tradicional marca de sorvetes da Serra entra em <b>recuperação judicial</b> - Portal Adesso
+2026-09-14 23:03:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:03:37 [INFO] Classificação: enviar
+2026-09-14 23:03:37 [INFO] Aguardando 2.65s...
+2026-09-14 23:03:40 [INFO] [2/22] ID: https://expressaorondonia.com.br/airbaltic-pede-recuperacao-judicial-nos-eua-em-meio-a-guerra-com-o-ira/
+2026-09-14 23:03:40 [INFO] Título: AirBaltic pede <b>recuperação judicial</b> nos EUA em meio à guerra com o Irã | Expressão Rondônia
+2026-09-14 23:03:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:03:40 [INFO] Classificação: enviar
+2026-09-14 23:03:40 [INFO] Aguardando 2.62s...
+2026-09-14 23:03:43 [INFO] [3/22] ID: https://www.a12.com/tv/programas/tj-aparecida/recuperacao-judicial-e-falencias-crescem-no-brasil-em-meio-ao-alto-endividamento
+2026-09-14 23:03:43 [INFO] Título: <b>Recuperação judicial</b> e falências crescem no Brasil em meio ao alto endividamento - A12
+2026-09-14 23:03:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:03:43 [INFO] Classificação: enviar
+2026-09-14 23:03:43 [INFO] Aguardando 2.65s...
+2026-09-14 23:03:46 [INFO] [4/22] ID: https://www.agoramt.com.br/2026/09/cejusc-virtual-empresarial-acordos-impulsionam-a-recuperacao-judicial-em-mato-grosso/
+2026-09-14 23:03:46 [INFO] Título: Cejusc Virtual Empresarial: acordos impulsionam a <b>recuperação judicial</b> em Mato Grosso
+2026-09-14 23:03:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:03:46 [INFO] Classificação: enviar
+2026-09-14 23:03:46 [INFO] Aguardando 2.65s...
+2026-09-14 23:03:49 [INFO] [5/22] ID: https://www.nbnoticias.com.br/noticia/126638/justica-defere-pedido-de-recuperacao-judicial-da-sorvelandia
+2026-09-14 23:03:49 [INFO] Título: Justiça defere pedido de <b>recuperação judicial</b> da Sorvelândia - NB Noticias
+2026-09-14 23:03:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:03:49 [INFO] Classificação: enviar
+2026-09-14 23:03:49 [INFO] Aguardando 2.76s...
+2026-09-14 23:03:52 [INFO] [6/22] ID: https://www.canalrural.com.br/radar/ano-que-vem-sera-melhor-crenca-do-produtor-pode-dificultar-sucesso-da-rj-diz-advogada/
+2026-09-14 23:03:52 [INFO] Título: 'Ano que vem será melhor', crença do produtor pode dificultar sucesso da RJ, diz advogada
+2026-09-14 23:03:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:03:52 [INFO] Classificação: enviar
+2026-09-14 23:03:52 [INFO] Aguardando 2.60s...
+2026-09-14 23:03:55 [INFO] [7/22] ID: https://agoranovale.com.br/noticias/brasil/pequenas-empresas-lideram-alta-nos-pedidos-de-recuperacao-judicial/
+2026-09-14 23:03:55 [INFO] Título: Pequenas empresas lideram alta nos pedidos de <b>recuperação judicial</b> - Agora No Vale
+2026-09-14 23:03:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:03:55 [INFO] Classificação: enviar
+2026-09-14 23:03:55 [INFO] Aguardando 2.61s...
+2026-09-14 23:03:58 [INFO] [8/22] ID: https://www.extraclasse.org.br/economia/2026/09/empregadores-dao-calote-de-r-79-bilhoes-no-fgts/
+2026-09-14 23:03:58 [INFO] Título: Empregadores dão calote de R$ 79 bilhões no FGTS - Jornal Extra Classe
+2026-09-14 23:03:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:03:58 [INFO] Classificação: nao_enviar
+2026-09-14 23:03:58 [INFO] Aguardando 2.65s...
+2026-09-14 23:04:01 [INFO] [9/22] ID: https://monitormercantil.com.br/instituto-empresa-alerta-para-riscos-aos-cotistas-apos-decisao-da-justica-envolvendo-btg-e-apex-partners/
+2026-09-14 23:04:01 [INFO] Título: Instituto Empresa alerta para riscos aos cotistas após decisão da Justiça envolvendo BTG e ...
+2026-09-14 23:04:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:01 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:01 [INFO] Aguardando 2.43s...
+2026-09-14 23:04:04 [INFO] [10/22] ID: https://www.moneytimes.com.br/leilao-casas-bahia-bhia3-varejista-eletrodomesticos-com-descontos-de-ate-75-mlem/
+2026-09-14 23:04:04 [INFO] Título: Leilão Casas Bahia (BHIA3): Varejista oferece eletrodomésticos com descontos de até 75%
+2026-09-14 23:04:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:04 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:04 [INFO] Aguardando 2.70s...
+2026-09-14 23:04:07 [INFO] [11/22] ID: https://investnews.com.br/negocios/abril-btg-total-express-fatia/amp/
+2026-09-14 23:04:07 [INFO] Título: Abril dá fatia da transportadora Total Express ao BTG para quitar dívida - InvestNews
+2026-09-14 23:04:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:07 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:07 [INFO] Aguardando 2.64s...
+2026-09-14 23:04:10 [INFO] [12/22] ID: https://www.portaltemponovo.com.br/casas-bahia-faz-novo-leilao-com-fogoes-lavadoras-e-geladeiras-por-200-apos-fechar-lojas/
+2026-09-14 23:04:10 [INFO] Título: Casas Bahia faz novo leilão com fogões, lavadoras e geladeiras por R$ 200 após fechar lojas
+2026-09-14 23:04:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:10 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:10 [INFO] Aguardando 2.61s...
+2026-09-14 23:04:13 [INFO] [13/22] ID: https://bpmoney.com.br/economia/raizen-raiz4-credores-definem-nomes-para-novos-conselhos/
+2026-09-14 23:04:13 [INFO] Título: Raízen (RAIZ4): credores definem nomes para novos conselhos - BPMoney
+2026-09-14 23:04:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:13 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:13 [INFO] Aguardando 2.17s...
+2026-09-14 23:04:16 [INFO] [14/22] ID: https://www.infomoney.com.br/business/raizen-define-nomes-para-conselhos-apos-conversao-da-divida-diz-jornal/
+2026-09-14 23:04:16 [INFO] Título: Raízen define nomes para conselhos após conversão da dívida, diz jornal - InfoMoney
+2026-09-14 23:04:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:16 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:16 [INFO] Aguardando 2.59s...
+2026-09-14 23:04:19 [INFO] [15/22] ID: https://aquinoticias.com/2026/09/rhino-vai-a-justica-para-proteger-debenturistas-em-operacoes-ligadas-a-apex/
+2026-09-14 23:04:19 [INFO] Título: Rhino vai à Justiça para proteger debenturistas em operações ligadas à Apex
+2026-09-14 23:04:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:19 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:19 [INFO] Aguardando 2.61s...
+2026-09-14 23:04:22 [INFO] [16/22] ID: https://eshoje.com.br/economia/2026/09/rhino-vai-a-justica-por-direitos-de-debenturistas-da-apex/
+2026-09-14 23:04:22 [INFO] Título: Rhino vai à Justiça por direitos de debenturistas da Apex - ES HOJE
+2026-09-14 23:04:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:22 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:22 [INFO] Aguardando 2.62s...
+2026-09-14 23:04:25 [INFO] [17/22] ID: https://tmc.com.br/economia/raizen-credores-conselhos-empresas-separacao-negocios/
+2026-09-14 23:04:25 [INFO] Título: Credores da Raízen definem nomes para conselhos de duas novas empresas após ... - TMC
+2026-09-14 23:04:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:25 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:25 [INFO] Aguardando 2.62s...
+2026-09-14 23:04:28 [INFO] [18/22] ID: https://businessmoment.com.br/oncoclinicas-anuncia-novo-cfo-durante-recuperacao-extrajudicial/?amp=1
+2026-09-14 23:04:28 [INFO] Título: Oncoclínicas anuncia novo CFO durante <b>recuperação extrajudicial</b> - Business Moment
+2026-09-14 23:04:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:29 [INFO] Classificação: enviar
+2026-09-14 23:04:29 [INFO] Aguardando 1.86s...
+2026-09-14 23:04:31 [INFO] [19/22] ID: https://www.folhape.com.br/colunistas/blogdafolha/stf-julga-alexandre-de-moraes-nesta-terca-14-saiba-onde-acompanhar/59781/
+2026-09-14 23:04:31 [INFO] Título: STF julga Alexandre de Moraes nesta terça (14), saiba onde acompanhar - Blog da Folha
+2026-09-14 23:04:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:31 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:31 [INFO] Aguardando 2.43s...
+2026-09-14 23:04:34 [INFO] [20/22] ID: https://midiamax.com.br/trends/2026/09/14/viajante-paga-r-25-mil-em-titulo-remido-de-clube-de-ferias-e-descobre-falencia-da-administradora-antes-do-primeiro-uso/
+2026-09-14 23:04:34 [INFO] Título: Viajante paga R$ 25 mil em título remido de clube de férias e descobre falência da ... - Midiamax
+2026-09-14 23:04:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:34 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:34 [INFO] Aguardando 2.73s...
+2026-09-14 23:04:37 [INFO] [21/22] ID: https://www.suno.com.br/noticias/protecao-investidor-fgc-mrp-med-golpes-fraudes-mt/
+2026-09-14 23:04:37 [INFO] Título: Golpes, falências e fraudes: quem protege o dinheiro do investidor? - Suno
+2026-09-14 23:04:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:37 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:37 [INFO] Aguardando 2.22s...
+2026-09-14 23:04:40 [INFO] [22/22] ID: https://diariodorio.com/saude/2026/09/14/assim-saude-do-rio-e-vendida-para-fundador-do-grupo-case.html
+2026-09-14 23:04:40 [INFO] Título: Assim Saúde do Rio é vendida para fundador do grupo Case - Diário do Rio
+2026-09-14 23:04:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 23:04:40 [INFO] Classificação: nao_enviar
+2026-09-14 23:04:40 [INFO] ======================================================================
+2026-09-14 23:04:40 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-14 23:04:40 [INFO] ======================================================================
+2026-09-14 23:04:40 [INFO] Processadas: 22
+2026-09-14 23:04:40 [INFO] Enviar: 8
+2026-09-14 23:04:40 [INFO] Não enviar: 14
+2026-09-14 23:04:40 [INFO] ======================================================================
