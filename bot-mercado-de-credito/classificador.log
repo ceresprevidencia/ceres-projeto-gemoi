@@ -21686,3 +21686,61 @@
 2026-09-14 00:54:44 [INFO] Enviar: 1
 2026-09-14 00:54:44 [INFO] Não enviar: 9
 2026-09-14 00:54:44 [INFO] ======================================================================
+2026-09-14 06:02:19 [INFO] ======================================================================
+2026-09-14 06:02:19 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-14 06:02:19 [INFO] ======================================================================
+2026-09-14 06:02:19 [INFO] Notícias com status 'extraida': 9
+2026-09-14 06:02:19 [INFO] Limite: 20 requisições/minuto
+2026-09-14 06:02:19 [INFO] Intervalo mínimo: 3.0s
+2026-09-14 06:02:19 [INFO] ======================================================================
+2026-09-14 06:02:19 [INFO] [1/9] ID: https://www.diariodepernambuco.com.br/dptrends/fundada-em-1970-tradicional-fabrica-de-sorvetes-do-rs-entra-em-recuperacao-judicial-com-passivo-de-r-80-milhoes/?utm_source=al_leiamais
+2026-09-14 06:02:19 [INFO] Título: Fundada em 1970, tradicional fábrica de sorvetes do RS entra em <b>recuperação judicial</b> com ...
+2026-09-14 06:02:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 06:02:20 [INFO] Classificação: enviar
+2026-09-14 06:02:20 [INFO] Aguardando 2.68s...
+2026-09-14 06:02:22 [INFO] [2/9] ID: https://www.folhamax.com/economia/tj-escala-3-juizes-e-13-servidores-para-devassa-em-2-comarcas-de-mt/571403
+2026-09-14 06:02:22 [INFO] Título: TJ escala 3 juízes e 13 servidores para devassa em 2 comarcas de MT | FOLHAMAX
+2026-09-14 06:02:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 06:02:23 [INFO] Classificação: nao_enviar
+2026-09-14 06:02:23 [INFO] Aguardando 2.61s...
+2026-09-14 06:02:25 [INFO] [3/9] ID: https://www.folhape.com.br/colunistas/blogdafolha/tre-pe-mantem-publicacao-de-conteudo-de-joao-campos-sobre-supersalario-de-raquel-lyra/59753/
+2026-09-14 06:02:25 [INFO] Título: TRE-PE mantém publicação de conteúdo de João Campos sobre 'supersalário' de Raquel Lyra
+2026-09-14 06:02:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 06:02:26 [INFO] Classificação: nao_enviar
+2026-09-14 06:02:26 [INFO] Aguardando 2.67s...
+2026-09-14 06:02:28 [INFO] [4/9] ID: https://odia.ig.com.br/esporte/vasco/2026/09/7301583-pedro-emanuel-da-pistas-sobre-time-titular-do-vasco-contra-o-santa-fe.html
+2026-09-14 06:02:28 [INFO] Título: Pedro Emanuel dá pistas sobre time titular do Vasco contra o Santa Fe - O Dia
+2026-09-14 06:02:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 06:02:29 [INFO] Classificação: nao_enviar
+2026-09-14 06:02:29 [INFO] Aguardando 2.71s...
+2026-09-14 06:02:31 [INFO] [5/9] ID: https://grafittinews.com.br/receita-federal-endurece-regras-para-beneficios-fiscais-e-cria-selos-para-bons-pagadores/
+2026-09-14 06:02:31 [INFO] Título: Receita Federal endurece regras para benefícios fiscais e cria selos para bons pagadores
+2026-09-14 06:02:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 06:02:32 [INFO] Classificação: nao_enviar
+2026-09-14 06:02:32 [INFO] Aguardando 2.68s...
+2026-09-14 06:02:34 [INFO] [6/9] ID: https://www.folhamax.com/economia/grupo-veterinario-expoe-crise-de-caixa-e-entra-em-rj-de-r-25-milhoes/571731
+2026-09-14 06:02:34 [INFO] Título: Grupo veterinário expõe crise de caixa e entra em RJ de R$ 25 milhões | FOLHAMAX
+2026-09-14 06:02:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 06:02:35 [INFO] Classificação: enviar
+2026-09-14 06:02:35 [INFO] Aguardando 2.68s...
+2026-09-14 06:02:37 [INFO] [7/9] ID: https://istoe.com.br/medicamento-experimental-para-lito-sousa-chega-ao-brasil-em-operacao-especial
+2026-09-14 06:02:37 [INFO] Título: Medicamento experimental para Lito Sousa chega ao Brasil em operação especial - IstoÉ
+2026-09-14 06:02:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 06:02:37 [INFO] Classificação: nao_enviar
+2026-09-14 06:02:38 [INFO] Aguardando 2.74s...
+2026-09-14 06:02:40 [INFO] [8/9] ID: https://br.investing.com/news/politics-news/dino-tira-sigilo-de-investigacao-sobre-desvio-de-emendas-parlamentares-para-dark-horse-2063902
+2026-09-14 06:02:40 [INFO] Título: Dino tira sigilo de investigação sobre desvio de emendas parlamentares para Dark Horse
+2026-09-14 06:02:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 06:02:40 [INFO] Classificação: nao_enviar
+2026-09-14 06:02:40 [INFO] Aguardando 2.77s...
+2026-09-14 06:02:43 [INFO] [9/9] ID: https://noticias.uol.com.br/ultimas-noticias/reuters/2026/09/13/pf-diz-a-fachin-que-pode-encaminhar-copia-de-dados-tirado-de-celular-de-vorcaro-a-ministros.htm
+2026-09-14 06:02:43 [INFO] Título: PF diz a Fachin que pode encaminhar cópia de dados tirado de celular de Vorcaro a ministros
+2026-09-14 06:02:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 06:02:43 [INFO] Classificação: nao_enviar
+2026-09-14 06:02:43 [INFO] ======================================================================
+2026-09-14 06:02:43 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-14 06:02:43 [INFO] ======================================================================
+2026-09-14 06:02:43 [INFO] Processadas: 9
+2026-09-14 06:02:43 [INFO] Enviar: 2
+2026-09-14 06:02:43 [INFO] Não enviar: 7
+2026-09-14 06:02:43 [INFO] ======================================================================
