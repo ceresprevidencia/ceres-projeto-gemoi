@@ -21744,3 +21744,151 @@
 2026-09-14 06:02:43 [INFO] Enviar: 2
 2026-09-14 06:02:43 [INFO] Não enviar: 7
 2026-09-14 06:02:43 [INFO] ======================================================================
+2026-09-14 13:51:25 [INFO] ======================================================================
+2026-09-14 13:51:25 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-14 13:51:25 [INFO] ======================================================================
+2026-09-14 13:51:25 [INFO] Notícias com status 'extraida': 27
+2026-09-14 13:51:25 [INFO] Limite: 20 requisições/minuto
+2026-09-14 13:51:25 [INFO] Intervalo mínimo: 3.0s
+2026-09-14 13:51:25 [INFO] ======================================================================
+2026-09-14 13:51:25 [INFO] [1/27] ID: https://www.poder360.com.br/opiniao/o-comercio-na-corda-bamba/
+2026-09-14 13:51:25 [INFO] Título: Carlos Thadeu | O comércio na corda bamba - Poder360
+2026-09-14 13:51:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:25 [INFO] Classificação: nao_enviar
+2026-09-14 13:51:25 [INFO] Aguardando 2.74s...
+2026-09-14 13:51:28 [INFO] [2/27] ID: https://jornalnoroeste.com.br/noticia/economia-negocios/tradicional-fabricante-gaucha-de-sorvetes-entra-em-recuperacao-judicial
+2026-09-14 13:51:28 [INFO] Título: Tradicional fabricante gaúcha de sorvetes entra em <b>recuperação judicial</b> - Jornal Noroeste
+2026-09-14 13:51:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:28 [INFO] Classificação: enviar
+2026-09-14 13:51:28 [INFO] Aguardando 2.84s...
+2026-09-14 13:51:31 [INFO] [3/27] ID: https://www.terra.com.br/esportes/futebol/investigacao-coloca-recuperacao-do-vasco-sob-suspeita-saiba-detalhes,da5c15bbbfcd7e50737a07ad5ec6808d1sskje8x.html
+2026-09-14 13:51:31 [INFO] Título: Investigação coloca <b>recuperação</b> do Vasco sob suspeita; saiba detalhes - Terra
+2026-09-14 13:51:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:32 [INFO] Classificação: enviar
+2026-09-14 13:51:32 [INFO] Aguardando 2.64s...
+2026-09-14 13:51:34 [INFO] [4/27] ID: https://valor.globo.com/politica/eleicoes-2026/noticia/2026/09/14/campanhas-preparam-agenda-microeconomica.ghtml
+2026-09-14 13:51:34 [INFO] Título: Campanhas preparam agenda microeconômica | Eleições 2026 - Valor Econômico - Globo
+2026-09-14 13:51:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:35 [INFO] Classificação: nao_enviar
+2026-09-14 13:51:35 [INFO] Aguardando 2.63s...
+2026-09-14 13:51:37 [INFO] [5/27] ID: https://www.cnnbrasil.com.br/agro/agro-pode-estar-deixando-pior-fase-para-tras-diz-gestora/
+2026-09-14 13:51:37 [INFO] Título: Agro pode estar deixando pior fase para trás, diz gestora - CNN Brasil
+2026-09-14 13:51:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:38 [INFO] Classificação: nao_enviar
+2026-09-14 13:51:38 [INFO] Aguardando 2.64s...
+2026-09-14 13:51:40 [INFO] [6/27] ID: https://www.diariodepernambuco.com.br/dptrends/gigante-da-serie-a-fica-perto-de-virar-saf-em-negocio-que-pode-superar-r-8-bilhoes/
+2026-09-14 13:51:40 [INFO] Título: Gigante da Série A fica perto de virar SAF em negócio que pode superar R$ 8 bilhões
+2026-09-14 13:51:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:41 [INFO] Classificação: nao_enviar
+2026-09-14 13:51:41 [INFO] Aguardando 2.59s...
+2026-09-14 13:51:43 [INFO] [7/27] ID: https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45605Y:0/
+2026-09-14 13:51:43 [INFO] Título: AirBaltic entra com pedido de <b>recuperação judicial</b> nos termos do Capítulo 11, à medida ...
+2026-09-14 13:51:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:44 [INFO] Classificação: enviar
+2026-09-14 13:51:44 [INFO] Aguardando 2.35s...
+2026-09-14 13:51:46 [INFO] [8/27] ID: https://www.brasilagro.com.br/conteudo/stf-crise-adiciona-incerteza-a-um-agro-que-ja-enfrenta-aperto-de-credito.html
+2026-09-14 13:51:46 [INFO] Título: STF: Crise adiciona incerteza a um agro que já enfrenta aperto de crédito - Brasilagro
+2026-09-14 13:51:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:46 [INFO] Classificação: nao_enviar
+2026-09-14 13:51:46 [INFO] Aguardando 2.77s...
+2026-09-14 13:51:49 [INFO] [9/27] ID: https://exclusivonews.com.br/juridico/justica-decreta-falencia-de-ex-presidente-da-cooperpluma-de-campo-verde-apos-sucessivos-descumprimentos-judiciais/
+2026-09-14 13:51:49 [INFO] Título: Justiça decreta falência de ex-presidente da Cooperpluma de Campo Verde após ...
+2026-09-14 13:51:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:50 [INFO] Classificação: enviar
+2026-09-14 13:51:50 [INFO] Aguardando 2.60s...
+2026-09-14 13:51:52 [INFO] [10/27] ID: https://gauchazh.clicrbs.com.br/colunistas/kelly-matos/noticia/2026/09/mendonca-diz-que-incluir-conteudo-integral-do-celular-de-vorcaro-serviria-para-tumultuar-julgamento-cmu04nmtr02be01630zp8e60c.html
+2026-09-14 13:51:52 [INFO] Título: Mendonça reage após pedidos de colegas e fala em risco de "tumultuar julgamento" com ...
+2026-09-14 13:51:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:52 [INFO] Classificação: nao_enviar
+2026-09-14 13:51:52 [INFO] Aguardando 2.73s...
+2026-09-14 13:51:55 [INFO] [11/27] ID: https://aciara.com.br/split-payment-b2b-opcional-comeca-no-2o-semestre/
+2026-09-14 13:51:55 [INFO] Título: Split payment B2B opcional começa no 2º semestre - Acia Araçatuba
+2026-09-14 13:51:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:56 [INFO] Classificação: nao_enviar
+2026-09-14 13:51:56 [INFO] Aguardando 2.14s...
+2026-09-14 13:51:58 [INFO] [12/27] ID: https://exame.com/insight/kora-prepara-virada-na-divida-e-venda-pode-voltar-a-mesa-em-2027/p
+2026-09-14 13:51:58 [INFO] Título: Kora Saúde prepara virada na dívida de R$ 1,3 bilhão e abre caminho para venda - Exame
+2026-09-14 13:51:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:51:58 [INFO] Classificação: nao_enviar
+2026-09-14 13:51:58 [INFO] Aguardando 2.75s...
+2026-09-14 13:52:01 [INFO] [13/27] ID: https://www.cadaminuto.com.br/noticia/2026/09/14/entre-muros-e-caminhos-estreitos-acesso-a-praia-vira-disputa-na-rota-dos-milagres
+2026-09-14 13:52:01 [INFO] Título: Entre muros e caminhos estreitos, acesso à praia vira disputa na Rota dos Milagres
+2026-09-14 13:52:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:02 [INFO] Classificação: nao_enviar
+2026-09-14 13:52:02 [INFO] Aguardando 2.54s...
+2026-09-14 13:52:04 [INFO] [14/27] ID: https://en.com.br/grupo-tisott-tera-assembleia-para-votar-plano-alternativo-de-recuperacao-judicial/
+2026-09-14 13:52:04 [INFO] Título: Grupo Tisott terá assembleia para votar plano alternativo de recuperação <b>judicial</b>
+2026-09-14 13:52:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:05 [INFO] Classificação: enviar
+2026-09-14 13:52:05 [INFO] Aguardando 2.68s...
+2026-09-14 13:52:07 [INFO] [15/27] ID: https://www.pontonacurva.com.br/justica-estadual/juiz-decreta-falencia-de-grupo-apos-descumprimentos-judiciais/34975
+2026-09-14 13:52:07 [INFO] Título: Juiz decreta falência de grupo após descumprimentos judiciais - Ponto na Curva
+2026-09-14 13:52:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:08 [INFO] Classificação: nao_enviar
+2026-09-14 13:52:08 [INFO] Aguardando 2.66s...
+2026-09-14 13:52:10 [INFO] [16/27] ID: https://ndmais.com.br/justica/sorvelandia-recuperacao-judicial-divida-80-milhoes/
+2026-09-14 13:52:10 [INFO] Título: Com dívida de R$ 80 milhões, empresa de sorvetes com mais de 50 anos pede recuperação <b>judicial</b>
+2026-09-14 13:52:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:11 [INFO] Classificação: enviar
+2026-09-14 13:52:11 [INFO] Aguardando 2.69s...
+2026-09-14 13:52:13 [INFO] [17/27] ID: https://valor.globo.com/empresas/noticia/2026/09/14/airbaltic-pede-recuperacao-judicial-nos-eua-apos-disparada-nos-precos-de-combustiveis.ghtml
+2026-09-14 13:52:13 [INFO] Título: AirBaltic pede recuperação <b>judicial</b> nos EUA após disparada nos preços de combustíveis | Empresas
+2026-09-14 13:52:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:13 [INFO] Classificação: enviar
+2026-09-14 13:52:13 [INFO] Aguardando 2.84s...
+2026-09-14 13:52:16 [INFO] [18/27] ID: https://aeroin.net/airbaltic-entra-em-recuperacao-judicial-nos-eua-e-anuncia-reducao-significativa-da-frota-de-airbus-a220/
+2026-09-14 13:52:16 [INFO] Título: airBaltic entra em recuperação <b>judicial</b> nos EUA e anuncia redução significativa da frota de ...
+2026-09-14 13:52:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:16 [INFO] Classificação: enviar
+2026-09-14 13:52:16 [INFO] Aguardando 2.86s...
+2026-09-14 13:52:19 [INFO] [19/27] ID: https://opresenterural.com.br/recuperacao-judicial-no-agro-cresce-66-no-brasil/
+2026-09-14 13:52:19 [INFO] Título: Recuperação <b>judicial</b> no agro cresce 66% no Brasil - O Presente Rural
+2026-09-14 13:52:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:20 [INFO] Classificação: enviar
+2026-09-14 13:52:20 [INFO] Aguardando 2.58s...
+2026-09-14 13:52:22 [INFO] [20/27] ID: https://br.tradingview.com/news/reuters.com,2026:newsml_L1N45608A:0/
+2026-09-14 13:52:22 [INFO] Título: AirBaltic entra com pedido de recuperação <b>judicial</b> sob o Capítulo 11, com custos da guerra ...
+2026-09-14 13:52:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:23 [INFO] Classificação: enviar
+2026-09-14 13:52:23 [INFO] Aguardando 2.65s...
+2026-09-14 13:52:25 [INFO] [21/27] ID: https://www.folhape.com.br/politica/moraes-chega-a-vespera-de-julgamento-sem-rebater-troca-de-mensagens/512318/
+2026-09-14 13:52:25 [INFO] Título: Moraes chega à véspera de julgamento sem rebater troca de mensagens com Vorcaro
+2026-09-14 13:52:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:25 [INFO] Classificação: nao_enviar
+2026-09-14 13:52:26 [INFO] Aguardando 2.71s...
+2026-09-14 13:52:28 [INFO] [22/27] ID: https://www.diariodepernambuco.com.br/dptrends/fundada-em-1970-tradicional-fabrica-de-sorvetes-do-rs-entra-em-recuperacao-judicial-com-passivo-de-r-80-milhoes/
+2026-09-14 13:52:28 [INFO] Título: Fundada em 1970, tradicional fábrica de sorvetes do RS entra em recuperação <b>judicial</b> com ...
+2026-09-14 13:52:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:28 [INFO] Classificação: enviar
+2026-09-14 13:52:29 [INFO] Aguardando 2.70s...
+2026-09-14 13:52:31 [INFO] [23/27] ID: https://www.esquerda.net/artigo/duelo-no-supremo-tribunal-baralha-eleicoes-no-brasil/98990
+2026-09-14 13:52:31 [INFO] Título: Duelo no Supremo Tribunal baralha eleições no Brasil - Esquerda.net
+2026-09-14 13:52:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:31 [INFO] Classificação: nao_enviar
+2026-09-14 13:52:31 [INFO] Aguardando 2.75s...
+2026-09-14 13:52:34 [INFO] [24/27] ID: https://valor.globo.com/financas/noticia/2026/09/14/bc-arquiva-inquerito-de-liquidacao-da-reag-e-reverte-indisponibilidade-de-bens.ghtml
+2026-09-14 13:52:34 [INFO] Título: BC arquiva inquérito de <b>liquidação</b> da Reag e reverte indisponibilidade de bens | Finanças
+2026-09-14 13:52:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:35 [INFO] Classificação: enviar
+2026-09-14 13:52:35 [INFO] Aguardando 2.58s...
+2026-09-14 13:52:37 [INFO] [25/27] ID: https://valor.globo.com/empresas/noticia/2026/09/14/assim-saude-do-rio-e-vendida-para-fundador-do-grupo-case.ghtml
+2026-09-14 13:52:37 [INFO] Título: Assim Saúde, do Rio, é vendida para fundador do grupo Case - Valor Econômico - Globo
+2026-09-14 13:52:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:37 [INFO] Classificação: nao_enviar
+2026-09-14 13:52:37 [INFO] Aguardando 2.80s...
+2026-09-14 13:52:40 [INFO] [26/27] ID: https://www.opovo.com.br/noticias/brasil/2026/09/14/moraes-toffoli-e-flavio-as-tres-grandes-frentes-do-escandalo-master.html
+2026-09-14 13:52:40 [INFO] Título: Moraes, Toffoli e Flávio: As três grandes frentes do escândalo Master - O POVO
+2026-09-14 13:52:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:41 [INFO] Classificação: nao_enviar
+2026-09-14 13:52:41 [INFO] Aguardando 2.70s...
+2026-09-14 13:52:43 [INFO] [27/27] ID: https://www.tribunadoagreste.com.br/politica/2026/09/13/978075-jhc-entrou-na-mira-de-investigacao-da-pf-e-stf-por-gestao-fraudulenta-peculato-corrupcao-lavagem-e-organizacao-criminosa
+2026-09-14 13:52:43 [INFO] Título: JHC entrou na mira de investigação da PF e STF por gestão fraudulenta, peculato ...
+2026-09-14 13:52:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 13:52:44 [INFO] Classificação: nao_enviar
+2026-09-14 13:52:44 [INFO] ======================================================================
+2026-09-14 13:52:44 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-14 13:52:44 [INFO] ======================================================================
+2026-09-14 13:52:44 [INFO] Processadas: 27
+2026-09-14 13:52:44 [INFO] Enviar: 12
+2026-09-14 13:52:44 [INFO] Não enviar: 15
+2026-09-14 13:52:44 [INFO] ======================================================================
