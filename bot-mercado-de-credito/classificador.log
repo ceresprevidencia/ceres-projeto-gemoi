@@ -21892,3 +21892,201 @@
 2026-09-14 13:52:44 [INFO] Enviar: 12
 2026-09-14 13:52:44 [INFO] Não enviar: 15
 2026-09-14 13:52:44 [INFO] ======================================================================
+2026-09-14 19:13:42 [INFO] ======================================================================
+2026-09-14 19:13:42 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-14 19:13:42 [INFO] ======================================================================
+2026-09-14 19:13:42 [INFO] Notícias com status 'extraida': 37
+2026-09-14 19:13:42 [INFO] Limite: 20 requisições/minuto
+2026-09-14 19:13:42 [INFO] Intervalo mínimo: 3.0s
+2026-09-14 19:13:42 [INFO] ======================================================================
+2026-09-14 19:13:42 [INFO] [1/37] ID: https://conjur.com.br/2026-set-14/tj-sp-afasta-falencia-de-empresa-por-falta-de-esgotamento-de-buscas-na-intimacao/
+2026-09-14 19:13:42 [INFO] Título: TJ-SP afasta falência de empresa por falta de esgotamento de buscas na intimação - Conjur
+2026-09-14 19:13:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:13:42 [INFO] Classificação: nao_enviar
+2026-09-14 19:13:42 [INFO] Aguardando 2.52s...
+2026-09-14 19:13:45 [INFO] [2/37] ID: https://panoramagocomunicacao.com.br/recuperacao-judicial-no-agro-sobe-66-e-eleva-busca-por-credito-diz-agrisk/
+2026-09-14 19:13:45 [INFO] Título: <b>Recuperação judicial</b> no agro sobe 66% e eleva busca por crédito, diz AgRisk
+2026-09-14 19:13:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:13:46 [INFO] Classificação: enviar
+2026-09-14 19:13:46 [INFO] Aguardando 2.40s...
+2026-09-14 19:13:48 [INFO] [3/37] ID: https://fiesc.com.br/pt-br/imprensa/setor-produtivo-debate-crise-do-agronegocio-e-investimentos-em-rodovias
+2026-09-14 19:13:48 [INFO] Título: Setor produtivo debate crise do agronegócio e investimentos em rodovias - FIESC
+2026-09-14 19:13:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:13:48 [INFO] Classificação: nao_enviar
+2026-09-14 19:13:48 [INFO] Aguardando 2.62s...
+2026-09-14 19:13:51 [INFO] [4/37] ID: https://veja.abril.com.br/economia/casas-bahia-colocou-mais-de-r-1-bi-em-fundo-que-cobra-a-empresa-na-recuperacao/
+2026-09-14 19:13:51 [INFO] Título: Casas Bahia colocou mais de R$ 1 bi em fundo que cobra a empresa na <b>recuperação</b>
+2026-09-14 19:13:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:13:51 [INFO] Classificação: enviar
+2026-09-14 19:13:51 [INFO] Aguardando 2.71s...
+2026-09-14 19:13:54 [INFO] [5/37] ID: https://www.panrotas.com.br/aviacao/empresas/2026/09/airbaltic-entra-com-pedido-de-recuperacao-judicial-nos-estados-unidos_231936.html
+2026-09-14 19:13:54 [INFO] Título: AirBaltic entra com pedido de <b>recuperação judicial</b> nos Estados Unidos - Panrotas
+2026-09-14 19:13:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:13:54 [INFO] Classificação: enviar
+2026-09-14 19:13:54 [INFO] Aguardando 2.76s...
+2026-09-14 19:13:57 [INFO] [6/37] ID: https://br.advfn.com/jornal/2026/09/grupo-toky-elege-novo-conselheiro-em-meio-a-pressao-de-acionistas-minoritarios
+2026-09-14 19:13:57 [INFO] Título: Grupo Toky elege novo conselheiro em meio a pressão de acionistas minoritários - ADVFN
+2026-09-14 19:13:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:13:57 [INFO] Classificação: nao_enviar
+2026-09-14 19:13:57 [INFO] Aguardando 2.83s...
+2026-09-14 19:14:00 [INFO] [7/37] ID: https://exame.com/bussola/como-funciona-o-pagamento-de-dividas-judiciais-em-outros-paises/
+2026-09-14 19:14:00 [INFO] Título: Como funciona o pagamento de dívidas <b>judiciais</b> em outros países - Exame
+2026-09-14 19:14:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:00 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:00 [INFO] Aguardando 2.60s...
+2026-09-14 19:14:03 [INFO] [8/37] ID: https://www.comprerural.com/frigorifico-tem-falencia-decretada-apos-parar-abates-e-demitir-todos-funcionarios-entenda/
+2026-09-14 19:14:03 [INFO] Título: Frigorífico tem falência decretada após parar abates e demitir todos funcionários; entenda
+2026-09-14 19:14:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:03 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:03 [INFO] Aguardando 2.67s...
+2026-09-14 19:14:06 [INFO] [9/37] ID: https://investnews.com.br/videos/nova-onda-de-recuperacao-judicial-por-que-renegociar-dividas-falha/
+2026-09-14 19:14:06 [INFO] Título: Nova onda de <b>recuperação judicial</b>: por que renegociar dívidas falha? - InvestNews
+2026-09-14 19:14:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:06 [INFO] Classificação: enviar
+2026-09-14 19:14:06 [INFO] Aguardando 2.73s...
+2026-09-14 19:14:09 [INFO] [10/37] ID: https://eshoje.com.br/seguranca/justica/2026/09/caso-apex-psapx-processo/
+2026-09-14 19:14:09 [INFO] Título: Empresa pede exclusão de processo da Apex - ES HOJE
+2026-09-14 19:14:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:10 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:10 [INFO] Aguardando 1.68s...
+2026-09-14 19:14:12 [INFO] [11/37] ID: https://g1.globo.com/economia/noticia/2026/09/14/airbaltic-pede-recuperacao-judicial-nos-eua.ghtml
+2026-09-14 19:14:12 [INFO] Título: AirBaltic pede <b>recuperação judicial</b> nos EUA em meio à guerra com o Irã, diz agência - G1
+2026-09-14 19:14:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:12 [INFO] Classificação: enviar
+2026-09-14 19:14:12 [INFO] Aguardando 2.77s...
+2026-09-14 19:14:15 [INFO] [12/37] ID: https://realidadeguaraeregiao.com.br/airbaltic-pede-recuperacao-judicial-nos-eua-em-meio-a-guerra-com-o-ira/
+2026-09-14 19:14:15 [INFO] Título: AirBaltic pede <b>recuperação judicial</b> nos EUA em meio à guerra com o Irã - Realidade
+2026-09-14 19:14:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:15 [INFO] Classificação: enviar
+2026-09-14 19:14:15 [INFO] Aguardando 2.78s...
+2026-09-14 19:14:18 [INFO] [13/37] ID: https://neofeed.com.br/poder/lula-sofre-preconceito-fiscal-do-mercado-diz-ministro-da-fazenda-dario-durigan/
+2026-09-14 19:14:18 [INFO] Título: Lula sofre “preconceito fiscal” do mercado, diz ministro da Fazenda, Dario Durigan
+2026-09-14 19:14:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:18 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:18 [INFO] Aguardando 2.76s...
+2026-09-14 19:14:21 [INFO] [14/37] ID: https://www.cnnbrasil.com.br/economia/money/negocios/airbaltic-entra-com-pedido-de-falencia-devido-aos-custos-da-guerra-no-ira/
+2026-09-14 19:14:21 [INFO] Título: AirBaltic entra com pedido de falência devido aos custos da guerra no Irã - CNN Brasil
+2026-09-14 19:14:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:21 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:21 [INFO] Aguardando 2.74s...
+2026-09-14 19:14:24 [INFO] [15/37] ID: https://trademap.com.br/noticias/news-8297271
+2026-09-14 19:14:24 [INFO] Título: Cemig (CMIG4) troca de comando, Petrobras (PETR4) embolsa bilhões em subsídios e SLC ...
+2026-09-14 19:14:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:24 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:24 [INFO] Aguardando 2.69s...
+2026-09-14 19:14:27 [INFO] [16/37] ID: https://www.diariodigital.com.br/diario-influencia/direito/crise-no-agronegocio-qual-a-ferramenta-certa-para-o-produtor-recuperacao-judicial-ou-alongamento-da-divida
+2026-09-14 19:14:27 [INFO] Título: Crise no Agronegócio: Qual a ferramenta certa para o produtor: <b>recuperação judicial</b> ou ...
+2026-09-14 19:14:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:27 [INFO] Classificação: enviar
+2026-09-14 19:14:27 [INFO] Aguardando 2.77s...
+2026-09-14 19:14:30 [INFO] [17/37] ID: https://valor.globo.com/financas/noticia/2026/09/14/justia-convoca-credores-da-fictor-para-assembleia-em-outubro.ghtml
+2026-09-14 19:14:30 [INFO] Título: Justiça convoca credores da Fictor para assembleia em outubro - Valor Econômico - Globo
+2026-09-14 19:14:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:31 [INFO] Classificação: enviar
+2026-09-14 19:14:31 [INFO] Aguardando 2.35s...
+2026-09-14 19:14:33 [INFO] [18/37] ID: https://agrorevenda.com.br/destaques/plano-safra-cresce-mas-reduz-recursos-para-custeio/
+2026-09-14 19:14:33 [INFO] Título: Plano Safra cresce, mas reduz recursos para custeio - AgroRevenda
+2026-09-14 19:14:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:33 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:33 [INFO] Aguardando 2.77s...
+2026-09-14 19:14:36 [INFO] [19/37] ID: https://www.reportermt.com/cidades/justica-decreta-falencia-de-grupo-agricola-por-descumprimento-de-obrigacoes-da-recuperacao-judicial/243470
+2026-09-14 19:14:36 [INFO] Título: Justiça decreta falência de grupo agrícola por descumprimento de obrigações da ...
+2026-09-14 19:14:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:36 [INFO] Classificação: enviar
+2026-09-14 19:14:36 [INFO] Aguardando 2.69s...
+2026-09-14 19:14:39 [INFO] [20/37] ID: https://www.capitalaberto.com.br/carreira/2026/09/oncoclinicas-troca-cfo-em-meio-a-recuperacao-extrajudicial
+2026-09-14 19:14:39 [INFO] Título: Oncoclínicas troca CFO em meio a <b>recuperação extrajudicial</b> - Capital Aberto
+2026-09-14 19:14:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:42 [INFO] Classificação: enviar
+2026-09-14 19:14:42 [INFO] Aguardando 0.16s...
+2026-09-14 19:14:42 [INFO] [21/37] ID: https://valor.globo.com/empresas/noticia/2026/09/14/exclusivo-credores-da-raizen-definem-nomes-para-conselhos-apos-conversao-da-divida-dizem-fontes.ghtml
+2026-09-14 19:14:42 [INFO] Título: Exclusivo: Credores da Raízen definem nomes para conselhos após conversão da dívida ...
+2026-09-14 19:14:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:42 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:42 [INFO] Aguardando 2.72s...
+2026-09-14 19:14:45 [INFO] [22/37] ID: https://monitordomercado.com.br/noticias/425118-bc-arquiva-inquerito-da-liquidacao-da-reag-trust-e-suspende-bloqueio-de-bens/
+2026-09-14 19:14:45 [INFO] Título: BC arquiva inquérito da liquidação da Reag Trust e suspende bloqueio de bens
+2026-09-14 19:14:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:46 [INFO] Classificação: enviar
+2026-09-14 19:14:46 [INFO] Aguardando 2.37s...
+2026-09-14 19:14:48 [INFO] [23/37] ID: https://br.advfn.com/jornal/2026/09/oncoclinicas-elege-mauricio-hasson-como-novo-diretor-financeiro
+2026-09-14 19:14:48 [INFO] Título: Oncoclínicas elege Maurício Hasson como novo diretor financeiro - ADVFN
+2026-09-14 19:14:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:49 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:49 [INFO] Aguardando 2.42s...
+2026-09-14 19:14:51 [INFO] [24/37] ID: https://www.independente.com.br/artigo/languiru-realiza-assembleia-com-prestacao-de-contas-sobre-a-liquidacao-extrajudicial-no-dia-24-de-setembro
+2026-09-14 19:14:51 [INFO] Título: Languiru realiza assembleia com prestação de contas sobre a Liquidação <b>Extrajudicial</b> no ...
+2026-09-14 19:14:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:51 [INFO] Classificação: enviar
+2026-09-14 19:14:51 [INFO] Aguardando 2.69s...
+2026-09-14 19:14:54 [INFO] [25/37] ID: https://www.independente.com.br/artigo/corsan-realiza-obras-de-saneamento-e-acoes-em-municipios-da-regiao-dos-vales-nesta-semana
+2026-09-14 19:14:54 [INFO] Título: Corsan realiza obras de saneamento e ações em municípios da Região dos Vales nesta semana
+2026-09-14 19:14:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:54 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:54 [INFO] Aguardando 2.57s...
+2026-09-14 19:14:57 [INFO] [26/37] ID: https://mercadoeconsumo.com.br/14/09/2026/economia/pf-aponta-fraude-de-r-17-bilhoes-em-operacoes-entre-master-e-brb/
+2026-09-14 19:14:57 [INFO] Título: PF aponta fraude de R$ 17 bilhões em operações entre Master e BRB - Mercado&Consumo
+2026-09-14 19:14:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:14:59 [INFO] Classificação: nao_enviar
+2026-09-14 19:14:59 [INFO] Aguardando 0.86s...
+2026-09-14 19:15:00 [INFO] [27/37] ID: https://acionista.com.br/onco3-e-cmig4-mudancas-na-governanca-e-recuperacao/
+2026-09-14 19:15:00 [INFO] Título: ONCO3 e CMIG4: mudanças na governança e <b>recuperação</b> - Acionista.com.br
+2026-09-14 19:15:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:00 [INFO] Classificação: enviar
+2026-09-14 19:15:00 [INFO] Aguardando 2.74s...
+2026-09-14 19:15:03 [INFO] [28/37] ID: https://economia.uol.com.br/noticias/redacao/2026/09/14/oncoclinicas-elege-mauricio-hasson-como-novo-diretor-financeiro.ghtm
+2026-09-14 19:15:03 [INFO] Título: Oncoclínicas muda diretor financeiro em meio à reestruturação - UOL Economia
+2026-09-14 19:15:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:04 [INFO] Classificação: nao_enviar
+2026-09-14 19:15:04 [INFO] Aguardando 1.81s...
+2026-09-14 19:15:06 [INFO] [29/37] ID: https://gironews.com/supermercado/supermercado-fluminense-pede-recuperacao-judicial-com-divida-de-r-1738-milhoes/
+2026-09-14 19:15:06 [INFO] Título: Supermercado Fluminense pede recuperação <b>judicial</b> com dívida de R$ 173,8 milhões
+2026-09-14 19:15:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:06 [INFO] Classificação: enviar
+2026-09-14 19:15:06 [INFO] Aguardando 2.58s...
+2026-09-14 19:15:09 [INFO] [30/37] ID: https://gironews.com/food-service/justica-defere-recuperacao-judicial-da-sorvelandia-em-caxias-do-sul-rs/
+2026-09-14 19:15:09 [INFO] Título: Justiça defere recuperação <b>judicial</b> da Sorvelândia em Caxias do Sul (RS) - Giro News
+2026-09-14 19:15:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:09 [INFO] Classificação: enviar
+2026-09-14 19:15:09 [INFO] Aguardando 2.58s...
+2026-09-14 19:15:12 [INFO] [31/37] ID: https://br.tradingview.com/news/reuters.com,2026:newsml_L1N4560BU:0/
+2026-09-14 19:15:12 [INFO] Título: A AirBaltic entra com pedido de recuperação <b>judicial</b> nos termos do Capítulo 11, à medida ...
+2026-09-14 19:15:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:13 [INFO] Classificação: enviar
+2026-09-14 19:15:13 [INFO] Aguardando 1.51s...
+2026-09-14 19:15:15 [INFO] [32/37] ID: https://www.demarest.com.br/publicada-a-lei-complementar-no-236-2026-ampla-reforma-do-codigo-tributario-nacional-e-novas-regras-para-consensualidade-penalidades-e-processo-administrativo-fiscal/
+2026-09-14 19:15:15 [INFO] Título: Publicada a Lei Complementar nº 236/2026: Ampla reforma do Código Tributário Nacional ...
+2026-09-14 19:15:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:15 [INFO] Classificação: nao_enviar
+2026-09-14 19:15:15 [INFO] Aguardando 2.61s...
+2026-09-14 19:15:18 [INFO] [33/37] ID: https://www1.folha.uol.com.br/poder/2026/09/ciro-nogueira-oferece-terreno-de-valor-contestado-para-tentar-reaver-jatinho-bmw-e-r-10-mi-bloqueados.shtml
+2026-09-14 19:15:18 [INFO] Título: Ciro Nogueira tenta reaver jatinho e BMW alvos da PF - 14/09/2026 - Política - Folha - UOL
+2026-09-14 19:15:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:19 [INFO] Classificação: nao_enviar
+2026-09-14 19:15:19 [INFO] Aguardando 2.20s...
+2026-09-14 19:15:21 [INFO] [34/37] ID: https://jornalgrandebahia.com.br/2026/09/revolta-na-pgr-citacoes-de-paulo-gonet-no-caso-banco-master-ampliam-pressao-interna-e-pedidos-de-impedimento/
+2026-09-14 19:15:21 [INFO] Título: Revolta na PGR: citações de Paulo Gonet no caso Banco Master ampliam pressão interna e ...
+2026-09-14 19:15:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:22 [INFO] Classificação: nao_enviar
+2026-09-14 19:15:22 [INFO] Aguardando 2.22s...
+2026-09-14 19:15:24 [INFO] [35/37] ID: https://www.diariodocentrodomundo.com.br/brb-vitima-crimesinvestigacao-banco-master/
+2026-09-14 19:15:24 [INFO] Título: BRB foi "vítima de atos criminosos", diz nova diretoria do banco após caso Master - DCM
+2026-09-14 19:15:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:24 [INFO] Classificação: nao_enviar
+2026-09-14 19:15:24 [INFO] Aguardando 2.80s...
+2026-09-14 19:15:27 [INFO] [36/37] ID: https://jurinews.com.br/justica-eleitoral/justica-eleitoral-manda-remover-video-de-renan-filho-sobre-jhc-e-banco-master
+2026-09-14 19:15:27 [INFO] Título: Justiça Eleitoral manda remover vídeo de Renan Filho sobre JHC e Banco Master
+2026-09-14 19:15:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:27 [INFO] Classificação: nao_enviar
+2026-09-14 19:15:27 [INFO] Aguardando 2.69s...
+2026-09-14 19:15:30 [INFO] [37/37] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/09/14/agenda-de-empresas-petrobras-recebe-r-257-bi-de-programa-de-subvencoes-slc-levanta-r-515-milhoes.ghtml
+2026-09-14 19:15:30 [INFO] Título: Agenda de empresas: Petrobras recebe R$ 2,57 bi de programa de subvenções; SLC ...
+2026-09-14 19:15:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-14 19:15:31 [INFO] Classificação: nao_enviar
+2026-09-14 19:15:31 [INFO] ======================================================================
+2026-09-14 19:15:31 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-14 19:15:31 [INFO] ======================================================================
+2026-09-14 19:15:31 [INFO] Processadas: 37
+2026-09-14 19:15:31 [INFO] Enviar: 16
+2026-09-14 19:15:31 [INFO] Não enviar: 21
+2026-09-14 19:15:31 [INFO] ======================================================================
