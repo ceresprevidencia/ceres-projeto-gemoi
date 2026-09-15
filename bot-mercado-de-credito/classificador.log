@@ -22213,3 +22213,106 @@
 2026-09-14 23:04:40 [INFO] Enviar: 8
 2026-09-14 23:04:40 [INFO] Não enviar: 14
 2026-09-14 23:04:40 [INFO] ======================================================================
+2026-09-15 04:40:13 [INFO] ======================================================================
+2026-09-15 04:40:13 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-15 04:40:13 [INFO] ======================================================================
+2026-09-15 04:40:13 [INFO] Notícias com status 'extraida': 18
+2026-09-15 04:40:13 [INFO] Limite: 20 requisições/minuto
+2026-09-15 04:40:13 [INFO] Intervalo mínimo: 3.0s
+2026-09-15 04:40:13 [INFO] ======================================================================
+2026-09-15 04:40:13 [INFO] [1/18] ID: https://www.youtube.com/watch?v=cfPSKSKplao
+2026-09-15 04:40:13 [INFO] Título: Crise no STF preocupa agronegócio brasileiro; veja no Conexão Agro | CNN PRIME TIME
+2026-09-15 04:40:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:13 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:13 [INFO] Aguardando 2.68s...
+2026-09-15 04:40:16 [INFO] [2/18] ID: https://www.opovo.com.br/trends/fabrica-de-sorvetes-com-56-anos-pede-recuperacao-judicial-para-continuar-operando-apos-crise-financeira/
+2026-09-15 04:40:16 [INFO] Título: Fábrica de sorvetes com 56 anos pede <b>recuperação judicial</b> para continuar operando após ...
+2026-09-15 04:40:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:16 [INFO] Classificação: enviar
+2026-09-15 04:40:16 [INFO] Aguardando 2.78s...
+2026-09-15 04:40:19 [INFO] [3/18] ID: https://gnoticia.com.br/efagro-regional-chega-a-campo-grande-para-discutir-endividamento-rural-recuperacao-judicial-e-seguranca-juridica-no-agronegocio/
+2026-09-15 04:40:19 [INFO] Título: EFAGRO Regional chega a Campo Grande para discutir endividamento rural, <b>recuperação</b> ...
+2026-09-15 04:40:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:19 [INFO] Classificação: enviar
+2026-09-15 04:40:19 [INFO] Aguardando 2.73s...
+2026-09-15 04:40:22 [INFO] [4/18] ID: https://www.lance.com.br/vasco/vasco-recebe-r-65-milhoes-de-emprestimo-para-cumprir-pagamentos.html
+2026-09-15 04:40:22 [INFO] Título: Vasco recebe R$ 65 milhões de empréstimo para cumprir pagamentos - LANCE!
+2026-09-15 04:40:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:22 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:22 [INFO] Aguardando 2.73s...
+2026-09-15 04:40:25 [INFO] [5/18] ID: https://tribunaonline.com.br/policia/justica-decreta-prisao-de-empresario-por-desmatar-mata-atlantica-em-santa-teresa-330613
+2026-09-15 04:40:25 [INFO] Título: Justiça decreta prisão de empresário por desmatar Mata Atlântica em Santa Teresa
+2026-09-15 04:40:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:25 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:25 [INFO] Aguardando 2.74s...
+2026-09-15 04:40:28 [INFO] [6/18] ID: https://pipelinevalor.globo.com/google/amp/negocios/noticia/ocq-prorroga-proposta-por-fabrica-da-unigel-ate-dezembro.ghtml
+2026-09-15 04:40:28 [INFO] Título: OCQ prorroga proposta por fábrica da Unigel até dezembro | Negócios - Pipeline
+2026-09-15 04:40:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:28 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:28 [INFO] Aguardando 2.77s...
+2026-09-15 04:40:31 [INFO] [7/18] ID: https://www.mattosfilho.com.br/unico/pat-prazo-recadastramento-sistema/
+2026-09-15 04:40:31 [INFO] Título: PAT: MTE estabelece 60 dias de prazo para recadastramento no novo sistema
+2026-09-15 04:40:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:31 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:31 [INFO] Aguardando 2.73s...
+2026-09-15 04:40:34 [INFO] [8/18] ID: https://www.mpmt.mp.br/portalcao/news/733/179970/ibdfam-bisavos-maternos-obtem-guarda-definitiva-de-adolescente-em-santa-catarina/102
+2026-09-15 04:40:34 [INFO] Título: IBDFAM: Bisavós maternos obtêm guarda definitiva de adolescente em Santa Catarina
+2026-09-15 04:40:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:34 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:34 [INFO] Aguardando 2.70s...
+2026-09-15 04:40:37 [INFO] [9/18] ID: https://avozdocampo.com/economia/airbaltic-pede-recuperacao-judicial-nos-eua-em-meio-a-guerra-com-o-ira/
+2026-09-15 04:40:37 [INFO] Título: AirBaltic pede <b>recuperação judicial</b> nos EUA em meio à guerra com o Irã | A Voz No Campo
+2026-09-15 04:40:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:37 [INFO] Classificação: enviar
+2026-09-15 04:40:37 [INFO] Aguardando 2.69s...
+2026-09-15 04:40:40 [INFO] [10/18] ID: https://melhorinvestimento.net/noticias/raizen-define-nomes-conselhos-conversao-divida
+2026-09-15 04:40:40 [INFO] Título: Raízen (RAIZ4) define nomes para conselhos após reestruturação da dívida
+2026-09-15 04:40:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:41 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:41 [INFO] Aguardando 2.58s...
+2026-09-15 04:40:43 [INFO] [11/18] ID: https://businessmoment.com.br/com-novo-ceo-bossa-invest-projeta-r-1-bilhao-ate-final-do-ano/
+2026-09-15 04:40:43 [INFO] Título: Com novo CEO, Bossa Invest projeta R$ 1 bilhão até final do ano - Business Moment
+2026-09-15 04:40:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:43 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:43 [INFO] Aguardando 2.73s...
+2026-09-15 04:40:46 [INFO] [12/18] ID: https://www.folhamax.com/economia/justica-decreta-falencia-de-grupo-por-obstruir-recuperacao-em-mt/572381
+2026-09-15 04:40:46 [INFO] Título: Justiça decreta falência de grupo por obstruir recuperação em MT - FOLHAMAX
+2026-09-15 04:40:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:46 [INFO] Classificação: enviar
+2026-09-15 04:40:46 [INFO] Aguardando 2.76s...
+2026-09-15 04:40:49 [INFO] [13/18] ID: https://www.ativovirtual.com.br/avnews/artigos/fato-relevante-b100-s-a-bc-teria-arquivado-inquerito-da-cbsf-dtvm
+2026-09-15 04:40:49 [INFO] Título: Fato relevante B100 S.A.: BC teria arquivado inquérito da CBSF DTVM - Ativo Virtual
+2026-09-15 04:40:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:49 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:49 [INFO] Aguardando 2.72s...
+2026-09-15 04:40:52 [INFO] [14/18] ID: https://valor.globo.com/financas/noticia/2026/09/14/b100-antiga-reag-trust-diz-que-ainda-no-recebeu-comunicao-do-bc-sobre-fim-da-indisponibilidade-de-bens.ghtml
+2026-09-15 04:40:52 [INFO] Título: B100, antiga Reag Trust, diz que ainda não recebeu comunicação do BC sobre fim da ...
+2026-09-15 04:40:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:52 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:52 [INFO] Aguardando 2.76s...
+2026-09-15 04:40:55 [INFO] [15/18] ID: https://claudiodantas.com.br/pf-tentativa-acionar-pcc-vorcaro-prisao/
+2026-09-15 04:40:55 [INFO] Título: PF identifica tentativa de acionar PCC por Vorcaro na prisão - Claudio Dantas
+2026-09-15 04:40:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:55 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:55 [INFO] Aguardando 2.71s...
+2026-09-15 04:40:58 [INFO] [16/18] ID: https://www.spacemoney.com.br/economia/legislacao/bc-arquiva-inquerito-reag-trust-bloqueio-bens/
+2026-09-15 04:40:58 [INFO] Título: BC vê ausência de prejuízo e arquiva inquérito da Reag - SpaceMoney
+2026-09-15 04:40:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:40:59 [INFO] Classificação: nao_enviar
+2026-09-15 04:40:59 [INFO] Aguardando 2.62s...
+2026-09-15 04:41:01 [INFO] [17/18] ID: https://www.spacemoney.com.br/investimentos/protecao-investidor-fgc-mrp-med/
+2026-09-15 04:41:01 [INFO] Título: Proteção ao investidor: limites do FGC, MRP e MED - SpaceMoney
+2026-09-15 04:41:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:41:01 [INFO] Classificação: nao_enviar
+2026-09-15 04:41:01 [INFO] Aguardando 2.83s...
+2026-09-15 04:41:04 [INFO] [18/18] ID: https://www.independente.com.br/artigo/rede-faleiro-projeta-inaugurar-posto-de-combustivel-e-paradouro-em-arroio-do-meio-ate-o-final-do-ano
+2026-09-15 04:41:04 [INFO] Título: Rede Faleiro projeta inaugurar posto de combustível e paradouro em Arroio do Meio até o ...
+2026-09-15 04:41:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 04:41:04 [INFO] Classificação: nao_enviar
+2026-09-15 04:41:04 [INFO] ======================================================================
+2026-09-15 04:41:04 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-15 04:41:04 [INFO] ======================================================================
+2026-09-15 04:41:04 [INFO] Processadas: 18
+2026-09-15 04:41:04 [INFO] Enviar: 4
+2026-09-15 04:41:04 [INFO] Não enviar: 14
+2026-09-15 04:41:04 [INFO] ======================================================================
