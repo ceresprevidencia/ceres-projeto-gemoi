@@ -22655,3 +22655,121 @@
 2026-09-15 18:53:52 [INFO] Enviar: 13
 2026-09-15 18:53:52 [INFO] Não enviar: 19
 2026-09-15 18:53:52 [INFO] ======================================================================
+2026-09-15 22:04:28 [INFO] ======================================================================
+2026-09-15 22:04:28 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-15 22:04:28 [INFO] ======================================================================
+2026-09-15 22:04:28 [INFO] Notícias com status 'extraida': 21
+2026-09-15 22:04:28 [INFO] Limite: 20 requisições/minuto
+2026-09-15 22:04:28 [INFO] Intervalo mínimo: 3.0s
+2026-09-15 22:04:28 [INFO] ======================================================================
+2026-09-15 22:04:28 [INFO] [1/21] ID: https://agrorevenda.com.br/noticia/recuperacao-judicial-no-agronegocio-cresce-219/
+2026-09-15 22:04:28 [INFO] Título: <b>Recuperação judicial</b> no agronegócio cresce 21,9% - AgroRevenda
+2026-09-15 22:04:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:29 [INFO] Classificação: enviar
+2026-09-15 22:04:29 [INFO] Aguardando 2.25s...
+2026-09-15 22:04:31 [INFO] [2/21] ID: https://www.agazeta.com.br/es/economia/caso-apex-investidores-tentam-impedir-que-imovel-seja-incluido-em-recuperacao-judicial-0926
+2026-09-15 22:04:31 [INFO] Título: Caso Apex: investidores tentam impedir que imóvel seja incluído em <b>recuperação judicial</b>
+2026-09-15 22:04:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:32 [INFO] Classificação: enviar
+2026-09-15 22:04:32 [INFO] Aguardando 2.72s...
+2026-09-15 22:04:34 [INFO] [3/21] ID: https://www.uol.com.br/flash/?c=6aa9a87d989ca01e40f929f2
+2026-09-15 22:04:34 [INFO] Título: Apex Partners pede <b>recuperação judicial</b> por dívida de R$ 985 milhões - UOL
+2026-09-15 22:04:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:35 [INFO] Classificação: enviar
+2026-09-15 22:04:35 [INFO] Aguardando 2.73s...
+2026-09-15 22:04:37 [INFO] [4/21] ID: https://istoe.com.br/leiloes-casas-bahia-eletrodomesticos-eletronicos-oferta
+2026-09-15 22:04:37 [INFO] Título: Casas Bahia faz leilões de eletrodomésticos e eletrônicos nesta semana - IstoÉ
+2026-09-15 22:04:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:38 [INFO] Classificação: nao_enviar
+2026-09-15 22:04:38 [INFO] Aguardando 2.59s...
+2026-09-15 22:04:40 [INFO] [5/21] ID: https://turismo.ig.com.br/2026-09-15/airbaltic-pede-recuperacao-judicial-nos-estados-unidos.html
+2026-09-15 22:04:40 [INFO] Título: Companhia airBaltic pede <b>recuperação judicial</b> nos Estados Unidos - Turismo - iG
+2026-09-15 22:04:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:41 [INFO] Classificação: enviar
+2026-09-15 22:04:41 [INFO] Aguardando 2.74s...
+2026-09-15 22:04:43 [INFO] [6/21] ID: https://economia.uol.com.br/noticias/redacao/2026/09/14/uol-adapta-programacao-para-cobertura-do-julgamento-de-alexandre-de-moraes.ghtm
+2026-09-15 22:04:43 [INFO] Título: UOL terá programação especial para julgamento do caso Moraes
+2026-09-15 22:04:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:44 [INFO] Classificação: nao_enviar
+2026-09-15 22:04:44 [INFO] Aguardando 2.61s...
+2026-09-15 22:04:46 [INFO] [7/21] ID: https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/09/14/defensoria-recorre-contra-acordo-entre-mp-e-shopping-patio-higienopolis.ghtm
+2026-09-15 22:04:46 [INFO] Título: Defensoria contesta acordo de R$ 1 milhão por racismo no Pátio Higienópolis
+2026-09-15 22:04:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:47 [INFO] Classificação: nao_enviar
+2026-09-15 22:04:47 [INFO] Aguardando 2.63s...
+2026-09-15 22:04:49 [INFO] [8/21] ID: https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/15/tecnico-que-levou-espanha-a-3-titulos-se-aproxima-de-acordo-ate-2030.ghtm
+2026-09-15 22:04:49 [INFO] Título: Técnico que levou Espanha a bi da Copa do Mundo encaminha renovação - UOL
+2026-09-15 22:04:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:50 [INFO] Classificação: nao_enviar
+2026-09-15 22:04:50 [INFO] Aguardando 2.67s...
+2026-09-15 22:04:52 [INFO] [9/21] ID: https://www.itatiaia.com.br/turismo/airbaltic-entra-com-pedido-de-recuperacao-judicial-nos-eua/
+2026-09-15 22:04:52 [INFO] Título: AirBaltic entra com pedido de <b>recuperação judicial</b> nos EUA - Rádio Itatiaia
+2026-09-15 22:04:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:53 [INFO] Classificação: enviar
+2026-09-15 22:04:53 [INFO] Aguardando 2.71s...
+2026-09-15 22:04:55 [INFO] [10/21] ID: https://trademap.com.br/noticias/news-8306573
+2026-09-15 22:04:55 [INFO] Título: Bolsas europeias caem com alta do petróleo e temor de inflação - TradeMap
+2026-09-15 22:04:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:56 [INFO] Classificação: nao_enviar
+2026-09-15 22:04:56 [INFO] Aguardando 2.68s...
+2026-09-15 22:04:58 [INFO] [11/21] ID: https://pipelinevalor.globo.com/negocios/noticia/apex-partners-entra-em-recuperacao-judicial-e-deixa-gestora-de-fora.ghtml
+2026-09-15 22:04:58 [INFO] Título: Apex Partners entra em <b>recuperação judicial</b> e deixa gestora de fora - Pipeline
+2026-09-15 22:04:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:04:59 [INFO] Classificação: enviar
+2026-09-15 22:04:59 [INFO] Aguardando 2.79s...
+2026-09-15 22:05:01 [INFO] [12/21] ID: https://economia.uol.com.br/noticias/redacao/2026/09/15/apex-partners-recuperacao-judicial.ghtm
+2026-09-15 22:05:01 [INFO] Título: Apex Partners pede <b>recuperação judicial</b> por dívida de R$ 985 milhões - UOL Economia
+2026-09-15 22:05:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:02 [INFO] Classificação: enviar
+2026-09-15 22:05:02 [INFO] Aguardando 2.44s...
+2026-09-15 22:05:04 [INFO] [13/21] ID: https://guarainoticias.com.br/artigos-de-opiniao/o-banco-master-e-seu-impacto-no-mundo-do-futebol
+2026-09-15 22:05:04 [INFO] Título: O BANCO MÁSTER E SEU IMPACTO NO MUNDO DO FUTEBOL - Guaraí Notícias
+2026-09-15 22:05:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:05 [INFO] Classificação: nao_enviar
+2026-09-15 22:05:05 [INFO] Aguardando 2.66s...
+2026-09-15 22:05:07 [INFO] [14/21] ID: https://www.bloomberglinea.com.br/negocios/oncoclinicas-troca-cfo-e-busca-novo-perfil-em-conducao-de-reestruturacao-diz-jpmorgan/?outputType=amp
+2026-09-15 22:05:07 [INFO] Título: Oncoclínicas troca CFO em busca novo perfil para reestruturação, se... - Bloomberg Linea
+2026-09-15 22:05:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:08 [INFO] Classificação: nao_enviar
+2026-09-15 22:05:08 [INFO] Aguardando 2.36s...
+2026-09-15 22:05:10 [INFO] [15/21] ID: https://economia.uol.com.br/noticias/redacao/2026/09/15/liquidante-do-master-tenta-barrar-venda-de-ativos-em-fundos-da-antiga-reag.htm
+2026-09-15 22:05:10 [INFO] Título: Justiça tenta barrar venda de ativos de fundos da Reag ligados ao Master - UOL Economia
+2026-09-15 22:05:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:11 [INFO] Classificação: nao_enviar
+2026-09-15 22:05:11 [INFO] Aguardando 2.55s...
+2026-09-15 22:05:13 [INFO] [16/21] ID: https://www.jornalbomdia.com.br/noticia/91731/forum-do-direito-da-uri-discute-a-crise-financeira-no-campo
+2026-09-15 22:05:13 [INFO] Título: Fórum do Direito da URI discute a crise financeira no campo | Jornal Bom Dia
+2026-09-15 22:05:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:14 [INFO] Classificação: nao_enviar
+2026-09-15 22:05:14 [INFO] Aguardando 2.65s...
+2026-09-15 22:05:16 [INFO] [17/21] ID: https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2026/18203-mpdft-quer-liquidacao-de-sentenca-condenatoria-em-acao-de-improbidade-no-valor-de-r-33-milhoes-por-favorecimento-a-hospital
+2026-09-15 22:05:16 [INFO] Título: MPDFT quer <b>liquidação</b> de sentença de R$ 33 milhões por favorecimento a hospital
+2026-09-15 22:05:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:17 [INFO] Classificação: nao_enviar
+2026-09-15 22:05:17 [INFO] Aguardando 2.62s...
+2026-09-15 22:05:19 [INFO] [18/21] ID: https://pipelinevalor.globo.com/google/amp/negocios/noticia/apex-partners-entra-em-recuperacao-judicial-e-deixa-gestora-de-fora.ghtml
+2026-09-15 22:05:19 [INFO] Título: Apex Partners entra em recuperação <b>judicial</b> e deixa gestora de fora | Negócios - Pipeline
+2026-09-15 22:05:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:20 [INFO] Classificação: enviar
+2026-09-15 22:05:20 [INFO] Aguardando 2.65s...
+2026-09-15 22:05:22 [INFO] [19/21] ID: https://novidadesmt.com.br/politica-nacional/cdh-acompanha-julgamento-no-stf/
+2026-09-15 22:05:22 [INFO] Título: CDH acompanha julgamento no STF - NOVIDADES MT
+2026-09-15 22:05:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:23 [INFO] Classificação: nao_enviar
+2026-09-15 22:05:23 [INFO] Aguardando 2.70s...
+2026-09-15 22:05:25 [INFO] [20/21] ID: https://www.portalaz.com.br/noticia/politica/98213/master-pagou-r-275-milhoes-a-escritorio-de-marcus-vinicius/
+2026-09-15 22:05:25 [INFO] Título: Master pagou R$ 27,5 milhões a escritório de Marcus Vinícius - Portal AZ
+2026-09-15 22:05:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:26 [INFO] Classificação: nao_enviar
+2026-09-15 22:05:26 [INFO] Aguardando 2.65s...
+2026-09-15 22:05:28 [INFO] [21/21] ID: https://www.migalhas.com.br/depeso/464164/a-responsabilidade-civil-do-bacen-nas-liquidacoes-e-regimes-especiais
+2026-09-15 22:05:28 [INFO] Título: A responsabilidade civil do Bacen nas liquidações e regimes especiais - Migalhas
+2026-09-15 22:05:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 22:05:29 [INFO] Classificação: nao_enviar
+2026-09-15 22:05:29 [INFO] ======================================================================
+2026-09-15 22:05:29 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-15 22:05:29 [INFO] ======================================================================
+2026-09-15 22:05:29 [INFO] Processadas: 21
+2026-09-15 22:05:29 [INFO] Enviar: 8
+2026-09-15 22:05:29 [INFO] Não enviar: 13
+2026-09-15 22:05:29 [INFO] ======================================================================
