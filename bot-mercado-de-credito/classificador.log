@@ -22316,3 +22316,26 @@
 2026-09-15 04:41:04 [INFO] Enviar: 4
 2026-09-15 04:41:04 [INFO] Não enviar: 14
 2026-09-15 04:41:04 [INFO] ======================================================================
+2026-09-15 09:57:41 [INFO] ======================================================================
+2026-09-15 09:57:41 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-15 09:57:41 [INFO] ======================================================================
+2026-09-15 09:57:41 [INFO] Notícias com status 'extraida': 2
+2026-09-15 09:57:41 [INFO] Limite: 20 requisições/minuto
+2026-09-15 09:57:41 [INFO] Intervalo mínimo: 3.0s
+2026-09-15 09:57:41 [INFO] ======================================================================
+2026-09-15 09:57:41 [INFO] [1/2] ID: https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/15/demitidos-das-casas-bahia-ainda-esperam-verbas-rescisorias.ghtml
+2026-09-15 09:57:41 [INFO] Título: Demitidos da Casas Bahia ainda esperam pagamento de verbas rescisórias | G1 - Globo
+2026-09-15 09:57:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 09:57:42 [INFO] Classificação: nao_enviar
+2026-09-15 09:57:42 [INFO] Aguardando 2.67s...
+2026-09-15 09:57:44 [INFO] [2/2] ID: https://www.jcatibaia.com.br/noticia/greve-nos-correios-tst-determina-manutencao-de-80-do-efetivo
+2026-09-15 09:57:44 [INFO] Título: Greve nos Correios: TST determina manutenção de 80% do efetivo - JC Atibaia
+2026-09-15 09:57:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 09:57:45 [INFO] Classificação: nao_enviar
+2026-09-15 09:57:45 [INFO] ======================================================================
+2026-09-15 09:57:45 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-15 09:57:45 [INFO] ======================================================================
+2026-09-15 09:57:45 [INFO] Processadas: 2
+2026-09-15 09:57:45 [INFO] Enviar: 0
+2026-09-15 09:57:45 [INFO] Não enviar: 2
+2026-09-15 09:57:45 [INFO] ======================================================================
