@@ -22482,3 +22482,176 @@
 2026-09-15 14:54:26 [INFO] Enviar: 8
 2026-09-15 14:54:26 [INFO] Não enviar: 18
 2026-09-15 14:54:26 [INFO] ======================================================================
+2026-09-15 18:52:18 [INFO] ======================================================================
+2026-09-15 18:52:18 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-15 18:52:18 [INFO] ======================================================================
+2026-09-15 18:52:18 [INFO] Notícias com status 'extraida': 32
+2026-09-15 18:52:18 [INFO] Limite: 20 requisições/minuto
+2026-09-15 18:52:18 [INFO] Intervalo mínimo: 3.0s
+2026-09-15 18:52:18 [INFO] ======================================================================
+2026-09-15 18:52:18 [INFO] [1/32] ID: https://economia.ig.com.br/2026-09-15/apex-partners-pede-recuperacao-judicial-apos-crise-financeira.html
+2026-09-15 18:52:18 [INFO] Título: Apex Partners pede <b>recuperação judicial</b> após crise financeira - iG Economia
+2026-09-15 18:52:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:19 [INFO] Classificação: enviar
+2026-09-15 18:52:19 [INFO] Aguardando 2.66s...
+2026-09-15 18:52:21 [INFO] [2/32] ID: https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/15/transmissao-ao-vivo-da-tv-justica-assista-sessao-de-hoje-sobre-futuro-de-moraes.ghtm
+2026-09-15 18:52:21 [INFO] Título: Transmissão ao vivo da TV Justiça: assista sessão sobre futuro de Moraes - UOL Notícias
+2026-09-15 18:52:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:22 [INFO] Classificação: nao_enviar
+2026-09-15 18:52:22 [INFO] Aguardando 2.25s...
+2026-09-15 18:52:24 [INFO] [3/32] ID: https://eshoje.com.br/economia/2026/09/apex-recuperacao-judicial-vizzo/
+2026-09-15 18:52:24 [INFO] Título: Caso Apex: Investidores querem blindar Vizzo - ES HOJE
+2026-09-15 18:52:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:25 [INFO] Classificação: nao_enviar
+2026-09-15 18:52:25 [INFO] Aguardando 2.65s...
+2026-09-15 18:52:27 [INFO] [4/32] ID: https://www.migalhas.com.br/depeso/464166/bancos-e-a-preservacao-de-empresas-viaveis-na-recuperacao-judicial
+2026-09-15 18:52:27 [INFO] Título: Bancos e a preservação de empresas viáveis na <b>recuperação judicial</b> - Migalhas
+2026-09-15 18:52:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:28 [INFO] Classificação: enviar
+2026-09-15 18:52:28 [INFO] Aguardando 2.76s...
+2026-09-15 18:52:30 [INFO] [5/32] ID: https://diariodopara.com.br/para/justica-aceita-recuperacao-judicial-da-cerpa-tradicional-cervejaria-do-para/
+2026-09-15 18:52:30 [INFO] Título: Cerpa: Justiça aceita pedido de <b>recuperação judicial</b> da cervejaria - Diário do Pará
+2026-09-15 18:52:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:31 [INFO] Classificação: enviar
+2026-09-15 18:52:31 [INFO] Aguardando 2.71s...
+2026-09-15 18:52:33 [INFO] [6/32] ID: https://www.foconacional.com.br/2026/09/crise-no-agronegocio-recuperacao.html
+2026-09-15 18:52:33 [INFO] Título: Crise no agronegócio: <b>recuperação judicial</b> ou alongamento da dívida? - Foco Nacional
+2026-09-15 18:52:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:34 [INFO] Classificação: enviar
+2026-09-15 18:52:34 [INFO] Aguardando 2.69s...
+2026-09-15 18:52:36 [INFO] [7/32] ID: https://www.youtube.com/watch?v=U8inJAoupT0
+2026-09-15 18:52:36 [INFO] Título: Rhino vai à Justiça e Apex entra com pedido de <b>recuperação judicial</b> - YouTube
+2026-09-15 18:52:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:37 [INFO] Classificação: enviar
+2026-09-15 18:52:37 [INFO] Aguardando 2.83s...
+2026-09-15 18:52:39 [INFO] [8/32] ID: https://www.migalhas.com.br/quentes/464568/recuperacao-judicial-nao-salva-empresa-inviavel-alerta-especialista
+2026-09-15 18:52:39 [INFO] Título: <b>Recuperação judicial</b> não salva empresa inviável, alerta especialista - Migalhas
+2026-09-15 18:52:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:40 [INFO] Classificação: enviar
+2026-09-15 18:52:40 [INFO] Aguardando 2.63s...
+2026-09-15 18:52:42 [INFO] [9/32] ID: https://eshoje.com.br/seguranca/justica/2026/09/apex-recuperacao-judicial-2/
+2026-09-15 18:52:42 [INFO] Título: Apex pede <b>recuperação judicial</b> e TJ convoca perícia- ES HOJE
+2026-09-15 18:52:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:43 [INFO] Classificação: enviar
+2026-09-15 18:52:43 [INFO] Aguardando 2.57s...
+2026-09-15 18:52:45 [INFO] [10/32] ID: https://www.estadao.com.br/einvestidor/wealth-management/apex-pede-recuperacao-judicial-por-divida-perda-de-liquidez-e-falhas-de-governanca/
+2026-09-15 18:52:45 [INFO] Título: Apex Partners pede <b>recuperação judicial</b> por dívida, perda de liquidez e falhas de governança
+2026-09-15 18:52:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:46 [INFO] Classificação: enviar
+2026-09-15 18:52:46 [INFO] Aguardando 2.66s...
+2026-09-15 18:52:48 [INFO] [11/32] ID: https://www.estadao.com.br/em-alta/einvestidor/wealth-management/apex-pede-recuperacao-judicial-por-divida-perda-de-liquidez-e-falhas-de-governanca/
+2026-09-15 18:52:48 [INFO] Título: Apex Partners pede <b>recuperação judicial</b> por dívida, perda de liquidez e falhas de governança
+2026-09-15 18:52:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:49 [INFO] Classificação: enviar
+2026-09-15 18:52:49 [INFO] Aguardando 2.66s...
+2026-09-15 18:52:51 [INFO] [12/32] ID: https://mundologistica.com.br/noticias/latam-cargo-transporte-cargas-fernando-de-noronha
+2026-09-15 18:52:51 [INFO] Título: LATAM inicia transporte de cargas para Fernando de Noronha - Mundo Logística
+2026-09-15 18:52:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:52 [INFO] Classificação: nao_enviar
+2026-09-15 18:52:52 [INFO] Aguardando 2.65s...
+2026-09-15 18:52:54 [INFO] [13/32] ID: https://br.advfn.com/jornal/2026/09/grupo-toky-justica-nega-pedido-para-suspender-deliberacoes-e-da-30-dias-para-arbitragem
+2026-09-15 18:52:54 [INFO] Título: Grupo Toky: Justiça nega pedido para suspender deliberações e dá 30 dias para arbitragem
+2026-09-15 18:52:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:55 [INFO] Classificação: nao_enviar
+2026-09-15 18:52:55 [INFO] Aguardando 2.72s...
+2026-09-15 18:52:57 [INFO] [14/32] ID: https://www.supervasco.com/noticias/advogado-explica-sobre-edital-de-alienacao-judicial-da-saf-vascaina-455856.html
+2026-09-15 18:52:57 [INFO] Título: Advogado explica sobre edital de alienação <b>judicial</b> da SAF vascaína - SuperVasco
+2026-09-15 18:52:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:52:58 [INFO] Classificação: enviar
+2026-09-15 18:52:58 [INFO] Aguardando 2.70s...
+2026-09-15 18:53:00 [INFO] [15/32] ID: https://g1.globo.com/es/espirito-santo/noticia/2026/09/15/crise-na-apex-plataforma-de-investimentos-entra-com-pedido-de-recuperacao-judicial.ghtml
+2026-09-15 18:53:00 [INFO] Título: Crise na Apex: plataforma de investimentos entra com pedido de <b>recuperação judicial</b> - G1
+2026-09-15 18:53:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:01 [INFO] Classificação: enviar
+2026-09-15 18:53:01 [INFO] Aguardando 2.05s...
+2026-09-15 18:53:03 [INFO] [16/32] ID: https://pipelinevalor.globo.com/negocios/noticia/ocq-prorroga-proposta-por-fabrica-da-unigel-ate-dezembro.ghtml
+2026-09-15 18:53:03 [INFO] Título: OCQ prorroga proposta por fábrica da Unigel até dezembro - Pipeline
+2026-09-15 18:53:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:04 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:04 [INFO] Aguardando 2.61s...
+2026-09-15 18:53:06 [INFO] [17/32] ID: https://www.fatosdematogrosso.com.br/geral/bradesco-tem-metade-da-divida-e-poder-de-decidir-recuperacao-de-transportadora-de-cuiaba/16027
+2026-09-15 18:53:06 [INFO] Título: Bradesco tem metade da dívida e poder de decidir <b>recuperação</b> de transportadora de Cuiabá
+2026-09-15 18:53:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:07 [INFO] Classificação: enviar
+2026-09-15 18:53:07 [INFO] Aguardando 2.43s...
+2026-09-15 18:53:09 [INFO] [18/32] ID: https://timesbrasil.com.br/empresas-e-negocios/apex-partners-pede-recuperacao-judicial/
+2026-09-15 18:53:09 [INFO] Título: Master Capixaba: Apex Partners entra com pedido de <b>recuperação judicial</b> - Times Brasil
+2026-09-15 18:53:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:10 [INFO] Classificação: enviar
+2026-09-15 18:53:10 [INFO] Aguardando 2.70s...
+2026-09-15 18:53:12 [INFO] [19/32] ID: https://conjur.com.br/2026-set-15/especialistas-temem-banalizacao-de-pedidos-de-falencia-em-estados-e-municipios/
+2026-09-15 18:53:12 [INFO] Título: Tributaristas temem que decisão do STJ banalize falência em estados e municípios - Conjur
+2026-09-15 18:53:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:13 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:13 [INFO] Aguardando 2.25s...
+2026-09-15 18:53:15 [INFO] [20/32] ID: https://bahiaeconomica.com.br/wp/2026/09/15/uniao-libera-mais-de-14-milhao-de-m²-para-obras-da-ponte-salvador-itaparica/
+2026-09-15 18:53:15 [INFO] Título: UNIÃO LIBERA MAIS DE 1,4 MILHÃO DE M² PARA OBRAS DA PONTE SALVADOR-ITAPARICA
+2026-09-15 18:53:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:16 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:16 [INFO] Aguardando 2.75s...
+2026-09-15 18:53:18 [INFO] [21/32] ID: https://www.bloomberglinea.com.br/negocios/oncoclinicas-troca-cfo-e-busca-novo-perfil-em-conducao-de-reestruturacao-diz-jpmorgan/
+2026-09-15 18:53:18 [INFO] Título: Oncoclínicas troca CFO em busca novo perfil para reestruturação, segundo o J.P.Morgan
+2026-09-15 18:53:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:19 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:19 [INFO] Aguardando 2.55s...
+2026-09-15 18:53:21 [INFO] [22/32] ID: https://capitalaberto.com.br/opiniao/artigos/2026/09/deu-certo-vamos-renovar-a-frase-mais-perigosa-nos-fidcs
+2026-09-15 18:53:21 [INFO] Título: "Deu certo! Vamos renovar". A frase mais perigosa nos Fidcs | Capital Aberto
+2026-09-15 18:53:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:22 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:22 [INFO] Aguardando 2.67s...
+2026-09-15 18:53:24 [INFO] [23/32] ID: https://tradersunion.com/pt/news/financial-news/show/3337915-raizen-reorganizacao-divida-conselheiros-novas-empresas/
+2026-09-15 18:53:24 [INFO] Título: Raízen avança reorganização da dívida com definição de conselheiros para novas empresas
+2026-09-15 18:53:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:25 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:25 [INFO] Aguardando 2.37s...
+2026-09-15 18:53:27 [INFO] [24/32] ID: https://www.espn.com.br/futebol/botafogo/artigo/_/id/17259275/justica-trabalho-marca-audiencia-caso-botafogo-x-bruno-lage-tecnico-pede-quase-r-10-milhoes
+2026-09-15 18:53:27 [INFO] Título: Justiça marca audiência do caso Botafogo x Bruno Lage; técnico pede quase R$ 10 milhões - ESPN
+2026-09-15 18:53:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:28 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:28 [INFO] Aguardando 2.59s...
+2026-09-15 18:53:30 [INFO] [25/32] ID: https://convergenciadigital.com.br/governo/justica-do-rio-condena-google-a-recuperar-arquivos-que-sumiram-da-nuvem-de-usuario/
+2026-09-15 18:53:30 [INFO] Título: Justiça do Rio condena Google a recuperar arquivos que sumiram da nuvem de usuário
+2026-09-15 18:53:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:31 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:31 [INFO] Aguardando 2.65s...
+2026-09-15 18:53:33 [INFO] [26/32] ID: https://gente.ig.com.br/celebridades/2026-09-15/influenciadora-expoe-que-daniel-vorcaro-derrubou-sua-conta.html
+2026-09-15 18:53:33 [INFO] Título: Influenciadora afirma que teve rede social derrubada por Vorcaro - Gente IG
+2026-09-15 18:53:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:34 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:34 [INFO] Aguardando 2.59s...
+2026-09-15 18:53:36 [INFO] [27/32] ID: https://chumbogrossomanaus.com.br/justica/contrato-de-r-131-milhoes-do-banco-master-com-escritorio-barci-de-moraes-como-funciona-o-recolhimento-de-impostos/
+2026-09-15 18:53:36 [INFO] Título: Contrato de R$ 131 Milhões do Banco Master com escritório Barci de Moraes
+2026-09-15 18:53:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:37 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:37 [INFO] Aguardando 2.30s...
+2026-09-15 18:53:39 [INFO] [28/32] ID: https://reporterceara.com.br/2026/09/15/stf-julga-hoje-relatorio-da-pf-que-aponta-relacao-de-moraes-com-vorcaro-veja-o-que-pesa-contra-ministro/
+2026-09-15 18:53:39 [INFO] Título: STF julga hoje relatório da PF que aponta relação de Moraes com Vorcaro - Repórter Ceará
+2026-09-15 18:53:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:40 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:40 [INFO] Aguardando 2.67s...
+2026-09-15 18:53:42 [INFO] [29/32] ID: https://93noticias.com.br/caso-banco-master-pf-adia-depoimento-de-daniel-vorcaro/
+2026-09-15 18:53:42 [INFO] Título: PF adia depoimento de Daniel Vorcaro sobre suposta fraude de R$ 12 bilhões com o BRB
+2026-09-15 18:53:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:44 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:44 [INFO] Aguardando 1.63s...
+2026-09-15 18:53:45 [INFO] [30/32] ID: https://ncnews.com.br/2026/09/15/mensagens-contratos-e-encontros-o-que-a-pf-aponta-na-relacao-entre-moraes-e-vorcaro/
+2026-09-15 18:53:45 [INFO] Título: Mensagens, contratos e encontros: o que a PF aponta na relação entre Moraes e Vorcaro
+2026-09-15 18:53:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:46 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:46 [INFO] Aguardando 2.75s...
+2026-09-15 18:53:48 [INFO] [31/32] ID: https://www.tribunadosertao.com.br/politica/2026/09/15/979064-em-parecer-mp-eleitoral-nega-direito-de-resposta-e-libera-postagem-sobre-responsabilidade-de-jhc-no-caso-iprevmaster
+2026-09-15 18:53:48 [INFO] Título: Em parecer, MP Eleitoral nega direito de resposta e libera postagem sobre ... - Tribuna do Sertão
+2026-09-15 18:53:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:50 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:50 [INFO] Aguardando 1.56s...
+2026-09-15 18:53:51 [INFO] [32/32] ID: https://www.reporterdiario.com.br/noticia/3894513/haddad-diz-estar-frustrado-com-a-politica-monetaria-do-bc/
+2026-09-15 18:53:51 [INFO] Título: Haddad diz 'estar frustrado' com a política monetária do BC - Repórter Diário
+2026-09-15 18:53:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 18:53:52 [INFO] Classificação: nao_enviar
+2026-09-15 18:53:52 [INFO] ======================================================================
+2026-09-15 18:53:52 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-15 18:53:52 [INFO] ======================================================================
+2026-09-15 18:53:52 [INFO] Processadas: 32
+2026-09-15 18:53:52 [INFO] Enviar: 13
+2026-09-15 18:53:52 [INFO] Não enviar: 19
+2026-09-15 18:53:52 [INFO] ======================================================================
