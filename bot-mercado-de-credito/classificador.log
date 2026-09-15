@@ -22339,3 +22339,146 @@
 2026-09-15 09:57:45 [INFO] Enviar: 0
 2026-09-15 09:57:45 [INFO] Não enviar: 2
 2026-09-15 09:57:45 [INFO] ======================================================================
+2026-09-15 14:53:10 [INFO] ======================================================================
+2026-09-15 14:53:10 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-15 14:53:10 [INFO] ======================================================================
+2026-09-15 14:53:10 [INFO] Notícias com status 'extraida': 26
+2026-09-15 14:53:10 [INFO] Limite: 20 requisições/minuto
+2026-09-15 14:53:10 [INFO] Intervalo mínimo: 3.0s
+2026-09-15 14:53:10 [INFO] ======================================================================
+2026-09-15 14:53:10 [INFO] [1/26] ID: https://www.folhavitoria.com.br/economia/apex-pede-recuperacao-judicial-com-divida-perto-de-r-1-bilhao-e-justica-vai-decidir-futuro-do-grupo/
+2026-09-15 14:53:10 [INFO] Título: Apex pede <b>recuperação judicial</b> com dívida perto de R$ 1 bilhão e Justiça vai decidir futuro do grupo
+2026-09-15 14:53:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:11 [INFO] Classificação: enviar
+2026-09-15 14:53:11 [INFO] Aguardando 2.64s...
+2026-09-15 14:53:13 [INFO] [2/26] ID: https://aquinoticias.com/2026/09/apex-partners-pede-recuperacao-judicial-e-diz-que-seguira-operando/
+2026-09-15 14:53:13 [INFO] Título: Apex Partners pede <b>recuperação judicial</b> e diz que seguirá operando - Aqui Notícias
+2026-09-15 14:53:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:14 [INFO] Classificação: enviar
+2026-09-15 14:53:14 [INFO] Aguardando 2.17s...
+2026-09-15 14:53:16 [INFO] [3/26] ID: https://simnoticias.com.br/economia/apex-partners-entra-com-pedido-de-recuperacao-judicial/
+2026-09-15 14:53:16 [INFO] Título: Apex Partners entra com pedido de <b>recuperação judicial</b> - Sim Notícias
+2026-09-15 14:53:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:17 [INFO] Classificação: enviar
+2026-09-15 14:53:17 [INFO] Aguardando 2.69s...
+2026-09-15 14:53:19 [INFO] [4/26] ID: https://www.broadcast.com.br/ultimas-noticias/imcopa-justica-da-60-dias-para-novo-leilao-de-fabricas-de-soja-no-parana/
+2026-09-15 14:53:19 [INFO] Título: Imcopa: Justiça dá 60 dias para novo leilão de fábricas de soja no Paraná - Broadcast
+2026-09-15 14:53:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:20 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:20 [INFO] Aguardando 1.94s...
+2026-09-15 14:53:22 [INFO] [5/26] ID: https://mauriliojunior.com/2026/09/14/justica-libera-treze-para-contratar-jogadores-e-retomar-atos-administrativos/
+2026-09-15 14:53:22 [INFO] Título: Justiça libera Treze para contratar jogadores e retomar atos administrativos - Maurílio Júnior
+2026-09-15 14:53:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:23 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:23 [INFO] Aguardando 2.73s...
+2026-09-15 14:53:25 [INFO] [6/26] ID: https://tribunaonline.com.br/economia/grupo-apex-partners-entra-com-solicitacao-de-recuperacao-judicial-330680
+2026-09-15 14:53:25 [INFO] Título: Grupo Apex Partners entra com solicitação de <b>recuperação judicial</b> - Tribuna Online
+2026-09-15 14:53:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:26 [INFO] Classificação: enviar
+2026-09-15 14:53:26 [INFO] Aguardando 2.61s...
+2026-09-15 14:53:28 [INFO] [7/26] ID: https://www.agazeta.com.br/colunas/abdo-filho/apex-partners-entra-com-pedido-de-recuperacao-judicial-0926
+2026-09-15 14:53:28 [INFO] Título: Apex Partners entra com pedido de <b>recuperação judicial</b> - A Gazeta
+2026-09-15 14:53:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:29 [INFO] Classificação: enviar
+2026-09-15 14:53:29 [INFO] Aguardando 2.60s...
+2026-09-15 14:53:31 [INFO] [8/26] ID: https://conjur.com.br/2026-set-15/tese-das-parcelas-infimas-do-refis-regras-razoes-subjacentes-e-imputacao-proporcional/
+2026-09-15 14:53:31 [INFO] Título: Tese das parcelas ínfimas do Refis: regras e razões subjacentes - Conjur
+2026-09-15 14:53:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:31 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:32 [INFO] Aguardando 2.78s...
+2026-09-15 14:53:34 [INFO] [9/26] ID: https://www.poder360.com.br/poder-sportsmkt/saf-do-vasco-recebe-r-65-mi-de-emprestimo-para-pagar-contas/
+2026-09-15 14:53:34 [INFO] Título: SAF do Vasco recebe R$ 65 mi de empréstimo para pagar contas - Poder360
+2026-09-15 14:53:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:35 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:35 [INFO] Aguardando 2.61s...
+2026-09-15 14:53:37 [INFO] [10/26] ID: https://www.cnnbrasil.com.br/agro/agro-pode-pagar-mais-caro-pelo-credito-se-risco-juridico-aumentar/
+2026-09-15 14:53:37 [INFO] Título: Agro pode pagar mais caro pelo crédito se risco jurídico aumentar - CNN Brasil
+2026-09-15 14:53:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:37 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:38 [INFO] Aguardando 2.76s...
+2026-09-15 14:53:40 [INFO] [11/26] ID: https://www.infomoney.com.br/onde-investir/febre-dos-fidcs-derruba-taxas-e-relacao-risco-retorno-comeca-a-preocupar/
+2026-09-15 14:53:40 [INFO] Título: Febre dos FIDCs derruba taxas e relação risco-retorno começa a preocupar - InfoMoney
+2026-09-15 14:53:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:40 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:40 [INFO] Aguardando 2.86s...
+2026-09-15 14:53:43 [INFO] [12/26] ID: https://ohoje.com/2026/09/14/pequenos-negocios-enfrentam-alta-na-recuperacao-judicial/
+2026-09-15 14:53:43 [INFO] Título: Pequenos negócios enfrentam alta na <b>recuperação judicial</b> - O Hoje
+2026-09-15 14:53:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:44 [INFO] Classificação: enviar
+2026-09-15 14:53:44 [INFO] Aguardando 2.68s...
+2026-09-15 14:53:46 [INFO] [13/26] ID: https://www.airway.com.br/empresa-aerea-da-letonia-com-frota-unica-de-a220-entra-em-concordata/
+2026-09-15 14:53:46 [INFO] Título: Empresa aérea da Letônia com frota única de A220 entra em concordata - AIRWAY
+2026-09-15 14:53:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:49 [INFO] Classificação: enviar
+2026-09-15 14:53:49 [INFO] Aguardando 0.48s...
+2026-09-15 14:53:49 [INFO] [14/26] ID: https://www.tjmt.jus.br/noticias/2026/9/uniformizacao-jurisprudencia-sera-tema-painel-sobre-construcao-sumulas-em-webinario-tjmt
+2026-09-15 14:53:49 [INFO] Título: Uniformização da jurisprudência será tema de painel sobre construção de súmulas em ...
+2026-09-15 14:53:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:50 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:50 [INFO] Aguardando 2.61s...
+2026-09-15 14:53:52 [INFO] [15/26] ID: https://obrasilianista.com.br/2026/09/15/economia/credores-da-raizen-definem-nomes-para-conselhos/
+2026-09-15 14:53:52 [INFO] Título: Credores da Raízen definem nomes para conselhos - O Brasilianista
+2026-09-15 14:53:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:53 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:53 [INFO] Aguardando 2.43s...
+2026-09-15 14:53:55 [INFO] [16/26] ID: https://aciara.com.br/redata-lobby-renovavel-tenta-barrar-gas-em-data-centers/
+2026-09-15 14:53:55 [INFO] Título: Redata: lobby renovável tenta barrar gás em data centers - Acia Araçatuba
+2026-09-15 14:53:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:56 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:56 [INFO] Aguardando 2.59s...
+2026-09-15 14:53:58 [INFO] [17/26] ID: https://guiadoinvestidor.com.br/mercado/raizen-raiz4-bancos-tomam-o-volante-apos-rombo-bilionario-e-deixam-cosan-em-segundo-plano/
+2026-09-15 14:53:58 [INFO] Título: Raízen (RAIZ4): Bancos tomam o volante após rombo bilionário e deixam Cosan em segundo plano
+2026-09-15 14:53:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:53:58 [INFO] Classificação: nao_enviar
+2026-09-15 14:53:58 [INFO] Aguardando 2.79s...
+2026-09-15 14:54:01 [INFO] [18/26] ID: https://www.novacana.com/noticias/raizen-define-nomes-para-conselhos-apos-conversao-da-divida-diz-jornal
+2026-09-15 14:54:01 [INFO] Título: Raízen define nomes para conselhos após conversão da dívida, diz jornal - NovaCana
+2026-09-15 14:54:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:54:01 [INFO] Classificação: nao_enviar
+2026-09-15 14:54:01 [INFO] Aguardando 2.84s...
+2026-09-15 14:54:04 [INFO] [19/26] ID: https://jornalcana.com.br/mercado/credores-comecam-a-desenhar-governanca-da-raizen/
+2026-09-15 14:54:04 [INFO] Título: Credores da Raízen definem nomes para conselhos das novas empresas - JornalCana
+2026-09-15 14:54:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:54:05 [INFO] Classificação: nao_enviar
+2026-09-15 14:54:05 [INFO] Aguardando 2.59s...
+2026-09-15 14:54:07 [INFO] [20/26] ID: https://obrasilianista.com.br/2026/09/15/economia/bc-arquiva-inquerito-da-reag-trust-e-libera-bens-de-ex-administradores/
+2026-09-15 14:54:07 [INFO] Título: BC arquiva inquérito da Reag Trust e libera bens de ex-administradores - O Brasilianista
+2026-09-15 14:54:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:54:07 [INFO] Classificação: nao_enviar
+2026-09-15 14:54:08 [INFO] Aguardando 2.78s...
+2026-09-15 14:54:10 [INFO] [21/26] ID: https://www.portaltemponovo.com.br/governo-federal-vai-perdoar-divida-de-6-bilhoes-para-montadora-coreana-abrir-fabrica-no-brasil/
+2026-09-15 14:54:10 [INFO] Título: Governo federal vai perdoar dívida de R$ 6 bilhões para montadora coreana abrir fábrica no Brasil
+2026-09-15 14:54:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:54:12 [INFO] Classificação: nao_enviar
+2026-09-15 14:54:12 [INFO] Aguardando 1.36s...
+2026-09-15 14:54:13 [INFO] [22/26] ID: https://colunapolitica.com.br/expresso/presidente-do-stf-assume-relatoria-de-processo-sobre-moraes-e-vorcaro-2/
+2026-09-15 14:54:13 [INFO] Título: Presidente do STF assume relatoria de processo sobre Moraes e Vorcaro - Coluna Política
+2026-09-15 14:54:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:54:14 [INFO] Classificação: nao_enviar
+2026-09-15 14:54:14 [INFO] Aguardando 2.64s...
+2026-09-15 14:54:16 [INFO] [23/26] ID: https://aciara.com.br/raizen-define-conselhos-na-recuperacao-extrajudicial/
+2026-09-15 14:54:16 [INFO] Título: Raízen define conselhos na <b>recuperação extrajudicial</b> - Acia Araçatuba
+2026-09-15 14:54:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:54:17 [INFO] Classificação: enviar
+2026-09-15 14:54:17 [INFO] Aguardando 2.40s...
+2026-09-15 14:54:19 [INFO] [24/26] ID: https://revistaoeste.com/politica/relembre-as-52-mensagens-de-vorcaro-a-moraes/
+2026-09-15 14:54:19 [INFO] Título: Relembre as 52 mensagens de Vorcaro a Moraes - Revista Oeste
+2026-09-15 14:54:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:54:21 [INFO] Classificação: nao_enviar
+2026-09-15 14:54:21 [INFO] Aguardando 1.37s...
+2026-09-15 14:54:22 [INFO] [25/26] ID: https://tmc.com.br/politica/conheca-a-trajetoria-do-banco-master-e-quando-daniel-vorcaro-assumiu-o-controle/
+2026-09-15 14:54:22 [INFO] Título: Conheça a trajetória do Banco Master e quando Daniel Vorcaro assumiu o controle - TMC
+2026-09-15 14:54:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:54:23 [INFO] Classificação: nao_enviar
+2026-09-15 14:54:23 [INFO] Aguardando 2.61s...
+2026-09-15 14:54:25 [INFO] [26/26] ID: https://www.cnnbrasil.com.br/politica/mensagens-reunioes-e-relacao-com-vorcaro-o-que-pesa-contra-moraes/
+2026-09-15 14:54:25 [INFO] Título: Mensagens, reuniões e relação com Vorcaro: o que pesa contra Moraes - CNN Brasil
+2026-09-15 14:54:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-15 14:54:26 [INFO] Classificação: nao_enviar
+2026-09-15 14:54:26 [INFO] ======================================================================
+2026-09-15 14:54:26 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-15 14:54:26 [INFO] ======================================================================
+2026-09-15 14:54:26 [INFO] Processadas: 26
+2026-09-15 14:54:26 [INFO] Enviar: 8
+2026-09-15 14:54:26 [INFO] Não enviar: 18
+2026-09-15 14:54:26 [INFO] ======================================================================
