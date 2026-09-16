@@ -22942,3 +22942,201 @@
 2026-09-16 13:24:40 [INFO] Enviar: 1
 2026-09-16 13:24:40 [INFO] Não enviar: 2
 2026-09-16 13:24:40 [INFO] ======================================================================
+2026-09-16 18:07:25 [INFO] ======================================================================
+2026-09-16 18:07:25 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-16 18:07:25 [INFO] ======================================================================
+2026-09-16 18:07:25 [INFO] Notícias com status 'extraida': 37
+2026-09-16 18:07:25 [INFO] Limite: 20 requisições/minuto
+2026-09-16 18:07:25 [INFO] Intervalo mínimo: 3.0s
+2026-09-16 18:07:25 [INFO] ======================================================================
+2026-09-16 18:07:25 [INFO] [1/37] ID: https://www.radiocaxias.com.br/metalurgica-buzin-pede-recuperacao-judicial-apos-acumular-passivo-de-r-6-milhoes/
+2026-09-16 18:07:25 [INFO] Título: Metalúrgica Buzin pede <b>recuperação judicial</b> após acumular passivo de R$ 6 milhões - Rádio Caxias
+2026-09-16 18:07:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:26 [INFO] Classificação: enviar
+2026-09-16 18:07:26 [INFO] Aguardando 2.64s...
+2026-09-16 18:07:28 [INFO] [2/37] ID: https://www.jornaldocomercio.com/economia/2026/09/1263550-metalurgica-buzin-pede-recuperacao-judicial-para-reestruturar-passivo-e-preservar-operacao-em-caxias-do-sul.html
+2026-09-16 18:07:28 [INFO] Título: Metalúrgica Buzin pede <b>Recuperação Judicial</b> para reestruturar passivo e preservar ...
+2026-09-16 18:07:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:29 [INFO] Classificação: enviar
+2026-09-16 18:07:29 [INFO] Aguardando 2.74s...
+2026-09-16 18:07:31 [INFO] [3/37] ID: https://ibdfam.org.br/artigos/2683/O+cabimento+da+intervenção+judicial+em+processos+de+inventário+e+partilha+
+2026-09-16 18:07:31 [INFO] Título: O cabimento da intervenção <b>judicial</b> em processos de inventário e partilha - IBDFAM
+2026-09-16 18:07:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:32 [INFO] Classificação: nao_enviar
+2026-09-16 18:07:32 [INFO] Aguardando 2.56s...
+2026-09-16 18:07:34 [INFO] [4/37] ID: https://veja.abril.com.br/coluna/faria-lima-news/grupo-apex-do-es-pede-recuperacao-judicial-com-divida-de-r-1-bilhao/
+2026-09-16 18:07:34 [INFO] Título: Grupo Apex do ES pede <b>recuperação judicial</b> com dívida de R$ 1 bilhão - Revista Veja
+2026-09-16 18:07:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:34 [INFO] Classificação: enviar
+2026-09-16 18:07:35 [INFO] Aguardando 2.78s...
+2026-09-16 18:07:37 [INFO] [5/37] ID: https://valor.globo.com/financas/noticia/2026/09/16/em-mais-um-captulo-da-disputa-presidente-afastado-da-apex-contesta-pedido-de-recuperao-judicial.ghtml
+2026-09-16 18:07:37 [INFO] Título: Em mais um capítulo da disputa, presidente afastado da Apex contesta pedido de ...
+2026-09-16 18:07:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:38 [INFO] Classificação: nao_enviar
+2026-09-16 18:07:38 [INFO] Aguardando 2.52s...
+2026-09-16 18:07:40 [INFO] [6/37] ID: https://timesbrasil.com.br/brasil/apex-recuperacao-judicial-cinelli-contesta-pedido/
+2026-09-16 18:07:40 [INFO] Título: Fundador da Apex Partners entra na Justiça para contestar pedido de <b>recuperação judicial</b> ...
+2026-09-16 18:07:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:40 [INFO] Classificação: enviar
+2026-09-16 18:07:40 [INFO] Aguardando 2.80s...
+2026-09-16 18:07:43 [INFO] [7/37] ID: https://platobr.com.br/supremo-recuperacao-judicial
+2026-09-16 18:07:43 [INFO] Título: Supremo 'em <b>recuperação judicial</b>' - PlatôBR
+2026-09-16 18:07:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:43 [INFO] Classificação: enviar
+2026-09-16 18:07:44 [INFO] Aguardando 2.78s...
+2026-09-16 18:07:46 [INFO] [8/37] ID: https://www.correio24horas.com.br/brasil/cerca-de-3-mil-demitidos-da-casas-bahia-ficam-sem-rescisao-entram-em-fila-e-pagamento-pode-levar-meses-0926
+2026-09-16 18:07:46 [INFO] Título: Cerca de 3 mil demitidos das Casas Bahia ficam sem rescisão, entram em fila e pagamento ...
+2026-09-16 18:07:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:46 [INFO] Classificação: nao_enviar
+2026-09-16 18:07:47 [INFO] Aguardando 2.77s...
+2026-09-16 18:07:49 [INFO] [9/37] ID: https://bahianapolitica.com.br/exclusivo-justica-determina-liberacao-de-bloqueios-e-reforca-protecao-ao-grupo-2-de-julho-em-recuperacao-judicial/
+2026-09-16 18:07:49 [INFO] Título: Exclusivo: Justiça determina liberação de bloqueios e reforça proteção ao Grupo 2 de Julho ...
+2026-09-16 18:07:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:50 [INFO] Classificação: nao_enviar
+2026-09-16 18:07:50 [INFO] Aguardando 2.54s...
+2026-09-16 18:07:52 [INFO] [10/37] ID: https://www.espn.com.br/futebol/atletico-mg/artigo/_/id/17263058/atletico-mg-nao-paga-acordo-megaempresario-aciona-mecenas-clube-justica-r-46-milhoes
+2026-09-16 18:07:52 [INFO] Título: Atlético-MG não paga acordo, e megaempresário aciona mecenas do clube na Justiça por ...
+2026-09-16 18:07:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:53 [INFO] Classificação: nao_enviar
+2026-09-16 18:07:53 [INFO] Aguardando 2.63s...
+2026-09-16 18:07:55 [INFO] [11/37] ID: https://cqcs.com.br/noticia/allianz-trade-no-brasil-lanca-podcast-especial-sobre-alta-de-recuperacoes-judiciais-no-varejo/
+2026-09-16 18:07:55 [INFO] Título: Allianz Trade no Brasil lança podcast especial sobre alta de recuperações <b>judiciais</b> no varejo
+2026-09-16 18:07:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:56 [INFO] Classificação: enviar
+2026-09-16 18:07:56 [INFO] Aguardando 2.63s...
+2026-09-16 18:07:58 [INFO] [12/37] ID: https://platobr.com.br/crise-no-stf-faz-crescer-alianca-silenciosa-do-centrao-com-flavio-bolsonaro
+2026-09-16 18:07:58 [INFO] Título: Crise no STF faz crescer aliança silenciosa do Centrão com Flávio Bolsonaro - PlatôBR
+2026-09-16 18:07:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:07:59 [INFO] Classificação: nao_enviar
+2026-09-16 18:07:59 [INFO] Aguardando 2.76s...
+2026-09-16 18:08:01 [INFO] [13/37] ID: https://www.metropoles.com/sao-paulo/justica-energia-lojas-marabraz
+2026-09-16 18:08:01 [INFO] Título: Justiça determina que concessionárias religuem energia nas lojas Marabraz - Metrópoles
+2026-09-16 18:08:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:02 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:02 [INFO] Aguardando 2.69s...
+2026-09-16 18:08:04 [INFO] [14/37] ID: https://eshoje.com.br/economia/2026/09/caso-apex-cinelli-diz-que-recuperacao-judicial-impoe-risco-de-colapso-no-mercado-imobiliario-capixaba/
+2026-09-16 18:08:04 [INFO] Título: Caso Apex: Cinelli diz que <b>Recuperação Judicial</b> impõe risco de colapso no mercado ...
+2026-09-16 18:08:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:05 [INFO] Classificação: enviar
+2026-09-16 18:08:05 [INFO] Aguardando 2.72s...
+2026-09-16 18:08:07 [INFO] [15/37] ID: https://www.em.com.br/politica/platobr/2026/09/7501642-supremo-em-recuperacao-judicial.html
+2026-09-16 18:08:07 [INFO] Título: Supremo 'em <b>recuperação judicial</b>' - Estado de Minas
+2026-09-16 18:08:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:08 [INFO] Classificação: enviar
+2026-09-16 18:08:08 [INFO] Aguardando 2.55s...
+2026-09-16 18:08:10 [INFO] [16/37] ID: https://www.jornalmtnorte.com.br/economia/casal-de-produtores-de-paranaita-entra-em-recuperacao-judicial/45123
+2026-09-16 18:08:10 [INFO] Título: Casal de produtores de Paranaíta entra em <b>recuperação judicial</b> | Jornal MT Norte
+2026-09-16 18:08:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:10 [INFO] Classificação: enviar
+2026-09-16 18:08:11 [INFO] Aguardando 2.79s...
+2026-09-16 18:08:13 [INFO] [17/37] ID: https://www.revistacobertura.com.br/noticias/artigos/allianz-trade-no-brasil-lanca-podcast-especial-sobre-alta-de-recuperacoes-judiciais-no-varejo/
+2026-09-16 18:08:13 [INFO] Título: Allianz Trade lança podcast sobre alta de recuperações <b>judiciais</b> - Revista Cobertura
+2026-09-16 18:08:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:14 [INFO] Classificação: enviar
+2026-09-16 18:08:14 [INFO] Aguardando 2.75s...
+2026-09-16 18:08:16 [INFO] [18/37] ID: https://noticiamarajo.com.br/marajo-2/justica-aceita-recuperacao-judicial-da-cerpa-tradicional-cervejaria-do-para/
+2026-09-16 18:08:16 [INFO] Título: Justiça aceita <b>recuperação judicial</b> da Cerpa, tradicional cervejaria do Pará - notícia marajó
+2026-09-16 18:08:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:17 [INFO] Classificação: enviar
+2026-09-16 18:08:17 [INFO] Aguardando 1.85s...
+2026-09-16 18:08:19 [INFO] [19/37] ID: https://revistapegn.globo.com/conteudo-de-marca/pressworks/noticia/2026/09/venda-de-ativos-em-recuperacoes-judiciais-abre-oportunidades-para-investidores-mas-exige-atencao-a-estrutura-da-operacao-1.ghtml
+2026-09-16 18:08:19 [INFO] Título: Venda de ativos em recuperações <b>judiciais</b> abre oportunidades para investidores, mas ...
+2026-09-16 18:08:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:19 [INFO] Classificação: enviar
+2026-09-16 18:08:20 [INFO] Aguardando 2.78s...
+2026-09-16 18:08:22 [INFO] [20/37] ID: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/16/acoes-da-braskem-caem-135-ubs-bb-rebaixa-recomendacao-do-papel.ghtm
+2026-09-16 18:08:22 [INFO] Título: Ações da Braskem caem até 14,6%; UBS BB rebaixa recomendação do papel
+2026-09-16 18:08:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:23 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:23 [INFO] Aguardando 2.75s...
+2026-09-16 18:08:25 [INFO] [21/37] ID: https://www.seudinheiro.com/2026/empresas/sem-saida-facil-braskem-brkm5-despenca-ate-13-apos-ubs-bb-rebaixar-acao-e-cortar-preco-alvo-em-74-miql/
+2026-09-16 18:08:25 [INFO] Título: “Sem saída fácil”: Braskem (BRKM5) despenca mais de 13% após UBS BB rebaixar ação e ...
+2026-09-16 18:08:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:26 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:26 [INFO] Aguardando 2.55s...
+2026-09-16 18:08:28 [INFO] [22/37] ID: https://www.moneytimes.com.br/braskem-brkm5-ubs-bb-rebaixa-petroquimica-para-venda-e-calcula-queda-de-29-acao-desaba-lmrs/
+2026-09-16 18:08:28 [INFO] Título: Braskem (BRKM5): UBS BB rebaixa petroquímica para venda e calcula queda de 29%; ação desaba
+2026-09-16 18:08:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:29 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:29 [INFO] Aguardando 2.52s...
+2026-09-16 18:08:31 [INFO] [23/37] ID: https://revistaoeste.com/economia/casas-bahia-contesta-plano-de-recuperacao-extrajudicial-do-pao-de-acucar/
+2026-09-16 18:08:31 [INFO] Título: Casas Bahia contesta plano de <b>recuperação extrajudicial</b> do Pão de Açúcar - Revista Oeste
+2026-09-16 18:08:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:31 [INFO] Classificação: enviar
+2026-09-16 18:08:31 [INFO] Aguardando 2.83s...
+2026-09-16 18:08:34 [INFO] [24/37] ID: https://www.terra.com.br/economia/ubs-bb-corta-recomendacao-de-braskem-para-venda-sem-enxergar-saida-facil-acao-desaba-13,ae2ab58e5924485f2935f2aba4c5544ap43elga7.html
+2026-09-16 18:08:34 [INFO] Título: UBS BB corta recomendação de Braskem para venda sem enxergar "saída fácil"; ação desaba 13%
+2026-09-16 18:08:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:35 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:35 [INFO] Aguardando 2.77s...
+2026-09-16 18:08:37 [INFO] [25/37] ID: https://acionista.com.br/allianca-saude-aarl3-mantem-rating-rdbra-apos-recuperacao/
+2026-09-16 18:08:37 [INFO] Título: Alliança Saúde (AARL3): Mantém rating 'RD(bra)' após <b>recuperação</b> - Acionista.com.br
+2026-09-16 18:08:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:37 [INFO] Classificação: enviar
+2026-09-16 18:08:38 [INFO] Aguardando 2.79s...
+2026-09-16 18:08:40 [INFO] [26/37] ID: https://businessmoment.com.br/n5x-contrata-ex-executivos-de-tecnologia-da-b3-para-acelerar-a-construcao-da-primeira-clearing-de-energia-do-brasil/?amp=1
+2026-09-16 18:08:40 [INFO] Título: N5X contrata ex-executivos de tecnologia da B3 para acelerar a construção da primeira ...
+2026-09-16 18:08:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:41 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:41 [INFO] Aguardando 2.57s...
+2026-09-16 18:08:43 [INFO] [27/37] ID: https://businessmoment.com.br/n5x-contrata-ex-executivos-de-tecnologia-da-b3-para-acelerar-a-construcao-da-primeira-clearing-de-energia-do-brasil/
+2026-09-16 18:08:43 [INFO] Título: N5X contrata ex-executivos de tecnologia da B3 para acelerar a construção da primeira ...
+2026-09-16 18:08:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:44 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:44 [INFO] Aguardando 2.15s...
+2026-09-16 18:08:46 [INFO] [28/37] ID: https://gironews.com/supermercado/casas-bahia-questiona-criterios-do-plano-de-recuperacao-extrajudicial-do-pao-de-acucar/
+2026-09-16 18:08:46 [INFO] Título: Casas Bahia questiona critérios do plano de <b>recuperação extrajudicial</b> do GPA - Giro News
+2026-09-16 18:08:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:47 [INFO] Classificação: enviar
+2026-09-16 18:08:47 [INFO] Aguardando 2.14s...
+2026-09-16 18:08:49 [INFO] [29/37] ID: https://gironews.com/informacoes-de-fornecedores/anvisa-determina-recolhimento-de-bebidas-proteicas-notshake-protein-da-notco/
+2026-09-16 18:08:49 [INFO] Título: Anvisa determina recolhimento de bebidas proteicas da NotCo - Giro News
+2026-09-16 18:08:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:50 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:50 [INFO] Aguardando 2.36s...
+2026-09-16 18:08:52 [INFO] [30/37] ID: https://www.infomoney.com.br/mercados/weg-jbs-b3-axia-cvc-toky-e-mais-acoes-para-acompanhar-hoje/
+2026-09-16 18:08:52 [INFO] Título: WEG, JBS, B3, Axia, CVC, Toky e mais ações para acompanhar hoje - InfoMoney
+2026-09-16 18:08:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:53 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:53 [INFO] Aguardando 2.65s...
+2026-09-16 18:08:55 [INFO] [31/37] ID: https://www.reportermt.com/papo-reto/wf-ataca-incentivo-fiscal-mas-empresas-da-familia-recebem-beneficios-desde-2019/243588
+2026-09-16 18:08:55 [INFO] Título: WF ataca incentivo fiscal, mas empresas da família recebem benefícios desde 2019
+2026-09-16 18:08:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:56 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:56 [INFO] Aguardando 2.40s...
+2026-09-16 18:08:58 [INFO] [32/37] ID: https://www.jota.info/opiniao-e-analise/artigos/os-desafios-do-pl-que-altera-a-lei-de-recuperacao-e-falencia
+2026-09-16 18:08:58 [INFO] Título: Os desafios do PL que altera a Lei de <b>Recuperação</b> e Falência - JOTA
+2026-09-16 18:08:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:08:59 [INFO] Classificação: nao_enviar
+2026-09-16 18:08:59 [INFO] Aguardando 2.75s...
+2026-09-16 18:09:01 [INFO] [33/37] ID: https://bluestudio.estadao.com.br/agencia-de-comunicacao/pressworks/venda-de-ativos-em-recuperacoes-judiciais-abre-oportunidades-para-investidores-mas-exige-atencao-a-estrutura-da-operacao/
+2026-09-16 18:09:01 [INFO] Título: Venda de ativos em recuperações judiciais abre oportunidades para investidores, mas ...
+2026-09-16 18:09:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:09:02 [INFO] Classificação: enviar
+2026-09-16 18:09:02 [INFO] Aguardando 2.73s...
+2026-09-16 18:09:04 [INFO] [34/37] ID: https://www.comprerural.com/recuperacao-judicial-no-agro-cresce-22-e-expoe-pressao-sobre-pequenos-e-medios-produtores-em-goias/
+2026-09-16 18:09:04 [INFO] Título: Recuperação <b>judicial</b> no agro cresce 22% e expõe pressão sobre pequenos e médios ...
+2026-09-16 18:09:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:09:04 [INFO] Classificação: enviar
+2026-09-16 18:09:04 [INFO] Aguardando 2.85s...
+2026-09-16 18:09:07 [INFO] [35/37] ID: https://jornalgrandebahia.com.br/2026/09/caso-master-relatorio-da-pf-aponta-suspeita-de-vantagem-indevida-em-aporte-de-r-15-milhoes-do-issm-de-camacari-no-fundo-sculptor-durante-gestao-de-elinaldo/
+2026-09-16 18:09:07 [INFO] Título: Caso Master: relatório da PF aponta suspeita de vantagem indevida em aporte de R$ 15 ...
+2026-09-16 18:09:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:09:08 [INFO] Classificação: nao_enviar
+2026-09-16 18:09:08 [INFO] Aguardando 2.47s...
+2026-09-16 18:09:10 [INFO] [36/37] ID: https://angelorigon.com.br/2026/09/16/vorcaro-e-vitima/
+2026-09-16 18:09:10 [INFO] Título: Vorcaro é vítima? - Angelo Rigon
+2026-09-16 18:09:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:09:12 [INFO] Classificação: nao_enviar
+2026-09-16 18:09:12 [INFO] Aguardando 1.37s...
+2026-09-16 18:09:13 [INFO] [37/37] ID: https://blogs.correiobraziliense.com.br/aricunha/banco-master-crise-stf-imprensa-internacional/
+2026-09-16 18:09:13 [INFO] Título: Crise do Banco Master e STF na Imprensa Internacional - Blog do Ari Cunha
+2026-09-16 18:09:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 18:09:14 [INFO] Classificação: nao_enviar
+2026-09-16 18:09:14 [INFO] ======================================================================
+2026-09-16 18:09:14 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-16 18:09:14 [INFO] ======================================================================
+2026-09-16 18:09:14 [INFO] Processadas: 37
+2026-09-16 18:09:14 [INFO] Enviar: 17
+2026-09-16 18:09:14 [INFO] Não enviar: 20
+2026-09-16 18:09:14 [INFO] ======================================================================
