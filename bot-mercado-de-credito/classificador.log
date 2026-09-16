@@ -22856,3 +22856,61 @@
 2026-09-16 01:17:50 [INFO] Enviar: 7
 2026-09-16 01:17:50 [INFO] Não enviar: 7
 2026-09-16 01:17:50 [INFO] ======================================================================
+2026-09-16 07:35:06 [INFO] ======================================================================
+2026-09-16 07:35:06 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-16 07:35:06 [INFO] ======================================================================
+2026-09-16 07:35:06 [INFO] Notícias com status 'extraida': 9
+2026-09-16 07:35:06 [INFO] Limite: 20 requisições/minuto
+2026-09-16 07:35:06 [INFO] Intervalo mínimo: 3.0s
+2026-09-16 07:35:06 [INFO] ======================================================================
+2026-09-16 07:35:06 [INFO] [1/9] ID: https://www.agazeta.com.br/colunas/abdo-filho/a-parte-do-pedido-de-recuperacao-judicial-da-apex-que-mais-movimentou-o-mercado-e-os-advogados-0926
+2026-09-16 07:35:06 [INFO] Título: A parte do pedido de <b>recuperação judicial</b> da Apex que mais movimentou o mercado (e os ...
+2026-09-16 07:35:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:35:07 [INFO] Classificação: enviar
+2026-09-16 07:35:07 [INFO] Aguardando 2.67s...
+2026-09-16 07:35:09 [INFO] [2/9] ID: https://www.folhavitoria.com.br/economia/apex-inclui-negocios-imobiliarios-na-recuperacao-judicial-investidores-contestam/
+2026-09-16 07:35:09 [INFO] Título: Apex inclui negócios imobiliários na <b>recuperação judicial</b>; investidores contestam - Folha Vitória
+2026-09-16 07:35:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:35:10 [INFO] Classificação: enviar
+2026-09-16 07:35:10 [INFO] Aguardando 2.75s...
+2026-09-16 07:35:12 [INFO] [3/9] ID: https://economia.uol.com.br/noticias/redacao/2026/09/15/weg-aprova-pagamento-de-r-450-milhoes-em-juros-sobre-capital-proprio.ghtm
+2026-09-16 07:35:12 [INFO] Título: WEG aprova pagamento de R$ 450 milhões em juros sobre capital próprio - UOL Economia
+2026-09-16 07:35:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:35:13 [INFO] Classificação: nao_enviar
+2026-09-16 07:35:13 [INFO] Aguardando 2.67s...
+2026-09-16 07:35:15 [INFO] [4/9] ID: https://www.metropoles.com/brasil/cade-aprova-compra-da-avibras-pelos-irmaos-batista-do-grupo-jf
+2026-09-16 07:35:15 [INFO] Título: Cade aprova compra da Avibras pelos irmãos Batista, do grupo J&F - Metrópoles
+2026-09-16 07:35:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:35:16 [INFO] Classificação: nao_enviar
+2026-09-16 07:35:16 [INFO] Aguardando 2.76s...
+2026-09-16 07:35:18 [INFO] [5/9] ID: https://megawhat.uol.com.br/distribuicao/custo-da-energia-pesa-e-tarifa-da-equatorial-para-sobe-694/
+2026-09-16 07:35:18 [INFO] Título: Custo da energia pesa e tarifa da Equatorial Pará sobe 6,94% - MegaWhat
+2026-09-16 07:35:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:35:19 [INFO] Classificação: nao_enviar
+2026-09-16 07:35:19 [INFO] Aguardando 2.62s...
+2026-09-16 07:35:21 [INFO] [6/9] ID: https://www.folhape.com.br/noticia/amp/512792/cade-aprova-compra-de-empresa-de-defesa-avibras-pelos-irmaos-batista/
+2026-09-16 07:35:21 [INFO] Título: Cade aprova compra de empresa de defesa Avibras pelos irmãos Batista - Folha PE
+2026-09-16 07:35:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:35:22 [INFO] Classificação: nao_enviar
+2026-09-16 07:35:22 [INFO] Aguardando 2.69s...
+2026-09-16 07:35:24 [INFO] [7/9] ID: https://www.ativovirtual.com.br/avnews/artigos/fato-relevante-allianca-saude-aarl3-fitch-mantem-rating-rd-bra-e-encerra-cobertura
+2026-09-16 07:35:24 [INFO] Título: Fato relevante Alliança Saúde (AARL3): Fitch mantém rating RD(bra) e encerra cobertura
+2026-09-16 07:35:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:35:25 [INFO] Classificação: nao_enviar
+2026-09-16 07:35:25 [INFO] Aguardando 2.70s...
+2026-09-16 07:35:27 [INFO] [8/9] ID: https://www.fitchratings.com/research/pt/corporate-finance/fitch-affirms-withdraws-allianca-saudes-rd-bra-rating-15-09-2026
+2026-09-16 07:35:27 [INFO] Título: Fitch Affirms and Withdraws Allianca Saude's 'RD(bra)' Rating
+2026-09-16 07:35:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:35:28 [INFO] Classificação: nao_enviar
+2026-09-16 07:35:28 [INFO] Aguardando 2.65s...
+2026-09-16 07:35:30 [INFO] [9/9] ID: https://aciara.com.br/lula-sanciona-move-brasil-para-credito-motoristas/
+2026-09-16 07:35:30 [INFO] Título: Lula sanciona Move Brasil para crédito a motoristas - Acia Araçatuba
+2026-09-16 07:35:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 07:35:31 [INFO] Classificação: nao_enviar
+2026-09-16 07:35:31 [INFO] ======================================================================
+2026-09-16 07:35:31 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-16 07:35:31 [INFO] ======================================================================
+2026-09-16 07:35:31 [INFO] Processadas: 9
+2026-09-16 07:35:31 [INFO] Enviar: 2
+2026-09-16 07:35:31 [INFO] Não enviar: 7
+2026-09-16 07:35:31 [INFO] ======================================================================
