@@ -23140,3 +23140,121 @@
 2026-09-16 18:09:14 [INFO] Enviar: 17
 2026-09-16 18:09:14 [INFO] Não enviar: 20
 2026-09-16 18:09:14 [INFO] ======================================================================
+2026-09-16 22:02:21 [INFO] ======================================================================
+2026-09-16 22:02:21 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-16 22:02:21 [INFO] ======================================================================
+2026-09-16 22:02:21 [INFO] Notícias com status 'extraida': 21
+2026-09-16 22:02:21 [INFO] Limite: 20 requisições/minuto
+2026-09-16 22:02:21 [INFO] Intervalo mínimo: 3.0s
+2026-09-16 22:02:21 [INFO] ======================================================================
+2026-09-16 22:02:21 [INFO] [1/21] ID: https://veja.abril.com.br/coluna/faria-lima-news/cinelli-aponta-falhas-em-rj-do-grupo-apex-es-e-propoe-mediacao/
+2026-09-16 22:02:21 [INFO] Título: Cinelli aponta falhas em RJ do Grupo Apex ES e propõe mediação - Revista Veja
+2026-09-16 22:02:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:21 [INFO] Classificação: enviar
+2026-09-16 22:02:21 [INFO] Aguardando 2.47s...
+2026-09-16 22:02:24 [INFO] [2/21] ID: https://gauchazh.clicrbs.com.br/passo-fundo/colunistas/julia-possa/noticia/2026/09/justica-decide-que-cotriba-nao-tem-legitimidade-pedir-recuperacao-judicial-cmu3142m500mq01592iuxdnhs.html
+2026-09-16 22:02:24 [INFO] Título: Justiça decide que Cotribá não tem legitimidade pedir <b>recuperação judicial</b> | Passo Fundo
+2026-09-16 22:02:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:24 [INFO] Classificação: enviar
+2026-09-16 22:02:24 [INFO] Aguardando 2.60s...
+2026-09-16 22:02:27 [INFO] [3/21] ID: https://www.abcmais.com/brasil/rio-grande-do-sul/vale-do-rio-dos-sinos/novo-hamburgo/oab-novo-hamburgo-promove-seminario-sobre-recuperacao-judicial/
+2026-09-16 22:02:27 [INFO] Título: OAB Novo Hamburgo promove seminário sobre <b>recuperação judicial</b> | abc+ - Jornal NH
+2026-09-16 22:02:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:27 [INFO] Classificação: enviar
+2026-09-16 22:02:27 [INFO] Aguardando 2.65s...
+2026-09-16 22:02:30 [INFO] [4/21] ID: https://www.rotajuridica.com.br/novo-mundo-tera-de-indenizar-consumidora-que-recebeu-mesa-com-defeito-mais-de-uma-vez/
+2026-09-16 22:02:30 [INFO] Título: Novo Mundo terá de indenizar consumidora que recebeu mesa com defeito mais de uma vez
+2026-09-16 22:02:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:30 [INFO] Classificação: nao_enviar
+2026-09-16 22:02:30 [INFO] Aguardando 2.80s...
+2026-09-16 22:02:33 [INFO] [5/21] ID: https://www.agazeta.com.br/es/economia/ex-presidente-contesta-pedido-de-recuperacao-judicial-feito-pela-apex-0926
+2026-09-16 22:02:33 [INFO] Título: Ex-presidente contesta pedido de <b>recuperação judicial</b> feito pela Apex - A Gazeta
+2026-09-16 22:02:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:33 [INFO] Classificação: enviar
+2026-09-16 22:02:33 [INFO] Aguardando 2.64s...
+2026-09-16 22:02:36 [INFO] [6/21] ID: https://simnoticias.com.br/economia/cinelli-questiona-pedido-de-recuperacao-judicial-da-apex/
+2026-09-16 22:02:36 [INFO] Título: Cinelli questiona pedido de <b>recuperação judicial</b> da Apex - Sim Notícias
+2026-09-16 22:02:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:36 [INFO] Classificação: enviar
+2026-09-16 22:02:36 [INFO] Aguardando 2.78s...
+2026-09-16 22:02:39 [INFO] [7/21] ID: https://economia.uol.com.br/noticias/redacao/2026/09/16/apex-partner-recuperacao-judicial-ex-presidente-contesta.ghtm
+2026-09-16 22:02:39 [INFO] Título: Fundador diz que Apex Partners pediu <b>recuperação</b> sem ouvir todos os sócios
+2026-09-16 22:02:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:39 [INFO] Classificação: enviar
+2026-09-16 22:02:39 [INFO] Aguardando 2.71s...
+2026-09-16 22:02:42 [INFO] [8/21] ID: https://veronoticias.com/politica/lewandowski-articulou-encontro-entre-vorcaro-e-controlador-da-ambipar-revelam-mensagens/
+2026-09-16 22:02:42 [INFO] Título: Lewandowski articulou encontro entre Vorcaro e controlador da Ambipar, revelam mensagens
+2026-09-16 22:02:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:43 [INFO] Classificação: nao_enviar
+2026-09-16 22:02:43 [INFO] Aguardando 2.08s...
+2026-09-16 22:02:45 [INFO] [9/21] ID: https://investidor10.com.br/amp/noticias/ubs-rebaixa-braskem-brkm5-e-reduz-preco-alvo-para-r-3-75-acoes-caem-13-122672/
+2026-09-16 22:02:45 [INFO] Título: UBS rebaixa Braskem (BRKM5) e reduz preço-alvo para R$ 3,75; ações caem 13%
+2026-09-16 22:02:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:45 [INFO] Classificação: nao_enviar
+2026-09-16 22:02:45 [INFO] Aguardando 2.76s...
+2026-09-16 22:02:48 [INFO] [10/21] ID: https://platobr.com.br/a-palavra-usada-por-ibaneis-para-definir-a-turbulenta-sessao-do-supremo
+2026-09-16 22:02:48 [INFO] Título: A palavra usada por Ibaneis para definir a turbulenta sessão do Supremo - PlatôBR
+2026-09-16 22:02:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:48 [INFO] Classificação: nao_enviar
+2026-09-16 22:02:48 [INFO] Aguardando 2.60s...
+2026-09-16 22:02:51 [INFO] [11/21] ID: https://www1.folha.uol.com.br/mercado/2026/09/acoes-da-braskem-caem-mais-de-15-apos-banco-reduzir-recomendacao-para-venda.shtml
+2026-09-16 22:02:51 [INFO] Título: Ações da Braskem caem mais de 15% após banco reduzir recomendação para venda - Folha
+2026-09-16 22:02:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:51 [INFO] Classificação: nao_enviar
+2026-09-16 22:02:51 [INFO] Aguardando 2.75s...
+2026-09-16 22:02:54 [INFO] [12/21] ID: https://valor.globo.com/empresas/noticia/2026/09/16/exclusivo-braskem-propoe-desagio-em-divida-e-conversa-com-credores-volta-a-endurecer-dizem-fontes.ghtml
+2026-09-16 22:02:54 [INFO] Título: Exclusivo: Braskem propõe deságio em dívida e conversa com credores volta a endurecer ...
+2026-09-16 22:02:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:54 [INFO] Classificação: enviar
+2026-09-16 22:02:54 [INFO] Aguardando 2.61s...
+2026-09-16 22:02:57 [INFO] [13/21] ID: https://www.infomoney.com.br/mercados/brkm5-ubs-bb-corta-acao-da-braskem-para-venda-sem-enxergar-saida-facil-acao-desaba/
+2026-09-16 22:02:57 [INFO] Título: UBS BB corta ação da Braskem para venda sem enxergar “saída fácil”; ação desaba 13%
+2026-09-16 22:02:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:02:57 [INFO] Classificação: nao_enviar
+2026-09-16 22:02:57 [INFO] Aguardando 2.58s...
+2026-09-16 22:03:00 [INFO] [14/21] ID: https://bpmoney.com.br/mercado/braskem-brkm5-desaba-apos-ubs-bb-recomendar-venda/
+2026-09-16 22:03:00 [INFO] Título: Braskem (BRKM5) desaba após UBS BB recomendar venda - BPMoney
+2026-09-16 22:03:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:03:00 [INFO] Classificação: nao_enviar
+2026-09-16 22:03:00 [INFO] Aguardando 2.75s...
+2026-09-16 22:03:03 [INFO] [15/21] ID: https://atlaspublico.com.br/cvm/noticias/3-vara-empresarial-registra-resultado-da-agc-da-osx-e-87710
+2026-09-16 22:03:03 [INFO] Título: 3ª Vara Empresarial registra resultado da AGC da OSX e mantém análise do pedido de cram down
+2026-09-16 22:03:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:03:03 [INFO] Classificação: enviar
+2026-09-16 22:03:03 [INFO] Aguardando 2.68s...
+2026-09-16 22:03:06 [INFO] [16/21] ID: https://www.estadao.com.br/amp/einvestidor/pressao-aumenta-sobre-a-braskem-ubs-bb-recomenda-venda-e-alerta-para-diluicao/
+2026-09-16 22:03:06 [INFO] Título: Braskem (BRKM5): UBS BB recomenda venda e corta preço-alvo a R$ 3,75 - Estadão
+2026-09-16 22:03:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:03:06 [INFO] Classificação: nao_enviar
+2026-09-16 22:03:06 [INFO] Aguardando 2.53s...
+2026-09-16 22:03:09 [INFO] [17/21] ID: https://economia.uol.com.br/cotacoes/noticias/redacao/2026/09/16/acoes-da-braskem-caem-135-ubs-bb-rebaixa-recomendacao-do-papel.amp.htm
+2026-09-16 22:03:09 [INFO] Título: Ações da Braskem caem 135; UBS BB rebaixa recomendação do papel - UOL Economia
+2026-09-16 22:03:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:03:09 [INFO] Classificação: nao_enviar
+2026-09-16 22:03:09 [INFO] Aguardando 2.62s...
+2026-09-16 22:03:12 [INFO] [18/21] ID: https://investidor10.com.br/amp/noticias/menos-otimista-com-bancos-bba-rebaixa-nubank-roxo34-mas-elege-novo-favorito-122669/
+2026-09-16 22:03:12 [INFO] Título: Menos otimista com bancos, BBA rebaixa Nubank (ROXO34), mas elege novo favorito
+2026-09-16 22:03:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:03:12 [INFO] Classificação: nao_enviar
+2026-09-16 22:03:12 [INFO] Aguardando 2.69s...
+2026-09-16 22:03:15 [INFO] [19/21] ID: https://pipelinevalor.globo.com/negocios/noticia/ubs-bb-rebaixa-braskem-e-ve-risco-de-diluicao-de-acionistas-acao-cai-13percent.ghtml
+2026-09-16 22:03:15 [INFO] Título: UBS BB rebaixa Braskem e vê risco de diluição de acionistas; ação cai 13% - Pipeline
+2026-09-16 22:03:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:03:15 [INFO] Classificação: nao_enviar
+2026-09-16 22:03:15 [INFO] Aguardando 2.73s...
+2026-09-16 22:03:18 [INFO] [20/21] ID: https://neofeed.com.br/poder/sem-solucao-antes-das-urnas-brb-ve-aumentar-o-risco-de-intervencao-do-banco-central/
+2026-09-16 22:03:18 [INFO] Título: Sem solução antes das urnas, BRB vê aumentar o risco de intervenção do Banco Central
+2026-09-16 22:03:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:03:18 [INFO] Classificação: nao_enviar
+2026-09-16 22:03:18 [INFO] Aguardando 2.65s...
+2026-09-16 22:03:21 [INFO] [21/21] ID: https://apet.org.br/noticia/supremo-valida-limitacao-a-compensacao-de-creditos-fiscais/
+2026-09-16 22:03:21 [INFO] Título: Supremo valida limitação à compensação de créditos fiscais - APET
+2026-09-16 22:03:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 22:03:22 [INFO] Classificação: nao_enviar
+2026-09-16 22:03:22 [INFO] ======================================================================
+2026-09-16 22:03:22 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-16 22:03:22 [INFO] ======================================================================
+2026-09-16 22:03:22 [INFO] Processadas: 21
+2026-09-16 22:03:22 [INFO] Enviar: 8
+2026-09-16 22:03:22 [INFO] Não enviar: 13
+2026-09-16 22:03:22 [INFO] ======================================================================
