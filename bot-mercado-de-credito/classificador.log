@@ -22914,3 +22914,31 @@
 2026-09-16 07:35:31 [INFO] Enviar: 2
 2026-09-16 07:35:31 [INFO] Não enviar: 7
 2026-09-16 07:35:31 [INFO] ======================================================================
+2026-09-16 13:24:33 [INFO] ======================================================================
+2026-09-16 13:24:33 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-16 13:24:33 [INFO] ======================================================================
+2026-09-16 13:24:33 [INFO] Notícias com status 'extraida': 3
+2026-09-16 13:24:33 [INFO] Limite: 20 requisições/minuto
+2026-09-16 13:24:33 [INFO] Intervalo mínimo: 3.0s
+2026-09-16 13:24:33 [INFO] ======================================================================
+2026-09-16 13:24:33 [INFO] [1/3] ID: https://visnoinvest.com.br/news/15263/axia-energia-axia3-conclui-conversao-e-resgate-de-pncs
+2026-09-16 13:24:33 [INFO] Título: Axia Energia (AXIA3) conclui conversão e resgate de PNCs - Visno Invest
+2026-09-16 13:24:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 13:24:34 [INFO] Classificação: nao_enviar
+2026-09-16 13:24:34 [INFO] Aguardando 2.48s...
+2026-09-16 13:24:36 [INFO] [2/3] ID: https://economia.uol.com.br/noticias/redacao/2026/09/16/osx.htm
+2026-09-16 13:24:36 [INFO] Título: Em 2ª recuperação judicial, OSX enfrenta credor nanico e suspeita de fraude - UOL Economia
+2026-09-16 13:24:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 13:24:37 [INFO] Classificação: enviar
+2026-09-16 13:24:37 [INFO] Aguardando 2.74s...
+2026-09-16 13:24:39 [INFO] [3/3] ID: https://mais.opovo.com.br/jornal/opiniao/2026/09/16/leonardo-fernandes-crise-do-master-e-o-ano-eleitoral-o-brasil-na-encruzilhada-de-um-mundo-fragmentado.html
+2026-09-16 13:24:39 [INFO] Título: Leonardo Fernandes: Crise do Master e o ano eleitoral: o Brasil na encruzilhada de um ...
+2026-09-16 13:24:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 13:24:40 [INFO] Classificação: nao_enviar
+2026-09-16 13:24:40 [INFO] ======================================================================
+2026-09-16 13:24:40 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-16 13:24:40 [INFO] ======================================================================
+2026-09-16 13:24:40 [INFO] Processadas: 3
+2026-09-16 13:24:40 [INFO] Enviar: 1
+2026-09-16 13:24:40 [INFO] Não enviar: 2
+2026-09-16 13:24:40 [INFO] ======================================================================
