@@ -22773,3 +22773,86 @@
 2026-09-15 22:05:29 [INFO] Enviar: 8
 2026-09-15 22:05:29 [INFO] Não enviar: 13
 2026-09-15 22:05:29 [INFO] ======================================================================
+2026-09-16 01:17:11 [INFO] ======================================================================
+2026-09-16 01:17:11 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-16 01:17:11 [INFO] ======================================================================
+2026-09-16 01:17:11 [INFO] Notícias com status 'extraida': 14
+2026-09-16 01:17:11 [INFO] Limite: 20 requisições/minuto
+2026-09-16 01:17:11 [INFO] Intervalo mínimo: 3.0s
+2026-09-16 01:17:11 [INFO] ======================================================================
+2026-09-16 01:17:11 [INFO] [1/14] ID: https://conjur.com.br/2026-set-15/grupo-de-recuperacao-fiscal-de-sp-conquista-1o-lugar-em-premio-do-cnj/
+2026-09-16 01:17:11 [INFO] Título: Grupo de <b>recuperação</b> fiscal de SP conquista 1º lugar em prêmio do CNJ - Conjur
+2026-09-16 01:17:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:12 [INFO] Classificação: nao_enviar
+2026-09-16 01:17:12 [INFO] Aguardando 2.54s...
+2026-09-16 01:17:14 [INFO] [2/14] ID: https://www.portaltemponovo.com.br/apex-partners-recuperacao-judicial/
+2026-09-16 01:17:14 [INFO] Título: Em meio a escândalo financeiro, maior plataforma de investimentos do ES pede ...
+2026-09-16 01:17:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:14 [INFO] Classificação: nao_enviar
+2026-09-16 01:17:14 [INFO] Aguardando 2.75s...
+2026-09-16 01:17:17 [INFO] [3/14] ID: https://esbrasil.com.br/apex-partners-recuperacao-judicial-divida/
+2026-09-16 01:17:17 [INFO] Título: “Objetivo é reestruturar”, diz Apex ao pedir <b>recuperação judicial</b> - Revista ES Brasil
+2026-09-16 01:17:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:17 [INFO] Classificação: enviar
+2026-09-16 01:17:18 [INFO] Aguardando 2.61s...
+2026-09-16 01:17:20 [INFO] [4/14] ID: https://paraibabusiness.com.br/recuperacao-judicial-avanca-entre-micro-e-pequenas-empresas/
+2026-09-16 01:17:20 [INFO] Título: <b>Recuperação judicial</b> avança entre micro e pequenas empresas - Paraíba Business
+2026-09-16 01:17:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:20 [INFO] Classificação: enviar
+2026-09-16 01:17:20 [INFO] Aguardando 2.69s...
+2026-09-16 01:17:23 [INFO] [5/14] ID: https://valor.globo.com/financas/noticia/2026/09/15/gestora-capixaba-apex-pede-recuperao-judicial-e-aponta-dvida-de-r-9856-milhes.ghtml
+2026-09-16 01:17:23 [INFO] Título: Gestora capixaba Apex pede <b>recuperação judicial</b> e aponta dívida de R$ 985,6 milhões
+2026-09-16 01:17:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:23 [INFO] Classificação: enviar
+2026-09-16 01:17:23 [INFO] Aguardando 2.66s...
+2026-09-16 01:17:26 [INFO] [6/14] ID: https://gnoticia.com.br/endividamento-rural-e-recuperacao-judicial-colocam-direito-do-agronegocio-no-centro-dos-debates-em-campo-grande/
+2026-09-16 01:17:26 [INFO] Título: Endividamento rural e <b>recuperação judicial</b> colocam Direito do Agronegócio no centro dos ...
+2026-09-16 01:17:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:26 [INFO] Classificação: enviar
+2026-09-16 01:17:26 [INFO] Aguardando 2.72s...
+2026-09-16 01:17:29 [INFO] [7/14] ID: https://noticias.uol.com.br/politica/ultimas-noticias/2026/09/15/gilmar-critica-afastamento-de-chefe-da-pf-como-afastar-diretor-da-nasa.htm
+2026-09-16 01:17:29 [INFO] Título: Gilmar critica afastamento de chefe da PF: 'Como afastar diretor da Nasa' - UOL Notícias
+2026-09-16 01:17:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:29 [INFO] Classificação: nao_enviar
+2026-09-16 01:17:29 [INFO] Aguardando 2.75s...
+2026-09-16 01:17:32 [INFO] [8/14] ID: https://www.reporterdiario.com.br/noticia/3895096/tesouro-honra-r-7995-milhoes-em-dividas-garantidas-pela-uniao-em-agosto/
+2026-09-16 01:17:32 [INFO] Título: Tesouro honra R$ 79,95 milhões em dívidas garantidas pela União em agosto
+2026-09-16 01:17:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:32 [INFO] Classificação: nao_enviar
+2026-09-16 01:17:32 [INFO] Aguardando 2.74s...
+2026-09-16 01:17:35 [INFO] [9/14] ID: https://atlaspublico.com.br/cvm/noticias/fitch-mantem-rating-rd-bra-da-allianca-apos-deferimento-de-87532
+2026-09-16 01:17:35 [INFO] Título: Fitch mantém rating RD(bra) da Alliança após deferimento de pedido de homologação de plano
+2026-09-16 01:17:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:35 [INFO] Classificação: enviar
+2026-09-16 01:17:35 [INFO] Aguardando 2.67s...
+2026-09-16 01:17:38 [INFO] [10/14] ID: https://valorinveste.globo.com/mercados/noticia/2026/09/15/gestora-apex-pede-recuperacao-judicial-e-aponta-divida-de-quase-r-1-bilhao.ghtml
+2026-09-16 01:17:38 [INFO] Título: Gestora Apex pede recuperação <b>judicial</b> e aponta dívida de quase R$ 1 bilhão
+2026-09-16 01:17:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:39 [INFO] Classificação: enviar
+2026-09-16 01:17:39 [INFO] Aguardando 2.42s...
+2026-09-16 01:17:41 [INFO] [11/14] ID: https://www.migalhas.com.br/amp/quentes/464568/recuperacao-judicial-nao-salva-empresa-inviavel-alerta-especialista
+2026-09-16 01:17:41 [INFO] Título: Recuperação <b>judicial</b> não salva empresa inviável, alerta especialista - Migalhas
+2026-09-16 01:17:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:41 [INFO] Classificação: enviar
+2026-09-16 01:17:41 [INFO] Aguardando 2.66s...
+2026-09-16 01:17:44 [INFO] [12/14] ID: https://revistaempreende.com.br/caso-moraes-e-vorcaro-leva-stf-a-julgamento-historico-em-meio-a-crise-sobre-banco-master/
+2026-09-16 01:17:44 [INFO] Título: Caso Moraes e Vorcaro leva STF a julgamento histórico em meio a crise sobre Banco Master
+2026-09-16 01:17:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:45 [INFO] Classificação: nao_enviar
+2026-09-16 01:17:45 [INFO] Aguardando 2.51s...
+2026-09-16 01:17:47 [INFO] [13/14] ID: https://www.moneytimes.com.br/selic-abaixo-de-10-economista-chefe-do-bradesco-bbdc4-revela-quando-juros-podem-voltar-a-um-digito/
+2026-09-16 01:17:47 [INFO] Título: Selic abaixo de 10%? Economista-chefe do Bradesco (BBDC4) revela quando juros podem voltar ...
+2026-09-16 01:17:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:48 [INFO] Classificação: nao_enviar
+2026-09-16 01:17:48 [INFO] Aguardando 1.74s...
+2026-09-16 01:17:50 [INFO] [14/14] ID: https://movimentoeconomico.com.br/economia/justica/2026/09/15/dino-pede-vista-apos-bate-boca-e-stf-tem-4x3-para-separar-casos-moraes-e-mendonca/
+2026-09-16 01:17:50 [INFO] Título: Dino pede vista após bate-boca e STF tem 4x3 para separar casos Moraes e Mendonça
+2026-09-16 01:17:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-16 01:17:50 [INFO] Classificação: nao_enviar
+2026-09-16 01:17:50 [INFO] ======================================================================
+2026-09-16 01:17:50 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-16 01:17:50 [INFO] ======================================================================
+2026-09-16 01:17:50 [INFO] Processadas: 14
+2026-09-16 01:17:50 [INFO] Enviar: 7
+2026-09-16 01:17:50 [INFO] Não enviar: 7
+2026-09-16 01:17:50 [INFO] ======================================================================
