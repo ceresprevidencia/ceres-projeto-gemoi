@@ -23610,3 +23610,136 @@
 2026-09-17 18:09:00 [INFO] Enviar: 6
 2026-09-17 18:09:00 [INFO] Não enviar: 27
 2026-09-17 18:09:00 [INFO] ======================================================================
+2026-09-17 22:03:06 [INFO] ======================================================================
+2026-09-17 22:03:06 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-17 22:03:06 [INFO] ======================================================================
+2026-09-17 22:03:06 [INFO] Notícias com status 'extraida': 24
+2026-09-17 22:03:06 [INFO] Limite: 20 requisições/minuto
+2026-09-17 22:03:06 [INFO] Intervalo mínimo: 3.0s
+2026-09-17 22:03:06 [INFO] ======================================================================
+2026-09-17 22:03:06 [INFO] [1/24] ID: https://www.cnnbrasil.com.br/agro/exclusivo-fusoes-no-agro-caem-60-mas-negocios-maiores-avancam/
+2026-09-17 22:03:06 [INFO] Título: Exclusivo: Fusões no agro caem 60%, mas negócios maiores avançam - CNN Brasil
+2026-09-17 22:03:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:07 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:07 [INFO] Aguardando 2.35s...
+2026-09-17 22:03:09 [INFO] [2/24] ID: https://economicnewsbrasil.com.br/2026/09/17/recuperacao-judicial-empresas-menores/
+2026-09-17 22:03:09 [INFO] Título: <b>Recuperação judicial</b> cresce mais entre empresas menores no Brasil
+2026-09-17 22:03:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:09 [INFO] Classificação: enviar
+2026-09-17 22:03:10 [INFO] Aguardando 2.61s...
+2026-09-17 22:03:12 [INFO] [3/24] ID: https://www.migalhas.com.br/quentes/464778/advogada-explica-o-que-define-recuperacao-ou-falencia-de-empresas
+2026-09-17 22:03:12 [INFO] Título: Advogada explica o que define <b>recuperação</b> ou falência de empresas - Migalhas
+2026-09-17 22:03:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:13 [INFO] Classificação: enviar
+2026-09-17 22:03:13 [INFO] Aguardando 2.44s...
+2026-09-17 22:03:15 [INFO] [4/24] ID: https://valor.globo.com/patrocinado/pulse-brand/noticia/2026/09/17/falencia-pode-ser-saida-regular-sem-atingir-patrimonio-dos-socios-1.ghtml
+2026-09-17 22:03:15 [INFO] Título: Falência pode ser saída regular sem atingir patrimônio dos sócios | PulseBrand | Valor Econômico
+2026-09-17 22:03:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:15 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:15 [INFO] Aguardando 2.67s...
+2026-09-17 22:03:18 [INFO] [5/24] ID: https://www.fecomercio-rs.org.br/noticiadetalhe/2026/09/17/Novo-Edital-do-Acordo-Gaucho-para-regularizacao-de-debitos-de-ICMS/c1341e27-ede7-44a7-9df4-a73bb531dd1a
+2026-09-17 22:03:18 [INFO] Título: Novo Edital do Acordo Gaúcho para regularização de débitos de ICMS - Fecomércio RS
+2026-09-17 22:03:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:19 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:19 [INFO] Aguardando 2.49s...
+2026-09-17 22:03:21 [INFO] [6/24] ID: https://g1.globo.com/mg/zona-da-mata/noticia/2026/09/17/acordo-destrava-pagamento-de-dividas-a-180-empregados-do-instituto-granbery-em-juiz-de-fora.ghtml
+2026-09-17 22:03:21 [INFO] Título: Acordo destrava pagamento de dívidas a 180 empregados do Instituto Granbery em Juiz de Fora
+2026-09-17 22:03:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:21 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:21 [INFO] Aguardando 2.66s...
+2026-09-17 22:03:24 [INFO] [7/24] ID: https://www.segs.com.br/seguros/455675-empresas-brasileiras-enfrentam-cenario-de-pressao-e-desafios-para-os-negocios
+2026-09-17 22:03:24 [INFO] Título: Empresas brasileiras enfrentam cenário de pressão e desafios para os negócios - Segs
+2026-09-17 22:03:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:25 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:25 [INFO] Aguardando 2.55s...
+2026-09-17 22:03:27 [INFO] [8/24] ID: https://www.fatosdematogrosso.com.br/geral/justica-convoca-credores-para-votar-plano-da-enpa-que-acumula-divida-de-r-96-milhoes/16190
+2026-09-17 22:03:27 [INFO] Título: Justiça convoca credores para votar plano da Enpa, que acumula dívida de R$ 96 milhões
+2026-09-17 22:03:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:28 [INFO] Classificação: enviar
+2026-09-17 22:03:28 [INFO] Aguardando 2.59s...
+2026-09-17 22:03:30 [INFO] [9/24] ID: https://www.agrolink.com.br/noticias/categoria/economia/recuperacao-judicial-no-agro-cresce-22--no-brasil_518954.html
+2026-09-17 22:03:30 [INFO] Título: <b>Recuperação judicial</b> no agro cresce 22% no Brasil - Agrolink
+2026-09-17 22:03:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:30 [INFO] Classificação: enviar
+2026-09-17 22:03:30 [INFO] Aguardando 2.72s...
+2026-09-17 22:03:33 [INFO] [10/24] ID: https://conexaoin.com.br/recuperacao-judicial-de-entidades-sem-fins-lucrativos-expoe-lacunas-na-legislacao/
+2026-09-17 22:03:33 [INFO] Título: <b>Recuperação judicial</b> de entidades sem fins lucrativos expõe lacunas na legislação
+2026-09-17 22:03:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:34 [INFO] Classificação: enviar
+2026-09-17 22:03:34 [INFO] Aguardando 2.59s...
+2026-09-17 22:03:36 [INFO] [11/24] ID: https://paraibabusiness.com.br/casas-bahia-tem-ate-marco-para-tirar-acao-de-cotacao-abaixo-de-r-1/
+2026-09-17 22:03:36 [INFO] Título: Casas Bahia tem até março para tirar ação de cotação abaixo de R$ 1 - Paraíba Business
+2026-09-17 22:03:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:36 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:36 [INFO] Aguardando 2.74s...
+2026-09-17 22:03:39 [INFO] [12/24] ID: https://agrorevenda.com.br/destaques/rjs-colocam-governanca-do-credito-no-centro-do-agro/
+2026-09-17 22:03:39 [INFO] Título: RJs colocam governança do crédito no centro do agro - AgroRevenda
+2026-09-17 22:03:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:39 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:40 [INFO] Aguardando 2.63s...
+2026-09-17 22:03:42 [INFO] [13/24] ID: https://www.broadcast.com.br/news/alienacao-judicial-de-imoveis-da-americanas-no-rj-tem-valor-minimo-estimado-em-r-1299-mi/
+2026-09-17 22:03:42 [INFO] Título: Alienação <b>judicial</b> de imóveis da Americanas no RJ tem valor mínimo estimado em R$ 129,9 mi
+2026-09-17 22:03:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:43 [INFO] Classificação: enviar
+2026-09-17 22:03:43 [INFO] Aguardando 2.54s...
+2026-09-17 22:03:45 [INFO] [14/24] ID: https://www.cnmp.mp.br/portal/todas-as-noticias/19755-cnmp-se-reune-com-instituicoes-financeiras-entidades-do-agronegocio-e-comissao-do-senado-para-tratar-da-atuacao-do-mp-em-casos-de-recuperacao-judicial
+2026-09-17 22:03:45 [INFO] Título: CNMP se reúne com instituições financeiras, entidades do agronegócio e comissão do ...
+2026-09-17 22:03:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:45 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:45 [INFO] Aguardando 2.66s...
+2026-09-17 22:03:48 [INFO] [15/24] ID: https://acionista.com.br/osx-brasil-osxb3-avanca-em-recuperacao-judicial-apos-decisao-do-juiz/
+2026-09-17 22:03:48 [INFO] Título: OSX Brasil (OSXB3): Avança em <b>Recuperação Judicial</b> após decisão do juiz - Acionista.com.br
+2026-09-17 22:03:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:48 [INFO] Classificação: enviar
+2026-09-17 22:03:49 [INFO] Aguardando 2.64s...
+2026-09-17 22:03:51 [INFO] [16/24] ID: https://mundocoop.com.br/destaques-da-revista/legislacao-destaques-da-revista/a-reforma-tributaria-sobre-o-consumo-chegou-e-agora/
+2026-09-17 22:03:51 [INFO] Título: A Reforma Tributária sobre o Consumo chegou. E agora? - MundoCoop
+2026-09-17 22:03:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:51 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:51 [INFO] Aguardando 2.75s...
+2026-09-17 22:03:54 [INFO] [17/24] ID: https://marilianoticia.com.br/mariliaeregiao/funcionarios-do-ponto-frio-de-marilia-recorrem-a-justica-por-verbas-rescisorias/
+2026-09-17 22:03:54 [INFO] Título: Funcionários do Ponto Frio de Marília recorrem à Justiça por verbas rescisórias
+2026-09-17 22:03:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:54 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:54 [INFO] Aguardando 2.71s...
+2026-09-17 22:03:57 [INFO] [18/24] ID: https://www.band.com.br/esportes/futebol/times/botafogo/clube-brasileiro-acerta-contratacao-do-tecnico-tite-veja-detalhes
+2026-09-17 22:03:57 [INFO] Título: Clube brasileiro anuncia contratação do técnico Tite; veja detalhes - Band
+2026-09-17 22:03:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:03:57 [INFO] Classificação: nao_enviar
+2026-09-17 22:03:57 [INFO] Aguardando 2.71s...
+2026-09-17 22:04:00 [INFO] [19/24] ID: https://monitordomercado.com.br/noticias/empresas-e-acoes/425069-oncoclinicas-nomeia-mauricio-hasson-como-cfo-e-diretor-de-ri/
+2026-09-17 22:04:00 [INFO] Título: Oncoclínicas nomeia novo diretor financeiro em meio à reestruturação - Monitor do Mercado
+2026-09-17 22:04:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:04:00 [INFO] Classificação: nao_enviar
+2026-09-17 22:04:00 [INFO] Aguardando 2.67s...
+2026-09-17 22:04:03 [INFO] [20/24] ID: https://seguinte.inf.br/ulbra-no-novelo-do-master-jornalista-mostra-como-canoas-aparece-em-uma-complexa-rede-de-negocios-e-processos/
+2026-09-17 22:04:03 [INFO] Título: Ulbra no novelo do Master: jornalista mostra como Canoas aparece em uma complexa rede ...
+2026-09-17 22:04:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:04:03 [INFO] Classificação: nao_enviar
+2026-09-17 22:04:03 [INFO] Aguardando 2.76s...
+2026-09-17 22:04:06 [INFO] [21/24] ID: https://diariodaamazonia.com.br/noticia/1/449714/brb-pede-ao-stf-devolucao-de-valores-retidos-na-liquidacao-do-banco-master
+2026-09-17 22:04:06 [INFO] Título: BRB pede ao STF devolução de valores retidos na <b>liquidação</b> do Banco Master
+2026-09-17 22:04:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:04:07 [INFO] Classificação: enviar
+2026-09-17 22:04:07 [INFO] Aguardando 2.60s...
+2026-09-17 22:04:09 [INFO] [22/24] ID: https://www.metropoles.com/colunas/grande-angular/brb-pede-ao-stf-recurso-retido-por-liquidante-do-master-e-inclui-credcesta
+2026-09-17 22:04:09 [INFO] Título: BRB pede ao STF recurso retido por liquidante do Master e inclui Credcesta - Metrópoles
+2026-09-17 22:04:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:04:09 [INFO] Classificação: enviar
+2026-09-17 22:04:09 [INFO] Aguardando 2.71s...
+2026-09-17 22:04:12 [INFO] [23/24] ID: https://g1.globo.com/df/distrito-federal/noticia/2026/09/17/brb-valores-bloqueados-caso-master.ghtml
+2026-09-17 22:04:12 [INFO] Título: BRB pede que STF libere valores bloqueados em investigação do caso Master - G1
+2026-09-17 22:04:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:04:12 [INFO] Classificação: nao_enviar
+2026-09-17 22:04:12 [INFO] Aguardando 2.72s...
+2026-09-17 22:04:15 [INFO] [24/24] ID: https://www.ihu.unisinos.br/671024-nota-sobre-o-atual-momento-politico-brasileiro
+2026-09-17 22:04:15 [INFO] Título: Nota do Coletivo Padres da Caminhada sobre o atual momento político brasileiro
+2026-09-17 22:04:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 22:04:15 [INFO] Classificação: nao_enviar
+2026-09-17 22:04:15 [INFO] ======================================================================
+2026-09-17 22:04:15 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-17 22:04:15 [INFO] ======================================================================
+2026-09-17 22:04:15 [INFO] Processadas: 24
+2026-09-17 22:04:15 [INFO] Enviar: 9
+2026-09-17 22:04:15 [INFO] Não enviar: 15
+2026-09-17 22:04:15 [INFO] ======================================================================
