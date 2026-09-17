@@ -23371,3 +23371,21 @@
 2026-09-17 01:17:57 [INFO] Enviar: 9
 2026-09-17 01:17:57 [INFO] Não enviar: 11
 2026-09-17 01:17:57 [INFO] ======================================================================
+2026-09-17 07:31:31 [INFO] ======================================================================
+2026-09-17 07:31:31 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-17 07:31:31 [INFO] ======================================================================
+2026-09-17 07:31:31 [INFO] Notícias com status 'extraida': 1
+2026-09-17 07:31:31 [INFO] Limite: 20 requisições/minuto
+2026-09-17 07:31:31 [INFO] Intervalo mínimo: 3.0s
+2026-09-17 07:31:31 [INFO] ======================================================================
+2026-09-17 07:31:31 [INFO] [1/1] ID: https://blogs.correiobraziliense.com.br/aricunha/banco-master-e-stf-o-templo-profanado-pela-crise-institucional/
+2026-09-17 07:31:31 [INFO] Título: Banco Master e STF: O Templo Profanado pela Crise Institucional - Blog do Ari Cunha
+2026-09-17 07:31:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 07:31:31 [INFO] Classificação: nao_enviar
+2026-09-17 07:31:31 [INFO] ======================================================================
+2026-09-17 07:31:31 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-17 07:31:31 [INFO] ======================================================================
+2026-09-17 07:31:31 [INFO] Processadas: 1
+2026-09-17 07:31:31 [INFO] Enviar: 0
+2026-09-17 07:31:31 [INFO] Não enviar: 1
+2026-09-17 07:31:31 [INFO] ======================================================================
