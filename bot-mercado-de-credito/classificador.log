@@ -23389,3 +23389,46 @@
 2026-09-17 07:31:31 [INFO] Enviar: 0
 2026-09-17 07:31:31 [INFO] Não enviar: 1
 2026-09-17 07:31:31 [INFO] ======================================================================
+2026-09-17 13:20:22 [INFO] ======================================================================
+2026-09-17 13:20:22 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-17 13:20:22 [INFO] ======================================================================
+2026-09-17 13:20:22 [INFO] Notícias com status 'extraida': 6
+2026-09-17 13:20:22 [INFO] Limite: 20 requisições/minuto
+2026-09-17 13:20:22 [INFO] Intervalo mínimo: 3.0s
+2026-09-17 13:20:22 [INFO] ======================================================================
+2026-09-17 13:20:22 [INFO] [1/6] ID: https://guiadoinvestidor.com.br/mercado/brkm5-afunda-15-ubs-ve-risco-de-diluicao-e-corta-preco-alvo-em-quase-65/
+2026-09-17 13:20:22 [INFO] Título: BRKM5 afunda 15%: UBS vê risco de diluição e corta preço-alvo em quase 65%
+2026-09-17 13:20:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 13:20:23 [INFO] Classificação: nao_enviar
+2026-09-17 13:20:23 [INFO] Aguardando 1.76s...
+2026-09-17 13:20:25 [INFO] [2/6] ID: https://revistaoeste.com/economia/na-ultima-reuniao-antes-da-eleicao-bc-corta-juros-pela-5a-vez-seguida-para-1375/
+2026-09-17 13:20:25 [INFO] Título: Na última reunião antes da eleição, BC corta juros pela 5ª vez seguida, para 13,75% - Revista Oeste
+2026-09-17 13:20:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 13:20:25 [INFO] Classificação: nao_enviar
+2026-09-17 13:20:25 [INFO] Aguardando 2.69s...
+2026-09-17 13:20:28 [INFO] [3/6] ID: https://www.spacemoney.com.br/investimentos/acoes/braskem-acao-desaba-ubs-bb-corte-venda/
+2026-09-17 13:20:28 [INFO] Título: Braskem tomba 15% após UBS BB cortar recomendação a venda - SpaceMoney
+2026-09-17 13:20:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 13:20:28 [INFO] Classificação: nao_enviar
+2026-09-17 13:20:28 [INFO] Aguardando 2.76s...
+2026-09-17 13:20:31 [INFO] [4/6] ID: https://gauchazh.clicrbs.com.br/pioneiro/colunistas/juliana-bevilaqua/noticia/2026/09/industria-metalurgica-de-caxias-do-sul-pede-recuperacao-judicial-dividas-somam-cerca-de-r-50-milhoes-cmu5f7cu200jr01ial21vo2w8.html
+2026-09-17 13:20:31 [INFO] Título: Indústria metalúrgica de Caxias do Sul pede recuperação <b>judicial</b>; dívidas somam cerca de ... - GZH
+2026-09-17 13:20:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 13:20:31 [INFO] Classificação: enviar
+2026-09-17 13:20:31 [INFO] Aguardando 2.51s...
+2026-09-17 13:20:34 [INFO] [5/6] ID: https://visnoinvest.com.br/news/15285/americanas-amer3-anuncia-venda-judicial-de-imoveis-por-r-1299-mi
+2026-09-17 13:20:34 [INFO] Título: Americanas (AMER3) anuncia venda <b>judicial</b> de imóveis por R$ 129,9 mi - Visno Invest
+2026-09-17 13:20:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 13:20:34 [INFO] Classificação: enviar
+2026-09-17 13:20:34 [INFO] Aguardando 2.32s...
+2026-09-17 13:20:37 [INFO] [6/6] ID: https://www.migalhas.com.br/depeso/464662/schumpeter-e-os-direitos-bancario-e-do-mercado-de-capitais
+2026-09-17 13:20:37 [INFO] Título: Schumpeter e os direitos bancário e do mercado de capitais - Destruição não criativa e ...
+2026-09-17 13:20:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 13:20:37 [INFO] Classificação: nao_enviar
+2026-09-17 13:20:37 [INFO] ======================================================================
+2026-09-17 13:20:37 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-17 13:20:37 [INFO] ======================================================================
+2026-09-17 13:20:37 [INFO] Processadas: 6
+2026-09-17 13:20:37 [INFO] Enviar: 2
+2026-09-17 13:20:37 [INFO] Não enviar: 4
+2026-09-17 13:20:37 [INFO] ======================================================================
