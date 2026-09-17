@@ -23258,3 +23258,116 @@
 2026-09-16 22:03:22 [INFO] Enviar: 8
 2026-09-16 22:03:22 [INFO] Não enviar: 13
 2026-09-16 22:03:22 [INFO] ======================================================================
+2026-09-17 01:17:00 [INFO] ======================================================================
+2026-09-17 01:17:00 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-17 01:17:00 [INFO] ======================================================================
+2026-09-17 01:17:00 [INFO] Notícias com status 'extraida': 20
+2026-09-17 01:17:00 [INFO] Limite: 20 requisições/minuto
+2026-09-17 01:17:00 [INFO] Intervalo mínimo: 3.0s
+2026-09-17 01:17:00 [INFO] ======================================================================
+2026-09-17 01:17:00 [INFO] [1/20] ID: https://visnoinvest.com.br/news/15270/pmam3-sobe-205-e-ibovespa-recua-02-na-b3-hoje
+2026-09-17 01:17:00 [INFO] Título: PMAM3 sobe 20,5% e Ibovespa recua 0,2% na B3 hoje - Visno Invest
+2026-09-17 01:17:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:01 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:01 [INFO] Aguardando 2.50s...
+2026-09-17 01:17:03 [INFO] [2/20] ID: https://esbrasil.com.br/fundador-apex-contesta-recuperacao/
+2026-09-17 01:17:03 [INFO] Título: Fundador da Apex contesta <b>recuperação judicial</b> do grupo - Revista ES Brasil
+2026-09-17 01:17:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:03 [INFO] Classificação: enviar
+2026-09-17 01:17:03 [INFO] Aguardando 2.77s...
+2026-09-17 01:17:06 [INFO] [3/20] ID: https://diariodopoder.com.br/dinheiro/e12-dinheiro/crise-no-agro-alongar-a-divida-ou-buscar-recuperacao-judicial
+2026-09-17 01:17:06 [INFO] Título: Crise no agro: alongar a dívida ou buscar <b>recuperação judicial</b>? - Diário do Poder
+2026-09-17 01:17:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:06 [INFO] Classificação: enviar
+2026-09-17 01:17:06 [INFO] Aguardando 2.68s...
+2026-09-17 01:17:09 [INFO] [4/20] ID: https://diariodopoder.com.br/dinheiro/e12-dinheiro/crise-no-agro-alongar-a-divida-ou-buscar-recuperacao-judicial/amp
+2026-09-17 01:17:09 [INFO] Título: Crise no agro: alongar a dívida ou buscar <b>recuperação judicial</b>? - Diário do Poder
+2026-09-17 01:17:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:09 [INFO] Classificação: enviar
+2026-09-17 01:17:09 [INFO] Aguardando 2.59s...
+2026-09-17 01:17:12 [INFO] [5/20] ID: https://jurinews.com.br/destaque-nacional/apex-partners-pede-recuperacao-judicial-com-passivo-de-r-9856-milhoes
+2026-09-17 01:17:12 [INFO] Título: Apex Partners pede <b>recuperação judicial</b> com passivo de R$ 985,6 milhões - Jurinews
+2026-09-17 01:17:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:12 [INFO] Classificação: enviar
+2026-09-17 01:17:12 [INFO] Aguardando 2.78s...
+2026-09-17 01:17:15 [INFO] [6/20] ID: https://www.cnnbrasil.com.br/infra/tcu-ve-atrasos-cronicos-na-ferrovia-de-integracao-oeste-leste-e-quer-recuperacao-de-cronograma/
+2026-09-17 01:17:15 [INFO] Título: TCU vê atrasos crônicos na Ferrovia de Integração Oeste-Leste | CNN Brasil
+2026-09-17 01:17:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:15 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:15 [INFO] Aguardando 2.75s...
+2026-09-17 01:17:18 [INFO] [7/20] ID: https://investidor10.com.br/noticias/apex-partners-2-maior-acionista-da-cvc-cvcb3-pede-recuperacao-judicial-122681/
+2026-09-17 01:17:18 [INFO] Título: Apex Partners: 2ª maior acionista da CVC (CVCB3) pede <b>recuperação judicial</b> - Investidor10
+2026-09-17 01:17:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:18 [INFO] Classificação: enviar
+2026-09-17 01:17:18 [INFO] Aguardando 2.59s...
+2026-09-17 01:17:21 [INFO] [8/20] ID: https://www.melhoresdestinos.com.br/gol-lisboa-inicio.html
+2026-09-17 01:17:21 [INFO] Título: Gol começa hoje mais uma fase de sua expansão internacional, com voos diretos para Lisboa
+2026-09-17 01:17:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:21 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:21 [INFO] Aguardando 2.58s...
+2026-09-17 01:17:24 [INFO] [9/20] ID: https://www.contabeis.com.br/artigos/79431/bc-em-recuperacao-judicial-impacto-dos-derivativos/
+2026-09-17 01:17:24 [INFO] Título: BC em <b>recuperação judicial</b>: impacto dos derivativos - Portal Contábeis
+2026-09-17 01:17:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:24 [INFO] Classificação: enviar
+2026-09-17 01:17:24 [INFO] Aguardando 2.71s...
+2026-09-17 01:17:27 [INFO] [10/20] ID: https://www.botafogo.com.br/noticias/edital-de-convocacao-de-assembleia-geral-extraordinaria-de-16-de-setembro-de-2026
+2026-09-17 01:17:27 [INFO] Título: EDITAL DE CONVOCAÇÃO | Botafogo de Futebol e Regatas
+2026-09-17 01:17:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:27 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:27 [INFO] Aguardando 2.73s...
+2026-09-17 01:17:30 [INFO] [11/20] ID: https://investidor10.com.br/amp/noticias/apex-partners-2-maior-acionista-da-cvc-cvcb3-pede-recuperacao-judicial-122681/
+2026-09-17 01:17:30 [INFO] Título: Apex Partners: 2ª maior acionista da CVC (CVCB3) pede <b>recuperação judicial</b> - Investidor10
+2026-09-17 01:17:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:30 [INFO] Classificação: enviar
+2026-09-17 01:17:30 [INFO] Aguardando 2.81s...
+2026-09-17 01:17:33 [INFO] [12/20] ID: https://tribunaonline.com.br/economia/entenda-o-pedido-de-recuperacao-judicial-da-apex-partners-330813
+2026-09-17 01:17:33 [INFO] Título: Entenda o pedido de <b>recuperação judicial</b> da Apex Partners - Tribuna Online
+2026-09-17 01:17:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:33 [INFO] Classificação: enviar
+2026-09-17 01:17:33 [INFO] Aguardando 2.76s...
+2026-09-17 01:17:36 [INFO] [13/20] ID: https://www.portaltemponovo.com.br/casas-bahia-faz-ultimo-leilao-com-geladeira-fogao-e-maquina-de-lavar-por-r-220-apos-fechar-lojas/
+2026-09-17 01:17:36 [INFO] Título: Casas Bahia faz último leilão com geladeira, fogão e máquina de lavar por R$ 220 após fechar lojas
+2026-09-17 01:17:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:36 [INFO] Classificação: enviar
+2026-09-17 01:17:36 [INFO] Aguardando 2.68s...
+2026-09-17 01:17:39 [INFO] [14/20] ID: https://bahiaeconomica.com.br/wp/2026/09/16/braskem-acoes-caem-mais-ainda-com-risco-de-diluicao-da-participacao-dos-acionistas/
+2026-09-17 01:17:39 [INFO] Título: BRASKEM: AÇÕES CAEM MAIS AINDA COM RISCO DE DILUIÇÃO DA PARTICIPAÇÃO ...
+2026-09-17 01:17:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:39 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:39 [INFO] Aguardando 2.77s...
+2026-09-17 01:17:42 [INFO] [15/20] ID: https://veronoticias.com/economia/braskem-cai-1516-apos-ubs-bb-recomendar-venda-das-acoes/
+2026-09-17 01:17:42 [INFO] Título: Braskem cai 15,16% após UBS BB recomendar venda das ações - Vero Notícias
+2026-09-17 01:17:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:42 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:42 [INFO] Aguardando 2.78s...
+2026-09-17 01:17:45 [INFO] [16/20] ID: https://pipelinevalor.globo.com/google/amp/negocios/noticia/aporte-da-petrobras-e-entrave-na-tratativa-com-credores-da-braskem.ghtml
+2026-09-17 01:17:45 [INFO] Título: Aporte da Petrobras é entrave na tratativa com credores da Braskem | Negócios - Pipeline
+2026-09-17 01:17:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:45 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:45 [INFO] Aguardando 2.62s...
+2026-09-17 01:17:48 [INFO] [17/20] ID: https://br.investing.com/news/stock-market-news/ubs-bb-corta-recomendacao-de-braskem-para-venda-sem-enxergar-saida-facil-acao-desaba-13-2067349
+2026-09-17 01:17:48 [INFO] Título: UBS BB corta recomendação de Braskem para venda sem enxergar "saída fácil"; ação desaba 13%
+2026-09-17 01:17:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:48 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:48 [INFO] Aguardando 2.76s...
+2026-09-17 01:17:51 [INFO] [18/20] ID: https://investnews.com.br/financas/banco-central-corta-juros-1375-copom/
+2026-09-17 01:17:51 [INFO] Título: Copom reduz juro para 13,75% ao ano, no quinto corte seguido - InvestNews
+2026-09-17 01:17:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:51 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:51 [INFO] Aguardando 2.79s...
+2026-09-17 01:17:54 [INFO] [19/20] ID: https://painelpolitico.com/mae-de-vorcaro-recorre-a-doacoes-apos-bloqueio-de-bens-da-familia
+2026-09-17 01:17:54 [INFO] Título: Mãe de Vorcaro recorre a doações após bloqueio de bens da família - Painel Político
+2026-09-17 01:17:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:54 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:54 [INFO] Aguardando 2.74s...
+2026-09-17 01:17:57 [INFO] [20/20] ID: https://www.gov.br/cvm/pt-br/assuntos/noticias/2026/cvm-aplica-multas-que-somam-mais-de-r-200-milhoes-em-caso-envolvendo-banco-master
+2026-09-17 01:17:57 [INFO] Título: CVM aplica multas que somam mais de R$ 200 milhões em caso envolvendo Banco Master
+2026-09-17 01:17:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-17 01:17:57 [INFO] Classificação: nao_enviar
+2026-09-17 01:17:57 [INFO] ======================================================================
+2026-09-17 01:17:57 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-17 01:17:57 [INFO] ======================================================================
+2026-09-17 01:17:57 [INFO] Processadas: 20
+2026-09-17 01:17:57 [INFO] Enviar: 9
+2026-09-17 01:17:57 [INFO] Não enviar: 11
+2026-09-17 01:17:57 [INFO] ======================================================================
