@@ -23841,3 +23841,66 @@
 2026-09-18 01:12:59 [INFO] Enviar: 3
 2026-09-18 01:12:59 [INFO] Não enviar: 14
 2026-09-18 01:12:59 [INFO] ======================================================================
+2026-09-18 07:20:11 [INFO] ======================================================================
+2026-09-18 07:20:11 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-18 07:20:11 [INFO] ======================================================================
+2026-09-18 07:20:11 [INFO] Notícias com status 'extraida': 10
+2026-09-18 07:20:11 [INFO] Limite: 20 requisições/minuto
+2026-09-18 07:20:11 [INFO] Intervalo mínimo: 3.0s
+2026-09-18 07:20:11 [INFO] ======================================================================
+2026-09-18 07:20:11 [INFO] [1/10] ID: https://www.oabsp.org.br/jornaldaadvocacia/26-09-17-1437-o-primeiro-passo-e-abrir-o-debate-publico-afirma-leonardo-sica-ao-defender-reforma-do-judiciario
+2026-09-18 07:20:11 [INFO] Título: 'O primeiro passo é abrir o debate público', afirma Leonardo Sica ao defender reforma do Judiciário
+2026-09-18 07:20:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:12 [INFO] Classificação: nao_enviar
+2026-09-18 07:20:12 [INFO] Aguardando 2.54s...
+2026-09-18 07:20:14 [INFO] [2/10] ID: https://www.lance.com.br/futebol-internacional/como-o-deportivo-a-coruna-se-reconstruiu-apos-quase-colapso.html
+2026-09-18 07:20:14 [INFO] Título: De quase colapso à elite: como o Deportivo A Coruña reconstruiu o clube - Lance!
+2026-09-18 07:20:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:15 [INFO] Classificação: nao_enviar
+2026-09-18 07:20:15 [INFO] Aguardando 2.67s...
+2026-09-18 07:20:17 [INFO] [3/10] ID: https://br.bolavip.com/internacional/roberto-melo-recuperacao-judicial-internacional
+2026-09-18 07:20:17 [INFO] Título: Roberto Melo apoia <b>recuperação judicial</b> do Internacional: “É o caminho” - Bolavip Brasil
+2026-09-18 07:20:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:18 [INFO] Classificação: enviar
+2026-09-18 07:20:18 [INFO] Aguardando 2.61s...
+2026-09-18 07:20:20 [INFO] [4/10] ID: https://valor.globo.com/empresas/noticia/2026/09/17/debenturistas-da-casas-bahia-aprovam-vencimento-antecipado-de-dvida-rede-nega-direito.ghtml
+2026-09-18 07:20:20 [INFO] Título: Debenturistas da Casas Bahia aprovam vencimento antecipado de dívida; rede nega direito
+2026-09-18 07:20:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:21 [INFO] Classificação: nao_enviar
+2026-09-18 07:20:21 [INFO] Aguardando 2.70s...
+2026-09-18 07:20:23 [INFO] [5/10] ID: https://www.espn.com.br/futebol/botafogo/artigo/_/id/17270292/textor-vence-processo-justica-eua-diz-voltou-ser-dono-saf-botafogo
+2026-09-18 07:20:23 [INFO] Título: Textor vence processo na Justiça dos EUA e diz que voltou a ser dono da SAF do Botafogo
+2026-09-18 07:20:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:24 [INFO] Classificação: nao_enviar
+2026-09-18 07:20:24 [INFO] Aguardando 2.66s...
+2026-09-18 07:20:26 [INFO] [6/10] ID: https://www.instagram.com/p/DdZjmUxvDan/
+2026-09-18 07:20:26 [INFO] Título: A Prefeitura de Maceió revogou, no dia 15 de setembro, uma portaria que havia tornado a ...
+2026-09-18 07:20:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:27 [INFO] Classificação: nao_enviar
+2026-09-18 07:20:27 [INFO] Aguardando 2.66s...
+2026-09-18 07:20:29 [INFO] [7/10] ID: https://www.agazeta.com.br/colunas/abdo-filho/briga-na-justica-btg-recorre-de-decisao-que-obriga-manutencao-de-parceria-com-apex-0926
+2026-09-18 07:20:29 [INFO] Título: Briga na Justiça: BTG recorre de decisão que obriga manutenção de contrato com Apex
+2026-09-18 07:20:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:30 [INFO] Classificação: nao_enviar
+2026-09-18 07:20:30 [INFO] Aguardando 2.60s...
+2026-09-18 07:20:32 [INFO] [8/10] ID: https://www.spacemoney.com.br/investimentos/petrobras-contratos-partilha-costa-do-marfim/
+2026-09-18 07:20:32 [INFO] Título: Petrobras assina contratos de partilha na Costa do Marfim - SpaceMoney
+2026-09-18 07:20:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:33 [INFO] Classificação: nao_enviar
+2026-09-18 07:20:33 [INFO] Aguardando 2.78s...
+2026-09-18 07:20:35 [INFO] [9/10] ID: https://www.spacemoney.com.br/investimentos/casas-bahia-gpa-extrajudicial/
+2026-09-18 07:20:35 [INFO] Título: Casas Bahia questiona plano do GPA na Justiça - SpaceMoney
+2026-09-18 07:20:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:36 [INFO] Classificação: nao_enviar
+2026-09-18 07:20:36 [INFO] Aguardando 2.81s...
+2026-09-18 07:20:38 [INFO] [10/10] ID: https://trademap.com.br/ativos/BRKM6?range=1m&docTypes=MATERIAL_FACT
+2026-09-18 07:20:38 [INFO] Título: BRKM6 - Braskem - TradeMap
+2026-09-18 07:20:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 07:20:39 [INFO] Classificação: nao_enviar
+2026-09-18 07:20:39 [INFO] ======================================================================
+2026-09-18 07:20:39 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-18 07:20:39 [INFO] ======================================================================
+2026-09-18 07:20:39 [INFO] Processadas: 10
+2026-09-18 07:20:39 [INFO] Enviar: 1
+2026-09-18 07:20:39 [INFO] Não enviar: 9
+2026-09-18 07:20:39 [INFO] ======================================================================
