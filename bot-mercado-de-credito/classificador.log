@@ -24428,3 +24428,51 @@
 2026-09-18 20:50:50 [INFO] Enviar: 7
 2026-09-18 20:50:50 [INFO] Não enviar: 31
 2026-09-18 20:50:50 [INFO] ======================================================================
+2026-09-18 23:11:15 [INFO] ======================================================================
+2026-09-18 23:11:15 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-18 23:11:15 [INFO] ======================================================================
+2026-09-18 23:11:15 [INFO] Notícias com status 'extraida': 7
+2026-09-18 23:11:15 [INFO] Limite: 20 requisições/minuto
+2026-09-18 23:11:15 [INFO] Intervalo mínimo: 3.0s
+2026-09-18 23:11:15 [INFO] ======================================================================
+2026-09-18 23:11:15 [INFO] [1/7] ID: https://www.tjmg.jus.br/portal-tjmg/noticias/operacao-merito-reverso-comarca-de-frutal-condena-sete-acusados-de-fraude.htm
+2026-09-18 23:11:15 [INFO] Título: Operação "Mérito Reverso": Comarca de Frutal condena sete acusados de fraude - TJMG
+2026-09-18 23:11:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 23:11:16 [INFO] Classificação: nao_enviar
+2026-09-18 23:11:16 [INFO] Aguardando 2.66s...
+2026-09-18 23:11:18 [INFO] [2/7] ID: https://atarde.com.br/economia/casas-bahia-marca-reuniao-para-discutir-recuperacao-judicial-de-r-17-bilhoes-1402608?_=amp
+2026-09-18 23:11:18 [INFO] Título: Casas Bahia marca reunião para discutir <b>recuperação judicial</b> de R$ 17 bilhões | A Tarde
+2026-09-18 23:11:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 23:11:19 [INFO] Classificação: enviar
+2026-09-18 23:11:19 [INFO] Aguardando 2.81s...
+2026-09-18 23:11:21 [INFO] [3/7] ID: https://www.oabsp.org.br/jornaldaadvocacia/26-09-18-1459-nunca-produzimos-e-exportamos-tanto-enquanto-a-economia-rural-esta-nessa-escala-de-crise-diz-mestre-em-direito-por-harvard-em-conferencia
+2026-09-18 23:11:21 [INFO] Título: 'Nunca produzimos e exportamos tanto enquanto a economia rural está nessa escala de ... - OAB-SP
+2026-09-18 23:11:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 23:11:22 [INFO] Classificação: nao_enviar
+2026-09-18 23:11:22 [INFO] Aguardando 2.69s...
+2026-09-18 23:11:24 [INFO] [4/7] ID: https://painelpolitico.com/credores-resistem-a-plano-da-braskem-e-pressionam-petrobras-por-aporte
+2026-09-18 23:11:24 [INFO] Título: Credores resistem a plano da Braskem e pressionam Petrobras por aporte | Painel Político
+2026-09-18 23:11:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 23:11:25 [INFO] Classificação: enviar
+2026-09-18 23:11:25 [INFO] Aguardando 2.64s...
+2026-09-18 23:11:27 [INFO] [5/7] ID: https://www.cartacapital.com.br/radar-carta/banco-central-define-novas-regras-para-o-pix-e-autoriza-uso-em-contas-salario/
+2026-09-18 23:11:27 [INFO] Título: Banco Central define novas regras para o Pix e autoriza uso em contas-salário
+2026-09-18 23:11:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 23:11:28 [INFO] Classificação: nao_enviar
+2026-09-18 23:11:28 [INFO] Aguardando 2.70s...
+2026-09-18 23:11:30 [INFO] [6/7] ID: https://www.grandeponto.com.br/noticia/dez-meses-apos-liquidacao-master-faz-stf-entrar-em-guerra-e-afeta-eleicao
+2026-09-18 23:11:30 [INFO] Título: Dez meses após <b>liquidação</b>, Master faz STF entrar em guerra e afeta eleição
+2026-09-18 23:11:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 23:11:31 [INFO] Classificação: enviar
+2026-09-18 23:11:31 [INFO] Aguardando 2.58s...
+2026-09-18 23:11:33 [INFO] [7/7] ID: https://seguinte.inf.br/sessao-de-terca-feira-do-stf-foi-um-passo-da-justica-rumo-a-reorganizacao/
+2026-09-18 23:11:33 [INFO] Título: Sessão de terça-feira do STF foi um passo da Justiça rumo à reorganização - Seguinte
+2026-09-18 23:11:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 23:11:34 [INFO] Classificação: enviar
+2026-09-18 23:11:34 [INFO] ======================================================================
+2026-09-18 23:11:34 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-18 23:11:34 [INFO] ======================================================================
+2026-09-18 23:11:34 [INFO] Processadas: 7
+2026-09-18 23:11:34 [INFO] Enviar: 4
+2026-09-18 23:11:34 [INFO] Não enviar: 3
+2026-09-18 23:11:34 [INFO] ======================================================================
