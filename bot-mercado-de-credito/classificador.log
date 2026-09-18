@@ -23904,3 +23904,91 @@
 2026-09-18 07:20:39 [INFO] Enviar: 1
 2026-09-18 07:20:39 [INFO] Não enviar: 9
 2026-09-18 07:20:39 [INFO] ======================================================================
+2026-09-18 12:54:41 [INFO] ======================================================================
+2026-09-18 12:54:41 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-18 12:54:41 [INFO] ======================================================================
+2026-09-18 12:54:41 [INFO] Notícias com status 'extraida': 15
+2026-09-18 12:54:41 [INFO] Limite: 20 requisições/minuto
+2026-09-18 12:54:41 [INFO] Intervalo mínimo: 3.0s
+2026-09-18 12:54:41 [INFO] ======================================================================
+2026-09-18 12:54:41 [INFO] [1/15] ID: https://www.migalhas.com.br/quentes/464643/sorteio-da-obra-special-situations--creditos-e-ativos-estressados
+2026-09-18 12:54:41 [INFO] Título: Sorteio da obra "Special Situations - Créditos e Ativos Estressados" - Migalhas
+2026-09-18 12:54:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:54:42 [INFO] Classificação: nao_enviar
+2026-09-18 12:54:42 [INFO] Aguardando 2.44s...
+2026-09-18 12:54:44 [INFO] [2/15] ID: https://www.bloomberglinea.com.br/negocios/credores-da-braskem-rejeitam-plano-de-divida-e-cobram-acionistas-dizem-fontes/
+2026-09-18 12:54:44 [INFO] Título: Credores da Braskem rejeitam plano de dívida e cobram acionistas, dizem fontes
+2026-09-18 12:54:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:54:44 [INFO] Classificação: enviar
+2026-09-18 12:54:44 [INFO] Aguardando 2.73s...
+2026-09-18 12:54:47 [INFO] [3/15] ID: https://forbes.com.br/carreira/2026/09/fernanda-abilel-o-que-a-recuperacao-judicial-da-casas-bahia-ensina-sobre-remuneracao-executiva/
+2026-09-18 12:54:47 [INFO] Título: O Que a <b>Recuperação Judicial</b> da Casas Bahia Ensina sobre Remuneração Executiva
+2026-09-18 12:54:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:54:47 [INFO] Classificação: enviar
+2026-09-18 12:54:47 [INFO] Aguardando 2.75s...
+2026-09-18 12:54:50 [INFO] [4/15] ID: https://www.oabsp.org.br/jornaldaadvocacia/26-09-17-1543-leonardo-sica-a-advocacia-brasileira-nao-pode-ser-criminalizada-coletivamente
+2026-09-18 12:54:50 [INFO] Título: Leonardo Sica: “A advocacia brasileira não pode ser criminalizada coletivamente” - OAB-SP
+2026-09-18 12:54:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:54:50 [INFO] Classificação: nao_enviar
+2026-09-18 12:54:50 [INFO] Aguardando 2.63s...
+2026-09-18 12:54:53 [INFO] [5/15] ID: https://www.legisweb.com.br/legislacao/?id=501373
+2026-09-18 12:54:53 [INFO] Título: Instrução Normativa RE Nº 75 DE 15/09/2026 - Estadual - Rio Grande do Sul - LegisWeb
+2026-09-18 12:54:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:54:54 [INFO] Classificação: nao_enviar
+2026-09-18 12:54:54 [INFO] Aguardando 2.47s...
+2026-09-18 12:54:56 [INFO] [6/15] ID: https://guiadoinvestidor.com.br/mercado/brkm5-afunda-braskem-chega-a-alavancagem-quase-3-vezes-maior-que-rivais-e-mercado-ve-saida-cada-vez-mais-dificil/
+2026-09-18 12:54:56 [INFO] Título: BRKM5 afunda: Braskem chega a alavancagem quase 3 vezes maior que rivais e mercado ...
+2026-09-18 12:54:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:54:56 [INFO] Classificação: nao_enviar
+2026-09-18 12:54:56 [INFO] Aguardando 2.65s...
+2026-09-18 12:54:59 [INFO] [7/15] ID: https://www.ebc.com/pt/forex/brkm5-despenca-por-que-as-acoes-da-braskem-caem
+2026-09-18 12:54:59 [INFO] Título: BRKM5 despenca: por que as ações da Braskem caem | EBC Financial Group
+2026-09-18 12:55:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:55:00 [INFO] Classificação: nao_enviar
+2026-09-18 12:55:00 [INFO] Aguardando 2.47s...
+2026-09-18 12:55:02 [INFO] [8/15] ID: https://www.metropoles.com/brasil/10-meses-apos-liquidacao-master-faz-stf-entrar-em-guerra-e-afeta-eleicao
+2026-09-18 12:55:02 [INFO] Título: 10 meses após liquidação, Master faz STF entrar em guerra e afeta eleição - Metrópoles
+2026-09-18 12:55:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:55:02 [INFO] Classificação: enviar
+2026-09-18 12:55:02 [INFO] Aguardando 2.66s...
+2026-09-18 12:55:05 [INFO] [9/15] ID: https://www.jcatibaia.com.br/noticia/mendonca-rejeita-acao-contra-reajuste-do-bolsa-familia
+2026-09-18 12:55:05 [INFO] Título: Mendonça rejeita ação contra reajuste do Bolsa Família - JC Atibaia
+2026-09-18 12:55:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:55:05 [INFO] Classificação: nao_enviar
+2026-09-18 12:55:05 [INFO] Aguardando 2.58s...
+2026-09-18 12:55:08 [INFO] [10/15] ID: https://trademap.com.br/ativos/RAIZ4?docTypes=MATERIAL_FACT
+2026-09-18 12:55:08 [INFO] Título: RAIZ4 - Raízen - TradeMap
+2026-09-18 12:55:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:55:08 [INFO] Classificação: nao_enviar
+2026-09-18 12:55:08 [INFO] Aguardando 2.65s...
+2026-09-18 12:55:11 [INFO] [11/15] ID: https://trademap.com.br/ativos/BRKM3?docTypes=COMMUNICATION
+2026-09-18 12:55:11 [INFO] Título: BRKM3 - Braskem - TradeMap
+2026-09-18 12:55:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:55:11 [INFO] Classificação: nao_enviar
+2026-09-18 12:55:11 [INFO] Aguardando 2.69s...
+2026-09-18 12:55:14 [INFO] [12/15] ID: https://timesbrasil.com.br/brasil/cedro-diz-que-nunca-teve-vorcaro-como-socio-e-explica-investimento-em-instituto-de-mendonca-como-procedimento-de-mercado/
+2026-09-18 12:55:14 [INFO] Título: Cedro diz que nunca teve Vorcaro como sócio e explica investimento em instituto de ... - Times Brasil
+2026-09-18 12:55:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:55:15 [INFO] Classificação: nao_enviar
+2026-09-18 12:55:15 [INFO] Aguardando 2.53s...
+2026-09-18 12:55:17 [INFO] [13/15] ID: https://cqcs.com.br/noticia/duas-operadoras-sao-multadas-pela-ans-por-descumprimento-de-regras-de-cobertura/
+2026-09-18 12:55:17 [INFO] Título: Duas operadoras são multadas pela ANS por descumprimento de regras de cobertura
+2026-09-18 12:55:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:55:17 [INFO] Classificação: nao_enviar
+2026-09-18 12:55:17 [INFO] Aguardando 2.65s...
+2026-09-18 12:55:20 [INFO] [14/15] ID: https://www.tvgruweb.com.br/noticias/economia/1734977
+2026-09-18 12:55:20 [INFO] Título: Nubank vai fechar? Entenda boato que circula nas redes sociais. - Tv Gru Web
+2026-09-18 12:55:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:55:20 [INFO] Classificação: nao_enviar
+2026-09-18 12:55:20 [INFO] Aguardando 2.73s...
+2026-09-18 12:55:23 [INFO] [15/15] ID: https://amazonas1.com.br/justica-amplia-para-mais-90-dias-afastamento-de-ex-diretores-no-escandalo-da-amazonprev/
+2026-09-18 12:55:23 [INFO] Título: Justiça amplia para mais 90 dias afastamento de ex-diretores no escândalo da Amazonprev
+2026-09-18 12:55:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 12:55:23 [INFO] Classificação: nao_enviar
+2026-09-18 12:55:23 [INFO] ======================================================================
+2026-09-18 12:55:23 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-18 12:55:23 [INFO] ======================================================================
+2026-09-18 12:55:23 [INFO] Processadas: 15
+2026-09-18 12:55:23 [INFO] Enviar: 3
+2026-09-18 12:55:23 [INFO] Não enviar: 12
+2026-09-18 12:55:23 [INFO] ======================================================================
