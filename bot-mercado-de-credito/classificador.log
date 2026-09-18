@@ -23743,3 +23743,101 @@
 2026-09-17 22:04:15 [INFO] Enviar: 9
 2026-09-17 22:04:15 [INFO] Não enviar: 15
 2026-09-17 22:04:15 [INFO] ======================================================================
+2026-09-18 01:12:11 [INFO] ======================================================================
+2026-09-18 01:12:11 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-18 01:12:11 [INFO] ======================================================================
+2026-09-18 01:12:11 [INFO] Notícias com status 'extraida': 17
+2026-09-18 01:12:11 [INFO] Limite: 20 requisições/minuto
+2026-09-18 01:12:11 [INFO] Intervalo mínimo: 3.0s
+2026-09-18 01:12:11 [INFO] ======================================================================
+2026-09-18 01:12:11 [INFO] [1/17] ID: https://analisa.genialinvestimentos.com.br/acoes/BBAS3/Banco-do-Brasil-BBAS3--Roadshow-Recuperacao-Depende-das-Pontualizacoes-e-Execucao-da-MP-4T26-Sera-o-Primeiro-Grande-Teste/
+2026-09-18 01:12:11 [INFO] Título: Roadshow: <b>Recuperação</b> Depende das Pontualizações e Execução da MP; 4T26 ... - Genial Analisa
+2026-09-18 01:12:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:12 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:12 [INFO] Aguardando 2.56s...
+2026-09-18 01:12:14 [INFO] [2/17] ID: https://investnews.com.br/negocios/na-recuperacao-extrajudicial-do-gpa-casas-bahia-vira-pedra-no-caminho/
+2026-09-18 01:12:14 [INFO] Título: Na <b>recuperação</b> extrajudicial do GPA, Casas Bahia vira pedra no caminho - InvestNews
+2026-09-18 01:12:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:14 [INFO] Classificação: enviar
+2026-09-18 01:12:14 [INFO] Aguardando 2.77s...
+2026-09-18 01:12:17 [INFO] [3/17] ID: https://conjur.com.br/2026-set-17/stj-debate-se-cooperativa-medica-pode-restringir-titulo-de-especialista/
+2026-09-18 01:12:17 [INFO] Título: STJ debate se cooperativa médica pode restringir título de especialista - Conjur
+2026-09-18 01:12:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:17 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:17 [INFO] Aguardando 2.75s...
+2026-09-18 01:12:20 [INFO] [4/17] ID: https://investnews.com.br/negocios/braskem-credores-rejeitam-plano-de-divida/
+2026-09-18 01:12:20 [INFO] Título: Braskem: credores rejeitam plano de dívida e cobram aporte da Petrobras - InvestNews
+2026-09-18 01:12:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:20 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:20 [INFO] Aguardando 2.79s...
+2026-09-18 01:12:23 [INFO] [5/17] ID: https://convergenciadigital.com.br/governo/oi-falta-com-a-palavra-descumpre-acordo-judicial-e-da-calote-em-cerca-de-1000-trabalhadores/
+2026-09-18 01:12:23 [INFO] Título: Oi falta com a palavra; descumpre acordo <b>judicial</b> e dá calote em cerca de 1000 trabalhadores
+2026-09-18 01:12:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:23 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:23 [INFO] Aguardando 2.74s...
+2026-09-18 01:12:26 [INFO] [6/17] ID: https://www.correio24horas.com.br/brasil/apos-demitir-milhares-de-trabalhadores-casas-bahia-tenta-resolver-impasse-na-justica-0926
+2026-09-18 01:12:26 [INFO] Título: Após demitir milhares de trabalhadores, Casas Bahia tenta resolver impasse na Justiça
+2026-09-18 01:12:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:27 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:27 [INFO] Aguardando 2.39s...
+2026-09-18 01:12:29 [INFO] [7/17] ID: https://cqcs.com.br/noticia/o-que-a-inadimplencia-no-varejo-brasileiro-ensina-sobre-gestao-de-riscos/
+2026-09-18 01:12:29 [INFO] Título: O que a inadimplência no varejo brasileiro ensina sobre gestão de riscos - CQCS
+2026-09-18 01:12:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:29 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:29 [INFO] Aguardando 2.64s...
+2026-09-18 01:12:32 [INFO] [8/17] ID: https://globorural.globo.com/credito-e-investimento/noticia/2026/09/falta-de-socorro-fez-recuperacao-judicial-se-tornar-a-unica-opcao-do-produtor-dizem-especialistas.ghtml
+2026-09-18 01:12:32 [INFO] Título: Falta de socorro fez <b>recuperação judicial</b> se tornar a única opção do produtor, dizem especialistas
+2026-09-18 01:12:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:32 [INFO] Classificação: enviar
+2026-09-18 01:12:32 [INFO] Aguardando 2.66s...
+2026-09-18 01:12:35 [INFO] [9/17] ID: https://investidor10.com.br/noticias/b3-enquadra-varejista-e-da-prazo-para-correcao-de-acoes-122690/
+2026-09-18 01:12:35 [INFO] Título: B3 enquadra varejista e dá prazo para correção de ações - Investidor10
+2026-09-18 01:12:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:35 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:35 [INFO] Aguardando 2.64s...
+2026-09-18 01:12:38 [INFO] [10/17] ID: https://contraponto.jor.br/doadores-de-moro-sao-ligados-a-grupo-empresarial-com-r-2779-milhoes-em-dividas/
+2026-09-18 01:12:38 [INFO] Título: Doadores de Moro são ligados a grupo empresarial com R$ 277,9 milhões em dívidas
+2026-09-18 01:12:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:38 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:38 [INFO] Aguardando 2.63s...
+2026-09-18 01:12:41 [INFO] [11/17] ID: https://dol.com.br/noticias/brasil/963027/casas-bahia-faz-leilao-com-eletros-a-partir-de-r-220
+2026-09-18 01:12:41 [INFO] Título: Casas Bahia faz leilão com eletros a partir de R$ 220 - DOL
+2026-09-18 01:12:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:41 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:41 [INFO] Aguardando 2.64s...
+2026-09-18 01:12:44 [INFO] [12/17] ID: https://noticias.uol.com.br/colunas/rogerio-gentile/2026/09/17/globo-pede-quebra-do-sigilo-fiscal-de-ator-por-divida-de-r-407-mil.htm
+2026-09-18 01:12:44 [INFO] Título: Globo pede a quebra do sigilo fiscal de ator por dívida de R$ 407 mil - UOL Notícias
+2026-09-18 01:12:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:45 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:45 [INFO] Aguardando 2.56s...
+2026-09-18 01:12:47 [INFO] [13/17] ID: https://paraibabusiness.com.br/risco-maior-muda-forma-de-negociar-energia-e-impulsiona-derivativos-no-brasil/
+2026-09-18 01:12:47 [INFO] Título: Risco maior muda forma de negociar energia e impulsiona derivativos no Brasil
+2026-09-18 01:12:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:48 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:48 [INFO] Aguardando 1.98s...
+2026-09-18 01:12:50 [INFO] [14/17] ID: https://www.tribunadosertao.com.br/cidades/2026/09/17/981008-prefeitura-revoga-regra-sobre-iptu-da-braskem-acordo-com-mineradora-foi-firmado-na-gestao-jhc
+2026-09-18 01:12:50 [INFO] Título: Prefeitura revoga regra sobre IPTU da Braskem; acordo com mineradora foi firmado na gestão JHC
+2026-09-18 01:12:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:52 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:52 [INFO] Aguardando 1.50s...
+2026-09-18 01:12:53 [INFO] [15/17] ID: https://gironews.com/redes-shopping/justica-de-sao-paulo-determina-que-enel-e-cpfl-restabelecam-energia-em-lojas-da-marabraz/
+2026-09-18 01:12:53 [INFO] Título: Justiça de São Paulo determina restabelecimento de energia em lojas da Marabraz
+2026-09-18 01:12:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:53 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:53 [INFO] Aguardando 2.70s...
+2026-09-18 01:12:56 [INFO] [16/17] ID: https://oantagonista.com.br/brasil/brb-pede-ao-stf-devolucao-de-valores-retidos-pelo-liquidante-do-master/
+2026-09-18 01:12:56 [INFO] Título: BRB pede ao STF devolução de valores retidos pelo liquidante do Master - O Antagonista
+2026-09-18 01:12:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:57 [INFO] Classificação: enviar
+2026-09-18 01:12:57 [INFO] Aguardando 2.54s...
+2026-09-18 01:12:59 [INFO] [17/17] ID: https://www.n3news.com.br/2026/09/brb-pede-ao-stf-liberacao-de-ativos-bloqueados
+2026-09-18 01:12:59 [INFO] Título: BRB pede ao STF liberação de ativos bloqueados - N3 News
+2026-09-18 01:12:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 01:12:59 [INFO] Classificação: nao_enviar
+2026-09-18 01:12:59 [INFO] ======================================================================
+2026-09-18 01:12:59 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-18 01:12:59 [INFO] ======================================================================
+2026-09-18 01:12:59 [INFO] Processadas: 17
+2026-09-18 01:12:59 [INFO] Enviar: 3
+2026-09-18 01:12:59 [INFO] Não enviar: 14
+2026-09-18 01:12:59 [INFO] ======================================================================
