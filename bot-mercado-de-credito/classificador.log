@@ -23992,3 +23992,236 @@
 2026-09-18 12:55:23 [INFO] Enviar: 3
 2026-09-18 12:55:23 [INFO] Não enviar: 12
 2026-09-18 12:55:23 [INFO] ======================================================================
+2026-09-18 17:02:32 [INFO] ======================================================================
+2026-09-18 17:02:32 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-18 17:02:32 [INFO] ======================================================================
+2026-09-18 17:02:32 [INFO] Notícias com status 'extraida': 44
+2026-09-18 17:02:32 [INFO] Limite: 20 requisições/minuto
+2026-09-18 17:02:32 [INFO] Intervalo mínimo: 3.0s
+2026-09-18 17:02:32 [INFO] ======================================================================
+2026-09-18 17:02:32 [INFO] [1/44] ID: https://www.congressoemfoco.com.br/artigo/122400/a-crise-das-casas-bahia-tem-rostos-familias-e-historias
+2026-09-18 17:02:32 [INFO] Título: A crise das Casas Bahia tem rostos, famílias e histórias - Congresso em Foco
+2026-09-18 17:02:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:32 [INFO] Classificação: nao_enviar
+2026-09-18 17:02:32 [INFO] Aguardando 2.53s...
+2026-09-18 17:02:35 [INFO] [2/44] ID: https://www.cnnbrasil.com.br/blogs/fernanda-pressinott/agro/credito-trava-ativos-mudam-de-maos-e-agro-caminha-para-maior-concentracao/
+2026-09-18 17:02:35 [INFO] Título: Crédito trava, ativos mudam de mãos e agro caminha para maior concentração - CNN Brasil
+2026-09-18 17:02:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:35 [INFO] Classificação: nao_enviar
+2026-09-18 17:02:35 [INFO] Aguardando 2.77s...
+2026-09-18 17:02:38 [INFO] [3/44] ID: https://monitormercantil.com.br/inadimplencia-das-empresas-bate-recorde-e-o-risco-da-industria-esta-na-concentracao-da-carteira/
+2026-09-18 17:02:38 [INFO] Título: Inadimplência das empresas bate recorde e o risco da indústria está na concentração da carteira
+2026-09-18 17:02:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:38 [INFO] Classificação: nao_enviar
+2026-09-18 17:02:38 [INFO] Aguardando 2.71s...
+2026-09-18 17:02:41 [INFO] [4/44] ID: https://brasilenergia.com.br/energia/empresas/light-sesa-tem-rating-elevado-pela-sp-apos-recuperacao-judicial
+2026-09-18 17:02:41 [INFO] Título: Light Sesa tem rating elevado pela S&P após <b>recuperação judicial</b> | Editora Brasil Energia
+2026-09-18 17:02:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:41 [INFO] Classificação: enviar
+2026-09-18 17:02:41 [INFO] Aguardando 2.59s...
+2026-09-18 17:02:44 [INFO] [5/44] ID: https://exame.com/invest/mercados/casas-bahia-marca-assembleia-com-acionistas-sobre-recuperacao-judicial-de-r-17-bi/
+2026-09-18 17:02:44 [INFO] Título: Casas Bahia marca assembleia com acionistas sobre <b>recuperação judicial</b> de R$ 17 bi
+2026-09-18 17:02:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:44 [INFO] Classificação: enviar
+2026-09-18 17:02:44 [INFO] Aguardando 2.69s...
+2026-09-18 17:02:47 [INFO] [6/44] ID: https://tmc.com.br/economia/casas-bahia-assembleia-ratificacao-recuperacao-judicial-outubro/
+2026-09-18 17:02:47 [INFO] Título: Casas Bahia marca assembleia para votar <b>recuperação judicial</b> em outubro - TMC
+2026-09-18 17:02:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:47 [INFO] Classificação: enviar
+2026-09-18 17:02:47 [INFO] Aguardando 2.62s...
+2026-09-18 17:02:50 [INFO] [7/44] ID: https://valor.globo.com/empresas/noticia/2026/09/18/casas-bahia-convoca-assembleia-para-ratificar-pedido-de-recuperao-judicial.ghtml
+2026-09-18 17:02:50 [INFO] Título: Casas Bahia convoca assembleia para ratificar pedido de <b>recuperação judicial</b> | Empresas
+2026-09-18 17:02:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:50 [INFO] Classificação: enviar
+2026-09-18 17:02:50 [INFO] Aguardando 2.68s...
+2026-09-18 17:02:53 [INFO] [8/44] ID: https://www.capitalaberto.com.br/conteudo-de-marca/freitas-ferraz-advogados/2026/09/fair-play-financeiro-no-futebol-brasileiro-os-primeiros-casos-e-os-impactos-da-nova-regulacao
+2026-09-18 17:02:53 [INFO] Título: Fair play financeiro no futebol brasileiro | Capital Aberto
+2026-09-18 17:02:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:53 [INFO] Classificação: nao_enviar
+2026-09-18 17:02:53 [INFO] Aguardando 2.66s...
+2026-09-18 17:02:56 [INFO] [9/44] ID: https://www.moneytimes.com.br/light-ligt3-sp-eleva-nota-de-credito-da-light-sesa-apos-fim-da-recuperacao-judicial-e-reducao-da-divida-lmrs/
+2026-09-18 17:02:56 [INFO] Título: Light (LIGT3): S&P eleva nota de crédito da Light Sesa após fim da <b>recuperação judicial</b> e redução ...
+2026-09-18 17:02:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:56 [INFO] Classificação: enviar
+2026-09-18 17:02:56 [INFO] Aguardando 2.68s...
+2026-09-18 17:02:59 [INFO] [10/44] ID: https://www.instagram.com/p/DdbblzToFMw/
+2026-09-18 17:02:59 [INFO] Título: A @chillibeansoficial está avaliando levantar recursos com os credores enquanto renegocia ...
+2026-09-18 17:02:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:02:59 [INFO] Classificação: enviar
+2026-09-18 17:02:59 [INFO] Aguardando 2.64s...
+2026-09-18 17:03:02 [INFO] [11/44] ID: https://grupoceres.net.br/2026/09/18/tjrs-reforma-decisao-e-entende-que-cotriba-nao-pode-solicitar-recuperacao-judicial/
+2026-09-18 17:03:02 [INFO] Título: TJRS reforma decisão e entende que Cotribá não pode solicitar <b>recuperação judicial</b>
+2026-09-18 17:03:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:02 [INFO] Classificação: enviar
+2026-09-18 17:03:02 [INFO] Aguardando 2.59s...
+2026-09-18 17:03:05 [INFO] [12/44] ID: https://www.aasp.org.br/congresso/aasp-e-cmr-promovem-o-5-congresso-do-centro-de-mulheres-na-reestruturacao-empresarial/
+2026-09-18 17:03:05 [INFO] Título: AASP e CMR Promovem o 5° Congresso do Centro de Mulheres na Reestruturação Empresarial
+2026-09-18 17:03:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:05 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:05 [INFO] Aguardando 2.77s...
+2026-09-18 17:03:08 [INFO] [13/44] ID: https://www.congressoemfoco.com.br/amp/noticia/122387/fpa-cobra-ajustes-em-mp-de-dividas-rurais-apos-queda-da-agropecuaria
+2026-09-18 17:03:08 [INFO] Título: FPA cobra ajustes em MP de dívidas rurais após recuo da agropecuária
+2026-09-18 17:03:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:08 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:08 [INFO] Aguardando 2.72s...
+2026-09-18 17:03:11 [INFO] [14/44] ID: https://www.broadcast.com.br/ultimas-noticias/casas-bahia-convoca-age-para-ratificar-pedido-de-recuperacao-judicial-e-ajustar-conselho/
+2026-09-18 17:03:11 [INFO] Título: Casas Bahia convoca AGE para ratificar pedido de <b>recuperação judicial</b> e ajustar conselho
+2026-09-18 17:03:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:11 [INFO] Classificação: enviar
+2026-09-18 17:03:11 [INFO] Aguardando 2.69s...
+2026-09-18 17:03:14 [INFO] [15/44] ID: https://www.brasilagro.com.br/conteudo/fpa-ve-reflexos-do-endividamento-na-atividade-do-agro-em-julho.html
+2026-09-18 17:03:14 [INFO] Título: FPA vê reflexos do endividamento na atividade do agro em julho - Brasilagro
+2026-09-18 17:03:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:14 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:14 [INFO] Aguardando 2.48s...
+2026-09-18 17:03:17 [INFO] [16/44] ID: https://trademap.com.br/ativos/INEP4?range=1m&docTypes=NOTICE
+2026-09-18 17:03:17 [INFO] Título: Inepar (INEP4) - TradeMap
+2026-09-18 17:03:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:17 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:17 [INFO] Aguardando 2.37s...
+2026-09-18 17:03:20 [INFO] [17/44] ID: https://www.gazetaweb.com/noticias/economia/braskem-em-recuperacao-extrajudicial-o-que-muda-para-os-acordos-de-maceio-936644
+2026-09-18 17:03:20 [INFO] Título: Braskem em <b>recuperação extrajudicial</b>: o que muda para os acordos de Maceió?
+2026-09-18 17:03:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:20 [INFO] Classificação: enviar
+2026-09-18 17:03:20 [INFO] Aguardando 2.61s...
+2026-09-18 17:03:23 [INFO] [18/44] ID: https://valor.globo.com/empresas/noticia/2026/09/18/justia-homologa-plano-de-recuperao-extrajudicial-de-r-34-bilhes-da-andrade-gutierrez.ghtml
+2026-09-18 17:03:23 [INFO] Título: Justiça homologa plano de <b>recuperação extrajudicial</b> de R$ 3,4 bilhões da Andrade Gutierrez
+2026-09-18 17:03:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:23 [INFO] Classificação: enviar
+2026-09-18 17:03:23 [INFO] Aguardando 2.73s...
+2026-09-18 17:03:26 [INFO] [19/44] ID: https://www.infomoney.com.br/mercados/credores-da-braskem-rejeitam-plano-de-divida-e-cobram-aporte-da-petrobras/
+2026-09-18 17:03:26 [INFO] Título: Credores da Braskem rejeitam plano de dívida e cobram aporte da Petrobras - InfoMoney
+2026-09-18 17:03:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:26 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:26 [INFO] Aguardando 2.20s...
+2026-09-18 17:03:29 [INFO] [20/44] ID: https://sindilojas-sp.org.br/shoppings-e-varejo-entre-a-crise-e-a-nova-jornada-de-compra/
+2026-09-18 17:03:29 [INFO] Título: Shoppings e varejo: entre a crise e a nova jornada de compra - Sindilojas-SP
+2026-09-18 17:03:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:29 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:29 [INFO] Aguardando 2.39s...
+2026-09-18 17:03:32 [INFO] [21/44] ID: https://pipelinevalor.globo.com/negocios/noticia/chilli-beans-negocia-capital-com-fundos-de-special-situations.ghtml
+2026-09-18 17:03:32 [INFO] Título: Chilli Beans negocia capital com fundos de special situations - Pipeline
+2026-09-18 17:03:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:32 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:32 [INFO] Aguardando 2.72s...
+2026-09-18 17:03:35 [INFO] [22/44] ID: https://folhadealagoas.com.br/2026/09/17/imoralidade-maceio-revoga-regra-que-fazia-braskem-pagar-iptu-de-casas-destruidas-pela-mineracao/
+2026-09-18 17:03:35 [INFO] Título: Imoralidade: Maceió revoga regra que fazia Braskem pagar IPTU de casas destruídas pela ...
+2026-09-18 17:03:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:36 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:36 [INFO] Aguardando 2.06s...
+2026-09-18 17:03:38 [INFO] [23/44] ID: https://www.moneytimes.com.br/fundos-imobiliarios-anunciam-liquidacao-e-saida-da-b3-veja-o-que-muda-para-os-cotistas-igdl/
+2026-09-18 17:03:38 [INFO] Título: Fundos imobiliários anunciam <b>liquidação</b> e saída da B3; veja o que muda para os cotistas
+2026-09-18 17:03:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:39 [INFO] Classificação: enviar
+2026-09-18 17:03:39 [INFO] Aguardando 2.11s...
+2026-09-18 17:03:41 [INFO] [24/44] ID: https://www.youtube.com/shorts/JEMtKU6a0YE
+2026-09-18 17:03:41 [INFO] Título: Apex pede recuperação <b>judicial</b> #shorts #noticias - YouTube
+2026-09-18 17:03:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:41 [INFO] Classificação: enviar
+2026-09-18 17:03:41 [INFO] Aguardando 2.31s...
+2026-09-18 17:03:44 [INFO] [25/44] ID: https://www.oliberal.com/economia/banco-central-muda-regras-do-pix-e-preve-pix-automatico-em-contas-salario-a-partir-de-julho-de-2027-1.1170215
+2026-09-18 17:03:44 [INFO] Título: Banco Central muda regras do Pix e prevê Pix Automático em contas-salário a partir de ...
+2026-09-18 17:03:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:44 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:44 [INFO] Aguardando 2.69s...
+2026-09-18 17:03:47 [INFO] [26/44] ID: https://www.terra.com.br/noticias/entenda-os-4-argumentos-de-vorcaro-para-pedir-ao-stf-a-revogacao-da-prisao-preventiva,fc5f41e2420efcd127927fa1e77c040b8fk3chek.html
+2026-09-18 17:03:47 [INFO] Título: Entenda os 4 argumentos de Vorcaro para pedir ao STF a revogação da prisão preventiva
+2026-09-18 17:03:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:47 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:47 [INFO] Aguardando 2.66s...
+2026-09-18 17:03:50 [INFO] [27/44] ID: https://jovempan.com.br/economia/bc-muda-regras-de-regulamentacao-do-pix-veja-o-que-muda/
+2026-09-18 17:03:50 [INFO] Título: BC atualiza regras de regulamentação do Pix; veja o que muda - Jovem Pan
+2026-09-18 17:03:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:50 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:50 [INFO] Aguardando 2.65s...
+2026-09-18 17:03:53 [INFO] [28/44] ID: https://www.opiniaoce.com.br/economia/2026/09/18/pix-automatico-podera-ser-usado-em-contas-salario-a-partir-de-2027/
+2026-09-18 17:03:53 [INFO] Título: Pix Automático poderá ser usado em contas-salário a partir de 2027 - OpiniãoCE
+2026-09-18 17:03:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:53 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:53 [INFO] Aguardando 2.59s...
+2026-09-18 17:03:56 [INFO] [29/44] ID: https://bomdiasorocaba.com.br/noticia/102358/pix-tera-novas-regras-para-fraudes-cobranca-hibrida-e-contas-salario
+2026-09-18 17:03:56 [INFO] Título: Pix terá novas regras para fraudes, cobrança híbrida e contas-salário
+2026-09-18 17:03:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:56 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:56 [INFO] Aguardando 2.29s...
+2026-09-18 17:03:59 [INFO] [30/44] ID: https://finsidersbrasil.com.br/regulamentacao/banco-central-altera-regras-do-pix-e-combate-fraudes/
+2026-09-18 17:03:59 [INFO] Título: Banco Central altera regras do Pix e combate fraudes - Finsiders
+2026-09-18 17:03:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:03:59 [INFO] Classificação: nao_enviar
+2026-09-18 17:03:59 [INFO] Aguardando 2.66s...
+2026-09-18 17:04:02 [INFO] [31/44] ID: https://tvtnews.com.br/bc-muda-regras-pix-inicia-automatico-conta-salario/
+2026-09-18 17:04:02 [INFO] Título: Banco Central muda regras do Pix e autoriza modalidade automática em conta-salário
+2026-09-18 17:04:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:02 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:02 [INFO] Aguardando 2.72s...
+2026-09-18 17:04:05 [INFO] [32/44] ID: https://www.poder360.com.br/poder-economia/entenda-quais-sao-as-mudancas-no-pix-anunciadas-pelo-bc/
+2026-09-18 17:04:05 [INFO] Título: Entenda quais são as mudanças no Pix anunciadas pelo BC - Poder360
+2026-09-18 17:04:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:06 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:06 [INFO] Aguardando 2.03s...
+2026-09-18 17:04:08 [INFO] [33/44] ID: https://www.jota.info/tributos-e-empresas/mercado/bc-possibilita-pix-automatico-em-contas-salario-e-define-regra-para-cobranca-hibrida
+2026-09-18 17:04:08 [INFO] Título: BC possibilita Pix Automático em contas-salário e define regra para cobrança híbrida
+2026-09-18 17:04:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:08 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:08 [INFO] Aguardando 2.63s...
+2026-09-18 17:04:11 [INFO] [34/44] ID: https://www.tribunapr.com.br/noticias/economia/pix-automatico-podera-ser-usado-em-contas-salario-a-partir-de-2027/
+2026-09-18 17:04:11 [INFO] Título: Pix Automático poderá ser usado em contas-salário a partir de 2027 - Tribuna do Paraná
+2026-09-18 17:04:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:12 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:12 [INFO] Aguardando 1.50s...
+2026-09-18 17:04:14 [INFO] [35/44] ID: https://sbtnews.sbt.com.br/noticia/politica/lula-vorcaro-banqueiro-no-governo-bolsonaro-e-preso-no-meu
+2026-09-18 17:04:14 [INFO] Título: Lula: Vorcaro, banqueiro no governo Bolsonaro e preso no meu | SBT News
+2026-09-18 17:04:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:15 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:15 [INFO] Aguardando 1.91s...
+2026-09-18 17:04:17 [INFO] [36/44] ID: https://www.correiobraziliense.com.br/economia/2026/09/7503475-entenda-o-que-muda-com-as-novas-regras-do-pix.html
+2026-09-18 17:04:17 [INFO] Título: Entenda o que muda com as novas regras do PIX - Correio Braziliense
+2026-09-18 17:04:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:17 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:17 [INFO] Aguardando 2.49s...
+2026-09-18 17:04:20 [INFO] [37/44] ID: https://juristas.com.br/noticias/banco-central-altera-regras-do-pix-e-amplia-mecanismos-de-seguranca/
+2026-09-18 17:04:20 [INFO] Título: Banco Central altera regras do Pix e amplia mecanismos de segurança - Juristas
+2026-09-18 17:04:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:20 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:20 [INFO] Aguardando 2.86s...
+2026-09-18 17:04:23 [INFO] [38/44] ID: https://olhardigital.com.br/2026/09/18/pro/pix-automatico-podera-ser-usado-em-contas-salario-e-novas-regras-contra-fraudes-comecam-a-entrar-em-vigor/
+2026-09-18 17:04:23 [INFO] Título: Pix Automático poderá ser usado em contas-salário e novas regras contra fraudes ...
+2026-09-18 17:04:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:24 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:24 [INFO] Aguardando 1.92s...
+2026-09-18 17:04:26 [INFO] [39/44] ID: https://cbncaruaru.com/2026/09/18/banco-central-fortalece-regras-de-seguranca-e-combate-as-fraudes-no-pix/
+2026-09-18 17:04:26 [INFO] Título: Pix: Banco Central fortalece regras de segurança e combate às fraudes - CBN Caruaru
+2026-09-18 17:04:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:26 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:26 [INFO] Aguardando 2.68s...
+2026-09-18 17:04:29 [INFO] [40/44] ID: https://ndmais.com.br/economia/banco-central-anuncia-sete-mudancas-no-pix-para-2027/
+2026-09-18 17:04:29 [INFO] Título: Banco Central anuncia 7 mudanças no Pix, e novas medidas afetam boletos, contas-salário ...
+2026-09-18 17:04:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:29 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:29 [INFO] Aguardando 2.69s...
+2026-09-18 17:04:32 [INFO] [41/44] ID: https://www.tudocelular.com/mercado/noticias/n263234/pix-ganha-novas-regras-em-contas-salario-e-mais.html
+2026-09-18 17:04:32 [INFO] Título: Pix ganha novas regras em contas-salário, boletos e fraudes; veja o que muda
+2026-09-18 17:04:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:32 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:32 [INFO] Aguardando 2.63s...
+2026-09-18 17:04:35 [INFO] [42/44] ID: https://www.metropoles.com/brasil/banco-central-autoriza-uso-do-pix-automatico-em-contas-salario
+2026-09-18 17:04:35 [INFO] Título: BC muda regras e autoriza uso do Pix Automático em contas-salário - Metrópoles
+2026-09-18 17:04:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:35 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:35 [INFO] Aguardando 2.78s...
+2026-09-18 17:04:38 [INFO] [43/44] ID: https://www.infomoney.com.br/minhas-financas/o-bc-mudou-o-pix-o-que-entra-hoje-o-que-vem-em-2027-e-como-isso-te-afeta/
+2026-09-18 17:04:38 [INFO] Título: O BC mudou o Pix: o que entra hoje, o que vem em 2027 e como isso te afeta - InfoMoney
+2026-09-18 17:04:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:38 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:38 [INFO] Aguardando 2.82s...
+2026-09-18 17:04:41 [INFO] [44/44] ID: https://www.poder360.com.br/poder-economia/bc-muda-regras-do-pix-e-cria-cobranca-hibrida-com-boleto/
+2026-09-18 17:04:41 [INFO] Título: BC vai marcar chave Pix ligada a fraude e barrar operações - Poder360
+2026-09-18 17:04:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:04:41 [INFO] Classificação: nao_enviar
+2026-09-18 17:04:41 [INFO] ======================================================================
+2026-09-18 17:04:41 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-18 17:04:41 [INFO] ======================================================================
+2026-09-18 17:04:41 [INFO] Processadas: 44
+2026-09-18 17:04:41 [INFO] Enviar: 12
+2026-09-18 17:04:41 [INFO] Não enviar: 32
+2026-09-18 17:04:41 [INFO] ======================================================================
