@@ -24549,3 +24549,31 @@
 2026-09-19 04:23:33 [INFO] Enviar: 4
 2026-09-19 04:23:33 [INFO] Não enviar: 8
 2026-09-19 04:23:33 [INFO] ======================================================================
+2026-09-19 09:21:47 [INFO] ======================================================================
+2026-09-19 09:21:47 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-19 09:21:47 [INFO] ======================================================================
+2026-09-19 09:21:47 [INFO] Notícias com status 'extraida': 3
+2026-09-19 09:21:47 [INFO] Limite: 20 requisições/minuto
+2026-09-19 09:21:47 [INFO] Intervalo mínimo: 3.0s
+2026-09-19 09:21:47 [INFO] ======================================================================
+2026-09-19 09:21:47 [INFO] [1/3] ID: https://telesintese.com.br/uniao-aponta-risco-as-eleicoes-por-servicos-da-oi-juiza-critica-inercia/
+2026-09-19 09:21:47 [INFO] Título: União aponta risco às eleições por serviços da Oi; juíza critica inércia - TeleSíntese
+2026-09-19 09:21:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 09:21:47 [INFO] Classificação: nao_enviar
+2026-09-19 09:21:47 [INFO] Aguardando 2.50s...
+2026-09-19 09:21:50 [INFO] [2/3] ID: https://www.instagram.com/p/Ddbu3lLIKNs/
+2026-09-19 09:21:50 [INFO] Título: Fim de ciclo! Após meses de silêncio, Mari Saad abriu o jogo sobre a crise envolvendo a ...
+2026-09-19 09:21:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 09:21:50 [INFO] Classificação: nao_enviar
+2026-09-19 09:21:50 [INFO] Aguardando 2.71s...
+2026-09-19 09:21:53 [INFO] [3/3] ID: https://rdmonline.com.br/atuacao-integrada-do-cira-vg-amplia-recuperacao-de-creditos/
+2026-09-19 09:21:53 [INFO] Título: Atuação integrada do Cira-VG amplia <b>recuperação</b> de créditos - rdm online
+2026-09-19 09:21:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 09:21:53 [INFO] Classificação: nao_enviar
+2026-09-19 09:21:53 [INFO] ======================================================================
+2026-09-19 09:21:53 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-19 09:21:53 [INFO] ======================================================================
+2026-09-19 09:21:53 [INFO] Processadas: 3
+2026-09-19 09:21:53 [INFO] Enviar: 0
+2026-09-19 09:21:53 [INFO] Não enviar: 3
+2026-09-19 09:21:53 [INFO] ======================================================================
