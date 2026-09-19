@@ -24996,3 +24996,91 @@
 2026-09-19 20:30:45 [INFO] Enviar: 4
 2026-09-19 20:30:45 [INFO] Não enviar: 31
 2026-09-19 20:30:45 [INFO] ======================================================================
+2026-09-19 22:52:10 [INFO] ======================================================================
+2026-09-19 22:52:10 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-19 22:52:10 [INFO] ======================================================================
+2026-09-19 22:52:10 [INFO] Notícias com status 'extraida': 15
+2026-09-19 22:52:10 [INFO] Limite: 20 requisições/minuto
+2026-09-19 22:52:10 [INFO] Intervalo mínimo: 3.0s
+2026-09-19 22:52:10 [INFO] ======================================================================
+2026-09-19 22:52:10 [INFO] [1/15] ID: https://bahiaeconomica.com.br/wp/2026/09/19/braskem-e-detentores-de-titulos-precisam-assinar-acordo-ate-19-de-setembro-credores-querem-aporte-da-petrobras/
+2026-09-19 22:52:10 [INFO] Título: BRASKEM E DETENTORES DE TÍTULOS PRECISAM ASSINAR ACORDO ATÉ 19 DE ...
+2026-09-19 22:52:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:10 [INFO] Classificação: enviar
+2026-09-19 22:52:11 [INFO] Aguardando 2.56s...
+2026-09-19 22:52:13 [INFO] [2/15] ID: https://www.dgabc.com.br/Noticia/4347957/em-sao-caetano-tarcisio-adota-discurso-antiesquerda-e-pede-expulsao-do-pt-do-pais
+2026-09-19 22:52:13 [INFO] Título: Em São Caetano, Tarcísio adota discurso antiesquerda e pede 'expulsão' do PT do País
+2026-09-19 22:52:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:13 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:13 [INFO] Aguardando 2.79s...
+2026-09-19 22:52:16 [INFO] [3/15] ID: https://timesbrasil.com.br/esportes/vasco-recebe-parte-do-emprestimo-ligada-a-possivel-nova-saf/
+2026-09-19 22:52:16 [INFO] Título: Vasco recebe parte do empréstimo ligado a possível nova SAF - Times Brasil | CNBC
+2026-09-19 22:52:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:16 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:16 [INFO] Aguardando 2.72s...
+2026-09-19 22:52:19 [INFO] [4/15] ID: https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2026/09/19/elenco-do-santa-cruz-tem-conversa-com-futuro-investidor-da-saf-antes-de-jogo-contra-o-floresta.ghtml
+2026-09-19 22:52:19 [INFO] Título: SAF do Santa Cruz: Thairo Arruda conversa com elenco antes de jogo | Ge
+2026-09-19 22:52:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:19 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:19 [INFO] Aguardando 2.68s...
+2026-09-19 22:52:22 [INFO] [5/15] ID: https://diariodonordeste.verdesmares.com.br/negocios/o-que-a-mudanca-de-consumo-em-restaurantes-de-fortaleza-tem-a-ver-com-as-canetas-emagrecedoras-1.3791672
+2026-09-19 22:52:22 [INFO] Título: O que a mudança de consumo em restaurantes de Fortaleza tem a ver com as canetas ...
+2026-09-19 22:52:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:22 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:22 [INFO] Aguardando 2.65s...
+2026-09-19 22:52:25 [INFO] [6/15] ID: https://istoe.com.br/stj-restabelece-obrigatoriedade-grupos-reflexivos-violencia-domestica
+2026-09-19 22:52:25 [INFO] Título: Condenados por violência doméstica terão de passar por reabilitação - IstoÉ
+2026-09-19 22:52:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:25 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:25 [INFO] Aguardando 2.71s...
+2026-09-19 22:52:28 [INFO] [7/15] ID: https://www.realpioneiro.com.br/noticia/renan-propoe-cortes-na-previdencia-e-alterar-pisos-da-saude-e-educacao
+2026-09-19 22:52:28 [INFO] Título: Renan propõe cortes na Previdência e alterar pisos da saúde e educação - Real Pioneiro
+2026-09-19 22:52:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:28 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:28 [INFO] Aguardando 2.64s...
+2026-09-19 22:52:31 [INFO] [8/15] ID: https://trademap.com.br/ativos/BRKM5?range=1m&docTypes=COMMUNICATION
+2026-09-19 22:52:31 [INFO] Título: Histórico de preços de BRKM5 - TradeMap
+2026-09-19 22:52:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:31 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:31 [INFO] Aguardando 2.71s...
+2026-09-19 22:52:34 [INFO] [9/15] ID: https://gazetabrasil.com.br/brasil/2026/09/18/mp-junto-ao-tcu-ve-indicios-de-irregularidades-e-pede-suspensao-imediata-do-reajuste-do-bolsa-familia/
+2026-09-19 22:52:34 [INFO] Título: MP junto ao TCU vê indícios de irregularidades e pede suspensão imediata do reajuste do ...
+2026-09-19 22:52:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:34 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:34 [INFO] Aguardando 2.72s...
+2026-09-19 22:52:37 [INFO] [10/15] ID: https://www.bandab.com.br/nacional/justica-do-trabalho-barra-novas-demissoes-da-casas-bahia-e-obriga-reintegracao-enquanto-3-mil-seguem-sem-rescisao/amp/
+2026-09-19 22:52:37 [INFO] Título: Justiça barra demissões da Casas Bahia - Banda B
+2026-09-19 22:52:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:37 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:37 [INFO] Aguardando 2.70s...
+2026-09-19 22:52:40 [INFO] [11/15] ID: https://www.varelanet.com.br/noticias/brasil/casas-bahia-marca-assembleia-para-acionistas-confirmarem-pedido-de-recuperacao-judicial
+2026-09-19 22:52:40 [INFO] Título: Casas Bahia marca assembleia para acionistas confirmarem pedido de recuperação <b>judicial</b>
+2026-09-19 22:52:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:40 [INFO] Classificação: enviar
+2026-09-19 22:52:40 [INFO] Aguardando 2.62s...
+2026-09-19 22:52:43 [INFO] [12/15] ID: https://www.br104.com.br/variedades/servicos/pix-mudancas-banco-central-conta-salario-boleto-2027/
+2026-09-19 22:52:43 [INFO] Título: Banco Central muda regulamento e libera Pix Automático em conta-salário - BR104
+2026-09-19 22:52:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:43 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:43 [INFO] Aguardando 2.66s...
+2026-09-19 22:52:46 [INFO] [13/15] ID: https://clebertoledo.com.br/geral/banco-central-define-novas-regras-do-pix-para-combate-a-fraudes-cobranca-hibrida-e-contas-salario-a-partir-de-2027/
+2026-09-19 22:52:46 [INFO] Título: Banco Central define novas regras do Pix para combate a fraudes, cobrança híbrida e ...
+2026-09-19 22:52:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:46 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:46 [INFO] Aguardando 2.62s...
+2026-09-19 22:52:49 [INFO] [14/15] ID: https://jornaldigitaldaregiaooeste.com.br/pix-se-transforma-banco-central-anuncia-novas-regras-para-seguranca-e-funcionalidades/
+2026-09-19 22:52:49 [INFO] Título: Pix Se Transforma: Banco Central Anuncia Novas Regras para Segurança e Funcionalidades
+2026-09-19 22:52:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:49 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:49 [INFO] Aguardando 2.78s...
+2026-09-19 22:52:52 [INFO] [15/15] ID: https://nahoradanoticia.com.br/tecnologia/bc-aperfeicoa-pix-com-novas-regras-de-seguranca-cobranca-hibrida-e-uso-em-conta-salario/
+2026-09-19 22:52:52 [INFO] Título: BC aperfeiçoa Pix com novas regras de segurança, cobrança híbrida e uso em conta-salário
+2026-09-19 22:52:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 22:52:52 [INFO] Classificação: nao_enviar
+2026-09-19 22:52:53 [INFO] ======================================================================
+2026-09-19 22:52:53 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-19 22:52:53 [INFO] ======================================================================
+2026-09-19 22:52:53 [INFO] Processadas: 15
+2026-09-19 22:52:53 [INFO] Enviar: 2
+2026-09-19 22:52:53 [INFO] Não enviar: 13
+2026-09-19 22:52:53 [INFO] ======================================================================
