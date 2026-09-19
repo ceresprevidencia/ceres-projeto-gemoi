@@ -24476,3 +24476,76 @@
 2026-09-18 23:11:34 [INFO] Enviar: 4
 2026-09-18 23:11:34 [INFO] Não enviar: 3
 2026-09-18 23:11:34 [INFO] ======================================================================
+2026-09-19 04:23:00 [INFO] ======================================================================
+2026-09-19 04:23:00 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-19 04:23:00 [INFO] ======================================================================
+2026-09-19 04:23:00 [INFO] Notícias com status 'extraida': 12
+2026-09-19 04:23:00 [INFO] Limite: 20 requisições/minuto
+2026-09-19 04:23:00 [INFO] Intervalo mínimo: 3.0s
+2026-09-19 04:23:00 [INFO] ======================================================================
+2026-09-19 04:23:00 [INFO] [1/12] ID: https://www.moneytimes.com.br/luz-no-fim-do-tunel-safra-inicia-cobertura-light-ligt3-apos-fim-da-recuperacao-judicial-sera-que-e-hora-de-comprar-jcav/
+2026-09-19 04:23:00 [INFO] Título: Luz no fim do túnel? Safra inicia cobertura Light (LIGT3) após fim da <b>recuperação judicial</b>
+2026-09-19 04:23:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:01 [INFO] Classificação: enviar
+2026-09-19 04:23:01 [INFO] Aguardando 2.54s...
+2026-09-19 04:23:03 [INFO] [2/12] ID: https://www.correiobraziliense.com.br/cbradar/produtor-graos-comprador-recuperacao-judicial/
+2026-09-19 04:23:03 [INFO] Título: Produtor vende carga de grãos por mais de R$ 200 mil, entrega toda a mercadoria e ...
+2026-09-19 04:23:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:03 [INFO] Classificação: nao_enviar
+2026-09-19 04:23:03 [INFO] Aguardando 2.68s...
+2026-09-19 04:23:06 [INFO] [3/12] ID: https://www.cartacapital.com.br/esporte/textor-e-reconhecido-como-dono-de-90-da-saf-do-botafogo-pela-justica-dos-eua/
+2026-09-19 04:23:06 [INFO] Título: Textor é reconhecido como dono de 90% da SAF do Botafogo pela Justiça dos EUA
+2026-09-19 04:23:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:06 [INFO] Classificação: nao_enviar
+2026-09-19 04:23:06 [INFO] Aguardando 2.67s...
+2026-09-19 04:23:09 [INFO] [4/12] ID: https://www.cnnbrasil.com.br/economia/money/negocios/patamar-atual-de-juros-leva-a-onda-de-rjs-diz-cfo-do-bmg/
+2026-09-19 04:23:09 [INFO] Título: Patamar atual de juros leva a onda de RJs, diz CFO do BMG - CNN Brasil
+2026-09-19 04:23:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:09 [INFO] Classificação: enviar
+2026-09-19 04:23:09 [INFO] Aguardando 2.64s...
+2026-09-19 04:23:12 [INFO] [5/12] ID: https://www.rotajuridica.com.br/artigos/a-manobra-da-mp-da-renegociacao-pra-nao-ter-desgaste-politico-com-o-produtor-rural-o-governo-delegou-o-nao-para-o-banco/
+2026-09-19 04:23:12 [INFO] Título: A manobra da MP da Renegociação. Pra não ter desgaste político com o produtor rural, o ...
+2026-09-19 04:23:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:12 [INFO] Classificação: nao_enviar
+2026-09-19 04:23:12 [INFO] Aguardando 2.67s...
+2026-09-19 04:23:15 [INFO] [6/12] ID: https://www.justicaemfoco.com.br/noticias/ibaneis-rocha-retoma-advocacia-impulsiona-nova-fase-escritorio-27-advogados
+2026-09-19 04:23:15 [INFO] Título: Ibaneis Rocha retoma advocacia e impulsiona nova fase de escritório com 27 advogados
+2026-09-19 04:23:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:15 [INFO] Classificação: nao_enviar
+2026-09-19 04:23:16 [INFO] Aguardando 2.60s...
+2026-09-19 04:23:18 [INFO] [7/12] ID: https://cqcs.com.br/noticia/redion-se-posiciona-sobre-circulacao-de-documento-falso/
+2026-09-19 04:23:18 [INFO] Título: Redion se posiciona sobre circulação de documento falso - CQCS
+2026-09-19 04:23:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:18 [INFO] Classificação: nao_enviar
+2026-09-19 04:23:18 [INFO] Aguardando 2.78s...
+2026-09-19 04:23:21 [INFO] [8/12] ID: https://timesbrasil.com.br/brasil/master-capixaba-em-batalha-judicial-com-apex-partners-cinelli-cobra-acesso-a-registros-internos-para-preparar-defesa/
+2026-09-19 04:23:21 [INFO] Título: Master Capixaba: em batalha <b>judicial</b> com Apex Partners, Cinelli cobra acesso a registros ...
+2026-09-19 04:23:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:21 [INFO] Classificação: nao_enviar
+2026-09-19 04:23:21 [INFO] Aguardando 2.71s...
+2026-09-19 04:23:24 [INFO] [9/12] ID: https://www.folhamax.com/economia/atuacao-integrada-do-cira-vg-amplia-recuperacao-de-creditos/573117
+2026-09-19 04:23:24 [INFO] Título: Atuação integrada do Cira-VG amplia <b>recuperação</b> de créditos - FOLHAMAX
+2026-09-19 04:23:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:25 [INFO] Classificação: nao_enviar
+2026-09-19 04:23:25 [INFO] Aguardando 2.48s...
+2026-09-19 04:23:27 [INFO] [10/12] ID: https://atarde.com.br/economia/casas-bahia-marca-reuniao-para-discutir-recuperacao-judicial-de-r-17-bilhoes-1402608
+2026-09-19 04:23:27 [INFO] Título: Casas Bahia marca reunião para discutir recuperação <b>judicial</b> de R$ 17 bilhões | A TARDE
+2026-09-19 04:23:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:28 [INFO] Classificação: enviar
+2026-09-19 04:23:28 [INFO] Aguardando 2.58s...
+2026-09-19 04:23:30 [INFO] [11/12] ID: https://www.broadcast.com.br/ultimas-noticias/sp-eleva-ratings-nacionais-da-light-para-brbb-apos-saida-da-recuperacao-judicial-2/
+2026-09-19 04:23:30 [INFO] Título: S&P eleva ratings nacionais da Light para brBB+ após saída da recuperação <b>judicial</b> - Broadcast
+2026-09-19 04:23:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:30 [INFO] Classificação: enviar
+2026-09-19 04:23:30 [INFO] Aguardando 2.76s...
+2026-09-19 04:23:33 [INFO] [12/12] ID: https://www.portalin.com.br/negocios/pix-tera-novas-regras-para-fraudes-cobranca-hibrida-e-contas-salario/
+2026-09-19 04:23:33 [INFO] Título: Pix terá novas regras para fraudes, cobrança híbrida e contas-salário - Portal IN - Balada IN
+2026-09-19 04:23:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 04:23:33 [INFO] Classificação: nao_enviar
+2026-09-19 04:23:33 [INFO] ======================================================================
+2026-09-19 04:23:33 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-19 04:23:33 [INFO] ======================================================================
+2026-09-19 04:23:33 [INFO] Processadas: 12
+2026-09-19 04:23:33 [INFO] Enviar: 4
+2026-09-19 04:23:33 [INFO] Não enviar: 8
+2026-09-19 04:23:33 [INFO] ======================================================================
