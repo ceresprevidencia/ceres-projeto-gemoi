@@ -24577,3 +24577,51 @@
 2026-09-19 09:21:53 [INFO] Enviar: 0
 2026-09-19 09:21:53 [INFO] Não enviar: 3
 2026-09-19 09:21:53 [INFO] ======================================================================
+2026-09-19 13:51:01 [INFO] ======================================================================
+2026-09-19 13:51:01 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-19 13:51:01 [INFO] ======================================================================
+2026-09-19 13:51:01 [INFO] Notícias com status 'extraida': 7
+2026-09-19 13:51:01 [INFO] Limite: 20 requisições/minuto
+2026-09-19 13:51:01 [INFO] Intervalo mínimo: 3.0s
+2026-09-19 13:51:01 [INFO] ======================================================================
+2026-09-19 13:51:01 [INFO] [1/7] ID: https://bntonline.com.br/gasolina-fica-mais-barata-nos-postos-apos-reducao-de-tributos-impacto-em-pg-e-regiao/
+2026-09-19 13:51:01 [INFO] Título: Gasolina fica mais barata nos postos após redução de tributos; impacto em PG e região
+2026-09-19 13:51:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 13:51:01 [INFO] Classificação: nao_enviar
+2026-09-19 13:51:01 [INFO] Aguardando 2.63s...
+2026-09-19 13:51:04 [INFO] [2/7] ID: https://www.gazetadealagoas.com.br/economia/936731/braskem-garante-cumprimento-de-acordo-com-autoridades-de-al?_=amp
+2026-09-19 13:51:04 [INFO] Título: Braskem garante cumprimento de acordo com autoridades de AL - Gazeta de Alagoas
+2026-09-19 13:51:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 13:51:04 [INFO] Classificação: nao_enviar
+2026-09-19 13:51:04 [INFO] Aguardando 2.73s...
+2026-09-19 13:51:07 [INFO] [3/7] ID: https://www.migalhas.com.br/amp/quentes/464778/advogada-explica-o-que-define-recuperacao-ou-falencia-de-empresas
+2026-09-19 13:51:07 [INFO] Título: Advogada explica o que define <b>recuperação</b> ou falência de empresas - Migalhas
+2026-09-19 13:51:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 13:51:07 [INFO] Classificação: enviar
+2026-09-19 13:51:07 [INFO] Aguardando 2.63s...
+2026-09-19 13:51:10 [INFO] [4/7] ID: https://gmconline.com.br/noticias/geral/gigante-dos-supermercados-que-teve-96-lojas-e-5-mil-funcionarios-vai-a-falencia-com-divida-de-r-461-milhoes/
+2026-09-19 13:51:10 [INFO] Título: Gigante dos supermercados que teve 96 lojas e 5 mil funcionários vai à falência com dívida ...
+2026-09-19 13:51:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 13:51:10 [INFO] Classificação: enviar
+2026-09-19 13:51:10 [INFO] Aguardando 2.66s...
+2026-09-19 13:51:13 [INFO] [5/7] ID: https://zonamista.com.br/roberto-melo-defende-recuperacao-judicial-e-faz-nova-reuniao-por-plano-do-inter/
+2026-09-19 13:51:13 [INFO] Título: Roberto Melo defende recuperação <b>judicial</b> e faz nova reunião por plano do Inter
+2026-09-19 13:51:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 13:51:13 [INFO] Classificação: enviar
+2026-09-19 13:51:13 [INFO] Aguardando 2.68s...
+2026-09-19 13:51:16 [INFO] [6/7] ID: https://valor.globo.com/empresas/noticia/2026/09/18/estudo-prope-concluso-de-arcabouo-de-segurana-antes-da-abertura-do-mercado-de-energia-de-baixa-tenso.ghtml
+2026-09-19 13:51:16 [INFO] Título: Estudo propõe conclusão de arcabouço de segurança antes da abertura do mercado de ...
+2026-09-19 13:51:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 13:51:16 [INFO] Classificação: nao_enviar
+2026-09-19 13:51:16 [INFO] Aguardando 2.74s...
+2026-09-19 13:51:19 [INFO] [7/7] ID: https://guiadoinvestidor.com.br/mercado/casas-bahia-bhia3-da-passo-decisivo-acionistas-vao-votar-recuperacao-judicial-e-novo-conselho-em-outubro/
+2026-09-19 13:51:19 [INFO] Título: Casas Bahia (BHIA3) dá passo decisivo: acionistas vão votar recuperação <b>judicial</b> e novo ...
+2026-09-19 13:51:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 13:51:19 [INFO] Classificação: enviar
+2026-09-19 13:51:19 [INFO] ======================================================================
+2026-09-19 13:51:19 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-19 13:51:19 [INFO] ======================================================================
+2026-09-19 13:51:19 [INFO] Processadas: 7
+2026-09-19 13:51:19 [INFO] Enviar: 4
+2026-09-19 13:51:19 [INFO] Não enviar: 3
+2026-09-19 13:51:19 [INFO] ======================================================================
