@@ -25223,3 +25223,101 @@
 2026-09-20 12:13:06 [INFO] Enviar: 2
 2026-09-20 12:13:06 [INFO] Não enviar: 5
 2026-09-20 12:13:06 [INFO] ======================================================================
+2026-09-20 16:44:40 [INFO] ======================================================================
+2026-09-20 16:44:40 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-20 16:44:40 [INFO] ======================================================================
+2026-09-20 16:44:40 [INFO] Notícias com status 'extraida': 17
+2026-09-20 16:44:40 [INFO] Limite: 20 requisições/minuto
+2026-09-20 16:44:40 [INFO] Intervalo mínimo: 3.0s
+2026-09-20 16:44:40 [INFO] ======================================================================
+2026-09-20 16:44:40 [INFO] [1/17] ID: https://www.bnews.com.br/noticias/economia-e-mercado/escandalo-casas-bahia-entram-no-radar-do-mp-apos-nova-descoberta-de-esquema-milionario-de-propina.html
+2026-09-20 16:44:40 [INFO] Título: ESCÂNDALO! Casas Bahia entram no radar do MP após nova descoberta de esquema ...
+2026-09-20 16:44:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:44:40 [INFO] Classificação: nao_enviar
+2026-09-20 16:44:40 [INFO] Aguardando 2.62s...
+2026-09-20 16:44:43 [INFO] [2/17] ID: https://blogdomiltonfigueiredo.com.br/noticias/geral/mafia-do-icms-casas-bahia-pagou-r-11-6-bilhoes-de-propina-a-fazenda-de-sp/
+2026-09-20 16:44:43 [INFO] Título: Máfia do ICMS: Casas Bahia pagou R$11,6 bilhões de propina a fazenda de SP
+2026-09-20 16:44:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:44:43 [INFO] Classificação: nao_enviar
+2026-09-20 16:44:43 [INFO] Aguardando 2.71s...
+2026-09-20 16:44:46 [INFO] [3/17] ID: https://jornalggn.com.br/justica/casas-bahia-sao-acusadas-de-pagar-r-116-milhoes-em-propina-em-esquema-de-icms-em-sao-paulo/
+2026-09-20 16:44:46 [INFO] Título: Casas Bahia são acusadas de pagar R$ 11,6 milhões em propina em esquema de ICMS ...
+2026-09-20 16:44:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:44:46 [INFO] Classificação: nao_enviar
+2026-09-20 16:44:46 [INFO] Aguardando 2.60s...
+2026-09-20 16:44:49 [INFO] [4/17] ID: https://www.fatosdematogrosso.com.br/juridico/tj-derruba-falencia-de-grupo-do-agro-com-divida-de-r-238-milhoes-em-mt/16309
+2026-09-20 16:44:49 [INFO] Título: TJ derruba falência de grupo do agro com dívida de R$ 238 milhões em MT
+2026-09-20 16:44:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:44:49 [INFO] Classificação: nao_enviar
+2026-09-20 16:44:49 [INFO] Aguardando 2.47s...
+2026-09-20 16:44:52 [INFO] [5/17] ID: https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/especialista-alerta-empresa-nao-quebra-de-uma-hora-para-outra/amp
+2026-09-20 16:44:52 [INFO] Título: Especialista alerta: empresa não quebra de uma hora para outra - Diário do Poder
+2026-09-20 16:44:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:44:52 [INFO] Classificação: nao_enviar
+2026-09-20 16:44:52 [INFO] Aguardando 2.73s...
+2026-09-20 16:44:55 [INFO] [6/17] ID: https://aeroin.net/omni-aviacao-de-portugal-entra-em-insolvencia-e-tem-licenca-suspensa/?amp=1
+2026-09-20 16:44:55 [INFO] Título: OMNI Aviação de Portugal entra em insolvência e tem licença suspensa - AEROIN
+2026-09-20 16:44:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:44:55 [INFO] Classificação: nao_enviar
+2026-09-20 16:44:55 [INFO] Aguardando 2.72s...
+2026-09-20 16:44:58 [INFO] [7/17] ID: https://martinbehrend.com.br/novo-hamburgo/oab-nh-promove-seminario-sobre-recuperacao-judicial-e-extrajudicial-dividas-fiscais-e-financiamento
+2026-09-20 16:44:58 [INFO] Título: OAB NH promove seminário sobre <b>recuperação judicial</b> e extrajudicial, dívidas fiscais e ...
+2026-09-20 16:44:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:44:58 [INFO] Classificação: enviar
+2026-09-20 16:44:58 [INFO] Aguardando 2.73s...
+2026-09-20 16:45:01 [INFO] [8/17] ID: https://www.oliberal.com/brasil/amp/casas-bahia-pagou-r-11-6-milhoes-em-propina-por-esquema-de-icms-afirma-colunista-1.1170925
+2026-09-20 16:45:01 [INFO] Título: Casas Bahia pagou R$ 11,6 milhões em propina por esquema de ICMS, afirma colunista
+2026-09-20 16:45:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:01 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:01 [INFO] Aguardando 2.74s...
+2026-09-20 16:45:04 [INFO] [9/17] ID: https://diariodotransporte.com.br/2026/09/20/governo-de-minas-abre-prazo-para-manifestacoes-sobre-transferencia-da-linha-belo-horizonte-unai-da-sertaneja-para-gontijo/
+2026-09-20 16:45:04 [INFO] Título: Governo de Minas abre prazo para manifestações sobre transferência da linha Belo ...
+2026-09-20 16:45:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:04 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:04 [INFO] Aguardando 2.76s...
+2026-09-20 16:45:07 [INFO] [10/17] ID: https://www.correiobraziliense.com.br/opiniao/2026/09/7504231-desafios-para-o-agro-brasileiro.html
+2026-09-20 16:45:07 [INFO] Título: Desafios para o agro brasileiro - Correio Braziliense
+2026-09-20 16:45:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:07 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:07 [INFO] Aguardando 2.67s...
+2026-09-20 16:45:10 [INFO] [11/17] ID: https://spdiario.com.br/amp/noticias/policia/casas-bahia-e-acusada-de-pagar-r-116-milhoes-em-propina-por-creditos-de-icms.html
+2026-09-20 16:45:10 [INFO] Título: Casas Bahia é acusada de pagar R$ 11,6 milhões em propina por créditos de ICMS
+2026-09-20 16:45:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:10 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:10 [INFO] Aguardando 2.61s...
+2026-09-20 16:45:13 [INFO] [12/17] ID: https://aeroin.net/omni-aviacao-de-portugal-entra-em-insolvencia-e-tem-licenca-suspensa/
+2026-09-20 16:45:13 [INFO] Título: OMNI Aviação de Portugal entra em insolvência e tem licença suspensa - AEROIN
+2026-09-20 16:45:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:13 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:13 [INFO] Aguardando 2.47s...
+2026-09-20 16:45:16 [INFO] [13/17] ID: https://blogdobarreto.com.br/a-anatomia-de-uma-fraude-como-a-politica-chocou-o-ovo-do-banco-master/
+2026-09-20 16:45:16 [INFO] Título: A Anatomia de uma Fraude: Como a política chocou o ovo do Banco Master
+2026-09-20 16:45:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:16 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:16 [INFO] Aguardando 2.48s...
+2026-09-20 16:45:19 [INFO] [14/17] ID: https://soubrasilia.com/pix-marcacao-fraude-revisao-cobranca-hibrida-conta-salario-resolucao-587/
+2026-09-20 16:45:19 [INFO] Título: Pix: BC dá 7 dias ao banco para revisar marcação de fraude - Sou Brasilia
+2026-09-20 16:45:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:19 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:19 [INFO] Aguardando 2.76s...
+2026-09-20 16:45:22 [INFO] [15/17] ID: https://www.opresente.com.br/geral/pix-tera-novas-regras-para-contas-salario-e-pagamentos-com-boleto/
+2026-09-20 16:45:22 [INFO] Título: Pix terá novas regras para contas-salário e pagamentos com boleto - O Presente
+2026-09-20 16:45:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:23 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:23 [INFO] Aguardando 2.21s...
+2026-09-20 16:45:25 [INFO] [16/17] ID: https://clickpetroleoegas.com.br/bancos-com-mais-de-500-mil-contas-podem-ser-dispensados-de-oferecer-o-pagamento-instantaneo-depois-de-o-governo-americano-chamar-o-sistema-de-injusto-e-discriminatorio-e-a-btl96/
+2026-09-20 16:45:25 [INFO] Título: Bancos com mais de 500 mil contas podem ser dispensados de oferecer o pagamento ...
+2026-09-20 16:45:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:25 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:25 [INFO] Aguardando 2.52s...
+2026-09-20 16:45:28 [INFO] [17/17] ID: https://www.pressreader.com/brazil/o-estado-de-s-paulo/20260919/281990384428638
+2026-09-20 16:45:28 [INFO] Título: BC atualiza regras e libera Pix Automático em contas-salário | O Estado de S. Paulo
+2026-09-20 16:45:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:45:28 [INFO] Classificação: nao_enviar
+2026-09-20 16:45:28 [INFO] ======================================================================
+2026-09-20 16:45:28 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-20 16:45:28 [INFO] ======================================================================
+2026-09-20 16:45:28 [INFO] Processadas: 17
+2026-09-20 16:45:28 [INFO] Enviar: 1
+2026-09-20 16:45:28 [INFO] Não enviar: 16
+2026-09-20 16:45:28 [INFO] ======================================================================
