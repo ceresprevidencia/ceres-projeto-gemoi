@@ -25117,3 +25117,61 @@
 2026-09-20 00:56:41 [INFO] Enviar: 0
 2026-09-20 00:56:41 [INFO] Não enviar: 4
 2026-09-20 00:56:41 [INFO] ======================================================================
+2026-09-20 06:02:09 [INFO] ======================================================================
+2026-09-20 06:02:09 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-20 06:02:09 [INFO] ======================================================================
+2026-09-20 06:02:09 [INFO] Notícias com status 'extraida': 9
+2026-09-20 06:02:09 [INFO] Limite: 20 requisições/minuto
+2026-09-20 06:02:09 [INFO] Intervalo mínimo: 3.0s
+2026-09-20 06:02:09 [INFO] ======================================================================
+2026-09-20 06:02:09 [INFO] [1/9] ID: https://www.fogaonet.com/noticias-do-botafogo/ex-botafogo-john-textor-evento-libertadores-segue-dono/
+2026-09-20 06:02:09 [INFO] Título: Ex-Botafogo, John Textor vai a evento da Libertadores no Rio e diz que segue dono do clube
+2026-09-20 06:02:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 06:02:09 [INFO] Classificação: nao_enviar
+2026-09-20 06:02:09 [INFO] Aguardando 2.55s...
+2026-09-20 06:02:12 [INFO] [2/9] ID: https://zonamista.com.br/inter-tem-nova-baixa-no-banco-de-reservas-e-perde-jogador-pelo-restante-da-temporada/
+2026-09-20 06:02:12 [INFO] Título: Inter tem nova baixa no banco de reservas e perde jogador pelo restante da temporada
+2026-09-20 06:02:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 06:02:12 [INFO] Classificação: nao_enviar
+2026-09-20 06:02:12 [INFO] Aguardando 2.81s...
+2026-09-20 06:02:15 [INFO] [3/9] ID: https://www.visaonoticias.com/noticia/entenda-por-que-clubes-incluindo-o-mac-reagiram-contra-restricoes-as-bets-65754
+2026-09-20 06:02:15 [INFO] Título: ENTENDA: Por que clubes, incluindo o MAC, reagiram contra restrições às BETS - Visão Notícias
+2026-09-20 06:02:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 06:02:15 [INFO] Classificação: nao_enviar
+2026-09-20 06:02:15 [INFO] Aguardando 2.78s...
+2026-09-20 06:02:18 [INFO] [4/9] ID: https://investidor10.com.br/amp/noticias/fictor-alimentos-muda-de-nome-e-propoe-grupamento-de-acoes-na-b3-122740/
+2026-09-20 06:02:18 [INFO] Título: Fictor Alimentos muda de nome e propõe grupamento de ações na B3 - Investidor10
+2026-09-20 06:02:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 06:02:18 [INFO] Classificação: nao_enviar
+2026-09-20 06:02:18 [INFO] Aguardando 2.58s...
+2026-09-20 06:02:21 [INFO] [5/9] ID: https://abcdjornal.com.br/sao-caetano/noticia/2026/09/19/governador-em-sao-caetano-a-unica-coisa-vermelha-nesta-eleicao-sera-o-cartao-ao-pt-diz-ao-pedir-voto-em-flavio-bolsonaro/
+2026-09-20 06:02:21 [INFO] Título: Governador em São Caetano: “A única coisa vermelha nesta eleição será o cartão ao PT ...
+2026-09-20 06:02:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 06:02:21 [INFO] Classificação: nao_enviar
+2026-09-20 06:02:21 [INFO] Aguardando 2.72s...
+2026-09-20 06:02:24 [INFO] [6/9] ID: https://timesbrasil.com.br/empresas-e-negocios/chilli-beans-negocia-capital-com-fundos-especiais-enquanto-renegocia-divida-de-cerca-de-r-500-milhoes/
+2026-09-20 06:02:24 [INFO] Título: Chilli Beans negocia capital com fundos especiais enquanto renegocia dívida de cerca de ...
+2026-09-20 06:02:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 06:02:24 [INFO] Classificação: nao_enviar
+2026-09-20 06:02:24 [INFO] Aguardando 2.76s...
+2026-09-20 06:02:27 [INFO] [7/9] ID: https://riodaspedras.portaldacidade.com/noticias/economia/pix-tera-mudancas-para-combater-fraudes-e-ampliar-servicos-em-2027-4814
+2026-09-20 06:02:27 [INFO] Título: Pix terá mudanças para combater fraudes e ampliar serviços em 2027
+2026-09-20 06:02:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 06:02:27 [INFO] Classificação: nao_enviar
+2026-09-20 06:02:27 [INFO] Aguardando 2.58s...
+2026-09-20 06:02:30 [INFO] [8/9] ID: https://br.jetss.com/2026/09/19/pix-automatico-sera-autorizado-em-contas-salario-a-partir-de-2027/?amp=1
+2026-09-20 06:02:30 [INFO] Título: Pix Automático será autorizado em contas-salário a partir de 2027 - Jetss BR
+2026-09-20 06:02:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 06:02:30 [INFO] Classificação: nao_enviar
+2026-09-20 06:02:30 [INFO] Aguardando 2.69s...
+2026-09-20 06:02:33 [INFO] [9/9] ID: https://www.pressreader.com/brazil/o-dia/20260919/281745571293295
+2026-09-20 06:02:33 [INFO] Título: BC altera regras do Pix e traz outras mudanças | O Dia - PressReader
+2026-09-20 06:02:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 06:02:33 [INFO] Classificação: nao_enviar
+2026-09-20 06:02:33 [INFO] ======================================================================
+2026-09-20 06:02:33 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-20 06:02:33 [INFO] ======================================================================
+2026-09-20 06:02:33 [INFO] Processadas: 9
+2026-09-20 06:02:33 [INFO] Enviar: 0
+2026-09-20 06:02:33 [INFO] Não enviar: 9
+2026-09-20 06:02:33 [INFO] ======================================================================
