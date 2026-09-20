@@ -25359,3 +25359,56 @@
 2026-09-20 19:20:30 [INFO] Enviar: 1
 2026-09-20 19:20:30 [INFO] Não enviar: 4
 2026-09-20 19:20:30 [INFO] ======================================================================
+2026-09-20 22:21:16 [INFO] ======================================================================
+2026-09-20 22:21:16 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-20 22:21:16 [INFO] ======================================================================
+2026-09-20 22:21:16 [INFO] Notícias com status 'extraida': 8
+2026-09-20 22:21:16 [INFO] Limite: 20 requisições/minuto
+2026-09-20 22:21:16 [INFO] Intervalo mínimo: 3.0s
+2026-09-20 22:21:16 [INFO] ======================================================================
+2026-09-20 22:21:16 [INFO] [1/8] ID: https://primeirapagina.com.br/economia/casas-bahia-teria-pago-r-116-milhoes-em-esquema-de-propina-ligado-a-creditos-de-icms/
+2026-09-20 22:21:16 [INFO] Título: Casas Bahia teria pago R$ 11,6 milhões em esquema de propina ligado a créditos de ICMS
+2026-09-20 22:21:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:21:16 [INFO] Classificação: nao_enviar
+2026-09-20 22:21:16 [INFO] Aguardando 2.67s...
+2026-09-20 22:21:19 [INFO] [2/8] ID: https://www.justicaemfoco.com.br/noticias/gilmar-mendes-alerta-politizacao-no-tse-cobra-atuacao-apartidaria
+2026-09-20 22:21:19 [INFO] Título: Gilmar Mendes alerta para politização no TSE e cobra atuação apartidária
+2026-09-20 22:21:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:21:19 [INFO] Classificação: nao_enviar
+2026-09-20 22:21:20 [INFO] Aguardando 2.49s...
+2026-09-20 22:21:22 [INFO] [3/8] ID: https://timesbrasil.com.br/empresas-e-negocios/credores-rejeitam-plano-de-reestruturacao-da-braskem-e-pressionam-petrobras-e-ig4-por-aporte-de-capital/
+2026-09-20 22:21:22 [INFO] Título: Credores rejeitam plano de reestruturação da Braskem e pressionam Petrobras e IG4 por ...
+2026-09-20 22:21:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:21:22 [INFO] Classificação: nao_enviar
+2026-09-20 22:21:22 [INFO] Aguardando 2.62s...
+2026-09-20 22:21:25 [INFO] [4/8] ID: https://timesbrasil.com.br/empresas-e-negocios/ig4-prepara-oferta-por-creditos-da-raizen-e-mira-controle-da-companhia/
+2026-09-20 22:21:25 [INFO] Título: IG4 prepara oferta por créditos da Raízen e mira controle da companhia - Times Brasil
+2026-09-20 22:21:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:21:25 [INFO] Classificação: nao_enviar
+2026-09-20 22:21:25 [INFO] Aguardando 2.69s...
+2026-09-20 22:21:28 [INFO] [5/8] ID: https://contilnetnoticias.com.br/cotidiano/video-contradiz-versao-de-moraes-sobre-voos-em-aeronave-ligada-a-vorcaro/
+2026-09-20 22:21:28 [INFO] Título: Vídeo contradiz versão de Moraes sobre voos em aeronave ligada a Vorcaro - ContilNet
+2026-09-20 22:21:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:21:28 [INFO] Classificação: nao_enviar
+2026-09-20 22:21:28 [INFO] Aguardando 2.73s...
+2026-09-20 22:21:31 [INFO] [6/8] ID: https://diariodacapital.com/materias/pix-tera-novas-regras-a-partir-de-2027-veja-o-que-muda/
+2026-09-20 22:21:31 [INFO] Título: Pix terá novas regras a partir de 2027; veja o que muda - Diário da Capital
+2026-09-20 22:21:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:21:31 [INFO] Classificação: nao_enviar
+2026-09-20 22:21:31 [INFO] Aguardando 2.79s...
+2026-09-20 22:21:34 [INFO] [7/8] ID: https://soubrasilia.com/pix-marcacao-fraude-revisao-cobranca-hibrida-conta-salario-resolucao-587-2/
+2026-09-20 22:21:34 [INFO] Título: Pix: BC dá 7 dias ao banco para revisar marcação de fraude - Sou Brasilia
+2026-09-20 22:21:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:21:34 [INFO] Classificação: nao_enviar
+2026-09-20 22:21:35 [INFO] Aguardando 2.51s...
+2026-09-20 22:21:37 [INFO] [8/8] ID: https://www.opoder.com.br/noticias/34024/banco-master-rombo-a-sombra-do-fgc-por-emilio-carazzai
+2026-09-20 22:21:37 [INFO] Título: Banco Master: rombo à sombra do FGC - Por Emilio Carazzai* - Jornal O PODER
+2026-09-20 22:21:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 22:21:37 [INFO] Classificação: nao_enviar
+2026-09-20 22:21:37 [INFO] ======================================================================
+2026-09-20 22:21:37 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-20 22:21:37 [INFO] ======================================================================
+2026-09-20 22:21:37 [INFO] Processadas: 8
+2026-09-20 22:21:37 [INFO] Enviar: 0
+2026-09-20 22:21:37 [INFO] Não enviar: 8
+2026-09-20 22:21:37 [INFO] ======================================================================
