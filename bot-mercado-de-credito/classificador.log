@@ -25175,3 +25175,51 @@
 2026-09-20 06:02:33 [INFO] Enviar: 0
 2026-09-20 06:02:33 [INFO] Não enviar: 9
 2026-09-20 06:02:33 [INFO] ======================================================================
+2026-09-20 12:12:48 [INFO] ======================================================================
+2026-09-20 12:12:48 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-20 12:12:48 [INFO] ======================================================================
+2026-09-20 12:12:48 [INFO] Notícias com status 'extraida': 7
+2026-09-20 12:12:48 [INFO] Limite: 20 requisições/minuto
+2026-09-20 12:12:48 [INFO] Intervalo mínimo: 3.0s
+2026-09-20 12:12:48 [INFO] ======================================================================
+2026-09-20 12:12:48 [INFO] [1/7] ID: https://exame.com/negocios/gigantes-gauchas-quais-sao-e-quanto-faturam-as-10-maiores-empresas-do-rio-grande-do-sul/
+2026-09-20 12:12:48 [INFO] Título: Bilionárias gaúchas: quais são e quanto faturam as 10 maiores empresas do Rio Grande do Sul
+2026-09-20 12:12:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:12:48 [INFO] Classificação: nao_enviar
+2026-09-20 12:12:48 [INFO] Aguardando 2.66s...
+2026-09-20 12:12:51 [INFO] [2/7] ID: https://www.pontonacurva.com.br/justica-estadual/tjmt-revoga-falencia-e-retoma-recuperacao-judicial-de-r-28-mi/35054
+2026-09-20 12:12:51 [INFO] Título: TJMT revoga falência e retoma <b>recuperação judicial</b> de R$ 28 mi - Ponto na Curva
+2026-09-20 12:12:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:12:51 [INFO] Classificação: enviar
+2026-09-20 12:12:51 [INFO] Aguardando 2.77s...
+2026-09-20 12:12:54 [INFO] [3/7] ID: https://brasildotrecho.com.br/2026/09/santa-negra-transportes-recuperacao-judicial/
+2026-09-20 12:12:54 [INFO] Título: Transportadora de Cuiabá entra em <b>recuperação judicial</b> com dívida de R$ 1 milhão
+2026-09-20 12:12:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:12:54 [INFO] Classificação: enviar
+2026-09-20 12:12:54 [INFO] Aguardando 2.78s...
+2026-09-20 12:12:57 [INFO] [4/7] ID: https://www.portaladesso.com.br/noticias/20097/bombeira-voluntaria-de-carlos-barbosa-morre-apos-carro-despencar-de-ribanceira.html
+2026-09-20 12:12:57 [INFO] Título: Bombeira voluntária de Carlos Barbosa morre após carro despencar de ribanceira | Trânsito
+2026-09-20 12:12:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:12:57 [INFO] Classificação: nao_enviar
+2026-09-20 12:12:57 [INFO] Aguardando 2.87s...
+2026-09-20 12:13:00 [INFO] [5/7] ID: https://www.metropoles.com/colunas/ramiro-brites/icms-casas-bahia
+2026-09-20 12:13:00 [INFO] Título: Máfia do ICMS: Casas Bahia pagou R$ 11,6 milhões de propina a Fazenda de SP
+2026-09-20 12:13:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:13:00 [INFO] Classificação: nao_enviar
+2026-09-20 12:13:00 [INFO] Aguardando 2.77s...
+2026-09-20 12:13:03 [INFO] [6/7] ID: https://www.estadao.com.br/economia/coluna-da-broad/ig4-deve-apresentar-proposta-firme-por-creditos-da-raizen-em-ate-3-semanas/
+2026-09-20 12:13:03 [INFO] Título: IG4 deve apresentar proposta firme por créditos da Raízen em até 3 semanas - Estadão
+2026-09-20 12:13:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:13:03 [INFO] Classificação: nao_enviar
+2026-09-20 12:13:03 [INFO] Aguardando 2.70s...
+2026-09-20 12:13:06 [INFO] [7/7] ID: https://www.estadao.com.br/amp/economia/coluna-da-broad/ig4-deve-apresentar-proposta-firme-por-creditos-da-raizen-em-ate-3-semanas/
+2026-09-20 12:13:06 [INFO] Título: IG4 deve apresentar proposta firme por créditos da Raízen em até 3 semanas - Estadão
+2026-09-20 12:13:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:13:06 [INFO] Classificação: nao_enviar
+2026-09-20 12:13:06 [INFO] ======================================================================
+2026-09-20 12:13:06 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-20 12:13:06 [INFO] ======================================================================
+2026-09-20 12:13:06 [INFO] Processadas: 7
+2026-09-20 12:13:06 [INFO] Enviar: 2
+2026-09-20 12:13:06 [INFO] Não enviar: 5
+2026-09-20 12:13:06 [INFO] ======================================================================
