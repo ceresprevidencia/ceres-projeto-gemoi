@@ -25321,3 +25321,41 @@
 2026-09-20 16:45:28 [INFO] Enviar: 1
 2026-09-20 16:45:28 [INFO] Não enviar: 16
 2026-09-20 16:45:28 [INFO] ======================================================================
+2026-09-20 19:20:18 [INFO] ======================================================================
+2026-09-20 19:20:18 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-20 19:20:18 [INFO] ======================================================================
+2026-09-20 19:20:18 [INFO] Notícias com status 'extraida': 5
+2026-09-20 19:20:18 [INFO] Limite: 20 requisições/minuto
+2026-09-20 19:20:18 [INFO] Intervalo mínimo: 3.0s
+2026-09-20 19:20:18 [INFO] ======================================================================
+2026-09-20 19:20:18 [INFO] [1/5] ID: https://jbnews.com.br/untitled-46/
+2026-09-20 19:20:18 [INFO] Título: TJMT derruba falência e manda retomar <b>recuperação</b> de grupo do agro com R$ 238 ...
+2026-09-20 19:20:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 19:20:18 [INFO] Classificação: enviar
+2026-09-20 19:20:18 [INFO] Aguardando 2.62s...
+2026-09-20 19:20:21 [INFO] [2/5] ID: https://revistacenarium.com.br/video-mostra-moraes-em-jatinho-ligado-a-vorcaro-segundo-jornal/
+2026-09-20 19:20:21 [INFO] Título: Vídeo mostra Moraes em jatinho ligado a Vorcaro, segundo jornal - Revista Cenarium
+2026-09-20 19:20:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 19:20:21 [INFO] Classificação: nao_enviar
+2026-09-20 19:20:21 [INFO] Aguardando 2.59s...
+2026-09-20 19:20:24 [INFO] [3/5] ID: https://spacofm.com.br/banco-central-muda-regras-do-pix-e-preve-novas-funcionalidades-a-partir-de-2027/
+2026-09-20 19:20:24 [INFO] Título: Banco Central muda regras do Pix e prevê novas funcionalidades a partir de 2027
+2026-09-20 19:20:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 19:20:24 [INFO] Classificação: nao_enviar
+2026-09-20 19:20:24 [INFO] Aguardando 2.50s...
+2026-09-20 19:20:27 [INFO] [4/5] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/09/20/volume-de-usurios-de-planos-de-sade-de-operadoras-do-rio-cai-pela-metade-em-cinco-anos.ghtml
+2026-09-20 19:20:27 [INFO] Título: Volume de usuários de planos de saúde de operadoras do Rio cai pela metade em cinco anos
+2026-09-20 19:20:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 19:20:27 [INFO] Classificação: nao_enviar
+2026-09-20 19:20:27 [INFO] Aguardando 2.66s...
+2026-09-20 19:20:30 [INFO] [5/5] ID: https://grandeponto.com.br/noticia/pix-ganha-novas-regras-para-conta-salario-fraudes-e-boletos-veja-o-que-muda
+2026-09-20 19:20:30 [INFO] Título: Pix ganha novas regras para conta salário, fraudes e boletos; veja o que muda
+2026-09-20 19:20:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 19:20:30 [INFO] Classificação: nao_enviar
+2026-09-20 19:20:30 [INFO] ======================================================================
+2026-09-20 19:20:30 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-20 19:20:30 [INFO] ======================================================================
+2026-09-20 19:20:30 [INFO] Processadas: 5
+2026-09-20 19:20:30 [INFO] Enviar: 1
+2026-09-20 19:20:30 [INFO] Não enviar: 4
+2026-09-20 19:20:30 [INFO] ======================================================================
