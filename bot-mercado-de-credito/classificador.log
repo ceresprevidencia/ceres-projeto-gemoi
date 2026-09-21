@@ -25460,3 +25460,56 @@
 2026-09-21 00:58:58 [INFO] Enviar: 0
 2026-09-21 00:58:58 [INFO] Não enviar: 7
 2026-09-21 00:58:58 [INFO] ======================================================================
+2026-09-21 06:12:01 [INFO] ======================================================================
+2026-09-21 06:12:01 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-21 06:12:01 [INFO] ======================================================================
+2026-09-21 06:12:01 [INFO] Notícias com status 'extraida': 8
+2026-09-21 06:12:01 [INFO] Limite: 20 requisições/minuto
+2026-09-21 06:12:01 [INFO] Intervalo mínimo: 3.0s
+2026-09-21 06:12:01 [INFO] ======================================================================
+2026-09-21 06:12:01 [INFO] [1/8] ID: https://www.folhamax.com/economia/tj-manda-transportadora-informar-sumico-de-33-veiculos-em-mt/572508
+2026-09-21 06:12:01 [INFO] Título: TJ manda transportadora informar 'sumiço' de 33 veículos em MT | FOLHAMAX
+2026-09-21 06:12:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 06:12:02 [INFO] Classificação: nao_enviar
+2026-09-21 06:12:02 [INFO] Aguardando 2.08s...
+2026-09-21 06:12:04 [INFO] [2/8] ID: https://zonamista.com.br/baldasso-diz-que-o-inter-morreu-compara-gestoes-e-defende-recuperacao-judicial-e-saf/
+2026-09-21 06:12:04 [INFO] Título: Baldasso diz que o Inter “morreu”, compara gestões e defende <b>recuperação judicial</b> e SAF
+2026-09-21 06:12:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 06:12:04 [INFO] Classificação: enviar
+2026-09-21 06:12:04 [INFO] Aguardando 2.79s...
+2026-09-21 06:12:07 [INFO] [3/8] ID: https://netlusa.com.br/noticias-da-portuguesa/presidente-da-saf-confirma-antecipacao-de-r-67-milhoes-da-cota-do-paulistao-de-2027
+2026-09-21 06:12:07 [INFO] Título: Presidente da SAF confirma antecipação de R$ 6,7 milhões da cota do Paulistão de 2027
+2026-09-21 06:12:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 06:12:07 [INFO] Classificação: nao_enviar
+2026-09-21 06:12:08 [INFO] Aguardando 2.70s...
+2026-09-21 06:12:10 [INFO] [4/8] ID: https://www.portaltemponovo.com.br/casas-bahia-faz-ultimo-leilao-com-maquina-de-lavar-geladeira-e-fogao-por-200-apos-fechar-lojas/
+2026-09-21 06:12:10 [INFO] Título: Casas Bahia faz último leilão com máquina de lavar, geladeira e fogão por R$ 200 após fechar lojas
+2026-09-21 06:12:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 06:12:11 [INFO] Classificação: enviar
+2026-09-21 06:12:11 [INFO] Aguardando 2.51s...
+2026-09-21 06:12:13 [INFO] [5/8] ID: https://www.gazetabotafogo.com/2026/09/durante-libertadores-experience-textor.html
+2026-09-21 06:12:13 [INFO] Título: Durante Libertadores Experience, Textor fala à ESPN Brasil sobre disputa pelo comando da ...
+2026-09-21 06:12:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 06:12:14 [INFO] Classificação: nao_enviar
+2026-09-21 06:12:14 [INFO] Aguardando 2.56s...
+2026-09-21 06:12:16 [INFO] [6/8] ID: https://gustavonegreiros.com.br/2026/9/20/fundos-de-vorcaro-no-exterior-ja-estao-sendo-encontrados/168301
+2026-09-21 06:12:16 [INFO] Título: Fundos de Vorcaro no exterior já estão sendo encontrados - Blog do Gustavo Negreiros
+2026-09-21 06:12:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 06:12:17 [INFO] Classificação: nao_enviar
+2026-09-21 06:12:17 [INFO] Aguardando 2.54s...
+2026-09-21 06:12:19 [INFO] [7/8] ID: https://www.instagram.com/p/Ddg9uJ3ljXK/
+2026-09-21 06:12:19 [INFO] Título: O Banco Central anunciou novas regras para o Pix, com mudanças que envolvem ... - Instagram
+2026-09-21 06:12:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 06:12:19 [INFO] Classificação: nao_enviar
+2026-09-21 06:12:19 [INFO] Aguardando 2.75s...
+2026-09-21 06:12:22 [INFO] [8/8] ID: https://conexaomarilia.com.br/2026/09/21/banco-central-atualiza-regras-do-pix-e-autoriza-pix-automatico-em-contas-salario/
+2026-09-21 06:12:22 [INFO] Título: Banco Central atualiza regras do Pix e autoriza Pix Automático em contas-salário - Conexão Marília
+2026-09-21 06:12:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 06:12:23 [INFO] Classificação: nao_enviar
+2026-09-21 06:12:23 [INFO] ======================================================================
+2026-09-21 06:12:23 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-21 06:12:23 [INFO] ======================================================================
+2026-09-21 06:12:23 [INFO] Processadas: 8
+2026-09-21 06:12:23 [INFO] Enviar: 2
+2026-09-21 06:12:23 [INFO] Não enviar: 6
+2026-09-21 06:12:23 [INFO] ======================================================================
