@@ -25412,3 +25412,51 @@
 2026-09-20 22:21:37 [INFO] Enviar: 0
 2026-09-20 22:21:37 [INFO] Não enviar: 8
 2026-09-20 22:21:37 [INFO] ======================================================================
+2026-09-21 00:58:40 [INFO] ======================================================================
+2026-09-21 00:58:40 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-21 00:58:40 [INFO] ======================================================================
+2026-09-21 00:58:40 [INFO] Notícias com status 'extraida': 7
+2026-09-21 00:58:40 [INFO] Limite: 20 requisições/minuto
+2026-09-21 00:58:40 [INFO] Intervalo mínimo: 3.0s
+2026-09-21 00:58:40 [INFO] ======================================================================
+2026-09-21 00:58:40 [INFO] [1/7] ID: https://www.insieme.com.br/cidadania-ja-admite-caixa-comprometido-e-propoe-negociar-devolucao-de-valores-so-em-janeiro/
+2026-09-21 00:58:40 [INFO] Título: Cidadania Já admite caixa comprometido e propõe negociar devolução de valores só em janeiro
+2026-09-21 00:58:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 00:58:40 [INFO] Classificação: nao_enviar
+2026-09-21 00:58:40 [INFO] Aguardando 2.50s...
+2026-09-21 00:58:43 [INFO] [2/7] ID: https://oantagonista.com.br/mundo/depois-de-43-anos-uma-rede-de-eletronicos-chega-as-ultimas-semanas-com-30-lojas-ainda-vendendo-tudo-pela-frente-e-cerca-de-1-500-funcionarios-sabendo-que-o-fim-estava-proximo/
+2026-09-21 00:58:43 [INFO] Título: Depois de 43 anos, uma rede de eletrônicos chega às últimas semanas com 30 lojas ainda ...
+2026-09-21 00:58:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 00:58:43 [INFO] Classificação: nao_enviar
+2026-09-21 00:58:43 [INFO] Aguardando 2.67s...
+2026-09-21 00:58:46 [INFO] [3/7] ID: https://correiodoestado.com.br/economia/resultado-da-quina-de-hoje-concurso-7122-domingo-2009/473000/
+2026-09-21 00:58:46 [INFO] Título: Resultado da Quina de hoje, concurso 7122, domingo (20/09) - Correio do Estado
+2026-09-21 00:58:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 00:58:46 [INFO] Classificação: nao_enviar
+2026-09-21 00:58:46 [INFO] Aguardando 2.74s...
+2026-09-21 00:58:49 [INFO] [4/7] ID: https://agendadopoder.com.br/casas-bahia-pagou-r-116-milhoes-de-propina-a-fazenda-de-sp-para-obter-creditos-de-icms/
+2026-09-21 00:58:49 [INFO] Título: Casas Bahia pagou R$ 11,6 milhões de propina à Fazenda de SP para obter créditos de ICMS
+2026-09-21 00:58:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 00:58:49 [INFO] Classificação: nao_enviar
+2026-09-21 00:58:49 [INFO] Aguardando 2.69s...
+2026-09-21 00:58:52 [INFO] [5/7] ID: https://istoe.com.br/correios-governo-planeja-fim-aportes-apos-6-bilhoes-2027
+2026-09-21 00:58:52 [INFO] Título: Governo prevê R$ 6 bi aos Correios e quer encerrar aportes após 2027 - IstoÉ
+2026-09-21 00:58:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 00:58:52 [INFO] Classificação: nao_enviar
+2026-09-21 00:58:52 [INFO] Aguardando 2.54s...
+2026-09-21 00:58:55 [INFO] [6/7] ID: https://www.poder360.com.br/poder-justica/apos-video-mulher-de-moraes-volta-a-negar-vinculo-com-vorcaro/
+2026-09-21 00:58:55 [INFO] Título: Após vídeo, mulher de Moraes volta a negar vínculo com Vorcaro - Poder360
+2026-09-21 00:58:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 00:58:55 [INFO] Classificação: nao_enviar
+2026-09-21 00:58:55 [INFO] Aguardando 2.67s...
+2026-09-21 00:58:58 [INFO] [7/7] ID: https://www.cnnbrasil.com.br/politica/voo-em-jatinho-e-mensagens-o-que-se-sabe-sobre-o-caso-moraes-e-vorcaro/
+2026-09-21 00:58:58 [INFO] Título: Voo em jatinho e mensagens: o que se sabe sobre o caso Moraes e Vorcaro | CNN Brasil
+2026-09-21 00:58:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 00:58:58 [INFO] Classificação: nao_enviar
+2026-09-21 00:58:58 [INFO] ======================================================================
+2026-09-21 00:58:58 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-21 00:58:58 [INFO] ======================================================================
+2026-09-21 00:58:58 [INFO] Processadas: 7
+2026-09-21 00:58:58 [INFO] Enviar: 0
+2026-09-21 00:58:58 [INFO] Não enviar: 7
+2026-09-21 00:58:58 [INFO] ======================================================================
