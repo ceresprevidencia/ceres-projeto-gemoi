@@ -25914,3 +25914,146 @@
 2026-09-21 19:18:22 [INFO] Enviar: 16
 2026-09-21 19:18:22 [INFO] Não enviar: 35
 2026-09-21 19:18:22 [INFO] ======================================================================
+2026-09-21 23:10:14 [INFO] ======================================================================
+2026-09-21 23:10:14 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-21 23:10:14 [INFO] ======================================================================
+2026-09-21 23:10:14 [INFO] Notícias com status 'extraida': 26
+2026-09-21 23:10:14 [INFO] Limite: 20 requisições/minuto
+2026-09-21 23:10:14 [INFO] Intervalo mínimo: 3.0s
+2026-09-21 23:10:14 [INFO] ======================================================================
+2026-09-21 23:10:14 [INFO] [1/26] ID: https://conjur.com.br/2026-set-21/devedor-contumaz-essa-nova-categoria-legal/
+2026-09-21 23:10:14 [INFO] Título: Devedor contumaz, essa nova categoria legal - Conjur
+2026-09-21 23:10:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:14 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:14 [INFO] Aguardando 2.55s...
+2026-09-21 23:10:17 [INFO] [2/26] ID: https://www.oab.org.br/noticia/64617/comissao-do-cfoab-debate-recuperacao-judicial-honorarios-e-projetos-de-lei
+2026-09-21 23:10:17 [INFO] Título: Comissão do CFOAB debate <b>recuperação judicial</b>, honorários e projetos de lei
+2026-09-21 23:10:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:17 [INFO] Classificação: enviar
+2026-09-21 23:10:17 [INFO] Aguardando 2.78s...
+2026-09-21 23:10:20 [INFO] [3/26] ID: https://www.jota.info/opiniao-e-analise/artigos/milhas-aereas-o-mesmo-roteiro-da-bagagem-se-repete-no-congresso
+2026-09-21 23:10:20 [INFO] Título: Milhas aéreas: o mesmo roteiro da bagagem se repete no Congresso - JOTA
+2026-09-21 23:10:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:20 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:20 [INFO] Aguardando 2.70s...
+2026-09-21 23:10:23 [INFO] [4/26] ID: https://www.tjsc.jus.br/web/imprensa/-/tjsc-realiza-encontro-na-capital-com-foco-na-transformacao-por-meio-da-mediacao?redirect=/
+2026-09-21 23:10:23 [INFO] Título: TJSC realiza encontro na Capital com foco na transformação por meio da mediação
+2026-09-21 23:10:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:23 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:23 [INFO] Aguardando 2.80s...
+2026-09-21 23:10:26 [INFO] [5/26] ID: https://www.oam.adv.br/2026/09/rs-edital-permite-regularizar-debitos-de-icms-com-abatimento-de-precatorios-no-rio-grande-do-sul/
+2026-09-21 23:10:26 [INFO] Título: RS - Edital permite regularizar débitos de ICMS com abatimento de precatórios no Rio ...
+2026-09-21 23:10:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:27 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:27 [INFO] Aguardando 2.31s...
+2026-09-21 23:10:29 [INFO] [6/26] ID: https://www.aasp.org.br/noticias/aasp-em-acao/consolidacao-nacional-da-execucao-efetiva-e-os-desdobramentos-juridicos/
+2026-09-21 23:10:29 [INFO] Título: Consolidação Nacional da Execução Efetiva e os desdobramentos jurídicos - AASP
+2026-09-21 23:10:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:29 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:29 [INFO] Aguardando 2.65s...
+2026-09-21 23:10:32 [INFO] [7/26] ID: https://www.infomoney.com.br/economia/credito-caro-endividamento-e-inflacao-travam-consumo-em-sp-apesar-do-emprego/
+2026-09-21 23:10:32 [INFO] Título: Crédito caro, endividamento e inflação travam consumo em SP, apesar do emprego
+2026-09-21 23:10:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:32 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:32 [INFO] Aguardando 2.69s...
+2026-09-21 23:10:35 [INFO] [8/26] ID: https://portalvv8.com.br/noticia/74342/saneamento-avanca-com-foco-em-qualidade-e-durabilidade
+2026-09-21 23:10:35 [INFO] Título: Saneamento avança com foco em qualidade e durabilidade - Portal VV8
+2026-09-21 23:10:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:35 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:35 [INFO] Aguardando 2.65s...
+2026-09-21 23:10:38 [INFO] [9/26] ID: https://conjur.com.br/2026-set-21/se-prestadora-de-servico-falir-contratante-responde-por-direitos-de-terceirizados/
+2026-09-21 23:10:38 [INFO] Título: Se prestadora falir, contratante responde por direitos trabalhistas - Conjur
+2026-09-21 23:10:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:39 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:39 [INFO] Aguardando 2.39s...
+2026-09-21 23:10:41 [INFO] [10/26] ID: https://noataque.com.br/futebol/time/atletico-mg/noticia/2026/09/21/ceo-do-atletico-explica-por-que-menin-nao-quis-colocar-o-clube-em-recuperacao-judicial/
+2026-09-21 23:10:41 [INFO] Título: CEO do Atlético explica por que Menin não quis colocar o clube em <b>recuperação judicial</b>
+2026-09-21 23:10:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:41 [INFO] Classificação: enviar
+2026-09-21 23:10:41 [INFO] Aguardando 2.63s...
+2026-09-21 23:10:44 [INFO] [11/26] ID: https://amanha.com.br/categoria/agronegocio/copacol-investe-r-10-milhoes-em-complexo-de-pesquisa
+2026-09-21 23:10:44 [INFO] Título: Copacol investe R$ 10 milhões em complexo de pesquisa - Grupo Amanhã
+2026-09-21 23:10:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:44 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:45 [INFO] Aguardando 2.49s...
+2026-09-21 23:10:47 [INFO] [12/26] ID: https://www.pontonacurva.com.br/video/5870
+2026-09-21 23:10:47 [INFO] Título: TJ discute fluxo de ações em casos de violência doméstica - Ponto na Curva
+2026-09-21 23:10:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:47 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:47 [INFO] Aguardando 2.68s...
+2026-09-21 23:10:50 [INFO] [13/26] ID: https://veja.abril.com.br/economia/opa-da-braskem-oferece-924-reais-por-acao-em-titulos-que-vencem-em-2090/
+2026-09-21 23:10:50 [INFO] Título: OPA da Braskem oferece 9,24 reais por ação — em títulos que vencem em 2090 | VEJA
+2026-09-21 23:10:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:50 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:50 [INFO] Aguardando 2.74s...
+2026-09-21 23:10:53 [INFO] [14/26] ID: https://portalvv8.com.br/noticia/74319/agrolend-day-reune-lideres-para-debater-o-futuro-do-agro
+2026-09-21 23:10:53 [INFO] Título: Agrolend Day reúne líderes para debater o futuro do Agro - Portal VV8
+2026-09-21 23:10:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:53 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:53 [INFO] Aguardando 2.81s...
+2026-09-21 23:10:56 [INFO] [15/26] ID: https://www.pontonacurva.com.br/outros-orgaos/cira-manda-r-536-milhoes-em-dividas-para-protesto/35097
+2026-09-21 23:10:56 [INFO] Título: Cira manda R$ 53,6 milhões em dívidas para protesto - Ponto na Curva
+2026-09-21 23:10:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:56 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:56 [INFO] Aguardando 2.73s...
+2026-09-21 23:10:59 [INFO] [16/26] ID: https://visaoagro.com.br/santa-terezinha-ja-moeu-88-milhoes-de-toneladas-mas-chuvas-atrasam-colheita/
+2026-09-21 23:10:59 [INFO] Título: Santa Terezinha já moeu 8,8 milhões de toneladas, mas chuvas atrasam colheita - Visão Agro
+2026-09-21 23:10:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:10:59 [INFO] Classificação: nao_enviar
+2026-09-21 23:10:59 [INFO] Aguardando 2.67s...
+2026-09-21 23:11:02 [INFO] [17/26] ID: https://www.agazeta.com.br/colunas/abdo-filho/decada-marcada-por-forte-expansao-do-consumo-de-energia-no-es-0926
+2026-09-21 23:11:02 [INFO] Título: Década marcada por forte expansão do consumo de energia no ES - A Gazeta
+2026-09-21 23:11:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:02 [INFO] Classificação: nao_enviar
+2026-09-21 23:11:02 [INFO] Aguardando 2.80s...
+2026-09-21 23:11:05 [INFO] [18/26] ID: https://veronoticias.com/economia/pao-de-acucar-defende-recuperacao-extrajudicial-e-rebate-contestacoes-de-credores/
+2026-09-21 23:11:05 [INFO] Título: Pão de Açúcar defende <b>recuperação extrajudicial</b> e rebate contestações de credores
+2026-09-21 23:11:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:05 [INFO] Classificação: enviar
+2026-09-21 23:11:05 [INFO] Aguardando 2.56s...
+2026-09-21 23:11:08 [INFO] [19/26] ID: https://jornaldebrasilia.com.br/noticias/economia/pao-de-acucar-rebate-credores-e-reforca-pedido-de-homologacao-da-recuperacao-extrajudicial/
+2026-09-21 23:11:08 [INFO] Título: Pão de Açúcar rebate credores e reforça pedido de homologação da <b>recuperação extrajudicial</b>
+2026-09-21 23:11:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:08 [INFO] Classificação: enviar
+2026-09-21 23:11:08 [INFO] Aguardando 2.78s...
+2026-09-21 23:11:11 [INFO] [20/26] ID: https://investnews.com.br/negocios/gpa-casas-bahia-homologacao-recuperacao/amp/
+2026-09-21 23:11:11 [INFO] Título: GPA rebate Casas Bahia e diz que demora para homologar <b>recuperação extrajudicial</b> pode ...
+2026-09-21 23:11:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:11 [INFO] Classificação: enviar
+2026-09-21 23:11:11 [INFO] Aguardando 2.61s...
+2026-09-21 23:11:14 [INFO] [21/26] ID: https://investidor10.com.br/noticias/braskem-brkm5-vai-deixar-a-bolsa-cvm-aprova-opa-apos-troca-de-comando-122751/
+2026-09-21 23:11:14 [INFO] Título: Braskem (BRKM5) vai deixar a Bolsa? CVM aprova OPA após troca de comando
+2026-09-21 23:11:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:15 [INFO] Classificação: nao_enviar
+2026-09-21 23:11:15 [INFO] Aguardando 1.68s...
+2026-09-21 23:11:17 [INFO] [22/26] ID: https://www.brasildefato.com.br/2026/09/21/mensagens-mostram-ibaneis-rocha-tratando-com-daniel-vorcaro-de-compra-do-master-pelo-brb/
+2026-09-21 23:11:17 [INFO] Título: Mensagens mostram Ibaneis Rocha tratando com Daniel Vorcaro de compra do Master pelo BRB
+2026-09-21 23:11:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:17 [INFO] Classificação: nao_enviar
+2026-09-21 23:11:17 [INFO] Aguardando 2.67s...
+2026-09-21 23:11:20 [INFO] [23/26] ID: https://www.tribunadosertao.com.br/politica/2026/09/21/982845-onde-estao-os-r-97-milhoes-liquidacao-do-master-transforma-investimento-do-iprev-em-credito-sujeito-ao-processo-do-banco
+2026-09-21 23:11:20 [INFO] Título: Onde estão os R$ 97 milhões? <b>Liquidação</b> do Master transforma investimento do Iprev em ...
+2026-09-21 23:11:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:21 [INFO] Classificação: enviar
+2026-09-21 23:11:21 [INFO] Aguardando 2.42s...
+2026-09-21 23:11:23 [INFO] [24/26] ID: https://tribunadosertao.com.br/politica/2026/09/21/982815-iprev-colocou-r-97-milhoes-em-letras-financeiras-sem-protecao-do-fgc-e-subordinadas-a-outros-credores
+2026-09-21 23:11:23 [INFO] Título: Iprev colocou R$ 97 milhões em Letras Financeiras sem proteção do FGC e subordinadas a ...
+2026-09-21 23:11:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:23 [INFO] Classificação: nao_enviar
+2026-09-21 23:11:23 [INFO] Aguardando 2.76s...
+2026-09-21 23:11:26 [INFO] [25/26] ID: https://www.tribunadoagreste.com.br/politica/2026/09/21/982815-iprev-colocou-r-97-milhoes-em-letras-financeiras-sem-protecao-do-fgc-e-subordinadas-a-outros-credores
+2026-09-21 23:11:26 [INFO] Título: Iprev colocou R$ 97 milhões em Letras Financeiras sem proteção do FGC e subordinadas a ...
+2026-09-21 23:11:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:26 [INFO] Classificação: nao_enviar
+2026-09-21 23:11:26 [INFO] Aguardando 2.61s...
+2026-09-21 23:11:29 [INFO] [26/26] ID: https://www.reporterdiario.com.br/noticia/3898559/bc-abre-consulta-sobre-criterios-de-demonstracoes-financeiras/
+2026-09-21 23:11:29 [INFO] Título: BC abre consulta sobre critérios de demonstrações financeiras - RD – Repórter Diário
+2026-09-21 23:11:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 23:11:31 [INFO] Classificação: nao_enviar
+2026-09-21 23:11:31 [INFO] ======================================================================
+2026-09-21 23:11:31 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-21 23:11:31 [INFO] ======================================================================
+2026-09-21 23:11:31 [INFO] Processadas: 26
+2026-09-21 23:11:31 [INFO] Enviar: 6
+2026-09-21 23:11:31 [INFO] Não enviar: 20
+2026-09-21 23:11:31 [INFO] ======================================================================
