@@ -25513,3 +25513,136 @@
 2026-09-21 06:12:23 [INFO] Enviar: 2
 2026-09-21 06:12:23 [INFO] Não enviar: 6
 2026-09-21 06:12:23 [INFO] ======================================================================
+2026-09-21 13:53:41 [INFO] ======================================================================
+2026-09-21 13:53:41 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-21 13:53:41 [INFO] ======================================================================
+2026-09-21 13:53:41 [INFO] Notícias com status 'extraida': 24
+2026-09-21 13:53:41 [INFO] Limite: 20 requisições/minuto
+2026-09-21 13:53:41 [INFO] Intervalo mínimo: 3.0s
+2026-09-21 13:53:41 [INFO] ======================================================================
+2026-09-21 13:53:41 [INFO] [1/24] ID: https://investnews.com.br/negocios/financiamento-litigio-dificuldade-2026/
+2026-09-21 13:53:41 [INFO] Título: Justiça coloca à prova o negócio de quem financia litígios no Brasil - InvestNews
+2026-09-21 13:53:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:53:42 [INFO] Classificação: nao_enviar
+2026-09-21 13:53:42 [INFO] Aguardando 2.54s...
+2026-09-21 13:53:44 [INFO] [2/24] ID: https://odia.ig.com.br/colunas/conecta-rj/2026/09/7304032-a-crise-invisivel-que-ameaca-os-pequenos-negocios.html
+2026-09-21 13:53:44 [INFO] Título: A crise invisível que ameaça os pequenos negócios | CONECTA RJ - O Dia
+2026-09-21 13:53:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:53:45 [INFO] Classificação: nao_enviar
+2026-09-21 13:53:45 [INFO] Aguardando 2.77s...
+2026-09-21 13:53:47 [INFO] [3/24] ID: https://agendadopoder.com.br/ig4-prepara-proposta-para-assumir-controle-da-raizen-em-recuperacao-extrajudicial/
+2026-09-21 13:53:47 [INFO] Título: IG4 prepara proposta para assumir controle da Raízen em <b>recuperação</b> extrajudicial
+2026-09-21 13:53:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:53:48 [INFO] Classificação: enviar
+2026-09-21 13:53:48 [INFO] Aguardando 2.67s...
+2026-09-21 13:53:50 [INFO] [4/24] ID: https://gauchazh.clicrbs.com.br/pioneiro/colunistas/juliana-bevilaqua/noticia/2026/09/empresa-caxiense-entrega-ao-dmae-equipamentos-de-r-39-milhoes-para-reforcar-sistema-em-porto-alegre-cmu7btosv021m014x6fqut7lz.html
+2026-09-21 13:53:50 [INFO] Título: Empresa caxiense entrega ao Dmae equipamentos de R$ 3,9 milhões para reforçar sistema ... - GZH
+2026-09-21 13:53:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:53:51 [INFO] Classificação: nao_enviar
+2026-09-21 13:53:51 [INFO] Aguardando 2.62s...
+2026-09-21 13:53:53 [INFO] [5/24] ID: https://www.metropoles.com/colunas/ramiro-brites/icms-casas-bahia-advogados
+2026-09-21 13:53:53 [INFO] Título: ICMS: Casas Bahia nega propina e diz que advogado não presta mais serviço - Metrópoles
+2026-09-21 13:53:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:53:54 [INFO] Classificação: nao_enviar
+2026-09-21 13:53:54 [INFO] Aguardando 2.75s...
+2026-09-21 13:53:56 [INFO] [6/24] ID: https://www.cnnbrasil.com.br/infra/holding-da-safira-aprovou-cisao-antes-da-cautelar-das-comercializadoras/
+2026-09-21 13:53:56 [INFO] Título: Holding da Safira aprovou cisão antes da cautelar das comercializadoras - CNN Brasil
+2026-09-21 13:53:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:53:57 [INFO] Classificação: nao_enviar
+2026-09-21 13:53:57 [INFO] Aguardando 2.62s...
+2026-09-21 13:53:59 [INFO] [7/24] ID: https://www.ojacare.com.br/2026/09/21/justica-aceita-recuperacao-de-grupo-de-familia-de-agricultores-com-r-207-milhoes-em-dividas/
+2026-09-21 13:53:59 [INFO] Título: Justiça aceita <b>recuperação</b> de grupo de família de agricultores com R$ 207 milhões em dívidas
+2026-09-21 13:54:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:00 [INFO] Classificação: enviar
+2026-09-21 13:54:00 [INFO] Aguardando 2.63s...
+2026-09-21 13:54:02 [INFO] [8/24] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/09/21/sao-empresas-que-estao-ha-50-anos-no-mercado-dando-lucro-diz-advogado-sobre-onda-de-recuperacoes-judiciais.ghtml
+2026-09-21 13:54:02 [INFO] Título: 'São empresas que estão há 50 anos no mercado dando lucro', diz advogado sobre onda ...
+2026-09-21 13:54:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:03 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:03 [INFO] Aguardando 2.55s...
+2026-09-21 13:54:05 [INFO] [9/24] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/09/21/fundos-para-empresas-em-crise-ja-somam-r-17-bi-e-superam-recursos-para-negocios-em-expansao.ghtml
+2026-09-21 13:54:05 [INFO] Título: Fundos para empresas em crise já somam R$ 17 bi e superam recursos para negócios ... - O GLOBO
+2026-09-21 13:54:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:06 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:06 [INFO] Aguardando 2.63s...
+2026-09-21 13:54:08 [INFO] [10/24] ID: https://www.spacemoney.com.br/economia/eduardo-munhoz-recuperacoes-extrajudiciais-empresas/
+2026-09-21 13:54:08 [INFO] Título: Munhoz comanda nova safra de reestruturações no Brasil - SpaceMoney
+2026-09-21 13:54:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:09 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:09 [INFO] Aguardando 2.78s...
+2026-09-21 13:54:11 [INFO] [11/24] ID: https://braziljournal.com/eduardo-munhoz-o-homem-mais-ocupado-do-brasil/
+2026-09-21 13:54:11 [INFO] Título: Eduardo Munhoz, o homem mais ocupado do Brasil - Brazil Journal
+2026-09-21 13:54:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:12 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:12 [INFO] Aguardando 2.70s...
+2026-09-21 13:54:14 [INFO] [12/24] ID: https://valor.globo.com/impresso/noticia/2026/09/21/distribuidoras-de-medicamentos-sob-pressao.ghtml
+2026-09-21 13:54:14 [INFO] Título: Distribuidoras de medicamentos sob pressão | Impresso - Valor Econômico - Globo
+2026-09-21 13:54:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:15 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:15 [INFO] Aguardando 2.62s...
+2026-09-21 13:54:17 [INFO] [13/24] ID: https://valor.globo.com/empresas/noticia/2026/09/21/distribuidoras-de-remedios-sob-pressao.ghtml
+2026-09-21 13:54:17 [INFO] Título: Distribuidoras de remédios sob pressão | Empresas | Valor Econômico - Globo
+2026-09-21 13:54:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:18 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:18 [INFO] Aguardando 2.60s...
+2026-09-21 13:54:20 [INFO] [14/24] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/09/21/ig4-prepara-oferta-firme-pelo-controle-da-raizen.ghtml
+2026-09-21 13:54:20 [INFO] Título: IG4 prepara oferta firme pelo controle da Raízen - O GLOBO
+2026-09-21 13:54:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:21 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:21 [INFO] Aguardando 2.62s...
+2026-09-21 13:54:23 [INFO] [15/24] ID: https://oglobo.globo.com/google/amp/economia/negocios/noticia/2026/09/21/fundos-para-empresas-em-crise-ja-somam-r-17-bi-e-superam-recursos-para-negocios-em-expansao.ghtml
+2026-09-21 13:54:23 [INFO] Título: Fundos para empresas em crise já somam R$ 17 bi e superam recursos para negócios ... - O GLOBO
+2026-09-21 13:54:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:24 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:24 [INFO] Aguardando 2.59s...
+2026-09-21 13:54:26 [INFO] [16/24] ID: https://jmonline.com.br/geral/fraude-de-r-1-7-milh-o-contra-credores-termina-com-penas-de-ate-sete-anos-em-frutal-1.667163
+2026-09-21 13:54:26 [INFO] Título: Fraude de R$ 1,7 milhão contra credores termina com penas de até sete anos em Frutal
+2026-09-21 13:54:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:27 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:27 [INFO] Aguardando 2.78s...
+2026-09-21 13:54:29 [INFO] [17/24] ID: https://www.reportermt.com/cidades/grupo-dotto-enfrenta-recuperacao-com-r-1894-milhoes-em-creditos-listados/243826
+2026-09-21 13:54:29 [INFO] Título: Grupo Dotto enfrenta recuperação com R$ 189,4 milhões em créditos listados - ReporterMT
+2026-09-21 13:54:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:30 [INFO] Classificação: enviar
+2026-09-21 13:54:30 [INFO] Aguardando 2.66s...
+2026-09-21 13:54:32 [INFO] [18/24] ID: https://www.portaladesso.com.br/noticias/20100/predio-do-banco-do-brasil-em-bento-goncalves-vai-a-leilao-por-r-30-25-milhoes.html
+2026-09-21 13:54:32 [INFO] Título: Prédio do Banco do Brasil em Bento Gonçalves vai a leilão por R$ 30 milhões | Geral
+2026-09-21 13:54:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:33 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:33 [INFO] Aguardando 2.62s...
+2026-09-21 13:54:35 [INFO] [19/24] ID: https://www.capitalnews.com.br/opiniao/o-banco-master-e-seu-impacto-no-mundo-do-futebol/446884
+2026-09-21 13:54:35 [INFO] Título: O Banco Máster e seu impacto no mundo do futebol | Notícias de Campo Grande e MS
+2026-09-21 13:54:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:36 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:36 [INFO] Aguardando 2.61s...
+2026-09-21 13:54:38 [INFO] [20/24] ID: https://roraima1.com.br/pix-automatico-podera-ser-usado-em-contas-salario-a-partir-de-julho-de-2027/
+2026-09-21 13:54:38 [INFO] Título: Pix Automático poderá ser usado em contas salário a partir de julho de 2027 - Roraima 1
+2026-09-21 13:54:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:39 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:39 [INFO] Aguardando 2.09s...
+2026-09-21 13:54:41 [INFO] [21/24] ID: https://br.beincrypto.com/marcacao-fraude-pix-bloqueio-cinco-anos-resolucao-587/
+2026-09-21 13:54:41 [INFO] Título: Banco Central cria bloqueio de cinco anos para CPF marcado por fraude no Pix
+2026-09-21 13:54:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:42 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:42 [INFO] Aguardando 2.77s...
+2026-09-21 13:54:44 [INFO] [22/24] ID: https://viva.com.br/dinheiro/banco-central-muda-regras-do-pix-e-cria-novas-exigencias-contra-fraudes.html
+2026-09-21 13:54:44 [INFO] Título: Banco Central muda regras do Pix e cria novas exigências contra fraudes - Viva
+2026-09-21 13:54:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:45 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:45 [INFO] Aguardando 2.63s...
+2026-09-21 13:54:47 [INFO] [23/24] ID: https://www.bonde.com.br/bondenews/economia/banco-central-oficializa-novas-regras-do-pix-que-ja-entram-em-vigor-as-poucos
+2026-09-21 13:54:47 [INFO] Título: Banco Central oficializa novas regras do PIX que já entram em vigor as poucos - Bonde
+2026-09-21 13:54:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:48 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:48 [INFO] Aguardando 2.69s...
+2026-09-21 13:54:50 [INFO] [24/24] ID: https://www.bancarioscascavel.org.br/noticias/bc-anuncia-novas-regras-para-o-pix-veja-o-que-muda
+2026-09-21 13:54:50 [INFO] Título: BC anuncia novas regras para o Pix; veja o que muda
+2026-09-21 13:54:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 13:54:51 [INFO] Classificação: nao_enviar
+2026-09-21 13:54:51 [INFO] ======================================================================
+2026-09-21 13:54:51 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-21 13:54:51 [INFO] ======================================================================
+2026-09-21 13:54:51 [INFO] Processadas: 24
+2026-09-21 13:54:51 [INFO] Enviar: 3
+2026-09-21 13:54:51 [INFO] Não enviar: 21
+2026-09-21 13:54:51 [INFO] ======================================================================
