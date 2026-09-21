@@ -25646,3 +25646,271 @@
 2026-09-21 13:54:51 [INFO] Enviar: 3
 2026-09-21 13:54:51 [INFO] Não enviar: 21
 2026-09-21 13:54:51 [INFO] ======================================================================
+2026-09-21 19:15:51 [INFO] ======================================================================
+2026-09-21 19:15:51 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-21 19:15:51 [INFO] ======================================================================
+2026-09-21 19:15:51 [INFO] Notícias com status 'extraida': 51
+2026-09-21 19:15:51 [INFO] Limite: 20 requisições/minuto
+2026-09-21 19:15:51 [INFO] Intervalo mínimo: 3.0s
+2026-09-21 19:15:51 [INFO] ======================================================================
+2026-09-21 19:15:51 [INFO] [1/51] ID: https://jornaldebarueri.com.br/negocios/recuperacao-judicial-exige-diagnostico-antes-do-pedido
+2026-09-21 19:15:51 [INFO] Título: <b>Recuperação judicial</b> exige diagnóstico antes do pedido - Jornal de Barueri
+2026-09-21 19:15:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:15:52 [INFO] Classificação: enviar
+2026-09-21 19:15:52 [INFO] Aguardando 2.47s...
+2026-09-21 19:15:54 [INFO] [2/51] ID: https://www.terra.com.br/noticias/recuperacao-judicial-exige-diagnostico-antes-do-pedido,a9e140b5f631e730b4b7f1babaac9543jfekrv6o.html
+2026-09-21 19:15:54 [INFO] Título: <b>Recuperação judicial</b> exige diagnóstico antes do pedido - Terra
+2026-09-21 19:15:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:15:55 [INFO] Classificação: enviar
+2026-09-21 19:15:55 [INFO] Aguardando 2.75s...
+2026-09-21 19:15:57 [INFO] [3/51] ID: https://radardigitalbrasilia.com.br/noticias-corporativas-dino/324957-recuperacao-judicial-exige-diagnostico-antes-do-pedido/
+2026-09-21 19:15:57 [INFO] Título: <b>Recuperação judicial</b> exige diagnóstico antes do pedido - RADAR DIGITAL BRASÍLIA
+2026-09-21 19:15:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:15:58 [INFO] Classificação: enviar
+2026-09-21 19:15:58 [INFO] Aguardando 2.65s...
+2026-09-21 19:16:00 [INFO] [4/51] ID: https://www.justicaemfoco.com.br/noticias/defender-quem-defende-abracrim--33-anos
+2026-09-21 19:16:00 [INFO] Título: Defender quem defende: ABRACRIM, 33 anos - Justiça em Foco
+2026-09-21 19:16:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:01 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:01 [INFO] Aguardando 2.60s...
+2026-09-21 19:16:03 [INFO] [5/51] ID: https://m.supervasco.com/noticias/a-manifestacao-do-mp-sobre-financiamento-dip-e-venda-da-vasco-saf-456385.html
+2026-09-21 19:16:03 [INFO] Título: A manifestação do MP sobre financiamento DIP e venda da Vasco SAF - SuperVasco
+2026-09-21 19:16:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:04 [INFO] Classificação: enviar
+2026-09-21 19:16:04 [INFO] Aguardando 2.65s...
+2026-09-21 19:16:06 [INFO] [6/51] ID: https://www.youtube.com/watch?v=S-ZcnprZjeY
+2026-09-21 19:16:06 [INFO] Título: <b>Recuperação judicial</b> e alongamento da dívida ajudam produtores endividados - YouTube
+2026-09-21 19:16:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:07 [INFO] Classificação: enviar
+2026-09-21 19:16:07 [INFO] Aguardando 2.54s...
+2026-09-21 19:16:09 [INFO] [7/51] ID: https://www.terra.com.br/esportes/botafogo/textor-pede-dialogo-com-social-montenegro-porem-rechaca,856d3c990c73577de8ae59130637d801njtepanf.html
+2026-09-21 19:16:09 [INFO] Título: Textor pede diálogo com social. Montenegro, porém, rechaça - Terra
+2026-09-21 19:16:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:10 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:10 [INFO] Aguardando 2.65s...
+2026-09-21 19:16:12 [INFO] [8/51] ID: https://netvasco.com.br/n/393132/ministerio-publico-se-manifesta-sobre-financiamento-dip-e-venda-da-nova-saf-do-vasco
+2026-09-21 19:16:12 [INFO] Título: Ministério Público se manifesta sobre financiamento DIP e venda da nova SAF do Vasco
+2026-09-21 19:16:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:13 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:13 [INFO] Aguardando 2.63s...
+2026-09-21 19:16:15 [INFO] [9/51] ID: https://www.pontonacurva.com.br/ponto-central/tjmt-suspende-expediente-apos-sistemas-ficarem-fora-do-ar/35080
+2026-09-21 19:16:15 [INFO] Título: TJMT suspende expediente após sistemas ficarem fora do ar - Ponto na Curva
+2026-09-21 19:16:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:16 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:16 [INFO] Aguardando 2.55s...
+2026-09-21 19:16:18 [INFO] [10/51] ID: https://www.migalhas.com.br/quentes/464945/juiz-defere-recuperacao-judicial-apesar-de-pendencias-documentais
+2026-09-21 19:16:18 [INFO] Título: Juiz defere <b>recuperação judicial</b> apesar de pendências documentais - Migalhas
+2026-09-21 19:16:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:19 [INFO] Classificação: enviar
+2026-09-21 19:16:19 [INFO] Aguardando 2.68s...
+2026-09-21 19:16:21 [INFO] [11/51] ID: https://economia.uol.com.br/noticias/redacao/2026/09/21/cvm-aprova-opa-da-braskem.ghtm
+2026-09-21 19:16:21 [INFO] Título: CVM aprova oferta pública da Braskem após troca de controle acionário - UOL Economia
+2026-09-21 19:16:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:22 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:22 [INFO] Aguardando 2.66s...
+2026-09-21 19:16:24 [INFO] [12/51] ID: https://www.folhavitoria.com.br/politica/ministerio-da-justica-demite-eduardo-bolsonaro-por-abandono-de-cargo/
+2026-09-21 19:16:24 [INFO] Título: Ministério da Justiça demite Eduardo Bolsonaro por abandono de cargo - Folha Vitória
+2026-09-21 19:16:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:25 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:25 [INFO] Aguardando 2.67s...
+2026-09-21 19:16:27 [INFO] [13/51] ID: https://www.tribunanf.com.br/blogdoralfereis/2026/09/21/usinas-de-campos-aparecem-em-reportagem-sobre-vorcaro-entenda-a-ligacao/
+2026-09-21 19:16:27 [INFO] Título: Usinas de Campos aparecem em reportagem sobre Vorcaro: entenda a ligação - Blog do Ralfe Reis
+2026-09-21 19:16:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:28 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:28 [INFO] Aguardando 2.62s...
+2026-09-21 19:16:30 [INFO] [14/51] ID: https://www.moneytimes.com.br/braskem-brkm5-cvm-aprova-registro-de-opa-apos-mudanca-no-controle-lmrs/
+2026-09-21 19:16:30 [INFO] Título: Braskem (BRKM5): CVM aprova registro de OPA após mudança no controle - Money Times
+2026-09-21 19:16:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:31 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:31 [INFO] Aguardando 2.69s...
+2026-09-21 19:16:33 [INFO] [15/51] ID: https://www.coad.com.br/home/noticias-detalhe/139826/edital-permite-regularizar-debitos-de-icms-com-abatimento-de-precatorios-no-rio-grande-do-sul
+2026-09-21 19:16:33 [INFO] Título: Edital permite regularizar débitos de ICMS com abatimento de precatórios no Rio Grande do Sul
+2026-09-21 19:16:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:34 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:34 [INFO] Aguardando 2.73s...
+2026-09-21 19:16:36 [INFO] [16/51] ID: https://www.metropoles.com/ponto-de-vista/recuperacao-judicial-nao-cabe-em-slogan-por-jose-dirceu
+2026-09-21 19:16:36 [INFO] Título: <b>Recuperação judicial</b> não cabe em slogan (por José Dirceu) - Metrópoles
+2026-09-21 19:16:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:37 [INFO] Classificação: enviar
+2026-09-21 19:16:37 [INFO] Aguardando 2.64s...
+2026-09-21 19:16:39 [INFO] [17/51] ID: https://www.fogaonet.com/noticias-do-botafogo/botafogo-recebe-ligacao-del-valle-cobrando-us-500-mil-cristhian-loor-tenta-devolver-goleiro/
+2026-09-21 19:16:39 [INFO] Título: Botafogo recebe ligação do Del Valle cobrando US$ 500 mil por Cristhian Loor e tenta ...
+2026-09-21 19:16:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:40 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:40 [INFO] Aguardando 2.67s...
+2026-09-21 19:16:42 [INFO] [18/51] ID: https://estado.rs.gov.br/edital-permite-regularizacao-de-debitos-de-icms-com-possibilidade-de-abatimento-de-precatorios
+2026-09-21 19:16:42 [INFO] Título: Edital permite regularização de débitos de ICMS com possibilidade de abatimento de precatórios
+2026-09-21 19:16:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:43 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:43 [INFO] Aguardando 2.61s...
+2026-09-21 19:16:45 [INFO] [19/51] ID: https://www.migalhas.com.br/depeso/464741/credito-rural-rj-prorrogacao-e-revisional-configuram-bis-in-idem
+2026-09-21 19:16:45 [INFO] Título: Crédito rural: RJ, prorrogação e revisional configuram bis in idem? - Migalhas
+2026-09-21 19:16:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:46 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:46 [INFO] Aguardando 2.72s...
+2026-09-21 19:16:48 [INFO] [20/51] ID: https://www.jota.info/opiniao-e-analise/artigos/a-culpa-nao-e-do-mordomo-nem-das-bets
+2026-09-21 19:16:48 [INFO] Título: A culpa não é do mordomo, nem das bets - JOTA
+2026-09-21 19:16:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:49 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:49 [INFO] Aguardando 2.61s...
+2026-09-21 19:16:51 [INFO] [21/51] ID: https://valor.globo.com/empresas/noticia/2026/09/21/ig4-negocia-compra-de-dvida-da-razen-ligada-a-acar-e-etanol-dizem-fontes.ghtml
+2026-09-21 19:16:51 [INFO] Título: IG4 negocia compra de dívida da Raízen ligada a açúcar e etanol, dizem fontes | Empresas
+2026-09-21 19:16:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:52 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:52 [INFO] Aguardando 2.40s...
+2026-09-21 19:16:54 [INFO] [22/51] ID: https://investnews.com.br/negocios/gpa-casas-bahia-homologacao-recuperacao/
+2026-09-21 19:16:54 [INFO] Título: GPA rebate Casas Bahia e diz que demora para homologar <b>recuperação extrajudicial</b> pode ...
+2026-09-21 19:16:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:55 [INFO] Classificação: enviar
+2026-09-21 19:16:55 [INFO] Aguardando 2.66s...
+2026-09-21 19:16:57 [INFO] [23/51] ID: https://br.advfn.com/jornal/2026/09/raizen-raiz4-pode-ter-nova-oferta-da-ig4-a-credores-em-meio-a-divida-de-r-65-bilhoes
+2026-09-21 19:16:57 [INFO] Título: Raízen pode ter nova oferta da IG4 a credores em meio a dívida de R$ 65 bilhões
+2026-09-21 19:16:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:16:58 [INFO] Classificação: nao_enviar
+2026-09-21 19:16:58 [INFO] Aguardando 2.70s...
+2026-09-21 19:17:00 [INFO] [24/51] ID: https://investidor10.com.br/amp/noticias/braskem-brkm5-vai-deixar-a-bolsa-cvm-aprova-opa-apos-troca-de-comando-122751/
+2026-09-21 19:17:00 [INFO] Título: Braskem (BRKM5) vai deixar a Bolsa? CVM aprova OPA após troca de comando
+2026-09-21 19:17:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:01 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:01 [INFO] Aguardando 2.65s...
+2026-09-21 19:17:03 [INFO] [25/51] ID: https://businessmoment.com.br/ig4-mira-controle-da-raizen-e-prepara-oferta-para-credores/
+2026-09-21 19:17:03 [INFO] Título: IG4 mira controle da Raízen e prepara oferta para credores - Business Moment
+2026-09-21 19:17:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:04 [INFO] Classificação: enviar
+2026-09-21 19:17:04 [INFO] Aguardando 2.65s...
+2026-09-21 19:17:06 [INFO] [26/51] ID: https://al1.com.br/noticias/noticias/206659-braskem-reafirma-compromisso-com-maceio-e-destaca-relevancia-estrategica-de-alagoas-para-o-futuro-da-companhia
+2026-09-21 19:17:06 [INFO] Título: Braskem reafirma compromisso com Maceió e destaca relevância estratégica de Alagoas ... - AL1
+2026-09-21 19:17:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:08 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:08 [INFO] Aguardando 1.74s...
+2026-09-21 19:17:09 [INFO] [27/51] ID: https://sampi.net.br/piracicaba/noticias/3006033/cidade/2026/09/ig4-prepara-oferta-para-assumir-controle-da-raizen
+2026-09-21 19:17:09 [INFO] Título: IG4 prepara oferta para assumir controle da Raízen
+2026-09-21 19:17:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:11 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:11 [INFO] Aguardando 1.44s...
+2026-09-21 19:17:12 [INFO] [28/51] ID: https://www.midiajur.com.br/justica/justica-mira-notas-emitidas-em-intervalo-de-segundos-em-recuperacao-de-r-22-milhoes-da-fga/86893
+2026-09-21 19:17:12 [INFO] Título: Justiça mira notas emitidas em intervalo de segundos em <b>recuperação</b> de R$ 22 milhões da FGA
+2026-09-21 19:17:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:13 [INFO] Classificação: enviar
+2026-09-21 19:17:13 [INFO] Aguardando 2.56s...
+2026-09-21 19:17:15 [INFO] [29/51] ID: https://agoralitoral.com.br/2026/09/21/ig4-prepara-proposta-para-credores-da-raizen-e-busca-controle-acionario/
+2026-09-21 19:17:15 [INFO] Título: IG4 prepara proposta para credores da Raízen e busca controle acionário - Agora Litoral
+2026-09-21 19:17:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:16 [INFO] Classificação: enviar
+2026-09-21 19:17:16 [INFO] Aguardando 2.62s...
+2026-09-21 19:17:18 [INFO] [30/51] ID: https://www.infomoney.com.br/mercados/ig4-prepara-oferta-para-credores-da-raizen-raiz4-e-mira-controle-da-companhia/
+2026-09-21 19:17:18 [INFO] Título: IG4 prepara oferta para credores da Raízen (RAIZ4) e mira controle da companhia
+2026-09-21 19:17:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:19 [INFO] Classificação: enviar
+2026-09-21 19:17:19 [INFO] Aguardando 2.45s...
+2026-09-21 19:17:21 [INFO] [31/51] ID: https://www.mundosindical.com.br/Noticias/69959,Sindicato-acompanha-de-perto-pedido-de-recuperacao-do-GPA-e-demais-empresas-do-varejo
+2026-09-21 19:17:21 [INFO] Título: Sindicato acompanha de perto pedido de <b>recuperação</b> do GPA e demais empresas do varejo
+2026-09-21 19:17:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:22 [INFO] Classificação: enviar
+2026-09-21 19:17:22 [INFO] Aguardando 2.40s...
+2026-09-21 19:17:24 [INFO] [32/51] ID: https://gda.com/detalle-de-la-noticia/?article=6184162
+2026-09-21 19:17:24 [INFO] Título: Ig4 prepara oferta firme pelo controle da raízen | GDA – Grupo de Diarios América
+2026-09-21 19:17:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:25 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:25 [INFO] Aguardando 2.62s...
+2026-09-21 19:17:27 [INFO] [33/51] ID: https://www.seudinheiro.com/2026/empresas/braskem-brkm5-vai-deixar-a-b3-cvm-da-sinal-verde-para-opa-saiba-o-que-isso-significa-para-os-acionistas-minoritarios-da-petroquimica-miql/
+2026-09-21 19:17:27 [INFO] Título: Braskem (BRKM5) vai deixar a B3? CVM dá sinal verde para OPA. Saiba o que isso ...
+2026-09-21 19:17:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:30 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:30 [INFO] Aguardando 0.25s...
+2026-09-21 19:17:30 [INFO] [34/51] ID: https://oglobo.globo.com/patrocinado/dino/noticia/2026/09/21/recuperacao-judicial-exige-diagnostico-antes-do-pedido-1.ghtml
+2026-09-21 19:17:30 [INFO] Título: Recuperação <b>judicial</b> exige diagnóstico antes do pedido - O GLOBO
+2026-09-21 19:17:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:31 [INFO] Classificação: enviar
+2026-09-21 19:17:31 [INFO] Aguardando 2.85s...
+2026-09-21 19:17:33 [INFO] [35/51] ID: https://somoscolorados.com/nao-ha-saida-baldasso-defende-recuperacao-judicial-e-futura-saf-no-inter
+2026-09-21 19:17:33 [INFO] Título: “Não há saída”: Baldasso defende recuperação <b>judicial</b> e futura SAF no Inter
+2026-09-21 19:17:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:34 [INFO] Classificação: enviar
+2026-09-21 19:17:34 [INFO] Aguardando 2.57s...
+2026-09-21 19:17:36 [INFO] [36/51] ID: https://media.unisba.ac.id/c67b65ff/c25f166caASuESF3xGU
+2026-09-21 19:17:36 [INFO] Título: BRASKEM (BRKM5) Entrou Em RECUPERAÇÃO! O Que Acontece Agora? Manta Rays ...
+2026-09-21 19:17:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:37 [INFO] Classificação: enviar
+2026-09-21 19:17:37 [INFO] Aguardando 2.65s...
+2026-09-21 19:17:39 [INFO] [37/51] ID: https://www.g5news.com.br/geral/mabel-revela-dinheiro-da-prefeitura-no-banco-master-e-dispara-ainda-bem-que-eu-s
+2026-09-21 19:17:39 [INFO] Título: Mabel revela que Prefeitura de Goiânia tinha dinheiro no Banco Master e dispara
+2026-09-21 19:17:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:40 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:40 [INFO] Aguardando 2.66s...
+2026-09-21 19:17:42 [INFO] [38/51] ID: https://bmcnews.com.br/mercados/operacao-arena-entenda-o-fluxo-de-r-15-bilhao-investigado-no-caso-pixbet/
+2026-09-21 19:17:42 [INFO] Título: Operação Arena: entenda o fluxo de R$ 1,5 bilhão investigado no caso Pixbet - BM&C
+2026-09-21 19:17:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:43 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:43 [INFO] Aguardando 2.77s...
+2026-09-21 19:17:45 [INFO] [39/51] ID: https://jornalcontabil.com.br/noticia/banco-central-anuncia-nova-funcao-do-pix-a-ser-liberada-em-breve/
+2026-09-21 19:17:45 [INFO] Título: Banco Central anuncia nova função do Pix a ser liberada em breve - Jornal Contábil
+2026-09-21 19:17:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:46 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:46 [INFO] Aguardando 2.67s...
+2026-09-21 19:17:48 [INFO] [40/51] ID: https://economicnewsbrasil.com.br/2026/09/21/otto-lobo-na-cvm-vorcaro-multa-master/
+2026-09-21 19:17:48 [INFO] Título: Mensagens de Vorcaro sobre Otto Lobo na CVM surgem após multa de R$ 200 mi ao Master
+2026-09-21 19:17:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:49 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:49 [INFO] Aguardando 2.70s...
+2026-09-21 19:17:51 [INFO] [41/51] ID: https://www.jornaldosudoeste.com/banco-central-anuncia-novas-regras-para-o-pix-com-mudancas-contra-fraudes-e-novas-formas-de-cobranca/
+2026-09-21 19:17:51 [INFO] Título: Banco Central anuncia novas regras para o Pix, com mudanças contra fraudes e novas ...
+2026-09-21 19:17:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:52 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:52 [INFO] Aguardando 2.63s...
+2026-09-21 19:17:54 [INFO] [42/51] ID: https://www.spacemoney.com.br/economia/legislacao/bc-regras-pix-mudancas-2027/
+2026-09-21 19:17:54 [INFO] Título: Banco Central ajusta regras do Pix e mira 2027 - SpaceMoney
+2026-09-21 19:17:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:56 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:56 [INFO] Aguardando 1.76s...
+2026-09-21 19:17:57 [INFO] [43/51] ID: https://capitalist.com.br/pix-vai-mudar-de-novo-novas-regras-ja-comecam-a-valer-e-outras-chegam-em-2027/
+2026-09-21 19:17:57 [INFO] Título: Pix vai mudar de novo: novas regras já começam a valer e outras chegam em 2027
+2026-09-21 19:17:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:17:59 [INFO] Classificação: nao_enviar
+2026-09-21 19:17:59 [INFO] Aguardando 1.12s...
+2026-09-21 19:18:00 [INFO] [44/51] ID: https://ipiranoticias.com/economia/127974/governo-confirma-mudanca-nas-regras-do-pix-algumas-ja-vao-comecar-a-valer-agora-e-outras-somente-em-2027/
+2026-09-21 19:18:00 [INFO] Título: Governo confirma mudança nas regras do PIX: algumas já vão começar a valer agora e ...
+2026-09-21 19:18:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:18:01 [INFO] Classificação: nao_enviar
+2026-09-21 19:18:01 [INFO] Aguardando 2.56s...
+2026-09-21 19:18:03 [INFO] [45/51] ID: https://jornalgrandebahia.com.br/2026/09/celulares-de-daniel-vorcaro-tem-cerca-de-5-mil-itens-classificados-por-nudez-acervo-de-500-gb-amplia-escrutinio-no-caso-banco-master/
+2026-09-21 19:18:03 [INFO] Título: Celulares de Daniel Vorcaro têm cerca de 5 mil itens classificados por nudez - Jornal Grande Bahia
+2026-09-21 19:18:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:18:04 [INFO] Classificação: nao_enviar
+2026-09-21 19:18:04 [INFO] Aguardando 2.67s...
+2026-09-21 19:18:06 [INFO] [46/51] ID: https://pagina1news.com.br/pix-ganha-novas-barreiras-contra-golpes-cobranca-com-boleto-e-pagamento-automatico-em-conta-salario/
+2026-09-21 19:18:06 [INFO] Título: Pix ganha novas barreiras contra golpes, cobrança com boleto e pagamento automático em ...
+2026-09-21 19:18:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:18:07 [INFO] Classificação: nao_enviar
+2026-09-21 19:18:07 [INFO] Aguardando 2.61s...
+2026-09-21 19:18:09 [INFO] [47/51] ID: https://fastcompanybrasil.com/money/recebe-salario-conta-salario-pix-nova-funcao-a-partir-2027/
+2026-09-21 19:18:09 [INFO] Título: Recebe em conta-salário? Pix ganha nova função a partir de 2027 | Fast Company Brasil
+2026-09-21 19:18:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:18:10 [INFO] Classificação: nao_enviar
+2026-09-21 19:18:10 [INFO] Aguardando 2.71s...
+2026-09-21 19:18:12 [INFO] [48/51] ID: https://fenafisco.org.br/21/09/2026/pix-tera-novas-regras-para-fraudes-cobranca-hibrida-e-contas-salario/
+2026-09-21 19:18:12 [INFO] Título: Pix terá novas regras para fraudes, cobrança híbrida e contas-salário - Fenafisco
+2026-09-21 19:18:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:18:13 [INFO] Classificação: nao_enviar
+2026-09-21 19:18:13 [INFO] Aguardando 2.70s...
+2026-09-21 19:18:15 [INFO] [49/51] ID: https://93noticias.com.br/bc-altera-regras-do-pix-e-define-datas-para-contas/
+2026-09-21 19:18:15 [INFO] Título: BC altera regras do Pix e define datas para contas-salário e cobrança híbrida - 93 Notícias
+2026-09-21 19:18:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:18:16 [INFO] Classificação: nao_enviar
+2026-09-21 19:18:16 [INFO] Aguardando 2.76s...
+2026-09-21 19:18:18 [INFO] [50/51] ID: https://www.legisweb.com.br/legislacao/?id=501501
+2026-09-21 19:18:18 [INFO] Título: Resolução BCB Nº 587 DE 18/09/2026 - Federal - LegisWeb
+2026-09-21 19:18:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:18:19 [INFO] Classificação: nao_enviar
+2026-09-21 19:18:19 [INFO] Aguardando 2.67s...
+2026-09-21 19:18:21 [INFO] [51/51] ID: https://jornalgrandebahia.com.br/2026/09/video-mostra-ministro-alexandre-de-moraes-e-viviane-barci-em-jatinho-ligado-a-daniel-vorcaro-registro-confronta-negativa-anterior-e-amplia-escrutinio-no-caso-master/
+2026-09-21 19:18:21 [INFO] Título: Vídeo mostra ministro Alexandre de Moraes e Viviane Barci em jatinho ligado a Daniel Vorcaro
+2026-09-21 19:18:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 19:18:22 [INFO] Classificação: nao_enviar
+2026-09-21 19:18:22 [INFO] ======================================================================
+2026-09-21 19:18:22 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-21 19:18:22 [INFO] ======================================================================
+2026-09-21 19:18:22 [INFO] Processadas: 51
+2026-09-21 19:18:22 [INFO] Enviar: 16
+2026-09-21 19:18:22 [INFO] Não enviar: 35
+2026-09-21 19:18:22 [INFO] ======================================================================
