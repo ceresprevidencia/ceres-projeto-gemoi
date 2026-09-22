@@ -26105,3 +26105,51 @@
 2026-09-22 04:36:14 [INFO] Enviar: 4
 2026-09-22 04:36:14 [INFO] Não enviar: 3
 2026-09-22 04:36:14 [INFO] ======================================================================
+2026-09-22 09:49:14 [INFO] ======================================================================
+2026-09-22 09:49:14 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-22 09:49:14 [INFO] ======================================================================
+2026-09-22 09:49:14 [INFO] Notícias com status 'extraida': 7
+2026-09-22 09:49:14 [INFO] Limite: 20 requisições/minuto
+2026-09-22 09:49:14 [INFO] Intervalo mínimo: 3.0s
+2026-09-22 09:49:14 [INFO] ======================================================================
+2026-09-22 09:49:14 [INFO] [1/7] ID: https://www.terra.com.br/esportes/botafogo/botafogo-tenta-devolver-loor-ao-independiente-del-valle,6218782beee3c1a9cfec90f3ad3de9ffjxj6a7w9.html
+2026-09-22 09:49:14 [INFO] Título: Botafogo tenta devolver Loor ao Independiente Del Valle - Terra
+2026-09-22 09:49:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 09:49:14 [INFO] Classificação: nao_enviar
+2026-09-22 09:49:14 [INFO] Aguardando 2.70s...
+2026-09-22 09:49:17 [INFO] [2/7] ID: https://m.supervasco.com/noticias/advogado-fala-do-ponto-positivo-da-manifestacao-formal-do-mp-456415.html
+2026-09-22 09:49:17 [INFO] Título: Advogado fala do ponto positivo da manifestação formal do MP - SuperVasco
+2026-09-22 09:49:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 09:49:17 [INFO] Classificação: nao_enviar
+2026-09-22 09:49:17 [INFO] Aguardando 2.68s...
+2026-09-22 09:49:20 [INFO] [3/7] ID: https://acritica.net/economia/credores-cobram-aporte-de-us-3-bilhoes-da-petrobras-para-reestruturar-braskem/
+2026-09-22 09:49:20 [INFO] Título: Credores cobram aporte de US$ 3 bilhões da Petrobras para reestruturar Braskem
+2026-09-22 09:49:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 09:49:20 [INFO] Classificação: nao_enviar
+2026-09-22 09:49:20 [INFO] Aguardando 2.77s...
+2026-09-22 09:49:23 [INFO] [4/7] ID: https://www.infomoney.com.br/minhas-financas/conta-salario-boleto-com-qr-code-e-mais-como-as-mudancas-no-pix-afetam-o-dia-a-dia/
+2026-09-22 09:49:23 [INFO] Título: Conta-salário, boleto com QR Code e mais: como as mudanças no Pix afetam o dia a dia
+2026-09-22 09:49:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 09:49:23 [INFO] Classificação: nao_enviar
+2026-09-22 09:49:23 [INFO] Aguardando 2.79s...
+2026-09-22 09:49:26 [INFO] [5/7] ID: https://atlaspublico.com.br/noticias/ans-decreta-liquidacao-extrajudicial-da-univida-usa-88600
+2026-09-22 09:49:26 [INFO] Título: ANS decreta <b>liquidação extrajudicial</b> da Univida USA Operadora em Saúde - Atlas Público
+2026-09-22 09:49:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 09:49:26 [INFO] Classificação: enviar
+2026-09-22 09:49:26 [INFO] Aguardando 2.72s...
+2026-09-22 09:49:29 [INFO] [6/7] ID: https://www.correiobraziliense.com.br/economia/2026/09/7505457-banco-quebrou-entenda-como-funciona-o-fgc-e-o-que-acontece-com-o-dinheiro.html
+2026-09-22 09:49:29 [INFO] Título: Banco quebrou? Entenda como funciona o FGC e o que acontece com o dinheiro
+2026-09-22 09:49:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 09:49:29 [INFO] Classificação: nao_enviar
+2026-09-22 09:49:29 [INFO] Aguardando 2.82s...
+2026-09-22 09:49:32 [INFO] [7/7] ID: https://www.tribunadoagreste.com.br/politica/2026/09/21/982845-onde-estao-os-r-97-milhoes-liquidacao-do-master-transforma-investimento-do-iprev-em-credito-sujeito-ao-processo-do-banco
+2026-09-22 09:49:32 [INFO] Título: Onde estão os R$ 97 milhões? <b>Liquidação</b> do Master transforma investimento do Iprev em ...
+2026-09-22 09:49:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 09:49:32 [INFO] Classificação: enviar
+2026-09-22 09:49:32 [INFO] ======================================================================
+2026-09-22 09:49:32 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-22 09:49:32 [INFO] ======================================================================
+2026-09-22 09:49:32 [INFO] Processadas: 7
+2026-09-22 09:49:32 [INFO] Enviar: 2
+2026-09-22 09:49:32 [INFO] Não enviar: 5
+2026-09-22 09:49:32 [INFO] ======================================================================
