@@ -26153,3 +26153,126 @@
 2026-09-22 09:49:32 [INFO] Enviar: 2
 2026-09-22 09:49:32 [INFO] Não enviar: 5
 2026-09-22 09:49:32 [INFO] ======================================================================
+2026-09-22 14:38:31 [INFO] ======================================================================
+2026-09-22 14:38:31 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-22 14:38:31 [INFO] ======================================================================
+2026-09-22 14:38:31 [INFO] Notícias com status 'extraida': 22
+2026-09-22 14:38:31 [INFO] Limite: 20 requisições/minuto
+2026-09-22 14:38:31 [INFO] Intervalo mínimo: 3.0s
+2026-09-22 14:38:31 [INFO] ======================================================================
+2026-09-22 14:38:31 [INFO] [1/22] ID: https://investalk.bb.com.br/noticias/mercado/mercado-agora-22-09-26
+2026-09-22 14:38:31 [INFO] Título: Abertura | Ata do Copom e Lula na ONU ficam no radar do mercado hoje - BB InvesTalk
+2026-09-22 14:38:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:31 [INFO] Classificação: nao_enviar
+2026-09-22 14:38:31 [INFO] Aguardando 2.55s...
+2026-09-22 14:38:34 [INFO] [2/22] ID: https://www.rotajuridica.com.br/credores-precisam-agir-desde-o-inicio-em-processos-de-recuperacao-judicial-no-agronegocio-alerta-advogado/
+2026-09-22 14:38:34 [INFO] Título: Credores precisam agir desde o início em processos de <b>recuperação judicial</b> no ... - Rota Jurídica
+2026-09-22 14:38:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:34 [INFO] Classificação: enviar
+2026-09-22 14:38:34 [INFO] Aguardando 2.60s...
+2026-09-22 14:38:37 [INFO] [3/22] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/09/22/c0b8b664-movimento-falimentar.ghtml
+2026-09-22 14:38:37 [INFO] Título: Movimento falimentar | Empresas - Valor Econômico
+2026-09-22 14:38:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:37 [INFO] Classificação: nao_enviar
+2026-09-22 14:38:37 [INFO] Aguardando 2.53s...
+2026-09-22 14:38:40 [INFO] [4/22] ID: https://www.infomoney.com.br/mercados/bradsaude-jbs-axia-simpar-trackfield-e-mais-acoes-para-acompanhar-hoje/
+2026-09-22 14:38:40 [INFO] Título: Bradsaúde, JBS, Axia, Simpar, Track&Field e mais ações para acompanhar hoje
+2026-09-22 14:38:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:40 [INFO] Classificação: nao_enviar
+2026-09-22 14:38:40 [INFO] Aguardando 2.67s...
+2026-09-22 14:38:43 [INFO] [5/22] ID: https://investidor10.com.br/acoes/link_comunicado/AMER3/49643/
+2026-09-22 14:38:43 [INFO] Título: Americanas S.A. – Em <b>Recuperação Judicial</b> CNPJ/MF nº 00.776.574/0006-60 NIRE ...
+2026-09-22 14:38:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:43 [INFO] Classificação: enviar
+2026-09-22 14:38:43 [INFO] Aguardando 2.78s...
+2026-09-22 14:38:46 [INFO] [6/22] ID: https://diariodotransporte.com.br/2026/09/21/falencia-do-grupo-itapemirim-completa-quatro-anos-entre-pagamentos-a-trabalhadores-venda-de-patrimonio-e-disputa-pelas-linhas-de-onibus/
+2026-09-22 14:38:46 [INFO] Título: Falência do Grupo Itapemirim completa quatro anos entre pagamentos a trabalhadores ...
+2026-09-22 14:38:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:46 [INFO] Classificação: enviar
+2026-09-22 14:38:46 [INFO] Aguardando 2.63s...
+2026-09-22 14:38:49 [INFO] [7/22] ID: https://www.bloomberglinea.com.br/negocios/credores-da-braskem-cobram-injecao-de-us-3-bilhoes-de-petrobras-e-ig4-dizem-fontes/?outputType=amp
+2026-09-22 14:38:49 [INFO] Título: Credores da Braskem cobram injeção de US$ 3 bilhões de Petrobras e IG4, segundo fontes
+2026-09-22 14:38:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:49 [INFO] Classificação: nao_enviar
+2026-09-22 14:38:49 [INFO] Aguardando 2.54s...
+2026-09-22 14:38:52 [INFO] [8/22] ID: https://investnews.com.br/negocios/camille-faria-gestora-empresas-crise/
+2026-09-22 14:38:52 [INFO] Título: Depois de Americanas e Oi, Camille Faria entra no mercado de assumir empresas em crise ...
+2026-09-22 14:38:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:52 [INFO] Classificação: nao_enviar
+2026-09-22 14:38:52 [INFO] Aguardando 2.76s...
+2026-09-22 14:38:55 [INFO] [9/22] ID: https://www.estadao.com.br/amp/einvestidor/onde-investir/depois-de-braskem-e-casas-bahia-havera-mais-recuperacoes-judiciais/
+2026-09-22 14:38:55 [INFO] Título: Depois de Braskem e Casas Bahia, haverá mais recuperações <b>judiciais</b>? - Estadão
+2026-09-22 14:38:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:55 [INFO] Classificação: enviar
+2026-09-22 14:38:55 [INFO] Aguardando 2.42s...
+2026-09-22 14:38:58 [INFO] [10/22] ID: https://valor.globo.com/google/amp/impresso/noticia/2026/09/22/estrangeiros-avancam-com-varejo-em-crise.ghtml
+2026-09-22 14:38:58 [INFO] Título: Estrangeiros avançam com varejo em crise | Impresso - Valor Econômico
+2026-09-22 14:38:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:38:58 [INFO] Classificação: nao_enviar
+2026-09-22 14:38:58 [INFO] Aguardando 2.71s...
+2026-09-22 14:39:01 [INFO] [11/22] ID: https://olhardireto.com.br/noticias/juiz-decreta-falencia-de-familia-do-agro-mas-tj-restabelece-rj-de-r-238-milhoes
+2026-09-22 14:39:01 [INFO] Título: Juiz decreta falência de família do agro, mas TJ restabelece RJ de R$ 238 milhões
+2026-09-22 14:39:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:01 [INFO] Classificação: enviar
+2026-09-22 14:39:01 [INFO] Aguardando 2.73s...
+2026-09-22 14:39:04 [INFO] [12/22] ID: https://gironews.com/supermercado/gpa-rebate-credores-e-defende-homologacao-da-recuperacao-extrajudicial/
+2026-09-22 14:39:04 [INFO] Título: GPA rebate credores e defende homologação da <b>recuperação extrajudicial</b> - Giro News
+2026-09-22 14:39:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:04 [INFO] Classificação: enviar
+2026-09-22 14:39:04 [INFO] Aguardando 2.71s...
+2026-09-22 14:39:07 [INFO] [13/22] ID: https://gironews.com/supermercado/americanas-conclui-venda-de-quarta-loja-da-hortifruti-natural-da-terra-ao-oba/
+2026-09-22 14:39:07 [INFO] Título: Americanas conclui venda de quarta loja do Natural da Terra ao Oba Hortifruti - Giro News
+2026-09-22 14:39:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:07 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:07 [INFO] Aguardando 2.66s...
+2026-09-22 14:39:10 [INFO] [14/22] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/09/22/credores-da-braskem-pedem-us-3-bilhoes-a-controladores-da-empresa-diz-agencia.ghtml
+2026-09-22 14:39:10 [INFO] Título: Credores da Braskem pedem US$ 3 bilhões a controladores da empresa, diz agência
+2026-09-22 14:39:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:11 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:11 [INFO] Aguardando 1.40s...
+2026-09-22 14:39:13 [INFO] [15/22] ID: https://www.bloomberglinea.com.br/negocios/credores-da-braskem-cobram-injecao-de-us-3-bilhoes-de-petrobras-e-ig4-dizem-fontes/
+2026-09-22 14:39:13 [INFO] Título: Credores da Braskem cobram injeção de US$ 3 bilhões de Petrobras e IG4, segundo fontes
+2026-09-22 14:39:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:13 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:13 [INFO] Aguardando 2.69s...
+2026-09-22 14:39:16 [INFO] [16/22] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/09/22/na-crise-redes-estrangeiras-acirram-disputa-com-nacionais.ghtml
+2026-09-22 14:39:16 [INFO] Título: Na crise, redes estrangeiras acirram disputa com nacionais | Empresas | Valor Econômico
+2026-09-22 14:39:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:16 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:16 [INFO] Aguardando 2.73s...
+2026-09-22 14:39:19 [INFO] [17/22] ID: https://www.jota.info/opiniao-e-analise/artigos/seguranca-juridica-como-diferencial-pais-pode-tornar-credito-mais-competitivo
+2026-09-22 14:39:19 [INFO] Título: Segurança jurídica como diferencial: país pode tornar crédito mais competitivo - JOTA
+2026-09-22 14:39:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:20 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:20 [INFO] Aguardando 1.64s...
+2026-09-22 14:39:22 [INFO] [18/22] ID: https://jornalgrandebahia.com.br/2026/09/crise-no-stf-paralisa-novas-medidas-nos-casos-master-e-inss-pf-e-pgr-evitam-pedidos-e-defesas-cobram-revisao-de-prisoes/
+2026-09-22 14:39:22 [INFO] Título: Crise no STF paralisa novas medidas nos casos Master e INSS - Jornal Grande Bahia (JGB)
+2026-09-22 14:39:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:23 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:23 [INFO] Aguardando 2.08s...
+2026-09-22 14:39:25 [INFO] [19/22] ID: https://www.band.com.br/economia/novas-regras-para-o-pix-reforcam-combate-a-fraudes
+2026-09-22 14:39:25 [INFO] Título: Como as novas regras para o Pix reforçam combate a fraudes | Portal Bandeirantes
+2026-09-22 14:39:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:25 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:25 [INFO] Aguardando 2.42s...
+2026-09-22 14:39:28 [INFO] [20/22] ID: https://painelpolitico.com/o-celular-de-vorcaro-virou-radioativo-e-atinge-os-3-poderes
+2026-09-22 14:39:28 [INFO] Título: O celular de Vorcaro virou radioativo e atinge os 3 Poderes - Painel Político
+2026-09-22 14:39:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:28 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:28 [INFO] Aguardando 2.61s...
+2026-09-22 14:39:31 [INFO] [21/22] ID: https://www.guiamuriae.com.br/noticias/brasil/banco-central-permitira-pix-automatico-em-contas-salario-confira-outras-mudancas/
+2026-09-22 14:39:31 [INFO] Título: Banco Central permitirá Pix Automático em contas-salário; confira outras mudanças - Guia Muriaé
+2026-09-22 14:39:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:31 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:31 [INFO] Aguardando 2.60s...
+2026-09-22 14:39:34 [INFO] [22/22] ID: https://www.regiaonews.com.br/brasil/banco-central-permitira-pix-automatico-em-contas-salario-confira-outras-mudancas
+2026-09-22 14:39:34 [INFO] Título: Banco Central permitirá Pix Automático em contas-salário; confira outras mudanças
+2026-09-22 14:39:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 14:39:34 [INFO] Classificação: nao_enviar
+2026-09-22 14:39:34 [INFO] ======================================================================
+2026-09-22 14:39:34 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-22 14:39:34 [INFO] ======================================================================
+2026-09-22 14:39:34 [INFO] Processadas: 22
+2026-09-22 14:39:34 [INFO] Enviar: 6
+2026-09-22 14:39:34 [INFO] Não enviar: 16
+2026-09-22 14:39:34 [INFO] ======================================================================
