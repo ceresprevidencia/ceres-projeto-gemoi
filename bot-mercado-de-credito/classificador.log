@@ -26057,3 +26057,51 @@
 2026-09-21 23:11:31 [INFO] Enviar: 6
 2026-09-21 23:11:31 [INFO] Não enviar: 20
 2026-09-21 23:11:31 [INFO] ======================================================================
+2026-09-22 04:35:56 [INFO] ======================================================================
+2026-09-22 04:35:56 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-22 04:35:56 [INFO] ======================================================================
+2026-09-22 04:35:56 [INFO] Notícias com status 'extraida': 7
+2026-09-22 04:35:56 [INFO] Limite: 20 requisições/minuto
+2026-09-22 04:35:56 [INFO] Intervalo mínimo: 3.0s
+2026-09-22 04:35:56 [INFO] ======================================================================
+2026-09-22 04:35:56 [INFO] [1/7] ID: https://www.folhamax.com/economia/tj-cassa-decisao-de-juiz-e-retoma-recuperacao-de-grupo-do-agro-em-mt/573458
+2026-09-22 04:35:56 [INFO] Título: TJ cassa decisão de juiz e retoma <b>recuperação</b> de grupo do agro em MT - FOLHAMAX
+2026-09-22 04:35:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:35:56 [INFO] Classificação: enviar
+2026-09-22 04:35:56 [INFO] Aguardando 2.63s...
+2026-09-22 04:35:59 [INFO] [2/7] ID: https://www.otempo.com.br/economia/2026/9/21/grupo-pao-de-acucar-responde-mp-e-credores-e-reforca-pedido-de-recuperacao-extrajudicial
+2026-09-22 04:35:59 [INFO] Título: Grupo Pão de Açúcar responde MP e credores e reforça pedido de <b>recuperação</b> extrajudicial
+2026-09-22 04:35:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:35:59 [INFO] Classificação: enviar
+2026-09-22 04:35:59 [INFO] Aguardando 2.68s...
+2026-09-22 04:36:02 [INFO] [3/7] ID: https://matogrossoeconomico.com.br/politica-mato-grosso/eleicoes/botelho-defende-agricultura-familiar-regularizacao-fundiaria-e-industrializacao-como-prioridades-para-mt/
+2026-09-22 04:36:02 [INFO] Título: Botelho defende agricultura familiar, regularização fundiária e industrialização como ...
+2026-09-22 04:36:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:36:02 [INFO] Classificação: nao_enviar
+2026-09-22 04:36:02 [INFO] Aguardando 2.62s...
+2026-09-22 04:36:05 [INFO] [4/7] ID: https://eshoje.com.br/economia/2026/09/caso-apex-investidora-acusa-grupo-de-retirar-r-150-mil-de-projeto-imobiliario-e-pede-exclusao-de-empresa-da-recuperacao-judicial/
+2026-09-22 04:36:05 [INFO] Título: Caso Apex: Investidora acusa grupo de retirar R$ 150 mil de projeto imobiliário - ES HOJE
+2026-09-22 04:36:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:36:05 [INFO] Classificação: nao_enviar
+2026-09-22 04:36:05 [INFO] Aguardando 2.65s...
+2026-09-22 04:36:08 [INFO] [5/7] ID: https://debatejuridico.com.br/crise-no-agronegocio-qual-a-ferramenta-certa-para-o-produtor-recuperacao-judicial-ou-alongamento-da-divida/
+2026-09-22 04:36:08 [INFO] Título: Crise no agronegócio: qual a ferramenta certa para o produtor, <b>recuperação judicial</b> ou ...
+2026-09-22 04:36:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:36:08 [INFO] Classificação: enviar
+2026-09-22 04:36:08 [INFO] Aguardando 2.67s...
+2026-09-22 04:36:11 [INFO] [6/7] ID: https://www.estadao.com.br/economia/coluna-da-broad/credores-pedem-us-3-bi-em-aporte-da-petrobras-na-braskem-em-2-anos/
+2026-09-22 04:36:11 [INFO] Título: Credores pedem US$ 3 bi em aporte da Petrobras na Braskem em 2 anos - Estadão
+2026-09-22 04:36:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:36:11 [INFO] Classificação: nao_enviar
+2026-09-22 04:36:11 [INFO] Aguardando 2.82s...
+2026-09-22 04:36:14 [INFO] [7/7] ID: https://www.otempo.com.br/economia/2026/9/21/grupo-pao-de-acucar-responde-mp-e-credores-e-reforca-pedido-de-recuperacao-extrajudicial.amp
+2026-09-22 04:36:14 [INFO] Título: Grupo Pão de Açúcar responde MP e credores e reforça pedido de <b>recuperação extrajudicial</b>
+2026-09-22 04:36:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:36:14 [INFO] Classificação: enviar
+2026-09-22 04:36:14 [INFO] ======================================================================
+2026-09-22 04:36:14 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-22 04:36:14 [INFO] ======================================================================
+2026-09-22 04:36:14 [INFO] Processadas: 7
+2026-09-22 04:36:14 [INFO] Enviar: 4
+2026-09-22 04:36:14 [INFO] Não enviar: 3
+2026-09-22 04:36:14 [INFO] ======================================================================
