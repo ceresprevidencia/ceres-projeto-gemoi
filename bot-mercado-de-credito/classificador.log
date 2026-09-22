@@ -26276,3 +26276,140 @@
 2026-09-22 14:39:34 [INFO] Enviar: 6
 2026-09-22 14:39:34 [INFO] Não enviar: 16
 2026-09-22 14:39:34 [INFO] ======================================================================
+2026-09-22 18:43:37 [INFO] ======================================================================
+2026-09-22 18:43:37 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-22 18:43:37 [INFO] ======================================================================
+2026-09-22 18:43:37 [INFO] Notícias com status 'extraida': 25
+2026-09-22 18:43:37 [INFO] Limite: 20 requisições/minuto
+2026-09-22 18:43:37 [INFO] Intervalo mínimo: 3.0s
+2026-09-22 18:43:37 [INFO] ======================================================================
+2026-09-22 18:43:37 [INFO] [1/25] ID: https://www.migalhas.com.br/depeso/463507/as-alienacoes-judiciais-nos-processos-concursais-a-luz-do-provimento
+2026-09-22 18:43:37 [INFO] Título: As alienações <b>judiciais</b> nos processos concursais à luz do provimento CN-CNJ 255/26
+2026-09-22 18:43:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:43:38 [INFO] Classificação: enviar
+2026-09-22 18:43:38 [INFO] Aguardando 2.59s...
+2026-09-22 18:43:40 [INFO] [2/25] ID: https://sna.agr.br/fbda-debate-seguranca-juridica-no-agronegocio/
+2026-09-22 18:43:40 [INFO] Título: FBDA debate segurança jurídica no agronegócio - Sociedade Nacional de Agricultura
+2026-09-22 18:43:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:43:41 [INFO] Classificação: nao_enviar
+2026-09-22 18:43:41 [INFO] Aguardando 2.74s...
+2026-09-22 18:43:43 [INFO] [3/25] ID: https://investalk.bb.com.br/noticias/mercado/crise-da-braskem-brkm5-aperta-veja-o-que-esta-em-jogo
+2026-09-22 18:43:43 [INFO] Título: Crise da Braskem (BRKM5) aperta: veja o que está em jogo - BB InvesTalk
+2026-09-22 18:43:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:43:49 [INFO] Classificação: nao_enviar
+2026-09-22 18:43:49 [INFO] [4/25] ID: https://www.estadao.com.br/einvestidor/onde-investir/depois-de-braskem-e-casas-bahia-havera-mais-recuperacoes-judiciais/
+2026-09-22 18:43:49 [INFO] Título: Depois de Braskem e Casas Bahia, haverá mais recuperações <b>judiciais</b>? - Estadão
+2026-09-22 18:43:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:43:50 [INFO] Classificação: enviar
+2026-09-22 18:43:50 [INFO] Aguardando 2.50s...
+2026-09-22 18:43:52 [INFO] [5/25] ID: https://ge.globo.com/al/futebol/times/csa/noticia/2026/09/22/csa-sofre-bloqueio-de-contas-por-decisao-da-justica-do-trabalho-e-diz-que-vai-recorrer.ghtml
+2026-09-22 18:43:52 [INFO] Título: CSA sofre bloqueio de contas por decisão da Justiça do Trabalho e diz que vai recorrer | Ge
+2026-09-22 18:43:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:43:53 [INFO] Classificação: nao_enviar
+2026-09-22 18:43:53 [INFO] Aguardando 2.60s...
+2026-09-22 18:43:55 [INFO] [6/25] ID: https://www.capitalaberto.com.br/empresas/2026/09/blue-oak-arremata-concessao-da-queiroz-galvao-em-goias
+2026-09-22 18:43:55 [INFO] Título: BlueOak arremata concessão da Queiroz Galvão em Goiás - Capital Aberto
+2026-09-22 18:43:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:43:56 [INFO] Classificação: nao_enviar
+2026-09-22 18:43:56 [INFO] Aguardando 2.61s...
+2026-09-22 18:43:58 [INFO] [7/25] ID: https://www.noticiasagricolas.com.br/noticias/informe-publicitario/428382-a-manobra-da-mp-da-renegociacao-para-nao-ter-desgaste-politico-com-o-produtor-rural-o-governo-delegou-o-nao-para-o-banco.html
+2026-09-22 18:43:58 [INFO] Título: A manobra da MP da Renegociação. Para não ter desgaste político com o... - Notícias Agrícolas
+2026-09-22 18:43:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:43:58 [INFO] Classificação: nao_enviar
+2026-09-22 18:43:58 [INFO] Aguardando 2.77s...
+2026-09-22 18:44:01 [INFO] [8/25] ID: https://www.youtube.com/shorts/GJFEYVlh3M0
+2026-09-22 18:44:01 [INFO] Título: Santa Cruz president discusses the club's SAF and <b>judicial</b> reorganization - YouTube
+2026-09-22 18:44:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:01 [INFO] Classificação: enviar
+2026-09-22 18:44:01 [INFO] Aguardando 2.76s...
+2026-09-22 18:44:04 [INFO] [9/25] ID: https://www.tjsc.jus.br/web/imprensa/-/justica-determina-recuperacao-de-apps-as-margens-de-rios-em-sao-joao-batista?redirect=/
+2026-09-22 18:44:04 [INFO] Título: Justiça determina <b>recuperação</b> de APPs às margens de rios em São João Batista - TJSC
+2026-09-22 18:44:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:04 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:04 [INFO] Aguardando 2.75s...
+2026-09-22 18:44:07 [INFO] [10/25] ID: https://secrj.org.br/2026/09/22/assembleia-reajuste-salarial-lojas-americanas/
+2026-09-22 18:44:07 [INFO] Título: Assembleia de reajuste salarial nas Lojas Americanas será nesta quinta - SEC RJ
+2026-09-22 18:44:08 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:08 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:08 [INFO] Aguardando 2.66s...
+2026-09-22 18:44:10 [INFO] [11/25] ID: https://www.oliberal.com/colunas/carlos-ferreira/amp/acima-de-tudo-compromisso-de-honra-1.1171671
+2026-09-22 18:44:10 [INFO] Título: Acima de tudo, compromisso de honra | Carlos Ferreira - O Liberal
+2026-09-22 18:44:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:10 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:10 [INFO] Aguardando 2.76s...
+2026-09-22 18:44:13 [INFO] [12/25] ID: https://visaoagro.com.br/ig4-deve-apresentar-proposta-firme-por-creditos-da-raizen-em-ate-tres-semanas/
+2026-09-22 18:44:13 [INFO] Título: IG4 deve apresentar proposta firme por créditos da Raízen em até três semanas - Visão Agro
+2026-09-22 18:44:14 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:14 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:14 [INFO] Aguardando 2.59s...
+2026-09-22 18:44:16 [INFO] [13/25] ID: https://investnews.com.br/negocios/credores-da-braskem-exigem-us-3-bilhoes-dos-controladores-para-reestruturar-divida/
+2026-09-22 18:44:16 [INFO] Título: Credores da Braskem exigem US$ 3 bilhões dos controladores para reestruturar dívida
+2026-09-22 18:44:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:16 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:17 [INFO] Aguardando 2.70s...
+2026-09-22 18:44:19 [INFO] [14/25] ID: https://samais.com.br/publicacoes/gpa-rebate-contestacoes-da-casas-bahia-e-pede-homologacao-urgente-de-plano-de-recuperacao-extrajudicial
+2026-09-22 18:44:19 [INFO] Título: GPA rebate contestações da Casas Bahia e pede homologação urgente do plano de ...
+2026-09-22 18:44:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:20 [INFO] Classificação: enviar
+2026-09-22 18:44:20 [INFO] Aguardando 2.60s...
+2026-09-22 18:44:22 [INFO] [15/25] ID: https://www.rotajuridica.com.br/conselho-superior-do-mp-define-promocoes-e-remocoes-para-5-promotorias-de-justica-vagas/
+2026-09-22 18:44:22 [INFO] Título: Conselho Superior do MP define promoções e remoções para 5 Promotorias de Justiça vagas
+2026-09-22 18:44:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:22 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:22 [INFO] Aguardando 2.75s...
+2026-09-22 18:44:25 [INFO] [16/25] ID: https://csb.org.br/noticias/bc-autoriza-pix-automatico-contas-salario
+2026-09-22 18:44:25 [INFO] Título: BC autoriza Pix Automático em contas-salário e anuncia novas regras para o sistema
+2026-09-22 18:44:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:26 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:26 [INFO] Aguardando 2.66s...
+2026-09-22 18:44:28 [INFO] [17/25] ID: https://bncamazonas.com.br/flavio-bolsonaro-quer-governar-brasil/
+2026-09-22 18:44:28 [INFO] Título: Flávio Bolsonaro quer governar o Brasil ou reconstruir sua família? - BNC Amazonas
+2026-09-22 18:44:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:28 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:28 [INFO] Aguardando 2.76s...
+2026-09-22 18:44:31 [INFO] [18/25] ID: https://economia.ig.com.br/2026-09-22/ata-do-copom-atribui-corte-da-selic-a-desaceleracao-da-economia.html
+2026-09-22 18:44:31 [INFO] Título: Ata do Copom atribui corte da Selic à desaceleração da economia
+2026-09-22 18:44:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:32 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:32 [INFO] Aguardando 2.65s...
+2026-09-22 18:44:34 [INFO] [19/25] ID: https://caras.com.br/casa-dos-famosos/a-mansao-de-us-85-milhoes-de-daniel-vorcaro-veja-como-e-por-dentro.phtml
+2026-09-22 18:44:34 [INFO] Título: A mansão de US$ 85 milhões de Daniel Vorcaro: Veja como é por dentro - CARAS Brasil
+2026-09-22 18:44:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:34 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:34 [INFO] Aguardando 2.75s...
+2026-09-22 18:44:37 [INFO] [20/25] ID: https://sitepd.org.br/2026/09/22/bc-anuncia-mudancas-nas-regras-do-pix-e-libera-pix-automatico-em-contas-salario/
+2026-09-22 18:44:37 [INFO] Título: BC anuncia mudanças nas regras do Pix e libera Pix Automático em contas-salário
+2026-09-22 18:44:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:37 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:37 [INFO] Aguardando 2.74s...
+2026-09-22 18:44:40 [INFO] [21/25] ID: https://atarde.com.br/artigos/eu-e-as-golpistas-1402994
+2026-09-22 18:44:40 [INFO] Título: Eu e as golpistas | A TARDE
+2026-09-22 18:44:41 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:41 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:41 [INFO] Aguardando 2.64s...
+2026-09-22 18:44:43 [INFO] [22/25] ID: https://ver-o-fato.com.br/mendonca-pede-arquivamento-e-rebate-moraes-no-stf/
+2026-09-22 18:44:43 [INFO] Título: Mendonça pede arquivamento e rebate Moraes no STF - Portal de Notícias - Ver-o-Fato
+2026-09-22 18:44:44 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:44 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:44 [INFO] Aguardando 2.55s...
+2026-09-22 18:44:46 [INFO] [23/25] ID: https://istoedinheiro.com.br/bc-aprova-novas-regras-pix-seguranca-funcionalidades
+2026-09-22 18:44:46 [INFO] Título: BC aprova “novas regras” para Pix com foco em segurança - ISTOÉ DINHEIRO
+2026-09-22 18:44:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:46 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:46 [INFO] Aguardando 2.73s...
+2026-09-22 18:44:49 [INFO] [24/25] ID: https://jornalgrandebahia.com.br/2026/09/caso-master-contrato-de-r-427-milhoes-ligado-a-turma-do-kn-envolve-disputa-por-r-85-bilhoes-em-precatorios/
+2026-09-22 18:44:49 [INFO] Título: Caso Master: contrato de R$ 427 milhões ligado à “Turma do KN” envolve disputa por R$ 8 ...
+2026-09-22 18:44:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:49 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:49 [INFO] Aguardando 2.76s...
+2026-09-22 18:44:52 [INFO] [25/25] ID: https://tekimobile.com/noticia/novas-regras-do-pix-resolucao-bcb-587-conta-salario-cobranca-hibrida-fraude/
+2026-09-22 18:44:52 [INFO] Título: Novas regras do Pix: conta-salário, boleto com QR Code e marcação de fraude; veja o que muda
+2026-09-22 18:44:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 18:44:53 [INFO] Classificação: nao_enviar
+2026-09-22 18:44:53 [INFO] ======================================================================
+2026-09-22 18:44:53 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-22 18:44:53 [INFO] ======================================================================
+2026-09-22 18:44:53 [INFO] Processadas: 25
+2026-09-22 18:44:53 [INFO] Enviar: 4
+2026-09-22 18:44:53 [INFO] Não enviar: 21
+2026-09-22 18:44:53 [INFO] ======================================================================
