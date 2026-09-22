@@ -26413,3 +26413,116 @@
 2026-09-22 18:44:53 [INFO] Enviar: 4
 2026-09-22 18:44:53 [INFO] Não enviar: 21
 2026-09-22 18:44:53 [INFO] ======================================================================
+2026-09-22 21:57:48 [INFO] ======================================================================
+2026-09-22 21:57:48 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-22 21:57:48 [INFO] ======================================================================
+2026-09-22 21:57:48 [INFO] Notícias com status 'extraida': 20
+2026-09-22 21:57:48 [INFO] Limite: 20 requisições/minuto
+2026-09-22 21:57:48 [INFO] Intervalo mínimo: 3.0s
+2026-09-22 21:57:48 [INFO] ======================================================================
+2026-09-22 21:57:48 [INFO] [1/20] ID: https://euqueroinvestir.com/acoes/agora-ve-risco-maior-de-recuperacao-judicial-da-braskem-apos-pedido-dos-credores
+2026-09-22 21:57:48 [INFO] Título: Ágora vê risco maior de <b>recuperação judicial</b> da Braskem após pedido dos credores
+2026-09-22 21:57:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:57:49 [INFO] Classificação: enviar
+2026-09-22 21:57:49 [INFO] Aguardando 2.60s...
+2026-09-22 21:57:51 [INFO] [2/20] ID: https://guiadoinvestidor.com.br/mercado/amer3-americanas-vende-mais-uma-loja-da-hortifruti-e-acelera-pagamento-de-credores/
+2026-09-22 21:57:51 [INFO] Título: AMER3: Americanas vende mais uma loja da Hortifruti e acelera pagamento de credores
+2026-09-22 21:57:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:57:52 [INFO] Classificação: nao_enviar
+2026-09-22 21:57:52 [INFO] Aguardando 2.73s...
+2026-09-22 21:57:54 [INFO] [3/20] ID: https://valor.globo.com/patrocinado/pressworks/noticia/2026/09/22/recuperacao-extrajudicial-da-braskem-levanta-debate-sobre-alcance-da-reestruturacao-financeira-1.ghtml
+2026-09-22 21:57:54 [INFO] Título: <b>Recuperação</b> extrajudicial da Braskem levanta debate sobre alcance da reestruturação financeira
+2026-09-22 21:57:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:57:55 [INFO] Classificação: enviar
+2026-09-22 21:57:55 [INFO] Aguardando 2.76s...
+2026-09-22 21:57:57 [INFO] [4/20] ID: https://revistaanamaria.com.br/coluna-renata-rode/recuperacao-judicial-trabalhador-pode-ficar-sem-receber-especialista-explica-caso/
+2026-09-22 21:57:57 [INFO] Título: <b>Recuperação judicial</b>: trabalhador pode ficar sem receber? Especialista explica caso
+2026-09-22 21:57:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:57:58 [INFO] Classificação: enviar
+2026-09-22 21:57:58 [INFO] Aguardando 2.77s...
+2026-09-22 21:58:00 [INFO] [5/20] ID: https://obastidor.com.br/economia/fictor-sem-sigilo-bancario/
+2026-09-22 21:58:00 [INFO] Título: Fictor sem sigilo bancário - O Bastidor
+2026-09-22 21:58:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:01 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:01 [INFO] Aguardando 2.41s...
+2026-09-22 21:58:03 [INFO] [6/20] ID: https://acionista.com.br/americanas-amer3-conclui-venda-de-ativos-em-recuperacao-judicial/
+2026-09-22 21:58:03 [INFO] Título: Americanas (AMER3): Conclui venda de ativos em <b>recuperação judicial</b> - Acionista.com.br
+2026-09-22 21:58:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:04 [INFO] Classificação: enviar
+2026-09-22 21:58:04 [INFO] Aguardando 2.51s...
+2026-09-22 21:58:06 [INFO] [7/20] ID: https://conjur.com.br/2026-set-22/recuperacao-judicial-nao-e-salvo-conduto-para-quem-faz-do-calote-um-plano-de-negocios/
+2026-09-22 21:58:06 [INFO] Título: <b>Recuperação judicial</b>: calote não pode virar um plano de negócios - Conjur
+2026-09-22 21:58:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:07 [INFO] Classificação: enviar
+2026-09-22 21:58:07 [INFO] Aguardando 2.21s...
+2026-09-22 21:58:09 [INFO] [8/20] ID: https://www.theagribiz.com/credito-rural/sem-dividendos-fiagro-do-bradesco-tenta-conter-inadimplencia/
+2026-09-22 21:58:09 [INFO] Título: Sem dividendos, Fiagro do Bradesco tenta conter inadimplência - The AgriBiz
+2026-09-22 21:58:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:10 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:10 [INFO] Aguardando 2.74s...
+2026-09-22 21:58:12 [INFO] [9/20] ID: https://www.migalhas.com.br/depeso/465023/renegociacao-x-reestruturacao-o-que-a-mp-1-376-26-nao-resolve
+2026-09-22 21:58:12 [INFO] Título: Renegociação x reestruturação: O que a MP 1.376/26 não resolve para o produtor rural
+2026-09-22 21:58:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:13 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:13 [INFO] Aguardando 2.47s...
+2026-09-22 21:58:15 [INFO] [10/20] ID: https://www.jornaldocomercio.com/economia/2026/09/1263842-rio-grande-do-sul-e-o-segundo-estado-com-mais-empresas-em-recuperacao-judicial-no-brasil.html
+2026-09-22 21:58:15 [INFO] Título: Rio Grande do Sul é o segundo estado com mais empresas em <b>recuperação judicial</b> no Brasil
+2026-09-22 21:58:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:16 [INFO] Classificação: enviar
+2026-09-22 21:58:16 [INFO] Aguardando 2.70s...
+2026-09-22 21:58:18 [INFO] [11/20] ID: https://www.moneytimes.com.br/americanas-amer3-conclui-2o-fechamento-parcial-da-venda-de-lojas-da-hortifruti-natural-da-terra-em-sp-lmrs/
+2026-09-22 21:58:18 [INFO] Título: Americanas (AMER3) conclui 2º fechamento parcial da venda de ativos da Hortifruti Natural ...
+2026-09-22 21:58:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:19 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:19 [INFO] Aguardando 2.77s...
+2026-09-22 21:58:21 [INFO] [12/20] ID: https://francesnews.com.br/post/2026/09/26/40026-medidas-indevidas-csa-rebate-bloqueio-de-contas-e-anuncia-recurso-contra-decisao-da-justica-do-trabalho
+2026-09-22 21:58:21 [INFO] Título: CSA rebate bloqueio de contas e anuncia recurso contra decisão da Justiça do Trabalho
+2026-09-22 21:58:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:22 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:22 [INFO] Aguardando 2.56s...
+2026-09-22 21:58:24 [INFO] [13/20] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/09/22/credores-da-braskem-pedem-aporte-de-us-3-bi-de-acionistas-diz-agncia.ghtml
+2026-09-22 21:58:24 [INFO] Título: Credores da Braskem pedem aporte de US$ 3 bi de acionistas, diz agência | Empresas
+2026-09-22 21:58:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:25 [INFO] Classificação: enviar
+2026-09-22 21:58:25 [INFO] Aguardando 2.60s...
+2026-09-22 21:58:27 [INFO] [14/20] ID: https://tropicalfm99.com.br/noticia/recuperacao-judicial-ganha-forca-no-agro-e-acende-alerta-para-o-credito-rural
+2026-09-22 21:58:27 [INFO] Título: <b>Recuperação judicial</b> ganha força no agro e acende alerta para o crédito rural
+2026-09-22 21:58:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:28 [INFO] Classificação: enviar
+2026-09-22 21:58:28 [INFO] Aguardando 2.64s...
+2026-09-22 21:58:30 [INFO] [15/20] ID: https://jc.uol.com.br/blog-do-torcedor/santa-cruz/2026/09/22/ingressos-de-floresta-x-santa-cruz-ja-estao-a-venda-veja-valores-e-saiba-como-comprar.html
+2026-09-22 21:58:30 [INFO] Título: Ingressos de Floresta x Santa Cruz já estão à venda; veja valores e saiba como comprar
+2026-09-22 21:58:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:31 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:31 [INFO] Aguardando 2.73s...
+2026-09-22 21:58:33 [INFO] [16/20] ID: https://www.tnh1.com.br/noticia/nid/justica-determina-bloqueio-de-contas-e-receitas-do-csa-veja-o-que-diz-o-clube/
+2026-09-22 21:58:33 [INFO] Título: Justiça determina bloqueio de contas e receitas do CSA; veja o que diz o clube - TNH1
+2026-09-22 21:58:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:34 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:34 [INFO] Aguardando 2.68s...
+2026-09-22 21:58:36 [INFO] [17/20] ID: https://revistaoe.com.br/vale-adquire-30-por-cento-da-ligga/
+2026-09-22 21:58:36 [INFO] Título: Vale adquire 30% da Ligga por US$ 190 milhões
+2026-09-22 21:58:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:37 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:37 [INFO] Aguardando 2.77s...
+2026-09-22 21:58:39 [INFO] [18/20] ID: https://media.unisba.ac.id/7862aff5/2ad20143aoO8y2ntxv0
+2026-09-22 21:58:39 [INFO] Título: GPA Fecha Acordo Com Credores E Prevê Cortar Mais De 50% Da Dívida De R$ 4,57 Bi ...
+2026-09-22 21:58:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:40 [INFO] Classificação: enviar
+2026-09-22 21:58:40 [INFO] Aguardando 2.75s...
+2026-09-22 21:58:42 [INFO] [19/20] ID: https://www.otempo.com.br/economia/2026/9/21/industria-tem-pior-intencao-de-investimento-desde-a-pandemia
+2026-09-22 21:58:42 [INFO] Título: Indústria tem pior intenção de investimento desde a pandemia - O TEMPO
+2026-09-22 21:58:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:43 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:43 [INFO] Aguardando 2.63s...
+2026-09-22 21:58:45 [INFO] [20/20] ID: https://economia.ig.com.br/2026-09-22/ata-do-copom-atribui-corte-da-selic-a-desaceleracao-da-economia.html.amp
+2026-09-22 21:58:45 [INFO] Título: Ata do Copom atribui corte da Selic à desaceleração da economia
+2026-09-22 21:58:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 21:58:46 [INFO] Classificação: nao_enviar
+2026-09-22 21:58:46 [INFO] ======================================================================
+2026-09-22 21:58:46 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-22 21:58:46 [INFO] ======================================================================
+2026-09-22 21:58:46 [INFO] Processadas: 20
+2026-09-22 21:58:46 [INFO] Enviar: 9
+2026-09-22 21:58:46 [INFO] Não enviar: 11
+2026-09-22 21:58:46 [INFO] ======================================================================
