@@ -27066,3 +27066,136 @@
 2026-09-23 20:10:16 [INFO] Enviar: 5
 2026-09-23 20:10:16 [INFO] Não enviar: 21
 2026-09-23 20:10:16 [INFO] ======================================================================
+2026-09-23 23:34:26 [INFO] ======================================================================
+2026-09-23 23:34:26 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-23 23:34:26 [INFO] ======================================================================
+2026-09-23 23:34:26 [INFO] Notícias com status 'extraida': 24
+2026-09-23 23:34:26 [INFO] Limite: 20 requisições/minuto
+2026-09-23 23:34:26 [INFO] Intervalo mínimo: 3.0s
+2026-09-23 23:34:26 [INFO] ======================================================================
+2026-09-23 23:34:26 [INFO] [1/24] ID: https://nossopalestra.com.br/noticias/palmeiras-recebeu-r-246-milhoes-da-fictor-antes-de-rescindir-contrato-valor-devido-esta-na-recuperacao-judicial/
+2026-09-23 23:34:26 [INFO] Título: Palmeiras recebeu R$ 24,6 milhões da Fictor antes de rescindir contrato - Nosso Palestra
+2026-09-23 23:34:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:26 [INFO] Classificação: nao_enviar
+2026-09-23 23:34:26 [INFO] Aguardando 2.49s...
+2026-09-23 23:34:29 [INFO] [2/24] ID: https://economia.uol.com.br/noticias/redacao/2026/09/23/apex-partners-recuperacao-judicial-justica-decisao.ghtm
+2026-09-23 23:34:29 [INFO] Título: Juiz dá 10 dias para Grupo Apex mostrar dados e salvar <b>recuperação judicial</b>
+2026-09-23 23:34:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:29 [INFO] Classificação: enviar
+2026-09-23 23:34:29 [INFO] Aguardando 2.66s...
+2026-09-23 23:34:32 [INFO] [3/24] ID: https://oglobo.globo.com/blogs/diogo-dantas/coluna/2026/09/relatorio-aponta-passivo-de-r-35-bilhoes-no-botafogo-e-projecao-de-venda-de-atletas-em-2027.ghtml
+2026-09-23 23:34:32 [INFO] Título: Relatório aponta passivo de R$ 3,5 bilhões no Botafogo e projeção de venda de atletas em 2027
+2026-09-23 23:34:34 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:34 [INFO] Classificação: nao_enviar
+2026-09-23 23:34:34 [INFO] Aguardando 1.25s...
+2026-09-23 23:34:35 [INFO] [4/24] ID: https://investnews.com.br/negocios/braskem-credores-tentam-barrar-financiamento-idesa/
+2026-09-23 23:34:35 [INFO] Título: Credores tentam barrar financiamento da Braskem para Idesa - InvestNews
+2026-09-23 23:34:35 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:35 [INFO] Classificação: nao_enviar
+2026-09-23 23:34:35 [INFO] Aguardando 2.74s...
+2026-09-23 23:34:38 [INFO] [5/24] ID: https://valor.globo.com/financas/noticia/2026/09/23/percia-aponta-falhas-documentais-no-pedido-de-recuperao-judicial-da-gestora-apex.ghtml
+2026-09-23 23:34:38 [INFO] Título: Perícia aponta falhas documentais no pedido de <b>recuperação judicial</b> da gestora Apex
+2026-09-23 23:34:38 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:38 [INFO] Classificação: enviar
+2026-09-23 23:34:38 [INFO] Aguardando 2.61s...
+2026-09-23 23:34:41 [INFO] [6/24] ID: https://www.supervarejo.com.br/varejo/sv-ta-on-recuperacao-judicial-ganha-atencao-no-varejo-alimentar
+2026-09-23 23:34:41 [INFO] Título: SV TÁ ON: <b>recuperação judicial</b> ganha atenção no varejo alimentar | SuperVarejo
+2026-09-23 23:34:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:42 [INFO] Classificação: enviar
+2026-09-23 23:34:43 [INFO] Aguardando 1.32s...
+2026-09-23 23:34:44 [INFO] [7/24] ID: https://www.panrotas.com.br/mercado/transporte/2026/09/brightline-se-prepara-para-pedido-de-recuperacao-judicial-trens-devem-seguir-funcionando_232236.html
+2026-09-23 23:34:44 [INFO] Título: Brightline se prepara para pedido de <b>recuperação judicial</b>; trens devem seguir funcionando
+2026-09-23 23:34:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:45 [INFO] Classificação: enviar
+2026-09-23 23:34:45 [INFO] Aguardando 2.28s...
+2026-09-23 23:34:47 [INFO] [8/24] ID: https://www.jornaldocomercio.com/economia/2026/09/1264352-mp-sp-recomenda-congelar-aporte-de-mais-de-uss-400-mi-da-braskem-em-unidade-mexicana.html
+2026-09-23 23:34:47 [INFO] Título: MP-SP recomenda congelar aporte de mais de US$ 400 mi da Braskem em unidade mexicana
+2026-09-23 23:34:47 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:47 [INFO] Classificação: nao_enviar
+2026-09-23 23:34:47 [INFO] Aguardando 2.75s...
+2026-09-23 23:34:50 [INFO] [9/24] ID: https://www.agazeta.com.br/es/economia/laudo-aponta-pendencias-em-148-empresas-incluidas-na-recuperacao-judicial-da-apex-0926
+2026-09-23 23:34:50 [INFO] Título: Laudo aponta pendências em 148 empresas incluídas na <b>recuperação judicial</b> da Apex
+2026-09-23 23:34:50 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:50 [INFO] Classificação: enviar
+2026-09-23 23:34:50 [INFO] Aguardando 2.67s...
+2026-09-23 23:34:53 [INFO] [10/24] ID: https://valor.globo.com/empresas/noticia/2026/09/23/mpsp-recomenda-suspensao-da-reestruturacao-da-braskem-idesa-e-administrador-judicial-na-braskem.ghtml
+2026-09-23 23:34:53 [INFO] Título: MPSP recomenda suspensão da reestruturação da Braskem Idesa e administrador <b>judicial</b> ...
+2026-09-23 23:34:53 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:53 [INFO] Classificação: enviar
+2026-09-23 23:34:53 [INFO] Aguardando 2.75s...
+2026-09-23 23:34:56 [INFO] [11/24] ID: https://esbrasil.com.br/apex-148-empresas-documentos-faltantes/
+2026-09-23 23:34:56 [INFO] Título: Perícia cobra documentos de 148 empresas da Apex - Revista ES Brasil
+2026-09-23 23:34:56 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:56 [INFO] Classificação: nao_enviar
+2026-09-23 23:34:56 [INFO] Aguardando 2.79s...
+2026-09-23 23:34:59 [INFO] [12/24] ID: https://investidor10.com.br/noticias/fii-ve-inquilino-entrar-em-recuperacao-judicial-veja-como-ficam-os-dividendos-122803/
+2026-09-23 23:34:59 [INFO] Título: FII vê inquilino entrar em <b>recuperação judicial</b>; veja como ficam os dividendos - Investidor10
+2026-09-23 23:34:59 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:34:59 [INFO] Classificação: enviar
+2026-09-23 23:34:59 [INFO] Aguardando 2.52s...
+2026-09-23 23:35:02 [INFO] [13/24] ID: https://economia.ig.com.br/2026-09-23/casas-bahia-novo-leilao-com-fogao-391-reais-tvs-98-polegadas.html
+2026-09-23 23:35:02 [INFO] Título: Casas Bahia abre leilão com móveis a R$ 39 e fogão por R$ 391 - iG Economia
+2026-09-23 23:35:02 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:02 [INFO] Classificação: nao_enviar
+2026-09-23 23:35:02 [INFO] Aguardando 2.58s...
+2026-09-23 23:35:05 [INFO] [14/24] ID: https://www.estadao.com.br/economia/nao-ha-industria-de-precatorios-ha-uniao-infringindo-lei-diz-socio-de-gestora-de-ativos-judiciais/
+2026-09-23 23:35:05 [INFO] Título: Não há indústria de precatórios: há União infringindo lei, diz sócio de gestora de ativos judiciais
+2026-09-23 23:35:05 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:05 [INFO] Classificação: nao_enviar
+2026-09-23 23:35:05 [INFO] Aguardando 2.76s...
+2026-09-23 23:35:08 [INFO] [15/24] ID: https://mundoba.com.br/justica/disputa-por-controle-e-dividas-levam-oncoclinicas-a-recuperacao-extrajudicial-apos-queda-de-85-nas-acoes/
+2026-09-23 23:35:08 [INFO] Título: Disputa por controle e dívidas levam Oncoclínicas à <b>recuperação extrajudicial</b> após queda ...
+2026-09-23 23:35:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:10 [INFO] Classificação: enviar
+2026-09-23 23:35:10 [INFO] Aguardando 1.12s...
+2026-09-23 23:35:11 [INFO] [16/24] ID: https://dcomercio.com.br/publicacao/s/alta-nas-recuperacoes-judiciais-nao-sinaliza-crise-economica-mas-acende-alerta
+2026-09-23 23:35:11 [INFO] Título: Alta nas recuperações judiciais não sinaliza crise econômica, mas acende alerta
+2026-09-23 23:35:11 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:11 [INFO] Classificação: enviar
+2026-09-23 23:35:11 [INFO] Aguardando 2.69s...
+2026-09-23 23:35:14 [INFO] [17/24] ID: https://blogs.correiobraziliense.com.br/jusbraziliense/2026/09/23/devedor-contumaz-a-nova-qualificacao-que-impede-porta-da-recuperacao-judicial/
+2026-09-23 23:35:14 [INFO] Título: Devedor contumaz: a nova qualificação que impede porta da recuperação <b>judicial</b>
+2026-09-23 23:35:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:15 [INFO] Classificação: enviar
+2026-09-23 23:35:15 [INFO] Aguardando 1.83s...
+2026-09-23 23:35:17 [INFO] [18/24] ID: https://direitoce.com.br/parte-7-a-estabilidade-que-termina-onde-comeca-o-risco/
+2026-09-23 23:35:17 [INFO] Título: Parte 7 – A estabilidade que termina onde começa o risco - direitoce
+2026-09-23 23:35:17 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:17 [INFO] Classificação: nao_enviar
+2026-09-23 23:35:17 [INFO] Aguardando 2.45s...
+2026-09-23 23:35:20 [INFO] [19/24] ID: https://www.plantaobrasil.net/noticia/157102/banco-master-repassou-r-1-44-bi-em-precatorios-para-empresa-de-antonio-carlos
+2026-09-23 23:35:20 [INFO] Título: Banco Master repassou R$ 1,44 bi em precatórios para empresa de Antônio Carlos Freixo ...
+2026-09-23 23:35:20 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:20 [INFO] Classificação: nao_enviar
+2026-09-23 23:35:20 [INFO] Aguardando 2.63s...
+2026-09-23 23:35:23 [INFO] [20/24] ID: https://www.em.com.br/politica/2026/09/7507043-banco-master-quem-sao-as-pessoas-envolvidas-na-fraude-bilionaria.html
+2026-09-23 23:35:23 [INFO] Título: Banco Master: Quem são os envolvidas na fraude bilionária - Estado de Minas
+2026-09-23 23:35:23 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:23 [INFO] Classificação: nao_enviar
+2026-09-23 23:35:23 [INFO] Aguardando 2.66s...
+2026-09-23 23:35:26 [INFO] [21/24] ID: https://aratuon.com.br/economia/quando-pode-haver-cobranca-pelo-uso-do-pix-e-o-que-continua-de-graca-entenda-as-regras-do-banco-central/
+2026-09-23 23:35:26 [INFO] Título: Quando pode haver cobrança pelo uso do Pix e o que continua de graça? Entenda as ...
+2026-09-23 23:35:26 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:26 [INFO] Classificação: nao_enviar
+2026-09-23 23:35:26 [INFO] Aguardando 2.44s...
+2026-09-23 23:35:29 [INFO] [22/24] ID: https://portalrapmais.com/emicida-critica-tom-fofoca-escandalo-banco-master-faz-alerta-eleicoes/
+2026-09-23 23:35:29 [INFO] Título: Emicida critica tom de fofoca sobre escândalo do Banco Master e faz alerta sobre eleições
+2026-09-23 23:35:29 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:29 [INFO] Classificação: nao_enviar
+2026-09-23 23:35:29 [INFO] Aguardando 2.63s...
+2026-09-23 23:35:32 [INFO] [23/24] ID: https://www.brasil247.com/brasilia/banco-master-transferiu-r-144-bi-em-precatorios-para-empresa-de-delator-antes-de-liquidacao/
+2026-09-23 23:35:32 [INFO] Título: Banco Master transferiu R$ 1,44 bi em precatórios para empresa de delator antes de <b>liquidação</b>
+2026-09-23 23:35:32 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:32 [INFO] Classificação: enviar
+2026-09-23 23:35:32 [INFO] Aguardando 2.75s...
+2026-09-23 23:35:35 [INFO] [24/24] ID: https://arquivosa.com.br/mensagens-de-vorcaro-mostram-advogado-articulando-aproximacao-de-banqueiro-com-governo-estive-com-o-presidente-lula-longamente-ontem-vc-vai-gostar/
+2026-09-23 23:35:35 [INFO] Título: Mensagens de Vorcaro mostram advogado articulando aproximação de banqueiro com governo
+2026-09-23 23:35:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 23:35:36 [INFO] Classificação: nao_enviar
+2026-09-23 23:35:36 [INFO] ======================================================================
+2026-09-23 23:35:36 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-23 23:35:36 [INFO] ======================================================================
+2026-09-23 23:35:36 [INFO] Processadas: 24
+2026-09-23 23:35:36 [INFO] Enviar: 11
+2026-09-23 23:35:36 [INFO] Não enviar: 13
+2026-09-23 23:35:36 [INFO] ======================================================================
