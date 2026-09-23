@@ -26923,3 +26923,146 @@
 2026-09-23 16:45:03 [INFO] Enviar: 9
 2026-09-23 16:45:03 [INFO] Não enviar: 27
 2026-09-23 16:45:03 [INFO] ======================================================================
+2026-09-23 20:09:00 [INFO] ======================================================================
+2026-09-23 20:09:00 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-23 20:09:00 [INFO] ======================================================================
+2026-09-23 20:09:00 [INFO] Notícias com status 'extraida': 26
+2026-09-23 20:09:00 [INFO] Limite: 20 requisições/minuto
+2026-09-23 20:09:00 [INFO] Intervalo mínimo: 3.0s
+2026-09-23 20:09:00 [INFO] ======================================================================
+2026-09-23 20:09:00 [INFO] [1/26] ID: https://www.broadcast.com.br/news/mp-recomenda-congelar-aporte-da-braskem-em-unidade-mexicana/
+2026-09-23 20:09:00 [INFO] Título: MP recomenda congelar aporte da Braskem em unidade mexicana - Broadcast
+2026-09-23 20:09:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:01 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:01 [INFO] Aguardando 2.38s...
+2026-09-23 20:09:03 [INFO] [2/26] ID: https://www.pontonacurva.com.br/justica-estadual/tj-manda-credor-devolver-maquinario-apreendido-no-stay-period/35143
+2026-09-23 20:09:03 [INFO] Título: TJ manda credor devolver maquinário apreendido no stay period - Ponto na Curva
+2026-09-23 20:09:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:04 [INFO] Classificação: enviar
+2026-09-23 20:09:04 [INFO] Aguardando 2.57s...
+2026-09-23 20:09:06 [INFO] [3/26] ID: https://monitormercantil.com.br/saf-do-vasco-a-avenida-brasil-do-futebol/
+2026-09-23 20:09:06 [INFO] Título: SAF do Vasco: a Avenida Brasil do futebol | Monitor Mercantil
+2026-09-23 20:09:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:06 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:06 [INFO] Aguardando 2.70s...
+2026-09-23 20:09:09 [INFO] [4/26] ID: https://conjur.com.br/2026-set-23/banca-empresarial-exige-departamentos-altamente-especializados-diz-decio-freire/
+2026-09-23 20:09:09 [INFO] Título: Banca empresarial exige departamentos altamente especializados, diz Décio Freire
+2026-09-23 20:09:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:09 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:10 [INFO] Aguardando 2.65s...
+2026-09-23 20:09:12 [INFO] [5/26] ID: https://www.terra.com.br/esportes/botafogo/divida-real-do-botafogo-e-revelada-por-john-textor,1fccfc484eb63277e654d9546b879af8lk2gtndg.html
+2026-09-23 20:09:12 [INFO] Título: Dívida real do Botafogo é revelada por John Textor - Terra
+2026-09-23 20:09:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:12 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:13 [INFO] Aguardando 2.63s...
+2026-09-23 20:09:15 [INFO] [6/26] ID: https://trademap.com.br/noticias/news-8334791
+2026-09-23 20:09:15 [INFO] Título: Ásia termina o dia mista com Samsung em destaque por dividendos - TradeMap
+2026-09-23 20:09:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:15 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:15 [INFO] Aguardando 2.66s...
+2026-09-23 20:09:18 [INFO] [7/26] ID: https://economia.uol.com.br/noticias/redacao/2026/09/23/pericia-documentos-falas-recuperacao-judicial-apex-partners.ghtm
+2026-09-23 20:09:18 [INFO] Título: Perícia aponta falta de documentos em <b>recuperação judicial</b> da Apex Partners
+2026-09-23 20:09:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:18 [INFO] Classificação: enviar
+2026-09-23 20:09:19 [INFO] Aguardando 2.63s...
+2026-09-23 20:09:21 [INFO] [8/26] ID: https://www.tribunadosertao.com.br/geral/2026/09/23/984090-mp-sp-recomenda-congelar-aporte-de-mais-de-us-400-mi-da-braskem-em-unidade-mexicana
+2026-09-23 20:09:21 [INFO] Título: MP-SP recomenda congelar aporte de mais de US$ 400 mi da Braskem em unidade mexicana
+2026-09-23 20:09:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:22 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:22 [INFO] Aguardando 2.58s...
+2026-09-23 20:09:24 [INFO] [9/26] ID: https://agenciadcnews.com.br/publicacao/s/alta-nas-recuperacoes-judiciais-nao-sinaliza-crise-economica-mas-acende-alerta
+2026-09-23 20:09:24 [INFO] Título: Alta nas recuperações <b>judiciais</b> não sinaliza crise econômica, mas acende alerta
+2026-09-23 20:09:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:25 [INFO] Classificação: enviar
+2026-09-23 20:09:25 [INFO] Aguardando 2.58s...
+2026-09-23 20:09:27 [INFO] [10/26] ID: https://www.terra.com.br/esportes/gremio/gremio-fecha-acordo-com-novo-patrocinador-master,7a62db7652d10e661602b91882a674b6h58b7obi.html
+2026-09-23 20:09:27 [INFO] Título: Grêmio fecha acordo com novo patrocinador master - Terra
+2026-09-23 20:09:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:27 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:27 [INFO] Aguardando 2.77s...
+2026-09-23 20:09:30 [INFO] [11/26] ID: https://www.oabgo.org.br/em-sabatina-da-oab-go-marconi-perillo-se-compromete-a-discutir-punicao-a-servidores-que-violem-prerrogativas-da-advocacia/
+2026-09-23 20:09:30 [INFO] Título: Em sabatina da OAB-GO, Marconi Perillo se compromete a discutir punição a servidores ...
+2026-09-23 20:09:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:31 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:31 [INFO] Aguardando 2.61s...
+2026-09-23 20:09:33 [INFO] [12/26] ID: https://www.netvasco.com.br/n/393212/leilao-da-saf-mando-contra-o-boca-juniors-pela-sul-americana-e-ajustes-no-time-mobilizam-o-vasco-na-data-fifa
+2026-09-23 20:09:33 [INFO] Título: Leilão da SAF, mando contra o Boca Juniors pela Sul-Americana e ajustes no time ...
+2026-09-23 20:09:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:33 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:34 [INFO] Aguardando 2.62s...
+2026-09-23 20:09:36 [INFO] [13/26] ID: https://www1.folha.uol.com.br/mercado/2026/09/nova-regra-da-anac-limita-responsabilidade-de-aereas-por-atrasos-e-cancelamentos-de-voos.shtml
+2026-09-23 20:09:36 [INFO] Título: Nova regra da Anac limita responsabilidade de aéreas por atrasos e cancelamentos de voos - Folha
+2026-09-23 20:09:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:36 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:37 [INFO] Aguardando 2.65s...
+2026-09-23 20:09:39 [INFO] [14/26] ID: https://br.advfn.com/jornal/2026/09/braskem-mp-sp-pede-bloqueio-de-aporte-superior-a-us-400-milhoes-a-unidade-mexicana
+2026-09-23 20:09:39 [INFO] Título: Braskem: MP-SP pede bloqueio de aporte superior a US$ 400 milhões à unidade mexicana
+2026-09-23 20:09:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:40 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:40 [INFO] Aguardando 2.57s...
+2026-09-23 20:09:42 [INFO] [15/26] ID: https://www.moneytimes.com.br/braskem-brkm5-vira-alvo-de-disputa-mp-questiona-processo-e-credores-cobram-petrobras-petr4-e-ig4-lmrs/
+2026-09-23 20:09:42 [INFO] Título: Braskem (BRKM5): MP questiona processo e credores cobram Petrobras (PETR4) e IG4
+2026-09-23 20:09:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:43 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:43 [INFO] Aguardando 2.53s...
+2026-09-23 20:09:45 [INFO] [16/26] ID: https://www.dcomercio.com.br/publicacao/s/alta-nas-recuperacoes-judiciais-nao-sinaliza-crise-economica-mas-acende-alerta
+2026-09-23 20:09:45 [INFO] Título: Alta nas recuperações judiciais não sinaliza crise econômica, mas acende alerta
+2026-09-23 20:09:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:46 [INFO] Classificação: enviar
+2026-09-23 20:09:46 [INFO] Aguardando 2.59s...
+2026-09-23 20:09:48 [INFO] [17/26] ID: https://www.dgabc.com.br/Noticia/4348651/mp-sp-recomenda-congelar-aporte-de-mais-de-us-400-mi-da-braskem-em-unidade-mexicana
+2026-09-23 20:09:48 [INFO] Título: MP-SP recomenda congelar aporte de mais de US$ 400 mi da Braskem em unidade mexicana
+2026-09-23 20:09:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:49 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:49 [INFO] Aguardando 2.60s...
+2026-09-23 20:09:51 [INFO] [18/26] ID: https://debatejuridico.com.br/tag/carrefour/
+2026-09-23 20:09:51 [INFO] Título: carrefour Archives – Debate Jurídico
+2026-09-23 20:09:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:51 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:52 [INFO] Aguardando 2.63s...
+2026-09-23 20:09:54 [INFO] [19/26] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/09/23/crise-na-oncoclinicas-envolve-de-master-a-goldman-sachs-passando-pela-policia-de-sp-entenda.ghtml
+2026-09-23 20:09:54 [INFO] Título: Crise na Oncoclínicas envolve de Master a Goldman Sachs, passando pela polícia de SP; entenda
+2026-09-23 20:09:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:55 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:55 [INFO] Aguardando 2.58s...
+2026-09-23 20:09:57 [INFO] [20/26] ID: https://www.estadao.com.br/amp/einvestidor/cenarios-e-mercado/acao-da-braskem-sobe-22-mas-liquidez-despenca-e-risco-de-diluicao-chega-a-95/
+2026-09-23 20:09:57 [INFO] Título: Ação da Braskem sobe 22%, mas liquidez despenca e risco de diluição chega a 95%
+2026-09-23 20:09:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:09:57 [INFO] Classificação: nao_enviar
+2026-09-23 20:09:58 [INFO] Aguardando 2.65s...
+2026-09-23 20:10:00 [INFO] [21/26] ID: https://www.em.com.br/politica/2026/09/7506963-vorcaro-pediu-ajuda-para-bloquear-gleisi-e-mercadante-mostram-mensagens.html
+2026-09-23 20:10:00 [INFO] Título: Vorcaro pediu ajuda para 'bloquear' Gleisi e Mercadante, mostram mensagens - Estado de Minas
+2026-09-23 20:10:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:10:01 [INFO] Classificação: nao_enviar
+2026-09-23 20:10:01 [INFO] Aguardando 2.59s...
+2026-09-23 20:10:03 [INFO] [22/26] ID: https://timesbrasil.com.br/brasil/master-repassou-r-14-bilhao-em-precatorios-a-entre-investimentos-empresa-de-mineiro-um-mes-antes-do-banco-ser-liquidado/
+2026-09-23 20:10:03 [INFO] Título: Master repassou R$ 1,4 bilhão em precatórios à Entre Investimentos, empresa de Mineiro ...
+2026-09-23 20:10:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:10:04 [INFO] Classificação: nao_enviar
+2026-09-23 20:10:04 [INFO] Aguardando 2.62s...
+2026-09-23 20:10:06 [INFO] [23/26] ID: https://www.sindsep-pe.com.br/noticias-detalhe/governo-bolsonaro-afogado-em-um-mar-de-denuncias-de-corrupcao/16632
+2026-09-23 20:10:06 [INFO] Título: Governo Bolsonaro: afogado em um mar de denúncias de corrupção! - SINDSEP-PE
+2026-09-23 20:10:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:10:07 [INFO] Classificação: nao_enviar
+2026-09-23 20:10:07 [INFO] Aguardando 2.58s...
+2026-09-23 20:10:09 [INFO] [24/26] ID: https://www.terra.com.br/noticias/brasil/politica/indicado-por-temer-e-aprovado-por-55-senadores-relembre-como-foi-sabatina-que-levou-moraes-ao-stf,a52f81b01f2418567729866798c85371a199ukc8.html
+2026-09-23 20:10:09 [INFO] Título: Indicado por Temer e aprovado por 55 senadores: relembre como foi sabatina que levou ...
+2026-09-23 20:10:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:10:09 [INFO] Classificação: nao_enviar
+2026-09-23 20:10:09 [INFO] Aguardando 2.66s...
+2026-09-23 20:10:12 [INFO] [25/26] ID: https://www.folhape.com.br/noticia/amp/514330/master-transferiu-r-14-bi-em-precatorios-a-empresa-de-delator-um-mes/
+2026-09-23 20:10:12 [INFO] Título: Master transferiu R$ 1,4 bi em precatórios à empresa de delator um mês antes de ser liquidado
+2026-09-23 20:10:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:10:13 [INFO] Classificação: enviar
+2026-09-23 20:10:13 [INFO] Aguardando 2.57s...
+2026-09-23 20:10:15 [INFO] [26/26] ID: https://oabms.org.br/terca-juridica-promove-palestra-sobre-inventario-extrajudicial/
+2026-09-23 20:10:15 [INFO] Título: Terça Jurídica promove palestra sobre Inventário <b>Extrajudicial</b> - OABMS
+2026-09-23 20:10:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 20:10:15 [INFO] Classificação: nao_enviar
+2026-09-23 20:10:16 [INFO] ======================================================================
+2026-09-23 20:10:16 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-23 20:10:16 [INFO] ======================================================================
+2026-09-23 20:10:16 [INFO] Processadas: 26
+2026-09-23 20:10:16 [INFO] Enviar: 5
+2026-09-23 20:10:16 [INFO] Não enviar: 21
+2026-09-23 20:10:16 [INFO] ======================================================================
