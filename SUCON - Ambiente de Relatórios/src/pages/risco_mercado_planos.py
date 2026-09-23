@@ -39,11 +39,52 @@ colunas_map = {
     'VARIACAO_POSICAO_STRESS_1/POSICAO_%': 'Stress (+) %',
     'VARIACAO_POSICAO_STRESS_2': 'Stress (-) R$',
     'VARIACAO_POSICAO_STRESS_2/POSICAO_%':'Stress (-) %',
-    
-}
+
+    }
 
 # Seleciona e renomeia as colunas
 df_planos = df_planos[list(colunas_map.keys())].rename(columns=colunas_map)
+
+# Limites internos propostos (p95%) por plano, conforme Manual de Risco.
+# Identificadores brutos iguais aos usados em `_NOMES_PLANOS` (utils/helpers.py).
+LIMITES_INTERNOS_PROPOSTOS = {
+    "ABDI FlexCeres_CD": 4.22,
+    "Ceres Básico_BD": 4.81,
+    "Ceres FlexCeres_CV": 4.64,
+    "Cidasc FlexCeres_CV": 5.10,
+    "Emater DF FlexCeres_CV": 5.10,
+    "Emater MG Básico_BD": 2.44,
+    "Emater MG FlexCeres_CV": 5.36,
+    "Emater MG Saldado_BD": 5.30,
+    "Embrapa Básico_BD": 4.89,
+    "Embrapa FlexCeres_CV": 5.02,
+    "Epagri Básico_BD": 3.89,
+    "Epagri FlexCeres_CV": 5.17,
+    "Epagri Saldado_BD": 5.15,
+    "Epamig Básico_BD": 3.78,
+    "Epamig FlexCeres_CV": 4.64,
+    "Epamig Saldado_BD": 4.71,
+    "Família Ceres_CD": 1.90,
+    "PGA": 3.38,
+}
+
+# Sobrescreve o limite fixo de 1,00% vindo da query pelo limite proposto por plano.
+df_planos["Lim. Interno %"] = df_planos["Planos"].map(LIMITES_INTERNOS_PROPOSTOS).fillna(df_planos["Lim. Interno %"])
+
+# O plano "[CERES TOTAL]" (Consolidado) não tem limite proposto próprio: usa a média dos
+# limites dos demais planos, ponderada pela posição (R$) de cada um, por data de cotação.
+mask_planos_individuais = df_planos["Planos"] != "[CERES TOTAL]"
+
+limite_ponderado_por_data = df_planos.loc[mask_planos_individuais].groupby("DATA_COTACAO").apply(
+    lambda g: (g["Lim. Interno %"] * g["Posição R$"]).sum() / g["Posição R$"].sum()
+)
+
+df_planos.loc[~mask_planos_individuais, "Lim. Interno %"] = (
+    df_planos.loc[~mask_planos_individuais, "DATA_COTACAO"].map(limite_ponderado_por_data)
+)
+
+# Recalcula o status (% do limite consumido) com base no novo limite interno.
+df_planos["Status %"] = (df_planos["VaR %"] / df_planos["Lim. Interno %"]) * 100
 
 # Garante que DATA_COTACAO esteja como datetime
 df_planos["DATA_COTACAO"] = pd.to_datetime(

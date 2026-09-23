@@ -324,6 +324,7 @@ def gerar_tabela_html(
     rolagem: bool = False,
     altura_max: str = "420px",
     ordenacao: bool = False,
+    colunas_html: dict = None,
 ) -> str:
     """
     Gera uma tabela HTML no padrão visual do sistema.
@@ -342,6 +343,12 @@ def gerar_tabela_html(
             sem ordenação -> crescente -> decrescente -> sem ordenação
         - colunas numéricas ordenam numericamente;
         - demais colunas ordenam alfabeticamente.
+
+    colunas_html: dict opcional {nome_coluna: callable(row) -> str}.
+        Para as colunas listadas, o HTML retornado pela função é inserido
+        diretamente na célula (sem escapar e sem formatação automática),
+        permitindo destacar o valor com cor/ícone (ex.: seta de comparação).
+        A ordenação da coluna continua usando o valor original (não o HTML).
     """
 
     if df is None:
@@ -412,17 +419,21 @@ def gerar_tabela_html(
         for col in df.columns:
             valor = row[col]
 
-            if formatar_valores and isinstance(valor, Number) and not pd.isna(valor):
+            if colunas_html and col in colunas_html:
+                valor_fmt_html = colunas_html[col](row)
+            elif formatar_valores and isinstance(valor, Number) and not pd.isna(valor):
                 col_lower = str(col).lower()
 
                 if "r$" in col_lower or "%" in col_lower:
                     valor_fmt = fmt_br(valor, 2)
                 else:
                     valor_fmt = f"{valor:.2f}"
+
+                valor_fmt_html = _escape_html(valor_fmt)
             else:
                 valor_fmt = str(valor) if pd.notna(valor) else "—"
+                valor_fmt_html = _escape_html(valor_fmt)
 
-            valor_fmt_html = _escape_html(valor_fmt)
             valor_ordem_html = _escape_html(_valor_ordenacao(valor))
 
             html_tabela += (
@@ -456,6 +467,7 @@ def gerar_tabela_estilizada(
     rolagem: bool = False,
     altura_max: str = "420px",
     ordenacao: bool = False,
+    colunas_html: dict = None,
 ) -> str:
     """
     Mantém a função original retornando HTML.
@@ -471,6 +483,7 @@ def gerar_tabela_estilizada(
         rolagem=rolagem,
         altura_max=altura_max,
         ordenacao=ordenacao,
+        colunas_html=colunas_html,
     )
 
 
@@ -687,6 +700,7 @@ def renderizar_tabela_estilizada(
     altura_max: str = "420px",
     ordenacao: bool = False,
     key: str | None = None,
+    colunas_html: dict = None,
 ):
     """
     Função simples para chamar no app.
@@ -705,6 +719,7 @@ def renderizar_tabela_estilizada(
         rolagem=rolagem,
         altura_max=altura_max,
         ordenacao=ordenacao,
+        colunas_html=colunas_html,
     )
 
     if ordenacao:

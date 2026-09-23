@@ -845,7 +845,7 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                       "label": "Ativos",
                       "url": "/risco-mercado-ativos",
                       "tooltip": "Página em desenvolvimento.",
-                      "disabled": True,
+                      "disabled": False,
                   },
               ],
           },
