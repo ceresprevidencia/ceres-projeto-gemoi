@@ -26657,3 +26657,76 @@
 2026-09-23 05:48:28 [INFO] Enviar: 3
 2026-09-23 05:48:28 [INFO] Não enviar: 10
 2026-09-23 05:48:28 [INFO] ======================================================================
+2026-09-23 11:21:21 [INFO] ======================================================================
+2026-09-23 11:21:21 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-23 11:21:21 [INFO] ======================================================================
+2026-09-23 11:21:21 [INFO] Notícias com status 'extraida': 12
+2026-09-23 11:21:21 [INFO] Limite: 20 requisições/minuto
+2026-09-23 11:21:21 [INFO] Intervalo mínimo: 3.0s
+2026-09-23 11:21:21 [INFO] ======================================================================
+2026-09-23 11:21:21 [INFO] [1/12] ID: https://economia.uol.com.br/noticias/redacao/2026/09/23/credores-cobram-us-3-bi-de-petrobras-e-ig4-para-a-braskem.ghtm
+2026-09-23 11:21:21 [INFO] Título: Credores cobram US$ 3 bi de Petrobras e IG4 para a Braskem - UOL Economia
+2026-09-23 11:21:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:21 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:21 [INFO] Aguardando 2.62s...
+2026-09-23 11:21:24 [INFO] [2/12] ID: https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/09/22/casas-bahia-capta-368-milhoes-recuperacao-judicial
+2026-09-23 11:21:24 [INFO] Título: Casas Bahia capta R$ 368 milhões em meio à <b>recuperação judicial</b> - TV Sim Brasil
+2026-09-23 11:21:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:24 [INFO] Classificação: enviar
+2026-09-23 11:21:24 [INFO] Aguardando 2.54s...
+2026-09-23 11:21:27 [INFO] [3/12] ID: https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/09/22/desembargador-beneficiou-master-6-meses-antes-de-sua-mulher-fechar-contrato-com-vorcaro.htm
+2026-09-23 11:21:27 [INFO] Título: Desembargador beneficiou Master 6 meses antes de sua mulher fechar contrato com Vorcaro
+2026-09-23 11:21:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:27 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:27 [INFO] Aguardando 2.84s...
+2026-09-23 11:21:30 [INFO] [4/12] ID: https://agenciagbc.com/2026/09/22/recuperacao-judicial-vindo-ai-famosa-marca-de-oculos-brasileira-acumula-divida-de-r-500-milhoes-e-agora-busca-dinheiro-para-mudar-situacao-da-empresa/
+2026-09-23 11:21:30 [INFO] Título: Famosa marca brasileira de óculos deve R$ 500 milhões e tenta conseguir novo dinheiro ...
+2026-09-23 11:21:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:30 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:30 [INFO] Aguardando 2.69s...
+2026-09-23 11:21:33 [INFO] [5/12] ID: https://www.terra.com.br/noticias/brasil/politica/desembargador-beneficiou-master-6-meses-antes-de-sua-mulher-fechar-contrato-com-vorcaro,c174dfa5d475f6870849ecd408b798032hntmt92.html
+2026-09-23 11:21:33 [INFO] Título: Desembargador beneficiou Master 6 meses antes de sua mulher fechar contrato com Vorcaro - Terra
+2026-09-23 11:21:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:33 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:33 [INFO] Aguardando 2.61s...
+2026-09-23 11:21:36 [INFO] [6/12] ID: https://exame.com/invest/minhas-financas/casas-bahia-tem-novo-leilao-de-eletrodomesticos-com-lances-a-partir-de-r-400/
+2026-09-23 11:21:36 [INFO] Título: Casas Bahia tem novo leilão de eletrodomésticos com lances a partir de R$ 400 | Exame
+2026-09-23 11:21:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:36 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:36 [INFO] Aguardando 2.84s...
+2026-09-23 11:21:39 [INFO] [7/12] ID: https://folhadomate.com/noticias/geral/promocao-local-e-legal-do-grupo-folha-do-mate-tera-r-25-mil-em-premios/
+2026-09-23 11:21:39 [INFO] Título: Promoção Local é Legal, do Grupo Folha do Mate, terá R$ 25 mil em prêmios
+2026-09-23 11:21:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:39 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:39 [INFO] Aguardando 2.63s...
+2026-09-23 11:21:42 [INFO] [8/12] ID: https://tmc.com.br/politica/de-maneira-nenhuma-diz-vorcaro-ao-negar-intencao-de-fugir-do-pais/
+2026-09-23 11:21:42 [INFO] Título: “De maneira nenhuma”, diz Vorcaro ao negar intenção de fugir do país - TMC
+2026-09-23 11:21:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:42 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:42 [INFO] Aguardando 2.73s...
+2026-09-23 11:21:45 [INFO] [9/12] ID: https://diario.dopovo.com.br/2026/09/23/mensagens-mostram-advogado-de-vorcaro-articulando-contato-com-lula-2/
+2026-09-23 11:21:45 [INFO] Título: Mensagens mostram advogado de Vorcaro articulando contato com Lula | Diário do Povo
+2026-09-23 11:21:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:45 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:45 [INFO] Aguardando 2.77s...
+2026-09-23 11:21:48 [INFO] [10/12] ID: https://agendadopoder.com.br/mensagens-de-vorcaro-relatam-articulacoes-para-aproximar-dono-do-master-do-governo-lula/
+2026-09-23 11:21:48 [INFO] Título: Mensagens de Vorcaro relatam articulações para aproximar dono do Master do governo Lula
+2026-09-23 11:21:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:48 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:48 [INFO] Aguardando 2.73s...
+2026-09-23 11:21:51 [INFO] [11/12] ID: https://atlaspublico.com.br/noticias/ans-mantem-suspensao-de-comercializacao-de-oito-produtos-da-88806
+2026-09-23 11:21:51 [INFO] Título: ANS mantém suspensão de comercialização de oito produtos da Integra Assistência Médica
+2026-09-23 11:21:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:51 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:51 [INFO] Aguardando 2.66s...
+2026-09-23 11:21:54 [INFO] [12/12] ID: https://atlaspublico.com.br/noticias/ans-determina-alienacao-da-carteira-e-suspende-venda-de-88788
+2026-09-23 11:21:54 [INFO] Título: ANS determina alienação da carteira e suspende venda de planos da Integra Assistência Médica
+2026-09-23 11:21:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 11:21:54 [INFO] Classificação: nao_enviar
+2026-09-23 11:21:54 [INFO] ======================================================================
+2026-09-23 11:21:54 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-23 11:21:54 [INFO] ======================================================================
+2026-09-23 11:21:54 [INFO] Processadas: 12
+2026-09-23 11:21:54 [INFO] Enviar: 1
+2026-09-23 11:21:54 [INFO] Não enviar: 11
+2026-09-23 11:21:54 [INFO] ======================================================================
