@@ -26526,3 +26526,56 @@
 2026-09-22 21:58:46 [INFO] Enviar: 9
 2026-09-22 21:58:46 [INFO] Não enviar: 11
 2026-09-22 21:58:46 [INFO] ======================================================================
+2026-09-23 00:20:21 [INFO] ======================================================================
+2026-09-23 00:20:21 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-23 00:20:21 [INFO] ======================================================================
+2026-09-23 00:20:21 [INFO] Notícias com status 'extraida': 8
+2026-09-23 00:20:21 [INFO] Limite: 20 requisições/minuto
+2026-09-23 00:20:21 [INFO] Intervalo mínimo: 3.0s
+2026-09-23 00:20:21 [INFO] ======================================================================
+2026-09-23 00:20:21 [INFO] [1/8] ID: https://www.folhape.com.br/politica/desembargador-beneficiou-master-6-meses-antes-de-sua-mulher-fechar/514183/
+2026-09-23 00:20:21 [INFO] Título: Desembargador beneficiou Master 6 meses antes de sua mulher fechar contrato com Vorcaro
+2026-09-23 00:20:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 00:20:22 [INFO] Classificação: nao_enviar
+2026-09-23 00:20:22 [INFO] Aguardando 1.68s...
+2026-09-23 00:20:24 [INFO] [2/8] ID: https://valor.globo.com/financas/noticia/2026/09/22/justica-quebra-sigilo-bancario-de-ceo-e-ex-socio-da-fictor-em-processo-fora-da-recuperacao-judicial.ghtml
+2026-09-23 00:20:24 [INFO] Título: Justiça quebra sigilo bancário do CEO e de ex-sócio do Fictor em processo fora da ...
+2026-09-23 00:20:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 00:20:25 [INFO] Classificação: nao_enviar
+2026-09-23 00:20:25 [INFO] Aguardando 2.14s...
+2026-09-23 00:20:27 [INFO] [3/8] ID: https://revistapegn.globo.com/google/amp/conteudo-de-marca/pressworks/noticia/2026/09/recuperacao-extrajudicial-da-braskem-levanta-debate-sobre-alcance-da-reestruturacao-financeira-1.ghtml
+2026-09-23 00:20:27 [INFO] Título: <b>Recuperação extrajudicial</b> da Braskem levanta debate sobre alcance da reestruturação financeira
+2026-09-23 00:20:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 00:20:28 [INFO] Classificação: enviar
+2026-09-23 00:20:28 [INFO] Aguardando 2.22s...
+2026-09-23 00:20:30 [INFO] [4/8] ID: https://www.estadao.com.br/politica/blog-do-fausto-macedo/desembargador-beneficiou-master-6-meses-antes-de-sua-mulher-fechar-contrato-de-r-427-mi-com-vorcaro/
+2026-09-23 00:20:30 [INFO] Título: Desembargador beneficiou Master 6 meses antes de sua mulher fechar contrato de R$ 427 ...
+2026-09-23 00:20:31 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 00:20:31 [INFO] Classificação: nao_enviar
+2026-09-23 00:20:31 [INFO] Aguardando 2.11s...
+2026-09-23 00:20:33 [INFO] [5/8] ID: https://www.opovo.com.br/trends/pix-ganha-novas-regras-parte-ja-vale-agora-e-outras-mudancas-entram-em-vigor-ao-longo-de-2027/
+2026-09-23 00:20:33 [INFO] Título: Pix ganha novas regras: parte já vale agora e outras mudanças entram em vigor ao longo de 2027
+2026-09-23 00:20:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 00:20:33 [INFO] Classificação: nao_enviar
+2026-09-23 00:20:33 [INFO] Aguardando 2.35s...
+2026-09-23 00:20:36 [INFO] [6/8] ID: https://www.votunews.com.br/vem-novidade-por-ai-banco-central-lanca-novas-regras-e-funcoes-para-dar-um-up-no-pix/
+2026-09-23 00:20:36 [INFO] Título: Vem novidade por aí! Banco Central lança novas regras e funções para dar um 'up' no Pix
+2026-09-23 00:20:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 00:20:37 [INFO] Classificação: nao_enviar
+2026-09-23 00:20:37 [INFO] Aguardando 1.91s...
+2026-09-23 00:20:39 [INFO] [7/8] ID: https://www.cbngoiania.com.br/tarde-cbn/queda-no-credito-deve-esfriar-consumo-e-investimentos-no-proximo-ano-1.3459210
+2026-09-23 00:20:39 [INFO] Título: Queda no crédito deve esfriar consumo e investimentos no próximo ano - CBN Goiânia
+2026-09-23 00:20:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 00:20:40 [INFO] Classificação: nao_enviar
+2026-09-23 00:20:40 [INFO] Aguardando 1.97s...
+2026-09-23 00:20:42 [INFO] [8/8] ID: https://afnoticias.com.br/estado/justica-federal-derruba-exigencia-de-certidao-negativa-para-inventario-extrajudicial-em-cartorio
+2026-09-23 00:20:42 [INFO] Título: Justiça Federal derruba exigência de certidão negativa para inventário <b>extrajudicial</b> em cartório
+2026-09-23 00:20:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 00:20:43 [INFO] Classificação: nao_enviar
+2026-09-23 00:20:43 [INFO] ======================================================================
+2026-09-23 00:20:43 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-23 00:20:43 [INFO] ======================================================================
+2026-09-23 00:20:43 [INFO] Processadas: 8
+2026-09-23 00:20:43 [INFO] Enviar: 1
+2026-09-23 00:20:43 [INFO] Não enviar: 7
+2026-09-23 00:20:43 [INFO] ======================================================================
