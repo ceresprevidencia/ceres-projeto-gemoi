@@ -26579,3 +26579,81 @@
 2026-09-23 00:20:43 [INFO] Enviar: 1
 2026-09-23 00:20:43 [INFO] Não enviar: 7
 2026-09-23 00:20:43 [INFO] ======================================================================
+2026-09-23 05:47:51 [INFO] ======================================================================
+2026-09-23 05:47:51 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-23 05:47:51 [INFO] ======================================================================
+2026-09-23 05:47:51 [INFO] Notícias com status 'extraida': 13
+2026-09-23 05:47:51 [INFO] Limite: 20 requisições/minuto
+2026-09-23 05:47:51 [INFO] Intervalo mínimo: 3.0s
+2026-09-23 05:47:51 [INFO] ======================================================================
+2026-09-23 05:47:51 [INFO] [1/13] ID: https://www.terra.com.br/esportes/botafogo/textor-reabre-fogo-contra-o-social-e-vai-a-justica-roubo-a-luz-do-dia,77b1f1f2e04f7da2da87ad83d324a96ei4ky1zu5.html
+2026-09-23 05:47:51 [INFO] Título: Textor reabre fogo contra o social e vai à Justiça: "Roubo à luz do dia" - Terra
+2026-09-23 05:47:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:47:52 [INFO] Classificação: nao_enviar
+2026-09-23 05:47:52 [INFO] Aguardando 2.47s...
+2026-09-23 05:47:54 [INFO] [2/13] ID: https://jc.uol.com.br/blog-do-torcedor/santa-cruz/2026/09/22/presidente-do-santa-cruz-atualiza-situacao-da-saf-e-preve-avanco-na-recuperacao-judicial.html
+2026-09-23 05:47:54 [INFO] Título: Presidente do Santa Cruz atualiza situação da SAF e prevê avanço na <b>recuperação judicial</b>
+2026-09-23 05:47:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:47:55 [INFO] Classificação: enviar
+2026-09-23 05:47:55 [INFO] Aguardando 2.67s...
+2026-09-23 05:47:57 [INFO] [3/13] ID: https://megawhat.uol.com.br/economia-e-politica/empresas/abren-entra-em-disputa-judicial-sobre-usinas-de-recuperacao-energetica-em-sp/
+2026-09-23 05:47:57 [INFO] Título: Abren entra em disputa <b>judicial</b> sobre usinas de <b>recuperação</b> energética em SP - MegaWhat
+2026-09-23 05:47:58 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:47:58 [INFO] Classificação: nao_enviar
+2026-09-23 05:47:58 [INFO] Aguardando 2.55s...
+2026-09-23 05:48:00 [INFO] [4/13] ID: https://www.migalhas.com.br/quentes/465048/pela-1-vez-brasileira-vence-premio-internacional-de-insolvencia
+2026-09-23 05:48:00 [INFO] Título: Pela 1ª vez, brasileira vence prêmio internacional de insolvência - Migalhas
+2026-09-23 05:48:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:01 [INFO] Classificação: nao_enviar
+2026-09-23 05:48:01 [INFO] Aguardando 2.68s...
+2026-09-23 05:48:03 [INFO] [5/13] ID: https://www1.folha.uol.com.br/poder/2026/09/juiz-federal-deu-votos-pro-master-6-meses-antes-de-contrato-milionario-de-sua-esposa-com-banco-diz-jornal.shtml
+2026-09-23 05:48:03 [INFO] Título: Juiz deu votos pró-Master antes de contrato milionário - 22/09/2026 - Folha - UOL
+2026-09-23 05:48:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:04 [INFO] Classificação: nao_enviar
+2026-09-23 05:48:04 [INFO] Aguardando 2.71s...
+2026-09-23 05:48:06 [INFO] [6/13] ID: https://www.broadcast.com.br/ultimas-noticias/americanas-conclui-venda-de-10-lojas-do-natural-da-terra-por-us-693-milhoes/
+2026-09-23 05:48:06 [INFO] Título: Americanas conclui venda de 10 lojas do Natural da Terra por US$ 69,3 milhões - Broadcast
+2026-09-23 05:48:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:07 [INFO] Classificação: nao_enviar
+2026-09-23 05:48:07 [INFO] Aguardando 2.72s...
+2026-09-23 05:48:09 [INFO] [7/13] ID: https://www.fogaonet.com/noticias-do-botafogo/night-live-relatorio-recuperacao-judicial-mostra-divida-botafogo-r-35-bilhoes/
+2026-09-23 05:48:09 [INFO] Título: Relatório da <b>recuperação judicial</b> mostra dívida do Botafogo em R$ 3,5 bilhões | FogãoNET
+2026-09-23 05:48:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:10 [INFO] Classificação: enviar
+2026-09-23 05:48:10 [INFO] Aguardando 2.61s...
+2026-09-23 05:48:12 [INFO] [8/13] ID: https://diariodotransporte.com.br/2026/09/22/exclusivo-stj-mantem-camila-valdivia-entre-administradores-ligados-a-falencia-do-grupo-itapemirim-e-barra-recurso-ao-stf/amp/
+2026-09-23 05:48:12 [INFO] Título: EXCLUSIVO: STJ mantém Camila Valdivia entre administradores ligados à falência do ...
+2026-09-23 05:48:13 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:13 [INFO] Classificação: enviar
+2026-09-23 05:48:13 [INFO] Aguardando 2.59s...
+2026-09-23 05:48:15 [INFO] [9/13] ID: https://www.pressreader.com/brazil/o-estado-de-s-paulo/20260922/282016154239114
+2026-09-23 05:48:15 [INFO] Título: Tenda amplia aposta nas faixas mais altas do Minha Casa | O Estado de S. Paulo
+2026-09-23 05:48:16 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:16 [INFO] Classificação: nao_enviar
+2026-09-23 05:48:16 [INFO] Aguardando 2.66s...
+2026-09-23 05:48:18 [INFO] [10/13] ID: https://jovempan.com.br/politica/desembargador-beneficiou-master-6-meses-antes-de-sua-mulher-fechar-contrato-com-vorcaro/
+2026-09-23 05:48:18 [INFO] Título: Desembargador beneficiou Master 6 meses antes de sua mulher fechar contrato com Vorcaro
+2026-09-23 05:48:19 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:19 [INFO] Classificação: nao_enviar
+2026-09-23 05:48:19 [INFO] Aguardando 2.57s...
+2026-09-23 05:48:21 [INFO] [11/13] ID: https://www.brasil247.com/brasil/votos-de-desembargador-favoreceram-master-antes-de-escritorio-ligado-a-familia-fechar-contrato-de-r-427-mi-com-vorcaro/
+2026-09-23 05:48:21 [INFO] Título: Votos de desembargador favoreceram Master antes de escritório ligado à família fechar ...
+2026-09-23 05:48:22 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:22 [INFO] Classificação: nao_enviar
+2026-09-23 05:48:22 [INFO] Aguardando 2.62s...
+2026-09-23 05:48:24 [INFO] [12/13] ID: https://gazetanm.com.br/caso-banco-master-chega-ao-stf-e-amplia-crise-envolvendo-sistema-financeiro-autoridades-e-politica/
+2026-09-23 05:48:24 [INFO] Título: Caso Banco Master chega ao STF e amplia crise envolvendo sistema financeiro ...
+2026-09-23 05:48:25 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:25 [INFO] Classificação: nao_enviar
+2026-09-23 05:48:25 [INFO] Aguardando 2.76s...
+2026-09-23 05:48:27 [INFO] [13/13] ID: https://diario.dopovo.com.br/2026/09/23/mensagens-mostram-advogado-de-vorcaro-articulando-contato-com-lula/
+2026-09-23 05:48:27 [INFO] Título: Mensagens mostram advogado de Vorcaro articulando contato com Lula | Diário do Povo
+2026-09-23 05:48:28 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 05:48:28 [INFO] Classificação: nao_enviar
+2026-09-23 05:48:28 [INFO] ======================================================================
+2026-09-23 05:48:28 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-23 05:48:28 [INFO] ======================================================================
+2026-09-23 05:48:28 [INFO] Processadas: 13
+2026-09-23 05:48:28 [INFO] Enviar: 3
+2026-09-23 05:48:28 [INFO] Não enviar: 10
+2026-09-23 05:48:28 [INFO] ======================================================================
