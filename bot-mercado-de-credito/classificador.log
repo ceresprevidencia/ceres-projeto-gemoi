@@ -26730,3 +26730,196 @@
 2026-09-23 11:21:54 [INFO] Enviar: 1
 2026-09-23 11:21:54 [INFO] Não enviar: 11
 2026-09-23 11:21:54 [INFO] ======================================================================
+2026-09-23 16:43:18 [INFO] ======================================================================
+2026-09-23 16:43:18 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-23 16:43:18 [INFO] ======================================================================
+2026-09-23 16:43:18 [INFO] Notícias com status 'extraida': 36
+2026-09-23 16:43:18 [INFO] Limite: 20 requisições/minuto
+2026-09-23 16:43:18 [INFO] Intervalo mínimo: 3.0s
+2026-09-23 16:43:18 [INFO] ======================================================================
+2026-09-23 16:43:18 [INFO] [1/36] ID: https://www.seudinheiro.com/2026/bolsa-dolar/fundo-imobiliario-leva-calote-de-inquilino-em-recuperacao-judicial-entenda-o-impacto-no-bolso-dos-cotistas-davs/
+2026-09-23 16:43:18 [INFO] Título: Fundo imobiliário leva calote de inquilino em <b>recuperação judicial</b>; entenda o impacto no ...
+2026-09-23 16:43:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:18 [INFO] Classificação: enviar
+2026-09-23 16:43:18 [INFO] Aguardando 2.54s...
+2026-09-23 16:43:21 [INFO] [2/36] ID: https://www.espn.com.br/futebol/vasco/artigo/_/id/17293277/ex-jogadores-contestam-decisao-autorizou-emprestimo-lamacchia-tentam-suspender-criacao-nova-saf-vasco-justica
+2026-09-23 16:43:21 [INFO] Título: Ex-jogadores contestam decisão que autorizou empréstimo de Lamacchia e tentam ...
+2026-09-23 16:43:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:21 [INFO] Classificação: nao_enviar
+2026-09-23 16:43:21 [INFO] Aguardando 2.73s...
+2026-09-23 16:43:24 [INFO] [3/36] ID: https://www.comerciarios.org.br/Noticias/563095-Comerciarios-realizam-ato-na-Berrini-e-cobram-Casas-Bahia-pelo-pagamento-das-verbas-rescisorias
+2026-09-23 16:43:24 [INFO] Título: Comerciários realizam ato na Berrini e cobram Casas Bahia pelo pagamento das verbas rescisórias
+2026-09-23 16:43:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:24 [INFO] Classificação: nao_enviar
+2026-09-23 16:43:24 [INFO] Aguardando 2.79s...
+2026-09-23 16:43:27 [INFO] [4/36] ID: https://www.cnnbrasil.com.br/economia/seu-bolso/meu-dinheiro/casas-bahia-realiza-leilao-online-com-ate-82-de-desconto-veja-regras/
+2026-09-23 16:43:27 [INFO] Título: Casas Bahia realiza leilão online com até 82% de desconto; veja regras - CNN Brasil
+2026-09-23 16:43:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:27 [INFO] Classificação: nao_enviar
+2026-09-23 16:43:27 [INFO] Aguardando 2.65s...
+2026-09-23 16:43:30 [INFO] [5/36] ID: https://www.moneytimes.com.br/fundo-imobiliario-leva-calote-apos-locataria-entrar-em-recuperacao-judicial-contrato-representa-6-da-receita-do-fii-igdl/
+2026-09-23 16:43:30 [INFO] Título: Fundo imobiliário leva calote após locatária entrar em <b>recuperação judicial</b> - Money Times
+2026-09-23 16:43:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:30 [INFO] Classificação: enviar
+2026-09-23 16:43:30 [INFO] Aguardando 2.66s...
+2026-09-23 16:43:33 [INFO] [6/36] ID: https://convergenciadigital.com.br/mercado/oi-diz-ter-apenas-um-centavo-na-conta-e-sem-condicoes-de-pagar-1000-trabalhadores-demitidos/
+2026-09-23 16:43:33 [INFO] Título: Oi diz ter apenas um centavo na conta e sem condições de pagar 1000 trabalhadores demitidos
+2026-09-23 16:43:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:33 [INFO] Classificação: nao_enviar
+2026-09-23 16:43:33 [INFO] Aguardando 2.74s...
+2026-09-23 16:43:36 [INFO] [7/36] ID: https://revistaoeste.com/politica/desembargador-votou-a-favor-do-master-antes-de-sua-mulher-fechar-contrato-com-banco/
+2026-09-23 16:43:36 [INFO] Título: Desembargador votou a favor do Master antes de sua mulher fechar contrato com banco
+2026-09-23 16:43:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:36 [INFO] Classificação: nao_enviar
+2026-09-23 16:43:36 [INFO] Aguardando 2.66s...
+2026-09-23 16:43:39 [INFO] [8/36] ID: https://eshoje.com.br/economia/2026/09/pericia-aponta-irregularidades-em-148-empresas-e-complica-recuperacao-judicial-do-grupo-apex-partners/
+2026-09-23 16:43:39 [INFO] Título: Perícia aponta irregularidades em 148 empresas e complica <b>recuperação judicial</b> do grupo ...
+2026-09-23 16:43:40 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:40 [INFO] Classificação: enviar
+2026-09-23 16:43:40 [INFO] Aguardando 2.06s...
+2026-09-23 16:43:42 [INFO] [9/36] ID: https://atlaspublico.com.br/cvm/noticias/stj-suspende-assembleia-de-credores-do-grupo-ambipar-antes-88764
+2026-09-23 16:43:42 [INFO] Título: STJ suspende assembleia de credores do Grupo Ambipar antes da votação do plano
+2026-09-23 16:43:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:42 [INFO] Classificação: enviar
+2026-09-23 16:43:42 [INFO] Aguardando 2.56s...
+2026-09-23 16:43:45 [INFO] [10/36] ID: https://www.estadao.com.br/economia/negocios/ministerio-publico-recomenda-congelar-aporte-braskem-unidade-mexicana/
+2026-09-23 16:43:45 [INFO] Título: Ministério Público recomenda congelar aporte de mais de US$ 400 mi da Braskem em ...
+2026-09-23 16:43:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:45 [INFO] Classificação: nao_enviar
+2026-09-23 16:43:45 [INFO] Aguardando 2.67s...
+2026-09-23 16:43:48 [INFO] [11/36] ID: https://www.fogaonet.com/noticias-do-botafogo/saf-botafogo-afirma-nao-ha-acordo-vinculante-assinado-gda-luma-apenas-emprestimo/
+2026-09-23 16:43:48 [INFO] Título: SAF do Botafogo afirma que não há acordo vinculante assinado com GDA Luma, apenas ...
+2026-09-23 16:43:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:48 [INFO] Classificação: nao_enviar
+2026-09-23 16:43:48 [INFO] Aguardando 2.70s...
+2026-09-23 16:43:51 [INFO] [12/36] ID: https://diariodotransporte.com.br/2026/09/23/stj-impede-justica-do-trabalho-de-bloquear-bens-de-empresas-do-grupo-flecha-branca-que-inclui-viacao-criada-originalmente-pela-itapemirim/amp/
+2026-09-23 16:43:51 [INFO] Título: STJ impede Justiça do Trabalho de bloquear bens de empresas do Grupo Flecha Branca ...
+2026-09-23 16:43:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:51 [INFO] Classificação: nao_enviar
+2026-09-23 16:43:51 [INFO] Aguardando 2.65s...
+2026-09-23 16:43:54 [INFO] [13/36] ID: https://www.netvasco.com.br/n/393206/clubes-sauditas-sondam-situacao-de-cuiabano-mas-prioridade-do-lateral-e-continuar-no-vasco
+2026-09-23 16:43:54 [INFO] Título: Clubes sauditas sondam situação de Cuiabano, mas prioridade do lateral é continuar no Vasco
+2026-09-23 16:43:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:54 [INFO] Classificação: nao_enviar
+2026-09-23 16:43:54 [INFO] Aguardando 2.71s...
+2026-09-23 16:43:57 [INFO] [14/36] ID: https://kinvo.com.br/noticia/fundo-imobiliario-leva-calote-apos-locataria-entrar-em-recuperacao-judicial-contrato-representa-6-da-receita-do-fii
+2026-09-23 16:43:57 [INFO] Título: Kinvo | Notícia Fundo imobiliário leva calote após locatária entrar em <b>recuperação judicial</b>
+2026-09-23 16:43:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:43:57 [INFO] Classificação: enviar
+2026-09-23 16:43:57 [INFO] Aguardando 2.73s...
+2026-09-23 16:44:00 [INFO] [15/36] ID: https://j3news.com/2026/09/22/usinas-de-campos-sao-citadas-em-contrato-da-turma-do-kn-afirma-site/
+2026-09-23 16:44:00 [INFO] Título: Usinas de Campos são citadas em contrato da 'Turma do KN', afirma site - J3News
+2026-09-23 16:44:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:00 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:00 [INFO] Aguardando 2.66s...
+2026-09-23 16:44:03 [INFO] [16/36] ID: https://www.terra.com.br/economia/ministerio-publico-recomenda-congelar-aporte-de-mais-de-us-400-mi-da-braskem-em-unidade-mexicana,b4b41b3dcf8d683eca1c419cf8730a4bbl4x30cq.html
+2026-09-23 16:44:03 [INFO] Título: Ministério Público recomenda congelar aporte de mais de US$ 400 mi da Braskem em ...
+2026-09-23 16:44:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:03 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:03 [INFO] Aguardando 2.57s...
+2026-09-23 16:44:06 [INFO] [17/36] ID: https://www.estadao.com.br/einvestidor/cenarios-e-mercado/acao-da-braskem-sobe-22-mas-liquidez-despenca-e-risco-de-diluicao-chega-a-95/
+2026-09-23 16:44:06 [INFO] Título: Ação da Braskem sobe 22%, mas liquidez despenca e risco de diluição chega a 95%
+2026-09-23 16:44:06 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:06 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:06 [INFO] Aguardando 2.67s...
+2026-09-23 16:44:09 [INFO] [18/36] ID: https://www.broadcast.com.br/ultimas-noticias/volume-de-negociacao-da-braskem-cai-pela-metade-um-mes-apos-saida-do-ibovespa/
+2026-09-23 16:44:09 [INFO] Título: Volume de negociação da Braskem cai pela metade um mês após saída do Ibovespa
+2026-09-23 16:44:09 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:09 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:09 [INFO] Aguardando 2.76s...
+2026-09-23 16:44:12 [INFO] [19/36] ID: https://www.seudinheiro.com/2026/empresas/braskem-brkm5-vira-campo-de-batalha-mp-questiona-processo-e-credores-exigem-aporte-bilionario-da-petrobras-petr4-e-ig4-kaes/
+2026-09-23 16:44:12 [INFO] Título: Braskem (BRKM5) vira campo de batalha: MP questiona processo e credores exigem que ...
+2026-09-23 16:44:12 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:12 [INFO] Classificação: enviar
+2026-09-23 16:44:12 [INFO] Aguardando 2.63s...
+2026-09-23 16:44:15 [INFO] [20/36] ID: https://guiadoinvestidor.com.br/mercado/braskem-brkm5-enfrenta-pressao-por-us-3-bilhoes-e-risco-de-recuperacao-judicial-volta-ao-radar/
+2026-09-23 16:44:15 [INFO] Título: Braskem (BRKM5) enfrenta pressão por US$ 3 bilhões e risco de <b>recuperação</b> judicial volta ao radar
+2026-09-23 16:44:15 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:15 [INFO] Classificação: enviar
+2026-09-23 16:44:15 [INFO] Aguardando 2.73s...
+2026-09-23 16:44:18 [INFO] [21/36] ID: https://www.bloomberg.com/news/articles/2026-09-23/oncoclinicas-sofre-com-disputas-envolvendo-goldman-e-master
+2026-09-23 16:44:18 [INFO] Título: Oncoclínicas sofre com disputas envolvendo Goldman e Master - Bloomberg.com
+2026-09-23 16:44:18 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:18 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:18 [INFO] Aguardando 2.69s...
+2026-09-23 16:44:21 [INFO] [22/36] ID: https://businessmoment.com.br/oncoclinicas-conclui-desinvestimento-na-medsir-por-valor-simbolico/?amp=1
+2026-09-23 16:44:21 [INFO] Título: Oncoclínicas conclui desinvestimento na Medsir por valor simbólico - Business Moment
+2026-09-23 16:44:21 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:21 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:21 [INFO] Aguardando 2.66s...
+2026-09-23 16:44:24 [INFO] [23/36] ID: https://economia.uol.com.br/noticias/redacao/2026/09/23/endividada-oncoclinicas-vende-participacao-na-espanhola-medsir-por-1-euro.ghtm
+2026-09-23 16:44:24 [INFO] Título: Endividada, Oncoclínicas vende participação na espanhola Medsir por 1 euro
+2026-09-23 16:44:24 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:24 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:24 [INFO] Aguardando 2.75s...
+2026-09-23 16:44:27 [INFO] [24/36] ID: https://investnews.com.br/negocios/oncoclinicas-divida-de-r-51-bi-disputa-com-goldman-e-elo-com-banco-master-expoem-crise/
+2026-09-23 16:44:27 [INFO] Título: Oncoclínicas: dívida de R$ 5,1 bi, disputa com Goldman e elo com Banco Master expõem crise
+2026-09-23 16:44:27 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:27 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:27 [INFO] Aguardando 2.62s...
+2026-09-23 16:44:30 [INFO] [25/36] ID: https://br.advfn.com/jornal/2026/09/oncoclinicas-vende-participacao-na-medsir-por-e-1-e-encerra-arbitragem
+2026-09-23 16:44:30 [INFO] Título: Oncoclínicas vende participação na Medsir por € 1 e encerra arbitragem - ADVFN
+2026-09-23 16:44:30 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:30 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:30 [INFO] Aguardando 2.78s...
+2026-09-23 16:44:33 [INFO] [26/36] ID: https://neofeed.com.br/negocios/ministerio-publico-questiona-estrutura-da-recuperacao-da-braskem-e-pede-bloqueio-de-us-800-milhoes/
+2026-09-23 16:44:33 [INFO] Título: Ministério Público questiona estrutura da <b>recuperação</b> da Braskem e pede bloqueio de US ...
+2026-09-23 16:44:33 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:33 [INFO] Classificação: enviar
+2026-09-23 16:44:33 [INFO] Aguardando 2.70s...
+2026-09-23 16:44:36 [INFO] [27/36] ID: https://economia.uol.com.br/noticias/redacao/2026/09/23/credores-cobram-us-3-bi-de-petrobras-e-ig4-para-a-braskem.amp.htm
+2026-09-23 16:44:36 [INFO] Título: Braskem: credores cobram US$ 3 bi de Petrobras e IG4 - UOL Economia
+2026-09-23 16:44:36 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:36 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:36 [INFO] Aguardando 2.64s...
+2026-09-23 16:44:39 [INFO] [28/36] ID: https://atarde.com.br/economia/plano-do-pao-de-acucar-esta-sob-disputa-na-justica-o-que-pode-acontecer-com-os-empregos-1403040
+2026-09-23 16:44:39 [INFO] Título: Plano do Pão de Açúcar está sob disputa na Justiça: o que pode acontecer com os empregos?
+2026-09-23 16:44:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:39 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:39 [INFO] Aguardando 2.68s...
+2026-09-23 16:44:42 [INFO] [29/36] ID: https://valor.globo.com/google/amp/empresas/noticia/2026/09/23/5d5e79ef-curtas.ghtml
+2026-09-23 16:44:42 [INFO] Título: Curtas | Empresas - Valor Econômico
+2026-09-23 16:44:42 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:42 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:42 [INFO] Aguardando 2.70s...
+2026-09-23 16:44:45 [INFO] [30/36] ID: https://www.infomoney.com.br/onde-investir/fii-logistico-leva-calote-de-empresa-em-rj-que-responde-por-58-da-receita/
+2026-09-23 16:44:45 [INFO] Título: FII logístico leva calote de empresa em RJ que responde por 5,8% da receita - InfoMoney
+2026-09-23 16:44:45 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:45 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:45 [INFO] Aguardando 2.67s...
+2026-09-23 16:44:48 [INFO] [31/36] ID: https://megawhat.uol.com.br/economia-e-politica/empresas/ccee-nao-tem-competencia-para-parcelar-multas-entende-aneel/
+2026-09-23 16:44:48 [INFO] Título: CCEE não tem competência para parcelar multas, entende Aneel - MegaWhat - UOL
+2026-09-23 16:44:48 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:48 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:48 [INFO] Aguardando 2.70s...
+2026-09-23 16:44:51 [INFO] [32/36] ID: https://acionista.com.br/contax-ctax3-esclarecimentos-sobre-inadimplencia-e-recuperacao-judicial/
+2026-09-23 16:44:51 [INFO] Título: Contax (CTAX3): Esclarecimentos sobre Inadimplência e Recuperação <b>Judicial</b> - Acionista.com.br
+2026-09-23 16:44:51 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:51 [INFO] Classificação: enviar
+2026-09-23 16:44:51 [INFO] Aguardando 2.68s...
+2026-09-23 16:44:54 [INFO] [33/36] ID: https://www.folhadoestado.com.br/judiciario/advogado-de-vorcaro-propos-estrategia-matadora-para-tentar-livrar-moraes-da-lei-magnitsky/643262
+2026-09-23 16:44:54 [INFO] Título: Advogado de Vorcaro propôs “estratégia matadora” para tentar livrar Moraes da Lei Magnitsky
+2026-09-23 16:44:54 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:54 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:54 [INFO] Aguardando 2.64s...
+2026-09-23 16:44:57 [INFO] [34/36] ID: https://www.dm.com.br/economia/dolar-avanca-078-e-chega-a-r-514-nesta-quarta-feira-23/
+2026-09-23 16:44:57 [INFO] Título: Dólar avança 0,78% e chega a R$ 5,14 nesta quarta-feira (23) - Diário da Manhã
+2026-09-23 16:44:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:44:57 [INFO] Classificação: nao_enviar
+2026-09-23 16:44:57 [INFO] Aguardando 2.79s...
+2026-09-23 16:45:00 [INFO] [35/36] ID: https://www.jd1noticias.com/politica/2026/09/23/zanin-nega-liminar-para-obrigar-alcolumbre-a-abrir-cpi-do-banco-master.html
+2026-09-23 16:45:00 [INFO] Título: Zanin nega liminar para obrigar Alcolumbre a abrir CPI do Banco Master | JD1 Notícias
+2026-09-23 16:45:00 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:45:00 [INFO] Classificação: nao_enviar
+2026-09-23 16:45:00 [INFO] Aguardando 2.46s...
+2026-09-23 16:45:03 [INFO] [36/36] ID: https://metropolitanafmcaruaru.com.br/mensagens-de-vorcaro-mostram-ex-advogado-relatando-articulacoes-com-lula-e-integrantes-do-governo/
+2026-09-23 16:45:03 [INFO] Título: MENSAGENS DE VORCARO MOSTRAM EX-ADVOGADO RELATANDO ARTICULAÇÕES ...
+2026-09-23 16:45:03 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-23 16:45:03 [INFO] Classificação: nao_enviar
+2026-09-23 16:45:03 [INFO] ======================================================================
+2026-09-23 16:45:03 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-23 16:45:03 [INFO] ======================================================================
+2026-09-23 16:45:03 [INFO] Processadas: 36
+2026-09-23 16:45:03 [INFO] Enviar: 9
+2026-09-23 16:45:03 [INFO] Não enviar: 27
+2026-09-23 16:45:03 [INFO] ======================================================================
