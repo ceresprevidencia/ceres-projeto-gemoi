@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from html import escape
-from utils.queries.risco_mercado_ativos import buscar_dados_ativos
+from utils.queries.risco_mercado_ativos import buscar_dados_risco_mercado_ativos
 from utils.helpers import (
     nome_plano,
     card_geral,
@@ -16,7 +16,7 @@ from utils.helpers import (
 
 @st.cache_data(ttl="1h", show_time=True)
 def carregar_dados() -> pd.DataFrame:
-    return buscar_dados_ativos()
+    return buscar_dados_risco_mercado_ativos()
 
 
 df_ativos = carregar_dados()
