@@ -2,13 +2,8 @@ import pandas as pd
 import streamlit as st
 from utils.db_oracle import get_connection
 
-<<<<<<< HEAD
 
 def buscar_dados_risco_mercado_ativos() -> pd.DataFrame:
-=======
-@st.cache_data(ttl=3600)
-def buscar_dados_ativos() -> pd.DataFrame:
->>>>>>> 532a62f (Vs com limites e ativos)
     query="""
                 SELECT
 RME.TESOURARIA AS FUNDOS,      
