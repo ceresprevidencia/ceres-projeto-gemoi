@@ -5,6 +5,10 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
+concurrency:
+  group: mercado-de-credito-pipeline
+  cancel-in-progress: false
+
 jobs:
   disparar-links:
     runs-on: ubuntu-latest
@@ -35,21 +39,37 @@ jobs:
           GOOGLE_ALERTS_FEEDS: ${{ secrets.GOOGLE_ALERTS_FEEDS }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
+          git fetch origin pipeline-state:refs/remotes/origin/pipeline-state || true
+          if git show pipeline-state:bot-mercado-de-credito/noticias_google_alerts.json > bot-mercado-de-credito/noticias_google_alerts.json 2>/dev/null; then
+            echo "Histórico carregado da branch pipeline-state"
+          else
+            echo "Nenhum histórico anterior encontrado"
+          fi
+
           cd bot-mercado-de-credito
           python pipeline_noticias.py
 
-      - name: Commit e push do resultado
+      - name: Salvar histórico na branch de estado
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          
-          # Manda o git olhar apenas para as alterações dentro da pasta do bot
-          git add bot-mercado-de-credito/
+          cp bot-mercado-de-credito/noticias_google_alerts.json "$RUNNER_TEMP/noticias_google_alerts.json"
+
+          if git show-ref --verify --quiet refs/remotes/origin/pipeline-state; then
+            git checkout --detach origin/pipeline-state
+          else
+            git checkout --orphan pipeline-state
+          fi
+
+          git rm -rf . 2>/dev/null || true
+          mkdir -p bot-mercado-de-credito
+          cp "$RUNNER_TEMP/noticias_google_alerts.json" bot-mercado-de-credito/noticias_google_alerts.json
+          git add bot-mercado-de-credito/noticias_google_alerts.json
 
           if git diff --cached --quiet; then
-            echo "Nada para commitar no bot de crédito"
+            echo "Histórico sem alterações"
             exit 0
           fi
 
-          git commit -m "Atualizar estado do pipeline mercado de crédito [skip ci]"
-          git push
+          git commit -m "Atualizar histórico do pipeline [skip ci]"
+          git push origin HEAD:pipeline-state

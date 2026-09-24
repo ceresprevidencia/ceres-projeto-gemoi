@@ -29,6 +29,8 @@ wheels/
 # State files
 links_lidos.json
 temp_state.json
+noticias_google_alerts.json
+*.log
 
 # IDE
 .vscode/
