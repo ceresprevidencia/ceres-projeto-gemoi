@@ -27199,3 +27199,76 @@
 2026-09-23 23:35:36 [INFO] Enviar: 11
 2026-09-23 23:35:36 [INFO] Não enviar: 13
 2026-09-23 23:35:36 [INFO] ======================================================================
+2026-09-24 04:29:36 [INFO] ======================================================================
+2026-09-24 04:29:36 [INFO] CLASSIFICADOR DE NOTÍCIAS
+2026-09-24 04:29:36 [INFO] ======================================================================
+2026-09-24 04:29:36 [INFO] Notícias com status 'extraida': 12
+2026-09-24 04:29:36 [INFO] Limite: 20 requisições/minuto
+2026-09-24 04:29:36 [INFO] Intervalo mínimo: 3.0s
+2026-09-24 04:29:36 [INFO] ======================================================================
+2026-09-24 04:29:36 [INFO] [1/12] ID: https://fiis.com.br/noticias/fundo-da-inter-tem-aluguel-em-atraso-e-locataria-em-recuperacao-judicial/
+2026-09-24 04:29:36 [INFO] Título: Fundo da Inter tem aluguel em atraso e locatária em <b>recuperação judicial</b> - - Fiis
+2026-09-24 04:29:37 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:29:37 [INFO] Classificação: enviar
+2026-09-24 04:29:37 [INFO] Aguardando 2.58s...
+2026-09-24 04:29:39 [INFO] [2/12] ID: https://noticias.uol.com.br/colunas/rogerio-gentile/2026/09/23/apartamento-de-ana-hickmann-e-levado-a-leilao-por-divida-de-r-11-milhoes.htm
+2026-09-24 04:29:39 [INFO] Título: Apartamento de Ana Hickmann é levado a leilão por dívida de R$ 11 milhões
+2026-09-24 04:29:39 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:29:39 [INFO] Classificação: nao_enviar
+2026-09-24 04:29:40 [INFO] Aguardando 2.76s...
+2026-09-24 04:29:42 [INFO] [3/12] ID: https://investnews.com.br/negocios/braskem-credores-tentam-barrar-financiamento-idesa/amp/
+2026-09-24 04:29:42 [INFO] Título: Credores tentam barrar financiamento da Braskem para Idesa | InvestNews
+2026-09-24 04:29:43 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:29:43 [INFO] Classificação: nao_enviar
+2026-09-24 04:29:43 [INFO] Aguardando 2.69s...
+2026-09-24 04:29:45 [INFO] [4/12] ID: https://www.folhamax.com/economia/tj-teme-fraude-e-nega-homologar-rj-branca-de-r-22-milhoes-em-mt/573855
+2026-09-24 04:29:45 [INFO] Título: TJ teme fraude e nega homologar 'RJ branca' de R$ 22 milhões em MT | FOLHAMAX
+2026-09-24 04:29:46 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:29:46 [INFO] Classificação: enviar
+2026-09-24 04:29:46 [INFO] Aguardando 2.52s...
+2026-09-24 04:29:48 [INFO] [5/12] ID: https://oglobo.globo.com/economia/negocios/noticia/2026/09/23/credores-tentam-barrar-financiamento-da-braskem-para-idesa-diz-agencia.ghtml
+2026-09-24 04:29:48 [INFO] Título: Credores tentam barrar financiamento da Braskem para Idesa, diz agência - O GLOBO
+2026-09-24 04:29:49 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:29:49 [INFO] Classificação: nao_enviar
+2026-09-24 04:29:49 [INFO] Aguardando 2.49s...
+2026-09-24 04:29:51 [INFO] [6/12] ID: https://bahiaeconomica.com.br/wp/2026/09/23/credores-querem-que-petrobras-e-ig4-injetem-us-3-bi-na-braskem-eleicao-torna-negociacao-estrategica/
+2026-09-24 04:29:51 [INFO] Título: CREDORES QUEREM QUE PETROBRAS E IG4 INJETEM US$ 3 BI NA BRASKEM ...
+2026-09-24 04:29:52 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:29:52 [INFO] Classificação: nao_enviar
+2026-09-24 04:29:52 [INFO] Aguardando 2.06s...
+2026-09-24 04:29:54 [INFO] [7/12] ID: https://www.terra.com.br/esportes/palmeiras/palmeiras-recebeu-mais-de-r-24-milhoes-antes-de-rescindir-contrato-entenda,2dea28089b2bfb588bd5018b7fc9b8de9pvka7f9.html
+2026-09-24 04:29:54 [INFO] Título: Palmeiras recebeu mais de R$ 24 milhões antes de rescindir contrato; entenda - Terra
+2026-09-24 04:29:55 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:29:55 [INFO] Classificação: nao_enviar
+2026-09-24 04:29:55 [INFO] Aguardando 2.66s...
+2026-09-24 04:29:57 [INFO] [8/12] ID: https://www.jcatibaia.com.br/noticia/expedicao-do-sus-vai-atender-indigenas-yanomami-em-roraima
+2026-09-24 04:29:57 [INFO] Título: Expedição do SUS vai atender indígenas Yanomami em Roraima - JC Atibaia
+2026-09-24 04:29:57 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:29:57 [INFO] Classificação: nao_enviar
+2026-09-24 04:29:57 [INFO] Aguardando 2.84s...
+2026-09-24 04:30:00 [INFO] [9/12] ID: https://observatoriotech.com.br/noticia/pix-tera-novas-regras-veja-o-que-muda/
+2026-09-24 04:30:00 [INFO] Título: Pix terá novas regras: Veja o que muda - Observatório Tech
+2026-09-24 04:30:01 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:30:01 [INFO] Classificação: nao_enviar
+2026-09-24 04:30:01 [INFO] Aguardando 2.66s...
+2026-09-24 04:30:03 [INFO] [10/12] ID: https://brasil.perfil.com/politica/celular-de-vorcaro-traz-mensagens-de-advogado-sobre-articulacao-para-chegar-a-lula.phtml
+2026-09-24 04:30:03 [INFO] Título: Celular de Vorcaro traz mensagens de advogado sobre articulação para chegar a Lula
+2026-09-24 04:30:04 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:30:04 [INFO] Classificação: nao_enviar
+2026-09-24 04:30:04 [INFO] Aguardando 2.72s...
+2026-09-24 04:30:06 [INFO] [11/12] ID: https://www.opovo.com.br/trends/mansao-de-us-85-milhoes-chama-atencao-por-tamanho-luxo-e-ligacao-com-empresario-conhecido-no-mercado-financeiro/
+2026-09-24 04:30:06 [INFO] Título: Mansão de US$ 85 milhões chama atenção por tamanho, luxo e ligação com empresário ...
+2026-09-24 04:30:07 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:30:07 [INFO] Classificação: nao_enviar
+2026-09-24 04:30:07 [INFO] Aguardando 2.72s...
+2026-09-24 04:30:09 [INFO] [12/12] ID: https://paraibaja.com.br/stories/pix-tera-novas-regras-para-fraudes-cobranca-hibrida-e-contas-salario/
+2026-09-24 04:30:09 [INFO] Título: Pix terá novas regras para fraudes, cobrança híbrida e contas-salário - ParaibaJá
+2026-09-24 04:30:10 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-24 04:30:10 [INFO] Classificação: nao_enviar
+2026-09-24 04:30:10 [INFO] ======================================================================
+2026-09-24 04:30:10 [INFO] PROCESSAMENTO FINALIZADO
+2026-09-24 04:30:10 [INFO] ======================================================================
+2026-09-24 04:30:10 [INFO] Processadas: 12
+2026-09-24 04:30:10 [INFO] Enviar: 2
+2026-09-24 04:30:10 [INFO] Não enviar: 10
+2026-09-24 04:30:10 [INFO] ======================================================================
