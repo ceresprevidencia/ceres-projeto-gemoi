@@ -1,5 +1,14 @@
 {
   "noticias": {
+    "https://www.oabgo.org.br/em-sabatina-da-oab-go-daniel-vilela-se-compromete-a-pagar-a-advocacia-dativa-em-ate-60-dias/": {
+      "id": "tag:google.com,2013:googlealerts/feed:1538571686253896195",
+      "title": "Em sabatina da OAB-GO, Daniel Vilela se compromete a pagar a advocacia dativa em até 60 dias",
+      "link": "https://www.oabgo.org.br/em-sabatina-da-oab-go-daniel-vilela-se-compromete-a-pagar-a-advocacia-dativa-em-ate-60-dias/",
+      "published": "2026-09-25T00:26:08Z",
+      "updated": "2026-09-25T00:26:08Z",
+      "content": "... justiça. Ressaltou ainda que a efetividade do sistema depende de ... <b>recuperação judicial</b>. Daniel Vilela comprometeu-se com as pautas ...",
+      "status": "nao_enviar"
+    },
     "https://www.broadcast.com.br/news/justica-congela-envio-de-recursos-da-braskem-para-subsidiaria-no-mexico/": {
       "id": "tag:google.com,2013:googlealerts/feed:11137271608088366111",
       "title": "Justiça congela envio de recursos da Braskem para subsidiária no México - Broadcast",
@@ -171,13 +180,40 @@
       "content": "O Brasil terminou 2025 com 2.466 CNPJs envolvidos em processos de <b>recuperação judicial</b>, maior quantidade da série histórica da Serasa Experian. O ...",
       "status": "enviado"
     },
-    "https://www.estadao.com.br/amp/economia/negocios/justica-congela-envio-recursos-braskem-subsidiaria-mexico/": {
-      "id": "tag:google.com,2013:googlealerts/feed:8064774083358125728",
-      "title": "Justiça congela envio de recursos da Braskem para subsidiária no México - Estadão",
-      "link": "https://www.estadao.com.br/amp/economia/negocios/justica-congela-envio-recursos-braskem-subsidiaria-mexico/",
-      "published": "2026-09-24T17:56:07Z",
-      "updated": "2026-09-24T17:56:07Z",
-      "content": "Ambos os movimentos estão previstos no plano de <b>recuperação judicial</b> apresentado pela Braskem Idesa à Justiça norte-americana, após acordo com seus ...",
+    "https://www.ativovirtual.com.br/avnews/artigos/braskem-na-re-prazo-de-24-de-novembro-e-a-duvida-sobre-capital-da-petrobras": {
+      "id": "tag:google.com,2013:googlealerts/feed:8719632610707525518",
+      "title": "Braskem na RE: prazo de 24 de novembro e a dúvida sobre capital da Petrobras - AVNews",
+      "link": "https://www.ativovirtual.com.br/avnews/artigos/braskem-na-re-prazo-de-24-de-novembro-e-a-duvida-sobre-capital-da-petrobras",
+      "published": "2026-09-25T04:27:29Z",
+      "updated": "2026-09-25T04:27:29Z",
+      "content": "Petrobras (PETR4) participa da <b>recuperação extrajudicial</b> da Braskem (BRKM5) e diz buscar consenso com credores até 24 de novembro; injeção de ...",
+      "status": "enviado"
+    },
+    "https://www.brasil247.com/brasil/justica-atende-credores-da-braskem-e-suspende-aportes-na-reestruturacao-da-idesa-no-mexico/": {
+      "id": "tag:google.com,2013:googlealerts/feed:12674017196185629008",
+      "title": "Justiça atende credores da Braskem e suspende aportes na reestruturação da Idesa no México",
+      "link": "https://www.brasil247.com/brasil/justica-atende-credores-da-braskem-e-suspende-aportes-na-reestruturacao-da-idesa-no-mexico/",
+      "published": "2026-09-25T01:42:59Z",
+      "updated": "2026-09-25T01:42:59Z",
+      "content": "A decisão também determinou a nomeação de uma administradora judicial para acompanhar a <b>recuperação extrajudicial</b> da companhia brasileira. A ...",
+      "status": "enviado"
+    },
+    "https://guiadoinvestidor.com.br/mercado/petr4-ve-consenso-na-braskem-e-mercado-monitora-possivel-aporte-na-brkm5/": {
+      "id": "tag:google.com,2013:googlealerts/feed:11457595056495182011",
+      "title": "PETR4 vê consenso na Braskem e mercado monitora possível aporte na BRKM5",
+      "link": "https://guiadoinvestidor.com.br/mercado/petr4-ve-consenso-na-braskem-e-mercado-monitora-possivel-aporte-na-brkm5/",
+      "published": "2026-09-25T01:38:58Z",
+      "updated": "2026-09-25T01:38:58Z",
+      "content": "Petrobras afirma que negociações avançam dentro da <b>recuperação extrajudicial</b>, mas ainda não decidiu sobre eventual injeção de capital. · PETR4 afirmou ...",
+      "status": "nao_enviar"
+    },
+    "https://www.folhape.com.br/noticia/amp/514662/magda-diz-que-petrobras-nao-fara-aporte-sozinha-na-braskem/": {
+      "id": "tag:google.com,2013:googlealerts/feed:5457856245262166532",
+      "title": "Magda diz que Petrobras não fará aporte sozinha na Braskem - Folha PE",
+      "link": "https://www.folhape.com.br/noticia/amp/514662/magda-diz-que-petrobras-nao-fara-aporte-sozinha-na-braskem/",
+      "published": "2026-09-24T22:58:44Z",
+      "updated": "2026-09-24T22:58:44Z",
+      "content": "Em agosto, a Braskem entrou com pedido de <b>recuperação extrajudicial</b>, envolvendo US$ 11 bilhões em dívidas, após os novos donos chegarem a um ...",
       "status": "nao_enviar"
     },
     "https://www.seudinheiro.com/2026/economia/braskem-petrobras-ig4-capital-aporte-divida-isca/": {
@@ -234,6 +270,15 @@
       "content": "A Braskem, que também entrou com pedido de <b>recuperação extrajudicial</b> no Brasil, recusou-se a comentar a decisão judicial. CONTINUA DEPOIS DA ...",
       "status": "nao_enviar"
     },
+    "https://tradersunion.com/pt/news/financial-news/show/3483991-petrobras-acordo-braskem-recuperacao-credores/": {
+      "id": "tag:google.com,2013:googlealerts/feed:13550515808605071980",
+      "title": "Petrobras prevê acordo com credores da Braskem na <b>recuperação extrajudicial</b>",
+      "link": "https://tradersunion.com/pt/news/financial-news/show/3483991-petrobras-acordo-braskem-recuperacao-credores/",
+      "published": "2026-09-24T19:16:19Z",
+      "updated": "2026-09-24T19:16:19Z",
+      "content": "Petrobras, como acionista, prevê entendimento com credores na <b>recuperação extrajudicial</b> da Braskem até 24 de novembro, segundo William França. A ...",
+      "status": "enviado"
+    },
     "https://veronoticias.com/economia/petrobras-descarta-aporte-isolado-de-us-3-bilhoes-na-braskem/": {
       "id": "tag:google.com,2013:googlealerts/feed:18084117662671108912",
       "title": "Petrobras descarta aporte isolado de US$ 3 bilhões na Braskem | Vero Notícias",
@@ -279,49 +324,31 @@
       "content": "Os dois números ficam abaixo do mínimo de um terço exigido por lei para o pedido de <b>recuperação extrajudicial</b>. A Braskem busca renegociar R$ 56,5 ...",
       "status": "enviado"
     },
-    "https://investnews.com.br/negocios/braskem-chegara-a-acordo-com-credores-diz-executivo-da-petrobras/": {
-      "id": "tag:google.com,2013:googlealerts/feed:9725438820766283405",
-      "title": "Braskem chegará a acordo com credores, diz executivo da Petrobras - InvestNews",
-      "link": "https://investnews.com.br/negocios/braskem-chegara-a-acordo-com-credores-diz-executivo-da-petrobras/",
-      "published": "2026-09-24T17:06:31Z",
-      "updated": "2026-09-24T17:06:31Z",
-      "content": "Petrobras espera acordo da Braskem com credores para reestruturar dívida de US$ 11 bilhões sem recuperação judicial. ... <b>recuperação extrajudicial</b> pode ...",
+    "https://www.correiodamanha.com.br/nacional/sao-paulo/campinas/2026/09/322009-imoveis-de-fintech-investigada-pela-policia-federal-e-falida-vao-a-leilao.html": {
+      "id": "tag:google.com,2013:googlealerts/feed:15589198229603055725",
+      "title": "Imóveis de fintech investigada pela Polícia Federal e falida vão à leilão - Correio da Manhã",
+      "link": "https://www.correiodamanha.com.br/nacional/sao-paulo/campinas/2026/09/322009-imoveis-de-fintech-investigada-pela-policia-federal-e-falida-vao-a-leilao.html",
+      "published": "2026-09-25T06:20:20Z",
+      "updated": "2026-09-25T06:20:20Z",
+      "content": "Unidades no Cambuí e Sousas integram venda judicial após colapso da firma. ... O leilão atual sucede a <b>liquidação judicial</b> de veículos pertencentes à ...",
       "status": "enviado"
     },
-    "https://br.advfn.com/jornal/2026/09/petrobras-ve-consenso-para-acordo-da-braskem-com-credores": {
-      "id": "tag:google.com,2013:googlealerts/feed:2096153616695922761",
-      "title": "Petrobras vê consenso para acordo da Braskem com credores",
-      "link": "https://br.advfn.com/jornal/2026/09/petrobras-ve-consenso-para-acordo-da-braskem-com-credores",
-      "published": "2026-09-24T16:56:38Z",
-      "updated": "2026-09-24T16:56:38Z",
-      "content": "Já para os investidores de Braskem (BOV), a definição do acordo de <b>recuperação extrajudicial</b> é diretamente relevante para as perspectivas financeiras ...",
-      "status": "enviado"
-    },
-    "https://br.investing.com/news/stock-market-news/petrobras-entende-que-havera-consenso-com-credores-da-braskem-diz-diretor-2074582": {
-      "id": "tag:google.com,2013:googlealerts/feed:16157408443516301123",
-      "title": "Petrobras entende que haverá consenso com credores da Braskem, diz diretor Por Reuters",
-      "link": "https://br.investing.com/news/stock-market-news/petrobras-entende-que-havera-consenso-com-credores-da-braskem-diz-diretor-2074582",
-      "published": "2026-09-24T16:56:04Z",
-      "updated": "2026-09-24T16:56:04Z",
-      "content": "... <b>recuperação extrajudicial</b> e entende que um consenso com os credores ... \"Estamos buscando garantir um plano de estruturação de capital dentro da RE ( ...",
-      "status": "enviado"
-    },
-    "https://agenciainfra.com/blog/magda-diz-que-petrobras-nao-fara-sozinha-aporte-financeiro-na-braskem/": {
-      "id": "tag:google.com,2013:googlealerts/feed:14334031762217527656",
-      "title": "Magda diz que Petrobras não fará sozinha aporte financeiro na Braskem - Agência iNFRA",
-      "link": "https://agenciainfra.com/blog/magda-diz-que-petrobras-nao-fara-sozinha-aporte-financeiro-na-braskem/",
-      "published": "2026-09-24T16:53:43Z",
-      "updated": "2026-09-24T16:53:43Z",
-      "content": "A Braskem negocia com credores dentro de um processo de <b>recuperação extrajudicial</b> e haveria um pleito para que os controladores (Petrobras e IG4 ...",
+    "https://www.netvasco.com.br/n/393281/empresa-de-marcos-lamacchia-protocola-garantia-da-crefisa-pelos-r-324-milhoes-da-recuperacao-judicial-do-vasco": {
+      "id": "tag:google.com,2013:googlealerts/feed:12376075199569156139",
+      "title": "Empresa de Marcos Lamacchia protocola garantia da Crefisa pelos R$ 324 milhões ... - NETVASCO",
+      "link": "https://www.netvasco.com.br/n/393281/empresa-de-marcos-lamacchia-protocola-garantia-da-crefisa-pelos-r-324-milhoes-da-recuperacao-judicial-do-vasco",
+      "published": "2026-09-25T05:12:16Z",
+      "updated": "2026-09-25T05:12:16Z",
+      "content": "... recuperação <b>judicial</b> do Vasco. Quinta-feira, 24/09/2026 - 23:00. Podcast ... Recuperação <b>Judicial</b>, até o limite de R$ 324 milhões. Em caso de ...",
       "status": "nao_enviar"
     },
-    "https://bpmoney.com.br/negocios/empresas/petrobras-consenso-credores-braskem-recuperacao-extrajudicial/": {
-      "id": "tag:google.com,2013:googlealerts/feed:15847688858069899403",
-      "title": "Petrobras vê consenso próximo com credores da Braskem na <b>recuperação extrajudicial</b>",
-      "link": "https://bpmoney.com.br/negocios/empresas/petrobras-consenso-credores-braskem-recuperacao-extrajudicial/",
-      "published": "2026-09-24T16:33:09Z",
-      "updated": "2026-09-24T16:33:09Z",
-      "content": "Petrobras entende que haverá consenso com credores da Braskem na <b>recuperação extrajudicial</b>. Prazo para o acordo termina em 24 de novembro, ...",
+    "https://www.canalrural.com.br/videos-curtos/os-pedidos-de-recuperao-judicial-no-agronegcio-cresceram-219-no-primeiro-tr_88641": {
+      "id": "tag:google.com,2013:googlealerts/feed:7761965050012401090",
+      "title": "Os pedidos de recuperação <b>judicial</b> no agronegócio cresceram 21,9% no primeiro tr - Canal Rural",
+      "link": "https://www.canalrural.com.br/videos-curtos/os-pedidos-de-recuperao-judicial-no-agronegcio-cresceram-219-no-primeiro-tr_88641",
+      "published": "2026-09-25T01:22:08Z",
+      "updated": "2026-09-25T01:22:08Z",
+      "content": "Os pedidos de recuperação <b>judicial</b> no agronegócio cresceram 21,9% no primeiro trimestre de 2026, chegando a 474 solicitações, segundo levantamento ...",
       "status": "enviado"
     },
     "https://radardigitalbrasilia.com.br/agronegocio/forum-coloca-credito-rural-e-recuperacao-judicial-no-centro-do-debate/": {
@@ -349,6 +376,15 @@
       "published": "2026-09-24T18:11:54Z",
       "updated": "2026-09-24T18:11:54Z",
       "content": "Góis afirmou que a medida, tomada fora da recuperação <b>judicial</b>, afronta o andamento das discussões conduzidas no Judiciário. Já a defesa de Rubini ...",
+      "status": "nao_enviar"
+    },
+    "https://www.estadao.com.br/amp/economia/negocios/justica-congela-envio-recursos-braskem-subsidiaria-mexico/": {
+      "id": "tag:google.com,2013:googlealerts/feed:1644640317221961784",
+      "title": "Justiça congela envio de recursos da Braskem para subsidiária no México - Estadão",
+      "link": "https://www.estadao.com.br/amp/economia/negocios/justica-congela-envio-recursos-braskem-subsidiaria-mexico/",
+      "published": "2026-09-24T17:56:07Z",
+      "updated": "2026-09-24T17:56:07Z",
+      "content": "Ambos os movimentos estão previstos no plano de recuperação <b>judicial</b> apresentado pela Braskem Idesa à Justiça norte-americana, após acordo com seus ...",
       "status": "nao_enviar"
     },
     "https://istoe.com.br/interligacao-pix-tips-estudo-viabilidade-bancos-centrais": {
@@ -387,41 +423,23 @@
       "content": "Prazo foi estabelecido após a Laspro Consultores apontar a necessidade de novos documentos e esclarecimentos sobre o grupo.",
       "status": "enviado"
     },
-    "https://agenciainfra.com/blog/braskem-petrobras-cre-em-acordo-mas-nao-descarta-recuperacao-judicial/": {
-      "id": "tag:google.com,2013:googlealerts/feed:2169230772031715085",
-      "title": "Braskem: Petrobras crê em acordo, mas não descarta recuperação <b>judicial</b> - Agência iNFRA",
-      "link": "https://agenciainfra.com/blog/braskem-petrobras-cre-em-acordo-mas-nao-descarta-recuperacao-judicial/",
-      "published": "2026-09-24T15:55:37Z",
-      "updated": "2026-09-24T15:55:37Z",
-      "content": "... recuperação extrajudicial da Braskem. Contudo, ele não descarta o caminho da recuperação <b>judicial</b>. A petroquímica protocolou o pedido de recuperação ...",
-      "status": "enviado"
-    },
-    "https://www.seudinheiro.com/2026/empresas/opa-da-braskem-brkm5-com-data-marcada-vale-a-pena-trocar-as-acoes-pelo-que-o-novo-controlador-oferece-miql/": {
-      "id": "tag:google.com,2013:googlealerts/feed:4461965358300371590",
-      "title": "OPA da Braskem (BRKM5) com data marcada: vale a pena trocar as ações pelo que o novo ...",
-      "link": "https://www.seudinheiro.com/2026/empresas/opa-da-braskem-brkm5-com-data-marcada-vale-a-pena-trocar-as-acoes-pelo-que-o-novo-controlador-oferece-miql/",
-      "published": "2026-09-24T15:34:28Z",
-      "updated": "2026-09-24T15:34:28Z",
-      "content": "A <b>liquidação</b> será feita por meio de ... Como são créditos contra uma empresa em recuperação <b>judicial</b>, o valor de recuperação é altamente incerto.",
+    "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/09/24/por-que-galipolo-campos-neto-btg-depoem-caso-master": {
+      "id": "tag:google.com,2013:googlealerts/feed:8764810931242295152",
+      "title": "Por que Galípolo, Campos Neto e dono do BTG vão depor no caso Master - TV Sim Brasil",
+      "link": "https://tvsimbrasil.com.br/brasil/economia/noticia/2026/09/24/por-que-galipolo-campos-neto-btg-depoem-caso-master",
+      "published": "2026-09-25T00:27:02Z",
+      "updated": "2026-09-25T00:27:02Z",
+      "content": "O Fundo Garantidor de Créditos recebeu uma denúncia sobre o Master em fevereiro de 2022, mais de três anos antes da <b>liquidação extrajudicial</b> do banco, ...",
       "status": "nao_enviar"
     },
-    "https://www.bloomberglinea.com.br/negocios/ha-vida-apos-a-recuperacao-judicial-levantamento-mostra-que-77-das-empresas-quebram/": {
-      "id": "tag:google.com,2013:googlealerts/feed:15515799434306394897",
-      "title": "Há vida após a recuperação <b>judicial</b>? Levantamento mostra que 77% das empresas quebram",
-      "link": "https://www.bloomberglinea.com.br/negocios/ha-vida-apos-a-recuperacao-judicial-levantamento-mostra-que-77-das-empresas-quebram/",
-      "published": "2026-09-24T15:12:07Z",
-      "updated": "2026-09-24T15:12:07Z",
-      "content": "Bloomberg Línea — O Brasil vive um momento recorde de empresas sob o guarda-chuva da recuperação <b>judicial</b>. Somente no primeiro semestre de 2026, ...",
-      "status": "enviado"
-    },
-    "https://www.lance.com.br/vasco/saf-do-vasco-sera-leiloada-nesta-sexta-unica-proposta-na-mesa-e-de-lamacchia.html": {
-      "id": "tag:google.com,2013:googlealerts/feed:14948732368845668948",
-      "title": "SAF do Vasco será leiloada nesta sexta; única proposta na mesa é de Lamacchia - LANCE!",
-      "link": "https://www.lance.com.br/vasco/saf-do-vasco-sera-leiloada-nesta-sexta-unica-proposta-na-mesa-e-de-lamacchia.html",
-      "published": "2026-09-24T13:52:55Z",
-      "updated": "2026-09-24T13:52:55Z",
-      "content": "Durante a recuperação <b>judicial</b> do clube, Lamacchia emprestou R$ 40 milhões na modalidade DIP (Debtor-in-Possession) ao clube. O recurso foi utilizado ...",
-      "status": "enviado"
+    "https://www.reporterdiario.com.br/noticia/3900631/bc-e-bce-iniciam-avaliacao-para-interligacao-entre-pix-e-sistema-europeu-de-pagamento/": {
+      "id": "tag:google.com,2013:googlealerts/feed:9070182682856652973",
+      "title": "BC e BCE iniciam avaliação para interligar Pix e sistema europeu - Repórter Diário",
+      "link": "https://www.reporterdiario.com.br/noticia/3900631/bc-e-bce-iniciam-avaliacao-para-interligacao-entre-pix-e-sistema-europeu-de-pagamento/",
+      "published": "2026-09-24T23:33:27Z",
+      "updated": "2026-09-24T23:33:27Z",
+      "content": "Banco Central decreta <b>liquidação extrajudicial</b> de Trustee e Banvox. há 3 ... O TIPS foi criado para ser uma infraestrutura pan-europeia de liquidação ...",
+      "status": "nao_enviar"
     },
     "https://iclnoticias.com.br/bc-de-campos-neto-aprovou-diretor-do-master/": {
       "id": "tag:google.com,2013:googlealerts/feed:2524045898232583503",
@@ -583,24 +601,6 @@
       "published": "2026-09-24T14:17:40Z",
       "updated": "2026-09-24T14:17:40Z",
       "content": "<b>Liquidação extrajudicial</b> foi motivada pelo comprometimento da situação econômico-financeira da instituição líder do Conglomerado. O Banco Central ...",
-      "status": "nao_enviar"
-    },
-    "https://veja.abril.com.br/economia/empresa-financeira-movimentou-r-116-bilhoes-em-esquema-investigado-na-carbono-oculto/": {
-      "id": "tag:google.com,2013:googlealerts/feed:12190547979679854573",
-      "title": "Empresa financeira movimentou R$ 11,6 bilhões em esquema investigado na Carbono Oculto",
-      "link": "https://veja.abril.com.br/economia/empresa-financeira-movimentou-r-116-bilhoes-em-esquema-investigado-na-carbono-oculto/",
-      "published": "2026-09-24T14:10:55Z",
-      "updated": "2026-09-24T14:10:55Z",
-      "content": "A EntrePay está em <b>liquidação extrajudicial</b> desde março deste ano. A VEJA procurou o BK Bank para comentar as informações e questionar a ...",
-      "status": "nao_enviar"
-    },
-    "https://www.politicalivre.com.br/2026/09/gilmar-mendes-relata-ligacao-de-presidente-do-tjba-sobre-recursos-no-brb": {
-      "id": "tag:google.com,2013:googlealerts/feed:3131865714062622243",
-      "title": "Gilmar Mendes relata ligação de presidente do TJBA sobre recursos no BRB | Política Livre",
-      "link": "https://www.politicalivre.com.br/2026/09/gilmar-mendes-relata-ligacao-de-presidente-do-tjba-sobre-recursos-no-brb",
-      "published": "2026-09-24T13:44:55Z",
-      "updated": "2026-09-24T13:44:55Z",
-      "content": "O banco também não publica balanço patrimonial desde novembro de 2025 e está sob risco de <b>liquidação extrajudicial</b> pelo Banco Central. Comentários.",
       "status": "nao_enviar"
     }
   }
