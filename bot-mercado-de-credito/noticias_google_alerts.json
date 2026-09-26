@@ -1,5 +1,41 @@
 {
   "noticias": {
+    "https://pipelinevalor.globo.com/mercado/noticia/decisao-do-cmn-sobre-creditos-judiciais-afeta-mercado-de-r-36-bi-e-chega-as-rjs.ghtml": {
+      "id": "tag:google.com,2013:googlealerts/feed:1510721616867412763",
+      "title": "Decisão do CMN sobre créditos <b>judiciais</b> afeta mercado de R$ 36 bi e chega às RJs",
+      "link": "https://pipelinevalor.globo.com/mercado/noticia/decisao-do-cmn-sobre-creditos-judiciais-afeta-mercado-de-r-36-bi-e-chega-as-rjs.ghtml",
+      "published": "2026-09-26T01:46:30Z",
+      "updated": "2026-09-26T01:46:30Z",
+      "content": "... <b>recuperação judicial</b>, segundo advogados e gestores especializados. Em processos de reestruturação esse tipo de crédito era um ativo monetizável. O ...",
+      "status": "nao_enviar"
+    },
+    "https://www.clubefiinews.com.br/acoes/braskem-informa-decisao-judicial-recuperacao-extrajudicial-setembro-2026": {
+      "id": "tag:google.com,2013:googlealerts/feed:738912700273243509",
+      "title": "Braskem informa sobre decisão <b>judicial</b> relacionada a <b>recuperação</b> extrajudicial",
+      "link": "https://www.clubefiinews.com.br/acoes/braskem-informa-decisao-judicial-recuperacao-extrajudicial-setembro-2026",
+      "published": "2026-09-26T01:01:01Z",
+      "updated": "2026-09-26T01:01:01Z",
+      "content": "Braskem comunica aos acionistas sobre decisão do Juízo da 2ª Vara de Falências e Recuperações <b>Judiciais</b> de São Paulo, referente ao processo de ...",
+      "status": "enviado"
+    },
+    "https://jovempan.com.br/economia/negocios/o-paradoxo-do-varejo-brasileiro-vender-ja-nao-e-suficiente/": {
+      "id": "tag:google.com,2013:googlealerts/feed:3058875931153574330",
+      "title": "O paradoxo do varejo brasileiro: vender já não é suficiente - Jovem Pan",
+      "link": "https://jovempan.com.br/economia/negocios/o-paradoxo-do-varejo-brasileiro-vender-ja-nao-e-suficiente/",
+      "published": "2026-09-26T00:56:51Z",
+      "updated": "2026-09-26T00:56:51Z",
+      "content": "O Grupo Casas Bahia protocolou pedido de <b>recuperação judicial</b> em 16 de agosto de 2026 na Justiça de São Paulo. A varejista declarou dívidas de R ...",
+      "status": "nao_enviar"
+    },
+    "https://www.infoverus.com.br/judiciario/apos-mais-de-11-anos-justica-encerra-recuperacao-judicial-de-grupo-de-autopecas-em-mt/35540": {
+      "id": "tag:google.com,2013:googlealerts/feed:4634808577646027264",
+      "title": "Após mais de 11 anos, Justiça encerra <b>recuperação judicial</b> de grupo de autopeças em MT",
+      "link": "https://www.infoverus.com.br/judiciario/apos-mais-de-11-anos-justica-encerra-recuperacao-judicial-de-grupo-de-autopecas-em-mt/35540",
+      "published": "2026-09-26T00:16:23Z",
+      "updated": "2026-09-26T00:16:23Z",
+      "content": "A Justiça de Mato Grosso decretou, em setembro de 2026, o encerramento da <b>Recuperação Judicial</b> do grupo Auto Peças e Ferragens São Cristóvão Ltda. e ...",
+      "status": "enviado"
+    },
     "https://veja.abril.com.br/economia/nova-divida-da-casas-bahia-aperta-ainda-mais-o-caixa-da-varejista/": {
       "id": "tag:google.com,2013:googlealerts/feed:894615819691894429",
       "title": "Nova dívida da Casas Bahia aperta ainda mais o caixa da varejista - Revista Veja",
@@ -52,6 +88,15 @@
       "published": "2026-09-25T21:14:41Z",
       "updated": "2026-09-25T21:14:41Z",
       "content": "... <b>recuperação judicial</b> e de falência (Tema 1250 - STJ). Acórdão de Mérito ... <b>recuperação judicial</b> e de falência. Tese fixada: Nos incidentes de ...",
+      "status": "nao_enviar"
+    },
+    "https://www.mpmt.mp.br/portalcao/news/733/180396/tjma-judiciario-de-joselandia-promove-articulacao-para-implantacao-do-familia-acolhedora": {
+      "id": "tag:google.com,2013:googlealerts/feed:17789027574458245402",
+      "title": "TJMA: Judiciário de Joselândia promove articulação para implantação do \"Família Acolhedora\"",
+      "link": "https://www.mpmt.mp.br/portalcao/news/733/180396/tjma-judiciario-de-joselandia-promove-articulacao-para-implantacao-do-familia-acolhedora",
+      "published": "2026-09-25T20:45:58Z",
+      "updated": "2026-09-25T20:45:58Z",
+      "content": "Cível, <b>Recuperação Judicial</b>, Falência e Terceiro Setor · Defesa de Dados Pessoais e Inteligência Artificial · Defesa do Consumidor · Direitos Humanos ...",
       "status": "nao_enviar"
     },
     "https://www.terra.com.br/esportes/vasco/almirante-participacoes-sa-vence-leilao-e-arremata-90-da-saf-do-vasco,a2eb4ce71dee85e47e709b0934de13f2oqqw1m09.html": {
@@ -108,6 +153,15 @@
       "content": "O Tribunal de Justiça do Estado de Mato Grosso (TJMT) concedeu liminar parcial para proibir que o eventual não pagamento de dívidas trabalhistas ...",
       "status": "enviado"
     },
+    "https://www.netvasco.com.br/n/393291/confira-o-que-esta-em-jogo-no-leilao-da-saf-desta-6-feira": {
+      "id": "tag:google.com,2013:googlealerts/feed:6279180717159384122",
+      "title": "Confira o que está em jogo no leilão da SAF desta 6ª-feira | NETVASCO",
+      "link": "https://www.netvasco.com.br/n/393291/confira-o-que-esta-em-jogo-no-leilao-da-saf-desta-6-feira",
+      "published": "2026-09-25T19:23:42Z",
+      "updated": "2026-09-25T19:23:42Z",
+      "content": "Apesar do termo pouco usual, a função é comum em negociações que envolvem empresas em <b>recuperação judicial</b>, como é o caso do Vasco. O eventual ...",
+      "status": "nao_enviar"
+    },
     "https://vasco.com.br/vasco/comunicado-6/": {
       "id": "tag:google.com,2013:googlealerts/feed:11862389598475597113",
       "title": "Comunicado - Vasco da Gama",
@@ -126,58 +180,13 @@
       "content": "O pedido de <b>recuperação judicial</b> também foi apresentado nos EUA, onde a empresa tem ações listadas na bolsa de valores. O caos financeiro vivido pela ...",
       "status": "nao_enviar"
     },
-    "https://www.band.com.br/esportes/futebol/times/vasco/marcos-lamacchia-vence-leilao-pela-saf-do-vasco-entenda-os-proximos-passos": {
-      "id": "tag:google.com,2013:googlealerts/feed:8727139071759865992",
-      "title": "Marcos Lamacchia vence leilão pela SAF do Vasco; entenda os próximos passos - Band",
-      "link": "https://www.band.com.br/esportes/futebol/times/vasco/marcos-lamacchia-vence-leilao-pela-saf-do-vasco-entenda-os-proximos-passos",
-      "published": "2026-09-25T19:03:45Z",
-      "updated": "2026-09-25T19:03:45Z",
-      "content": "... <b>recuperação judicial</b>. Na prática, a empresa apresentou a proposta de ... <b>recuperação judicial</b> e outras garantias financeiras. Quais são os ...",
-      "status": "nao_enviar"
-    },
-    "https://www.novacana.com/noticias/primeira-planta-de-etanol-de-milho-de-minas-gerais-recebe-licenca-ambiental": {
-      "id": "tag:google.com,2013:googlealerts/feed:6740791849861350305",
-      "title": "Primeira planta de etanol de milho de Minas Gerais recebe licença ambiental - NovaCana",
-      "link": "https://www.novacana.com/noticias/primeira-planta-de-etanol-de-milho-de-minas-gerais-recebe-licenca-ambiental",
-      "published": "2026-09-25T19:02:47Z",
-      "updated": "2026-09-25T19:02:47Z",
-      "content": "Conforme o documento da Feam, a Alvorada Bioenergia – que está em processo de <b>recuperação judicial</b> – produzia açúcar e etanol a partir da cana-de ...",
-      "status": "nao_enviar"
-    },
-    "https://www.pontonacurva.com.br/justica-estadual/tj-barra-falencia-de-grupo-de-ex-deputado-por-creditos-trabalhistas/35177": {
-      "id": "tag:google.com,2013:googlealerts/feed:9574847746796689433",
-      "title": "TJ proíbe falência de grupo de ex-deputado por créditos trabalhistas | Ponto na Curva",
-      "link": "https://www.pontonacurva.com.br/justica-estadual/tj-barra-falencia-de-grupo-de-ex-deputado-por-creditos-trabalhistas/35177",
-      "published": "2026-09-25T18:42:58Z",
-      "updated": "2026-09-25T18:42:58Z",
-      "content": "Alegaram, ainda, que o indeferimento do TACOM coloca em risco a continuidade da <b>recuperação judicial</b>, diante dos pedidos de convolação em falência ...",
-      "status": "nao_enviar"
-    },
-    "https://noataque.com.br/noticia/2026/09/25/divida-52-milhoes-atletico-estuda-recuperacao-judicial/": {
-      "id": "tag:google.com,2013:googlealerts/feed:1888740861845909414",
-      "title": "Com dívida de R$ 52 milhões com ex-Atlético, clube estuda <b>recuperação judicial</b>",
-      "link": "https://noataque.com.br/noticia/2026/09/25/divida-52-milhoes-atletico-estuda-recuperacao-judicial/",
-      "published": "2026-09-25T18:35:43Z",
-      "updated": "2026-09-25T18:35:43Z",
-      "content": "A crise financeira do San Lorenzo pode levar o clube argentino a pedir <b>recuperação judicial</b> para reorganizar um passivo de aproximadamente US$ 67 ...",
-      "status": "enviado"
-    },
-    "https://www.nsctotal.com.br/colunista/faraco/em-meio-a-negociacao-kactus-reforca-caixa-do-avai-para-pagar-acordos-da-recuperacao-judicial-e-da-uniao": {
-      "id": "tag:google.com,2013:googlealerts/feed:4082482077404742089",
-      "title": "Em meio à negociação, Kactus reforça caixa do Avaí para pagar acordos da <b>Recuperação</b> ...",
-      "link": "https://www.nsctotal.com.br/colunista/faraco/em-meio-a-negociacao-kactus-reforca-caixa-do-avai-para-pagar-acordos-da-recuperacao-judicial-e-da-uniao",
-      "published": "2026-09-25T18:22:45Z",
-      "updated": "2026-09-25T18:22:45Z",
-      "content": "Em meio à negociação, Kactus reforça caixa do Avaí para pagar acordos da <b>Recuperação Judicial</b> e da União. Futura compradora da SAF do Avaí segue ...",
-      "status": "enviado"
-    },
-    "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/25/leilao-confirma-marcos-lamacchia-como-novo-dono-da-saf-do-vasco.ghtm": {
-      "id": "tag:google.com,2013:googlealerts/feed:9574997758893955377",
-      "title": "Leilão confirma empresa de Marcos Lamacchia como compradora da SAF do Vasco - UOL",
-      "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/25/leilao-confirma-marcos-lamacchia-como-novo-dono-da-saf-do-vasco.ghtm",
-      "published": "2026-09-25T18:10:57Z",
-      "updated": "2026-09-25T18:10:57Z",
-      "content": "... <b>recuperação judicial</b> do Vasco. E qual o preço mínimo? Tecnicamente, o ... <b>recuperação judicial</b>. Assim, o controle do futebol é vendido sem ...",
+    "https://bpmoney.com.br/negocios/empresas/almirante-lamacchia-vence-leilao-saf-vasco/": {
+      "id": "tag:google.com,2013:googlealerts/feed:8938106265365612611",
+      "title": "Almirante, de Marcos Lamacchia, vence leilão e se aproxima da compra da SAF do Vasco",
+      "link": "https://bpmoney.com.br/negocios/empresas/almirante-lamacchia-vence-leilao-saf-vasco/",
+      "published": "2026-09-26T02:51:52Z",
+      "updated": "2026-09-26T02:51:52Z",
+      "content": "A Almirante também ficará responsável pelo pagamento dos credores da <b>recuperação</b> judicial. ... <b>recuperação</b> judicial · SAF. Logo da Newsletter.",
       "status": "nao_enviar"
     },
     "https://atlaspublico.com.br/cvm/noticias/braskem-informa-decisao-judicial-sobre-reestruturacao-da-89554": {
@@ -261,15 +270,6 @@
       "content": "Esta decisão está relacionada ao processo de <b>recuperação extrajudicial</b> da Companhia e de certas controladas, coletivamente referidas como as “ ...",
       "status": "enviado"
     },
-    "https://jovempan.com.br/economia/negocios/o-paradoxo-do-varejo-brasileiro-vender-ja-nao-e-suficiente/": {
-      "id": "tag:google.com,2013:googlealerts/feed:3011114848677058756",
-      "title": "O paradoxo do varejo brasileiro: vender já não é suficiente - Jovem Pan",
-      "link": "https://jovempan.com.br/economia/negocios/o-paradoxo-do-varejo-brasileiro-vender-ja-nao-e-suficiente/",
-      "published": "2026-09-25T14:27:53Z",
-      "updated": "2026-09-25T14:27:53Z",
-      "content": "O Grupo Pão de Açúcar recorreu em março à <b>recuperação extrajudicial</b> para renegociar R$ 4,5 bilhões em débitos financeiros. O plano obteve adesão ...",
-      "status": "nao_enviar"
-    },
     "https://olhardireto.com.br/juridico/noticias/notas-fiscais-sequenciais-em-segundos-fazem-juiz-exigir-provas-antes-de-homologar-recuperacao-de-r-22-milhoes": {
       "id": "tag:google.com,2013:googlealerts/feed:17136442976552614141",
       "title": "Notas fiscais sequenciais em segundos fazem juiz exigir provas antes de homologar ...",
@@ -306,15 +306,6 @@
       "content": "... <b>recuperação extrajudicial</b>, mas afirmou que ainda não foi formalmente intimada. Observou ainda que a decisão segue pendente de publicação oficial ...",
       "status": "enviado"
     },
-    "https://www.clubefiinews.com.br/acoes/braskem-informa-decisao-judicial-recuperacao-extrajudicial-setembro-2026": {
-      "id": "tag:google.com,2013:googlealerts/feed:4107470127852294669",
-      "title": "Braskem informa sobre decisão judicial relacionada a <b>recuperação extrajudicial</b>",
-      "link": "https://www.clubefiinews.com.br/acoes/braskem-informa-decisao-judicial-recuperacao-extrajudicial-setembro-2026",
-      "published": "2026-09-25T13:01:01Z",
-      "updated": "2026-09-25T13:01:01Z",
-      "content": "... sobre decisão do Juízo da 2ª Vara de Falências e Recuperações Judiciais de São Paulo, referente ao processo de <b>recuperação extrajudicial</b> da Companhia.",
-      "status": "enviado"
-    },
     "https://www.bnews.com.br/noticias/economia-e-mercado/justica-atende-credores-da-braskem-suspende-aportes-e-nomeia-administrador-judicial-em-operacao-de-us-800-mi.html": {
       "id": "tag:google.com,2013:googlealerts/feed:3855547013177326048",
       "title": "Justiça atende credores da Braskem, suspende aportes e nomeia administrador judicial ... - Bnews",
@@ -342,15 +333,6 @@
       "content": "Braskem (BRKM3, BRKM5, BRKM6) informa decisão do Juízo da 2ª Vara de Falências de São Paulo em processo de <b>recuperação extrajudicial</b> da companhia ...",
       "status": "enviado"
     },
-    "https://veja.abril.com.br/economia/mp-pede-um-administrador-judicial-para-a-braskem/": {
-      "id": "tag:google.com,2013:googlealerts/feed:8636499834456657042",
-      "title": "MP pede um administrador judicial para a Braskem - Revista Veja",
-      "link": "https://veja.abril.com.br/economia/mp-pede-um-administrador-judicial-para-a-braskem/",
-      "published": "2026-09-25T12:31:36Z",
-      "updated": "2026-09-25T12:31:36Z",
-      "content": "O Ministério Público de São Paulo pediu a nomeação de um administrador judicial para acompanhar a <b>recuperação extrajudicial</b> da Braskem, uma medida ...",
-      "status": "enviado"
-    },
     "https://www.brasileirao.com.br/venda-do-bordeaux-por-1-euro-evita-liquidacao-judicial-do-clube-frances": {
       "id": "tag:google.com,2013:googlealerts/feed:17317101198178648638",
       "title": "Venda do Bordeaux por 1 euro evita <b>liquidação judicial</b> do clube francês",
@@ -369,6 +351,24 @@
       "content": "Banco avalia que os papéis devem ser cancelados após a <b>liquidação</b> e espera baixa adesão dos minoritários. ... recuperação <b>judicial</b> de Novonor e NSP.",
       "status": "nao_enviar"
     },
+    "https://www.band.com.br/esportes/futebol/times/vasco/marcos-lamacchia-vence-leilao-pela-saf-do-vasco-entenda-os-proximos-passos": {
+      "id": "tag:google.com,2013:googlealerts/feed:13407313050033886065",
+      "title": "Marcos Lamacchia vence leilão pela SAF do Vasco; entenda os próximos passos - Band",
+      "link": "https://www.band.com.br/esportes/futebol/times/vasco/marcos-lamacchia-vence-leilao-pela-saf-do-vasco-entenda-os-proximos-passos",
+      "published": "2026-09-25T19:03:45Z",
+      "updated": "2026-09-25T19:03:45Z",
+      "content": "... recuperação <b>judicial</b>. Na prática, a empresa apresentou a proposta de ... recuperação <b>judicial</b> e outras garantias financeiras. Quais são os ...",
+      "status": "nao_enviar"
+    },
+    "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/25/leilao-confirma-marcos-lamacchia-como-novo-dono-da-saf-do-vasco.ghtm": {
+      "id": "tag:google.com,2013:googlealerts/feed:16170884536539701984",
+      "title": "Leilão confirma empresa de Marcos Lamacchia como compradora da SAF do Vasco - UOL",
+      "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/25/leilao-confirma-marcos-lamacchia-como-novo-dono-da-saf-do-vasco.ghtm",
+      "published": "2026-09-25T18:50:27Z",
+      "updated": "2026-09-25T18:50:27Z",
+      "content": "... recuperação <b>judicial</b>. Assim, o controle do futebol é vendido sem que o ... Recuperação <b>Judicial</b> e sob acompanhamento dos órgãos e auxiliares ...",
+      "status": "nao_enviar"
+    },
     "https://www.pontonacurva.com.br/justica-estadual/tjmt-proibe-falencia-de-ex-deputado-por-creditos-trabalhistas/35177": {
       "id": "tag:google.com,2013:googlealerts/feed:14194311672244783414",
       "title": "TJMT proíbe falência de ex-deputado por créditos trabalhistas - Ponto na Curva",
@@ -377,6 +377,24 @@
       "updated": "2026-09-25T18:47:08Z",
       "content": "Alegaram, ainda, que o indeferimento do TACOM coloca em risco a continuidade da recuperação <b>judicial</b>, diante dos pedidos de convolação em falência ...",
       "status": "nao_enviar"
+    },
+    "https://noataque.com.br/noticia/2026/09/25/divida-52-milhoes-atletico-estuda-recuperacao-judicial/": {
+      "id": "tag:google.com,2013:googlealerts/feed:2224197951195657045",
+      "title": "Com dívida de R$ 52 milhões com ex-Atlético, clube estuda recuperação <b>judicial</b>",
+      "link": "https://noataque.com.br/noticia/2026/09/25/divida-52-milhoes-atletico-estuda-recuperacao-judicial/",
+      "published": "2026-09-25T18:35:43Z",
+      "updated": "2026-09-25T18:35:43Z",
+      "content": "A crise financeira do San Lorenzo pode levar o clube argentino a pedir recuperação <b>judicial</b> para reorganizar um passivo de aproximadamente US$ 67 ...",
+      "status": "enviado"
+    },
+    "https://www.nsctotal.com.br/colunista/faraco/em-meio-a-negociacao-kactus-reforca-caixa-do-avai-para-pagar-acordos-da-recuperacao-judicial-e-da-uniao": {
+      "id": "tag:google.com,2013:googlealerts/feed:535045718685916013",
+      "title": "Em meio à negociação, Kactus reforça caixa do Avaí para pagar acordos da Recuperação ...",
+      "link": "https://www.nsctotal.com.br/colunista/faraco/em-meio-a-negociacao-kactus-reforca-caixa-do-avai-para-pagar-acordos-da-recuperacao-judicial-e-da-uniao",
+      "published": "2026-09-25T18:22:45Z",
+      "updated": "2026-09-25T18:22:45Z",
+      "content": "Em meio à negociação, Kactus reforça caixa do Avaí para pagar acordos da Recuperação <b>Judicial</b> e da União. Futura compradora da SAF do Avaí segue ...",
+      "status": "enviado"
     },
     "https://noataque.com.br/futebol/campeonato-frances/noticia/2026/09/25/tradicional-clube-frances-e-vendido-por-1-euro-para-evitar-liquidacao-judicial/": {
       "id": "tag:google.com,2013:googlealerts/feed:5207052956472628446",
