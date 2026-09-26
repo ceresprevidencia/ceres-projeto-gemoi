@@ -1,5 +1,59 @@
 {
   "noticias": {
+    "https://veja.abril.com.br/economia/nova-divida-da-casas-bahia-aperta-ainda-mais-o-caixa-da-varejista/": {
+      "id": "tag:google.com,2013:googlealerts/feed:894615819691894429",
+      "title": "Nova dívida da Casas Bahia aperta ainda mais o caixa da varejista - Revista Veja",
+      "link": "https://veja.abril.com.br/economia/nova-divida-da-casas-bahia-aperta-ainda-mais-o-caixa-da-varejista/",
+      "published": "2026-09-25T23:01:57Z",
+      "updated": "2026-09-25T23:01:57Z",
+      "content": "Um mês após pedir <b>recuperação judicial</b>, a Casas Bahia captou 368 milhões de reais a juros de 2,6% ao mês. Na maior das operações, de 241 milhões ...",
+      "status": "nao_enviar"
+    },
+    "https://eshoje.com.br/economia/2026/09/recuperacao-judicial-apex/": {
+      "id": "tag:google.com,2013:googlealerts/feed:7209088193498923356",
+      "title": "Investidores tentam tirar terreno na Enseada do Suá da <b>recuperação judicial</b> da Apex",
+      "link": "https://eshoje.com.br/economia/2026/09/recuperacao-judicial-apex/",
+      "published": "2026-09-25T22:43:02Z",
+      "updated": "2026-09-25T22:43:02Z",
+      "content": "Advogado tenta convencer o juiz de que ABMPAR 27 não deveria estar em <b>recuperação judicial</b> do Grupo APEX e que há risco para terreno Nazca.",
+      "status": "enviado"
+    },
+    "https://www.espn.com.br/futebol/vasco/artigo/_/id/17302562/pedrinho-responde-acusacoes-presidente-cuiaba-sobre-calote-vasco-garante-minha-gestao-nao-deve-nada": {
+      "id": "tag:google.com,2013:googlealerts/feed:6388585955024537140",
+      "title": "Pedrinho responde acusações do presidente do Cuiabá sobre 'calote' do Vasco e garante",
+      "link": "https://www.espn.com.br/futebol/vasco/artigo/_/id/17302562/pedrinho-responde-acusacoes-presidente-cuiaba-sobre-calote-vasco-garante-minha-gestao-nao-deve-nada",
+      "published": "2026-09-25T22:02:31Z",
+      "updated": "2026-09-25T22:02:31Z",
+      "content": "Entretanto, o clube segue em <b>recuperação judicial</b>. Antes mesmo de concluir a aquisição por parte dos novos donos, a diretoria realizou algumas ...",
+      "status": "nao_enviar"
+    },
+    "https://www.lance.com.br/vasco/socio-de-lamacchia-revela-projeto-ambicioso-para-o-vasco-apos-vitoria-em-leilao.html": {
+      "id": "tag:google.com,2013:googlealerts/feed:16101724914199928715",
+      "title": "Sócio de Lamacchia revela projeto ambicioso para o Vasco após vitória em leilão - LANCE!",
+      "link": "https://www.lance.com.br/vasco/socio-de-lamacchia-revela-projeto-ambicioso-para-o-vasco-apos-vitoria-em-leilao.html",
+      "published": "2026-09-25T21:58:35Z",
+      "updated": "2026-09-25T21:58:35Z",
+      "content": "Segundo ele, o grupo já realizou empréstimos ao clube, inclusive durante o processo de <b>recuperação judicial</b>, e avalia novos aportes. - Existe uma ...",
+      "status": "nao_enviar"
+    },
+    "https://www.moneytimes.com.br/axia-energia-axia3-weg-wege3-magazine-luiza-mglu3-e-outros-destaques-desta-sexta-feira-mlem/": {
+      "id": "tag:google.com,2013:googlealerts/feed:8441562160744403533",
+      "title": "Axia Energia (AXIA3), WEG (WEGE3), Magazine Luiza (MGLU3) e outros ... - Money Times",
+      "link": "https://www.moneytimes.com.br/axia-energia-axia3-weg-wege3-magazine-luiza-mglu3-e-outros-destaques-desta-sexta-feira-mlem/",
+      "published": "2026-09-25T21:55:14Z",
+      "updated": "2026-09-25T21:55:14Z",
+      "content": "Fasa (FASA3), antiga Fictor, convoca credores para votar plano de <b>recuperação judicial</b>. CONTINUA DEPOIS DA PUBLICIDADE. CONTINUA DEPOIS DA PUBLICIDADE.",
+      "status": "nao_enviar"
+    },
+    "https://www.tjmg.jus.br/portal-tjmg/jurisprudencia/precedentes-qualificados-e-acoes-coletivas/detalhes-de-recurso-repetitivo-8ACC82BBA0D1012B01A0D9AF522C323B-00.htm": {
+      "id": "tag:google.com,2013:googlealerts/feed:8244347765922013358",
+      "title": "Definir se é devida a condenação em honorários advocatícios sucumbenciais - em caso de ...",
+      "link": "https://www.tjmg.jus.br/portal-tjmg/jurisprudencia/precedentes-qualificados-e-acoes-coletivas/detalhes-de-recurso-repetitivo-8ACC82BBA0D1012B01A0D9AF522C323B-00.htm",
+      "published": "2026-09-25T21:14:41Z",
+      "updated": "2026-09-25T21:14:41Z",
+      "content": "... <b>recuperação judicial</b> e de falência (Tema 1250 - STJ). Acórdão de Mérito ... <b>recuperação judicial</b> e de falência. Tese fixada: Nos incidentes de ...",
+      "status": "nao_enviar"
+    },
     "https://www.terra.com.br/esportes/vasco/almirante-participacoes-sa-vence-leilao-e-arremata-90-da-saf-do-vasco,a2eb4ce71dee85e47e709b0934de13f2oqqw1m09.html": {
       "id": "tag:google.com,2013:googlealerts/feed:13198255047378013192",
       "title": "Almirante Participações S.A. vence leilão e arremata 90% da SAF do Vasco - Terra",
@@ -126,59 +180,32 @@
       "content": "... <b>recuperação judicial</b> do Vasco. E qual o preço mínimo? Tecnicamente, o ... <b>recuperação judicial</b>. Assim, o controle do futebol é vendido sem ...",
       "status": "nao_enviar"
     },
-    "https://brasilmineral.com.br/noticias/de-casca-na-bolsa-a-gigante-o-caso-yamana-e-o-ipo-da-amapa-minerals-em-toronto": {
-      "id": "tag:google.com,2013:googlealerts/feed:7984102386296916124",
-      "title": "De casca na bolsa a gigante: o caso Yamana e o IPO da Amapá Minerals em Toronto",
-      "link": "https://brasilmineral.com.br/noticias/de-casca-na-bolsa-a-gigante-o-caso-yamana-e-o-ipo-da-amapa-minerals-em-toronto",
-      "published": "2026-09-25T18:05:29Z",
-      "updated": "2026-09-25T18:05:29Z",
-      "content": "Não diga aquilo que você não vai cumprir.” Arão Portugal, AP Consultoria. Amapá Minerals: da <b>recuperação judicial</b> a Toronto. Ivan Truzzi, CEO da Amapá ...",
+    "https://atlaspublico.com.br/cvm/noticias/braskem-informa-decisao-judicial-sobre-reestruturacao-da-89554": {
+      "id": "tag:google.com,2013:googlealerts/feed:9873442329126150878",
+      "title": "Braskem informa decisão judicial sobre reestruturação da Idesa, ainda pendente de publicação",
+      "link": "https://atlaspublico.com.br/cvm/noticias/braskem-informa-decisao-judicial-sobre-reestruturacao-da-89554",
+      "published": "2026-09-25T23:10:09Z",
+      "updated": "2026-09-25T23:10:09Z",
+      "content": "A Braskem S.A. informou, em comunicado à B3 e à CVM de 25 de setembro de 2026, que uma decisão judicial no processo de <b>recuperação extrajudicial</b> ...",
       "status": "nao_enviar"
     },
-    "https://www.novohamburgo.rs.gov.br/noticia/procuradora-novo-hamburgo-aborda-recuperacao-dividas-fiscais-seminario-oabnh": {
-      "id": "tag:google.com,2013:googlealerts/feed:3640294878812635503",
-      "title": "Procuradora de Novo Hamburgo aborda <b>recuperação</b> de dívidas fiscais em seminário da OAB/NH",
-      "link": "https://www.novohamburgo.rs.gov.br/noticia/procuradora-novo-hamburgo-aborda-recuperacao-dividas-fiscais-seminario-oabnh",
-      "published": "2026-09-25T17:48:50Z",
-      "updated": "2026-09-25T17:48:50Z",
-      "content": "O evento foi promovido pela Comissão de Direito Empresarial da OAB/NH. Durante a palestra, Fernanda destacou que a <b>recuperação judicial</b> não impede, ...",
-      "status": "nao_enviar"
-    },
-    "https://braziljournal.com/novas-regras-sufocam-o-mercado-de-legal-claims/": {
-      "id": "tag:google.com,2013:googlealerts/feed:18182684983217148026",
-      "title": "Novas regras sufocam o mercado de 'legal claims' - Brazil Journal",
-      "link": "https://braziljournal.com/novas-regras-sufocam-o-mercado-de-legal-claims/",
-      "published": "2026-09-25T17:21:14Z",
-      "updated": "2026-09-25T17:21:14Z",
-      "content": "Essas carteiras eram compradas, por exemplo, de empresas em <b>recuperação judicial</b>.” Na avaliação dela, em vez de proibir, as medidas deveriam ser ...",
-      "status": "nao_enviar"
-    },
-    "https://conjur.com.br/2026-set-25/stj-define-credito-na-falencia-por-servico-apos-recuperacao-judicial/": {
-      "id": "tag:google.com,2013:googlealerts/feed:1057769575951038997",
-      "title": "STJ classifica crédito trabalhista na falência por serviço posterior à RJ - Conjur",
-      "link": "https://conjur.com.br/2026-set-25/stj-define-credito-na-falencia-por-servico-apos-recuperacao-judicial/",
-      "published": "2026-09-25T17:17:28Z",
-      "updated": "2026-09-25T17:17:28Z",
-      "content": "Créditos por serviços prestado depois da <b>recuperação judicial</b> são derivados da legislação do trabalho e pagos com prioridade na falência.",
+    "https://www.ativovirtual.com.br/avnews/artigos/fato-relevante-braskem-brkm3-decisao-proferida-em-recuperacao-extrajudicial": {
+      "id": "tag:google.com,2013:googlealerts/feed:3028038923302011022",
+      "title": "Fato relevante Braskem (BRKM3): decisão proferida em <b>recuperação extrajudicial</b>",
+      "link": "https://www.ativovirtual.com.br/avnews/artigos/fato-relevante-braskem-brkm3-decisao-proferida-em-recuperacao-extrajudicial",
+      "published": "2026-09-25T22:37:49Z",
+      "updated": "2026-09-25T22:37:49Z",
+      "content": "Braskem (BRKM3; BRKM5; BRKM6) informou ter sido comunicada de decisão no âmbito da <b>recuperação extrajudicial</b> da companhia e de certas controladas.",
       "status": "enviado"
     },
-    "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/09/aos-115-anos-cooperativa-troca-presidente-pela-2a-vez-em-2026-e-tambem-ja-perdeu-dois-ceos-cmug112m701iy013e1uynjjax.html": {
-      "id": "tag:google.com,2013:googlealerts/feed:14870351568085502512",
-      "title": "Aos 115 anos, cooperativa troca presidente pela 2ª vez em 2026 e também já perdeu dois CEOs",
-      "link": "https://gauchazh.clicrbs.com.br/colunistas/giane-guerra/noticia/2026/09/aos-115-anos-cooperativa-troca-presidente-pela-2a-vez-em-2026-e-tambem-ja-perdeu-dois-ceos-cmug112m701iy013e1uynjjax.html",
-      "published": "2026-09-25T17:10:54Z",
-      "updated": "2026-09-25T17:10:54Z",
-      "content": "<b>recuperação judicial</b> · dívida · cooperativismo · justiça · norte do rs · noroeste do rs. Mais Lidas. 1. 1. image. Eleições 2026. Pesquisa Quaest para ...",
-      "status": "nao_enviar"
-    },
-    "https://globorural.globo.com/cooperativas/noticia/2026/09/presidente-da-cotrib-renuncia-ao-cargo-cooperativa-acumula-dvidas-superiores-a-r-14-bilho.ghtml": {
-      "id": "tag:google.com,2013:googlealerts/feed:9721890619106486463",
-      "title": "Presidente da Cotribá renuncia ao cargo; cooperativa acumula dívidas superiores a R$ 1,4 bilhão",
-      "link": "https://globorural.globo.com/cooperativas/noticia/2026/09/presidente-da-cotrib-renuncia-ao-cargo-cooperativa-acumula-dvidas-superiores-a-r-14-bilho.ghtml",
-      "published": "2026-09-25T16:54:28Z",
-      "updated": "2026-09-25T16:54:28Z",
-      "content": "CEO havia sido destituído em agosto; pedido de <b>recuperação judicial</b> foi negado pela Justiça.",
-      "status": "nao_enviar"
+    "https://www.spacemoney.com.br/economia/quatro-medidas-recuperacao-extrajudicial-braskem/": {
+      "id": "tag:google.com,2013:googlealerts/feed:11422285784488366146",
+      "title": "Quatro medidas na <b>recuperação extrajudicial</b> da Braskem - SpaceMoney",
+      "link": "https://www.spacemoney.com.br/economia/quatro-medidas-recuperacao-extrajudicial-braskem/",
+      "published": "2026-09-25T21:01:30Z",
+      "updated": "2026-09-25T21:01:30Z",
+      "content": "Justiça impõe quatro medidas à <b>recuperação extrajudicial</b> da Braskem, com quórum por empresa, suspensão da BAKIDE e administradora judicial.",
+      "status": "enviado"
     },
     "https://mundoba.com.br/justica/gilmar-mendes-diz-que-presidente-do-tj-ba-o-ligou-preocupado-com-crise-no-brb-administrador-de-recursos-da-corte/": {
       "id": "tag:google.com,2013:googlealerts/feed:15472111535740572237",
@@ -324,33 +351,6 @@
       "content": "O Ministério Público de São Paulo pediu a nomeação de um administrador judicial para acompanhar a <b>recuperação extrajudicial</b> da Braskem, uma medida ...",
       "status": "enviado"
     },
-    "https://veja.abril.com.br/brasil/vitimas-da-farra-populismo-fiscal-do-governo-lula-leva-a-juros-altos-e-uma-onda-de-empresas-quebradas/": {
-      "id": "tag:google.com,2013:googlealerts/feed:16112005732875638453",
-      "title": "Vítimas da farra: populismo fiscal do governo Lula leva a juros altos e uma onda de ...",
-      "link": "https://veja.abril.com.br/brasil/vitimas-da-farra-populismo-fiscal-do-governo-lula-leva-a-juros-altos-e-uma-onda-de-empresas-quebradas/",
-      "published": "2026-09-25T12:01:40Z",
-      "updated": "2026-09-25T12:01:40Z",
-      "content": "... recuperação judicial ou extrajudicial — também o maior volume da história. ... Braskem: a <b>recuperação extrajudicial</b> envolve mais de 50 bilhões de ...",
-      "status": "nao_enviar"
-    },
-    "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/09/25/crise-divida-braskem-trava-contraproposta-rejeitada": {
-      "id": "tag:google.com,2013:googlealerts/feed:12575671337998920090",
-      "title": "Crise da dívida da Braskem trava com contraproposta rejeitada - TV Sim Brasil",
-      "link": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/09/25/crise-divida-braskem-trava-contraproposta-rejeitada",
-      "published": "2026-09-25T11:56:16Z",
-      "updated": "2026-09-25T11:56:16Z",
-      "content": "Nesse cenário, a <b>recuperação extrajudicial</b>, desenhada para ser mais rápida, vira o processo judicial mais demorado que a empresa tentava evitar desde ...",
-      "status": "nao_enviar"
-    },
-    "https://capitalaberto.com.br/empresas/2026/09/reestruturacao-bilionaria-do-gpa-esbarra-em-disputas": {
-      "id": "tag:google.com,2013:googlealerts/feed:3811462073993912278",
-      "title": "Reestruturação bilionária do GPA esbarra em disputas - Capital Aberto",
-      "link": "https://capitalaberto.com.br/empresas/2026/09/reestruturacao-bilionaria-do-gpa-esbarra-em-disputas",
-      "published": "2026-09-25T10:03:03Z",
-      "updated": "2026-09-25T10:03:03Z",
-      "content": "O plano de <b>recuperação extrajudicial</b>, cujo edital foi publicado em maio, contou com o aval de 57,49% dos créditos sujeitos à reestruturação. O plano ...",
-      "status": "nao_enviar"
-    },
     "https://www.brasileirao.com.br/venda-do-bordeaux-por-1-euro-evita-liquidacao-judicial-do-clube-frances": {
       "id": "tag:google.com,2013:googlealerts/feed:17317101198178648638",
       "title": "Venda do Bordeaux por 1 euro evita <b>liquidação judicial</b> do clube francês",
@@ -387,6 +387,33 @@
       "content": "Tradicional clube francês é vendido por 1 euro para evitar <b>liquidação judicial</b>. Bordeaux escapou do encerramento definitivo de suas atividades após ...",
       "status": "enviado"
     },
+    "https://www.novohamburgo.rs.gov.br/noticia/procuradora-novo-hamburgo-aborda-recuperacao-dividas-fiscais-seminario-oabnh": {
+      "id": "tag:google.com,2013:googlealerts/feed:13032424347438710039",
+      "title": "Procuradora de Novo Hamburgo aborda recuperação de dívidas fiscais em seminário da OAB/NH",
+      "link": "https://www.novohamburgo.rs.gov.br/noticia/procuradora-novo-hamburgo-aborda-recuperacao-dividas-fiscais-seminario-oabnh",
+      "published": "2026-09-25T17:48:50Z",
+      "updated": "2026-09-25T17:48:50Z",
+      "content": "O evento foi promovido pela Comissão de Direito Empresarial da OAB/NH. Durante a palestra, Fernanda destacou que a recuperação <b>judicial</b> não impede, ...",
+      "status": "nao_enviar"
+    },
+    "https://conjur.com.br/2026-set-25/stj-define-credito-na-falencia-por-servico-apos-recuperacao-judicial/": {
+      "id": "tag:google.com,2013:googlealerts/feed:3131271603842474991",
+      "title": "STJ classifica crédito trabalhista na falência por serviço posterior à RJ - Conjur",
+      "link": "https://conjur.com.br/2026-set-25/stj-define-credito-na-falencia-por-servico-apos-recuperacao-judicial/",
+      "published": "2026-09-25T17:17:28Z",
+      "updated": "2026-09-25T17:17:28Z",
+      "content": "Créditos por serviços prestado depois da recuperação <b>judicial</b> são derivados da legislação do trabalho e pagos com prioridade na falência.",
+      "status": "enviado"
+    },
+    "https://braziljournal.com/novas-regras-sufocam-o-mercado-de-legal-claims/": {
+      "id": "tag:google.com,2013:googlealerts/feed:6118772303231429600",
+      "title": "Novas regras sufocam o mercado de 'legal claims' - Brazil Journal",
+      "link": "https://braziljournal.com/novas-regras-sufocam-o-mercado-de-legal-claims/",
+      "published": "2026-09-25T16:31:06Z",
+      "updated": "2026-09-25T16:31:06Z",
+      "content": "... <b>liquidação</b>,” disse Luciana Costa Engelberg, sócia do ... Essas carteiras eram compradas, por exemplo, de empresas em recuperação <b>judicial</b>.",
+      "status": "nao_enviar"
+    },
     "https://oabms.org.br/esa-conecta-e-cfrj-debatem-passivo-fiscal-e-transacao-tributaria-na-recuperacao-judicial/": {
       "id": "tag:google.com,2013:googlealerts/feed:17555105477990486738",
       "title": "ESA Conecta e CFRJ debatem passivo fiscal e transação tributária na recuperação <b>judicial</b>",
@@ -414,6 +441,15 @@
       "content": "A Justiça de Mato Grosso decretou, em setembro 2026, o encerramento da Recuperação <b>Judicial</b> do grupo Auto Peças e Ferragens...",
       "status": "enviado"
     },
+    "https://veja.abril.com.br/brasil/vitimas-da-farra-populismo-fiscal-do-governo-lula-leva-a-juros-altos-e-uma-onda-de-empresas-quebradas/": {
+      "id": "tag:google.com,2013:googlealerts/feed:5757667174660397300",
+      "title": "Vítimas da farra: populismo fiscal do governo Lula leva a juros altos e uma onda de ...",
+      "link": "https://veja.abril.com.br/brasil/vitimas-da-farra-populismo-fiscal-do-governo-lula-leva-a-juros-altos-e-uma-onda-de-empresas-quebradas/",
+      "published": "2026-09-25T15:01:40Z",
+      "updated": "2026-09-25T15:01:40Z",
+      "content": "... recuperação <b>judicial</b>, e as de médio porte somam mais 3 100. Em diversos casos, porém, mesmo a proteção legal para renegociar as dívidas se mostra ...",
+      "status": "nao_enviar"
+    },
     "https://www.panrotas.com.br/mercado/transporte/2026/09/brightline-anuncia-entrada-no-chapter-11-operacao-dos-trens-segue-normalmente_232283.html": {
       "id": "tag:google.com,2013:googlealerts/feed:1470205293548470907",
       "title": "Brightline anuncia entrada no Chapter 11; operação dos trens segue normalmente",
@@ -423,6 +459,15 @@
       "content": "A Brightline entrou oficialmente com um pedido de recuperação <b>judicial</b> sob o Chapter 11 nesta sexta-feira (25). A dívida corporativa no centro da ...",
       "status": "enviado"
     },
+    "https://globorural.globo.com/cooperativas/noticia/2026/09/presidente-da-cotrib-renuncia-ao-cargo-cooperativa-acumula-dvidas-superiores-a-r-14-bilho.ghtml": {
+      "id": "tag:google.com,2013:googlealerts/feed:4867759411531764354",
+      "title": "Presidente da Cotribá renuncia ao cargo; cooperativa acumula dívidas superiores a R$ 1,4 bilhão",
+      "link": "https://globorural.globo.com/cooperativas/noticia/2026/09/presidente-da-cotrib-renuncia-ao-cargo-cooperativa-acumula-dvidas-superiores-a-r-14-bilho.ghtml",
+      "published": "2026-09-25T14:47:46Z",
+      "updated": "2026-09-25T14:47:46Z",
+      "content": "CEO havia sido destituído em agosto; pedido de recuperação <b>judicial</b> foi negado pela Justiça.",
+      "status": "nao_enviar"
+    },
     "https://conjur.com.br/2026-set-25/trava-fiduciaria-sobre-a-safra-e-a-ilusao-da-recuperacao-judicial-do-produtor-rural/": {
       "id": "tag:google.com,2013:googlealerts/feed:761069425560792489",
       "title": "Trava fiduciária sobre safra e ilusão da recuperação <b>judicial</b> do produtor rural - Conjur",
@@ -431,6 +476,24 @@
       "updated": "2026-09-25T14:26:32Z",
       "content": "... recuperação <b>judicial</b> (RJ). soja Wenderson Araujo/Trilux/CNA Recuperação <b>judicial</b> na agricultura. Apenas nos últimos ciclos, o número de ...",
       "status": "enviado"
+    },
+    "https://agazetadoacre.com/2026/09/colunistas/guia-gazeta/7o-guia-gazeta/conselho-do-mpf-decide-manter-gonet-no-caso-master-e-arquivar-pedido-de-apuracao-por-relacao-com-vorcaro/": {
+      "id": "tag:google.com,2013:googlealerts/feed:8524456760088499361",
+      "title": "Conselho do MPF decide manter Gonet no caso Master e arquivar pedido de apuração por ...",
+      "link": "https://agazetadoacre.com/2026/09/colunistas/guia-gazeta/7o-guia-gazeta/conselho-do-mpf-decide-manter-gonet-no-caso-master-e-arquivar-pedido-de-apuracao-por-relacao-com-vorcaro/",
+      "published": "2026-09-25T22:12:27Z",
+      "updated": "2026-09-25T22:12:27Z",
+      "content": "... <b>liquidação extrajudicial</b> da instituição em novembro de 2025. O ex-dono do banco Master Daniel Vorcaro foi preso preventivamente no aeroporto de ...",
+      "status": "nao_enviar"
+    },
+    "https://jornalggn.com.br/justica/conselho-do-mpf-mantem-gonet-no-caso-master-e-arquiva-pedido-de-investigacao/": {
+      "id": "tag:google.com,2013:googlealerts/feed:8842012391399785792",
+      "title": "Conselho do MPF mantém Gonet no caso Master e arquiva pedido de investigação",
+      "link": "https://jornalggn.com.br/justica/conselho-do-mpf-mantem-gonet-no-caso-master-e-arquiva-pedido-de-investigacao/",
+      "published": "2026-09-25T22:00:01Z",
+      "updated": "2026-09-25T22:00:01Z",
+      "content": "A instituição sofreu <b>liquidação extrajudicial</b> em novembro de 2025. Vorcaro foi preso preventivamente no aeroporto de Guarulhos quando tentava ...",
+      "status": "nao_enviar"
     },
     "https://bahiaeconomica.com.br/wp/2026/09/25/conselho-do-mpf-mantem-gonet-no-caso-master-e-arquiva-pedido-de-apuracao/": {
       "id": "tag:google.com,2013:googlealerts/feed:9853087485946346115",
@@ -466,6 +529,15 @@
       "published": "2026-09-25T21:06:19Z",
       "updated": "2026-09-25T21:06:19Z",
       "content": "O caso culminou na decretação da <b>liquidação extrajudicial</b> da instituição em novembro de 2025. O ex-dono do banco, Daniel Vorcaro, foi preso ...",
+      "status": "nao_enviar"
+    },
+    "https://www.maisregiao.com.br/noticia/94680/conselho-do-mpf-forma-maioria-para-nao-afastar-paulo-gonet-do-caso-master/amp": {
+      "id": "tag:google.com,2013:googlealerts/feed:538757220852364039",
+      "title": "Conselho do MPF forma maioria para não afastar Paulo Gonet do caso Master",
+      "link": "https://www.maisregiao.com.br/noticia/94680/conselho-do-mpf-forma-maioria-para-nao-afastar-paulo-gonet-do-caso-master/amp",
+      "published": "2026-09-25T20:43:24Z",
+      "updated": "2026-09-25T20:43:24Z",
+      "content": "As investigações culminaram na decretação da <b>liquidação extrajudicial</b> da instituição em novembro de 2025 e na prisão preventiva de Daniel Vorcaro ...",
       "status": "nao_enviar"
     },
     "https://ultimasnoticias.inf.br/noticia/delator-do-banco-master-antonio-freixo-foi-ganhador-570-vezes-de-premios-e-apostas-que-somam-mais-de-r-176-milhoes-diz-mp/": {
@@ -583,33 +655,6 @@
       "published": "2026-09-25T14:36:47Z",
       "updated": "2026-09-25T14:36:47Z",
       "content": "O caso Banco Master envolve investigações sobre suspeitas relacionadas à instituição financeira, que teve a <b>liquidação extrajudicial</b> decretada pelo ...",
-      "status": "nao_enviar"
-    },
-    "https://g1.globo.com/politica/noticia/2026/09/25/conselho-do-mpf-julga-atuacao-de-paulo-gonet-no-caso-banco-master.ghtml": {
-      "id": "tag:google.com,2013:googlealerts/feed:6728979143545131917",
-      "title": "Caso Master: relator rejeita investigar Gonet e diz que mensagens não mostram conversa ... - G1",
-      "link": "https://g1.globo.com/politica/noticia/2026/09/25/conselho-do-mpf-julga-atuacao-de-paulo-gonet-no-caso-banco-master.ghtml",
-      "published": "2026-09-25T14:13:37Z",
-      "updated": "2026-09-25T14:13:37Z",
-      "content": "a condução de investigações sobre a instituição financeira — que teve sua <b>liquidação extrajudicial</b> decretada pelo Banco Central em novembro de 2025; ...",
-      "status": "nao_enviar"
-    },
-    "https://www.brasil247.com/poder/mensagens-isoladas-nao-podem-ser-analisadas-fora-de-contexto-diz-relator-ao-votar-contra-investigacao-de-paulo-gonet/": {
-      "id": "tag:google.com,2013:googlealerts/feed:17695789286966097490",
-      "title": "'Mensagens isoladas não podem ser analisadas fora de contexto', diz relator ao votar ...",
-      "link": "https://www.brasil247.com/poder/mensagens-isoladas-nao-podem-ser-analisadas-fora-de-contexto-diz-relator-ao-votar-contra-investigacao-de-paulo-gonet/",
-      "published": "2026-09-25T14:08:16Z",
-      "updated": "2026-09-25T14:08:16Z",
-      "content": "... <b>liquidação extrajudicial</b> decretada pela autoridade monetária em novembro de 2025. O colegiado do CSMPF analisa se as citações contidas no ...",
-      "status": "nao_enviar"
-    },
-    "https://bpmoney.com.br/politica/paulo-gonet-relator-do-mpf-vota-contra-investigacao-no-caso-master/": {
-      "id": "tag:google.com,2013:googlealerts/feed:11098128247925419",
-      "title": "Paulo Gonet: relator do MPF vota contra investigação no caso Master - BP Money",
-      "link": "https://bpmoney.com.br/politica/paulo-gonet-relator-do-mpf-vota-contra-investigacao-no-caso-master/",
-      "published": "2026-09-25T13:56:53Z",
-      "updated": "2026-09-25T13:56:53Z",
-      "content": "A primeira trata da condução das investigações sobre a instituição financeira, que teve a <b>liquidação extrajudicial</b> decretada pelo Banco Central em ...",
       "status": "nao_enviar"
     }
   }
