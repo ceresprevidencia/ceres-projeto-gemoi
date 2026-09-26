@@ -1,5 +1,68 @@
 {
   "noticias": {
+    "https://jornalcana.com.br/mercado/usinas/breaking-news/": {
+      "id": "tag:google.com,2013:googlealerts/feed:13335852388430092405",
+      "title": "Viralcool assume usina em Avaré e chega a cinco unidades - JornalCana",
+      "link": "https://jornalcana.com.br/mercado/usinas/breaking-news/",
+      "published": "2026-09-26T19:03:25Z",
+      "updated": "2026-09-26T19:03:25Z",
+      "content": "... <b>recuperação judicial</b> da Furlan. O projeto envolvia a planta industrial e duas propriedades rurais localizadas próximas à unidade. Com a transição ...",
+      "status": "nao_enviar"
+    },
+    "https://rhpravoce.com.br/colab/ghosting-corporativo-marca-empregadora": {
+      "id": "tag:google.com,2013:googlealerts/feed:3888420172028365634",
+      "title": "Ghosting corporativo afeta a marca empregadora - RH Pra Você",
+      "link": "https://rhpravoce.com.br/colab/ghosting-corporativo-marca-empregadora",
+      "published": "2026-09-26T18:53:02Z",
+      "updated": "2026-09-26T18:53:02Z",
+      "content": "A <b>recuperação judicial</b> limita direitos trabalhistas ao reorganizar o passivo da empresa sem... Custo do presenteísmo nas empresas e saúde mental.",
+      "status": "nao_enviar"
+    },
+    "https://www.lance.com.br/futebol-nacional/lamacchia-no-vasco-veja-os-aportes-iniciais-de-outras-safs.html": {
+      "id": "tag:google.com,2013:googlealerts/feed:10132581990918455082",
+      "title": "Lamacchia no Vasco: veja os aportes iniciais de outras SAFs - LANCE!",
+      "link": "https://www.lance.com.br/futebol-nacional/lamacchia-no-vasco-veja-os-aportes-iniciais-de-outras-safs.html",
+      "published": "2026-09-26T18:25:55Z",
+      "updated": "2026-09-26T18:25:55Z",
+      "content": "Como opera em <b>recuperação judicial</b>, o Cruz-Maltino teve de abrir as ações em leilão. A empresa de Lamacchia, a Almirante Participações, que foi ...",
+      "status": "nao_enviar"
+    },
+    "https://www.moneytimes.com.br/calote-em-fii-e-disputa-de-r-103-bi-no-stf-veja-as-materias-mais-lidas-da-semana-no-money-times/": {
+      "id": "tag:google.com,2013:googlealerts/feed:8126618957862452544",
+      "title": "Calote em FII e disputa de R$ 103 bi no STF: Veja as matérias mais lidas da semana no ...",
+      "link": "https://www.moneytimes.com.br/calote-em-fii-e-disputa-de-r-103-bi-no-stf-veja-as-materias-mais-lidas-da-semana-no-money-times/",
+      "published": "2026-09-26T18:23:17Z",
+      "updated": "2026-09-26T18:23:17Z",
+      "content": "O fundo imobiliário Inter Logístico (INLG11) anunciou, por meio de fato relevante, que uma de suas locatárias entrou em <b>recuperação judicial</b> (RJ) ...",
+      "status": "nao_enviar"
+    },
+    "https://jcam.com.br/noticias/alta-nas-recuperacoes-judiciais-nao-sinaliza-crise-economica-mas-acende-alerta/": {
+      "id": "tag:google.com,2013:googlealerts/feed:2655871841000238122",
+      "title": "Alta nas recuperações <b>judiciais</b> não sinaliza crise econômica, mas acende alerta",
+      "link": "https://jcam.com.br/noticias/alta-nas-recuperacoes-judiciais-nao-sinaliza-crise-economica-mas-acende-alerta/",
+      "published": "2026-09-26T18:13:11Z",
+      "updated": "2026-09-26T18:13:11Z",
+      "content": "O volume de empresas em <b>recuperação judicial</b> atingiu o maior patamar da série histórica iniciada em julho de 2023, segundo o Monitor RGF-BIZDOC.",
+      "status": "enviado"
+    },
+    "https://canaltech.com.br/telecom/falencia-da-oi-pode-afetar-mais-de-180-mil-pessoas-e-empresas/": {
+      "id": "tag:google.com,2013:googlealerts/feed:4769045794699437713",
+      "title": "Falência da Oi pode afetar mais de 180 mil pessoas e empresas - Canaltech",
+      "link": "https://canaltech.com.br/telecom/falencia-da-oi-pode-afetar-mais-de-180-mil-pessoas-e-empresas/",
+      "published": "2026-09-26T17:59:46Z",
+      "updated": "2026-09-26T17:59:46Z",
+      "content": "O número representa um crescimento em relação aos 164 mil credores registrados em agosto de 2026, na reta final da segunda <b>recuperação judicial</b>. A ...",
+      "status": "nao_enviar"
+    },
+    "https://www.cnnbrasil.com.br/economia/money/mercado/falencia-de-exchanges-cresce-em-meio-ao-inverno-cripto/": {
+      "id": "tag:google.com,2013:googlealerts/feed:6414847184154605784",
+      "title": "Falência de exchanges cresce em meio ao inverno cripto - CNN Brasil",
+      "link": "https://www.cnnbrasil.com.br/economia/money/mercado/falencia-de-exchanges-cresce-em-meio-ao-inverno-cripto/",
+      "published": "2026-09-26T17:32:48Z",
+      "updated": "2026-09-26T17:32:48Z",
+      "content": "Em 2022, a FTX, uma das maiores exchanges de criptomoedas do mundo naquele momento, entrou em colapso e pediu <b>recuperação judicial</b>. “Existem as ...",
+      "status": "enviado"
+    },
     "https://marilianoticia.com.br/mariliaeregiao/sasazaki-demite-cerca-de-60-funcionarios-e-paralisa-atividades-em-marilia/": {
       "id": "tag:google.com,2013:googlealerts/feed:4556223222171301880",
       "title": "Sasazaki demite cerca de 60 funcionários e paralisa atividades em Marília",
@@ -36,6 +99,15 @@
       "content": "Pelo modelo apresentado, o novo controlador também assumiria responsabilidades financeiras previstas no processo de <b>recuperação judicial</b>, além de ...",
       "status": "nao_enviar"
     },
+    "https://aciara.com.br/fidc-de-creditos-judiciais-setor-reage-nova-regra/": {
+      "id": "tag:google.com,2013:googlealerts/feed:10387263625598754598",
+      "title": "FIDC de créditos <b>judiciais</b>: setor reage à nova regra - Acia Araçatuba",
+      "link": "https://aciara.com.br/fidc-de-creditos-judiciais-setor-reage-nova-regra/",
+      "published": "2026-09-26T13:35:59Z",
+      "updated": "2026-09-26T13:35:59Z",
+      "content": "A nova regra, segundo os gestores, pode restringir o uso de FIDCs para financiar demandas <b>judiciais</b>, prática comum no mercado de <b>recuperação</b> de ativos ...",
+      "status": "nao_enviar"
+    },
     "https://radioaltouruguai.com.br/agropecuaria-ivagaci-com-instalacoes-em-boa-vista-do-burica-e-filial-em-nova-candelaria-pede-recuperacao-judicial-com-r-12767-milhoes-em-creditos-sujeitos/": {
       "id": "tag:google.com,2013:googlealerts/feed:9172130865462357374",
       "title": "Agropecuária Ivagaci, com instalações em Boa Vista do Buricá e filial em Nova Candelária ...",
@@ -52,6 +124,24 @@
       "published": "2026-09-26T12:35:32Z",
       "updated": "2026-09-26T12:35:32Z",
       "content": "... <b>recuperação judicial</b> tem um. Negócios. Aos 54 anos, varejista gaúcha em <b>recuperação judicial</b> tem um plano para faturar R$ 20 milhões.",
+      "status": "nao_enviar"
+    },
+    "https://www.pontonacurva.com.br/stjstf/stf-vai-definir-limites-para-quebra-de-sigilo-telematico/35190": {
+      "id": "tag:google.com,2013:googlealerts/feed:12090026321324751190",
+      "title": "STF vai definir limites para quebra de sigilo telemático - Ponto na Curva",
+      "link": "https://www.pontonacurva.com.br/stjstf/stf-vai-definir-limites-para-quebra-de-sigilo-telematico/35190",
+      "published": "2026-09-26T12:32:07Z",
+      "updated": "2026-09-26T12:32:07Z",
+      "content": "TJMT revoga falência e retoma <b>recuperação judicial</b> de R$ 28 mi · 5. STF unifica critérios e prazos da licença-maternidade para todas as mães. ÚLTIMAS ...",
+      "status": "nao_enviar"
+    },
+    "https://www.nordinvestimentos.com.br/blog/zona-da-morte-bolsa-brasileira-endividamento/": {
+      "id": "tag:google.com,2013:googlealerts/feed:10574028614367838670",
+      "title": "A zona da morte da Bolsa brasileira: por que dívida alta está matando empresas",
+      "link": "https://www.nordinvestimentos.com.br/blog/zona-da-morte-bolsa-brasileira-endividamento/",
+      "published": "2026-09-26T12:23:18Z",
+      "updated": "2026-09-26T12:23:18Z",
+      "content": "O ano de 2025 fechou com o maior número de empresas em <b>recuperação judicial</b> da história, e 2026 já enfileirou Raízen, Braskem, Casas Bahia e a ...",
       "status": "nao_enviar"
     },
     "https://odia.ig.com.br/esporte/vasco/2026/09/7305838-proposta-de-marcos-lamacchia-para-comprar-saf-do-vasco-e-homologada.html": {
@@ -72,121 +162,31 @@
       "content": "Recentemente, a Comissão de Valores Mobiliários (CVM) alterou suas regras para facilitar o uso de FIDCs por empresas em <b>recuperação judicial</b>, ...",
       "status": "nao_enviar"
     },
-    "https://www1.folha.uol.com.br/esporte/2026/09/proposta-de-enteado-de-leila-pereira-vence-leilao-por-saf-do-vasco.shtml": {
-      "id": "tag:google.com,2013:googlealerts/feed:485023085059256750",
-      "title": "Proposta de enteado de Leila Pereira vence leilão por SAF do Vasco - Folha - UOL",
-      "link": "https://www1.folha.uol.com.br/esporte/2026/09/proposta-de-enteado-de-leila-pereira-vence-leilao-por-saf-do-vasco.shtml",
-      "published": "2026-09-26T11:15:17Z",
-      "updated": "2026-09-26T11:15:17Z",
-      "content": "A proposta de Lamacchia, realizada por meio da empresa Almirante Participações, foi a única apresentada à Justiça carioca. ... <b>recuperação judicial</b> em ...",
+    "https://www.netvasco.com.br/n/393347/audiencia-do-leilao-da-saf-teve-inicio-tenso-mas-terminou-em-comemoracao": {
+      "id": "tag:google.com,2013:googlealerts/feed:174804554389890964",
+      "title": "Audiência do leilão da SAF teve início tenso, mas terminou em comemoração - NETVASCO",
+      "link": "https://www.netvasco.com.br/n/393347/audiencia-do-leilao-da-saf-teve-inicio-tenso-mas-terminou-em-comemoracao",
+      "published": "2026-09-26T12:00:07Z",
+      "updated": "2026-09-26T12:00:07Z",
+      "content": "... Justiça do Estado do Rio de Janeiro, mas um. ... Por lei, o Vasco precisava abrir as ações da SAF para leilão, uma vez que está em <b>recuperação judicial</b> ...",
       "status": "nao_enviar"
     },
-    "https://exame.com/negocios/aos-54-anos-varejista-gaucha-em-recuperacao-judicial-tem-um-plano-para-faturar-r-20-milhoes/": {
-      "id": "tag:google.com,2013:googlealerts/feed:4545494838503387011",
-      "title": "Aos 54 anos, varejista gaúcha em <b>recuperação judicial</b> tem um plano para faturar R$ 20 milhões",
-      "link": "https://exame.com/negocios/aos-54-anos-varejista-gaucha-em-recuperacao-judicial-tem-um-plano-para-faturar-r-20-milhoes/",
-      "published": "2026-09-26T11:10:47Z",
-      "updated": "2026-09-26T11:10:47Z",
-      "content": "RESUMO | A ferragem Thony, de Porto Alegre, entrou em <b>recuperação judicial</b> no início de 2026 com dívida superior a R$ 8,5 milhões, após alta das ...",
+    "https://www.einerd.com/build-a-rocket-boy-recuperacao-judicial-mindseye/": {
+      "id": "tag:google.com,2013:googlealerts/feed:14893888028216234582",
+      "title": "Estúdio de MindsEye entra oficialmente em <b>recuperação</b> - Ei Nerd!",
+      "link": "https://www.einerd.com/build-a-rocket-boy-recuperacao-judicial-mindseye/",
+      "published": "2026-09-26T11:33:33Z",
+      "updated": "2026-09-26T11:33:33Z",
+      "content": "A Build a Rocket Boy, criadora de “MindsEye“, deu entrada formalmente em processo de <b>recuperação judicial</b> no Reino Unido.",
       "status": "enviado"
     },
-    "https://www.cartacapital.com.br/esporte/almirante-participacoes-s-a-vence-leilao-e-arremata-90-da-saf-do-vasco/": {
-      "id": "tag:google.com,2013:googlealerts/feed:15459624483173702880",
-      "title": "Almirante Participações S.A. vence leilão e arremata 90% da SAF do Vasco - Carta Capital",
-      "link": "https://www.cartacapital.com.br/esporte/almirante-participacoes-s-a-vence-leilao-e-arremata-90-da-saf-do-vasco/",
-      "published": "2026-09-26T11:02:40Z",
-      "updated": "2026-09-26T11:02:40Z",
-      "content": "... <b>Recuperação Judicial</b> e o passivo remanescente do clube. O acordo ... Conclusão Jurídica: A transferência efetiva do controle acionário só ...",
-      "status": "nao_enviar"
-    },
-    "https://valor.globo.com/empresas/noticia/2026/09/25/braskem-diz-ter-conhecimento-de-decisao-da-justica-em-processo-de-re-mas-afirma-que-ainda-nao-foi-intimada.ghtml": {
-      "id": "tag:google.com,2013:googlealerts/feed:6845853050934342640",
-      "title": "Braskem diz ter conhecimento de decisão da Justiça em processo de RE, mas afirma que ...",
-      "link": "https://valor.globo.com/empresas/noticia/2026/09/25/braskem-diz-ter-conhecimento-de-decisao-da-justica-em-processo-de-re-mas-afirma-que-ainda-nao-foi-intimada.ghtml",
-      "published": "2026-09-26T10:30:04Z",
-      "updated": "2026-09-26T10:30:04Z",
-      "content": "Além disso, seguindo recomendação do Ministério Público de São Paulo (MPSP), nomeou uma administradora <b>judicial</b> para acompanhar a <b>recuperação</b> ...",
-      "status": "enviado"
-    },
-    "https://www.broadcast.com.br/news/braskem-apresentara-contraproposta-a-pedido-de-aporte-da-petrobras/": {
-      "id": "tag:google.com,2013:googlealerts/feed:569488686409246880",
-      "title": "Braskem apresentará contraproposta a pedido de aporte da Petrobras - Broadcast",
-      "link": "https://www.broadcast.com.br/news/braskem-apresentara-contraproposta-a-pedido-de-aporte-da-petrobras/",
-      "published": "2026-09-26T10:10:29Z",
-      "updated": "2026-09-26T10:10:29Z",
-      "content": "O desembolso de recursos da Braskem na subsidiária mexicana faz parte do plano de <b>recuperação judicial</b> protocolado em agosto na Justiça norte- ...",
-      "status": "nao_enviar"
-    },
-    "https://npexpresso.com.br/geral/agropecuaria-ivagaci-pede-recuperacao-judicial": {
-      "id": "tag:google.com,2013:googlealerts/feed:808507964940802514",
-      "title": "Agropecuária Ivagaci pede <b>recuperação judicial</b> - NP Expresso",
-      "link": "https://npexpresso.com.br/geral/agropecuaria-ivagaci-pede-recuperacao-judicial",
-      "published": "2026-09-26T09:21:45Z",
-      "updated": "2026-09-26T09:21:45Z",
-      "content": "... recuperação. O pedido não significa que a <b>recuperação judicial</b> já foi autorizada: a Justiça ainda precisa analisar o caso. (Redação, João Lemes ...",
-      "status": "enviado"
-    },
-    "https://oabms.org.br/aviso-pesquisa-do-csjt-sobre-planejamento-estrategico-da-justica-do-trabalho/": {
-      "id": "tag:google.com,2013:googlealerts/feed:15200571602231004179",
-      "title": "Aviso: pesquisa do CSJT sobre Planejamento Estratégico da Justiça do Trabalho - OABMS",
-      "link": "https://oabms.org.br/aviso-pesquisa-do-csjt-sobre-planejamento-estrategico-da-justica-do-trabalho/",
-      "published": "2026-09-26T08:14:37Z",
-      "updated": "2026-09-26T08:14:37Z",
-      "content": "... Justiça do Trabalho para o ciclo 2027-2032. A iniciativa busca ... <b>recuperação judicial</b> 25/09/2026. Portarias · Resoluções · REGIMENTO INTERNO.",
-      "status": "nao_enviar"
-    },
-    "https://atribunarj.com.br/materia/lamacchia-vence-o-leilao-da-saf-do-vasco-da-gama": {
-      "id": "tag:google.com,2013:googlealerts/feed:12144693488704963509",
-      "title": "Lamacchia vence o leilão da SAF do Vasco da Gama - A Tribuna RJ",
-      "link": "https://atribunarj.com.br/materia/lamacchia-vence-o-leilao-da-saf-do-vasco-da-gama",
-      "published": "2026-09-26T07:51:14Z",
-      "updated": "2026-09-26T07:51:14Z",
-      "content": "... <b>recuperação judicial</b>, para dar segmento às garantias exigidas pelo edital. ... O clube utilizou R$ 65 milhões do montante para pagar premiações ao ...",
-      "status": "nao_enviar"
-    },
-    "https://guiacrissiumal.com.br/noticias/25-09-2026-Agropecuaria_Ivagaci_pede_recuperacao_judicial_com_R$_127,67_milhoes_em_creditos_sujeitos": {
-      "id": "tag:google.com,2013:googlealerts/feed:6645061024026128110",
-      "title": "Not    cias - Agropecuária Ivagaci pede recuperação judicial com R$ 127 ... - Guia Crissiumal",
-      "link": "https://guiacrissiumal.com.br/noticias/25-09-2026-Agropecuaria_Ivagaci_pede_recuperacao_judicial_com_R$_127,67_milhoes_em_creditos_sujeitos",
-      "published": "2026-09-26T07:40:25Z",
-      "updated": "2026-09-26T07:40:25Z",
-      "content": "A Agropecuária Ivagaci, de Boa Vista do Buricá (RS), pediu <b>recuperação judicial</b> em 17/09/2026 com R$ 127,67 milhões em créditos sujeitos, ...",
-      "status": "enviado"
-    },
-    "https://www.pontonacurva.com.br/justica-estadual/tjmt-proibe-falencia-de-ex-deputado-por-creditos-trabalhistas/35177": {
-      "id": "tag:google.com,2013:googlealerts/feed:17830110604902480185",
-      "title": "TJMT proíbe falência de ex-deputado por créditos trabalhistas - Ponto na Curva",
-      "link": "https://www.pontonacurva.com.br/justica-estadual/tjmt-proibe-falencia-de-ex-deputado-por-creditos-trabalhistas/35177",
-      "published": "2026-09-26T06:47:08Z",
-      "updated": "2026-09-26T06:47:08Z",
-      "content": "... <b>recuperação judicial</b>, diante dos pedidos de convolação em falência formulados nos autos. O desembargador afirmou que a controvérsia jurídica é ...",
-      "status": "nao_enviar"
-    },
-    "https://www.poder360.com.br/poder-sportsmkt/empresa-de-lamacchia-vence-leilao-e-avanca-para-assumir-saf-do-vasco/": {
-      "id": "tag:google.com,2013:googlealerts/feed:3539625036743062521",
-      "title": "Empresa de Lamacchia vence leilão e avança para assumir SAF do Vasco - Poder360",
-      "link": "https://www.poder360.com.br/poder-sportsmkt/empresa-de-lamacchia-vence-leilao-e-avanca-para-assumir-saf-do-vasco/",
-      "published": "2026-09-26T06:12:40Z",
-      "updated": "2026-09-26T06:12:40Z",
-      "content": "Justiça · Leilão · Marcos Lamacchia · Pedrinho · <b>recuperação judicial</b> · SAF do Vasco · São Januário · Sociedade Anônima do Futebol · Tribunal de ...",
-      "status": "nao_enviar"
-    },
-    "https://pipelinevalor.globo.com/mercado/noticia/decisao-do-cmn-sobre-creditos-judiciais-afeta-mercado-de-r-36-bi-e-chega-as-rjs.ghtml": {
-      "id": "tag:google.com,2013:googlealerts/feed:1510721616867412763",
-      "title": "Decisão do CMN sobre créditos <b>judiciais</b> afeta mercado de R$ 36 bi e chega às RJs",
-      "link": "https://pipelinevalor.globo.com/mercado/noticia/decisao-do-cmn-sobre-creditos-judiciais-afeta-mercado-de-r-36-bi-e-chega-as-rjs.ghtml",
-      "published": "2026-09-26T01:46:30Z",
-      "updated": "2026-09-26T01:46:30Z",
-      "content": "... <b>recuperação judicial</b>, segundo advogados e gestores especializados. Em processos de reestruturação esse tipo de crédito era um ativo monetizável. O ...",
-      "status": "nao_enviar"
-    },
-    "https://www.nordinvestimentos.com.br/blog/zona-da-morte-bolsa-brasileira-endividamento/": {
-      "id": "tag:google.com,2013:googlealerts/feed:7572662289210819142",
-      "title": "A zona da morte da Bolsa brasileira: por que dívida alta está matando empresas",
-      "link": "https://www.nordinvestimentos.com.br/blog/zona-da-morte-bolsa-brasileira-endividamento/",
-      "published": "2026-09-26T12:23:18Z",
-      "updated": "2026-09-26T12:23:18Z",
-      "content": "A Casas Bahia fez a <b>recuperação extrajudicial</b> em 2024, com R$ 4 bilhões em dívidas para renegociar. Por algum momento, a companhia indicou que ...",
+    "https://visnoinvest.com.br/news/15442/pgmn3-136-e-brkm5-lideram-quedas-da-semana-na-b3": {
+      "id": "tag:google.com,2013:googlealerts/feed:1182601979175633426",
+      "title": "PGMN3 (-13,6%) e BRKM5 lideram quedas da semana na B3 | Visno Invest",
+      "link": "https://visnoinvest.com.br/news/15442/pgmn3-136-e-brkm5-lideram-quedas-da-semana-na-b3",
+      "published": "2026-09-26T18:13:32Z",
+      "updated": "2026-09-26T18:13:32Z",
+      "content": "... (-13,62%), TASA4 e BRKM5 (-8,99%) figuraram entre as maiores quedas, com Braskem em foco após anúncios de <b>recuperação extrajudicial</b> e OPA.",
       "status": "nao_enviar"
     },
     "https://mundoba.com.br/justica/csmpf-forma-maioria-para-manter-gonet-no-caso-master/": {
@@ -234,15 +234,6 @@
       "content": "Justiça impõe quatro medidas à <b>recuperação extrajudicial</b> da Braskem, com quórum por empresa, suspensão da BAKIDE e administradora judicial.",
       "status": "enviado"
     },
-    "https://valor.globo.com/empresas/noticia/2026/09/25/exclusivo-justica-limita-votos-e-plano-de-recuperacao-judicial-da-unigel-pode-ser-rejeitado.ghtml": {
-      "id": "tag:google.com,2013:googlealerts/feed:8221566263285957174",
-      "title": "Exclusivo: Justiça limita votos, e plano de <b>recuperação</b> judicial da Unigel pode ser rejeitado",
-      "link": "https://valor.globo.com/empresas/noticia/2026/09/25/exclusivo-justica-limita-votos-e-plano-de-recuperacao-judicial-da-unigel-pode-ser-rejeitado.ghtml",
-      "published": "2026-09-25T20:32:21Z",
-      "updated": "2026-09-25T20:32:21Z",
-      "content": "... <b>recuperação extrajudicial</b>, deliberaram pelo ajuizamento da recuperação judicial e no curso deste processo apoiaram o novo arranjo societário e ...",
-      "status": "enviado"
-    },
     "https://investnews.com.br/negocios/nike-ve-entusiasmo-de-analistas-cair-ao-menor-nivel-em-25-anos/": {
       "id": "tag:google.com,2013:googlealerts/feed:99801868140605733",
       "title": "Nike vê entusiasmo de analistas cair ao menor nível em 25 anos - InvestNews",
@@ -270,59 +261,23 @@
       "content": "Braskem (BRKM3) comunica decisão em <b>recuperação extrajudicial</b>. Mais Lidas da Semana.",
       "status": "nao_enviar"
     },
-    "https://financenews.com.br/2026/09/atualizacao-ibovespa-reduz-perdas-embraer-ambev-e-outros-destaques-corporativos/": {
-      "id": "tag:google.com,2013:googlealerts/feed:17515142406859391063",
-      "title": "Atualização: Ibovespa reduz perdas, Embraer, Ambev e outros destaques corporativos",
-      "link": "https://financenews.com.br/2026/09/atualizacao-ibovespa-reduz-perdas-embraer-ambev-e-outros-destaques-corporativos/",
-      "published": "2026-09-25T16:51:56Z",
-      "updated": "2026-09-25T16:51:56Z",
-      "content": "Além disso, foi nomeada uma administradora judicial para acompanhar a <b>recuperação extrajudicial</b> da companhia brasileira. A Braskem disse que foi ...",
-      "status": "nao_enviar"
-    },
-    "https://investnews.com.br/negocios/bill-gates-alerta-que-ia-e-poderosa-o-suficiente-para-provocar-1-bilhao-de-mortes/": {
-      "id": "tag:google.com,2013:googlealerts/feed:7843300724212646207",
-      "title": "Bill Gates alerta que IA é poderosa o suficiente para provocar '1 bilhão de mortes'",
-      "link": "https://investnews.com.br/negocios/bill-gates-alerta-que-ia-e-poderosa-o-suficiente-para-provocar-1-bilhao-de-mortes/",
-      "published": "2026-09-25T15:28:05Z",
-      "updated": "2026-09-25T15:28:05Z",
-      "content": "... <b>recuperação extrajudicial</b> pode afetar o caixa · Nas últimas 24 ... Justiça impõe quatro medidas à Braskem dentro da <b>recuperação extrajudicial</b>.",
-      "status": "nao_enviar"
-    },
-    "https://acionista.com.br/axia-energia-axia3-aprova-alocacao-de-r-4-bilhoes-para-resgate-de-acoes-pnc/": {
-      "id": "tag:google.com,2013:googlealerts/feed:14366194798426545189",
-      "title": "Axia Energia (AXIA3): Aprova alocação de R$ 4 bilhões para resgate de ações PNC",
-      "link": "https://acionista.com.br/axia-energia-axia3-aprova-alocacao-de-r-4-bilhoes-para-resgate-de-acoes-pnc/",
-      "published": "2026-09-25T14:41:24Z",
-      "updated": "2026-09-25T14:41:24Z",
-      "content": "Braskem (BRKM3): Comunica decisão judicial em processo de <b>recuperação extrajudicial</b> · Yduqs (YDUQ3): Anuncia fusão com a Afya Limited. Ver categoria ...",
-      "status": "nao_enviar"
-    },
-    "https://www.bnews.com.br/noticias/economia-e-mercado/justica-atende-credores-da-braskem-suspende-aportes-e-nomeia-administrador-judicial-em-operacao-de-us-800-mi.html": {
-      "id": "tag:google.com,2013:googlealerts/feed:3855547013177326048",
-      "title": "Justiça atende credores da Braskem, suspende aportes e nomeia administrador judicial ... - Bnews",
-      "link": "https://www.bnews.com.br/noticias/economia-e-mercado/justica-atende-credores-da-braskem-suspende-aportes-e-nomeia-administrador-judicial-em-operacao-de-us-800-mi.html",
-      "published": "2026-09-25T12:51:43Z",
-      "updated": "2026-09-25T12:51:43Z",
-      "content": "... <b>recuperação extrajudicial</b> da petroquímica brasileira. O grupo de credores é formado por detentores de debêntures e títulos de dívida emitidos pela ...",
+    "https://www.hnt.com.br/justica/justica-confirma-o-fim-de-recuperacao-judicial-de-autopecas-em-cuiaba/577302": {
+      "id": "tag:google.com,2013:googlealerts/feed:17483593773736467522",
+      "title": "Justiça confirma o fim de recuperação <b>judicial</b> de autopeças em Cuiabá - Você bem informado",
+      "link": "https://www.hnt.com.br/justica/justica-confirma-o-fim-de-recuperacao-judicial-de-autopecas-em-cuiaba/577302",
+      "published": "2026-09-26T20:16:57Z",
+      "updated": "2026-09-26T20:16:57Z",
+      "content": "Magistrado apontou <b>liquidação</b> dos débitos trabalhistas e cumprimento de obrigações com credores para encerrar processo iniciado há quase uma década.",
       "status": "enviado"
     },
-    "https://www.portaldoholanda.com.br/mundo/tribunal-suspende-novas-transferencias-da-braskem-para-idesa": {
-      "id": "tag:google.com,2013:googlealerts/feed:12980670533416697703",
-      "title": "Tribunal suspende novas transferências da Braskem para Idesa - Portal do Holanda",
-      "link": "https://www.portaldoholanda.com.br/mundo/tribunal-suspende-novas-transferencias-da-braskem-para-idesa",
-      "published": "2026-09-25T08:41:51Z",
-      "updated": "2026-09-25T08:41:51Z",
-      "content": "A Braskem, que também entrou com pedido de <b>recuperação extrajudicial</b> no Brasil, recusou-se a comentar a decisão judicial. GBR Garcia. Artigos ...",
-      "status": "nao_enviar"
-    },
-    "https://economia.uol.com.br/noticias/reuters/2026/09/24/tribunal-suspende-novas-transferencias-da-braskem-para-idesa.htm": {
-      "id": "tag:google.com,2013:googlealerts/feed:4880525491006394173",
-      "title": "Tribunal suspende novas transferências da Braskem para Idesa - UOL Economia",
-      "link": "https://economia.uol.com.br/noticias/reuters/2026/09/24/tribunal-suspende-novas-transferencias-da-braskem-para-idesa.htm",
-      "published": "2026-09-24T20:36:59Z",
-      "updated": "2026-09-24T20:36:59Z",
-      "content": "A Braskem, que também entrou com pedido de <b>recuperação</b> ⁠<b>extrajudicial</b> no Brasil, recusou-se a comentar ​a decisão judicial.",
-      "status": "nao_enviar"
+    "https://exame.com/negocios/aos-54-anos-varejista-gaucha-em-recuperacao-judicial-tem-um-plano-para-faturar-r-20-milhoes/": {
+      "id": "tag:google.com,2013:googlealerts/feed:13987127600155017867",
+      "title": "Aos 54 anos, varejista gaúcha em recuperação <b>judicial</b> tem um plano para faturar R$ 20 milhões",
+      "link": "https://exame.com/negocios/aos-54-anos-varejista-gaucha-em-recuperacao-judicial-tem-um-plano-para-faturar-r-20-milhoes/",
+      "published": "2026-09-26T11:10:47Z",
+      "updated": "2026-09-26T11:10:47Z",
+      "content": "RESUMO | A ferragem Thony, de Porto Alegre, entrou em recuperação <b>judicial</b> no início de 2026 com dívida superior a R$ 8,5 milhões, após alta das ...",
+      "status": "enviado"
     },
     "https://eshoje.com.br/economia/2026/09/recuperacao-judicial-apex/": {
       "id": "tag:google.com,2013:googlealerts/feed:1974460420256239778",
@@ -333,6 +288,15 @@
       "content": "Advogado tenta convencer o juiz de que ABMPAR 27 não deveria estar em recuperação <b>judicial</b> do Grupo APEX e que há risco para terreno Nazca.",
       "status": "enviado"
     },
+    "https://atribunarj.com.br/materia/lamacchia-vence-o-leilao-da-saf-do-vasco-da-gama": {
+      "id": "tag:google.com,2013:googlealerts/feed:1310115803822448765",
+      "title": "Lamacchia vence o leilão da SAF do Vasco da Gama - A Tribuna RJ",
+      "link": "https://atribunarj.com.br/materia/lamacchia-vence-o-leilao-da-saf-do-vasco-da-gama",
+      "published": "2026-09-26T07:51:14Z",
+      "updated": "2026-09-26T07:51:14Z",
+      "content": "... recuperação <b>judicial</b>, para dar segmento às garantias exigidas pelo edital. ... O clube utilizou R$ 65 milhões do montante para pagar premiações ao ...",
+      "status": "nao_enviar"
+    },
     "https://rede98.com.br/esportes/bordeaux-vendido-por-um-euro/": {
       "id": "tag:google.com,2013:googlealerts/feed:1848968782386441807",
       "title": "Hexacampeão francês é vendido por um euro em meio à crise financeira - Rede 98",
@@ -342,6 +306,33 @@
       "content": "... <b>liquidação judicial</b> da instituição. Como parte do plano de recuperação, os novos investidores depositaram quase 11 milhões de euros em uma conta ...",
       "status": "nao_enviar"
     },
+    "https://guiacrissiumal.com.br/noticias/25-09-2026-Agropecuaria_Ivagaci_pede_recuperacao_judicial_com_R$_127,67_milhoes_em_creditos_sujeitos": {
+      "id": "tag:google.com,2013:googlealerts/feed:6577399412427323235",
+      "title": "Not    cias - Agropecuária Ivagaci pede recuperação judicial com R$ 127 ... - Guia Crissiumal",
+      "link": "https://guiacrissiumal.com.br/noticias/25-09-2026-Agropecuaria_Ivagaci_pede_recuperacao_judicial_com_R$_127,67_milhoes_em_creditos_sujeitos",
+      "published": "2026-09-26T07:40:25Z",
+      "updated": "2026-09-26T07:40:25Z",
+      "content": "A Agropecuária Ivagaci, de Boa Vista do Buricá (RS), pediu recuperação <b>judicial</b> em 17/09/2026 com R$ 127,67 milhões em créditos sujeitos, ...",
+      "status": "enviado"
+    },
+    "https://www.brasileirao.com.br/divida-do-san-lorenzo-com-ex-atletico-pode-forcar-pedido-de-recuperacao-judicial": {
+      "id": "tag:google.com,2013:googlealerts/feed:8939777691950864919",
+      "title": "Dívida do San Lorenzo com ex-Atlético pode forçar pedido de recuperação <b>judicial</b>",
+      "link": "https://www.brasileirao.com.br/divida-do-san-lorenzo-com-ex-atletico-pode-forcar-pedido-de-recuperacao-judicial",
+      "published": "2026-09-26T06:22:28Z",
+      "updated": "2026-09-26T06:22:28Z",
+      "content": "A grave crise financeira que atinge o San Lorenzo pode resultar em um pedido formal de recuperação <b>judicial</b> por parte da diretoria.",
+      "status": "enviado"
+    },
+    "https://www.infoverus.com.br/judiciario/apos-mais-de-11-anos-justica-encerra-recuperacao-judicial-de-grupo-de-autopecas-em-mt/35540": {
+      "id": "tag:google.com,2013:googlealerts/feed:17866165153825312966",
+      "title": "Após mais de 11 anos, Justiça encerra recuperação <b>judicial</b> de grupo de autopeças em MT",
+      "link": "https://www.infoverus.com.br/judiciario/apos-mais-de-11-anos-justica-encerra-recuperacao-judicial-de-grupo-de-autopecas-em-mt/35540",
+      "published": "2026-09-26T06:16:24Z",
+      "updated": "2026-09-26T06:16:24Z",
+      "content": "A Justiça de Mato Grosso decretou, em setembro de 2026, o encerramento da Recuperação <b>Judicial</b> do grupo Auto Peças e Ferragens São Cristóvão Ltda. e ...",
+      "status": "enviado"
+    },
     "https://www.folhamax.com/cidades/grupo-cumpre-plano-e-justica-encerra-recuperacao-em-mt/574151": {
       "id": "tag:google.com,2013:googlealerts/feed:4442307220744000807",
       "title": "Grupo cumpre plano e Justiça encerra recuperação em MT - FOLHAMAX",
@@ -349,15 +340,6 @@
       "published": "2026-09-26T00:34:54Z",
       "updated": "2026-09-26T00:34:54Z",
       "content": "A Justiça de Mato Grosso decretou, em setembro 2026, o encerramento da Recuperação <b>Judicial</b> do grupo Auto Peças e Ferragens São Cristóvão Ltda. e ...",
-      "status": "enviado"
-    },
-    "https://www.brasileirao.com.br/venda-do-bordeaux-por-1-euro-evita-liquidacao-judicial-do-clube-frances": {
-      "id": "tag:google.com,2013:googlealerts/feed:17317101198178648638",
-      "title": "Venda do Bordeaux por 1 euro evita <b>liquidação judicial</b> do clube francês",
-      "link": "https://www.brasileirao.com.br/venda-do-bordeaux-por-1-euro-evita-liquidacao-judicial-do-clube-frances",
-      "published": "2026-09-25T20:43:10Z",
-      "updated": "2026-09-25T20:43:10Z",
-      "content": "O tradicional clube de futebol francês Bordeaux conseguiu escapar do encerramento definitivo de suas atividades após a concretização de uma ...",
       "status": "enviado"
     },
     "https://veja.abril.com.br/economia/nova-divida-da-casas-bahia-aperta-ainda-mais-o-caixa-da-varejista/": {
@@ -396,77 +378,41 @@
       "content": "Banco avalia que os papéis devem ser cancelados após a <b>liquidação</b> e espera baixa adesão dos minoritários. ... recuperação <b>judicial</b> de Novonor e NSP.",
       "status": "nao_enviar"
     },
-    "https://www.band.com.br/esportes/futebol/times/vasco/marcos-lamacchia-vence-leilao-pela-saf-do-vasco-entenda-os-proximos-passos": {
-      "id": "tag:google.com,2013:googlealerts/feed:13407313050033886065",
-      "title": "Marcos Lamacchia vence leilão pela SAF do Vasco; entenda os próximos passos - Band",
-      "link": "https://www.band.com.br/esportes/futebol/times/vasco/marcos-lamacchia-vence-leilao-pela-saf-do-vasco-entenda-os-proximos-passos",
-      "published": "2026-09-25T19:03:45Z",
-      "updated": "2026-09-25T19:03:45Z",
-      "content": "... recuperação <b>judicial</b>. Na prática, a empresa apresentou a proposta de ... recuperação <b>judicial</b> e outras garantias financeiras. Quais são os ...",
+    "https://www.migalhas.com.br/amp/depeso/465205/a-i-legitimidade-do-terceiro-setor-para-requerer-recuperacao-judicial": {
+      "id": "tag:google.com,2013:googlealerts/feed:14302883084417985459",
+      "title": "A (i)legitimidade do terceiro setor para requerer recuperação <b>judicial</b> - Migalhas",
+      "link": "https://www.migalhas.com.br/amp/depeso/465205/a-i-legitimidade-do-terceiro-setor-para-requerer-recuperacao-judicial",
+      "published": "2026-09-24T21:05:34Z",
+      "updated": "2026-09-24T21:05:34Z",
+      "content": "STJ mantém terceiro setor fora da reestruturação empresarial e reforça a necessidade de solução legislativa para crises financeiras.",
+      "status": "enviado"
+    },
+    "https://veja.abril.com.br/politica/veja-o-que-a-pf-encontrou-na-mansao-do-dono-do-banco-master/": {
+      "id": "tag:google.com,2013:googlealerts/feed:7198188042001493983",
+      "title": "Veja o que a PF encontrou na mansão do dono do Banco Master",
+      "link": "https://veja.abril.com.br/politica/veja-o-que-a-pf-encontrou-na-mansao-do-dono-do-banco-master/",
+      "published": "2026-09-26T20:11:55Z",
+      "updated": "2026-09-26T20:11:55Z",
+      "content": "Em novembro do ano passado, o Banco Central decretou a <b>liquidação extrajudicial</b> do Banco Master, enquanto o proprietário da instituição, Daniel ...",
       "status": "nao_enviar"
     },
-    "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/25/leilao-confirma-marcos-lamacchia-como-novo-dono-da-saf-do-vasco.ghtm": {
-      "id": "tag:google.com,2013:googlealerts/feed:16170884536539701984",
-      "title": "Leilão confirma empresa de Marcos Lamacchia como compradora da SAF do Vasco - UOL",
-      "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/09/25/leilao-confirma-marcos-lamacchia-como-novo-dono-da-saf-do-vasco.ghtm",
-      "published": "2026-09-25T18:50:27Z",
-      "updated": "2026-09-25T18:50:27Z",
-      "content": "... recuperação <b>judicial</b>. Assim, o controle do futebol é vendido sem que o ... Recuperação <b>Judicial</b> e sob acompanhamento dos órgãos e auxiliares ...",
+    "https://n1n.com.br/economia/112804/banco-central-atualiza-regras-do-pix-confira-5-mudancas-anunciadas/": {
+      "id": "tag:google.com,2013:googlealerts/feed:15626522710874619802",
+      "title": "Banco Central atualiza regras do PIX; confira 5 mudanças anunciadas - Portal N1N",
+      "link": "https://n1n.com.br/economia/112804/banco-central-atualiza-regras-do-pix-confira-5-mudancas-anunciadas/",
+      "published": "2026-09-26T18:03:56Z",
+      "updated": "2026-09-26T18:03:56Z",
+      "content": "Agora, entidades em <b>liquidação extrajudicial</b> podem ser suspensas imediatamente, sem a necessidade de cumprir o prazo anterior de 30 dias ...",
       "status": "nao_enviar"
     },
-    "https://noataque.com.br/noticia/2026/09/25/divida-52-milhoes-atletico-estuda-recuperacao-judicial/": {
-      "id": "tag:google.com,2013:googlealerts/feed:2224197951195657045",
-      "title": "Com dívida de R$ 52 milhões com ex-Atlético, clube estuda recuperação <b>judicial</b>",
-      "link": "https://noataque.com.br/noticia/2026/09/25/divida-52-milhoes-atletico-estuda-recuperacao-judicial/",
-      "published": "2026-09-25T18:35:43Z",
-      "updated": "2026-09-25T18:35:43Z",
-      "content": "A crise financeira do San Lorenzo pode levar o clube argentino a pedir recuperação <b>judicial</b> para reorganizar um passivo de aproximadamente US$ 67 ...",
-      "status": "enviado"
-    },
-    "https://www.nsctotal.com.br/colunista/faraco/em-meio-a-negociacao-kactus-reforca-caixa-do-avai-para-pagar-acordos-da-recuperacao-judicial-e-da-uniao": {
-      "id": "tag:google.com,2013:googlealerts/feed:535045718685916013",
-      "title": "Em meio à negociação, Kactus reforça caixa do Avaí para pagar acordos da Recuperação ...",
-      "link": "https://www.nsctotal.com.br/colunista/faraco/em-meio-a-negociacao-kactus-reforca-caixa-do-avai-para-pagar-acordos-da-recuperacao-judicial-e-da-uniao",
-      "published": "2026-09-25T18:22:45Z",
-      "updated": "2026-09-25T18:22:45Z",
-      "content": "Em meio à negociação, Kactus reforça caixa do Avaí para pagar acordos da Recuperação <b>Judicial</b> e da União. Futura compradora da SAF do Avaí segue ...",
-      "status": "enviado"
-    },
-    "https://noataque.com.br/futebol/campeonato-frances/noticia/2026/09/25/tradicional-clube-frances-e-vendido-por-1-euro-para-evitar-liquidacao-judicial/": {
-      "id": "tag:google.com,2013:googlealerts/feed:5207052956472628446",
-      "title": "Tradicional clube francês é vendido por 1 euro para evitar <b>liquidação judicial</b> - No Ataque",
-      "link": "https://noataque.com.br/futebol/campeonato-frances/noticia/2026/09/25/tradicional-clube-frances-e-vendido-por-1-euro-para-evitar-liquidacao-judicial/",
-      "published": "2026-09-25T18:11:21Z",
-      "updated": "2026-09-25T18:11:21Z",
-      "content": "Tradicional clube francês é vendido por 1 euro para evitar <b>liquidação judicial</b>. Bordeaux escapou do encerramento definitivo de suas atividades após ...",
-      "status": "enviado"
-    },
-    "https://www.novohamburgo.rs.gov.br/noticia/procuradora-novo-hamburgo-aborda-recuperacao-dividas-fiscais-seminario-oabnh": {
-      "id": "tag:google.com,2013:googlealerts/feed:13032424347438710039",
-      "title": "Procuradora de Novo Hamburgo aborda recuperação de dívidas fiscais em seminário da OAB/NH",
-      "link": "https://www.novohamburgo.rs.gov.br/noticia/procuradora-novo-hamburgo-aborda-recuperacao-dividas-fiscais-seminario-oabnh",
-      "published": "2026-09-25T17:48:50Z",
-      "updated": "2026-09-25T17:48:50Z",
-      "content": "O evento foi promovido pela Comissão de Direito Empresarial da OAB/NH. Durante a palestra, Fernanda destacou que a recuperação <b>judicial</b> não impede, ...",
+    "https://jornalgrandebahia.com.br/2026/09/mensagens-de-daniel-vorcaro-indicam-proximidade-com-senador-davi-alcolumbre-e-reacendem-disputa-sobre-cpi-do-banco-master-no-senado/": {
+      "id": "tag:google.com,2013:googlealerts/feed:17056121095196267101",
+      "title": "Mensagens de Daniel Vorcaro indicam proximidade com senador Davi Alcolumbre e ...",
+      "link": "https://jornalgrandebahia.com.br/2026/09/mensagens-de-daniel-vorcaro-indicam-proximidade-com-senador-davi-alcolumbre-e-reacendem-disputa-sobre-cpi-do-banco-master-no-senado/",
+      "published": "2026-09-26T17:14:36Z",
+      "updated": "2026-09-26T17:14:36Z",
+      "content": "... <b>liquidação extrajudicial</b>. O segundo material fornecido, referente à cobertura da Folha, relaciona expressamente a reportagem aos temas Banco ...",
       "status": "nao_enviar"
-    },
-    "https://conjur.com.br/2026-set-25/stj-define-credito-na-falencia-por-servico-apos-recuperacao-judicial/": {
-      "id": "tag:google.com,2013:googlealerts/feed:3131271603842474991",
-      "title": "STJ classifica crédito trabalhista na falência por serviço posterior à RJ - Conjur",
-      "link": "https://conjur.com.br/2026-set-25/stj-define-credito-na-falencia-por-servico-apos-recuperacao-judicial/",
-      "published": "2026-09-25T17:17:28Z",
-      "updated": "2026-09-25T17:17:28Z",
-      "content": "Créditos por serviços prestado depois da recuperação <b>judicial</b> são derivados da legislação do trabalho e pagos com prioridade na falência.",
-      "status": "enviado"
-    },
-    "https://www.noticiamax.com.br/entretenimento/justica-decreta-encerramento-da-recuperacao-judicial-de-grupo-de-auto-pecas/197934": {
-      "id": "tag:google.com,2013:googlealerts/feed:8677099660771391425",
-      "title": "Justiça decreta encerramento da Recuperação <b>Judicial</b> de grupo de Auto Peças",
-      "link": "https://www.noticiamax.com.br/entretenimento/justica-decreta-encerramento-da-recuperacao-judicial-de-grupo-de-auto-pecas/197934",
-      "published": "2026-09-25T15:13:53Z",
-      "updated": "2026-09-25T15:13:53Z",
-      "content": "A Justiça de Mato Grosso decretou, em setembro 2026, o encerramento da Recuperação <b>Judicial</b> do grupo Auto Peças e Ferragens...",
-      "status": "enviado"
     },
     "https://jornaldefiladelfia.com.br/noticia/2219/mp-proibe-bets-no-brasil-e-determina-devolucao-de-saldo-ao-apostador": {
       "id": "tag:google.com,2013:googlealerts/feed:6899952106063806704",
@@ -558,51 +504,6 @@
       "content": "As investigações culminaram na decretação da <b>liquidação extrajudicial</b> da instituição em novembro de 2025 e na prisão preventiva de Daniel Vorcaro ...",
       "status": "nao_enviar"
     },
-    "https://ultimasnoticias.inf.br/noticia/delator-do-banco-master-antonio-freixo-foi-ganhador-570-vezes-de-premios-e-apostas-que-somam-mais-de-r-176-milhoes-diz-mp/": {
-      "id": "tag:google.com,2013:googlealerts/feed:1723070748075094327",
-      "title": "Delator do Banco Master, Antônio Freixo foi 'ganhador' 570 vezes de prêmios e apostas ...",
-      "link": "https://ultimasnoticias.inf.br/noticia/delator-do-banco-master-antonio-freixo-foi-ganhador-570-vezes-de-premios-e-apostas-que-somam-mais-de-r-176-milhoes-diz-mp/",
-      "published": "2026-09-25T20:13:54Z",
-      "updated": "2026-09-25T20:13:54Z",
-      "content": "Em março deste ano, o Banco Central (BC) determinou a <b>liquidação extrajudicial</b> do Grupo Entre. Entre os motivos apontados estavam grave ...",
-      "status": "nao_enviar"
-    },
-    "https://diarinho.net/coluna/631922/Master--A-trama-que-comecou-a-ruir-no-atual-governo": {
-      "id": "tag:google.com,2013:googlealerts/feed:3223858922413617159",
-      "title": "Master: A trama que começou a ruir no atual governo - DIARINHO",
-      "link": "https://diarinho.net/coluna/631922/Master--A-trama-que-comecou-a-ruir-no-atual-governo",
-      "published": "2026-09-25T19:36:36Z",
-      "updated": "2026-09-25T19:36:36Z",
-      "content": "Em novembro de 2025, o Banco Central decretou a <b>liquidação extrajudicial</b> do Banco Master, apontando grave crise de liquidez, comprometimento ...",
-      "status": "nao_enviar"
-    },
-    "https://www.migalhas.com.br/quentes/465288/conselho-do-mpf-tem-3-a-2-para-investigar-gonet-no-caso-master": {
-      "id": "tag:google.com,2013:googlealerts/feed:2700097858820557283",
-      "title": "AO VIVO: Conselho do MPF tem 3 a 2 para abrir investigação contra Gonet no caso Master",
-      "link": "https://www.migalhas.com.br/quentes/465288/conselho-do-mpf-tem-3-a-2-para-investigar-gonet-no-caso-master",
-      "published": "2026-09-25T19:28:31Z",
-      "updated": "2026-09-25T19:28:31Z",
-      "content": "a condução de investigações sobre a instituição financeira, que teve sua <b>liquidação extrajudicial</b> decretada pelo Banco Central em novembro de 2025; ...",
-      "status": "nao_enviar"
-    },
-    "https://sobralonline.com.br/caso-master-conselho-do-mpf-empata-em-2-a-2-sobre-aprofundar-apuracao-de-gonet/": {
-      "id": "tag:google.com,2013:googlealerts/feed:13708051927529005637",
-      "title": "Caso Master: Conselho do MPF empata em 2 a 2 sobre aprofundar apuração de Gonet",
-      "link": "https://sobralonline.com.br/caso-master-conselho-do-mpf-empata-em-2-a-2-sobre-aprofundar-apuracao-de-gonet/",
-      "published": "2026-09-25T18:45:06Z",
-      "updated": "2026-09-25T18:45:06Z",
-      "content": "a condução de investigações sobre a instituição financeira — que teve sua <b>liquidação extrajudicial</b> decretada pelo Banco Central em novembro de 2025;",
-      "status": "nao_enviar"
-    },
-    "https://infosaj.com.br/relator-vota-contra-investigacao-de-gonet-no-caso-banco-master/": {
-      "id": "tag:google.com,2013:googlealerts/feed:6838352045209293943",
-      "title": "Relator vota contra investigação de Gonet no caso Banco Master - INFOSAJ",
-      "link": "https://infosaj.com.br/relator-vota-contra-investigacao-de-gonet-no-caso-banco-master/",
-      "published": "2026-09-25T18:42:35Z",
-      "updated": "2026-09-25T18:42:35Z",
-      "content": "... <b>liquidação extrajudicial</b> decretada pelo Banco Central em novembro de 2025; a atuação em relação à prisão preventiva do ex-banqueiro Daniel Vorcaro ...",
-      "status": "nao_enviar"
-    },
     "https://oriobranco.net/mpf-vai-a-intervalo-com-placar-de-2x1-pelo-arquivamento-da-investigacao-sobre-gonet-e-vorcaro/": {
       "id": "tag:google.com,2013:googlealerts/feed:17501023252077115169",
       "title": "MPF vai a intervalo com placar de 2×1 pelo arquivamento da investigação sobre Gonet e Vorcaro",
@@ -610,42 +511,6 @@
       "published": "2026-09-25T18:32:32Z",
       "updated": "2026-09-25T18:32:32Z",
       "content": "Banco Central decreta <b>liquidação extrajudicial</b> do Will Bank · Kevin Souza 21/01/2026. Search for: Search. Siga-nos. Artigos Recentes. Aos 107 anos, ex ...",
-      "status": "nao_enviar"
-    },
-    "https://www.portalaz.com.br/noticia/amp/economia/98549/tcdf-bloqueia-r-276-bilhoes-de-ex-dirigentes-do-brb-no-caso-master/": {
-      "id": "tag:google.com,2013:googlealerts/feed:7611752481202816157",
-      "title": "TCDF bloqueia R$ 2,76 bilhões de ex-dirigentes do BRB no caso Master - Portal AZ",
-      "link": "https://www.portalaz.com.br/noticia/amp/economia/98549/tcdf-bloqueia-r-276-bilhoes-de-ex-dirigentes-do-brb-no-caso-master/",
-      "published": "2026-09-25T18:24:00Z",
-      "updated": "2026-09-25T18:24:00Z",
-      "content": "O Banco Central determinou a <b>liquidação extrajudicial</b> do Master em novembro de 2025, em meio a problemas de liquidez, situação econômico ...",
-      "status": "nao_enviar"
-    },
-    "https://www.migalhas.com.br/quentes/465323/cmn-veta-fidcs-em-creditos-judiciais-e-arbitrais-ainda-incertos": {
-      "id": "tag:google.com,2013:googlealerts/feed:5651354791022152049",
-      "title": "Conselho Monetário veta FIDCs em créditos judiciais e arbitrais ainda incertos - Migalhas",
-      "link": "https://www.migalhas.com.br/quentes/465323/cmn-veta-fidcs-em-creditos-judiciais-e-arbitrais-ainda-incertos",
-      "published": "2026-09-25T17:30:32Z",
-      "updated": "2026-09-25T17:30:32Z",
-      "content": "... <b>liquidação</b> para definição do valor devido, também a decisão dessa etapa. Além disso, deverá ter transcorrido sem manifestação o prazo para ...",
-      "status": "nao_enviar"
-    },
-    "https://www.abcdoabc.com.br/banco-master-relator-rejeita-investigar-gonet/": {
-      "id": "tag:google.com,2013:googlealerts/feed:1321705148720621407",
-      "title": "Caso Master: Conselho do MPF mantém Gonet nas apurações",
-      "link": "https://www.abcdoabc.com.br/banco-master-relator-rejeita-investigar-gonet/",
-      "published": "2026-09-25T16:48:48Z",
-      "updated": "2026-09-25T16:48:48Z",
-      "content": "O Banco Central determinou a <b>liquidação extrajudicial</b> da instituição em novembro de 2025, após identificar fraudes estimadas em R$ 12 bilhões. Em ...",
-      "status": "nao_enviar"
-    },
-    "https://jornalggn.com.br/politica/relator-vota-contra-investigacao-de-gonet-nao-se-pode-examinar-mensagens-de-forma-isolada/": {
-      "id": "tag:google.com,2013:googlealerts/feed:18120073695440797415",
-      "title": "Relator vota contra investigação de Gonet sobre o caso Master - Jornal GGN",
-      "link": "https://jornalggn.com.br/politica/relator-vota-contra-investigacao-de-gonet-nao-se-pode-examinar-mensagens-de-forma-isolada/",
-      "published": "2026-09-25T16:19:43Z",
-      "updated": "2026-09-25T16:19:43Z",
-      "content": "A apuração aborda a conduta de Gonet em três frentes: a condução das investigações sobre a <b>liquidação extrajudicial</b> do Banco Master, decretada ...",
       "status": "nao_enviar"
     }
   }
