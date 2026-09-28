@@ -1,0 +1,62 @@
+site_name: Manual do Ambiente SUCON
+site_description: Documentação operacional e técnica do ambiente de relatórios SUCON.
+site_author: Equipe Ceres
+
+copyright: Fundação Ceres
+
+nav:
+  - Início: index.md
+  - Primeiros passos:
+      - Pré-requisitos e instalação: instalacao.md
+      - Configuração e segurança: configuracao.md
+      - Executar o ambiente: execucao.md
+  - Usar o SUCON:
+      - Navegação e relatórios: modulos.md
+      - Due Diligence: due-diligence.md
+      - Exportações e PDFs: exportacoes.md
+  - Projetos auxiliares:
+      - Bot de monitoramento: bot-monitoramento.md
+      - Bot de mercado de crédito: bot-mercado-credito.md
+  - Desenvolvimento:
+      - Arquitetura: arquitetura.md
+      - Operação e troubleshooting: operacao.md
+      - Atualizações e releases: atualizacoes.md
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Usar tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Usar tema claro
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+strict: true
