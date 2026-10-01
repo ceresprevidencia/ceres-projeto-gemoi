@@ -1,5 +1,32 @@
 {
   "noticias": {
+    "https://economia.uol.com.br/noticias/redacao/2026/10/01/justica-do-rio-aprova-plano-de-recuperacao-judicial-da-osx.ghtm": {
+      "id": "tag:google.com,2013:googlealerts/feed:984125991924520428",
+      "title": "Justiça do Rio aprova plano de <b>recuperação judicial</b> da OSX - UOL Economia",
+      "link": "https://economia.uol.com.br/noticias/redacao/2026/10/01/justica-do-rio-aprova-plano-de-recuperacao-judicial-da-osx.ghtm",
+      "published": "2026-10-01T09:51:33Z",
+      "updated": "2026-10-01T09:51:33Z",
+      "content": "A OSX Brasil obteve a aprovação de seu plano de <b>recuperação judicial</b> na Justiça do Rio e começará a pagar seus credores. Saiba mais.",
+      "status": "enviado"
+    },
+    "https://atlaspublico.com.br/cvm/noticias/osx-brasil-tem-plano-de-recuperacao-judicial-homologado-via-90353": {
+      "id": "tag:google.com,2013:googlealerts/feed:2006269473434512832",
+      "title": "OSX Brasil tem plano de <b>recuperação judicial</b> homologado via cram down após rejeição de ...",
+      "link": "https://atlaspublico.com.br/cvm/noticias/osx-brasil-tem-plano-de-recuperacao-judicial-homologado-via-90353",
+      "published": "2026-10-01T09:41:32Z",
+      "updated": "2026-10-01T09:41:32Z",
+      "content": "Justiça homologa plano de <b>recuperação judicial</b> da OSX Brasil via cram down após rejeição de credor trabalhista. Veja os detalhes do plano e ...",
+      "status": "enviado"
+    },
+    "https://panoramafarmaceutico.com.br/setor-farmaceutico-tem-54-empresas-em-recuperacao-judicial-ou-falencia/": {
+      "id": "tag:google.com,2013:googlealerts/feed:16521440258093831618",
+      "title": "Setor farmacêutico tem 54 empresas em <b>recuperação judicial</b> ou falência",
+      "link": "https://panoramafarmaceutico.com.br/setor-farmaceutico-tem-54-empresas-em-recuperacao-judicial-ou-falencia/",
+      "published": "2026-10-01T09:30:33Z",
+      "updated": "2026-10-01T09:30:33Z",
+      "content": "No varejo, são 18 empresas em <b>recuperação judicial</b> e 16 em falência. Na distribuição, o número total abrange 11 recuperações judiciais e nove ...",
+      "status": "enviado"
+    },
     "https://visnoinvest.com.br/news/15502/paranapanema-pmam3-registra-quitacao-de-r-427-bi-em-dividas": {
       "id": "tag:google.com,2013:googlealerts/feed:13584800024760594178",
       "title": "Paranapanema (PMAM3) registra quitação de R$ 4,27 bi em dívidas | Visno Invest",
@@ -17,6 +44,15 @@
       "updated": "2026-10-01T05:38:45Z",
       "content": "Credores da Tahto, subsidiária da Oi, aprovaram em 29.09.2026 o plano de <b>recuperação judicial</b> e o aditamento; a homologação será pedida ao Juízo ...",
       "status": "enviado"
+    },
+    "https://www.otempo.com.br/cidades/2026/9/30/dois-dias-apos-retomada-hospital-belo-horizonte-tem-plano-rejeitado-e-risco-de-falencia-cresce": {
+      "id": "tag:google.com,2013:googlealerts/feed:16783860320369223726",
+      "title": "Hospital de BH tem plano rejeitado e risco de falência cresce - O TEMPO",
+      "link": "https://www.otempo.com.br/cidades/2026/9/30/dois-dias-apos-retomada-hospital-belo-horizonte-tem-plano-rejeitado-e-risco-de-falencia-cresce",
+      "published": "2026-10-01T04:15:13Z",
+      "updated": "2026-10-01T04:15:13Z",
+      "content": "Inaugurada em 1968, unidade de saúde está em <b>recuperação judicial</b> e não conseguiu a aprovação do modelo de pagamento das dívidas.",
+      "status": "nao_enviar"
     },
     "https://www.youtube.com/watch?v=aW-Y9cNCKlI": {
       "id": "tag:google.com,2013:googlealerts/feed:16697882498297498986",
@@ -144,40 +180,76 @@
       "content": "Ex-presidente sugere apresentação de balanço financeiro apenas no pós-<b>recuperação judicial</b>. Por Redação do ge — Maceió. 30/09/2026 18h14 Atualizado ...",
       "status": "nao_enviar"
     },
-    "https://www.brasilagro.com.br/conteudo/sp-agro-movimenta-r-6576-bi-e-responde-por-24-do-pib-do-agro-do-brasil.html": {
-      "id": "tag:google.com,2013:googlealerts/feed:9096529176208168680",
-      "title": "SP: Agro movimenta R$ 657,6 bi e responde por 24% do PIB do agro do Brasil - Brasilagro",
-      "link": "https://www.brasilagro.com.br/conteudo/sp-agro-movimenta-r-6576-bi-e-responde-por-24-do-pib-do-agro-do-brasil.html",
-      "published": "2026-09-30T21:12:20Z",
-      "updated": "2026-09-30T21:12:20Z",
-      "content": "A deterioração financeira também aparece nos pedidos de <b>recuperação judicial</b> de produtores rurais. Foram 1.990 solicitações em 2025, alta de 56,4 ...",
+    "https://valor.globo.com/empresas/noticia/2026/10/01/ministerio-publico-de-sp-muda-posicao-e-da-parecer-favoravel-a-plano-de-recuperacao-do-gpa.ghtml": {
+      "id": "tag:google.com,2013:googlealerts/feed:18376592650243036822",
+      "title": "Ministério Público de SP muda posição e dá parecer favorável a plano de <b>recuperação</b> do GPA",
+      "link": "https://valor.globo.com/empresas/noticia/2026/10/01/ministerio-publico-de-sp-muda-posicao-e-da-parecer-favoravel-a-plano-de-recuperacao-do-gpa.ghtml",
+      "published": "2026-10-01T15:52:40Z",
+      "updated": "2026-10-01T15:52:40Z",
+      "content": "Para o Ministério Público, esse intuito mostra-se compatível com os objetivos da <b>recuperação extrajudicial</b>. Apesar disso, o MPSP disse que não se ...",
+      "status": "enviado"
+    },
+    "https://gironews.com/supermercado/mp-sp-muda-posicao-e-passa-a-defender-plano-extrajudicial-do-gpa/": {
+      "id": "tag:google.com,2013:googlealerts/feed:14320463151429178303",
+      "title": "Ministério Público muda posição e passa a defender <b>recuperação extrajudicial</b> do GPA",
+      "link": "https://gironews.com/supermercado/mp-sp-muda-posicao-e-passa-a-defender-plano-extrajudicial-do-gpa/",
+      "published": "2026-10-01T13:00:15Z",
+      "updated": "2026-10-01T13:00:15Z",
+      "content": "Na <b>recuperação extrajudicial</b>, a empresa negocia diretamente com parte dos credores e leva o acordo ao Judiciário para homologação. Se mais da metade ...",
+      "status": "enviado"
+    },
+    "https://aciara.com.br/lula-promete-comprar-distribuidora-de-combustiveis-se-reeleito/": {
+      "id": "tag:google.com,2013:googlealerts/feed:8032270103135197126",
+      "title": "Lula promete comprar distribuidora de combustíveis se reeleito - Acia Araçatuba",
+      "link": "https://aciara.com.br/lula-promete-comprar-distribuidora-de-combustiveis-se-reeleito/",
+      "published": "2026-10-01T12:57:47Z",
+      "updated": "2026-10-01T12:57:47Z",
+      "content": "ACIA ARAÇATUBA - Todos os Direitos Reservados Rights Reserved. Notícias Recentes. Raízen aprova medidas para <b>recuperação extrajudicial</b> · Associe-se.",
       "status": "nao_enviar"
     },
-    "https://www.folhavitoria.com.br/economia/a-carne-e-o-sangue-da-apex-proteger-os-investidores-imobiliarios-mas-submete-los-a-recuperacao/": {
-      "id": "tag:google.com,2013:googlealerts/feed:11405417869968036689",
-      "title": "A carne e o sangue da Apex: proteger os investidores imobiliários, mas submetê-los à <b>recuperação</b>",
-      "link": "https://www.folhavitoria.com.br/economia/a-carne-e-o-sangue-da-apex-proteger-os-investidores-imobiliarios-mas-submete-los-a-recuperacao/",
-      "published": "2026-09-30T21:12:17Z",
-      "updated": "2026-09-30T21:12:17Z",
-      "content": "Esta declarou no processo o direito de os investidores imobiliários de protegerem os bens, que são seus, e não da Apex, da <b>recuperação judicial</b>. Porém ...",
+    "https://economia.uol.com.br/noticias/redacao/2026/10/01/paulo-belem-deixa-conselho-da-oncoclinicas-em-meio-a-crise-com-acionistas.ghtm": {
+      "id": "tag:google.com,2013:googlealerts/feed:2471763095949113815",
+      "title": "Em crise com acionistas, conselho da Oncoclínicas passará por nova eleição - UOL Economia",
+      "link": "https://economia.uol.com.br/noticias/redacao/2026/10/01/paulo-belem-deixa-conselho-da-oncoclinicas-em-meio-a-crise-com-acionistas.ghtm",
+      "published": "2026-10-01T12:57:11Z",
+      "updated": "2026-10-01T12:57:11Z",
+      "content": "Em julho de 2026, a empresa entrou com pedido de <b>recuperação extrajudicial</b>. A medida busca renegociar cerca de R$ 5,1 bilhões em dívidas com ...",
+      "status": "nao_enviar"
+    },
+    "https://aciara.com.br/chilli-beans-vert-cobra-89-mi-em-3-dias/": {
+      "id": "tag:google.com,2013:googlealerts/feed:10273263606286451164",
+      "title": "Chilli Beans: Vert cobra R$ 89 mi em 3 dias - Associação Comercial e Industrial de Araçatuba",
+      "link": "https://aciara.com.br/chilli-beans-vert-cobra-89-mi-em-3-dias/",
+      "published": "2026-10-01T11:07:54Z",
+      "updated": "2026-10-01T11:07:54Z",
+      "content": "Raízen aprova medidas para <b>recuperação extrajudicial</b> · Produtividade ... Raízen aprova medidas para <b>recuperação extrajudicial</b>. outubro 1, 2026 ...",
+      "status": "nao_enviar"
+    },
+    "https://investidor10.com.br/amp/noticias/rali-de-setembro-magalu-mglu3-dispara-61-e-lidera-altas-do-ibovespa-122939/": {
+      "id": "tag:google.com,2013:googlealerts/feed:7650046748232344714",
+      "title": "Rali de setembro: Magalu (MGLU3) dispara 61% e lidera altas do Ibovespa - Investidor10",
+      "link": "https://investidor10.com.br/amp/noticias/rali-de-setembro-magalu-mglu3-dispara-61-e-lidera-altas-do-ibovespa-122939/",
+      "published": "2026-10-01T10:56:59Z",
+      "updated": "2026-10-01T10:56:59Z",
+      "content": "... <b>recuperação extrajudicial</b> de uma de suas principais concorrentes, a Casas Bahia (BHIA3). A estimativa é que as vendas cresçam até 10% em 2027 ...",
+      "status": "nao_enviar"
+    },
+    "https://aciara.com.br/raizen-aprova-medidas-para-recuperacao-extrajudicial/": {
+      "id": "tag:google.com,2013:googlealerts/feed:1229738951213983239",
+      "title": "Raízen aprova medidas para <b>recuperação extrajudicial</b> - Acia Araçatuba",
+      "link": "https://aciara.com.br/raizen-aprova-medidas-para-recuperacao-extrajudicial/",
+      "published": "2026-10-01T06:57:51Z",
+      "updated": "2026-10-01T06:57:51Z",
+      "content": "Homologado em 30 de julho, o plano de <b>recuperação extrajudicial</b> abrange aproximadamente R$ 61,4 bilhões em dívidas financeiras, segundo o fato ...",
       "status": "enviado"
     },
-    "https://www.oliberal.com/esportes/paysandu/recuperac-o-judicial-do-paysandu-entra-em-nova-etapa-veja-a-lista-de-credores-1.1142532": {
-      "id": "tag:google.com,2013:googlealerts/feed:14838398971520246517",
-      "title": "<b>Recuperação judicial</b> do Paysandu entra em nova etapa; veja a lista de credores - O Liberal",
-      "link": "https://www.oliberal.com/esportes/paysandu/recuperac-o-judicial-do-paysandu-entra-em-nova-etapa-veja-a-lista-de-credores-1.1142532",
-      "published": "2026-09-30T20:58:23Z",
-      "updated": "2026-09-30T20:58:23Z",
-      "content": "Edital do TJ-PA abre período para impugnações e objeções ao plano apresentado pelo clube; lista inclui ex-jogadores, membros de comissões técnicas ...",
-      "status": "enviado"
-    },
-    "https://www.fatosdematogrosso.com.br/juridico/com-divida-de-r-225-milhoes-familia-roversi-obtem-liminar-para-continuar-a-frente-das-lavouras/16752": {
-      "id": "tag:google.com,2013:googlealerts/feed:13981051213509953822",
-      "title": "Com dívida de R$ 22,5 milhões, família Roversi obtém liminar para continuar à frente das lavouras",
-      "link": "https://www.fatosdematogrosso.com.br/juridico/com-divida-de-r-225-milhoes-familia-roversi-obtem-liminar-para-continuar-a-frente-das-lavouras/16752",
-      "published": "2026-09-30T20:39:05Z",
-      "updated": "2026-09-30T20:39:05Z",
-      "content": "... Justiça de Mato Grosso (TJMT), suspendeu os efeitos da sentença que transformou em falência a <b>recuperação judicial</b> de cinco produtores rurais da ...",
+    "https://revistarpanews.com.br/usina-itajobi-tem-inscricao-estadual-cassada-em-sao-paulo/": {
+      "id": "tag:google.com,2013:googlealerts/feed:9367402477746486487",
+      "title": "Usina Itajobi tem inscrição estadual cassada em São Paulo - Portal RPAnews",
+      "link": "https://revistarpanews.com.br/usina-itajobi-tem-inscricao-estadual-cassada-em-sao-paulo/",
+      "published": "2026-10-01T05:20:01Z",
+      "updated": "2026-10-01T05:20:01Z",
+      "content": "Raízen submeterá a acionistas medidas para implementar plano de <b>recuperação extrajudicial</b>. Propostas serão submetidas aos acionistas em assembleias ...",
       "status": "nao_enviar"
     },
     "https://www.terra.com.br/economia/ministerio-publico-passa-a-defender-homologacao-do-plano-de-recuperacao-extrajudicial-do-gpa,4e3592412e8ca0d993c01e493ed76426bq6ad48x.html": {
@@ -279,175 +351,193 @@
       "content": "O conselho de administração da Raízen (RAIZ4) aprovou um conjunto de medidas cruciais para a implementação de seu plano de <b>recuperação extrajudicial</b>, ...",
       "status": "nao_enviar"
     },
-    "https://br.advfn.com/jornal/2026/09/raizen-propoe-novo-conselho-novas-acoes-e-reducao-de-capital-de-ate-r-35-bilhoes/": {
-      "id": "tag:google.com,2013:googlealerts/feed:8675673120859537968",
-      "title": "Raízen propõe novo conselho, novas ações e redução de capital de até R$ 35 bilhões",
-      "link": "https://br.advfn.com/jornal/2026/09/raizen-propoe-novo-conselho-novas-acoes-e-reducao-de-capital-de-ate-r-35-bilhoes/",
-      "published": "2026-09-30T18:01:43Z",
-      "updated": "2026-09-30T18:01:43Z",
-      "content": "As medidas fazem parte do processo de reestruturação financeira da companhia, cujo plano de <b>recuperação extrajudicial</b> foi homologado em 30 de julho ...",
-      "status": "nao_enviar"
-    },
-    "https://forbes.com.br/forbes-money/2026/09/lula-diz-que-governo-comprara-dos-bancos-ate-r157-bi-em-dividas-de-ate-r10-mil-em-novo-desenrola/": {
-      "id": "tag:google.com,2013:googlealerts/feed:16557460689524203168",
-      "title": "Lula Diz Que Governo Comprará dos Bancos até R$157 Bi em Dívidas de até R$10 Mil em ...",
-      "link": "https://forbes.com.br/forbes-money/2026/09/lula-diz-que-governo-comprara-dos-bancos-ate-r157-bi-em-dividas-de-ate-r10-mil-em-novo-desenrola/",
-      "published": "2026-09-30T17:57:08Z",
-      "updated": "2026-09-30T17:57:08Z",
-      "content": "Raízen (RAIZ4) Aprova Medidas para Executar <b>Recuperação Extrajudicial</b>; Entenda. Assine Forbes. Inspire-se, lidere, conquiste. Assinar Ao se ...",
-      "status": "nao_enviar"
-    },
-    "https://forbes.com.br/forbes-money/2026/09/raizen-raiz4-medidas-recuperacao-extrajudicial/": {
-      "id": "tag:google.com,2013:googlealerts/feed:4589861133811633543",
-      "title": "Raízen (RAIZ4) Aprova Medidas para Executar <b>Recuperação Extrajudicial</b>; Entenda",
-      "link": "https://forbes.com.br/forbes-money/2026/09/raizen-raiz4-medidas-recuperacao-extrajudicial/",
-      "published": "2026-09-30T17:48:05Z",
-      "updated": "2026-09-30T17:48:05Z",
-      "content": "O conselho de administração da Raízen (RAIZ4) aprovou um conjunto de medidas para implementar o plano de <b>recuperação extrajudicial</b> do grupo, ...",
+    "https://cooperativismodecredito.coop.br/2026/10/recuperacao-judicial-no-agro-avanca-apesar-da-safra-recorde/": {
+      "id": "tag:google.com,2013:googlealerts/feed:17059748834900690706",
+      "title": "Recuperação <b>judicial</b> no agro avança apesar da safra recorde",
+      "link": "https://cooperativismodecredito.coop.br/2026/10/recuperacao-judicial-no-agro-avanca-apesar-da-safra-recorde/",
+      "published": "2026-10-01T14:41:57Z",
+      "updated": "2026-10-01T14:41:57Z",
+      "content": "O aumento dos pedidos de recuperação <b>judicial</b> no campo revela um cenário desafiador para o setor. Embora a produção agrícola brasileira siga em ...",
       "status": "enviado"
     },
-    "https://www.novacana.com/noticias/raizen-quer-trocar-conselho-mexer-no-capital-e-entregar-ate-r-35-bi-em-novos-papeis-a-acionistas": {
-      "id": "tag:google.com,2013:googlealerts/feed:9053214885421109026",
-      "title": "Raízen quer trocar conselho, mexer no capital e entregar até R$ 35 bi em novos papéis a acionistas",
-      "link": "https://www.novacana.com/noticias/raizen-quer-trocar-conselho-mexer-no-capital-e-entregar-ate-r-35-bi-em-novos-papeis-a-acionistas",
-      "published": "2026-09-30T17:38:54Z",
-      "updated": "2026-09-30T17:38:54Z",
-      "content": "A Raízen está prestes a passar por uma ampla reorganização. Em meio ao processo de <b>recuperação extrajudicial</b>, a companhia quer redesenhar sua ...",
+    "https://timesbrasil.com.br/brasil/recuperacao-judicial-da-casas-bahia-envolve-28-mil-credores-e-preve-possibilidade-de-cortes-de-ate-95/": {
+      "id": "tag:google.com,2013:googlealerts/feed:13220899510731730069",
+      "title": "Recuperação <b>judicial</b> da Casas Bahia envolve 28 mil credores e prevê possibilidade de ...",
+      "link": "https://timesbrasil.com.br/brasil/recuperacao-judicial-da-casas-bahia-envolve-28-mil-credores-e-preve-possibilidade-de-cortes-de-ate-95/",
+      "published": "2026-10-01T14:07:54Z",
+      "updated": "2026-10-01T14:07:54Z",
+      "content": "A recuperação <b>judicial</b> foi apresentada à Justiça de São Paulo como uma tentativa de reorganizar as obrigações financeiras da companhia. O tamanho dos ...",
+      "status": "enviado"
+    },
+    "https://www.rotajuridica.com.br/artigos/decretada-a-falencia-da-agrogalaxy-2027/": {
+      "id": "tag:google.com,2013:googlealerts/feed:545007820726410938",
+      "title": "Decretada a falência da AgroGalaxy 2027 - Rota Jurídica",
+      "link": "https://www.rotajuridica.com.br/artigos/decretada-a-falencia-da-agrogalaxy-2027/",
+      "published": "2026-10-01T13:36:06Z",
+      "updated": "2026-10-01T13:36:06Z",
+      "content": "E há títulos que obrigam o leitor a enfrentar uma pergunta incômoda: a AgroGalaxy está em recuperação <b>judicial</b> porque ainda existe uma empresa viável ...",
       "status": "nao_enviar"
     },
-    "https://www.capitalaberto.com.br/economia-e-financas/2026/09/moody-s-ve-credito-apertado-para-empresa-com-divida-ate-2028": {
-      "id": "tag:google.com,2013:googlealerts/feed:12454672812233850446",
-      "title": "Moody's vê crédito apertado para empresa com dívida até 2028 | Capital Aberto",
-      "link": "https://www.capitalaberto.com.br/economia-e-financas/2026/09/moody-s-ve-credito-apertado-para-empresa-com-divida-ate-2028",
-      "published": "2026-09-30T17:02:12Z",
-      "updated": "2026-09-30T17:02:12Z",
-      "content": "O relatório menciona casos que chegaram à reestruturação. A Raízen obteve em junho a adesão de 75% dos credores ao plano de <b>recuperação extrajudicial</b> ...",
+    "https://capitalaberto.com.br/empresas/2026/10/paranapanema-conclui-acordo-e-reduz-divida-em-92-3": {
+      "id": "tag:google.com,2013:googlealerts/feed:7688589364604999016",
+      "title": "Paranapanema conclui acordo e reduz dívida em 92,3% - Capital Aberto",
+      "link": "https://capitalaberto.com.br/empresas/2026/10/paranapanema-conclui-acordo-e-reduz-divida-em-92-3",
+      "published": "2026-10-01T13:11:48Z",
+      "updated": "2026-10-01T13:11:48Z",
+      "content": "A Paranapanema deixou de pagar parcelas semestrais do acordo a partir de dezembro de 2022, ingressou com pedido de recuperação <b>judicial</b> em ...",
+      "status": "enviado"
+    },
+    "https://businessmoment.com.br/qintess-recuperacao-judicial-divida-1-32-bilhao/": {
+      "id": "tag:google.com,2013:googlealerts/feed:15435678402263581395",
+      "title": "Qintess pede recuperação <b>judicial</b> com dívida de R$ 1,32 bi - Business Moment",
+      "link": "https://businessmoment.com.br/qintess-recuperacao-judicial-divida-1-32-bilhao/",
+      "published": "2026-10-01T12:53:51Z",
+      "updated": "2026-10-01T12:53:51Z",
+      "content": "Qintess entrou com pedido de recuperação <b>judicial</b> em São Paulo e declarou dívidas de R$ 1,32 bilhão, envolvendo mais de 2 mil credores.",
+      "status": "enviado"
+    },
+    "https://www.bloomberglinea.com.br/negocios/hapvida-contrata-xp-e-btg-e-avalia-levantar-r-15-bi-em-sale-leaseback-dizem-fontes/": {
+      "id": "tag:google.com,2013:googlealerts/feed:7879234377223226665",
+      "title": "Hapvida contrata XP e BTG e avalia levantar R$ 1,5 bi em sale-leaseback, dizem fontes",
+      "link": "https://www.bloomberglinea.com.br/negocios/hapvida-contrata-xp-e-btg-e-avalia-levantar-r-15-bi-em-sale-leaseback-dizem-fontes/",
+      "published": "2026-10-01T12:52:59Z",
+      "updated": "2026-10-01T12:52:59Z",
+      "content": "Há vida após a recuperação <b>judicial</b>? Levantamento mostra ...",
       "status": "nao_enviar"
     },
-    "https://bpmoney.com.br/mercado/raizen-propoe-reducao-de-capital-de-ate-r-35-bilhoes-e-novo-conselho/": {
-      "id": "tag:google.com,2013:googlealerts/feed:15150422695435430022",
-      "title": "Raízen propõe redução de capital de até R$ 35 bilhões e novo conselho - BPMoney",
-      "link": "https://bpmoney.com.br/mercado/raizen-propoe-reducao-de-capital-de-ate-r-35-bilhoes-e-novo-conselho/",
-      "published": "2026-09-30T16:18:09Z",
-      "updated": "2026-09-30T16:18:09Z",
-      "content": "Medidas fazem parte do plano de <b>recuperação extrajudicial</b> e incluem criação de novas ações, Units e mudanças na governança da companhia.",
+    "https://veronoticias.com/economia/justica-aprova-recuperacao-judicial-da-osx-de-eike-batista-e-preve-venda-de-ativos-por-r-12-bilhao/": {
+      "id": "tag:google.com,2013:googlealerts/feed:13893868052656981064",
+      "title": "Justiça aprova recuperação <b>judicial</b> da OSX, de Eike Batista, e prevê venda de ativos por R ...",
+      "link": "https://veronoticias.com/economia/justica-aprova-recuperacao-judicial-da-osx-de-eike-batista-e-preve-venda-de-ativos-por-r-12-bilhao/",
+      "published": "2026-10-01T12:18:42Z",
+      "updated": "2026-10-01T12:18:42Z",
+      "content": "A Justiça do Rio de Janeiro aprovou o plano de recuperação <b>judicial</b> da OSX, empresa de construção naval de Eike Batista. A decisão foi comunicada ...",
+      "status": "enviado"
+    },
+    "https://crcgo.org.br/crcgo-e-oab-go-promovem-debate-sobre-atuacao-contabil-nos-processos-de-recuperacao-judicial/": {
+      "id": "tag:google.com,2013:googlealerts/feed:18051125722398579163",
+      "title": "CRCGO e OAB-GO promovem debate sobre atuação contábil nos processos de recuperação <b>judicial</b>",
+      "link": "https://crcgo.org.br/crcgo-e-oab-go-promovem-debate-sobre-atuacao-contabil-nos-processos-de-recuperacao-judicial/",
+      "published": "2026-10-01T12:14:01Z",
+      "updated": "2026-10-01T12:14:01Z",
+      "content": "O Conselho Regional de Contabilidade de Goiás (CRCGO) e a Comissão Especial de Recuperação de Empresas e Falência da Ordem dos Advogados do Brasil ...",
+      "status": "enviado"
+    },
+    "https://investnews.com.br/negocios/osx-de-eike-batista-tem-plano-de-recuperacao-judicial-homologado-pela-justica/": {
+      "id": "tag:google.com,2013:googlealerts/feed:15466082785847677679",
+      "title": "OSX, de Eike Batista, tem plano de recuperação <b>judicial</b> homologado pela Justiça",
+      "link": "https://investnews.com.br/negocios/osx-de-eike-batista-tem-plano-de-recuperacao-judicial-homologado-pela-justica/",
+      "published": "2026-10-01T11:58:54Z",
+      "updated": "2026-10-01T11:58:54Z",
+      "content": "A decisão também concedeu a recuperação <b>judicial</b> à companhia e às demais empresas do grupo. Segundo fato relevante enviado à Comissão de Valores ...",
+      "status": "enviado"
+    },
+    "https://economicnewsbrasil.com.br/2026/10/01/plano-recuperacao-judicial-osx-prejuizo/": {
+      "id": "tag:google.com,2013:googlealerts/feed:12150469092019463554",
+      "title": "Plano de recuperação <b>judicial</b> da OSX avança após prejuízo de R$ 567 mi",
+      "link": "https://economicnewsbrasil.com.br/2026/10/01/plano-recuperacao-judicial-osx-prejuizo/",
+      "published": "2026-10-01T11:51:41Z",
+      "updated": "2026-10-01T11:51:41Z",
+      "content": "Fundada por Eike Batista, a OSX enfrenta seu segundo processo de recuperação <b>judicial</b>, iniciado em janeiro de 2024. (Foto: Reprodução). A Justiça do ...",
+      "status": "enviado"
+    },
+    "https://economia.uol.com.br/noticias/redacao/2026/10/01/paranapanema-corta-r-394-bi-da-divida-e-mantem-recuperacao-judicial.ghtm": {
+      "id": "tag:google.com,2013:googlealerts/feed:3646394707344667225",
+      "title": "Paranapanema corta R$ 3,94 bi da dívida e mantém recuperação <b>judicial</b> - UOL Economia",
+      "link": "https://economia.uol.com.br/noticias/redacao/2026/10/01/paranapanema-corta-r-394-bi-da-divida-e-mantem-recuperacao-judicial.ghtm",
+      "published": "2026-10-01T11:27:13Z",
+      "updated": "2026-10-01T11:27:13Z",
+      "content": "Paranapanema quita R$ 4,27 bilhões em dívida histórica, extingue 92,3% do total e mantém saldo para créditos judiciais. Entenda.",
+      "status": "enviado"
+    },
+    "https://valor.globo.com/empresas/noticia/2026/10/01/justia-do-rio-homologa-plano-de-recuperao-judicial-da-osx.ghtml": {
+      "id": "tag:google.com,2013:googlealerts/feed:11714298453858530352",
+      "title": "Justiça do Rio homologa plano de recuperação <b>judicial</b> da OSX - Valor Econômico - Globo",
+      "link": "https://valor.globo.com/empresas/noticia/2026/10/01/justia-do-rio-homologa-plano-de-recuperao-judicial-da-osx.ghtml",
+      "published": "2026-10-01T10:52:57Z",
+      "updated": "2026-10-01T10:52:57Z",
+      "content": "A OSX disse que a Justiça do Rio de Janeiro homologou o plano de recuperação <b>judicial</b>, aprovado por seus credores em assembleia no último dia 24 ...",
+      "status": "enviado"
+    },
+    "https://valor.globo.com/google/amp/empresas/noticia/2026/10/01/justia-do-rio-homologa-plano-de-recuperao-judicial-da-osx.ghtml": {
+      "id": "tag:google.com,2013:googlealerts/feed:6299814600285523676",
+      "title": "Justiça do Rio homologa plano de recuperação <b>judicial</b> da OSX - Valor Econômico - Globo",
+      "link": "https://valor.globo.com/google/amp/empresas/noticia/2026/10/01/justia-do-rio-homologa-plano-de-recuperao-judicial-da-osx.ghtml",
+      "published": "2026-10-01T10:47:58Z",
+      "updated": "2026-10-01T10:47:58Z",
+      "content": "Justiça do Rio homologa plano de recuperação <b>judicial</b> da OSX. Por. Felipe Laurence. , Valor — Sâo Paulo. 01/10/2026 07h44 ...",
+      "status": "enviado"
+    },
+    "https://www.poder360.com.br/poder-sportsmkt/falido-bordeaux-anuncia-venda-por-1-euro-para-grupo-dos-eua/": {
+      "id": "tag:google.com,2013:googlealerts/feed:8894091557081210526",
+      "title": "Falido, Bordeaux anuncia venda por 1 euro para grupo dos EUA - Poder360",
+      "link": "https://www.poder360.com.br/poder-sportsmkt/falido-bordeaux-anuncia-venda-por-1-euro-para-grupo-dos-eua/",
+      "published": "2026-10-01T10:23:25Z",
+      "updated": "2026-10-01T10:23:25Z",
+      "content": "No âmbito do procedimento legal de retomada, os compradores serão ouvidos ... <b>liquidação judicial</b>. O novo acordo ainda precisa passar pelas ...",
+      "status": "enviado"
+    },
+    "https://www.radiocaxias.com.br/235910-2/": {
+      "id": "tag:google.com,2013:googlealerts/feed:14173995207028710244",
+      "title": "Recuperações judiciais acendem alerta sobre endividamento de empresas em Caxias do ...",
+      "link": "https://www.radiocaxias.com.br/235910-2/",
+      "published": "2026-10-01T09:13:35Z",
+      "updated": "2026-10-01T09:13:35Z",
+      "content": "O aumento de pedidos de recuperação <b>judicial</b> envolvendo empresas de Caxias do Sul e da Serra Gaúcha chama a atenção para as dificuldades financeiras ...",
+      "status": "enviado"
+    },
+    "https://www.tribunadosertao.com.br/financas/2026/09/30/988190-empregadores-podem-renegociar-dividas-do-fgts-a-partir-de-15-de-outubro": {
+      "id": "tag:google.com,2013:googlealerts/feed:15877176283794012233",
+      "title": "Empregadores podem renegociar dívidas do FGTS a partir de 15 de outubro",
+      "link": "https://www.tribunadosertao.com.br/financas/2026/09/30/988190-empregadores-podem-renegociar-dividas-do-fgts-a-partir-de-15-de-outubro",
+      "published": "2026-10-01T08:39:01Z",
+      "updated": "2026-10-01T08:39:01Z",
+      "content": "Sujeitos passivos falidos, em recuperação judicial ou extrajudicial, em <b>liquidação judicial</b>, ou em intervenção ou liquidação extrajudicial também ...",
       "status": "nao_enviar"
     },
-    "https://iclnoticias.com.br/economia/divida-bruta-do-brasil-atinge-829/": {
-      "id": "tag:google.com,2013:googlealerts/feed:6102239205632366966",
-      "title": "Dívida bruta do Brasil atinge 82,9% do PIB em agosto, mostra BC - ICL Notícias",
-      "link": "https://iclnoticias.com.br/economia/divida-bruta-do-brasil-atinge-829/",
-      "published": "2026-09-30T15:38:37Z",
-      "updated": "2026-09-30T15:38:37Z",
-      "content": "Raízen entra com pedido de <b>recuperação extrajudicial</b> para renegociar dívida de R$ 65 bilhões. Reestruturação. Raízen entra com pedido de recuperação ...",
+    "https://guiadoinvestidor.com.br/mercado/oi-avanca-na-recuperacao-judicial-apos-aval-do-cade-para-venda-de-operacao-historica/": {
+      "id": "tag:google.com,2013:googlealerts/feed:1025423940644137462",
+      "title": "Oi avança na recuperação <b>judicial</b> após aval do Cade para venda de operação histórica",
+      "link": "https://guiadoinvestidor.com.br/mercado/oi-avanca-na-recuperacao-judicial-apos-aval-do-cade-para-venda-de-operacao-historica/",
+      "published": "2026-10-01T02:36:42Z",
+      "updated": "2026-10-01T02:36:42Z",
+      "content": "O negócio integra a estratégia de reestruturação e recuperação <b>judicial</b> da companhia. A Oi deu mais um passo em seu processo de reestruturação ao ...",
+      "status": "enviado"
+    },
+    "https://revistaempreende.com.br/luciano-huck-vorcaro-riscos-contratos-celebridades/": {
+      "id": "tag:google.com,2013:googlealerts/feed:7715222979340273663",
+      "title": "Banco Master e Will: cronologia das liquidações pelo BC - Revista Empreende",
+      "link": "https://revistaempreende.com.br/luciano-huck-vorcaro-riscos-contratos-celebridades/",
+      "published": "2026-10-01T14:25:34Z",
+      "updated": "2026-10-01T14:25:34Z",
+      "content": "Janeiro de 2026: liquidação da Will Financeira. A solução não se viabilizou. Em 21 de janeiro de 2026, o BC decretou também a <b>liquidação extrajudicial</b> ...",
+      "status": "enviado"
+    },
+    "https://acritica.net/economia/mega-sena-sorteia-premio-de-r-75-milhoes-nesta-quinta/": {
+      "id": "tag:google.com,2013:googlealerts/feed:17923895557215975799",
+      "title": "Mega-Sena sorteia prêmio de R$ 75 milhões nesta quinta - A Crítica de Campo Grande",
+      "link": "https://acritica.net/economia/mega-sena-sorteia-premio-de-r-75-milhoes-nesta-quinta/",
+      "published": "2026-10-01T12:32:40Z",
+      "updated": "2026-10-01T12:32:40Z",
+      "content": "O prêmio acumulou após nenhum apostador acertar as seis dezenas do último concurso, quando os números sorteados foram 04, 10, 20, 25, 27 e 48. As ...",
       "status": "nao_enviar"
     },
-    "https://www.terra.com.br/economia/braskem-corre-para-definir-situacao-com-credores-e-petrobras-antes-da-escolha-do-proximo-governo,e999ccfb8530e6b12811546b0bb8297cdils63xm.html": {
-      "id": "tag:google.com,2013:googlealerts/feed:4231829673476876002",
-      "title": "Braskem corre para definir situação com credores — e Petrobras — antes da escolha do ...",
-      "link": "https://www.terra.com.br/economia/braskem-corre-para-definir-situacao-com-credores-e-petrobras-antes-da-escolha-do-proximo-governo,e999ccfb8530e6b12811546b0bb8297cdils63xm.html",
-      "published": "2026-09-30T15:28:57Z",
-      "updated": "2026-09-30T15:28:57Z",
-      "content": "Apesar de a Braskem ter de protocolar na Justiça o plano de <b>recuperação extrajudicial</b> com a concordância de pelo menos metade dos credores até 24 ...",
+    "https://www.g5news.com.br/policia/zettel-revela-r-20-bilhoes-de-vorcaro-fora-do-brasil-nao-pode-mexer-inconsequent": {
+      "id": "tag:google.com,2013:googlealerts/feed:18312665926188387427",
+      "title": "Zettel revela R$ 20 bilhões de Vorcaro fora do Brasil: \"Não pode mexer, inconsequente\"",
+      "link": "https://www.g5news.com.br/policia/zettel-revela-r-20-bilhoes-de-vorcaro-fora-do-brasil-nao-pode-mexer-inconsequent",
+      "published": "2026-10-01T11:57:11Z",
+      "updated": "2026-10-01T11:57:11Z",
+      "content": "... liquidação. O Banco Central decretou a <b>liquidação extrajudicial</b> do Master em 18 de novembro de 2025, diante de uma grave crise de liquidez, do ...",
       "status": "nao_enviar"
     },
-    "https://www.moneytimes.com.br/raizen-raiz4-propoe-novo-conselho-novas-acoes-e-reducao-de-capital-de-ate-r-35-bi-medidas-passarao-por-age-lmrs/": {
-      "id": "tag:google.com,2013:googlealerts/feed:9145586681748050848",
-      "title": "Raízen (RAIZ4) propõe novo conselho, novas ações e redução de capital de até R$ 35 bi",
-      "link": "https://www.moneytimes.com.br/raizen-raiz4-propoe-novo-conselho-novas-acoes-e-reducao-de-capital-de-ate-r-35-bi-medidas-passarao-por-age-lmrs/",
-      "published": "2026-09-30T15:18:53Z",
-      "updated": "2026-09-30T15:18:53Z",
-      "content": "O conselho da Raízen (RAIZ4) aprovou um conjunto de medidas voltadas à implementação do plano de <b>recuperação extrajudicial</b>. Veja.",
-      "status": "nao_enviar"
-    },
-    "https://www.meutimao.com.br/forum-do-corinthians/2101969/ninguem-acreditava-que-o-parma-ou-napoli-iria-falir-ninguem": {
-      "id": "tag:google.com,2013:googlealerts/feed:2570063933908925920",
-      "title": "Ninguém acreditava que o Parma ou Napoli iria falir... Ninguém - Corinthians é no Meu Timão",
-      "link": "https://www.meutimao.com.br/forum-do-corinthians/2101969/ninguem-acreditava-que-o-parma-ou-napoli-iria-falir-ninguem",
-      "published": "2026-10-01T00:11:57Z",
-      "updated": "2026-10-01T00:11:57Z",
-      "content": "... <b>liquidação judicial</b>. A federação local costuma exigir a refundação das equipes, que são forçadas a recomeçar das divisões amadoras (como a Série D) ...",
-      "status": "nao_enviar"
-    },
-    "https://www.fatosdematogrosso.com.br/juridico/desembargadora-diz-ter-perdido-isencao-e-deixa-recursos-do-grupo-safras/16750": {
-      "id": "tag:google.com,2013:googlealerts/feed:14048976334501912199",
-      "title": "Desembargadora diz ter perdido isenção e deixa recursos do Grupo Safras",
-      "link": "https://www.fatosdematogrosso.com.br/juridico/desembargadora-diz-ter-perdido-isencao-e-deixa-recursos-do-grupo-safras/16750",
-      "published": "2026-09-30T20:24:39Z",
-      "updated": "2026-09-30T20:24:39Z",
-      "content": "Marilsen Addario afirma que \"fatores externos\" tiraram sua isenção para julgar a recuperação <b>judicial</b> de R$ 1,78 bilhão. instagran · facebook-2.png ...",
-      "status": "nao_enviar"
-    },
-    "https://www.metropoles.com/colunas/dinheiro-e-negocios/sem-encontrar-dinheiro-de-socios-da-fictor-justica-busca-por-criptomoedas": {
-      "id": "tag:google.com,2013:googlealerts/feed:13228548796057497395",
-      "title": "Sem encontrar dinheiro de sócios da Fictor, Justiça busca por criptomoedas - Metrópoles",
-      "link": "https://www.metropoles.com/colunas/dinheiro-e-negocios/sem-encontrar-dinheiro-de-socios-da-fictor-justica-busca-por-criptomoedas",
-      "published": "2026-09-30T20:03:24Z",
-      "updated": "2026-09-30T20:03:24Z",
-      "content": "Fictor entrou em recuperação <b>judicial</b> após tentativa frustrada de comprar o Banco Master por R$ 3 bilhões.",
-      "status": "nao_enviar"
-    },
-    "https://investnews.com.br/investimentos/fidcs-enfrentam-aumento-da-inadimplencia-centenas-de-fundos-ja-apresentam-taxa-de-atrasos-acima-de-10/": {
-      "id": "tag:google.com,2013:googlealerts/feed:642468157097779689",
-      "title": "Aumento de inadimplência nos FIDICs: centenas de fundos estão com a taxa de atrasos ...",
-      "link": "https://investnews.com.br/investimentos/fidcs-enfrentam-aumento-da-inadimplencia-centenas-de-fundos-ja-apresentam-taxa-de-atrasos-acima-de-10/",
-      "published": "2026-09-30T19:47:59Z",
-      "updated": "2026-09-30T19:47:59Z",
-      "content": "O trauma mais recente no mundo dos FIDCs ocorreu por conta da <b>liquidação</b> ... Outro caso recente está ligado à recuperação <b>judicial</b> da Casas Bahia, ...",
-      "status": "nao_enviar"
-    },
-    "https://www.migalhas.com.br/depeso/465138/tres-decadas-da-lei-de-arbitragem-e-os-desafios-da-anulacao-judicial": {
-      "id": "tag:google.com,2013:googlealerts/feed:13186193897919601497",
-      "title": "Três décadas da lei de arbitragem e os desafios da anulação <b>judicial</b> - Migalhas",
-      "link": "https://www.migalhas.com.br/depeso/465138/tres-decadas-da-lei-de-arbitragem-e-os-desafios-da-anulacao-judicial",
-      "published": "2026-09-30T19:38:32Z",
-      "updated": "2026-09-30T19:38:32Z",
-      "content": "Diego Carvalho, advogado especialista em direito processual civil, com pós-graduação em direito empresarial pela PUC/RS e Insolvência e Recuperação ...",
-      "status": "nao_enviar"
-    },
-    "https://www.baguete.com.br/noticias/qintess-deve-r-132-bilhao": {
-      "id": "tag:google.com,2013:googlealerts/feed:11964299338520344738",
-      "title": "Qintess deve R$ 1,32 bilhão - Baguete",
-      "link": "https://www.baguete.com.br/noticias/qintess-deve-r-132-bilhao",
-      "published": "2026-09-30T19:17:25Z",
-      "updated": "2026-09-30T19:17:25Z",
-      "content": "Pedido de recuperação <b>judicial</b> mostra quadro preocupante para a empresa. ... recuperação <b>judicial</b>, sendo negociados à parte com o governo. O pedido ...",
-      "status": "nao_enviar"
-    },
-    "https://www.migalhas.com.br/quentes/465617/juiz-garante-analise-de-credito-judicial-para-quitar-debito-tributario": {
-      "id": "tag:google.com,2013:googlealerts/feed:15857434002973068958",
-      "title": "Justiça garante a empresa análise de crédito <b>judicial</b> para quitar débito tributário - Migalhas",
-      "link": "https://www.migalhas.com.br/quentes/465617/juiz-garante-analise-de-credito-judicial-para-quitar-debito-tributario",
-      "published": "2026-09-30T18:39:59Z",
-      "updated": "2026-09-30T18:39:59Z",
-      "content": "... <b>judicial</b> na quitação de débito tributário parcelado. Para o juiz Federal Newton José Falcão, a falta de procedimento específico na Receita Federal ...",
-      "status": "nao_enviar"
-    },
-    "https://www.pontonacurva.com.br/justica-estadual/marilsen-se-declara-suspeita-e-deixa-processos-do-grupo-safras/35253": {
-      "id": "tag:google.com,2013:googlealerts/feed:3835290947366020915",
-      "title": "Marilsen se declara suspeita e deixa processos do Grupo Safras | Ponto na Curva",
-      "link": "https://www.pontonacurva.com.br/justica-estadual/marilsen-se-declara-suspeita-e-deixa-processos-do-grupo-safras/35253",
-      "published": "2026-09-30T18:29:34Z",
-      "updated": "2026-09-30T18:29:34Z",
-      "content": "A magistrada alegou que fatores externos afetaram sua isenção para continuar nos processos envolvendo a recuperação <b>judicial</b> e os devedores.",
-      "status": "nao_enviar"
-    },
-    "https://www.gcd.com.br/rio-do-sul/liquidacao-solidaria-busca-arrecadar-r-50-mil-para-tratamento-de-pietro/": {
-      "id": "tag:google.com,2013:googlealerts/feed:17413306087537404631",
-      "title": "<b>Liquidação</b> solidária busca arrecadar R$ 50 mil para tratamento de Pietro - Portal GCD",
-      "link": "https://www.gcd.com.br/rio-do-sul/liquidacao-solidaria-busca-arrecadar-r-50-mil-para-tratamento-de-pietro/",
-      "published": "2026-09-30T16:46:43Z",
-      "updated": "2026-09-30T16:46:43Z",
-      "content": "Kegelfest segue indefinida em Rio do Sul por disputa <b>judicial</b> sobre a marca. Campanha busca completar valor necessário. A família estima em cerca de ...",
-      "status": "nao_enviar"
-    },
-    "https://www.comprerural.com/decretada-a-falencia-da-agrogalaxy-2027/": {
-      "id": "tag:google.com,2013:googlealerts/feed:5328684655440006462",
-      "title": "Decretada a falência da AgroGalaxy em 2027? - CompreRural",
-      "link": "https://www.comprerural.com/decretada-a-falencia-da-agrogalaxy-2027/",
-      "published": "2026-09-30T16:34:58Z",
-      "updated": "2026-09-30T16:34:58Z",
-      "content": "A companhia continua identificada publicamente como estando em recuperação <b>judicial</b>. O plano foi aprovado pelos credores em abril de 2025 e homologado ...",
+    "https://medicinasa.com.br/saude-suplementar-confianca/": {
+      "id": "tag:google.com,2013:googlealerts/feed:13265245641237236853",
+      "title": "A saúde suplementar pode mudar de mãos. A confiança, não - Medicina S/A",
+      "link": "https://medicinasa.com.br/saude-suplementar-confianca/",
+      "published": "2026-10-01T08:06:14Z",
+      "updated": "2026-10-01T08:06:14Z",
+      "content": "A trajetória da Golden Cross é um exemplo emblemático: em 2025, a ANS decretou a <b>liquidação extrajudicial</b> da Vision Med Assistência Médica ...",
       "status": "nao_enviar"
     },
     "https://www.poder360.com.br/poder-justica/zettel-diz-em-audio-que-moraes-e-melhor-amigo-de-vorcaro/": {
@@ -531,6 +621,15 @@
       "content": "Entre os episódios recentes, a EntrePay sofreu <b>liquidação extrajudicial</b> ordenada pelo Banco Central em março. O Garson Card FIDC, que tinha a ...",
       "status": "nao_enviar"
     },
+    "https://abihrj.com.br/noticias/sao-pedro-da-aldeia-programa-aldeense-em-dia-divida-ativa-2026": {
+      "id": "tag:google.com,2013:googlealerts/feed:9479632302440792797",
+      "title": "São Pedro da Aldeia abre adesão ao Aldeense em Dia para negociar dívida ativa com descontos",
+      "link": "https://abihrj.com.br/noticias/sao-pedro-da-aldeia-programa-aldeense-em-dia-divida-ativa-2026",
+      "published": "2026-09-30T20:41:03Z",
+      "updated": "2026-09-30T20:41:03Z",
+      "content": "de empresas em recuperação judicial ou <b>extrajudicial</b>, em <b>liquidação</b> judicial, <b>liquidação</b> ou intervenção <b>extrajudicial</b> ou falência;; de pessoas ...",
+      "status": "nao_enviar"
+    },
     "https://www1.folha.uol.com.br/colunas/monicabergamo/2026/09/denuncia-ao-tce-pr-questiona-atos-de-ratinho-jr-ligados-ao-banco-master.shtml": {
       "id": "tag:google.com,2013:googlealerts/feed:12858414506716302375",
       "title": "PR: Denúncia liga atos de Ratinho Jr. ao Banco Master - 30/09/2026 - Mônica Bergamo",
@@ -567,49 +666,13 @@
       "content": "Horas antes da <b>liquidação extrajudicial</b> do banco, decretada em 18 de novembro, Vorcaro foi preso no Aeroporto Internacional de Guarulhos prestes a ...",
       "status": "nao_enviar"
     },
-    "https://jornalgrandebahia.com.br/2026/09/deputado-hugo-motta-e-daniel-vorcaro-trocaram-202-ligacoes-e-marcaram-19-encontros-mensagens-citam-fgc-eleicao-da-camara-viagens-e-negocio-de-r-22-milhoes/": {
-      "id": "tag:google.com,2013:googlealerts/feed:7042077033642666182",
-      "title": "Deputado Hugo Motta e Daniel Vorcaro trocaram 202 ligações e marcaram 19 encontros",
-      "link": "https://jornalgrandebahia.com.br/2026/09/deputado-hugo-motta-e-daniel-vorcaro-trocaram-202-ligacoes-e-marcaram-19-encontros-mensagens-citam-fgc-eleicao-da-camara-viagens-e-negocio-de-r-22-milhoes/",
-      "published": "2026-09-30T19:03:28Z",
-      "updated": "2026-09-30T19:03:28Z",
-      "content": "O Banco Central posteriormente rejeitou a operação envolvendo o BRB e, em 18/11/2025, decretou a <b>liquidação extrajudicial</b> do Banco Master, Banco ...",
-      "status": "nao_enviar"
-    },
-    "https://www.folhadoestado.com.br/brasil/pf-expoe-relacao-de-luciano-huck-com-daniel-vorcaro-e-negocios-de-quase-r-100-milhoes/643583": {
-      "id": "tag:google.com,2013:googlealerts/feed:18360371319018354412",
-      "title": "PF expõe relação de Luciano Huck com Daniel Vorcaro e negócios de quase R$ 100 milhões",
-      "link": "https://www.folhadoestado.com.br/brasil/pf-expoe-relacao-de-luciano-huck-com-daniel-vorcaro-e-negocios-de-quase-r-100-milhoes/643583",
-      "published": "2026-09-30T18:40:58Z",
-      "updated": "2026-09-30T18:40:58Z",
-      "content": "Em janeiro deste ano, o Banco Central determinou a <b>liquidação extrajudicial</b> do Will Bank. As mensagens também mostram que a relação entre Huck e ...",
-      "status": "nao_enviar"
-    },
-    "https://revistaforum.com.br/politica/caso-master-zettel-amante-vorcaro-20-bi-exterior/": {
-      "id": "tag:google.com,2013:googlealerts/feed:6593325963718838117",
-      "title": "Durante caso Master, Zettel disse à amante que Vorcaro “guardou R$ 20 bi no exterior ...",
-      "link": "https://revistaforum.com.br/politica/caso-master-zettel-amante-vorcaro-20-bi-exterior/",
-      "published": "2026-09-30T18:18:24Z",
-      "updated": "2026-09-30T18:18:24Z",
-      "content": "... <b>liquidação extrajudicial</b> da casa bancária. As apurações no exterior, contudo, já esbarraram em estruturas esvaziadas, como a holding Titan Capital ...",
-      "status": "nao_enviar"
-    },
-    "https://novonoticias.com.br/huck-e-vorcaro-mensagens-da-pf-expoem-jato-negocios-de-r-109-milhoes-e-troca-de-favores/": {
-      "id": "tag:google.com,2013:googlealerts/feed:4260764050202003834",
-      "title": "Huck e Vorcaro: mensagens da PF expõem jato, negócios de R$ 109 milhões e troca de favores",
-      "link": "https://novonoticias.com.br/huck-e-vorcaro-mensagens-da-pf-expoem-jato-negocios-de-r-109-milhoes-e-troca-de-favores/",
-      "published": "2026-09-30T18:09:10Z",
-      "updated": "2026-09-30T18:09:10Z",
-      "content": "A operação acabou não avançando e, no dia seguinte, o Banco Central decretou a <b>liquidação extrajudicial</b> do Banco Master. Às 21h47, depois de ver a ...",
-      "status": "nao_enviar"
-    },
-    "https://pipocamoderna.com.br/2026/09/luciano-huck-socio-daniel-vorcaro/": {
-      "id": "tag:google.com,2013:googlealerts/feed:14145582488207091022",
-      "title": "Luciano Huck foi sócio e conselheiro de Daniel Vorcaro, revela Veja - Pipoca Moderna",
-      "link": "https://pipocamoderna.com.br/2026/09/luciano-huck-socio-daniel-vorcaro/",
-      "published": "2026-09-30T14:44:58Z",
-      "updated": "2026-09-30T14:44:58Z",
-      "content": "No dia seguinte, o Banco Central decretou a <b>liquidação extrajudicial</b> do Banco Master e tornou indisponíveis bens de seus controladores e ex- ...",
+    "https://investnews.com.br/investimentos/fidcs-enfrentam-aumento-da-inadimplencia-centenas-de-fundos-ja-apresentam-taxa-de-atrasos-acima-de-10/": {
+      "id": "tag:google.com,2013:googlealerts/feed:5224627346213957545",
+      "title": "Aumento de inadimplência nos FIDICs: centenas de fundos estão com a taxa de atrasos ...",
+      "link": "https://investnews.com.br/investimentos/fidcs-enfrentam-aumento-da-inadimplencia-centenas-de-fundos-ja-apresentam-taxa-de-atrasos-acima-de-10/",
+      "published": "2026-09-30T19:47:59Z",
+      "updated": "2026-09-30T19:47:59Z",
+      "content": "O trauma mais recente no mundo dos FIDCs ocorreu por conta da <b>liquidação extrajudicial</b> da EntrePay, decretada pelo Banco Central em março deste ano.",
       "status": "nao_enviar"
     }
   }
