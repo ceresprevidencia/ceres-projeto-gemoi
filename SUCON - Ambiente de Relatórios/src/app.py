@@ -35,6 +35,7 @@ due_diligence_questionario = st.Page("pages/s3_due_diligence_questionario.py", t
 exportaveis = st.Page("pages/s5_exportaveis.py", title="Exportáveis",  url_path="exportaveis")
 recebimentos = st.Page("pages/s6_recebimentos.py", title="Recebimentos",  url_path="recebimentos")
 indice_asg = st.Page("pages/s7_indice_asg.py", title="Carteira Consolidada",  url_path="indice-asg")
+fluxo_caixa = st.Page("pages/s8_fluxo_caixa.py", title="Fluxo de Caixa",  url_path="fluxo-caixa")
 
 
 
@@ -49,7 +50,7 @@ current_page = st.navigation(
         "Rentabilidade": [rent],
         "Due Diligence": [due_diligence_hp, due_diligence_st, due_diligence_questionario],
         '':[exportaveis],
-        "Risco de Liquidez": [recebimentos],
+        "Risco de Liquidez": [recebimentos, fluxo_caixa],
         "ASG": [indice_asg],
        
         
