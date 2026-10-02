@@ -861,6 +861,12 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                       "tooltip": "Fluxo de recebimento dos planos.",
                       "disabled": False,
                   },
+                  {
+                      "label": "Fluxo de Caixa",
+                      "url": "/fluxo-caixa",
+                      "tooltip": "Recebimentos × necessidade líquida previdencial.",
+                      "disabled": False,
+                  },
                   
               ],
           },
