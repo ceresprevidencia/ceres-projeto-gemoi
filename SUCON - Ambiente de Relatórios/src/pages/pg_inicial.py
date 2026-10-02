@@ -903,6 +903,20 @@ with st.container(horizontal_alignment="center", gap=None, key="conteudo"):
                     },
                 ],
             },
+            {
+                "col": 2,
+                "title": "ASG",
+                "icon": "leaf",
+                "description": "Índice de Materialidade e Impacto ASG da carteira consolidada (Portaria Previc nº 728/2026).",
+                "badges": [
+                    {
+                        "label": "Carteira Consolidada",
+                        "url": "/indice-asg",
+                        "tooltip": "Dupla materialidade, simulador de eventos e relatório de divulgação.",
+                        "disabled": False,
+                    },
+                ],
+            },
           
       ]
 
