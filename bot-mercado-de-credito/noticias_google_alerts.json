@@ -1,5 +1,14 @@
 {
   "noticias": {
+    "https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2026/10/03/hoje-o-presidente-pagou-jogadores-do-santa-cruz-vibram-com-acesso-e-pagamento-de-atrasados.ghtml": {
+      "id": "tag:google.com,2013:googlealerts/feed:16125876213721375512",
+      "title": "Santa Cruz garante acesso à Série B e paga salários atrasados | Ge",
+      "link": "https://ge.globo.com/pe/futebol/times/santa-cruz/noticia/2026/10/03/hoje-o-presidente-pagou-jogadores-do-santa-cruz-vibram-com-acesso-e-pagamento-de-atrasados.ghtml",
+      "published": "2026-10-04T20:47:34Z",
+      "updated": "2026-10-04T20:47:34Z",
+      "content": "... <b>recuperação judicial</b>). + De sem calendário à Série B: Santa Cruz volta à divisão após nove temporadas + Santa Cruz iguala recorde de público da ...",
+      "status": "nao_enviar"
+    },
     "https://aciara.com.br/problemas-do-agronegocio-que-setor-pede-ao-proximo-presidente/": {
       "id": "tag:google.com,2013:googlealerts/feed:4939991306196051625",
       "title": "Problemas do agronegócio: o que o setor pede ao próximo presidente - Acia Araçatuba",
@@ -7,6 +16,15 @@
       "published": "2026-10-04T20:03:33Z",
       "updated": "2026-10-04T20:03:33Z",
       "content": "Segundo ele, os juros permanecem elevados devido ao endividamento dos produtores e ao aumento dos pedidos de <b>recuperação judicial</b>. Por este motivo ...",
+      "status": "nao_enviar"
+    },
+    "https://www.sistemampa.com.br/entretenimento/roberto-justus-afirma-ter-recomprado-divida-de-investidor-para-evitar-conversao-em-acoes-na-steelcorp/": {
+      "id": "tag:google.com,2013:googlealerts/feed:10258138032569978355",
+      "title": "Roberto Justus afirma ter recomprado dívida de investidor para evitar conversão em ações ...",
+      "link": "https://www.sistemampa.com.br/entretenimento/roberto-justus-afirma-ter-recomprado-divida-de-investidor-para-evitar-conversao-em-acoes-na-steelcorp/",
+      "published": "2026-10-04T20:00:26Z",
+      "updated": "2026-10-04T20:00:26Z",
+      "content": "... <b>recuperação judicial</b> do Banco Master, do qual Vorcaro é fundador. ... Ele afirmou ainda que a referência à <b>recuperação judicial</b> não indicava uma ...",
       "status": "nao_enviar"
     },
     "https://ajn1.com.br/roberto-justus-se-pronuncia-apos-mensagens-de-cobranca-enviadas-a-vorcaro/": {
@@ -61,6 +79,15 @@
       "published": "2026-10-04T15:01:56Z",
       "updated": "2026-10-04T15:01:56Z",
       "content": "Segundo ele, os juros permanecem elevados devido ao endividamento dos produtores e ao aumento dos pedidos de <b>recuperação judicial</b>. ... jurídica para os ...",
+      "status": "nao_enviar"
+    },
+    "https://www.estadao.com.br/amp/politica/blog-do-fausto-macedo/banco-master-e-o-risco-de-violacao-da-ordem-de-preferencia-dos-credores/": {
+      "id": "tag:google.com,2013:googlealerts/feed:15488079351012879807",
+      "title": "Banco Master e o risco de violação da ordem de preferência dos credores - Estadão",
+      "link": "https://www.estadao.com.br/amp/politica/blog-do-fausto-macedo/banco-master-e-o-risco-de-violacao-da-ordem-de-preferencia-dos-credores/",
+      "published": "2026-10-04T13:07:33Z",
+      "updated": "2026-10-04T13:07:33Z",
+      "content": "... <b>Recuperação Judicial</b> e Falências). Esses diplomas legais consagram um princípio fundamental para os casos de insolvência: o concurso de credores ...",
       "status": "nao_enviar"
     },
     "https://diariodopara.com.br/mauro-bonna/oplima-entra-em-recuperacao-judicial-e-area-cobicada-no-umarizal-vira-alvo/": {
@@ -153,33 +180,6 @@
       "content": "... <b>recuperação judicial</b>. “Custa me receber por 1 horinha pra resolvermos esse assunto?”, escreveu Justus, segundo as mensagens obtidas do celular do ...",
       "status": "nao_enviar"
     },
-    "https://ndmais.com.br/justica/roberto-justus-e-vorcaro-empresario-quebra-silencio-apos-troca-de-mensagens/": {
-      "id": "tag:google.com,2013:googlealerts/feed:10619789943813471557",
-      "title": "Roberto Justus e Vorcaro: empresário quebra silêncio após troca de mensagens - ND Mais",
-      "link": "https://ndmais.com.br/justica/roberto-justus-e-vorcaro-empresario-quebra-silencio-apos-troca-de-mensagens/",
-      "published": "2026-10-04T02:00:14Z",
-      "updated": "2026-10-04T02:00:14Z",
-      "content": "Em setembro de 2025, Justus chegou a mencionar a possibilidade de pedir <b>recuperação judicial</b> da SteelCorp caso o valor permanecesse registrado como ...",
-      "status": "nao_enviar"
-    },
-    "https://tmc.com.br/brasil/justus-vorcaro-mensagens-steelcorp-banco-master/": {
-      "id": "tag:google.com,2013:googlealerts/feed:15482396264611987891",
-      "title": "Justus quebra silêncio sobre mensagens com Vorcaro: “Jamais usaria dinheiro sujo” - TMC",
-      "link": "https://tmc.com.br/brasil/justus-vorcaro-mensagens-steelcorp-banco-master/",
-      "published": "2026-10-04T01:57:20Z",
-      "updated": "2026-10-04T01:57:20Z",
-      "content": "Em determinado momento, o empresário chegou a levantar o risco de um pedido de <b>recuperação judicial</b>, caso a dívida permanecesse no balanço da ...",
-      "status": "nao_enviar"
-    },
-    "https://carlosbatista.com.br/novo/guarani-galli-preve-votacao-da-saf-ainda-em-outubro-e-revela-custo-da-constituicao/": {
-      "id": "tag:google.com,2013:googlealerts/feed:9800713647497877624",
-      "title": "Guarani: Galli prevê votação da SAF ainda em outubro e revela custo da constituição",
-      "link": "https://carlosbatista.com.br/novo/guarani-galli-preve-votacao-da-saf-ainda-em-outubro-e-revela-custo-da-constituicao/",
-      "published": "2026-10-04T01:19:24Z",
-      "updated": "2026-10-04T01:19:24Z",
-      "content": "... Guarani: clube tem parcela de cerca de R$ 510 ... <b>Recuperação Judicial</b> em atraso · 2 de outubro de 2026. Pesquisar.",
-      "status": "nao_enviar"
-    },
     "https://www.estadao.com.br/politica/blog-do-fausto-macedo/banco-master-e-o-risco-de-violacao-da-ordem-de-preferencia-dos-credores/": {
       "id": "tag:google.com,2013:googlealerts/feed:16045081161061694741",
       "title": "Banco Master e o risco de violação da ordem de preferência dos credores - Estadão",
@@ -189,49 +189,13 @@
       "content": "... <b>Recuperação</b> Judicial e Falências). Esses diplomas legais consagram um ... Na liquidação <b>extrajudicial</b> de uma instituição financeira, essa ...",
       "status": "nao_enviar"
     },
-    "https://aciara.com.br/mercado-livre-derruba-farmacias-em-bi-com-venda-de-medicamentos/": {
-      "id": "tag:google.com,2013:googlealerts/feed:11229082508759992978",
-      "title": "Mercado Livre derruba farmácias em R$ 1,6 bi com venda de medicamentos - Acia Araçatuba",
-      "link": "https://aciara.com.br/mercado-livre-derruba-farmacias-em-bi-com-venda-de-medicamentos/",
-      "published": "2026-10-03T21:38:32Z",
-      "updated": "2026-10-03T21:38:32Z",
-      "content": "Raízen aprova medidas para <b>recuperação extrajudicial</b>. outubro 1, 2026. PrevNext. Leave a reply ...",
-      "status": "nao_enviar"
-    },
-    "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/10/03/justus-recompra-fatia-vorcaro-steelcorp-130-milhoes": {
-      "id": "tag:google.com,2013:googlealerts/feed:6442989256071214561",
-      "title": "Justus recompra fatia de Vorcaro na SteelCorp por R$ 130 milhões - TV Sim Brasil",
-      "link": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/10/03/justus-recompra-fatia-vorcaro-steelcorp-130-milhoes",
-      "published": "2026-10-03T21:43:04Z",
-      "updated": "2026-10-03T21:43:04Z",
-      "content": "Em 1º de setembro, ele cogitou pedir recuperação <b>judicial</b>. \"Os aportes ... <b>liquidação</b> do banco e da prisão do empresário. \"Eu não aceito ser ...",
-      "status": "nao_enviar"
-    },
-    "https://www.poder360.com.br/poder-justica/justus-diz-que-recomprou-divida-e-afastou-vorcaro-da-steelcorp/": {
-      "id": "tag:google.com,2013:googlealerts/feed:1394768456152347381",
-      "title": "Justus diz que recomprou dívida e afastou Vorcaro da SteelCorp - Poder360",
-      "link": "https://www.poder360.com.br/poder-justica/justus-diz-que-recomprou-divida-e-afastou-vorcaro-da-steelcorp/",
-      "published": "2026-10-03T20:50:37Z",
-      "updated": "2026-10-03T20:50:37Z",
-      "content": "As mensagens divulgadas mostraram que Justus cobrou o empresário durante meses e chegou a mencionar a possibilidade de pedir recuperação <b>judicial</b> caso ...",
-      "status": "nao_enviar"
-    },
-    "https://oantagonista.com.br/mundo/depois-de-operar-589-lojas-de-artigos-para-casa-rede-entra-em-falencia-e-liquida-as-371-unidades-restantes-porque-a-queda-do-consumo-e-uma-reestruturacao-anterior-fracassada-deixaram-parte-dos-ponto/": {
-      "id": "tag:google.com,2013:googlealerts/feed:17934611224647842844",
-      "title": "Depois de operar 589 lojas de artigos para casa, rede entra em falência e liquida as 371 ...",
-      "link": "https://oantagonista.com.br/mundo/depois-de-operar-589-lojas-de-artigos-para-casa-rede-entra-em-falencia-e-liquida-as-371-unidades-restantes-porque-a-queda-do-consumo-e-uma-reestruturacao-anterior-fracassada-deixaram-parte-dos-ponto/",
-      "published": "2026-10-03T18:49:28Z",
-      "updated": "2026-10-03T18:49:28Z",
-      "content": "O que sobrou da marca depois da <b>liquidação</b> total das lojas físicas. ... Logo após o pedido de recuperação <b>judicial</b>, a Linens 'n Things fechou ...",
-      "status": "enviado"
-    },
-    "https://www.estadao.com.br/amp/politica/blog-do-fausto-macedo/banco-master-e-o-risco-de-violacao-da-ordem-de-preferencia-dos-credores/": {
-      "id": "tag:google.com,2013:googlealerts/feed:6244136309279999155",
-      "title": "Banco Master e o risco de violação da ordem de preferência dos credores - Estadão",
-      "link": "https://www.estadao.com.br/amp/politica/blog-do-fausto-macedo/banco-master-e-o-risco-de-violacao-da-ordem-de-preferencia-dos-credores/",
-      "published": "2026-10-04T13:07:33Z",
-      "updated": "2026-10-04T13:07:33Z",
-      "content": "Na <b>liquidação extrajudicial</b> de uma instituição financeira, essa classificação deve ser observada com rigor pelo liquidante nomeado pelo Banco ...",
+    "https://oantagonista.com.br/mundo/o-ultimo-capitulo-de-uma-rede-com-40-anos-de-historia-chega-com-399-livrarias-em-liquidacao-e-cerca-de-10-700-trabalhadores-atingidos-pelo-fechamento/": {
+      "id": "tag:google.com,2013:googlealerts/feed:1497907969376800048",
+      "title": "O último capítulo de uma rede com 40 anos de história chega com 399 livrarias em ... - O Antagonista",
+      "link": "https://oantagonista.com.br/mundo/o-ultimo-capitulo-de-uma-rede-com-40-anos-de-historia-chega-com-399-livrarias-em-liquidacao-e-cerca-de-10-700-trabalhadores-atingidos-pelo-fechamento/",
+      "published": "2026-10-04T22:31:21Z",
+      "updated": "2026-10-04T22:31:21Z",
+      "content": "Por que a empresa não conseguiu encontrar um comprador? A situação financeira já era delicada quando a Borders entrou em recuperação <b>judicial</b>. A ...",
       "status": "nao_enviar"
     },
     "https://atlaspublico.com.br/boletins/senado-discute-pec-da-jornada-cvm-julga-cinco-processos-e-90654": {
@@ -250,15 +214,6 @@
       "published": "2026-10-04T06:53:21Z",
       "updated": "2026-10-04T06:53:21Z",
       "content": "O Banco Master Múltiplo também passou posteriormente para <b>liquidação extrajudicial</b>, conforme a relação atual de instituições submetidas a regimes de ...",
-      "status": "nao_enviar"
-    },
-    "https://www.plantaobrasil.net/noticia/157329/investigacao-mostra-que-haddad-barrou-tentativas-de-aproximacao-de-vorcaro-e": {
-      "id": "tag:google.com,2013:googlealerts/feed:4687283378501903839",
-      "title": "Investigação mostra que Haddad barrou tentativas de aproximação de Vorcaro e manteve ...",
-      "link": "https://www.plantaobrasil.net/noticia/157329/investigacao-mostra-que-haddad-barrou-tentativas-de-aproximacao-de-vorcaro-e",
-      "published": "2026-10-03T20:24:46Z",
-      "updated": "2026-10-03T20:24:46Z",
-      "content": "... <b>liquidação extrajudicial</b> da instituição decretada pelo Banco Central. As revelações integram os inquéritos da PF encaminhados ao Supremo Tribunal ...",
       "status": "nao_enviar"
     }
   }
